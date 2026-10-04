@@ -6,7 +6,7 @@ services:
     region: singapore
     envVars:
       - key: DATABASE_URL
-        value: postgresql://neondb_owner:npg_15OqQJpPjYmU@ep-withered-silence-a19tq2w0-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require
+        value: postgresql://neondb_owner:npg_ZhHSnk3d6QXW@ep-withered-silence-b7u1pctd-pooler.c-13.us-east-1.aws.neon.tech/neondb?sslmode=require
       - key: NODE_ENV
         value: production
       - key: PORT

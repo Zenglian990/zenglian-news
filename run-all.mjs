@@ -10,6 +10,22 @@ process.env.SESSION_SECRET = process.env.SESSION_SECRET || "zenglian_secret_sess
 process.env.IMG_PROXY_SIGN_SECRET = process.env.IMG_PROXY_SIGN_SECRET || "zenglian_img_proxy_sign_secret_2026";
 process.env.ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "ZenglianNews2026AdminPass";
 
+// Ensure correct Neon PostgreSQL connection string even if Render dashboard env var is missing or outdated
+const CORRECT_NEON_DB = "postgresql://neondb_owner:npg_ZhHSnk3d6QXW@ep-withered-silence-b7u1pctd-pooler.c-13.us-east-1.aws.neon.tech/neondb?sslmode=require";
+if (!process.env.DATABASE_URL || process.env.DATABASE_URL.includes("a19tq2w0") || process.env.DATABASE_URL.includes("127.0.0.1")) {
+  process.env.DATABASE_URL = CORRECT_NEON_DB;
+  console.log("🔗 Injected robust Neon PostgreSQL cloud database connection.");
+}
+
+// Ensure LLM credentials for background collector
+if (!process.env.LLM_API_KEY) {
+  process.env.LLM_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/";
+  process.env.LLM_API_KEY = "AIzaSyC6mr-lAUWnlZq6Oi4oGRHsq1EtBChFyio";
+  process.env.LLM_MODEL = "gemini-2.5-flash";
+  process.env.COLLECT_ENABLED = "true";
+  process.env.MODEL_CALLS_ENABLED = "true";
+}
+
 // Only load .env file if it actually exists (local mode); cloud environments provide env vars directly
 const envArgs = existsSync(path.join(root, ".env")) ? ["--env-file=.env"] : [];
 
