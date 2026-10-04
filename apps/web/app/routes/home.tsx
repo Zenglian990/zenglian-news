@@ -39,6 +39,9 @@ export default function Home() {
       {/* Phones: the bar (精选 | 全部, filter, search), the filter in use, today's hot topics, the feed. */}
       <FeedBar base="/" category={filters.category} channel={filters.channel} />
       <ActiveFilters base="/" category={filters.category} channel={filters.channel} tag={filters.tag} />
+      <div className="lg:hidden mt-2 mb-3 overflow-x-auto scrollbar-none px-1">
+        <CategoryTabs base="/" category={filters.category} channel={filters.channel} layoutId="home-cat-mob" className="w-max" />
+      </div>
       <div className="hidden lg:block">
         <h1 className="text-[24px] font-semibold leading-[1.3] text-ink">{title}</h1>
         <div className="mb-5 mt-4 flex items-center justify-between gap-4">

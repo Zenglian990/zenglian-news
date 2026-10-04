@@ -109,6 +109,9 @@ export default function AllPage() {
         <FeedBar base="/all" category={f.category} channel={f.channel} />
       )}
       <ActiveFilters base="/all" category={f.category} channel={f.channel} tag={f.tag} />
+      <div className="lg:hidden mt-2 mb-3 overflow-x-auto scrollbar-none px-1">
+        <CategoryTabs base="/all" category={f.category} channel={f.channel} layoutId="all-cat-mob" className="w-max" />
+      </div>
 
       {/* Desktop, as on 精选: the title, then one filter row with the search field aligned on the right. */}
       <div className="hidden lg:block">

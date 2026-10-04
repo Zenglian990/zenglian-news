@@ -1,0 +1,91 @@
+import { spawn, exec } from "node:child_process";
+import { writeFileSync } from "node:fs";
+import path from "node:path";
+
+const root = process.cwd();
+console.log("🚀 Starting AIHOT services...");
+
+// 1. Start API (port 3001)
+const apiProcess = spawn("node", ["--env-file=.env", "apps/api/src/main.ts"], {
+  cwd: root,
+  stdio: ["ignore", "pipe", "pipe"],
+  env: { ...process.env, API_PORT: "3001" },
+});
+
+apiProcess.stdout.on("data", (d) => {
+  const line = d.toString();
+  if (line.includes("Server listening")) {
+    console.log("✅ API Service is running on http://127.0.0.1:3001");
+  }
+});
+apiProcess.stderr.on("data", (d) => process.stderr.write(`[API] ${d}`));
+
+// 2. Start Worker (Background collector & processor)
+const workerProcess = spawn("node", ["--env-file=.env", "apps/worker/src/main.ts"], {
+  cwd: root,
+  stdio: ["ignore", "pipe", "pipe"],
+  env: { ...process.env },
+});
+
+workerProcess.stdout.on("data", (d) => console.log(`[Worker] ${d.toString().trim()}`));
+workerProcess.stderr.on("data", (d) => process.stderr.write(`[Worker] ${d}`));
+
+// 3. Start Web SSR (port 3000)
+const webProcess = spawn("node", ["--env-file=.env", "apps/web/server.ts"], {
+  cwd: root,
+  stdio: ["ignore", "pipe", "pipe"],
+  env: { ...process.env, WEB_PORT: "3000", API_BASE_URL: "http://127.0.0.1:3001" },
+});
+
+webProcess.stdout.on("data", (d) => {
+  const line = d.toString();
+  if (line.includes("web started")) {
+    console.log("✅ Web Frontend is running on http://127.0.0.1:3000");
+  }
+});
+webProcess.stderr.on("data", (d) => process.stderr.write(`[Web] ${d}`));
+
+// 4. Start LocalTunnel
+console.log("🌐 Starting Public Tunnel (zenglian-news)...");
+const tunnelProcess = spawn("npx.cmd", ["--yes", "localtunnel", "--port", "3000", "--subdomain", "zenglian-news"], {
+  stdio: ["ignore", "pipe", "pipe"],
+  shell: true,
+});
+
+const onTunnelData = (d) => {
+  const text = d.toString();
+  const match = text.match(/https:\/\/[a-zA-Z0-9-.]+\.loca\.lt/);
+  if (match) {
+    const publicUrl = match[0];
+    console.log("\n==================================================");
+    console.log(`🎉 稳定公网 HTTPS 访问地址已生成: ${publicUrl}`);
+    console.log(`📱 手机 APK / 浏览器均可直接访问: ${publicUrl}`);
+    console.log(`🔐 管理员后台地址: ${publicUrl}/admin`);
+    console.log("==================================================\n");
+    writeFileSync(path.join(root, "PUBLIC_URL.txt"), publicUrl, "utf8");
+
+    // Sync to GitHub Gist so mobile app automatically resolves the newest URL
+    const tmpJson = path.join(root, "endpoint_tmp.json");
+    writeFileSync(tmpJson, JSON.stringify({ url: publicUrl, updated_at: new Date().toISOString() }), "utf8");
+    exec(`gh gist edit 4d599871a4e2d283f0c99f79abb155b9 -f aihot_endpoint.json "${tmpJson}"`, (err) => {
+      if (!err) {
+        console.log("📡 云端网关 (GitHub Gist) 同步成功！手机 App 将无缝直连此地址。");
+      }
+    });
+  }
+};
+tunnelProcess.stdout.on("data", onTunnelData);
+tunnelProcess.stderr.on("data", onTunnelData);
+
+// Cleanup on exit
+function shutdown() {
+  console.log("Stopping all services...");
+  apiProcess.kill();
+  workerProcess.kill();
+  webProcess.kill();
+  tunnelProcess.kill();
+  process.exit(0);
+}
+
+process.on("SIGINT", shutdown);
+process.on("SIGTERM", shutdown);
