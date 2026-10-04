@@ -1,12 +1,15 @@
 import { spawn, exec } from "node:child_process";
-import { writeFileSync } from "node:fs";
+import { writeFileSync, existsSync } from "node:fs";
 import path from "node:path";
 
 const root = process.cwd();
 console.log("🚀 Starting AIHOT services...");
 
+// Only load .env file if it actually exists (local mode); cloud environments provide env vars directly
+const envArgs = existsSync(path.join(root, ".env")) ? ["--env-file=.env"] : [];
+
 // 1. Start API (port 3001)
-const apiProcess = spawn("node", ["--env-file=.env", "apps/api/src/main.ts"], {
+const apiProcess = spawn("node", [...envArgs, "apps/api/src/main.ts"], {
   cwd: root,
   stdio: ["ignore", "pipe", "pipe"],
   env: { ...process.env, API_PORT: "3001" },
@@ -21,7 +24,7 @@ apiProcess.stdout.on("data", (d) => {
 apiProcess.stderr.on("data", (d) => process.stderr.write(`[API] ${d}`));
 
 // 2. Start Worker (Background collector & processor)
-const workerProcess = spawn("node", ["--env-file=.env", "apps/worker/src/main.ts"], {
+const workerProcess = spawn("node", [...envArgs, "apps/worker/src/main.ts"], {
   cwd: root,
   stdio: ["ignore", "pipe", "pipe"],
   env: { ...process.env },
@@ -30,11 +33,11 @@ const workerProcess = spawn("node", ["--env-file=.env", "apps/worker/src/main.ts
 workerProcess.stdout.on("data", (d) => console.log(`[Worker] ${d.toString().trim()}`));
 workerProcess.stderr.on("data", (d) => process.stderr.write(`[Worker] ${d}`));
 
-// 3. Start Web SSR (port 3000)
-const webProcess = spawn("node", ["--env-file=.env", "apps/web/server.ts"], {
+// 3. Start Web SSR (port 3000 or cloud PORT)
+const webProcess = spawn("node", [...envArgs, "apps/web/server.ts"], {
   cwd: root,
   stdio: ["ignore", "pipe", "pipe"],
-  env: { ...process.env, WEB_PORT: "3000", API_BASE_URL: "http://127.0.0.1:3001" },
+  env: { ...process.env, WEB_PORT: process.env.PORT || "3000", API_BASE_URL: "http://127.0.0.1:3001" },
 });
 
 webProcess.stdout.on("data", (d) => {
