@@ -45,37 +45,66 @@ webProcess.stdout.on("data", (d) => {
 });
 webProcess.stderr.on("data", (d) => process.stderr.write(`[Web] ${d}`));
 
-// 4. Start LocalTunnel
-console.log("🌐 Starting Public Tunnel (zenglian-news)...");
-const tunnelProcess = spawn("npx.cmd", ["--yes", "localtunnel", "--port", "3000", "--subdomain", "zenglian-news"], {
-  stdio: ["ignore", "pipe", "pipe"],
-  shell: true,
-});
+// 4. Start Tunnel (Local only; in cloud, the platform handles HTTPS ingress)
+const isCloud = !!(process.env.RENDER || process.env.KOYEB || process.env.IS_CLOUD || (process.platform === "linux" && !process.env.FORCE_TUNNEL));
+let tunnelProcess = null;
 
-const onTunnelData = (d) => {
-  const text = d.toString();
-  const match = text.match(/https:\/\/[a-zA-Z0-9-.]+\.loca\.lt/);
-  if (match) {
-    const publicUrl = match[0];
-    console.log("\n==================================================");
-    console.log(`🎉 稳定公网 HTTPS 访问地址已生成: ${publicUrl}`);
-    console.log(`📱 手机 APK / 浏览器均可直接访问: ${publicUrl}`);
-    console.log(`🔐 管理员后台地址: ${publicUrl}/admin`);
-    console.log("==================================================\n");
-    writeFileSync(path.join(root, "PUBLIC_URL.txt"), publicUrl, "utf8");
+if (!isCloud) {
+  console.log("🌐 Starting Local Public Tunnel (zenglian-news)...");
+  const tunnelCmd = process.platform === "win32" ? "npx.cmd" : "npx";
+  tunnelProcess = spawn(tunnelCmd, ["--yes", "localtunnel", "--port", process.env.PORT || "3000", "--subdomain", "zenglian-news"], {
+    stdio: ["ignore", "pipe", "pipe"],
+    shell: true,
+  });
 
-    // Sync to GitHub Gist so mobile app automatically resolves the newest URL
-    const tmpJson = path.join(root, "endpoint_tmp.json");
-    writeFileSync(tmpJson, JSON.stringify({ url: publicUrl, updated_at: new Date().toISOString() }), "utf8");
-    exec(`gh gist edit 4d599871a4e2d283f0c99f79abb155b9 -f aihot_endpoint.json "${tmpJson}"`, (err) => {
-      if (!err) {
-        console.log("📡 云端网关 (GitHub Gist) 同步成功！手机 App 将无缝直连此地址。");
-      }
-    });
+  const onTunnelData = (d) => {
+    const text = d.toString();
+    const match = text.match(/https:\/\/[a-zA-Z0-9-.]+\.loca\.lt/);
+    if (match) {
+      const publicUrl = match[0];
+      console.log("\n==================================================");
+      console.log(`🎉 稳定公网 HTTPS 访问地址已生成: ${publicUrl}`);
+      console.log(`📱 手机 APK / 浏览器均可直接访问: ${publicUrl}`);
+      console.log(`🔐 管理员后台地址: ${publicUrl}/admin`);
+      console.log("==================================================\n");
+      writeFileSync(path.join(root, "PUBLIC_URL.txt"), publicUrl, "utf8");
+
+      // Sync to GitHub Gist so mobile app automatically resolves the newest URL
+      const tmpJson = path.join(root, "endpoint_tmp.json");
+      writeFileSync(tmpJson, JSON.stringify({ url: publicUrl, updated_at: new Date().toISOString() }), "utf8");
+      exec(`gh gist edit 4d599871a4e2d283f0c99f79abb155b9 -f aihot_endpoint.json "${tmpJson}"`, (err) => {
+        if (!err) {
+          console.log("📡 云端网关 (GitHub Gist) 同步成功！手机 App 将无缝直连此地址。");
+        }
+      });
+    }
+  };
+  tunnelProcess.stdout.on("data", onTunnelData);
+  tunnelProcess.stderr.on("data", onTunnelData);
+} else {
+  const publicUrl = process.env.RENDER_EXTERNAL_URL || process.env.PUBLIC_URL || (process.env.KOYEB_PUBLIC_DOMAIN ? `https://${process.env.KOYEB_PUBLIC_DOMAIN}` : "");
+  if (publicUrl) {
+    console.log(`☁️ 云端运行就绪，公网入口: ${publicUrl}`);
+    // Sync to GitHub Gist
+    try {
+      fetch("https://api.github.com/gists/4d599871a4e2d283f0c99f79abb155b9", {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+          "User-Agent": "AIHOT-Cloud",
+          ...(process.env.GITHUB_TOKEN ? { Authorization: `Bearer ${process.env.GITHUB_TOKEN}` } : {}),
+        },
+        body: JSON.stringify({
+          files: {
+            "aihot_endpoint.json": {
+              content: JSON.stringify({ url: publicUrl, updated_at: new Date().toISOString() }),
+            },
+          },
+        }),
+      }).catch(() => {});
+    } catch {}
   }
-};
-tunnelProcess.stdout.on("data", onTunnelData);
-tunnelProcess.stderr.on("data", onTunnelData);
+}
 
 // Cleanup on exit
 function shutdown() {
@@ -83,7 +112,7 @@ function shutdown() {
   apiProcess.kill();
   workerProcess.kill();
   webProcess.kill();
-  tunnelProcess.kill();
+  if (tunnelProcess) tunnelProcess.kill();
   process.exit(0);
 }
 

@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: zenglian-news
+    runtime: docker
+    plan: free
+    region: singapore
+    envVars:
+      - key: DATABASE_URL
+        value: postgresql://neondb_owner:npg_15OqQJpPjYmU@ep-withered-silence-a19tq2w0-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "3000"
+      - key: API_BASE_URL
+        value: http://127.0.0.1:3001
+      - key: IS_CLOUD
+        value: "true"
