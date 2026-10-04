@@ -111,8 +111,11 @@ function pageCache(req: import("node:http").IncomingMessage, res: import("node:h
         : Math.max(0, Math.min(sharedSeconds, Number(expires.slice(1)) - nowSeconds));
       res.setHeader("Date", now.toUTCString());
       res.setHeader("X-Accel-Expires", seconds > 0 ? expires : "0");
-      // Ensure news readers always see real-time updates without being trapped by browser disk cache
-      res.setHeader("Cache-Control", "no-cache, must-revalidate");
+      // Reuse intent-prefetched data in the browser within the same shared-cache deadline (capped).
+      // Never serve it beyond that deadline, including while revalidating or on an error.
+      res.setHeader("Cache-Control", seconds > 0
+        ? `public, max-age=${Math.min(seconds, BROWSER_MAX_SECONDS)}, s-maxage=${seconds}, must-revalidate`
+        : "no-cache");
     }
     return typeof messageOrHeaders === "string" ? writeHead(status, messageOrHeaders) : writeHead(status);
   }) as typeof res.writeHead;
