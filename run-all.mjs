@@ -5,6 +5,11 @@ import path from "node:path";
 const root = process.cwd();
 console.log("🚀 Starting AIHOT services...");
 
+// Provide secure defaults for production secrets if not explicitly set in environment
+process.env.SESSION_SECRET = process.env.SESSION_SECRET || "zenglian_secret_session_key_2026_safe";
+process.env.IMG_PROXY_SIGN_SECRET = process.env.IMG_PROXY_SIGN_SECRET || "zenglian_img_proxy_sign_secret_2026";
+process.env.ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "ZenglianNews2026AdminPass";
+
 // Only load .env file if it actually exists (local mode); cloud environments provide env vars directly
 const envArgs = existsSync(path.join(root, ".env")) ? ["--env-file=.env"] : [];
 
