@@ -365,6 +365,237 @@
       ],
       "site_fulltext": false,
       "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-qbitai",
+      "name": "量子位",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.qbitai.com/feed",
+        "_aihot": {
+          "initialBackfillLimit": 15
+        }
+      },
+      "tags": [
+        "国内",
+        "AI",
+        "前沿"
+      ],
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 30,
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-geekpark",
+      "name": "极客公园",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.geekpark.net/rss",
+        "_aihot": {
+          "initialBackfillLimit": 15
+        }
+      },
+      "tags": [
+        "商业",
+        "创投",
+        "创新"
+      ],
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 30,
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-huxiu",
+      "name": "虎嗅网",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://rss.huxiu.com/",
+        "_aihot": {
+          "initialBackfillLimit": 15
+        }
+      },
+      "tags": [
+        "商业",
+        "深度",
+        "科技"
+      ],
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 30,
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-ifanr",
+      "name": "爱范儿",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.ifanr.com/feed",
+        "_aihot": {
+          "initialBackfillLimit": 15
+        }
+      },
+      "tags": [
+        "产品",
+        "硬件",
+        "消费科技"
+      ],
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 30,
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-tmtpost",
+      "name": "钛媒体",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.tmtpost.com/rss.xml",
+        "_aihot": {
+          "initialBackfillLimit": 15
+        }
+      },
+      "tags": [
+        "创投",
+        "资本",
+        "科技"
+      ],
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 30,
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-jiemian",
+      "name": "界面新闻·科技",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://a.jiemian.com/index.php?m=article&a=rss",
+        "_aihot": {
+          "initialBackfillLimit": 15
+        }
+      },
+      "tags": [
+        "财经",
+        "商业",
+        "巨头"
+      ],
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 30,
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-producthunt",
+      "name": "Product Hunt·AI落地",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.producthunt.com/feed",
+        "_aihot": {
+          "initialBackfillLimit": 15
+        }
+      },
+      "tags": [
+        "搞钱",
+        "神器",
+        "产品"
+      ],
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 30,
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-sspai",
+      "name": "少数派",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://sspai.com/feed",
+        "_aihot": {
+          "initialBackfillLimit": 15
+        }
+      },
+      "tags": [
+        "教程",
+        "效率",
+        "工具"
+      ],
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 30,
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-ithome",
+      "name": "IT之家·一手快讯",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.ithome.com/rss/",
+        "_aihot": {
+          "initialBackfillLimit": 15
+        }
+      },
+      "tags": [
+        "一手",
+        "快讯",
+        "大厂"
+      ],
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 30,
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-oschina",
+      "name": "开源中国",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.oschina.net/news/rss",
+        "_aihot": {
+          "initialBackfillLimit": 15
+        }
+      },
+      "tags": [
+        "开源",
+        "工具",
+        "生态"
+      ],
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 30,
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-v2ex",
+      "name": "V2EX·搞钱创造",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.v2ex.com/index.xml",
+        "_aihot": {
+          "initialBackfillLimit": 15
+        }
+      },
+      "tags": [
+        "副业",
+        "创造",
+        "灵感"
+      ],
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 30,
+      "site_fulltext": false,
+      "syndicate_fulltext": false
     }
   ]
 }
