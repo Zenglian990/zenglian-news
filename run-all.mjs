@@ -69,7 +69,30 @@ webProcess.stdout.on("data", (d) => {
 });
 webProcess.stderr.on("data", (d) => process.stderr.write(`[Web] ${d}`));
 
-// 4. Start Tunnel (Local only; in cloud, the platform handles HTTPS ingress)
+// 4. Start Autonomous Cloud Curator (Zero-Dependency 7x24 Auto-Update Daemon)
+// Every 15 minutes, automatically fetch all premium RSS feeds and publish fresh news to timeline
+function runAutoCurator() {
+  console.log("⏰ [AutoCurator] Starting autonomous news fetch and curation cycle...");
+  const curatorProcess = spawn("node", ["scripts/inject_premium_sources.mjs"], {
+    cwd: root,
+    stdio: ["ignore", "pipe", "pipe"],
+    env: { ...process.env },
+  });
+  curatorProcess.stdout.on("data", (d) => {
+    const text = d.toString().trim();
+    if (text) console.log(`[AutoCurator] ${text}`);
+  });
+  curatorProcess.stderr.on("data", (d) => process.stderr.write(`[AutoCurator ERR] ${d}`));
+  curatorProcess.on("exit", (code) => {
+    console.log(`[AutoCurator] Finished cycle with exit code ${code}`);
+  });
+}
+
+// Run 10 seconds after boot, then continuously every 15 minutes
+setTimeout(runAutoCurator, 10000);
+setInterval(runAutoCurator, 15 * 60 * 1000);
+
+// 5. Start Tunnel (Local only; in cloud, the platform handles HTTPS ingress)
 const isCloud = !!(process.env.RENDER || process.env.KOYEB || process.env.IS_CLOUD || (process.platform === "linux" && !process.env.FORCE_TUNNEL));
 let tunnelProcess = null;
 
