@@ -15,3 +15,5 @@ services:
         value: http://127.0.0.1:3001
       - key: IS_CLOUD
         value: "true"
+      - key: DEEPSEEK_API_KEY
+        value: sk-59d32686632a41eb8cff94f1b144921b

@@ -138,7 +138,59 @@ function generateId(prefix = "a") {
   return prefix + crypto.randomBytes(12).toString("hex").slice(0, 24);
 }
 
-// Robust multi-engine translator with POST and Chinese validation
+const DEEPSEEK_KEY = process.env.DEEPSEEK_API_KEY || "sk-59d32686632a41eb8cff94f1b144921b";
+
+// DeepSeek AI Journalism Translation Engine
+async function translateArticleWithDeepSeek(origTitle, origSummary, paragraphs) {
+  if (!paragraphs.length && !origTitle) return null;
+  const url = "https://api.deepseek.com/v1/chat/completions";
+  const systemPrompt = `你是一位顶级科技与财经媒体的主编。你的任务是将英文或其他外语新闻编译为高质量、通顺地道、适合中国高端读者的简体中文新闻。
+请返回纯 JSON 格式：
+{
+  "title": "精炼有力的中文主标题（不要包含【】标签）",
+  "summary": "150字以内的核心要点速览与背景摘要",
+  "paragraphs": ["段落1翻译", "段落2翻译", ...]
+}`;
+
+  const userContent = JSON.stringify({
+    title: origTitle,
+    summary: origSummary,
+    paragraphs: paragraphs
+  });
+
+  try {
+    const res = await fetch(url, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${DEEPSEEK_KEY}`
+      },
+      body: JSON.stringify({
+        model: "deepseek-chat",
+        messages: [
+          { role: "system", content: systemPrompt },
+          { role: "user", content: userContent }
+        ],
+        response_format: { type: "json_object" }
+      }),
+      signal: AbortSignal.timeout(25000)
+    });
+
+    if (res.ok) {
+      const data = await res.json();
+      const content = data.choices?.[0]?.message?.content;
+      const parsed = JSON.parse(content);
+      if (parsed.title && /[一-鿿]/.test(parsed.title)) {
+        return parsed;
+      }
+    }
+  } catch (err) {
+    console.warn("  ⚠️ DeepSeek translation error:", err.message);
+  }
+  return null;
+}
+
+// Fallback multi-engine translator with POST and Chinese validation
 async function translateToChinese(text) {
   if (!text || !text.trim()) return "";
   const clean = text.replace(/\s+/g, " ").trim();
@@ -202,6 +254,7 @@ async function translateBatch(paragraphs) {
 }
 
 const BOILERPLATE_REGEX = /cookie|subscribe|newsletter|sign up|terms of service|privacy policy|get started|ad-free|exclusive features|play games|earn badges|for the curious/i;
+
 
 async function fetchArticleText(url) {
   try {
@@ -309,8 +362,6 @@ async function main() {
         // Auto-translate if global or English source
         if (isGlobalOrEnglish) {
           originalTitle = rawTitle.replace(/^【[^】]+】/, "").trim();
-          const trTitle = await translateToChinese(originalTitle);
-          displayTitle = /[一-鿿]/.test(trTitle) ? `【全球一手】${trTitle}` : `【全球一手】${originalTitle}`;
 
           let cleanDesc = desc.replace(/<[^>]+>/g, " ").replace(/Article URL:.*$/s, "").replace(/Comments URL:.*$/s, "").trim();
           let paragraphs = [];
@@ -328,12 +379,30 @@ async function main() {
           enHtml = paragraphs.map(p => `<p>${p}</p>`).join("\n");
           enText = paragraphs.join("\n\n");
 
-          const trBlocks = await translateBatch(paragraphs);
-          zhHtml = trBlocks.map(p => `<p>${p}</p>`).join("\n");
-          zhText = trBlocks.join("\n\n");
+          // 1. Try DeepSeek AI Translation first
+          const aiResult = await translateArticleWithDeepSeek(originalTitle, desc, paragraphs);
+          if (aiResult) {
+            displayTitle = `【全球一手】${aiResult.title}`;
+            zhHtml = aiResult.paragraphs.map(p => `<p>${p}</p>`).join("\n");
+            zhText = aiResult.paragraphs.join("\n\n");
+            summary = `${aiResult.summary}（来源：${src.name}，实时追踪报道）`;
+          } else {
+            // 2. Fallback translation with validation
+            const trTitle = await translateToChinese(originalTitle);
+            displayTitle = /[一-鿿]/.test(trTitle) ? `【全球一手】${trTitle}` : `【全球一手】${originalTitle}`;
 
-          const trSummary = await translateToChinese(paragraphs.slice(0, 2).join(" ").slice(0, 300));
-          summary = `${trSummary.slice(0, 220)}...（来源：${src.name}，实时追踪报道）`;
+            const trBlocks = await translateBatch(paragraphs);
+            const validZhBlocks = trBlocks.filter(p => /[一-鿿]/.test(p));
+            if (validZhBlocks.length > 0) {
+              zhHtml = trBlocks.map(p => `<p>${p}</p>`).join("\n");
+              zhText = trBlocks.join("\n\n");
+            }
+
+            const trSummary = await translateToChinese(paragraphs.slice(0, 2).join(" ").slice(0, 300));
+            if (/[一-鿿]/.test(trSummary)) {
+              summary = `${trSummary.slice(0, 220)}...（来源：${src.name}，实时追踪报道）`;
+            }
+          }
         }
 
         // Insert into articles
@@ -363,8 +432,8 @@ async function main() {
 
           const targetArticleId = insertedArt ? insertedArt.id : artId;
 
-          // If translated body exists, save into translations
-          if (zhHtml) {
+          // If translated body exists and contains valid Chinese, save into translations
+          if (zhHtml && /[一-鿿]/.test(zhHtml)) {
             await sql`
               INSERT INTO translations (article_id, lang, revision, title, body_html, body_text, complete, origin, created_at)
               VALUES (${targetArticleId}, 'zh', 1, ${displayTitle}, ${zhHtml}, ${zhText}, true, 'model', now())

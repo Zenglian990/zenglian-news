@@ -9,6 +9,7 @@ console.log("🚀 Starting AIHOT services...");
 process.env.SESSION_SECRET = process.env.SESSION_SECRET || "zenglian_secret_session_key_2026_safe";
 process.env.IMG_PROXY_SIGN_SECRET = process.env.IMG_PROXY_SIGN_SECRET || "zenglian_img_proxy_sign_secret_2026";
 process.env.ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "ZenglianNews2026AdminPass";
+process.env.DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY || "sk-59d32686632a41eb8cff94f1b144921b";
 
 // Ensure correct Neon PostgreSQL connection string even if Render dashboard env var is missing or outdated
 const CORRECT_NEON_DB = "postgresql://neondb_owner:npg_ZhHSnk3d6QXW@ep-withered-silence-b7u1pctd-pooler.c-13.us-east-1.aws.neon.tech/neondb?sslmode=require";
