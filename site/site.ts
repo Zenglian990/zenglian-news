@@ -56,8 +56,10 @@ export const SITE = {
     /** 创始人（选填）。 */
     founder: {
       name: "曾先生",
+      alternateName: null as string | null,
       jobTitle: "商业战略与AI科技投资人",
       description: "专注全球一手科技前沿情报与商业变现",
+      url: null as string | null,
     },
   },
   /** 抓取信源时报上的名字和版本（User-Agent 里用），不要冒用别的站。 */
@@ -134,6 +136,8 @@ export const ABOUT = {
       "在信息过载但噪音遍地的时代，真正的商业超额收益只存在于源头第一手信息中。",
       "本系统全天候盯住全球 T0/T1 权威信源、持牌财经媒体、AI 顶级智库与海外独立开发者首发阵地，去伪存真，穿透做号党与公关软文，为您提供求真、极速且具备搞钱与商业转化价值的超级情报中枢。",
     ],
+    wechat: null as ContactCard | null,
+    feishu: null as ContactCard | null,
   },
   /** 页面底部的版权与下架说明，中间接“反馈页”的链接。 */
   copyright: [`${SITE.name} 是聚合摘要和一手情报索引，原文版权归各权威信源所有。如果你是来源方，希望更正、下架或调整展示方式，可以通过`, "联系我们。"] as [string, string],

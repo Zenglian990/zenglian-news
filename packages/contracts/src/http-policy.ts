@@ -109,7 +109,8 @@ export const OAUTH_PROBE_PATHS = [
 
 /** Root addresses of the about page's contact codes that were linked from outside (ABOUT.maker), served by routes/static.ts. */
 export const CONTACT_ALIASES = (["wechat", "feishu"] as const).flatMap((slot) => {
-  const file = ABOUT.maker?.[slot]?.alias;
+  const maker = ABOUT.maker as unknown as Record<string, { alias?: string } | null | undefined> | null;
+  const file = maker?.[slot]?.alias;
   return file ? [{ slot, file }] : [];
 });
 
