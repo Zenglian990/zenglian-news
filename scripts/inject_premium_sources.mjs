@@ -138,33 +138,65 @@ function generateId(prefix = "a") {
   return prefix + crypto.randomBytes(12).toString("hex").slice(0, 24);
 }
 
-// Fast free translation helper
-async function translateText(text) {
+// Robust multi-engine translator with POST and Chinese validation
+async function translateToChinese(text) {
   if (!text || !text.trim()) return "";
   const clean = text.replace(/\s+/g, " ").trim();
-  const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=zh-CN&dt=t&q=${encodeURIComponent(clean)}`;
+  if (/[一-鿿]/.test(clean) && !/[a-zA-Z]{5,}/.test(clean)) return clean;
+
+  // 1. Google POST (handles long text without 414 URI Too Long)
   try {
-    const res = await fetch(url, { signal: AbortSignal.timeout(6000) });
-    if (!res.ok) return text;
-    const data = await res.json();
-    return data[0].map(item => item[0]).join("");
-  } catch (e) {
-    return text;
-  }
+    const res = await fetch("https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=zh-CN&dt=t", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams({ q: clean }),
+      signal: AbortSignal.timeout(8000)
+    });
+    if (res.ok) {
+      const data = await res.json();
+      const tr = data[0].map(item => item[0]).join("");
+      if (/[一-鿿]/.test(tr)) return tr;
+    }
+  } catch (e) {}
+
+  // 2. MyMemory POST (reliable cloud fallback)
+  try {
+    const res = await fetch("https://api.mymemory.translated.net/get?langpair=autodetect|zh-CN", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams({ q: clean }),
+      signal: AbortSignal.timeout(8000)
+    });
+    if (res.ok) {
+      const data = await res.json();
+      const tr = data?.responseData?.translatedText;
+      if (tr && /[一-鿿]/.test(tr)) return tr;
+    }
+  } catch (e) {}
+
+  // 3. Google clients5 fallback
+  try {
+    const res = await fetch(`https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=auto&tl=zh-CN&q=${encodeURIComponent(clean.slice(0, 500))}`, {
+      headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" },
+      signal: AbortSignal.timeout(8000)
+    });
+    if (res.ok) {
+      const data = await res.json();
+      const tr = Array.isArray(data) ? (Array.isArray(data[0]) ? data[0][0] : data[0]) : data;
+      if (tr && /[一-鿿]/.test(tr)) return tr;
+    }
+  } catch (e) {}
+
+  return clean;
 }
 
-// Batch translate paragraphs
+// Translate paragraphs with Chinese validation
 async function translateBatch(paragraphs) {
   if (!paragraphs.length) return [];
-  const joined = paragraphs.join("\n\n---P---\n\n");
-  const translatedJoined = await translateText(joined);
-  const parts = translatedJoined.split(/---P---|---\s*P\s*---/);
-  if (parts.length === paragraphs.length) {
-    return parts.map(p => p.trim());
-  }
   const res = [];
   for (const p of paragraphs) {
-    res.push(await translateText(p));
+    const tr = await translateToChinese(p);
+    res.push(tr);
   }
   return res;
 }
@@ -277,8 +309,8 @@ async function main() {
         // Auto-translate if global or English source
         if (isGlobalOrEnglish) {
           originalTitle = rawTitle.replace(/^【[^】]+】/, "").trim();
-          const trTitle = await translateText(originalTitle);
-          displayTitle = `【全球一手】${trTitle}`;
+          const trTitle = await translateToChinese(originalTitle);
+          displayTitle = /[一-鿿]/.test(trTitle) ? `【全球一手】${trTitle}` : `【全球一手】${originalTitle}`;
 
           let cleanDesc = desc.replace(/<[^>]+>/g, " ").replace(/Article URL:.*$/s, "").replace(/Comments URL:.*$/s, "").trim();
           let paragraphs = [];
@@ -300,7 +332,7 @@ async function main() {
           zhHtml = trBlocks.map(p => `<p>${p}</p>`).join("\n");
           zhText = trBlocks.join("\n\n");
 
-          const trSummary = await translateText(paragraphs.slice(0, 2).join(" ").slice(0, 300));
+          const trSummary = await translateToChinese(paragraphs.slice(0, 2).join(" ").slice(0, 300));
           summary = `${trSummary.slice(0, 220)}...（来源：${src.name}，实时追踪报道）`;
         }
 
