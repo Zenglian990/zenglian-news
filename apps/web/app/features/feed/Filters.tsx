@@ -32,13 +32,12 @@ function hrefWith(base: string, params: URLSearchParams, patch: Record<string, s
 function filterOptions(base: string, params: URLSearchParams, noneLabel: string) {
   return [
     { key: "all", label: noneLabel, to: hrefWith(base, params, { category: null, channel: null }) },
-    { key: "firstParty", label: CHANNEL_LABELS.firstParty, to: hrefWith(base, params, { category: null, channel: "firstParty" }) },
     ...CATEGORY_KEYS.map((k) => ({ key: k, label: CATEGORY_LABELS[k], to: hrefWith(base, params, { category: k, channel: null }) })),
   ];
 }
 
 function filterKey(category: CategoryKey | null, channel: ChannelKey): string {
-  return channel === "firstParty" ? "firstParty" : (category ?? "all");
+  return category ?? "all";
 }
 
 /** Desktop: the filter as a row of tabs beside the search field. */

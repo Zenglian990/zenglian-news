@@ -24,9 +24,11 @@ export interface FeedItemProps {
   showTags?: boolean;
   /** The time the item sits at in its list; phones show it in the source line (desktop: on the rail). */
   at?: string;
+  /** 1-based rank position in the list (e.g. 1 to 10) */
+  rank?: number;
 }
 
-export const FeedItem = memo(function FeedItem({ item, group, filters, read = false, onOpen, showTags = false, at }: FeedItemProps) {
+export const FeedItem = memo(function FeedItem({ item, group, filters, read = false, onOpen, showTags = false, at, rank }: FeedItemProps) {
   const isX = item.channel === "x" && !!item.x;
   const open = () => {
     rememberPreview(item);
@@ -38,6 +40,21 @@ export const FeedItem = memo(function FeedItem({ item, group, filters, read = fa
   return (
     <article className="relative min-w-0 lg:card lg:card-hover lg:px-[18px] lg:pb-[14px] lg:pt-[15px]" data-item-id={item.id}>
       <header className="flex min-h-[22px] items-center gap-1.5 text-[12.5px] leading-[18px] text-ink-4 lg:min-h-[18px] lg:gap-2">
+        {typeof rank === "number" && rank >= 1 && rank <= 10 && (
+          <span
+            className={`inline-flex shrink-0 items-center justify-center font-bold px-1.5 py-[1px] rounded-[3px] text-[10.5px] font-mono leading-none tracking-tight border ${
+              rank === 1
+                ? "bg-amber-500/20 text-amber-700 dark:text-amber-300 border-amber-500/40 shadow-xs"
+                : rank === 2
+                ? "bg-slate-400/20 text-slate-700 dark:text-slate-300 border-slate-400/40"
+                : rank === 3
+                ? "bg-amber-700/20 text-amber-800 dark:text-amber-400 border-amber-700/40"
+                : "bg-surface text-ink-3 border-line-soft"
+            }`}
+          >
+            {rank === 1 ? "🥇 01" : rank === 2 ? "🥈 02" : rank === 3 ? "🥉 03" : String(rank).padStart(2, "0")}
+          </span>
+        )}
         <SourceLine item={item} className="text-ink-4" />
         {at && (
           <time dateTime={at} className="mono shrink-0 text-[12px] lg:hidden">

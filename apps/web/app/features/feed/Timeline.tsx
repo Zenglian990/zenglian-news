@@ -5,6 +5,7 @@ import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } fr
 import { useLocation, useNavigation } from "react-router";
 import { Collapse } from "../../components/ui/Presence";
 import type { TimelineCard, TimelineFilters, TimelineResponse } from "@aihot/contracts/site";
+import { CATEGORY_LABELS } from "@aihot/contracts/taxonomy";
 import { FeedItem } from "./FeedItem";
 import { IconChevronDown } from "../../components/icons";
 import { RingMark } from "@aihot/site/brand/Logo.tsx";
@@ -294,12 +295,20 @@ export function Timeline({ initial, filters }: { initial: TimelineResponse; filt
             <DayHeader day={day} today={today} count={count} collapsed={collapsed} onToggle={() => toggleDay(day)} />
             <Collapse open={!collapsed}>
                 <ol className="lg:pt-1">
-                  {cards.map((c) => {
+                  {cards.map((c, index) => {
                     const fresh = freshKeys.has(c.key);
                     const delay = fresh ? Math.min(order++, 10) * 40 : 0;
                     return (
                       <TimelineSlot key={c.key} dataKey={c.key} at={c.anchorAt} fresh={fresh} delay={delay}>
-                        <FeedItem item={c.item} group={c.group} filters={filters} read={readSet.has(c.item.id)} onOpen={markRead} at={c.anchorAt} />
+                        <FeedItem
+                          item={c.item}
+                          group={c.group}
+                          filters={filters}
+                          read={readSet.has(c.item.id)}
+                          onOpen={markRead}
+                          at={c.anchorAt}
+                          rank={filters.category ? index + 1 : undefined}
+                        />
                       </TimelineSlot>
                     );
                   })}
@@ -310,13 +319,21 @@ export function Timeline({ initial, filters }: { initial: TimelineResponse; filt
       })}
 
       <div ref={sentinel} aria-hidden="true" />
-      <FeedEnd loading={loadingMore} error={loadError} hasMore={!!state.nextCursor} manual={state.batches >= AUTO_BATCHES} empty={state.cards.length === 0} onMore={loadMore} />
+      <FeedEnd
+        loading={loadingMore}
+        error={loadError}
+        hasMore={!!state.nextCursor}
+        manual={state.batches >= AUTO_BATCHES}
+        empty={state.cards.length === 0}
+        onMore={loadMore}
+        boardLabel={filters.category ? CATEGORY_LABELS[filters.category] : undefined}
+      />
     </div>
   );
 }
 
 /** The foot of a paged list: loading, retry, "加载更多" after a few automatic pages, or the end. */
-function FeedEnd({ loading, error, hasMore, manual, empty, onMore }: { loading: boolean; error: boolean; hasMore: boolean; manual: boolean; empty: boolean; onMore: () => void }) {
+function FeedEnd({ loading, error, hasMore, manual, empty, onMore, boardLabel }: { loading: boolean; error: boolean; hasMore: boolean; manual: boolean; empty: boolean; onMore: () => void; boardLabel?: string }) {
   return (
     <div className="flex justify-center py-6">
       {loading ? (
@@ -334,7 +351,11 @@ function FeedEnd({ loading, error, hasMore, manual, empty, onMore }: { loading: 
           </button>
         )
       ) : (
-        !empty && <span className="text-[12px] text-ink-4">已经到底了</span>
+        !empty && (
+          <span className="text-[12px] text-ink-4 tracking-wider">
+            {boardLabel ? `— 今日【${boardLabel} Top 10】播报完毕 · 每日一手精选 —` : "已经到底了"}
+          </span>
+        )
       )}
     </div>
   );

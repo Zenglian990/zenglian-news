@@ -21,88 +21,88 @@ const PREMIUM_SOURCES = [
     id: "rss-qbitai",
     name: "量子位",
     feedUrl: "https://www.qbitai.com/feed",
-    tags: ["国内", "AI", "前沿"],
-    category: "ai-models",
+    tags: ["科技", "AI", "智库"],
+    category: "tech",
     reason: "国内最顶尖AI产业前沿，大模型落地与商业化一手洞察。"
   },
   {
     id: "rss-geekpark",
     name: "极客公园",
     feedUrl: "https://www.geekpark.net/rss",
-    tags: ["商业", "创投", "创新"],
-    category: "industry",
+    tags: ["科技", "创新", "商业"],
+    category: "tech",
     reason: "科技商业创投与AI产品创新，聚焦创始人与商业落地。"
   },
   {
     id: "rss-huxiu",
     name: "虎嗅网",
     feedUrl: "https://rss.huxiu.com/",
-    tags: ["商业", "深度", "科技"],
-    category: "industry",
+    tags: ["商业", "深度", "研报"],
+    category: "business",
     reason: "权威商业洞察与产业内幕，洞悉科技趋势与市场风向。"
   },
   {
     id: "rss-ifanr",
     name: "爱范儿",
     feedUrl: "https://www.ifanr.com/feed",
-    tags: ["产品", "硬件", "消费科技"],
-    category: "ai-products",
+    tags: ["科技", "数码", "硬件"],
+    category: "tech",
     reason: "爆款数码科技、AI硬件与创新消费产品一手前沿。"
   },
   {
     id: "rss-tmtpost",
     name: "钛媒体",
     feedUrl: "https://www.tmtpost.com/rss.xml",
-    tags: ["创投", "资本", "科技"],
-    category: "industry",
+    tags: ["商业", "资本", "创投"],
+    category: "business",
     reason: "全球科技财经与资本创投动态，商业决策核心参考。"
   },
   {
     id: "rss-jiemian",
     name: "界面新闻·科技",
     feedUrl: "https://a.jiemian.com/index.php?m=article&a=rss",
-    tags: ["财经", "商业", "巨头"],
-    category: "industry",
+    tags: ["国内", "持牌", "商业"],
+    category: "domestic",
     reason: "主流商业财经媒体，实时追踪国内外科技巨头战略动向。"
   },
   {
     id: "rss-producthunt",
     name: "Product Hunt·AI落地",
     feedUrl: "https://www.producthunt.com/feed",
-    tags: ["搞钱", "神器", "产品"],
-    category: "ai-products",
+    tags: ["全球", "首发", "搞钱"],
+    category: "global",
     reason: "全球最新AI变现神器与落地工具，独立开发与出海赚钱首选。"
   },
   {
     id: "rss-sspai",
     name: "少数派",
     feedUrl: "https://sspai.com/feed",
-    tags: ["教程", "效率", "工具"],
-    category: "tip",
-    reason: "实用效率生产力与AI工具实战技巧，落地提效指南。"
+    tags: ["文娱", "数字生活", "工具"],
+    category: "culture",
+    reason: "实用效率生产力与数字生活方式，文娱生活探索指南。"
   },
   {
     id: "rss-ithome",
     name: "IT之家·一手快讯",
     feedUrl: "https://www.ithome.com/rss/",
-    tags: ["一手", "快讯", "大厂"],
-    category: "ai-products",
+    tags: ["国内", "一手", "快讯"],
+    category: "domestic",
     reason: "科技互联网与大厂软硬件实时极速快讯，一手资讯不遗漏。"
   },
   {
     id: "rss-oschina",
     name: "开源中国",
     feedUrl: "https://www.oschina.net/news/rss",
-    tags: ["开源", "工具", "生态"],
-    category: "paper",
+    tags: ["国内", "开源", "生态"],
+    category: "domestic",
     reason: "开源软件动态与技术前沿，掌握全球开源技术生态脉搏。"
   },
   {
     id: "rss-v2ex",
     name: "V2EX·搞钱创造",
     feedUrl: "https://www.v2ex.com/index.xml",
-    tags: ["副业", "创造", "灵感"],
-    category: "tip",
+    tags: ["搞钱", "副业", "出海"],
+    category: "money",
     reason: "独立开发者创业、副业变现与技术人灵感聚集地。"
   },
   {
@@ -110,15 +110,15 @@ const PREMIUM_SOURCES = [
     name: "Hacker News·全球一手",
     feedUrl: "https://hnrss.org/frontpage",
     tags: ["全球", "极客", "商业"],
-    category: "ai-products",
+    category: "global",
     reason: "全球顶尖硅谷极客讨论与独立创新首发平台，洞察一手出海动向。"
   },
   {
     id: "rss-openai",
     name: "OpenAI·官方一手",
     feedUrl: "https://openai.com/news/rss.xml",
-    tags: ["官方", "大模型", "顶尖"],
-    category: "ai-models",
+    tags: ["全球", "官方", "顶尖"],
+    category: "global",
     reason: "OpenAI 官方博客与技术产品一手公告，大模型行业风向标。"
   }
 ];
@@ -157,6 +157,12 @@ async function main() {
     `;
     console.log(`✅ Source configured in database: ${src.name} (${src.id})`);
   }
+
+  // Update categories for all existing publications in database to match the new 6 pillars
+  for (const src of PREMIUM_SOURCES) {
+    await sql`UPDATE publications SET category = ${src.category} WHERE source_id = ${src.id}`;
+  }
+  console.log("✅ All existing database publications re-categorized to the 6 pillars.");
 
   // 2. Fetch live items from each source and populate articles + publications
   console.log("\n📡 Fetching live feeds and publishing fresh articles...");

@@ -254,7 +254,14 @@ export const FEED_COPY = {
  * feedLabels：分类 RSS 标题里的名字，替换行业包里的 feedLabel（并进了别的类别时，名字常常也要跟着改）。
  */
 export const PUBLIC_CATEGORIES = {
-  merge: {},
+  merge: {
+    "ai-models": "tech",
+    "ai-products": "global",
+    "industry": "domestic",
+    "paper": "tech",
+    "tip": "money",
+    "opinion": "business",
+  },
   feedLabels: {},
 } as const;
 

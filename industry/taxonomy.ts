@@ -11,20 +11,18 @@
  * feedLabel 是分类 RSS 标题里的名字（不写就用 label）。公开接口、RSS 和 MCP 里要把一类并进另一类发布，写在站点设置里（site/site.ts 的 PUBLIC_CATEGORIES）。
  */
 export const CATEGORIES = [
-  { key: "ai-models", label: "模型", feedLabel: "AI 模型", section: "模型发布/更新", guide: "模型本身的发布、版本、权重开放、能力或价格变化，以及既有榜单上的模型成绩。公布一次跑分不是发布新基准，也不是教程。" },
-  { key: "ai-products", label: "产品", feedLabel: "AI 产品", section: "产品发布/更新", guide: "可使用的 AI 产品、功能、应用、工具、API、平台和工程组件的发布更新。模型厂商发布的推理框架、算子库、硬件适配组件仍是产品，不能因为厂商名归成模型。" },
-  { key: "industry", label: "行业", feedLabel: "行业动态", section: "行业动态", guide: "已发生的公司经营、融资并购、人事、合作、诉讼、政策、真实安全事故及调查进展。新闻由当事人发帖、带有态度，也不因此变成观点。" },
-  { key: "paper", label: "论文", feedLabel: "论文", section: "论文研究", guide: "以新研究方法、实验设计与发现为核心的论文、技术报告、新基准或研究数据集。系统性红队实验属于研究；既有榜单成绩归模型，真实事故的新闻调查归行业。" },
-  { key: "tip", label: "教程", section: "技巧与观点", guide: "读者可以照着使用的方法、提示词、工具用法、工程实践复盘与技术讲解。重点是可复用的做法；单纯发布工具归产品，只有态度和预测而无做法归观点。", commentary: true },
-  { key: "opinion", label: "观点", section: "技巧与观点", guide: "重点是作者的解释、判断、主张、预测、评论或访谈观点。讨论市场不自动归行业，作者是名人不自动归观点。", commentary: true },
+  { key: "global", label: "全球榜", feedLabel: "全球一手 Top 10", section: "全球前沿与海外首发", guide: "海外硅谷、OpenAI、Product Hunt与全球一手前沿动态与商业工具首发。" },
+  { key: "domestic", label: "国内榜", feedLabel: "国内前沿 Top 10", section: "国内商业与大厂快讯", guide: "国内大厂动态、持牌财经媒体深度采写、工信部入网及官方权威发布。" },
+  { key: "business", label: "商业榜", feedLabel: "商业风向 Top 10", section: "商业研报与资本动态", guide: "深度商业研报、创投融资、商业模式创新与行业格局博弈。" },
+  { key: "tech", label: "科技榜", feedLabel: "硬核科技 Top 10", section: "硬核科技与数码前沿", guide: "重大科技突破、消费电子硬件、大模型算法与开源生态前沿。" },
+  { key: "money", label: "搞钱榜", feedLabel: "出海搞钱 Top 10", section: "出海变现与副业项目", guide: "独立开发者出海、商业变现神器、副业项目复盘与真实赚钱案例。" },
+  { key: "culture", label: "文娱榜", feedLabel: "文娱消费 Top 10", section: "数字文娱与消费热点", guide: "爆款游戏、影视剧集、数字生活、效率生活方式与文娱消费热点。" },
 ] as const satisfies ReadonlyArray<{ key: string; label: string; feedLabel?: string; section: string; guide: string; commentary?: true }>;
 
 /**
- * 这个行业最受关注的一类发布（AI 行业是新模型）：日报报头的“N 个新模型”、改分类后修订已出的报告都按它数。
- * category 是类别，tag 是标签，两者都对上才算；unit 接在数字后面。
- * 没有这样一类的行业设成 null，报头就不显示这个数。
+ * 这个行业最受关注的一类发布（如重大科技突破）
  */
-export const RELEASE: { category: string; tag: string; unit: string } | null = { category: "ai-models", tag: "模型发布", unit: "个新模型" };
+export const RELEASE: { category: string; tag: string; unit: string } | null = { category: "tech", tag: "科技突破", unit: "个科技突破" };
 
 /** 周报月报的总述可以直接写、不必在报道里找到出处的行业通用词（小写）。站名会自动算进去。 */
 export const PLAIN_TERMS: readonly string[] = ["ai", "api", "llm", "gpu", "agi", "ceo", "ipo"];
