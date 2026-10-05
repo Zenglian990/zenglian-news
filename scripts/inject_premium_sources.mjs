@@ -1,5 +1,6 @@
 import postgres from "postgres";
 import { XMLParser } from "fast-xml-parser";
+import * as cheerio from "cheerio";
 import crypto from "node:crypto";
 import fs from "node:fs";
 
@@ -137,6 +138,65 @@ function generateId(prefix = "a") {
   return prefix + crypto.randomBytes(12).toString("hex").slice(0, 24);
 }
 
+// Fast free translation helper
+async function translateText(text) {
+  if (!text || !text.trim()) return "";
+  const clean = text.replace(/\s+/g, " ").trim();
+  const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=zh-CN&dt=t&q=${encodeURIComponent(clean)}`;
+  try {
+    const res = await fetch(url, { signal: AbortSignal.timeout(6000) });
+    if (!res.ok) return text;
+    const data = await res.json();
+    return data[0].map(item => item[0]).join("");
+  } catch (e) {
+    return text;
+  }
+}
+
+// Batch translate paragraphs
+async function translateBatch(paragraphs) {
+  if (!paragraphs.length) return [];
+  const joined = paragraphs.join("\n\n---P---\n\n");
+  const translatedJoined = await translateText(joined);
+  const parts = translatedJoined.split(/---P---|---\s*P\s*---/);
+  if (parts.length === paragraphs.length) {
+    return parts.map(p => p.trim());
+  }
+  const res = [];
+  for (const p of paragraphs) {
+    res.push(await translateText(p));
+  }
+  return res;
+}
+
+const BOILERPLATE_REGEX = /cookie|subscribe|newsletter|sign up|terms of service|privacy policy|get started|ad-free|exclusive features|play games|earn badges|for the curious/i;
+
+async function fetchArticleText(url) {
+  try {
+    const res = await fetch(url, {
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      signal: AbortSignal.timeout(6000)
+    });
+    if (!res.ok) return [];
+    const html = await res.text();
+    const $ = cheerio.load(html);
+    $("script, style, nav, header, footer, noscript, svg, iframe, form").remove();
+
+    let paragraphs = [];
+    $("article p, main p, .post-content p, .article-body p, p").each((_, el) => {
+      const text = $(el).text().trim();
+      if (text.length > 50 && !BOILERPLATE_REGEX.test(text)) {
+        paragraphs.push(text);
+      }
+    });
+    return paragraphs.slice(0, 15);
+  } catch (e) {
+    return [];
+  }
+}
+
 async function main() {
   console.log("🚀 Starting injection of premium Chinese tech, commercial & monetization sources...");
 
@@ -164,7 +224,7 @@ async function main() {
   }
   console.log("✅ All existing database publications re-categorized to the 6 pillars.");
 
-  // 2. Fetch live items from each source and populate articles + publications
+  // 2. Fetch live feeds and populate articles + publications
   console.log("\n📡 Fetching live feeds and publishing fresh articles...");
   let totalNew = 0;
 
@@ -204,8 +264,45 @@ async function main() {
         if (isNaN(pubDate.getTime())) pubDate = new Date();
 
         const artId = generateId("a");
-        const summary = desc ? (desc.slice(0, 280) + (desc.length > 280 ? "..." : "")) : `最新一手资讯，实时跟进报道。（来源：${src.name}）`;
-        const contentJson = JSON.stringify([{ kind: "text", text: desc || rawTitle }]);
+        const isGlobalOrEnglish = src.category === "global" || !/[一-鿿]/.test(rawTitle);
+
+        let displayTitle = rawTitle;
+        let originalTitle = rawTitle;
+        let summary = desc ? (desc.slice(0, 280) + (desc.length > 280 ? "..." : "")) : `最新一手资讯，实时跟进报道。（来源：${src.name}）`;
+        let enHtml = null;
+        let enText = null;
+        let zhHtml = null;
+        let zhText = null;
+
+        // Auto-translate if global or English source
+        if (isGlobalOrEnglish) {
+          originalTitle = rawTitle.replace(/^【[^】]+】/, "").trim();
+          const trTitle = await translateText(originalTitle);
+          displayTitle = `【全球一手】${trTitle}`;
+
+          let cleanDesc = desc.replace(/<[^>]+>/g, " ").replace(/Article URL:.*$/s, "").replace(/Comments URL:.*$/s, "").trim();
+          let paragraphs = [];
+          if (cleanDesc.length > 60 && !BOILERPLATE_REGEX.test(cleanDesc)) {
+            paragraphs = [cleanDesc];
+          } else if (link.startsWith("http")) {
+            paragraphs = await fetchArticleText(link);
+          }
+
+          if (!paragraphs.length) {
+            paragraphs = [`${originalTitle}. This is a featured global story from ${src.name}.`];
+          }
+          paragraphs = paragraphs.slice(0, 15);
+
+          enHtml = paragraphs.map(p => `<p>${p}</p>`).join("\n");
+          enText = paragraphs.join("\n\n");
+
+          const trBlocks = await translateBatch(paragraphs);
+          zhHtml = trBlocks.map(p => `<p>${p}</p>`).join("\n");
+          zhText = trBlocks.join("\n\n");
+
+          const trSummary = await translateText(paragraphs.slice(0, 2).join(" ").slice(0, 300));
+          summary = `${trSummary.slice(0, 220)}...（来源：${src.name}，实时追踪报道）`;
+        }
 
         // Insert into articles
         try {
@@ -214,21 +311,42 @@ async function main() {
 
           const [insertedArt] = await sql`
             INSERT INTO articles (
-              id, source_id, identity_key, url, title, excerpt, 
+              id, source_id, identity_key, url, title, excerpt, language,
+              body_html, body_text,
               published_at, discovered_at, timeline_at, revision, body_status, created_at, updated_at
             ) VALUES (
-              ${artId}, ${src.id}, ${link}, ${link}, ${rawTitle}, ${summary}, 
+              ${artId}, ${src.id}, ${link}, ${link}, ${originalTitle}, ${summary}, ${isGlobalOrEnglish ? 'en' : 'zh'},
+              ${enHtml}, ${enText},
               ${pubDate}, ${now}, ${pubDate}, 1, 'ok', ${now}, ${now}
             )
             ON CONFLICT (identity_key) DO UPDATE SET
               title = EXCLUDED.title,
               excerpt = EXCLUDED.excerpt,
+              language = EXCLUDED.language,
+              body_html = COALESCE(EXCLUDED.body_html, articles.body_html),
+              body_text = COALESCE(EXCLUDED.body_text, articles.body_text),
               updated_at = now()
             RETURNING id
           `;
 
           const targetArticleId = insertedArt ? insertedArt.id : artId;
 
+          // If translated body exists, save into translations
+          if (zhHtml) {
+            await sql`
+              INSERT INTO translations (article_id, lang, revision, title, body_html, body_text, complete, origin, created_at)
+              VALUES (${targetArticleId}, 'zh', 1, ${displayTitle}, ${zhHtml}, ${zhText}, true, 'model', now())
+              ON CONFLICT (article_id, lang) DO UPDATE SET
+                title = EXCLUDED.title,
+                body_html = EXCLUDED.body_html,
+                body_text = EXCLUDED.body_text,
+                complete = true,
+                origin = 'model',
+                created_at = now()
+            `;
+          }
+
+          // Insert / update publication
           await sql`
             INSERT INTO publications (
               article_id, revision, visibility, eligible, selected,
@@ -238,22 +356,23 @@ async function main() {
               visible_after, selected_ready_at, body_mode, seat, selection_candidate
             ) VALUES (
               ${targetArticleId}, 1, 'public', true, true,
-              ${rawTitle}, ${rawTitle}, ${summary}, ${src.reason}, ${src.category}, ${['一手', ...src.tags.slice(0, 2)]},
+              ${displayTitle}, ${originalTitle}, ${summary}, ${src.reason}, ${src.category}, ${['一手', ...src.tags.slice(0, 2)]},
               ${score}, ${src.id}, 'news', true, ${link},
               ${pubDate}, ${now}, ${pubDate}, ${pubDate},
-              ${now}, ${now}, 'summary', true, true
+              ${now}, ${now}, ${isGlobalOrEnglish ? 'full' : 'summary'}, true, true
             )
             ON CONFLICT (article_id) DO UPDATE SET
               visibility = 'public',
               selected = true,
               eligible = true,
               title = EXCLUDED.title,
+              original_title = EXCLUDED.original_title,
               summary = EXCLUDED.summary,
               category = EXCLUDED.category,
               tags = EXCLUDED.tags,
               score = EXCLUDED.score,
               channel = 'news',
-              body_mode = 'summary',
+              body_mode = EXCLUDED.body_mode,
               seat = true,
               selection_candidate = true,
               visible_after = now(),
@@ -271,7 +390,7 @@ async function main() {
     }
   }
 
-  console.log(`\n🎉 Finished! Injected ${totalNew} high-quality live articles from top Chinese & Global commercial sources.`);
+  console.log(`\n🎉 Finished! Injected ${totalNew} high-quality live articles with auto-translation from top Chinese & Global commercial sources.`);
   await sql.end();
 }
 
