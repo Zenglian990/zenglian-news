@@ -6,18 +6,59 @@ import { SourceAvatar } from "../../components/ui/SourceAvatar";
 import { Lightbox } from "../../components/ui/Lightbox";
 import { toggleStar, useIsStarred } from "../../lib/local-state";
 
-/** The source's name, or, for X, avatar + display name + @handle. */
+export function getSourceTierBadge(name: string): { label: string; className: string } {
+  if (/界面新闻/i.test(name)) {
+    return { label: "持牌权威", className: "bg-amber-500/10 text-amber-600 dark:text-amber-400 border-amber-500/30" };
+  }
+  if (/量子位|极客公园/i.test(name)) {
+    return { label: "前沿智库", className: "bg-blue-500/10 text-blue-600 dark:text-blue-400 border-blue-500/30" };
+  }
+  if (/Product Hunt/i.test(name)) {
+    return { label: "全球首发", className: "bg-orange-500/10 text-orange-600 dark:text-orange-400 border-orange-500/30" };
+  }
+  if (/钛媒体|虎嗅/i.test(name)) {
+    return { label: "深度研报", className: "bg-purple-500/10 text-purple-600 dark:text-purple-400 border-purple-500/30" };
+  }
+  if (/IT之家|开源中国/i.test(name)) {
+    return { label: "一手快讯", className: "bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border-emerald-500/30" };
+  }
+  if (/V2EX/i.test(name)) {
+    return { label: "独立商业", className: "bg-cyan-500/10 text-cyan-600 dark:text-cyan-400 border-cyan-500/30" };
+  }
+  if (/爱范儿|少数派/i.test(name)) {
+    return { label: "原创测评", className: "bg-rose-500/10 text-rose-600 dark:text-rose-400 border-rose-500/30" };
+  }
+  if (/Hacker News|OpenAI|Anthropic|GitHub/i.test(name)) {
+    return { label: "全球一手", className: "bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 border-indigo-500/30" };
+  }
+  return { label: "一手信源", className: "bg-zinc-500/10 text-zinc-600 dark:text-zinc-400 border-zinc-500/30" };
+}
+
+/** The source's name, or, for X, avatar + display name + @handle, plus credible tier badge. */
 export function SourceLine({ item, className = "" }: { item: Pick<FeedItemSummary, "source" | "x" | "channel">; className?: string }) {
+  const sourceName = item.channel === "x" && item.x ? item.x.authorName : item.source.name;
+  const badge = getSourceTierBadge(sourceName);
+
   if (item.channel === "x" && item.x) {
     return (
       <span className={`flex min-w-0 items-center gap-1.5 ${className}`}>
         <SourceAvatar name={item.x.authorName} avatarUrl={item.x.avatarUrl} avatarSrcSet={item.x.avatarSrcSet} size={16} />
         <span className="truncate text-ink-3">{item.x.authorName}</span>
         <span className="hidden shrink-0 text-ink-4 min-[400px]:inline">@{item.x.handle}</span>
+        <span className={`inline-flex shrink-0 items-center px-1.5 py-[1px] rounded-[3px] text-[10px] font-semibold tracking-wider border leading-tight ${badge.className}`}>
+          {badge.label}
+        </span>
       </span>
     );
   }
-  return <span className={`min-w-0 truncate ${className}`}>{item.source.name}</span>;
+  return (
+    <span className={`flex min-w-0 items-center gap-1.5 ${className}`}>
+      <span className="min-w-0 truncate text-ink-2 font-medium">{item.source.name}</span>
+      <span className={`inline-flex shrink-0 items-center px-1.5 py-[1px] rounded-[3px] text-[10px] font-semibold tracking-wider border leading-tight ${badge.className}`}>
+        {badge.label}
+      </span>
+    </span>
+  );
 }
 
 /** Up to four media thumbnails, kept small in lists (the detail page shows them larger). Videos are stills. */

@@ -104,6 +104,22 @@ const PREMIUM_SOURCES = [
     tags: ["副业", "创造", "灵感"],
     category: "tip",
     reason: "独立开发者创业、副业变现与技术人灵感聚集地。"
+  },
+  {
+    id: "rss-hackernews",
+    name: "Hacker News·全球一手",
+    feedUrl: "https://hnrss.org/frontpage",
+    tags: ["全球", "极客", "商业"],
+    category: "ai-products",
+    reason: "全球顶尖硅谷极客讨论与独立创新首发平台，洞察一手出海动向。"
+  },
+  {
+    id: "rss-openai",
+    name: "OpenAI·官方一手",
+    feedUrl: "https://openai.com/news/rss.xml",
+    tags: ["官方", "大模型", "顶尖"],
+    category: "ai-models",
+    reason: "OpenAI 官方博客与技术产品一手公告，大模型行业风向标。"
   }
 ];
 

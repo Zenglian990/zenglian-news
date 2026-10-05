@@ -45,19 +45,23 @@ export const SITE = {
   /** 对外联系邮箱（选填）：llms.txt、响应头里会写。 */
   contactEmail: null as string | null,
   /** 页脚的一行小字（选填）。 */
-  footerNote: "由 AIHOT 开源框架驱动",
+  footerNote: "曾练商业情报中枢 · 24H自动巡航",
   /** 中国大陆网站的 ICP 备案号（选填），填了就显示在页脚并链接到工信部备案系统。 */
   icp: null as string | null,
   /** 源码的 GitHub 仓库地址（选填），填了就在侧栏底部和“我的”页底部显示“GitHub 开源”。 */
   github: null as string | null,
   /** 结构化数据里的网站运营者（搜索引擎用）。 */
   organization: {
-    name: "MyHOT",
+    name: "曾练全球一手新闻",
     /** 创始人（选填）。 */
-    founder: null as null | { name: string; alternateName?: string; jobTitle?: string; description?: string; url?: string },
+    founder: {
+      name: "曾先生",
+      jobTitle: "商业战略与AI科技投资人",
+      description: "专注全球一手科技前沿情报与商业变现",
+    },
   },
   /** 抓取信源时报上的名字和版本（User-Agent 里用），不要冒用别的站。 */
-  crawlerName: "MyHOTBot/1.0",
+  crawlerName: "ZenglianNewsBot/1.0",
 } as const;
 
 /** 使用规则和隐私说明两页（正文在 pages/ 里）。 */
@@ -108,31 +112,31 @@ export const ABOUT = {
   /** 页面描述（搜索结果、分享卡片）。 */
   description: `关于 ${SITE.name}：${SITE.description}`,
   /** 大标题：第一行正常颜色，第二行强调色。 */
-  headline: ["AI 圈每天都有新动静，", "值得看的，只有几条。"] as [string, string],
+  headline: ["全球一手科技与商业风向，", "值得看的，只有几条。"] as [string, string],
   /** 标题下面的一段话。{sources} 会换成实时的信源数；统计没取到时换成 sourcesFallback。 */
-  lead: `${SITE.name} 替你盯着 {sources} 个信源：抓取、归并、打分、精选，每天早上 8 点出一份日报。免费，不用注册。`,
-  sourcesFallback: "上百",
+  lead: `曾练商业情报中枢替您全天候盯住全球顶级 T0/T1 权威信源：实时抓取、智能去噪、提取核心商业事实，每日早间生成一手情报与搞钱商机。免费，不用注册。`,
+  sourcesFallback: "海量顶级一手",
   /** 信源河动画下面的四个环节。 */
   steps: {
-    collect: "官方博客、媒体、X 账号、公众号和各类订阅源都在看；活跃的源 15 分钟就看一次。",
-    store: "抓到的都存下来，同一件事的报道归到一起；只计入热度的账号也算在内，热点榜就是从这里算出来的。",
-    select: "模型先看是不是这个行业的事、有没有实际信息，再写中文标题、摘要和推荐理由；营销稿和重复转发进不来。",
-    publish: "每天 08:00 出日报，周一出周报，每月 1 日出月报；最精选的几条可以推到飞书群。",
+    collect: "持牌财经媒体、顶级AI产业智库、海外独立开发者首发站全天候巡航；活跃源 15 分钟自动化轮询。",
+    store: "入库数据严格核验，过滤百家号与自媒体营销水稿，同一事件智能聚类溯源。",
+    select: "智能引擎深度审阅商业事实与技术突破，生成中文精要与商业价值研判，劣质公关稿一律拦截。",
+    publish: "全天候无缝滚动更新，每日生成科技搞钱早报，支持一键复制分发与 Agent 自动化对接。",
   },
   /**
    * 作者块（选填），null 就不显示。
-   * avatarSourceId：一个 X 账号信源的 id，头像取它的（选填）。
-   * 二维码在后台“设置”里上传，或者放进 site/brand/contact/；没有二维码就不显示那张卡片。
    */
-  maker: null as null | {
-    name: string;
-    avatarSourceId?: string | null;
-    greeting: string[];
-    wechat?: ContactCard;
-    feishu?: ContactCard;
+  maker: {
+    name: "曾先生",
+    avatarSourceId: null,
+    greeting: [
+      "欢迎使用【曾练全球一手新闻】商业情报雷达。",
+      "在信息过载但噪音遍地的时代，真正的商业超额收益只存在于源头第一手信息中。",
+      "本系统全天候盯住全球 T0/T1 权威信源、持牌财经媒体、AI 顶级智库与海外独立开发者首发阵地，去伪存真，穿透做号党与公关软文，为您提供求真、极速且具备搞钱与商业转化价值的超级情报中枢。",
+    ],
   },
   /** 页面底部的版权与下架说明，中间接“反馈页”的链接。 */
-  copyright: [`${SITE.name} 是聚合摘要和阅读索引，原文版权归各来源所有。如果你是来源方，希望更正、下架或调整展示方式，可以通过`, "联系我们。"] as [string, string],
+  copyright: [`${SITE.name} 是聚合摘要和一手情报索引，原文版权归各权威信源所有。如果你是来源方，希望更正、下架或调整展示方式，可以通过`, "联系我们。"] as [string, string],
   /** 页面底部“使用规则”链接的锚点 id（选填）：外部文档写死过这个锚点就填上，以后不要改。 */
   termsAnchor: null as string | null,
 } as const;
