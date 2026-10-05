@@ -42,9 +42,9 @@ export async function loader({ request }: { request: Request }) {
     id: c.item.id,
     title: c.item.title,
     summary: c.item.summary,
-    source: c.item.source.name,
+    source: c.item.source?.name ?? "权威信源",
     category: c.item.category,
-    originalUrl: c.item.links.original,
+    itemUrl: `/items/${c.item.id}`,
   }));
   return { items };
 }
