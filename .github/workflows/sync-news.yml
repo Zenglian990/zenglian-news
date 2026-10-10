@@ -42,7 +42,7 @@ jobs:
           else
             git commit -m "Auto-sync latest news data [skip ci]"
             git push
-            categories=("global" "domestic" "business" "tech" "money" "culture")
+            categories=("global" "domestic" "business" "tech" "money" "culture" "reports")
             for cat in "${categories[@]}"; do
               curl -s "https://purge.jsdelivr.net/gh/Zenglian990/zenglian-news@main/data/${cat}.json" || true
               curl -s "https://purge.jsdelivr.net/gh/Zenglian990/zenglian-news@main/data-v2/${cat}.json" || true

@@ -1,0 +1,2086 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-10T08:30:22.526Z",
+  "daily": {
+    "kind": "daily",
+    "key": "2026-10-10",
+    "title": "曾练全球一手简报 · 今日日报 (2026-10-10)",
+    "subtitle": "24小时全球政经、硅谷大模型、商业创投与搞钱变现精选",
+    "overview": "本期信号密集：华为AI芯片供不应求，算力仍是硬通货；AI硬件从PPT走向交卷，生态准入却成中国个人智能体真正卡点。海外端，GPT-6.1以76倍成本压缩刷新商业化想象，苹果收紧macOS权限则预示Agent安全红利。商业侧，综艺审判父母与“被裁不慌”小程序同频共振——情绪与刚需都是现金流。开源科学计算工具BootLoops补上AI严谨性短板。搞钱方向：垂直场景Agent、算力套利、裁员合规服务与AI安全咨询。",
+    "metrics": {
+      "totalEvents": 18,
+      "sourcesCount": 38,
+      "selectedCount": 18
+    },
+    "sections": [
+      {
+        "category": "global",
+        "label": "🌐 全球一手",
+        "items": [
+          {
+            "id": "a3353895d2085b3ae9f4e28d3",
+            "title": "【全球一手】食物加工方式影响代谢与大脑活动",
+            "originalTitle": "Food processing influences metabolism and brain activity",
+            "summary": "弗拉林生物医学研究所的一项新研究发现，即使热量和营养成分相同，加工方式不同的食物也会导致不同的代谢反应和大脑奖励系统活动。超加工食品促使身体释放更多胰岛素、消耗更多能量，并减少碳水化合物的燃烧，同时引发大脑动机和奖励区域的不同反应。该研究发表于《自然·代谢》，有助于解释超加工食品与过度消费及长期健康影响之间的关联。（来源：Hacker News·全球一手，实时追踪报道）",
+            "source": {
+              "name": "Hacker News·全球高赞"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a3353895d2085b3ae9f4e28d3",
+              "original": "https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html"
+            },
+            "publishedAt": "2026-10-10T05:22:30.000Z",
+            "discoveredAt": "2026-10-10T07:38:59.988Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "全球顶尖硅谷极客讨论与独立创新首发平台，洞察一手出海动向。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a3353895d2085b3ae9f4e28d3"
+            }
+          },
+          {
+            "id": "a3d4df4f0c4e7f9c91e32654d",
+            "title": "【全球一手】Asana利用GPT-6.1 Sol将浏览器模型成本降低76倍",
+            "originalTitle": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+            "summary": "Asana在Codex中使用GPT-6 Astra，使其浏览器代理在测试中成本降低76倍、速度提升5倍，从而为客户提供更强大的模型。（来源：OpenAI·官方一手，实时追踪报道）",
+            "source": {
+              "name": "OpenAI·官方一手"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a3d4df4f0c4e7f9c91e32654d",
+              "original": "https://openai.com/index/asana-browser-agent"
+            },
+            "publishedAt": "2026-10-09T07:00:00.000Z",
+            "discoveredAt": "2026-10-09T19:47:00.865Z",
+            "category": "global",
+            "score": 98,
+            "selected": true,
+            "reason": "OpenAI 官方博客与技术产品一手公告，大模型行业风向标。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a3d4df4f0c4e7f9c91e32654d"
+            }
+          },
+          {
+            "id": "ie0agk26ljfk2a4rkska3phn3",
+            "title": "【全球一手】开源“BootLoops”工具支持人工智能模型执行精确的科学计算",
+            "originalTitle": "Open-source \"BootLoops\" harness supports AI models in performing precise scientific calculations",
+            "summary": "哈佛大学物理学家 Matthew Schwartz 使用开源工具 BootLoops 和 Claude 在三个月内制作了从粒子物理学到语言学等 18 个领域的 36 篇手稿。但只有人类专家介入后，结果往往才具有科学价值。“你自己看看一切，”...（来源：The Decoder，实时追踪报道）",
+            "source": {
+              "name": "The Decoder"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ie0agk26ljfk2a4rkska3phn3",
+              "original": "https://the-decoder.com/open-source-bootloops-harness-supports-ai-models-in-performing-precise-scientific-calculations/"
+            },
+            "publishedAt": "2026-10-03T09:19:23.000Z",
+            "discoveredAt": "2026-10-04T04:09:13.169Z",
+            "category": "global",
+            "score": 98,
+            "selected": true,
+            "reason": "爆款AI落地应用与硬件落地，赋能个人与企业效率跨越。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ie0agk26ljfk2a4rkska3phn3"
+            }
+          }
+        ]
+      },
+      {
+        "category": "domestic",
+        "label": "🇨🇳 国内前沿",
+        "items": [
+          {
+            "id": "a8c36308fcf94b5e6da5306fd",
+            "title": "代露娃翻车背后：综艺为什么总爱审判东亚父母？",
+            "originalTitle": "代露娃翻车背后：综艺为什么总爱审判东亚父母？",
+            "summary": "同样聊原生家庭，为什么张家齐得到的是共情，代露娃迎来的却是反噬？",
+            "source": {
+              "name": "界面新闻·科技"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a8c36308fcf94b5e6da5306fd",
+              "original": "https://www.jiemian.com/article/15175134.html"
+            },
+            "publishedAt": "2026-10-10T08:06:26.000Z",
+            "discoveredAt": "2026-10-10T08:23:09.684Z",
+            "category": "domestic",
+            "score": 99,
+            "selected": true,
+            "reason": "主流商业财经媒体，实时追踪国内外科技巨头战略动向。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a8c36308fcf94b5e6da5306fd"
+            }
+          },
+          {
+            "id": "abda56171b008841e6716ef40",
+            "title": "AI硬件开始交卷",
+            "originalTitle": "AI硬件开始交卷",
+            "summary": "AI硬件刚刚交上第一份预告答卷。",
+            "source": {
+              "name": "界面新闻·科技"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abda56171b008841e6716ef40",
+              "original": "https://www.jiemian.com/article/15175340.html"
+            },
+            "publishedAt": "2026-10-10T08:02:24.000Z",
+            "discoveredAt": "2026-10-10T08:23:09.970Z",
+            "category": "domestic",
+            "score": 99,
+            "selected": true,
+            "reason": "主流商业财经媒体，实时追踪国内外科技巨头战略动向。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abda56171b008841e6716ef40"
+            }
+          },
+          {
+            "id": "f2h1mn83m8d47lxwspkpmxe4n",
+            "title": "【一手快讯】[AINews] not much happened today",
+            "originalTitle": "[AINews] not much happened today",
+            "summary": "a quiet day....（来源：Latent Space，实时追踪报道）",
+            "source": {
+              "name": "Latent Space"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/f2h1mn83m8d47lxwspkpmxe4n",
+              "original": "https://www.latent.space/p/ainews-not-much-happened-today-cee"
+            },
+            "publishedAt": "2026-10-03T08:45:15.000Z",
+            "discoveredAt": "2026-10-04T04:09:13.518Z",
+            "category": "domestic",
+            "score": 99,
+            "selected": true,
+            "reason": "全球科技巨头布局与AI算力供应链动态，影响产业未来格局。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/f2h1mn83m8d47lxwspkpmxe4n"
+            }
+          }
+        ]
+      },
+      {
+        "category": "business",
+        "label": "💼 商业风向",
+        "items": [
+          {
+            "id": "a06186cc036448d3994e85303",
+            "title": "华为AI芯片，不够卖了",
+            "originalTitle": "华为AI芯片，不够卖了",
+            "summary": "本文来自微信公众号： 金角财经 ，作者：罗夏 被美国限制了这么多年，华为的AI芯片，还是卖到了供不应求。 据界面新闻刊发的一份媒体交流纪要，华为轮值董事长徐直军表示，昇腾目前还远远不能满足国内需求，暂时没有全面拓展海外市场的计划。说到接下来的供货，他直接催起了产业链：“快一点、多产一点。” 谈到与英伟达的竞争，徐直军又给出了一个颇有分量的判断：虽然英伟达在中国的市场份额很难统计，但按照华为能够统计到的数据，昇腾应该已经超过了英伟达。这仍是华为基于自身数据作出的判断，纪要没有披露具体份额和统计口径。 英伟达自己也在担心。它在今年8月公布的季度报告中提醒投资...",
+            "source": {
+              "name": "虎嗅网·深度商业"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a06186cc036448d3994e85303",
+              "original": "https://www.huxiu.com/article/4896424.html?f=rss"
+            },
+            "publishedAt": "2026-10-10T07:17:57.000Z",
+            "discoveredAt": "2026-10-10T07:36:28.406Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "权威商业洞察与产业内幕，洞悉科技趋势与市场风向。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a06186cc036448d3994e85303"
+            }
+          },
+          {
+            "id": "ac9971ee677e503103b45d77e",
+            "title": "【全球一手】中国个人AI智能体卡在生态准入，而非模型能力",
+            "originalTitle": "China’s Personal AI Agents Stall on Ecosystem Access, Not Model Power",
+            "summary": "中国主要平台已加快个人AI智能体的推出计划，但全面发布仍然有限。真正的瓶颈并非模型能力，而是竞争对手的应用是否允许智能体在其服务内执行操作，以及以何种商业条款合作。（来源：钛媒体，实时追踪报道）",
+            "source": {
+              "name": "钛媒体·资本创投"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ac9971ee677e503103b45d77e",
+              "original": "https://www.tmtpost.com/8163541.html"
+            },
+            "publishedAt": "2026-10-10T02:08:03.000Z",
+            "discoveredAt": "2026-10-10T02:13:01.579Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "全球科技财经与资本创投动态，商业决策核心参考。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ac9971ee677e503103b45d77e"
+            }
+          },
+          {
+            "id": "okir984exo2ghad0o4d8cjuql",
+            "title": "【一手快讯】Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+            "originalTitle": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+            "summary": "Apple says it will add new controls around macOS’s Full Disk Access permission, warning that increasingly capable AI agents make broad access to users’ files, messages, mail, and browsing history riskier....（来源：TechCrunch · AI，实时追踪报道）",
+            "source": {
+              "name": "TechCrunch · AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/okir984exo2ghad0o4d8cjuql",
+              "original": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/"
+            },
+            "publishedAt": "2026-10-02T18:11:27.000Z",
+            "discoveredAt": "2026-10-04T04:09:18.801Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "行业领袖与顶级专家深度思辨，把脉AI时代走向与伦理风控。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/okir984exo2ghad0o4d8cjuql"
+            }
+          }
+        ]
+      },
+      {
+        "category": "tech",
+        "label": "⚡ 科技硬件",
+        "items": [
+          {
+            "id": "af3162b2f08d7e6c8fbc7f910",
+            "title": "TRAE终于把Code和Work合并了",
+            "originalTitle": "TRAE终于把Code和Work合并了",
+            "summary": "大写的方便",
+            "source": {
+              "name": "量子位·AI与硬科技"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/af3162b2f08d7e6c8fbc7f910",
+              "original": "https://www.qbitai.com/2026/10/502426.html"
+            },
+            "publishedAt": "2026-10-09T09:19:57.000Z",
+            "discoveredAt": "2026-10-09T10:56:33.555Z",
+            "category": "tech",
+            "score": 98,
+            "selected": true,
+            "reason": "国内最顶尖AI产业前沿，大模型落地与商业化一手洞察。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/af3162b2f08d7e6c8fbc7f910"
+            }
+          },
+          {
+            "id": "xyi1uq0qraw5u0owbtm9wnts4",
+            "title": "【一手快讯】Deepmind researchers propose \"Artificial Symbiotic Intelligence\" as an alternative to the singularity",
+            "originalTitle": "Deepmind researchers propose \"Artificial Symbiotic Intelligence\" as an alternative to the singularity",
+            "summary": "According to researchers at the Deepmind Institute, general AI won't emerge as a single supermodel but as a network of cooperating agents and humans. What will matter most, they argue, is not model size but the rules and institutions that govern how they all work together. The article Deepmind researchers propose \"Arti...（来源：The Decoder，实时追踪报道）",
+            "source": {
+              "name": "The Decoder"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/xyi1uq0qraw5u0owbtm9wnts4",
+              "original": "https://the-decoder.com/deepmind-researchers-propose-artificial-symbiotic-intelligence-as-an-alternative-to-the-singularity/"
+            },
+            "publishedAt": "2026-10-03T10:21:23.000Z",
+            "discoveredAt": "2026-10-04T04:09:12.804Z",
+            "category": "tech",
+            "score": 97,
+            "selected": true,
+            "reason": "全球基础大模型与前沿技术突飞猛进，具有重要行业标杆意义。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/xyi1uq0qraw5u0owbtm9wnts4"
+            }
+          },
+          {
+            "id": "j0f2zkmjyey36kjwh26859fyt",
+            "title": "【一手快讯】Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
+            "originalTitle": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
+            "summary": "Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people....（来源：TechCrunch · AI，实时追踪报道）",
+            "source": {
+              "name": "TechCrunch · AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/j0f2zkmjyey36kjwh26859fyt",
+              "original": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/"
+            },
+            "publishedAt": "2026-10-02T19:15:51.000Z",
+            "discoveredAt": "2026-10-04T04:09:18.076Z",
+            "category": "tech",
+            "score": 97,
+            "selected": true,
+            "reason": "前沿论文与开源算法最新突破，探索智能边界。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/j0f2zkmjyey36kjwh26859fyt"
+            }
+          }
+        ]
+      },
+      {
+        "category": "money",
+        "label": "💰 搞钱变现",
+        "items": [
+          {
+            "id": "a54303f7597fb74045fa4a988",
+            "title": "[分享创造] 做了个微信小程序「被裁不慌」，希望能帮大家在遭遇裁员时多一点准备（适用于被动离职主要场景，包括但不限于被恶意低绩效、强制 PIP、劳动仲裁等）",
+            "originalTitle": "[分享创造] 做了个微信小程序「被裁不慌」，希望能帮大家在遭遇裁员时多一点准备（适用于被动离职主要场景，包括但不限于被恶意低绩效、强制 PIP、劳动仲裁等）",
+            "summary": "做了一个叫「被裁不慌」的微信小程序，最近整理得差不多了，想拿出来给有需要的 V 友用用。 做它是因为，遇到裁员时，要弄清楚的事情实在不少。之前因为遭遇低绩效、pip 等场景，跟公司同样境遇的人沟通，及跟网上其他人沟通，发现很多人对一些很基础的劳动法常识认知不够，有的还会担心不接受公司的单方面提出的条件，会连基本的 n+1 都拿不到（事实上除非严重违反公司规定，只要公司单方面解除合同，都是需要支付 n 或 n +1 的。即便真的能力不足，不能胜任工作，仍然需要支付 n 或 n+1 ，且需要严格的证据和前置流程） 在微信里搜索小程序「被裁不慌」就能找到，目前...",
+            "source": {
+              "name": "V2EX·搞钱与创造"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a54303f7597fb74045fa4a988",
+              "original": "https://www.v2ex.com/t/1247661#reply0"
+            },
+            "publishedAt": "2026-10-10T08:15:16.000Z",
+            "discoveredAt": "2026-10-10T08:23:34.481Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a54303f7597fb74045fa4a988"
+            }
+          },
+          {
+            "id": "r8b30q2osfhm72841johijup8",
+            "title": "【一手快讯】US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
+            "originalTitle": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
+            "summary": "Nvidia’s chip-smuggling problem won’t go away as arrests continue....（来源：Ars Technica · AI，实时追踪报道）",
+            "source": {
+              "name": "Ars Technica · AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/r8b30q2osfhm72841johijup8",
+              "original": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/"
+            },
+            "publishedAt": "2026-10-02T18:39:36.000Z",
+            "discoveredAt": "2026-10-04T04:09:18.433Z",
+            "category": "money",
+            "score": 98,
+            "selected": true,
+            "reason": "实用AI工具链与Agent工程最佳实践，极具实操落地价值。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/r8b30q2osfhm72841johijup8"
+            }
+          },
+          {
+            "id": "h8nru4iywuhb9e5lstaxjtx34",
+            "title": "【一手快讯】How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+            "originalTitle": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+            "summary": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation ...（来源：NVIDIA Blog，实时追踪报道）",
+            "source": {
+              "name": "NVIDIA Blog"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/h8nru4iywuhb9e5lstaxjtx34",
+              "original": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
+            },
+            "publishedAt": "2026-10-01T23:44:13.000Z",
+            "discoveredAt": "2026-10-04T04:09:28.951Z",
+            "category": "money",
+            "score": 98,
+            "selected": true,
+            "reason": "实用AI工具链与Agent工程最佳实践，极具实操落地价值。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/h8nru4iywuhb9e5lstaxjtx34"
+            }
+          }
+        ]
+      },
+      {
+        "category": "culture",
+        "label": "🎭 数字文娱",
+        "items": [
+          {
+            "id": "a3c3be39b29e5d427fa5816ce",
+            "title": "本周看什么 | 最近值得一看的 11 部作品",
+            "originalTitle": "本周看什么 | 最近值得一看的 11 部作品",
+            "summary": "📅本周新预告《寒夜怪谈》新预告10月1日，电影《寒夜怪谈》发布了新预告，将于11月13日在北美上映。缇·威斯特（《X》《珀尔》《玛克辛》）执导，约翰尼·德普回归奇幻巨制，将狄更斯名著《圣诞颂歌》改编为 ... 查看全文",
+            "source": {
+              "name": "少数派·效率与数字生活"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a3c3be39b29e5d427fa5816ce",
+              "original": "https://sspai.com/post/115566"
+            },
+            "publishedAt": "2026-10-09T10:04:09.000Z",
+            "discoveredAt": "2026-10-09T11:11:42.298Z",
+            "category": "culture",
+            "score": 97,
+            "selected": true,
+            "reason": "实用效率生产力与数字生活方式，文娱生活探索指南。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a3c3be39b29e5d427fa5816ce"
+            }
+          },
+          {
+            "id": "a9bf513df9a5ca5be00c6c663",
+            "title": "App+1｜所得即所见，更适合中文的字体预览工具：Anyway.Fonts",
+            "originalTitle": "App+1｜所得即所见，更适合中文的字体预览工具：Anyway.Fonts",
+            "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ... 查看全文",
+            "source": {
+              "name": "少数派·效率与数字生活"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a9bf513df9a5ca5be00c6c663",
+              "original": "https://sspai.com/post/114869"
+            },
+            "publishedAt": "2026-10-09T02:08:37.000Z",
+            "discoveredAt": "2026-10-09T04:03:47.081Z",
+            "category": "culture",
+            "score": 95,
+            "selected": true,
+            "reason": "实用效率生产力与数字生活方式，文娱生活探索指南。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a9bf513df9a5ca5be00c6c663"
+            }
+          },
+          {
+            "id": "aed4669c691ba289932dc1ca6",
+            "title": "App+1｜专注星空：让「少刷手机」这件事更愉悦一点",
+            "originalTitle": "App+1｜专注星空：让「少刷手机」这件事更愉悦一点",
+            "summary": "把决定使用时长的时机，放到每次打开应用之前。 查看全文",
+            "source": {
+              "name": "少数派·效率与数字生活"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aed4669c691ba289932dc1ca6",
+              "original": "https://sspai.com/post/115237"
+            },
+            "publishedAt": "2026-10-10T02:19:52.000Z",
+            "discoveredAt": "2026-10-10T03:41:08.761Z",
+            "category": "culture",
+            "score": 93,
+            "selected": true,
+            "reason": "实用效率生产力与数字生活方式，文娱生活探索指南。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aed4669c691ba289932dc1ca6"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "weekly": {
+    "kind": "weekly",
+    "key": "2026-W41",
+    "title": "曾练全球一手简报 · 本周核心周报 (2026年第41周)",
+    "subtitle": "7天全球科技突破、硅谷VC风向与独立开发变现深度复盘",
+    "overview": "本周科技叙事正从模型竞赛转向生态卡位：个人AI智能体受制于平台准入而非能力，苹果收紧权限、华为芯片供不应求，皆印证“算力与入口”才是稀缺资产。食物加工与大脑代谢、AI硬件交卷等信号则提醒，变现机会正从纯软件转向健康数据、端侧硬件与合规智能体服务。创业者应紧盯巨头生态缝隙中的许可红利与垂直场景落地。",
+    "metrics": {
+      "totalEvents": 30,
+      "sourcesCount": 38,
+      "selectedCount": 29
+    },
+    "sections": [
+      {
+        "category": "global",
+        "label": "🌐 全球一手",
+        "items": [
+          {
+            "id": "a3353895d2085b3ae9f4e28d3",
+            "title": "【全球一手】食物加工方式影响代谢与大脑活动",
+            "originalTitle": "Food processing influences metabolism and brain activity",
+            "summary": "弗拉林生物医学研究所的一项新研究发现，即使热量和营养成分相同，加工方式不同的食物也会导致不同的代谢反应和大脑奖励系统活动。超加工食品促使身体释放更多胰岛素、消耗更多能量，并减少碳水化合物的燃烧，同时引发大脑动机和奖励区域的不同反应。该研究发表于《自然·代谢》，有助于解释超加工食品与过度消费及长期健康影响之间的关联。（来源：Hacker News·全球一手，实时追踪报道）",
+            "source": {
+              "name": "Hacker News·全球高赞"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a3353895d2085b3ae9f4e28d3",
+              "original": "https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html"
+            },
+            "publishedAt": "2026-10-10T05:22:30.000Z",
+            "discoveredAt": "2026-10-10T07:38:59.988Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "全球顶尖硅谷极客讨论与独立创新首发平台，洞察一手出海动向。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a3353895d2085b3ae9f4e28d3"
+            }
+          },
+          {
+            "id": "a3d4df4f0c4e7f9c91e32654d",
+            "title": "【全球一手】Asana利用GPT-6.1 Sol将浏览器模型成本降低76倍",
+            "originalTitle": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+            "summary": "Asana在Codex中使用GPT-6 Astra，使其浏览器代理在测试中成本降低76倍、速度提升5倍，从而为客户提供更强大的模型。（来源：OpenAI·官方一手，实时追踪报道）",
+            "source": {
+              "name": "OpenAI·官方一手"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a3d4df4f0c4e7f9c91e32654d",
+              "original": "https://openai.com/index/asana-browser-agent"
+            },
+            "publishedAt": "2026-10-09T07:00:00.000Z",
+            "discoveredAt": "2026-10-09T19:47:00.865Z",
+            "category": "global",
+            "score": 98,
+            "selected": true,
+            "reason": "OpenAI 官方博客与技术产品一手公告，大模型行业风向标。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a3d4df4f0c4e7f9c91e32654d"
+            }
+          },
+          {
+            "id": "ie0agk26ljfk2a4rkska3phn3",
+            "title": "【全球一手】开源“BootLoops”工具支持人工智能模型执行精确的科学计算",
+            "originalTitle": "Open-source \"BootLoops\" harness supports AI models in performing precise scientific calculations",
+            "summary": "哈佛大学物理学家 Matthew Schwartz 使用开源工具 BootLoops 和 Claude 在三个月内制作了从粒子物理学到语言学等 18 个领域的 36 篇手稿。但只有人类专家介入后，结果往往才具有科学价值。“你自己看看一切，”...（来源：The Decoder，实时追踪报道）",
+            "source": {
+              "name": "The Decoder"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ie0agk26ljfk2a4rkska3phn3",
+              "original": "https://the-decoder.com/open-source-bootloops-harness-supports-ai-models-in-performing-precise-scientific-calculations/"
+            },
+            "publishedAt": "2026-10-03T09:19:23.000Z",
+            "discoveredAt": "2026-10-04T04:09:13.169Z",
+            "category": "global",
+            "score": 98,
+            "selected": true,
+            "reason": "爆款AI落地应用与硬件落地，赋能个人与企业效率跨越。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ie0agk26ljfk2a4rkska3phn3"
+            }
+          },
+          {
+            "id": "tpdwnoi0tj5b2yeyakc1oa9qp",
+            "title": "【全球一手】人工智能正在改变开发人员的工作。以下是需要加强的三个技能。",
+            "originalTitle": "AI is changing developer work. Here are three skills to strengthen.",
+            "summary": "学习指导人工智能代理，批判性地审查他们的输出，并将技术判断置于工作流程的中心。后人工智能正在改变开发人员的工作。以下是需要加强的三个技能。首先出现在 GitHub 博客上.........（来源：GitHub Blog · AI & ML，实时追踪报道）",
+            "source": {
+              "name": "GitHub Blog · AI & ML"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/tpdwnoi0tj5b2yeyakc1oa9qp",
+              "original": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/"
+            },
+            "publishedAt": "2026-10-02T15:00:00.000Z",
+            "discoveredAt": "2026-10-04T04:09:23.729Z",
+            "category": "global",
+            "score": 98,
+            "selected": true,
+            "reason": "爆款AI落地应用与硬件落地，赋能个人与企业效率跨越。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/tpdwnoi0tj5b2yeyakc1oa9qp"
+            }
+          },
+          {
+            "id": "a994bbc1076a63fb3c7243aa1",
+            "title": "【全球一手】数据中心宠儿300亿美元IPO梦48小时碎灭",
+            "originalTitle": "Data Center Darling's $30B IPO Dream Crushed in 48 Hours",
+            "summary": "一家备受瞩目的数据中心公司原本计划通过IPO募集300亿美元，却在短短48小时内梦碎。市场环境恶化与投资者需求疲软导致其上市计划迅速流产，成为近期科技金融领域最戏剧性的挫折之一。（来源：Hacker News·全球一手，实时追踪报道）",
+            "source": {
+              "name": "Hacker News·全球高赞"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a994bbc1076a63fb3c7243aa1",
+              "original": "https://www.bloomberg.com/news/articles/2026-10-09/data-center-darling-s-30-billion-ipo-dream-crushed-in-48-hours"
+            },
+            "publishedAt": "2026-10-10T04:04:17.000Z",
+            "discoveredAt": "2026-10-10T05:38:50.947Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球顶尖硅谷极客讨论与独立创新首发平台，洞察一手出海动向。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a994bbc1076a63fb3c7243aa1"
+            }
+          }
+        ]
+      },
+      {
+        "category": "domestic",
+        "label": "🇨🇳 国内前沿",
+        "items": [
+          {
+            "id": "a8c36308fcf94b5e6da5306fd",
+            "title": "代露娃翻车背后：综艺为什么总爱审判东亚父母？",
+            "originalTitle": "代露娃翻车背后：综艺为什么总爱审判东亚父母？",
+            "summary": "同样聊原生家庭，为什么张家齐得到的是共情，代露娃迎来的却是反噬？",
+            "source": {
+              "name": "界面新闻·科技"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a8c36308fcf94b5e6da5306fd",
+              "original": "https://www.jiemian.com/article/15175134.html"
+            },
+            "publishedAt": "2026-10-10T08:06:26.000Z",
+            "discoveredAt": "2026-10-10T08:23:09.684Z",
+            "category": "domestic",
+            "score": 99,
+            "selected": true,
+            "reason": "主流商业财经媒体，实时追踪国内外科技巨头战略动向。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a8c36308fcf94b5e6da5306fd"
+            }
+          },
+          {
+            "id": "abda56171b008841e6716ef40",
+            "title": "AI硬件开始交卷",
+            "originalTitle": "AI硬件开始交卷",
+            "summary": "AI硬件刚刚交上第一份预告答卷。",
+            "source": {
+              "name": "界面新闻·科技"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abda56171b008841e6716ef40",
+              "original": "https://www.jiemian.com/article/15175340.html"
+            },
+            "publishedAt": "2026-10-10T08:02:24.000Z",
+            "discoveredAt": "2026-10-10T08:23:09.970Z",
+            "category": "domestic",
+            "score": 99,
+            "selected": true,
+            "reason": "主流商业财经媒体，实时追踪国内外科技巨头战略动向。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abda56171b008841e6716ef40"
+            }
+          },
+          {
+            "id": "f2h1mn83m8d47lxwspkpmxe4n",
+            "title": "【一手快讯】[AINews] not much happened today",
+            "originalTitle": "[AINews] not much happened today",
+            "summary": "a quiet day....（来源：Latent Space，实时追踪报道）",
+            "source": {
+              "name": "Latent Space"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/f2h1mn83m8d47lxwspkpmxe4n",
+              "original": "https://www.latent.space/p/ainews-not-much-happened-today-cee"
+            },
+            "publishedAt": "2026-10-03T08:45:15.000Z",
+            "discoveredAt": "2026-10-04T04:09:13.518Z",
+            "category": "domestic",
+            "score": 99,
+            "selected": true,
+            "reason": "全球科技巨头布局与AI算力供应链动态，影响产业未来格局。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/f2h1mn83m8d47lxwspkpmxe4n"
+            }
+          },
+          {
+            "id": "elwspjp7u6bg5mbe4rkj8234a",
+            "title": "【一手快讯】Toward provably private learning from federated data",
+            "originalTitle": "Toward provably private learning from federated data",
+            "summary": "Mobile Systems...（来源：Google Research，实时追踪报道）",
+            "source": {
+              "name": "Google Research"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/elwspjp7u6bg5mbe4rkj8234a",
+              "original": "https://research.google/blog/toward-provably-private-learning-from-federated-data/"
+            },
+            "publishedAt": "2026-10-02T14:57:41.000Z",
+            "discoveredAt": "2026-10-04T04:09:24.076Z",
+            "category": "domestic",
+            "score": 99,
+            "selected": true,
+            "reason": "全球科技巨头布局与AI算力供应链动态，影响产业未来格局。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/elwspjp7u6bg5mbe4rkj8234a"
+            }
+          },
+          {
+            "id": "q41zzps85o81dnqe7gplg94pj",
+            "title": "【一手快讯】Fall Into 25 New Games on GeForce NOW This October",
+            "originalTitle": "Fall Into 25 New Games on GeForce NOW This October",
+            "summary": "Spooky season is streaming in. Alongside falling leaves, pumpkin spice and everything nice, 25 new games are joining GeForce NOW throughout October, including six ready to play this week. From a new CONTROL Resonant reward for Performance and Ultimate members to The Witcher 3: Wild Hunt – Remastered joining the cloud, ...（来源：NVIDIA Blog，实时追踪报道）",
+            "source": {
+              "name": "NVIDIA Blog"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/q41zzps85o81dnqe7gplg94pj",
+              "original": "https://blogs.nvidia.com/blog/geforce-now-thursday-october-2026-games-list/"
+            },
+            "publishedAt": "2026-10-01T13:00:54.000Z",
+            "discoveredAt": "2026-10-04T04:09:34.531Z",
+            "category": "domestic",
+            "score": 99,
+            "selected": true,
+            "reason": "全球科技巨头布局与AI算力供应链动态，影响产业未来格局。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/q41zzps85o81dnqe7gplg94pj"
+            }
+          }
+        ]
+      },
+      {
+        "category": "business",
+        "label": "💼 商业风向",
+        "items": [
+          {
+            "id": "a06186cc036448d3994e85303",
+            "title": "华为AI芯片，不够卖了",
+            "originalTitle": "华为AI芯片，不够卖了",
+            "summary": "本文来自微信公众号： 金角财经 ，作者：罗夏 被美国限制了这么多年，华为的AI芯片，还是卖到了供不应求。 据界面新闻刊发的一份媒体交流纪要，华为轮值董事长徐直军表示，昇腾目前还远远不能满足国内需求，暂时没有全面拓展海外市场的计划。说到接下来的供货，他直接催起了产业链：“快一点、多产一点。” 谈到与英伟达的竞争，徐直军又给出了一个颇有分量的判断：虽然英伟达在中国的市场份额很难统计，但按照华为能够统计到的数据，昇腾应该已经超过了英伟达。这仍是华为基于自身数据作出的判断，纪要没有披露具体份额和统计口径。 英伟达自己也在担心。它在今年8月公布的季度报告中提醒投资...",
+            "source": {
+              "name": "虎嗅网·深度商业"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a06186cc036448d3994e85303",
+              "original": "https://www.huxiu.com/article/4896424.html?f=rss"
+            },
+            "publishedAt": "2026-10-10T07:17:57.000Z",
+            "discoveredAt": "2026-10-10T07:36:28.406Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "权威商业洞察与产业内幕，洞悉科技趋势与市场风向。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a06186cc036448d3994e85303"
+            }
+          },
+          {
+            "id": "ac9971ee677e503103b45d77e",
+            "title": "【全球一手】中国个人AI智能体卡在生态准入，而非模型能力",
+            "originalTitle": "China’s Personal AI Agents Stall on Ecosystem Access, Not Model Power",
+            "summary": "中国主要平台已加快个人AI智能体的推出计划，但全面发布仍然有限。真正的瓶颈并非模型能力，而是竞争对手的应用是否允许智能体在其服务内执行操作，以及以何种商业条款合作。（来源：钛媒体，实时追踪报道）",
+            "source": {
+              "name": "钛媒体·资本创投"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ac9971ee677e503103b45d77e",
+              "original": "https://www.tmtpost.com/8163541.html"
+            },
+            "publishedAt": "2026-10-10T02:08:03.000Z",
+            "discoveredAt": "2026-10-10T02:13:01.579Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "全球科技财经与资本创投动态，商业决策核心参考。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ac9971ee677e503103b45d77e"
+            }
+          },
+          {
+            "id": "okir984exo2ghad0o4d8cjuql",
+            "title": "【一手快讯】Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+            "originalTitle": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+            "summary": "Apple says it will add new controls around macOS’s Full Disk Access permission, warning that increasingly capable AI agents make broad access to users’ files, messages, mail, and browsing history riskier....（来源：TechCrunch · AI，实时追踪报道）",
+            "source": {
+              "name": "TechCrunch · AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/okir984exo2ghad0o4d8cjuql",
+              "original": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/"
+            },
+            "publishedAt": "2026-10-02T18:11:27.000Z",
+            "discoveredAt": "2026-10-04T04:09:18.801Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "行业领袖与顶级专家深度思辨，把脉AI时代走向与伦理风控。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/okir984exo2ghad0o4d8cjuql"
+            }
+          },
+          {
+            "id": "pdbzhpydqljrxev8fi1kse55n",
+            "title": "【一手快讯】Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
+            "originalTitle": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
+            "summary": "Learn how AWS Professional Services uses a multi-agent framework built on Amazon Bedrock AgentCore to automate enterprise cloud migrations end to end. Purpose-built AI agents handle discovery, infrastructure as code generation, portfolio governance, and post-migration operations, reducing IaC development time from week...（来源：AWS Machine Learning Blog，实时追踪报道）",
+            "source": {
+              "name": "AWS Machine Learning Blog"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/pdbzhpydqljrxev8fi1kse55n",
+              "original": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/"
+            },
+            "publishedAt": "2026-10-01T22:06:14.000Z",
+            "discoveredAt": "2026-10-04T04:09:29.304Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "行业领袖与顶级专家深度思辨，把脉AI时代走向与伦理风控。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/pdbzhpydqljrxev8fi1kse55n"
+            }
+          },
+          {
+            "id": "af40a19dc94d9c5455e2dc92a",
+            "title": "经济越来越好，中国体育却越来越差？为什么连乒乓球、羽毛球都让人不放心了",
+            "originalTitle": "经济越来越好，中国体育却越来越差？为什么连乒乓球、羽毛球都让人不放心了",
+            "summary": "本文来自微信公众号： 瞰见Lab ，作者：瞰见·大事无小事 中国乒乓球队男队不敌日本队，中国羽毛球队男队也败给了印尼队。在今年的亚运会中，两次决赛都输掉了，于是又出现了熟悉的不安全感：为什么乒乓球和羽毛球都这么不稳固呢？ 以前去看比赛的时候，其他的项目输了还可以靠着传统的几个强项来挽救局面。现在就连这些项目都让人忧心忡忡，人们很容易得出一个结论：中国的体育是不是变差了？ 但是我想问的是另外一件事情。 如果孩子具有运动天赋的话，你会愿意让孩子去从事专业运动员的道路吗？不是周末去报个班那么简单，而要认真的想一想训练、升学、受伤这些问题还有多少年之后的生活怎么...",
+            "source": {
+              "name": "虎嗅网·深度商业"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/af40a19dc94d9c5455e2dc92a",
+              "original": "https://www.huxiu.com/article/4896431.html?f=rss"
+            },
+            "publishedAt": "2026-10-10T07:38:56.000Z",
+            "discoveredAt": "2026-10-10T07:44:55.872Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "权威商业洞察与产业内幕，洞悉科技趋势与市场风向。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/af40a19dc94d9c5455e2dc92a"
+            }
+          }
+        ]
+      },
+      {
+        "category": "tech",
+        "label": "⚡ 科技硬件",
+        "items": [
+          {
+            "id": "af3162b2f08d7e6c8fbc7f910",
+            "title": "TRAE终于把Code和Work合并了",
+            "originalTitle": "TRAE终于把Code和Work合并了",
+            "summary": "大写的方便",
+            "source": {
+              "name": "量子位·AI与硬科技"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/af3162b2f08d7e6c8fbc7f910",
+              "original": "https://www.qbitai.com/2026/10/502426.html"
+            },
+            "publishedAt": "2026-10-09T09:19:57.000Z",
+            "discoveredAt": "2026-10-09T10:56:33.555Z",
+            "category": "tech",
+            "score": 98,
+            "selected": true,
+            "reason": "国内最顶尖AI产业前沿，大模型落地与商业化一手洞察。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/af3162b2f08d7e6c8fbc7f910"
+            }
+          },
+          {
+            "id": "xyi1uq0qraw5u0owbtm9wnts4",
+            "title": "【一手快讯】Deepmind researchers propose \"Artificial Symbiotic Intelligence\" as an alternative to the singularity",
+            "originalTitle": "Deepmind researchers propose \"Artificial Symbiotic Intelligence\" as an alternative to the singularity",
+            "summary": "According to researchers at the Deepmind Institute, general AI won't emerge as a single supermodel but as a network of cooperating agents and humans. What will matter most, they argue, is not model size but the rules and institutions that govern how they all work together. The article Deepmind researchers propose \"Arti...（来源：The Decoder，实时追踪报道）",
+            "source": {
+              "name": "The Decoder"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/xyi1uq0qraw5u0owbtm9wnts4",
+              "original": "https://the-decoder.com/deepmind-researchers-propose-artificial-symbiotic-intelligence-as-an-alternative-to-the-singularity/"
+            },
+            "publishedAt": "2026-10-03T10:21:23.000Z",
+            "discoveredAt": "2026-10-04T04:09:12.804Z",
+            "category": "tech",
+            "score": 97,
+            "selected": true,
+            "reason": "全球基础大模型与前沿技术突飞猛进，具有重要行业标杆意义。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/xyi1uq0qraw5u0owbtm9wnts4"
+            }
+          },
+          {
+            "id": "j0f2zkmjyey36kjwh26859fyt",
+            "title": "【一手快讯】Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
+            "originalTitle": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
+            "summary": "Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people....（来源：TechCrunch · AI，实时追踪报道）",
+            "source": {
+              "name": "TechCrunch · AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/j0f2zkmjyey36kjwh26859fyt",
+              "original": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/"
+            },
+            "publishedAt": "2026-10-02T19:15:51.000Z",
+            "discoveredAt": "2026-10-04T04:09:18.076Z",
+            "category": "tech",
+            "score": 97,
+            "selected": true,
+            "reason": "前沿论文与开源算法最新突破，探索智能边界。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/j0f2zkmjyey36kjwh26859fyt"
+            }
+          },
+          {
+            "id": "doj7g28tdvm1cctlyjbmar6s6",
+            "title": "【一手快讯】Open-sourcing AstaBrief, the fast report-generation model in Asta",
+            "originalTitle": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+            "summary": "Open-sourcing AstaBrief, the fast report-generation model in Asta...（来源：Hugging Face Blog，实时追踪报道）",
+            "source": {
+              "name": "Hugging Face Blog"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/doj7g28tdvm1cctlyjbmar6s6",
+              "original": "https://huggingface.co/blog/allenai/astabrief"
+            },
+            "publishedAt": "2026-10-02T15:19:50.000Z",
+            "discoveredAt": "2026-10-04T04:09:23.381Z",
+            "category": "tech",
+            "score": 97,
+            "selected": true,
+            "reason": "全球基础大模型与前沿技术突飞猛进，具有重要行业标杆意义。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/doj7g28tdvm1cctlyjbmar6s6"
+            }
+          },
+          {
+            "id": "w3d4j3jbywjpyfutmzfkz5qhn",
+            "title": "【一手快讯】Chatham scales its capital markets expertise with OpenAI",
+            "originalTitle": "Chatham scales its capital markets expertise with OpenAI",
+            "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4....（来源：OpenAI News，实时追踪报道）",
+            "source": {
+              "name": "OpenAI News"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/w3d4j3jbywjpyfutmzfkz5qhn",
+              "original": "https://openai.com/index/chatham-financial"
+            },
+            "publishedAt": "2026-10-02T00:00:00.000Z",
+            "discoveredAt": "2026-10-04T04:09:28.603Z",
+            "category": "tech",
+            "score": 97,
+            "selected": true,
+            "reason": "前沿论文与开源算法最新突破，探索智能边界。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/w3d4j3jbywjpyfutmzfkz5qhn"
+            }
+          }
+        ]
+      },
+      {
+        "category": "money",
+        "label": "💰 搞钱变现",
+        "items": [
+          {
+            "id": "a54303f7597fb74045fa4a988",
+            "title": "[分享创造] 做了个微信小程序「被裁不慌」，希望能帮大家在遭遇裁员时多一点准备（适用于被动离职主要场景，包括但不限于被恶意低绩效、强制 PIP、劳动仲裁等）",
+            "originalTitle": "[分享创造] 做了个微信小程序「被裁不慌」，希望能帮大家在遭遇裁员时多一点准备（适用于被动离职主要场景，包括但不限于被恶意低绩效、强制 PIP、劳动仲裁等）",
+            "summary": "做了一个叫「被裁不慌」的微信小程序，最近整理得差不多了，想拿出来给有需要的 V 友用用。 做它是因为，遇到裁员时，要弄清楚的事情实在不少。之前因为遭遇低绩效、pip 等场景，跟公司同样境遇的人沟通，及跟网上其他人沟通，发现很多人对一些很基础的劳动法常识认知不够，有的还会担心不接受公司的单方面提出的条件，会连基本的 n+1 都拿不到（事实上除非严重违反公司规定，只要公司单方面解除合同，都是需要支付 n 或 n +1 的。即便真的能力不足，不能胜任工作，仍然需要支付 n 或 n+1 ，且需要严格的证据和前置流程） 在微信里搜索小程序「被裁不慌」就能找到，目前...",
+            "source": {
+              "name": "V2EX·搞钱与创造"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a54303f7597fb74045fa4a988",
+              "original": "https://www.v2ex.com/t/1247661#reply0"
+            },
+            "publishedAt": "2026-10-10T08:15:16.000Z",
+            "discoveredAt": "2026-10-10T08:23:34.481Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a54303f7597fb74045fa4a988"
+            }
+          },
+          {
+            "id": "r8b30q2osfhm72841johijup8",
+            "title": "【一手快讯】US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
+            "originalTitle": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
+            "summary": "Nvidia’s chip-smuggling problem won’t go away as arrests continue....（来源：Ars Technica · AI，实时追踪报道）",
+            "source": {
+              "name": "Ars Technica · AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/r8b30q2osfhm72841johijup8",
+              "original": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/"
+            },
+            "publishedAt": "2026-10-02T18:39:36.000Z",
+            "discoveredAt": "2026-10-04T04:09:18.433Z",
+            "category": "money",
+            "score": 98,
+            "selected": true,
+            "reason": "实用AI工具链与Agent工程最佳实践，极具实操落地价值。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/r8b30q2osfhm72841johijup8"
+            }
+          },
+          {
+            "id": "h8nru4iywuhb9e5lstaxjtx34",
+            "title": "【一手快讯】How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+            "originalTitle": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+            "summary": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation ...（来源：NVIDIA Blog，实时追踪报道）",
+            "source": {
+              "name": "NVIDIA Blog"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/h8nru4iywuhb9e5lstaxjtx34",
+              "original": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
+            },
+            "publishedAt": "2026-10-01T23:44:13.000Z",
+            "discoveredAt": "2026-10-04T04:09:28.951Z",
+            "category": "money",
+            "score": 98,
+            "selected": true,
+            "reason": "实用AI工具链与Agent工程最佳实践，极具实操落地价值。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/h8nru4iywuhb9e5lstaxjtx34"
+            }
+          },
+          {
+            "id": "a79eaeb84d8f7165a4a690ff5",
+            "title": "[Apple] 我把自己的付费 Mac App「Cliptate」开源了， MIT 协议。",
+            "originalTitle": "[Apple] 我把自己的付费 Mac App「Cliptate」开源了， MIT 协议。",
+            "summary": "它是一款给音视频创作者用的本地 AI 工具。导入录音或视频，就能转成文字、区分说话人、自动剪掉静音，再导出字幕或 Final Cut Pro 时间线。也支持语音输入、配音和声音克隆。 转写和语音合成都在 Mac 上运行，音频无需上传云端。 GitHub 直下载版免费，全部模型和 Pro 功能开放，无需订阅。App Store 版仍保留订阅。支持 M1 及以上的 Mac ，需要 macOS 15 或更新版本。 做口播、播客或课程的朋友，欢迎试试。用得上就点个 Star ，有想法也欢迎提 Issue 或 PR 。 👉 https://github.com/...",
+            "source": {
+              "name": "V2EX·搞钱与创造"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a79eaeb84d8f7165a4a690ff5",
+              "original": "https://www.v2ex.com/t/1247658#reply0"
+            },
+            "publishedAt": "2026-10-10T08:07:38.000Z",
+            "discoveredAt": "2026-10-10T08:08:31.290Z",
+            "category": "money",
+            "score": 96,
+            "selected": true,
+            "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a79eaeb84d8f7165a4a690ff5"
+            }
+          },
+          {
+            "id": "adb998fd274ab2979fda103be",
+            "title": "[分享创造] [送码] 反向打卡 App",
+            "originalTitle": "[分享创造] [送码] 反向打卡 App",
+            "summary": "正向打卡总是很难坚持，那就试试“反向打卡”。 我做了一个记录不良习惯的 App ，专门用来记录熬夜、喝酒、刷短视频等行为。它不要求你每天完成什么，也不会因为“没做到”而产生压力和自责，只是帮你看见自己的习惯，让每一次记录都成为一次提醒。 当你开始有意识地观察自己，改变也许就已经在发生了。 我自己用了一段时间，确实对减少一些不好的习惯有所帮助。现在送出一批兑换码，欢迎来试试看，也许它能陪你慢慢改变一点点。 https://apps.apple.com/cn/app/%E5%8F%8D%E5%90%91%E6%89%93%E5%8D%A1/id6809721...",
+            "source": {
+              "name": "V2EX·搞钱与创造"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/adb998fd274ab2979fda103be",
+              "original": "https://www.v2ex.com/t/1247656#reply0"
+            },
+            "publishedAt": "2026-10-10T08:05:44.000Z",
+            "discoveredAt": "2026-10-10T08:08:31.625Z",
+            "category": "money",
+            "score": 96,
+            "selected": true,
+            "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/adb998fd274ab2979fda103be"
+            }
+          }
+        ]
+      },
+      {
+        "category": "culture",
+        "label": "🎭 数字文娱",
+        "items": [
+          {
+            "id": "a3c3be39b29e5d427fa5816ce",
+            "title": "本周看什么 | 最近值得一看的 11 部作品",
+            "originalTitle": "本周看什么 | 最近值得一看的 11 部作品",
+            "summary": "📅本周新预告《寒夜怪谈》新预告10月1日，电影《寒夜怪谈》发布了新预告，将于11月13日在北美上映。缇·威斯特（《X》《珀尔》《玛克辛》）执导，约翰尼·德普回归奇幻巨制，将狄更斯名著《圣诞颂歌》改编为 ... 查看全文",
+            "source": {
+              "name": "少数派·效率与数字生活"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a3c3be39b29e5d427fa5816ce",
+              "original": "https://sspai.com/post/115566"
+            },
+            "publishedAt": "2026-10-09T10:04:09.000Z",
+            "discoveredAt": "2026-10-09T11:11:42.298Z",
+            "category": "culture",
+            "score": 97,
+            "selected": true,
+            "reason": "实用效率生产力与数字生活方式，文娱生活探索指南。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a3c3be39b29e5d427fa5816ce"
+            }
+          },
+          {
+            "id": "a9bf513df9a5ca5be00c6c663",
+            "title": "App+1｜所得即所见，更适合中文的字体预览工具：Anyway.Fonts",
+            "originalTitle": "App+1｜所得即所见，更适合中文的字体预览工具：Anyway.Fonts",
+            "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ... 查看全文",
+            "source": {
+              "name": "少数派·效率与数字生活"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a9bf513df9a5ca5be00c6c663",
+              "original": "https://sspai.com/post/114869"
+            },
+            "publishedAt": "2026-10-09T02:08:37.000Z",
+            "discoveredAt": "2026-10-09T04:03:47.081Z",
+            "category": "culture",
+            "score": 95,
+            "selected": true,
+            "reason": "实用效率生产力与数字生活方式，文娱生活探索指南。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a9bf513df9a5ca5be00c6c663"
+            }
+          },
+          {
+            "id": "aed4669c691ba289932dc1ca6",
+            "title": "App+1｜专注星空：让「少刷手机」这件事更愉悦一点",
+            "originalTitle": "App+1｜专注星空：让「少刷手机」这件事更愉悦一点",
+            "summary": "把决定使用时长的时机，放到每次打开应用之前。 查看全文",
+            "source": {
+              "name": "少数派·效率与数字生活"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aed4669c691ba289932dc1ca6",
+              "original": "https://sspai.com/post/115237"
+            },
+            "publishedAt": "2026-10-10T02:19:52.000Z",
+            "discoveredAt": "2026-10-10T03:41:08.761Z",
+            "category": "culture",
+            "score": 93,
+            "selected": true,
+            "reason": "实用效率生产力与数字生活方式，文娱生活探索指南。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aed4669c691ba289932dc1ca6"
+            }
+          },
+          {
+            "id": "a6a4f3ab1a2f637ce24c311f1",
+            "title": "vivo X500 Pro Max 影像漫谈：当视频创作像拍照一样轻巧",
+            "originalTitle": "vivo X500 Pro Max 影像漫谈：当视频创作像拍照一样轻巧",
+            "summary": "让生活里的寻常片刻，在被轻松记录的同时依然经得起回味。 查看全文",
+            "source": {
+              "name": "少数派·效率与数字生活"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a6a4f3ab1a2f637ce24c311f1",
+              "original": "https://sspai.com/post/115456"
+            },
+            "publishedAt": "2026-10-09T06:43:28.000Z",
+            "discoveredAt": "2026-10-09T07:44:05.744Z",
+            "category": "culture",
+            "score": 92,
+            "selected": true,
+            "reason": "实用效率生产力与数字生活方式，文娱生活探索指南。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a6a4f3ab1a2f637ce24c311f1"
+            }
+          },
+          {
+            "id": "af159f02bb334e974dd77bd6f",
+            "title": "【极客生活】iOS 27.2 测试版发布：健康应用大改版，新增长寿与健康年龄功能",
+            "originalTitle": "Five New Features Coming to Your iPhone in iOS 27.2",
+            "summary": "苹果 iOS 27.2 测试版更新，重点改版健康应用，整合健身圆环，新增长寿标签、健康年龄评估及摄像头体态分析，并引入 Apple Intelligence 支持的来电情境功能。（来源：Lifehacker·全球效率生活）",
+            "source": {
+              "name": "Lifehacker·全球效率生活"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/af159f02bb334e974dd77bd6f",
+              "original": "https://lifehacker.com/tech/new-features-coming-to-iphone-ios-272?utm_medium=RSS"
+            },
+            "publishedAt": "2026-10-09T19:30:00.000Z",
+            "discoveredAt": "2026-10-10T08:29:36.215Z",
+            "category": "culture",
+            "score": 84,
+            "selected": false,
+            "reason": "健康应用大改版，强化苹果生态健康管理壁垒，但无新硬件，商业变现有限。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/af159f02bb334e974dd77bd6f"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "monthly": {
+    "kind": "monthly",
+    "key": "2026-10",
+    "title": "曾练全球一手简报 · 月度产业全景报告 (2026年10月)",
+    "subtitle": "30天全球AI格局演进、跨国商业并购与高价值变现赛道全景",
+    "overview": "本期信号清晰：AI正从模型竞赛转向生态卡位——华为芯片供不应求、个人智能体困于准入、苹果紧急收紧权限，硬件与规则同步交卷。食物加工影响大脑、综艺审判父母，揭示消费与情绪赛道的新变现切口。搞钱方向：智能体合规中间层、AI硬件供应链套利、隐私计算企业服务。",
+    "metrics": {
+      "totalEvents": 36,
+      "sourcesCount": 38,
+      "selectedCount": 34
+    },
+    "sections": [
+      {
+        "category": "global",
+        "label": "🌐 全球一手",
+        "items": [
+          {
+            "id": "a3353895d2085b3ae9f4e28d3",
+            "title": "【全球一手】食物加工方式影响代谢与大脑活动",
+            "originalTitle": "Food processing influences metabolism and brain activity",
+            "summary": "弗拉林生物医学研究所的一项新研究发现，即使热量和营养成分相同，加工方式不同的食物也会导致不同的代谢反应和大脑奖励系统活动。超加工食品促使身体释放更多胰岛素、消耗更多能量，并减少碳水化合物的燃烧，同时引发大脑动机和奖励区域的不同反应。该研究发表于《自然·代谢》，有助于解释超加工食品与过度消费及长期健康影响之间的关联。（来源：Hacker News·全球一手，实时追踪报道）",
+            "source": {
+              "name": "Hacker News·全球高赞"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a3353895d2085b3ae9f4e28d3",
+              "original": "https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html"
+            },
+            "publishedAt": "2026-10-10T05:22:30.000Z",
+            "discoveredAt": "2026-10-10T07:38:59.988Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "全球顶尖硅谷极客讨论与独立创新首发平台，洞察一手出海动向。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a3353895d2085b3ae9f4e28d3"
+            }
+          },
+          {
+            "id": "a3d4df4f0c4e7f9c91e32654d",
+            "title": "【全球一手】Asana利用GPT-6.1 Sol将浏览器模型成本降低76倍",
+            "originalTitle": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+            "summary": "Asana在Codex中使用GPT-6 Astra，使其浏览器代理在测试中成本降低76倍、速度提升5倍，从而为客户提供更强大的模型。（来源：OpenAI·官方一手，实时追踪报道）",
+            "source": {
+              "name": "OpenAI·官方一手"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a3d4df4f0c4e7f9c91e32654d",
+              "original": "https://openai.com/index/asana-browser-agent"
+            },
+            "publishedAt": "2026-10-09T07:00:00.000Z",
+            "discoveredAt": "2026-10-09T19:47:00.865Z",
+            "category": "global",
+            "score": 98,
+            "selected": true,
+            "reason": "OpenAI 官方博客与技术产品一手公告，大模型行业风向标。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a3d4df4f0c4e7f9c91e32654d"
+            }
+          },
+          {
+            "id": "ie0agk26ljfk2a4rkska3phn3",
+            "title": "【全球一手】开源“BootLoops”工具支持人工智能模型执行精确的科学计算",
+            "originalTitle": "Open-source \"BootLoops\" harness supports AI models in performing precise scientific calculations",
+            "summary": "哈佛大学物理学家 Matthew Schwartz 使用开源工具 BootLoops 和 Claude 在三个月内制作了从粒子物理学到语言学等 18 个领域的 36 篇手稿。但只有人类专家介入后，结果往往才具有科学价值。“你自己看看一切，”...（来源：The Decoder，实时追踪报道）",
+            "source": {
+              "name": "The Decoder"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ie0agk26ljfk2a4rkska3phn3",
+              "original": "https://the-decoder.com/open-source-bootloops-harness-supports-ai-models-in-performing-precise-scientific-calculations/"
+            },
+            "publishedAt": "2026-10-03T09:19:23.000Z",
+            "discoveredAt": "2026-10-04T04:09:13.169Z",
+            "category": "global",
+            "score": 98,
+            "selected": true,
+            "reason": "爆款AI落地应用与硬件落地，赋能个人与企业效率跨越。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ie0agk26ljfk2a4rkska3phn3"
+            }
+          },
+          {
+            "id": "tpdwnoi0tj5b2yeyakc1oa9qp",
+            "title": "【全球一手】人工智能正在改变开发人员的工作。以下是需要加强的三个技能。",
+            "originalTitle": "AI is changing developer work. Here are three skills to strengthen.",
+            "summary": "学习指导人工智能代理，批判性地审查他们的输出，并将技术判断置于工作流程的中心。后人工智能正在改变开发人员的工作。以下是需要加强的三个技能。首先出现在 GitHub 博客上.........（来源：GitHub Blog · AI & ML，实时追踪报道）",
+            "source": {
+              "name": "GitHub Blog · AI & ML"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/tpdwnoi0tj5b2yeyakc1oa9qp",
+              "original": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/"
+            },
+            "publishedAt": "2026-10-02T15:00:00.000Z",
+            "discoveredAt": "2026-10-04T04:09:23.729Z",
+            "category": "global",
+            "score": 98,
+            "selected": true,
+            "reason": "爆款AI落地应用与硬件落地，赋能个人与企业效率跨越。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/tpdwnoi0tj5b2yeyakc1oa9qp"
+            }
+          },
+          {
+            "id": "a994bbc1076a63fb3c7243aa1",
+            "title": "【全球一手】数据中心宠儿300亿美元IPO梦48小时碎灭",
+            "originalTitle": "Data Center Darling's $30B IPO Dream Crushed in 48 Hours",
+            "summary": "一家备受瞩目的数据中心公司原本计划通过IPO募集300亿美元，却在短短48小时内梦碎。市场环境恶化与投资者需求疲软导致其上市计划迅速流产，成为近期科技金融领域最戏剧性的挫折之一。（来源：Hacker News·全球一手，实时追踪报道）",
+            "source": {
+              "name": "Hacker News·全球高赞"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a994bbc1076a63fb3c7243aa1",
+              "original": "https://www.bloomberg.com/news/articles/2026-10-09/data-center-darling-s-30-billion-ipo-dream-crushed-in-48-hours"
+            },
+            "publishedAt": "2026-10-10T04:04:17.000Z",
+            "discoveredAt": "2026-10-10T05:38:50.947Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球顶尖硅谷极客讨论与独立创新首发平台，洞察一手出海动向。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a994bbc1076a63fb3c7243aa1"
+            }
+          },
+          {
+            "id": "ad1c933912b90a72ca17569dc",
+            "title": "【全球一手】Maildun for Mac：手动、AI 或 MCP 设计品牌邮件",
+            "originalTitle": "Maildun for Mac",
+            "summary": "Maildun 是一款 Mac 邮件设计工具，支持手动、AI 或通过 MCP 协议创建品牌邮件。用户可自由选择设计方式，确保邮件符合品牌规范。（来源：Product Hunt·AI落地，实时追踪报道）",
+            "source": {
+              "name": "Product Hunt·AI变现神器"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ad1c933912b90a72ca17569dc",
+              "original": "https://www.producthunt.com/products/maildun-for-mac"
+            },
+            "publishedAt": "2026-10-10T01:06:33.000Z",
+            "discoveredAt": "2026-10-10T08:08:23.551Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球最新AI变现神器与落地工具，独立开发与出海赚钱首选。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ad1c933912b90a72ca17569dc"
+            }
+          }
+        ]
+      },
+      {
+        "category": "domestic",
+        "label": "🇨🇳 国内前沿",
+        "items": [
+          {
+            "id": "a8c36308fcf94b5e6da5306fd",
+            "title": "代露娃翻车背后：综艺为什么总爱审判东亚父母？",
+            "originalTitle": "代露娃翻车背后：综艺为什么总爱审判东亚父母？",
+            "summary": "同样聊原生家庭，为什么张家齐得到的是共情，代露娃迎来的却是反噬？",
+            "source": {
+              "name": "界面新闻·科技"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a8c36308fcf94b5e6da5306fd",
+              "original": "https://www.jiemian.com/article/15175134.html"
+            },
+            "publishedAt": "2026-10-10T08:06:26.000Z",
+            "discoveredAt": "2026-10-10T08:23:09.684Z",
+            "category": "domestic",
+            "score": 99,
+            "selected": true,
+            "reason": "主流商业财经媒体，实时追踪国内外科技巨头战略动向。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a8c36308fcf94b5e6da5306fd"
+            }
+          },
+          {
+            "id": "abda56171b008841e6716ef40",
+            "title": "AI硬件开始交卷",
+            "originalTitle": "AI硬件开始交卷",
+            "summary": "AI硬件刚刚交上第一份预告答卷。",
+            "source": {
+              "name": "界面新闻·科技"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abda56171b008841e6716ef40",
+              "original": "https://www.jiemian.com/article/15175340.html"
+            },
+            "publishedAt": "2026-10-10T08:02:24.000Z",
+            "discoveredAt": "2026-10-10T08:23:09.970Z",
+            "category": "domestic",
+            "score": 99,
+            "selected": true,
+            "reason": "主流商业财经媒体，实时追踪国内外科技巨头战略动向。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abda56171b008841e6716ef40"
+            }
+          },
+          {
+            "id": "f2h1mn83m8d47lxwspkpmxe4n",
+            "title": "【一手快讯】[AINews] not much happened today",
+            "originalTitle": "[AINews] not much happened today",
+            "summary": "a quiet day....（来源：Latent Space，实时追踪报道）",
+            "source": {
+              "name": "Latent Space"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/f2h1mn83m8d47lxwspkpmxe4n",
+              "original": "https://www.latent.space/p/ainews-not-much-happened-today-cee"
+            },
+            "publishedAt": "2026-10-03T08:45:15.000Z",
+            "discoveredAt": "2026-10-04T04:09:13.518Z",
+            "category": "domestic",
+            "score": 99,
+            "selected": true,
+            "reason": "全球科技巨头布局与AI算力供应链动态，影响产业未来格局。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/f2h1mn83m8d47lxwspkpmxe4n"
+            }
+          },
+          {
+            "id": "elwspjp7u6bg5mbe4rkj8234a",
+            "title": "【一手快讯】Toward provably private learning from federated data",
+            "originalTitle": "Toward provably private learning from federated data",
+            "summary": "Mobile Systems...（来源：Google Research，实时追踪报道）",
+            "source": {
+              "name": "Google Research"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/elwspjp7u6bg5mbe4rkj8234a",
+              "original": "https://research.google/blog/toward-provably-private-learning-from-federated-data/"
+            },
+            "publishedAt": "2026-10-02T14:57:41.000Z",
+            "discoveredAt": "2026-10-04T04:09:24.076Z",
+            "category": "domestic",
+            "score": 99,
+            "selected": true,
+            "reason": "全球科技巨头布局与AI算力供应链动态，影响产业未来格局。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/elwspjp7u6bg5mbe4rkj8234a"
+            }
+          },
+          {
+            "id": "q41zzps85o81dnqe7gplg94pj",
+            "title": "【一手快讯】Fall Into 25 New Games on GeForce NOW This October",
+            "originalTitle": "Fall Into 25 New Games on GeForce NOW This October",
+            "summary": "Spooky season is streaming in. Alongside falling leaves, pumpkin spice and everything nice, 25 new games are joining GeForce NOW throughout October, including six ready to play this week. From a new CONTROL Resonant reward for Performance and Ultimate members to The Witcher 3: Wild Hunt – Remastered joining the cloud, ...（来源：NVIDIA Blog，实时追踪报道）",
+            "source": {
+              "name": "NVIDIA Blog"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/q41zzps85o81dnqe7gplg94pj",
+              "original": "https://blogs.nvidia.com/blog/geforce-now-thursday-october-2026-games-list/"
+            },
+            "publishedAt": "2026-10-01T13:00:54.000Z",
+            "discoveredAt": "2026-10-04T04:09:34.531Z",
+            "category": "domestic",
+            "score": 99,
+            "selected": true,
+            "reason": "全球科技巨头布局与AI算力供应链动态，影响产业未来格局。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/q41zzps85o81dnqe7gplg94pj"
+            }
+          },
+          {
+            "id": "a2c9439ef0f42b4628e0a06cd",
+            "title": "赵长江谈智界 RX 大定人群画像，透露超 85% 用户选择 L3 架构版本",
+            "originalTitle": "赵长江谈智界 RX 大定人群画像，透露超 85% 用户选择 L3 架构版本",
+            "summary": "IT之家 10 月 10 日消息，智界汽车执行董事及执行副总裁赵长江今日发文，谈及了智界 RX 轿跑 SUV 的大定人群画像。 他透露， 超 85% 用户选择 L3 架构版本 ，95% 用户标配或选装主驾智能环抱座椅，近三成用户偏爱闪蝶蓝。不少保时捷、BBA 豪华车主，试驾后选择换车；两款 Max 版本，也收获很多年轻用户的认可。 赵长江表示， 做这台车的初心，就是希望它更好开、更安全，拥有指哪打哪的精准操控 。他称，该车在 30 万以内，把百万级底盘、操控实力、安全保障、前沿黑科技配齐，核心体验不缩水， 舱内激光版本也会有很好的智驾体验 。 参考IT之...",
+            "source": {
+              "name": "IT之家·精选快讯"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a2c9439ef0f42b4628e0a06cd",
+              "original": "https://www.ithome.com/1/011/427.htm"
+            },
+            "publishedAt": "2026-10-10T08:20:39.000Z",
+            "discoveredAt": "2026-10-10T08:23:30.782Z",
+            "category": "domestic",
+            "score": 96,
+            "selected": true,
+            "reason": "科技互联网与大厂软硬件实时极速快讯，一手资讯不遗漏。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a2c9439ef0f42b4628e0a06cd"
+            }
+          }
+        ]
+      },
+      {
+        "category": "business",
+        "label": "💼 商业风向",
+        "items": [
+          {
+            "id": "a06186cc036448d3994e85303",
+            "title": "华为AI芯片，不够卖了",
+            "originalTitle": "华为AI芯片，不够卖了",
+            "summary": "本文来自微信公众号： 金角财经 ，作者：罗夏 被美国限制了这么多年，华为的AI芯片，还是卖到了供不应求。 据界面新闻刊发的一份媒体交流纪要，华为轮值董事长徐直军表示，昇腾目前还远远不能满足国内需求，暂时没有全面拓展海外市场的计划。说到接下来的供货，他直接催起了产业链：“快一点、多产一点。” 谈到与英伟达的竞争，徐直军又给出了一个颇有分量的判断：虽然英伟达在中国的市场份额很难统计，但按照华为能够统计到的数据，昇腾应该已经超过了英伟达。这仍是华为基于自身数据作出的判断，纪要没有披露具体份额和统计口径。 英伟达自己也在担心。它在今年8月公布的季度报告中提醒投资...",
+            "source": {
+              "name": "虎嗅网·深度商业"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a06186cc036448d3994e85303",
+              "original": "https://www.huxiu.com/article/4896424.html?f=rss"
+            },
+            "publishedAt": "2026-10-10T07:17:57.000Z",
+            "discoveredAt": "2026-10-10T07:36:28.406Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "权威商业洞察与产业内幕，洞悉科技趋势与市场风向。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a06186cc036448d3994e85303"
+            }
+          },
+          {
+            "id": "ac9971ee677e503103b45d77e",
+            "title": "【全球一手】中国个人AI智能体卡在生态准入，而非模型能力",
+            "originalTitle": "China’s Personal AI Agents Stall on Ecosystem Access, Not Model Power",
+            "summary": "中国主要平台已加快个人AI智能体的推出计划，但全面发布仍然有限。真正的瓶颈并非模型能力，而是竞争对手的应用是否允许智能体在其服务内执行操作，以及以何种商业条款合作。（来源：钛媒体，实时追踪报道）",
+            "source": {
+              "name": "钛媒体·资本创投"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ac9971ee677e503103b45d77e",
+              "original": "https://www.tmtpost.com/8163541.html"
+            },
+            "publishedAt": "2026-10-10T02:08:03.000Z",
+            "discoveredAt": "2026-10-10T02:13:01.579Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "全球科技财经与资本创投动态，商业决策核心参考。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ac9971ee677e503103b45d77e"
+            }
+          },
+          {
+            "id": "okir984exo2ghad0o4d8cjuql",
+            "title": "【一手快讯】Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+            "originalTitle": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+            "summary": "Apple says it will add new controls around macOS’s Full Disk Access permission, warning that increasingly capable AI agents make broad access to users’ files, messages, mail, and browsing history riskier....（来源：TechCrunch · AI，实时追踪报道）",
+            "source": {
+              "name": "TechCrunch · AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/okir984exo2ghad0o4d8cjuql",
+              "original": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/"
+            },
+            "publishedAt": "2026-10-02T18:11:27.000Z",
+            "discoveredAt": "2026-10-04T04:09:18.801Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "行业领袖与顶级专家深度思辨，把脉AI时代走向与伦理风控。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/okir984exo2ghad0o4d8cjuql"
+            }
+          },
+          {
+            "id": "pdbzhpydqljrxev8fi1kse55n",
+            "title": "【一手快讯】Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
+            "originalTitle": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
+            "summary": "Learn how AWS Professional Services uses a multi-agent framework built on Amazon Bedrock AgentCore to automate enterprise cloud migrations end to end. Purpose-built AI agents handle discovery, infrastructure as code generation, portfolio governance, and post-migration operations, reducing IaC development time from week...（来源：AWS Machine Learning Blog，实时追踪报道）",
+            "source": {
+              "name": "AWS Machine Learning Blog"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/pdbzhpydqljrxev8fi1kse55n",
+              "original": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/"
+            },
+            "publishedAt": "2026-10-01T22:06:14.000Z",
+            "discoveredAt": "2026-10-04T04:09:29.304Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "行业领袖与顶级专家深度思辨，把脉AI时代走向与伦理风控。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/pdbzhpydqljrxev8fi1kse55n"
+            }
+          },
+          {
+            "id": "af40a19dc94d9c5455e2dc92a",
+            "title": "经济越来越好，中国体育却越来越差？为什么连乒乓球、羽毛球都让人不放心了",
+            "originalTitle": "经济越来越好，中国体育却越来越差？为什么连乒乓球、羽毛球都让人不放心了",
+            "summary": "本文来自微信公众号： 瞰见Lab ，作者：瞰见·大事无小事 中国乒乓球队男队不敌日本队，中国羽毛球队男队也败给了印尼队。在今年的亚运会中，两次决赛都输掉了，于是又出现了熟悉的不安全感：为什么乒乓球和羽毛球都这么不稳固呢？ 以前去看比赛的时候，其他的项目输了还可以靠着传统的几个强项来挽救局面。现在就连这些项目都让人忧心忡忡，人们很容易得出一个结论：中国的体育是不是变差了？ 但是我想问的是另外一件事情。 如果孩子具有运动天赋的话，你会愿意让孩子去从事专业运动员的道路吗？不是周末去报个班那么简单，而要认真的想一想训练、升学、受伤这些问题还有多少年之后的生活怎么...",
+            "source": {
+              "name": "虎嗅网·深度商业"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/af40a19dc94d9c5455e2dc92a",
+              "original": "https://www.huxiu.com/article/4896431.html?f=rss"
+            },
+            "publishedAt": "2026-10-10T07:38:56.000Z",
+            "discoveredAt": "2026-10-10T07:44:55.872Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "权威商业洞察与产业内幕，洞悉科技趋势与市场风向。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/af40a19dc94d9c5455e2dc92a"
+            }
+          },
+          {
+            "id": "acc99673540e18ddc5282713d",
+            "title": "乐刻的全球第四，和中国健身房的“大国悖论”",
+            "originalTitle": "乐刻的全球第四，和中国健身房的“大国悖论”",
+            "summary": "本文来自微信公众号： 健厂 ，作者：健厂 美国健康与健身协会（Health&amp;Fitness Association，HFA）近日发布的《2026全球健身报告》（2026 HFA Global Report），呈现了两个截然不同的中国。 在国家市场统计中，中国商业健身场馆的会员渗透率只有3.6%。美国是26.1%，澳大利亚23%，韩国12.2%，日本9.5%。在报告列出的亚太主要市场中，中国只高于印度的0.9%。 翻到全球健身连锁榜单，中国企业却已经跻身前列。 按会员数量，乐刻（HILEFIT）以1700万会员位列全球第二，仅次于拥有2080万会员...",
+            "source": {
+              "name": "虎嗅网·深度商业"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/acc99673540e18ddc5282713d",
+              "original": "https://www.huxiu.com/article/4896432.html?f=rss"
+            },
+            "publishedAt": "2026-10-10T07:41:49.000Z",
+            "discoveredAt": "2026-10-10T07:50:39.133Z",
+            "category": "business",
+            "score": 97,
+            "selected": true,
+            "reason": "权威商业洞察与产业内幕，洞悉科技趋势与市场风向。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/acc99673540e18ddc5282713d"
+            }
+          }
+        ]
+      },
+      {
+        "category": "tech",
+        "label": "⚡ 科技硬件",
+        "items": [
+          {
+            "id": "af3162b2f08d7e6c8fbc7f910",
+            "title": "TRAE终于把Code和Work合并了",
+            "originalTitle": "TRAE终于把Code和Work合并了",
+            "summary": "大写的方便",
+            "source": {
+              "name": "量子位·AI与硬科技"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/af3162b2f08d7e6c8fbc7f910",
+              "original": "https://www.qbitai.com/2026/10/502426.html"
+            },
+            "publishedAt": "2026-10-09T09:19:57.000Z",
+            "discoveredAt": "2026-10-09T10:56:33.555Z",
+            "category": "tech",
+            "score": 98,
+            "selected": true,
+            "reason": "国内最顶尖AI产业前沿，大模型落地与商业化一手洞察。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/af3162b2f08d7e6c8fbc7f910"
+            }
+          },
+          {
+            "id": "xyi1uq0qraw5u0owbtm9wnts4",
+            "title": "【一手快讯】Deepmind researchers propose \"Artificial Symbiotic Intelligence\" as an alternative to the singularity",
+            "originalTitle": "Deepmind researchers propose \"Artificial Symbiotic Intelligence\" as an alternative to the singularity",
+            "summary": "According to researchers at the Deepmind Institute, general AI won't emerge as a single supermodel but as a network of cooperating agents and humans. What will matter most, they argue, is not model size but the rules and institutions that govern how they all work together. The article Deepmind researchers propose \"Arti...（来源：The Decoder，实时追踪报道）",
+            "source": {
+              "name": "The Decoder"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/xyi1uq0qraw5u0owbtm9wnts4",
+              "original": "https://the-decoder.com/deepmind-researchers-propose-artificial-symbiotic-intelligence-as-an-alternative-to-the-singularity/"
+            },
+            "publishedAt": "2026-10-03T10:21:23.000Z",
+            "discoveredAt": "2026-10-04T04:09:12.804Z",
+            "category": "tech",
+            "score": 97,
+            "selected": true,
+            "reason": "全球基础大模型与前沿技术突飞猛进，具有重要行业标杆意义。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/xyi1uq0qraw5u0owbtm9wnts4"
+            }
+          },
+          {
+            "id": "j0f2zkmjyey36kjwh26859fyt",
+            "title": "【一手快讯】Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
+            "originalTitle": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
+            "summary": "Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people....（来源：TechCrunch · AI，实时追踪报道）",
+            "source": {
+              "name": "TechCrunch · AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/j0f2zkmjyey36kjwh26859fyt",
+              "original": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/"
+            },
+            "publishedAt": "2026-10-02T19:15:51.000Z",
+            "discoveredAt": "2026-10-04T04:09:18.076Z",
+            "category": "tech",
+            "score": 97,
+            "selected": true,
+            "reason": "前沿论文与开源算法最新突破，探索智能边界。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/j0f2zkmjyey36kjwh26859fyt"
+            }
+          },
+          {
+            "id": "doj7g28tdvm1cctlyjbmar6s6",
+            "title": "【一手快讯】Open-sourcing AstaBrief, the fast report-generation model in Asta",
+            "originalTitle": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+            "summary": "Open-sourcing AstaBrief, the fast report-generation model in Asta...（来源：Hugging Face Blog，实时追踪报道）",
+            "source": {
+              "name": "Hugging Face Blog"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/doj7g28tdvm1cctlyjbmar6s6",
+              "original": "https://huggingface.co/blog/allenai/astabrief"
+            },
+            "publishedAt": "2026-10-02T15:19:50.000Z",
+            "discoveredAt": "2026-10-04T04:09:23.381Z",
+            "category": "tech",
+            "score": 97,
+            "selected": true,
+            "reason": "全球基础大模型与前沿技术突飞猛进，具有重要行业标杆意义。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/doj7g28tdvm1cctlyjbmar6s6"
+            }
+          },
+          {
+            "id": "w3d4j3jbywjpyfutmzfkz5qhn",
+            "title": "【一手快讯】Chatham scales its capital markets expertise with OpenAI",
+            "originalTitle": "Chatham scales its capital markets expertise with OpenAI",
+            "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4....（来源：OpenAI News，实时追踪报道）",
+            "source": {
+              "name": "OpenAI News"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/w3d4j3jbywjpyfutmzfkz5qhn",
+              "original": "https://openai.com/index/chatham-financial"
+            },
+            "publishedAt": "2026-10-02T00:00:00.000Z",
+            "discoveredAt": "2026-10-04T04:09:28.603Z",
+            "category": "tech",
+            "score": 97,
+            "selected": true,
+            "reason": "前沿论文与开源算法最新突破，探索智能边界。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/w3d4j3jbywjpyfutmzfkz5qhn"
+            }
+          },
+          {
+            "id": "s9f0a6cjwujfck4po8escekq3",
+            "title": "【一手快讯】With most information hidden, the game Stratego had stumped AI—until now",
+            "originalTitle": "With most information hidden, the game Stratego had stumped AI—until now",
+            "summary": "Adding in a second neural network that guesses the identity of hidden pieces was key....（来源：Ars Technica · AI，实时追踪报道）",
+            "source": {
+              "name": "Ars Technica · AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/s9f0a6cjwujfck4po8escekq3",
+              "original": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/"
+            },
+            "publishedAt": "2026-10-01T16:28:04.000Z",
+            "discoveredAt": "2026-10-04T04:09:33.833Z",
+            "category": "tech",
+            "score": 97,
+            "selected": true,
+            "reason": "全球基础大模型与前沿技术突飞猛进，具有重要行业标杆意义。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/s9f0a6cjwujfck4po8escekq3"
+            }
+          }
+        ]
+      },
+      {
+        "category": "money",
+        "label": "💰 搞钱变现",
+        "items": [
+          {
+            "id": "a54303f7597fb74045fa4a988",
+            "title": "[分享创造] 做了个微信小程序「被裁不慌」，希望能帮大家在遭遇裁员时多一点准备（适用于被动离职主要场景，包括但不限于被恶意低绩效、强制 PIP、劳动仲裁等）",
+            "originalTitle": "[分享创造] 做了个微信小程序「被裁不慌」，希望能帮大家在遭遇裁员时多一点准备（适用于被动离职主要场景，包括但不限于被恶意低绩效、强制 PIP、劳动仲裁等）",
+            "summary": "做了一个叫「被裁不慌」的微信小程序，最近整理得差不多了，想拿出来给有需要的 V 友用用。 做它是因为，遇到裁员时，要弄清楚的事情实在不少。之前因为遭遇低绩效、pip 等场景，跟公司同样境遇的人沟通，及跟网上其他人沟通，发现很多人对一些很基础的劳动法常识认知不够，有的还会担心不接受公司的单方面提出的条件，会连基本的 n+1 都拿不到（事实上除非严重违反公司规定，只要公司单方面解除合同，都是需要支付 n 或 n +1 的。即便真的能力不足，不能胜任工作，仍然需要支付 n 或 n+1 ，且需要严格的证据和前置流程） 在微信里搜索小程序「被裁不慌」就能找到，目前...",
+            "source": {
+              "name": "V2EX·搞钱与创造"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a54303f7597fb74045fa4a988",
+              "original": "https://www.v2ex.com/t/1247661#reply0"
+            },
+            "publishedAt": "2026-10-10T08:15:16.000Z",
+            "discoveredAt": "2026-10-10T08:23:34.481Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a54303f7597fb74045fa4a988"
+            }
+          },
+          {
+            "id": "r8b30q2osfhm72841johijup8",
+            "title": "【一手快讯】US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
+            "originalTitle": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
+            "summary": "Nvidia’s chip-smuggling problem won’t go away as arrests continue....（来源：Ars Technica · AI，实时追踪报道）",
+            "source": {
+              "name": "Ars Technica · AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/r8b30q2osfhm72841johijup8",
+              "original": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/"
+            },
+            "publishedAt": "2026-10-02T18:39:36.000Z",
+            "discoveredAt": "2026-10-04T04:09:18.433Z",
+            "category": "money",
+            "score": 98,
+            "selected": true,
+            "reason": "实用AI工具链与Agent工程最佳实践，极具实操落地价值。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/r8b30q2osfhm72841johijup8"
+            }
+          },
+          {
+            "id": "h8nru4iywuhb9e5lstaxjtx34",
+            "title": "【一手快讯】How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+            "originalTitle": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+            "summary": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation ...（来源：NVIDIA Blog，实时追踪报道）",
+            "source": {
+              "name": "NVIDIA Blog"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/h8nru4iywuhb9e5lstaxjtx34",
+              "original": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
+            },
+            "publishedAt": "2026-10-01T23:44:13.000Z",
+            "discoveredAt": "2026-10-04T04:09:28.951Z",
+            "category": "money",
+            "score": 98,
+            "selected": true,
+            "reason": "实用AI工具链与Agent工程最佳实践，极具实操落地价值。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/h8nru4iywuhb9e5lstaxjtx34"
+            }
+          },
+          {
+            "id": "a79eaeb84d8f7165a4a690ff5",
+            "title": "[Apple] 我把自己的付费 Mac App「Cliptate」开源了， MIT 协议。",
+            "originalTitle": "[Apple] 我把自己的付费 Mac App「Cliptate」开源了， MIT 协议。",
+            "summary": "它是一款给音视频创作者用的本地 AI 工具。导入录音或视频，就能转成文字、区分说话人、自动剪掉静音，再导出字幕或 Final Cut Pro 时间线。也支持语音输入、配音和声音克隆。 转写和语音合成都在 Mac 上运行，音频无需上传云端。 GitHub 直下载版免费，全部模型和 Pro 功能开放，无需订阅。App Store 版仍保留订阅。支持 M1 及以上的 Mac ，需要 macOS 15 或更新版本。 做口播、播客或课程的朋友，欢迎试试。用得上就点个 Star ，有想法也欢迎提 Issue 或 PR 。 👉 https://github.com/...",
+            "source": {
+              "name": "V2EX·搞钱与创造"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a79eaeb84d8f7165a4a690ff5",
+              "original": "https://www.v2ex.com/t/1247658#reply0"
+            },
+            "publishedAt": "2026-10-10T08:07:38.000Z",
+            "discoveredAt": "2026-10-10T08:08:31.290Z",
+            "category": "money",
+            "score": 96,
+            "selected": true,
+            "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a79eaeb84d8f7165a4a690ff5"
+            }
+          },
+          {
+            "id": "adb998fd274ab2979fda103be",
+            "title": "[分享创造] [送码] 反向打卡 App",
+            "originalTitle": "[分享创造] [送码] 反向打卡 App",
+            "summary": "正向打卡总是很难坚持，那就试试“反向打卡”。 我做了一个记录不良习惯的 App ，专门用来记录熬夜、喝酒、刷短视频等行为。它不要求你每天完成什么，也不会因为“没做到”而产生压力和自责，只是帮你看见自己的习惯，让每一次记录都成为一次提醒。 当你开始有意识地观察自己，改变也许就已经在发生了。 我自己用了一段时间，确实对减少一些不好的习惯有所帮助。现在送出一批兑换码，欢迎来试试看，也许它能陪你慢慢改变一点点。 https://apps.apple.com/cn/app/%E5%8F%8D%E5%90%91%E6%89%93%E5%8D%A1/id6809721...",
+            "source": {
+              "name": "V2EX·搞钱与创造"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/adb998fd274ab2979fda103be",
+              "original": "https://www.v2ex.com/t/1247656#reply0"
+            },
+            "publishedAt": "2026-10-10T08:05:44.000Z",
+            "discoveredAt": "2026-10-10T08:08:31.625Z",
+            "category": "money",
+            "score": 96,
+            "selected": true,
+            "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/adb998fd274ab2979fda103be"
+            }
+          },
+          {
+            "id": "ae4e4adbdb5b1758fea524b52",
+            "title": "[分享创造] Claude 封号前疯狂蹬了一周，做了 4 个 macOS 小工具，拿出来分享一下",
+            "originalTitle": "[分享创造] Claude 封号前疯狂蹬了一周，做了 4 个 macOS 小工具，拿出来分享一下",
+            "summary": "其实类似的工具之前也都有，我也用过一些，但总有些地方用着不顺手，没能解决我自己的需求。正好假期 Claude Max20X 的额度也用不完，就想着干脆自己蹬出来。最终 Claude 在 10 月 3 号给我账号封了，苹果还不给我退款... 悲！ 主要就是自己的痛点，也有一些自己的小巧思，没有什么商业目的，都是免费开源的。让 dot 帮我整理了一下介绍，大家有需要可以挑着试试。 哦对，还帮我做了个主页， https://whrss.com 还挺满意的哈哈 1. Stox：抬头看一眼股票 把关注的股票放在菜单栏里，不用专门打开行情软件，就能看一眼价格和涨跌。...",
+            "source": {
+              "name": "V2EX·搞钱与创造"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ae4e4adbdb5b1758fea524b52",
+              "original": "https://www.v2ex.com/t/1247654#reply1"
+            },
+            "publishedAt": "2026-10-10T08:04:32.000Z",
+            "discoveredAt": "2026-10-10T08:23:35.395Z",
+            "category": "money",
+            "score": 96,
+            "selected": true,
+            "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ae4e4adbdb5b1758fea524b52"
+            }
+          }
+        ]
+      },
+      {
+        "category": "culture",
+        "label": "🎭 数字文娱",
+        "items": [
+          {
+            "id": "a3c3be39b29e5d427fa5816ce",
+            "title": "本周看什么 | 最近值得一看的 11 部作品",
+            "originalTitle": "本周看什么 | 最近值得一看的 11 部作品",
+            "summary": "📅本周新预告《寒夜怪谈》新预告10月1日，电影《寒夜怪谈》发布了新预告，将于11月13日在北美上映。缇·威斯特（《X》《珀尔》《玛克辛》）执导，约翰尼·德普回归奇幻巨制，将狄更斯名著《圣诞颂歌》改编为 ... 查看全文",
+            "source": {
+              "name": "少数派·效率与数字生活"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a3c3be39b29e5d427fa5816ce",
+              "original": "https://sspai.com/post/115566"
+            },
+            "publishedAt": "2026-10-09T10:04:09.000Z",
+            "discoveredAt": "2026-10-09T11:11:42.298Z",
+            "category": "culture",
+            "score": 97,
+            "selected": true,
+            "reason": "实用效率生产力与数字生活方式，文娱生活探索指南。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a3c3be39b29e5d427fa5816ce"
+            }
+          },
+          {
+            "id": "a9bf513df9a5ca5be00c6c663",
+            "title": "App+1｜所得即所见，更适合中文的字体预览工具：Anyway.Fonts",
+            "originalTitle": "App+1｜所得即所见，更适合中文的字体预览工具：Anyway.Fonts",
+            "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ... 查看全文",
+            "source": {
+              "name": "少数派·效率与数字生活"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a9bf513df9a5ca5be00c6c663",
+              "original": "https://sspai.com/post/114869"
+            },
+            "publishedAt": "2026-10-09T02:08:37.000Z",
+            "discoveredAt": "2026-10-09T04:03:47.081Z",
+            "category": "culture",
+            "score": 95,
+            "selected": true,
+            "reason": "实用效率生产力与数字生活方式，文娱生活探索指南。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a9bf513df9a5ca5be00c6c663"
+            }
+          },
+          {
+            "id": "aed4669c691ba289932dc1ca6",
+            "title": "App+1｜专注星空：让「少刷手机」这件事更愉悦一点",
+            "originalTitle": "App+1｜专注星空：让「少刷手机」这件事更愉悦一点",
+            "summary": "把决定使用时长的时机，放到每次打开应用之前。 查看全文",
+            "source": {
+              "name": "少数派·效率与数字生活"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aed4669c691ba289932dc1ca6",
+              "original": "https://sspai.com/post/115237"
+            },
+            "publishedAt": "2026-10-10T02:19:52.000Z",
+            "discoveredAt": "2026-10-10T03:41:08.761Z",
+            "category": "culture",
+            "score": 93,
+            "selected": true,
+            "reason": "实用效率生产力与数字生活方式，文娱生活探索指南。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aed4669c691ba289932dc1ca6"
+            }
+          },
+          {
+            "id": "a6a4f3ab1a2f637ce24c311f1",
+            "title": "vivo X500 Pro Max 影像漫谈：当视频创作像拍照一样轻巧",
+            "originalTitle": "vivo X500 Pro Max 影像漫谈：当视频创作像拍照一样轻巧",
+            "summary": "让生活里的寻常片刻，在被轻松记录的同时依然经得起回味。 查看全文",
+            "source": {
+              "name": "少数派·效率与数字生活"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a6a4f3ab1a2f637ce24c311f1",
+              "original": "https://sspai.com/post/115456"
+            },
+            "publishedAt": "2026-10-09T06:43:28.000Z",
+            "discoveredAt": "2026-10-09T07:44:05.744Z",
+            "category": "culture",
+            "score": 92,
+            "selected": true,
+            "reason": "实用效率生产力与数字生活方式，文娱生活探索指南。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a6a4f3ab1a2f637ce24c311f1"
+            }
+          },
+          {
+            "id": "af159f02bb334e974dd77bd6f",
+            "title": "【极客生活】iOS 27.2 测试版发布：健康应用大改版，新增长寿与健康年龄功能",
+            "originalTitle": "Five New Features Coming to Your iPhone in iOS 27.2",
+            "summary": "苹果 iOS 27.2 测试版更新，重点改版健康应用，整合健身圆环，新增长寿标签、健康年龄评估及摄像头体态分析，并引入 Apple Intelligence 支持的来电情境功能。（来源：Lifehacker·全球效率生活）",
+            "source": {
+              "name": "Lifehacker·全球效率生活"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/af159f02bb334e974dd77bd6f",
+              "original": "https://lifehacker.com/tech/new-features-coming-to-iphone-ios-272?utm_medium=RSS"
+            },
+            "publishedAt": "2026-10-09T19:30:00.000Z",
+            "discoveredAt": "2026-10-10T08:29:36.215Z",
+            "category": "culture",
+            "score": 84,
+            "selected": false,
+            "reason": "健康应用大改版，强化苹果生态健康管理壁垒，但无新硬件，商业变现有限。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/af159f02bb334e974dd77bd6f"
+            }
+          },
+          {
+            "id": "aee8d810de2684d02858cc6bc",
+            "title": "【极客生活】在家接种流感疫苗：便捷体验与商业潜力",
+            "originalTitle": "I Tried the At-Home Flu Vaccine, and It Was Great",
+            "summary": "Lifehacker作者尝试在家接种流感疫苗，疫苗直接配送到家，省去了为全家预约五个接种点的麻烦。这种模式可能重塑疫苗分发方式，提升接种便利性，具有商业和公共卫生双重意义。（来源：Lifehacker·全球效率生活）",
+            "source": {
+              "name": "Lifehacker·全球效率生活"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aee8d810de2684d02858cc6bc",
+              "original": "https://lifehacker.com/health/how-to-order-flu-mist-at-home-flu-vaccine?utm_medium=RSS"
+            },
+            "publishedAt": "2026-10-09T17:30:00.000Z",
+            "discoveredAt": "2026-10-10T08:29:44.729Z",
+            "category": "culture",
+            "score": 84,
+            "selected": false,
+            "reason": "在家疫苗或颠覆传统接种模式，便捷性驱动市场。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aee8d810de2684d02858cc6bc"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
