@@ -11,9 +11,9 @@
   "items": [
     {
       "id": "ab0c940af0f3603d840febb47",
-      "title": "【全球一手】计算机无法做出决策",
+      "title": "【全球一手】计算机无法做决定：AI 之过实为人之责",
       "originalTitle": "Computers Cannot Make Decisions",
-      "summary": "本文探讨计算机无法自主决策的本质，指出其仅能执行预设规则，缺乏真正的判断力。发布于Hacker News，引发关于人工智能边界的讨论。（来源：Hacker News·全球一手，实时追踪报道）",
+      "summary": "一篇引发讨论的文章指出，计算机程序不能做出决策，因此不应将责任归咎于它们。将 LLM 造成的结果归咎于模型本身，是一种“决策洗白”。OpenAI、Anthropic 等公司完全有能力阻止其模型的行为，却主动选择纵容。用户订阅正在资助这些行为。所有事件归根结底是人的过错，而此类行为未受惩罚和立法，只因被认为不利于经济。（来源：Hacker News·全球一手，实时追踪报道）",
       "source": {
         "name": "Hacker News·全球一手"
       },
@@ -24,7 +24,7 @@
       "publishedAt": "2026-10-10T05:47:46.000Z",
       "discoveredAt": "2026-10-10T07:38:51.989Z",
       "category": "global",
-      "score": 10,
+      "score": 9,
       "selected": true,
       "reason": "全球顶尖硅谷极客讨论与独立创新首发平台，洞察一手出海动向。",
       "attribution": {
@@ -34,9 +34,9 @@
     },
     {
       "id": "a3353895d2085b3ae9f4e28d3",
-      "title": "【全球一手】食品加工方式影响代谢与大脑活动",
+      "title": "【全球一手】食品加工方式影响新陈代谢与大脑活动",
       "originalTitle": "Food processing influences metabolism and brain activity",
-      "summary": "弗拉林生物医学研究所的一项新研究发现，即使热量和营养成分配比完全相同，仅加工方式不同的两餐也会导致人体代谢反应和大脑奖励系统活动出现差异。超加工餐食促使身体释放更多胰岛素、消耗更多能量，同时燃烧更少碳水化合物，并在与动机和奖励相关的大脑区域引发不同反应。该研究发表于《自然·代谢》，有助于解释超加工食品与过度进食及长期健康风险之间的关联。（来源：Hacker News·全球一手，实时追踪报道）",
+      "summary": "弗吉尼亚理工大学研究发现，即使热量、碳水、脂肪、蛋白质、水、盐和重量完全相同，微加工与超加工膳食也会引发不同的代谢反应和大脑奖励回路活动。超加工餐食促使身体释放更多胰岛素、消耗更多能量但燃烧更少碳水，并改变动机与奖励相关脑区反应。该研究发表于《自然·代谢》，为理解超加工食品与过度进食及长期健康风险之间的联系提供了新线索。（来源：Hacker News·全球一手，实时追踪报道）",
       "source": {
         "name": "Hacker News·全球一手"
       },
@@ -80,9 +80,9 @@
     },
     {
       "id": "aaf652f19977728d0c03bf70f",
-      "title": "【全球一手】Nagare：将日历与任务合二为一的极简待办应用",
+      "title": "【全球一手】Nagare：一款让日历与待办融为一体的极简应用",
       "originalTitle": "Show HN: A simple to-do app for iPhone, Mac, and your agent",
-      "summary": "Nagare 是一款面向 iPhone 和 Mac 的待办应用，旨在将日历事件与任务统一为一种承诺，通过单一有序列表管理日程。它解决了传统工具中两者割裂的问题，界面简洁如纸质笔记，支持 iCloud 同步，并通过 MCP 将上下文提供给 AI 助手，主动帮助用户跟进目标。（来源：Hacker News·全球一手，实时追踪报道）",
+      "summary": "Nagare是一款面向iPhone和Mac的待办应用，作者因不满日历与待办分离的现状而开发。它将日历事件和任务统一为同一种可排序的“承诺”，支持可选时间，并通过iCloud同步和MCP协议向智能体开放数据，让AI助手能主动帮助用户跟进目标。（来源：Hacker News·全球一手，实时追踪报道）",
       "source": {
         "name": "Hacker News·全球一手"
       },
@@ -149,9 +149,9 @@
     },
     {
       "id": "a92c72e625390362f4735a6ff",
-      "title": "【全球一手】Telegram Desktop 零点击漏洞：任意用户文件可被窃取",
+      "title": "【全球一手】Telegram桌面版高危漏洞：一点击即可窃取用户文件",
       "originalTitle": "Telegram Desktop vulnerability allowed any user's file to be stolen",
-      "summary": "安全研究人员发现 Telegram Desktop 存在一个严重漏洞，攻击者只需在群聊中发送一个特制链接，用户点击后即可实现账户接管。该漏洞源于 Telegram 处理链接时通过本地套接字传递数据，未对分隔符进行转义，导致命令注入。结合内部 URI 方案 interpret:，攻击者可读取任意文件，包括用户的登录凭证，最终完全控制账户。（来源：Hacker News·全球一手，实时追踪报道）",
+      "summary": "安全研究人员发现Telegram桌面版存在严重漏洞，攻击者通过群聊发送特制链接，利用本地套接字通信中的序列化缺陷和内部URI方案，可静默读取并窃取用户任意文件，甚至登录凭证。该漏洞无需用户确认，点击链接即可触发。（来源：Hacker News·全球一手，实时追踪报道）",
       "source": {
         "name": "Hacker News·全球一手"
       },
@@ -162,7 +162,7 @@
       "publishedAt": "2026-10-10T03:02:47.000Z",
       "discoveredAt": "2026-10-10T04:53:33.780Z",
       "category": "global",
-      "score": 10,
+      "score": 9,
       "selected": true,
       "reason": "全球顶尖硅谷极客讨论与独立创新首发平台，洞察一手出海动向。",
       "attribution": {
@@ -174,7 +174,7 @@
       "id": "a50c6290f3bd133656edf2d7c",
       "title": "【全球一手】为突破定价：前沿实验室、新实验室与投资者的共赢之道",
       "originalTitle": "Put a price on breakthroughs",
-      "summary": "文章探讨了当前AI新实验室（neolabs）同时追求研究突破和商业成功的双重挑战，借鉴制药行业风险研发的分工模式，提出前沿实验室、新实验室和投资者三方共赢的替代方案，即新实验室专注突破性研究，由大公司收购实现商业化。（来源：Hacker News·全球一手，实时追踪报道）",
+      "summary": "当前新实验室被要求同时实现研究突破和风险级商业成功，但两者独立成功率仅1%，叠加后仅万分之一。本文借鉴制药行业的分工模式：小型生物技术公司承担研发风险，大型药企负责规模化生产与分销，通过收购实现共赢。建议新实验室专注世界级研究，接受近乎零收入，成功后由巨头收购，让投资者通过并购而非独立成长获得回报。（来源：Hacker News·全球一手，实时追踪报道）",
       "source": {
         "name": "Hacker News·全球一手"
       },
@@ -195,9 +195,9 @@
     },
     {
       "id": "a3febc63db62cda90d5918c48",
-      "title": "【全球一手】REA：让AI智能体逆向解析任意程序",
+      "title": "【全球一手】REA工具发布：让AI代理自动逆向工程解析程序",
       "originalTitle": "REA Reverse – Engineer Anything",
-      "summary": "REA 是一款面向 AI 智能体的逆向工程工具，能自动检查程序并解释其功能。用户可通过 npx 快速安装，让智能体分析如 Windows 计算器为何输入“200+10%”得到 220 等问题。其目标是深入理解特性，以便解释、修改或重建软件。（来源：Hacker News·全球一手，实时追踪报道）",
+      "summary": "REA推出新工具，旨在让AI代理能够检查程序并解释其行为，帮助开发者理解软件功能以便修改或重建。该工具通过npx安装并连接到编码代理，已引发技术社区关注。（来源：Hacker News·全球一手，实时追踪报道）",
       "source": {
         "name": "Hacker News·全球一手"
       },
@@ -208,7 +208,7 @@
       "publishedAt": "2026-10-10T00:37:07.000Z",
       "discoveredAt": "2026-10-10T01:48:11.662Z",
       "category": "global",
-      "score": 10,
+      "score": 9,
       "selected": true,
       "reason": "全球顶尖硅谷极客讨论与独立创新首发平台，洞察一手出海动向。",
       "attribution": {
@@ -287,9 +287,9 @@
     },
     {
       "id": "a70e6fe809d55125d98bdaf22",
-      "title": "【全球一手】朊病毒病siRNA药物启动首次人体临床试验",
+      "title": "【全球一手】朊病毒病候选药物启动临床试验招募",
       "originalTitle": "Clinical trial of a prion disease drug candidate begins enrolling participants",
-      "summary": "Broad研究所与UMass Chan医学院开发的小干扰RNA药物启动一期临床试验，评估其治疗朊病毒病的安全性与耐受性。这是该候选药物首次在人体中测试，此前动物研究显示可降低致病蛋白水平并延长生存期。试验将招募15名有症状患者，由NeuroNEXT网络提供支持。（来源：Hacker News·全球一手，实时追踪报道）",
+      "summary": "布罗德研究所宣布，一种针对朊病毒病的候选药物正式进入临床试验阶段，并开始招募受试者。朊病毒病是一类罕见且致命的神经退行性疾病，目前尚无有效疗法。该试验的启动标志着该领域药物研发迈出关键一步，引发全球关注。（来源：Hacker News·全球一手，实时追踪报道）",
       "source": {
         "name": "Hacker News·全球一手"
       },
@@ -333,9 +333,9 @@
     },
     {
       "id": "abab81bcdb2cb6e04e351adb3",
-      "title": "【全球一手】将 Rust 编译为可读 C 代码的 Eurydice 项目",
+      "title": "【全球一手】Eurydice：将Rust代码编译为可读C代码的新工具",
       "originalTitle": "Compiling Rust to readable C with Eurydice",
-      "summary": "Eurydice 是一个将 Rust 代码转换为可读 C 代码的编译器，由 Inria 和微软维护。它旨在帮助高保障软件项目过渡，因为现有验证工具仅支持 C。目前仅适用于小型自包含程序，但生成的代码结构清晰，并可利用形式化验证工具。（来源：Hacker News·全球一手，实时追踪报道）",
+      "summary": "Eurydice是Aeneas项目下的新工具，致力于将Rust代码转换为结构清晰、可读的C代码。它通过Charon从rustc提取中间表示，再转换为KaRaMeL IR并生成C代码，特别适用于高保障软件领域，因为现有验证工具多针对C。目前Eurydice仅适用于小型、自包含程序，但为Rust在安全关键领域的应用提供了过渡方案。（来源：Hacker News·全球一手，实时追踪报道）",
       "source": {
         "name": "Hacker News·全球一手"
       },
@@ -379,9 +379,9 @@
     },
     {
       "id": "ada6c315359957ca6d42571f7",
-      "title": "【全球一手】雅达利最后电脑Falcon：从诞生到转型与改装传奇",
+      "title": "【全球一手】雅达利Falcon：最后的电脑绝唱",
       "originalTitle": "Atari Falcon",
-      "summary": "雅达利Falcon030是雅达利公司最后一款电脑产品，代号Sparrow，基于摩托罗拉68030 CPU和56000数字信号处理器，1992年底发布，但1993年底因公司转向Jaguar游戏机而取消。其设计影响了后来的PS2，1995年C-Lab购得硬件权继续生产Mk I和Mk II。如今Falcon成为硬件改装热门，爱好者为其开发加速器，可超频或升级至68060。（来源：Hacker News·全球一手，实时追踪报道）",
+      "summary": "雅达利Falcon030是雅达利公司最后一款电脑产品，代号Sparrow，基于摩托罗拉68030 CPU并配备56000数字信号处理器。1992年末发布，1993年末因公司转向Jaguar游戏机而取消。Falcon040原型机曾计划采用68040和微盒设计，但最终流产。1995年C-Lab购得设计权继续生产。如今Falcon因其扩展性成为硬件改装热门。（来源：Hacker News·全球一手，实时追踪报道）",
       "source": {
         "name": "Hacker News·全球一手"
       },
@@ -448,9 +448,9 @@
     },
     {
       "id": "ad180d90fe7f7f45b887f50eb",
-      "title": "【全球一手】AgentDock：在任意终端用一个收件箱统一响应Claude Code与Codex",
+      "title": "【全球一手】AgentDock 推出统一收件箱，跨终端管理 Claude Code 和 Codex",
       "originalTitle": "AgentDock",
-      "summary": "AgentDock推出一项新功能，允许开发者在任意终端中通过统一收件箱同时处理来自Claude Code和Codex的消息，简化多AI编码代理的协作流程。这一工具旨在解决多代理并行工作时消息分散的痛点，提升开发效率。（来源：Product Hunt·AI落地，实时追踪报道）",
+      "summary": "AgentDock 是一款新工具，旨在让开发者通过单一收件箱管理和响应 Claude Code 与 Codex 的请求，并支持在任何终端中讨论和链接。它解决了多 AI 编程助手切换繁琐的问题，提升开发效率。（来源：Product Hunt·AI落地，实时追踪报道）",
       "source": {
         "name": "Product Hunt·AI落地"
       },
@@ -461,7 +461,7 @@
       "publishedAt": "2026-10-09T21:55:39.000Z",
       "discoveredAt": "2026-10-10T07:37:31.273Z",
       "category": "global",
-      "score": 10,
+      "score": 9,
       "selected": true,
       "reason": "全球最新AI变现神器与落地工具，独立开发与出海赚钱首选。",
       "attribution": {
@@ -470,10 +470,33 @@
       }
     },
     {
+      "id": "a22d27a1db9aa17e5c24c26b7",
+      "title": "【全球一手】随手记：整理前的笔记暂存处",
+      "originalTitle": "put·here",
+      "summary": "这是一个用于临时收集笔记、以便后续整理的页面，提供讨论区与链接入口。（来源：Product Hunt·AI落地，实时追踪报道）",
+      "source": {
+        "name": "Product Hunt·AI落地"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a22d27a1db9aa17e5c24c26b7",
+        "original": "https://www.producthunt.com/products/put-here"
+      },
+      "publishedAt": "2026-10-09T21:15:23.000Z",
+      "discoveredAt": "2026-10-10T07:45:26.336Z",
+      "category": "global",
+      "score": 9,
+      "selected": true,
+      "reason": "全球最新AI变现神器与落地工具，独立开发与出海赚钱首选。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a22d27a1db9aa17e5c24c26b7"
+      }
+    },
+    {
       "id": "a24b05080754971724d6c49ea",
-      "title": "【全球一手】加拿大YouTuber自建车牌识别摄像头追踪警车，警察上门“关心”",
+      "title": "【全球一手】YouTuber自建摄像头反拍警察，遭警方登门拜访",
       "originalTitle": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
-      "summary": "加拿大软件工程师Anthony Sistilli自制车牌识别摄像头追踪警车，以讽刺警方对同类技术的滥用。警方上门询问其数据用途，引发对自动车牌识别技术双重标准、隐私及数据滥用的广泛讨论。（来源：Hacker News·全球一手，实时追踪报道）",
+      "summary": "一名YouTuber因仿照Flock安全摄像头自建了一套用于追踪警察的监控设备，随后称有警察上门造访。该事件在Hacker News上引发热议，获得544个点赞和302条评论。此事涉及公众对警方监控技术的反制尝试及执法部门的回应，引发关于隐私与监督的讨论。（来源：Hacker News·全球一手，实时追踪报道）",
       "source": {
         "name": "Hacker News·全球一手"
       },
@@ -484,7 +507,7 @@
       "publishedAt": "2026-10-09T21:06:59.000Z",
       "discoveredAt": "2026-10-09T22:51:05.810Z",
       "category": "global",
-      "score": 9,
+      "score": 10,
       "selected": true,
       "reason": "全球顶尖硅谷极客讨论与独立创新首发平台，洞察一手出海动向。",
       "attribution": {
@@ -513,6 +536,52 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/a64fb0341e194c4b51ee6e7c4"
+      }
+    },
+    {
+      "id": "a2d412dd57096584ed4374cfd",
+      "title": "【全球一手】复制 Mac 上无法选中的文本",
+      "originalTitle": "Letra",
+      "summary": "本文介绍了在 Mac 上复制无法选中文本的几种方法，包括使用文本识别、开发者工具、终端命令等，帮助用户获取受限制的内容。（来源：Product Hunt·AI落地，实时追踪报道）",
+      "source": {
+        "name": "Product Hunt·AI落地"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a2d412dd57096584ed4374cfd",
+        "original": "https://www.producthunt.com/products/letra-3"
+      },
+      "publishedAt": "2026-10-09T19:26:30.000Z",
+      "discoveredAt": "2026-10-10T07:45:28.630Z",
+      "category": "global",
+      "score": 10,
+      "selected": true,
+      "reason": "全球最新AI变现神器与落地工具，独立开发与出海赚钱首选。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a2d412dd57096584ed4374cfd"
+      }
+    },
+    {
+      "id": "a076d974457b9fb5ee1863c89",
+      "title": "【全球一手】微软发布智能体与工作流决策模型",
+      "originalTitle": "Microsoft-Decision-1",
+      "summary": "微软近日推出面向AI智能体与自动化工作流的决策模型，旨在帮助企业系统化选择合适的技术方案。该模型提供了清晰的决策框架，可指导开发者根据任务复杂度、自主性需求等因素，在智能体与工作流之间做出最优选择，从而提升AI应用的落地效率。（来源：Product Hunt·AI落地，实时追踪报道）",
+      "source": {
+        "name": "Product Hunt·AI落地"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a076d974457b9fb5ee1863c89",
+        "original": "https://www.producthunt.com/products/microsoft-decision-1"
+      },
+      "publishedAt": "2026-10-09T18:50:17.000Z",
+      "discoveredAt": "2026-10-10T07:51:01.189Z",
+      "category": "global",
+      "score": 10,
+      "selected": true,
+      "reason": "全球最新AI变现神器与落地工具，独立开发与出海赚钱首选。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a076d974457b9fb5ee1863c89"
       }
     },
     {
@@ -634,7 +703,7 @@
       "id": "a715de1129be0b086ef28bd59",
       "title": "【全球一手】Carrier-Explode：解码iPhone、Pixel和Galaxy运营商设置",
       "originalTitle": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
-      "summary": "一位开发者发布了名为Carrier-Explode的侧项目，该项目持续归档所有主要手机品牌的运营商设置，并包含常见基带配置的解码器和说明。尽管作者承认仍需大量工作来验证假设，但该工具已被证明对几个爱好者群体有用。该帖子在Hacker News上获得了148个点数和15条评论。（来源：Hacker News·全球一手，实时追踪报道）",
+      "summary": "一位开发者发布开源项目carrier-explode，持续归档主流手机品牌的运营商配置文件，并提供常见基带配置的解码与说明。该工具已在爱好者社群中证明实用价值，但仍需进一步验证假设。（来源：Hacker News·全球一手，实时追踪报道）",
       "source": {
         "name": "Hacker News·全球一手"
       },
@@ -645,7 +714,7 @@
       "publishedAt": "2026-10-09T18:10:55.000Z",
       "discoveredAt": "2026-10-09T19:46:41.993Z",
       "category": "global",
-      "score": 10,
+      "score": 9,
       "selected": true,
       "reason": "全球顶尖硅谷极客讨论与独立创新首发平台，洞察一手出海动向。",
       "attribution": {
@@ -769,6 +838,29 @@
       }
     },
     {
+      "id": "a282e92903c86b21b35b8aa75",
+      "title": "【全球一手】Claude 推出仪表盘与动态演示功能",
+      "originalTitle": "Claude Dashboards & Motion",
+      "summary": "Anthropic 的 Claude 现在能够根据用户请求，直接生成实时仪表盘和动画解说内容，为用户提供更直观的数据可视化和动态演示体验。这一更新旨在提升 AI 在数据分析和演示方面的实用性。（来源：Product Hunt·AI落地，实时追踪报道）",
+      "source": {
+        "name": "Product Hunt·AI落地"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a282e92903c86b21b35b8aa75",
+        "original": "https://www.producthunt.com/products/claude-dashboards-motion"
+      },
+      "publishedAt": "2026-10-09T15:13:51.000Z",
+      "discoveredAt": "2026-10-10T07:45:30.119Z",
+      "category": "global",
+      "score": 9,
+      "selected": true,
+      "reason": "全球最新AI变现神器与落地工具，独立开发与出海赚钱首选。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a282e92903c86b21b35b8aa75"
+      }
+    },
+    {
       "id": "aff7f2642ab8f318344b86d96",
       "title": "【全球一手】德国将前煤矿区改造为欧洲最大湖泊景观",
       "originalTitle": "Germany transforms former coal mines into Europe's largest lake landscape",
@@ -835,98 +927,6 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/a8400d6aadea30a691d50b6be"
-      }
-    },
-    {
-      "id": "aabd96f81fbf77a19cc655383",
-      "title": "【全球一手】Cloudflare 收购 Deno，创始人团队整体加入",
-      "originalTitle": "Cloudflare acquires Deno",
-      "summary": "Cloudflare 宣布收购 Deno，整个 Deno 团队将加入 Cloudflare，共同推进服务器端 JavaScript 开发。Deno 创始人 Ryan Dahl 将结合 Deno Deploy 和 celld 的经验，与 Cloudflare Workers 和 Durable Objects 团队合作，打造更简化的分布式应用编程模型。此次收购意味着 Deno 未来开发将聚焦于共享平台，而非独立的运行时和托管服务。（来源：Hacker News·全球一手，实时追踪报道）",
-      "source": {
-        "name": "Hacker News·全球一手"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/aabd96f81fbf77a19cc655383",
-        "original": "https://deno.com/blog/cloudflare"
-      },
-      "publishedAt": "2026-10-09T13:03:48.000Z",
-      "discoveredAt": "2026-10-09T13:45:47.667Z",
-      "category": "global",
-      "score": 10,
-      "selected": true,
-      "reason": "全球顶尖硅谷极客讨论与独立创新首发平台，洞察一手出海动向。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/aabd96f81fbf77a19cc655383"
-      }
-    },
-    {
-      "id": "ad3dfb8fb89c3999693f8f1e4",
-      "title": "【全球一手】百条方案引百种反响：全球热议",
-      "originalTitle": "100+ reactions to 100+ solutions",
-      "summary": "一篇题为《100+ reactions to 100+ solutions》的文章在Hacker News引发关注，获得28点热度与14条评论。文章汇集了针对上百种解决方案的上百种反馈，呈现全球技术社区对问题解决路径的多元观点。（来源：Hacker News·全球一手，实时追踪报道）",
-      "source": {
-        "name": "Hacker News·全球一手"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/ad3dfb8fb89c3999693f8f1e4",
-        "original": "https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/"
-      },
-      "publishedAt": "2026-10-09T12:26:12.000Z",
-      "discoveredAt": "2026-10-09T18:15:11.018Z",
-      "category": "global",
-      "score": 10,
-      "selected": true,
-      "reason": "全球顶尖硅谷极客讨论与独立创新首发平台，洞察一手出海动向。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/ad3dfb8fb89c3999693f8f1e4"
-      }
-    },
-    {
-      "id": "a71d94a4bfcfab1316c6d84b8",
-      "title": "【全球一手】伊朗利用ChatGPT在美国真实媒体上植入虚假文章",
-      "originalTitle": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
-      "summary": "一场与伊朗相关的信息战行动被曝光，其利用ChatGPT生成虚假文章并成功植入多家美国真实出版物。该行动借助AI技术批量生产看似专业的新闻内容，以假乱真，引发外界对AI被用于舆论操控和国家支持的信息战的高度关注。（来源：Hacker News·全球一手，实时追踪报道）",
-      "source": {
-        "name": "Hacker News·全球一手"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a71d94a4bfcfab1316c6d84b8",
-        "original": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/"
-      },
-      "publishedAt": "2026-10-09T12:21:24.000Z",
-      "discoveredAt": "2026-10-09T13:45:55.131Z",
-      "category": "global",
-      "score": 9,
-      "selected": true,
-      "reason": "全球顶尖硅谷极客讨论与独立创新首发平台，洞察一手出海动向。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a71d94a4bfcfab1316c6d84b8"
-      }
-    },
-    {
-      "id": "af0d34e39dab1f642d3d73791",
-      "title": "【全球一手】Hetzner Cloud网络栈架构演进与技术解析",
-      "originalTitle": "The Hetzner Cloud network stack – history and technical overview",
-      "summary": "Hetzner回顾其云网络栈从2011年vServers到2018年云产品的技术演进，核心设计是将智能网络功能置于主机而非物理网络，实现稳定IP连通性与上层服务分离。当前架构运行Open vSwitch数据平面、VXLAN私有网络、状态防火墙及本地DHCP和元数据服务，兼顾灵活性与故障隔离。（来源：Hacker News·全球一手，实时追踪报道）",
-      "source": {
-        "name": "Hacker News·全球一手"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/af0d34e39dab1f642d3d73791",
-        "original": "https://www.hetzner.com/blog/the-hetzner-cloud-network-stack-history-and-technical-overview/"
-      },
-      "publishedAt": "2026-10-09T12:20:55.000Z",
-      "discoveredAt": "2026-10-09T13:46:02.145Z",
-      "category": "global",
-      "score": 9,
-      "selected": true,
-      "reason": "全球顶尖硅谷极客讨论与独立创新首发平台，洞察一手出海动向。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/af0d34e39dab1f642d3d73791"
       }
     }
   ],
