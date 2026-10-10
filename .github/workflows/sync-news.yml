@@ -15,24 +15,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Fetch latest news from Render API with validation
-        run: |
-          mkdir -p data
-          categories=("global" "domestic" "business" "tech" "money" "culture")
-          for cat in "${categories[@]}"; do
-            echo "Fetching $cat..."
-            tmp_file="/tmp/${cat}.json"
-            if curl -s -f -m 30 "https://zenglian-news.onrender.com/api/v1/items?category=${cat}&limit=30&mode=all&window=7d" -o "$tmp_file"; then
-              if grep -q "schemaVersion" "$tmp_file" && [ $(wc -c < "$tmp_file") -gt 1000 ]; then
-                mv "$tmp_file" "data/${cat}.json"
-                echo "Successfully updated ${cat}.json ($(wc -c < "data/${cat}.json") bytes)"
-              else
-                echo "Warning: Response for $cat is not valid JSON, keeping current cache"
-              fi
-            else
-              echo "Warning: HTTP request failed for $cat, keeping current cache"
-            fi
-          done
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install pg
+        run: npm install pg --no-save
+
+      - name: Export fresh news from Database
+        run: node scripts/export_fresh_data_from_db.mjs
 
       - name: Commit and push changes
         run: |
@@ -42,6 +34,10 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes in news data"
           else
-            git commit -m "Auto-sync latest news data with validation [skip ci]"
+            git commit -m "Auto-sync latest news data directly from DB [skip ci]"
             git push
+            categories=("global" "domestic" "business" "tech" "money" "culture")
+            for cat in "${categories[@]}"; do
+              curl -s "https://purge.jsdelivr.net/gh/Zenglian990/zenglian-news@main/data/${cat}.json" || true
+            done
           fi
