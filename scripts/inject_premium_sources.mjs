@@ -4,7 +4,11 @@ import * as cheerio from "cheerio";
 import crypto from "node:crypto";
 import fs from "node:fs";
 
-const connStr = "postgresql://neondb_owner:npg_ZhHSnk3d6QXW@ep-withered-silence-b7u1pctd-pooler.c-13.us-east-1.aws.neon.tech/neondb?sslmode=require";
+const connStr = process.env.DATABASE_URL;
+if (!connStr) {
+  console.error("Missing DATABASE_URL environment variable");
+  process.exit(1);
+}
 const sql = postgres(connStr, { ssl: "require" });
 
 const parser = new XMLParser({

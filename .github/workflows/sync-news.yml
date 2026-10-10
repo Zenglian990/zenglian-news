@@ -2,7 +2,7 @@ name: Sync News Cache to CDN
 
 on:
   schedule:
-    - cron: '*/20 * * * *'
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -11,6 +11,9 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -18,10 +21,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
-      - name: Install pg
-        run: npm install pg --no-save
+      - name: Install dependencies
+        run: npm install pg postgres fast-xml-parser cheerio --no-save
+
+      - name: Crawl live RSS feeds and translate with DeepSeek
+        run: node scripts/inject_premium_sources.mjs || true
 
       - name: Export fresh news from Database
         run: node scripts/export_fresh_data_from_db.mjs
@@ -34,7 +40,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes in news data"
           else
-            git commit -m "Auto-sync latest news data directly from DB [skip ci]"
+            git commit -m "Auto-sync latest news data [skip ci]"
             git push
             categories=("global" "domestic" "business" "tech" "money" "culture")
             for cat in "${categories[@]}"; do

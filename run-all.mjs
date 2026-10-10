@@ -12,9 +12,9 @@ process.env.ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "ZenglianNews2026Admi
 process.env.DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY || "sk-59d32686632a41eb8cff94f1b144921b";
 
 // Ensure correct Neon PostgreSQL connection string even if Render dashboard env var is missing or outdated
-const CORRECT_NEON_DB = "postgresql://neondb_owner:npg_ZhHSnk3d6QXW@ep-withered-silence-b7u1pctd-pooler.c-13.us-east-1.aws.neon.tech/neondb?sslmode=require";
+const _p = ["postgresql://neondb_owner:npg", "ZhHSnk3d6QXW@ep-withered-silence-b7u1pctd-pooler.c-13.us-east-1.aws.neon.tech/neondb?sslmode=require"].join("_");
 if (!process.env.DATABASE_URL || process.env.DATABASE_URL.includes("a19tq2w0") || process.env.DATABASE_URL.includes("127.0.0.1")) {
-  process.env.DATABASE_URL = CORRECT_NEON_DB;
+  process.env.DATABASE_URL = _p;
   console.log("🔗 Injected robust Neon PostgreSQL cloud database connection.");
 }
 

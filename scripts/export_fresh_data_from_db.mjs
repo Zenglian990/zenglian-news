@@ -2,7 +2,11 @@ import pg from "pg";
 import fs from "node:fs";
 import path from "node:path";
 
-const DATABASE_URL = "postgresql://neondb_owner:npg_ZhHSnk3d6QXW@ep-withered-silence-b7u1pctd-pooler.c-13.us-east-1.aws.neon.tech/neondb?sslmode=require";
+const DATABASE_URL = process.env.DATABASE_URL;
+if (!DATABASE_URL) {
+  console.error("Missing DATABASE_URL environment variable");
+  process.exit(1);
+}
 
 async function exportData() {
   const client = new pg.Client({ connectionString: DATABASE_URL });
