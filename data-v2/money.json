@@ -1,0 +1,938 @@
+{
+  "schemaVersion": 1,
+  "query": {
+    "mode": "selected",
+    "category": "money",
+    "window": "7d",
+    "q": null,
+    "by": "timeline",
+    "ordering": "timelineDesc"
+  },
+  "items": [
+    {
+      "id": "ae199947e600b38f0100152b5",
+      "title": "[Apple] iOS 下拉搜索严重卡顿",
+      "originalTitle": "[Apple] iOS 下拉搜索严重卡顿",
+      "summary": "不知道是不是个例，论坛上没看到反馈。 我习惯下拉搜索打开 app ，但是在 26 的某个版本，中文输入法状态下打字，卡顿严重。每次下拉搜索输入几个字母，1 到 2s 没有响应，然后突然这些字母会一起蹦到屏幕上。卡顿结束后续打字就流程了。 英文输入法不会卡。 到设置中删除中文键盘再重新添加，会缓解一段时间，用着用着还是会卡。 更新到 iOS27 后，依然有这个问题。",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/ae199947e600b38f0100152b5",
+        "original": "https://www.v2ex.com/t/1247568#reply2"
+      },
+      "publishedAt": "2026-10-10T03:30:37.000Z",
+      "discoveredAt": "2026-10-10T03:41:15.038Z",
+      "category": "money",
+      "score": 9,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/ae199947e600b38f0100152b5"
+      }
+    },
+    {
+      "id": "ab1af384cf48e6cffb57117c0",
+      "title": "[Claude] 欧洲 KYC 实体卡支付，耐用一个月的 20X CC MAX 成品号，有需求么？",
+      "originalTitle": "[Claude] 欧洲 KYC 实体卡支付，耐用一个月的 20X CC MAX 成品号，有需求么？",
+      "summary": "每天需要预定，客户反馈拿了一批号用了 20 天还没被封，客户还是用来中转的 号真的很硬 V：geminieth",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/ab1af384cf48e6cffb57117c0",
+        "original": "https://www.v2ex.com/t/1247567#reply0"
+      },
+      "publishedAt": "2026-10-10T03:29:06.000Z",
+      "discoveredAt": "2026-10-10T03:41:15.186Z",
+      "category": "money",
+      "score": 9,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/ab1af384cf48e6cffb57117c0"
+      }
+    },
+    {
+      "id": "ae3025d9a58aaf9de0e743c1b",
+      "title": "[汽车] 广州个人特斯拉 model y 出售",
+      "originalTitle": "[汽车] 广州个人特斯拉 model y 出售",
+      "summary": "价格可聊，modely 23 款 后轮驱动版 24 年 1 月上牌，上班不开，周末偶尔开一下，也不会开长途，2.8 万公里的行驶里程，没有任何交通事故，只有一点点车漆剐蹭不知道什么时候产生的。有瓜子的验车报告，如果需要其他的验车可以配合。 [闲鱼] https://m.tb.cn/h.j0xjEm7?tk=t0aBTJu0ewY CZ356 「我在闲鱼发布了 [（车商勿扰）特斯拉 model y 2023 款后轮驱动版，2.] 」 点击链接直接打开",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/ae3025d9a58aaf9de0e743c1b",
+        "original": "https://www.v2ex.com/t/1247566#reply1"
+      },
+      "publishedAt": "2026-10-10T03:26:30.000Z",
+      "discoveredAt": "2026-10-10T03:41:15.330Z",
+      "category": "money",
+      "score": 9,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/ae3025d9a58aaf9de0e743c1b"
+      }
+    },
+    {
+      "id": "a1d4ff214220b4385a7724806",
+      "title": "[程序员] AI 编码项目时间一长，结构和文档越来越乱，有什么好用的 project clean / code clean skill 推荐？",
+      "originalTitle": "[程序员] AI 编码项目时间一长，结构和文档越来越乱，有什么好用的 project clean / code clean skill 推荐？",
+      "summary": "背景：这一年多个人和公司的项目基本全用 AI CLI agent （ Claude Code / Codex 这类）写，单次会话的质量还行，但项目时间一长，腐化问题非常明显： 结构腐化：agent 倾向\"就地新增\"，几乎每个会话都可能造一份新的 utils / helpers / adapters ，重复实现越攒越多，到后期没人敢删； 文档腐化：README 、DESIGN 、总结类 markdown 越写越多，大量内容互相矛盾或早已过期，而且 AI 还喜欢每次再生成一份新的； 元数据腐化： AGENTS.md / CLAUDE.md 越来越长，规则开始...",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a1d4ff214220b4385a7724806",
+        "original": "https://www.v2ex.com/t/1247565#reply0"
+      },
+      "publishedAt": "2026-10-10T03:26:06.000Z",
+      "discoveredAt": "2026-10-10T03:41:15.473Z",
+      "category": "money",
+      "score": 9,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a1d4ff214220b4385a7724806"
+      }
+    },
+    {
+      "id": "a60e23927dcc41dbebfc95265",
+      "title": "[分享创造] 做了个免费资产管理 iOS App，不限制资产数量!",
+      "originalTitle": "[分享创造] 做了个免费资产管理 iOS App，不限制资产数量!",
+      "summary": "自己的钱分散在好几个地方，现有的资产管理 App 满足不了我的需求，而且免费的大多都限制资产数量,自己 vibe coding 了一个，已经上架 appstore 搜 [来财记账]",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a60e23927dcc41dbebfc95265",
+        "original": "https://www.v2ex.com/t/1247563#reply0"
+      },
+      "publishedAt": "2026-10-10T03:19:22.000Z",
+      "discoveredAt": "2026-10-10T03:41:15.616Z",
+      "category": "money",
+      "score": 10,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a60e23927dcc41dbebfc95265"
+      }
+    },
+    {
+      "id": "a258909da9426f174074d6816",
+      "title": "[程序员] Chatgpt/Claude 低价代充，充自己的账号",
+      "originalTitle": "[程序员] Chatgpt/Claude 低价代充，充自己的账号",
+      "summary": "chatgpt plus 130 chatgpt pro 5x 680 chatgpt pro 20x 1280 claude pro 150 claude max 5x 900 claude max 20x 1850 wx:bHVsdWlpaw==",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a258909da9426f174074d6816",
+        "original": "https://www.v2ex.com/t/1247562#reply0"
+      },
+      "publishedAt": "2026-10-10T03:17:22.000Z",
+      "discoveredAt": "2026-10-10T03:41:15.760Z",
+      "category": "money",
+      "score": 9,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a258909da9426f174074d6816"
+      }
+    },
+    {
+      "id": "a2d020f86fbc2304d3c2b519a",
+      "title": "[问与答] claude 充值咨询",
+      "originalTitle": "[问与答] claude 充值咨询",
+      "summary": "Claude 用 ios 礼品卡充值 被封的话能能退款么？",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a2d020f86fbc2304d3c2b519a",
+        "original": "https://www.v2ex.com/t/1247561#reply1"
+      },
+      "publishedAt": "2026-10-10T03:16:07.000Z",
+      "discoveredAt": "2026-10-10T03:41:15.904Z",
+      "category": "money",
+      "score": 9,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a2d020f86fbc2304d3c2b519a"
+      }
+    },
+    {
+      "id": "a9114d7d377de30c8bebd0f26",
+      "title": "[分享发现] 这算是 Agent 在客服领域的应用吗？",
+      "originalTitle": "[分享发现] 这算是 Agent 在客服领域的应用吗？",
+      "summary": "在京东上买了一副隐形眼镜，总是有重影，去找客服，可能后续语气有点强硬了（因为客服总说我的眼睛度数有问题，或者是散光。因为我戴同样度数的镜框眼镜就没有重影，所以肯定不是我自身的问题），给客户的文字发不出去，说有敏感词汇。我感觉，事 AI 判断到我的语气有问题，不让发，大家闲着没事儿分析一下，是不是这个原因。我发给客服的消息里，哪些算敏感词汇、广告引流信息？ 后来客服说，售后时限是 15 天，因为我把包装扔了，无法确认拆封日期，不能售后。这个理由我认，咱得讲理。但是，你不能一直说我眼睛有问题啊。（这是第二次了，第一次售后让拍撕毁镜片的视频，给退款了。我重新拍...",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a9114d7d377de30c8bebd0f26",
+        "original": "https://www.v2ex.com/t/1247559#reply1"
+      },
+      "publishedAt": "2026-10-10T03:15:06.000Z",
+      "discoveredAt": "2026-10-10T03:41:16.072Z",
+      "category": "money",
+      "score": 10,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a9114d7d377de30c8bebd0f26"
+      }
+    },
+    {
+      "id": "af8f1fd20765f81e9dc8737c3",
+      "title": "[汽车] 有没有买了魏牌 v8x 的朋友分享一下感受",
+      "originalTitle": "[汽车] 有没有买了魏牌 v8x 的朋友分享一下感受",
+      "summary": "这车有啥优缺点，家庭豪华 ultra 值得买吗",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/af8f1fd20765f81e9dc8737c3",
+        "original": "https://www.v2ex.com/t/1247558#reply0"
+      },
+      "publishedAt": "2026-10-10T03:14:47.000Z",
+      "discoveredAt": "2026-10-10T03:41:16.216Z",
+      "category": "money",
+      "score": 9,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/af8f1fd20765f81e9dc8737c3"
+      }
+    },
+    {
+      "id": "aeb18d5b9ba007ac0eff89d22",
+      "title": "[问与答] 有没有和我一样用 Codex 提示“无法加载工作空间设置 请重试以继续聊天”啊",
+      "originalTitle": "[问与答] 有没有和我一样用 Codex 提示“无法加载工作空间设置 请重试以继续聊天”啊",
+      "summary": "现在新建聊天十有八九会遇到这个提示，出现时无法直接进行对话，多点几次重试可能能够解决，但总是提示，有老哥遇到这个问题吗？",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/aeb18d5b9ba007ac0eff89d22",
+        "original": "https://www.v2ex.com/t/1247557#reply0"
+      },
+      "publishedAt": "2026-10-10T03:14:35.000Z",
+      "discoveredAt": "2026-10-10T03:41:16.359Z",
+      "category": "money",
+      "score": 10,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/aeb18d5b9ba007ac0eff89d22"
+      }
+    },
+    {
+      "id": "a2eb10c0b3703880441943718",
+      "title": "[程序员] 交易",
+      "originalTitle": "[程序员] 交易",
+      "summary": "交易从止损开始。 本人做加密货币合约，经常 15 分钟左右就看下盘，然后有机会就开单，但是止损又不做，经常盈利较小，回撤很大。因此本周 vibeCoding 下交易策略，实时监听订单成交情况，并设置 4atr 固定止损，防止本人手动下单，亏损又扛单。 大多数普通人是厌恶止损的，因此直接强制进行止损。 欢迎大家多多交流交易",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a2eb10c0b3703880441943718",
+        "original": "https://www.v2ex.com/t/1247550#reply0"
+      },
+      "publishedAt": "2026-10-10T02:58:38.000Z",
+      "discoveredAt": "2026-10-10T03:00:46.813Z",
+      "category": "money",
+      "score": 10,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a2eb10c0b3703880441943718"
+      }
+    },
+    {
+      "id": "ae82f706bab727d5ab5094842",
+      "title": "[搜索引擎优化] 目录交了一圈， GSC 外链还是 0",
+      "originalTitle": "[搜索引擎优化] 目录交了一圈， GSC 外链还是 0",
+      "summary": "投了一批目录，隔两周打开 Search Console 的外部链接，还是空的。我一开始以为是权重，或者 Google 还没抓到。 后来把上线页源码翻开，不少「访问官网」根本没链到自己的域名。提交成功只说明资料收进去了。 有的 href 就是你的站。有的先跳到对方的 /out 、 /redirect 、 /r/ ，源码里看不到你的域名。还有的是脚本按钮，HTML 里没有指向你的 &lt;a&gt; ，抓下来就是没有这条链接。 目录和工具榜，我看页面上有没有你的域名。社区帖、启动平台经常对不上。Product Hunt 点出去先走它自己的地址，按链接找，结果...",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/ae82f706bab727d5ab5094842",
+        "original": "https://www.v2ex.com/t/1247549#reply0"
+      },
+      "publishedAt": "2026-10-10T02:53:52.000Z",
+      "discoveredAt": "2026-10-10T03:00:46.958Z",
+      "category": "money",
+      "score": 9,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/ae82f706bab727d5ab5094842"
+      }
+    },
+    {
+      "id": "a5cc1c9da1c79880b32fa584c",
+      "title": "[分享创造] 把社区手机端做成了微信的样子 😆",
+      "originalTitle": "[分享创造] 把社区手机端做成了微信的样子 😆",
+      "summary": "之前发帖在做一个兴趣社区 总感觉聊天会比较自然，无压力。发帖的时候也轻松简单许多，就像发微信一样。很方便的发图片和文字。 有很多时候想要发些内容，一想到要点到发布主题，然后填标题填内容，还要再点小图标上传图片，感觉太麻烦就放弃了。 现在真的是想到啥发啥，哈哈哈，很轻松呀 使用 Safari 打开，然后 Add to Home Screen 获得完美体验， 欢迎大家在手机上访问 https://middlefun.com 来体验下",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a5cc1c9da1c79880b32fa584c",
+        "original": "https://www.v2ex.com/t/1247548#reply6"
+      },
+      "publishedAt": "2026-10-10T02:49:50.000Z",
+      "discoveredAt": "2026-10-10T03:00:47.103Z",
+      "category": "money",
+      "score": 10,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a5cc1c9da1c79880b32fa584c"
+      }
+    },
+    {
+      "id": "a7e08b98bce15f88be62f31f3",
+      "title": "[分享创造] 口袋百宝集小程序更新了： 1.7 到 1.9 攒了三版一起发，整包体积砍掉四成",
+      "originalTitle": "[分享创造] 口袋百宝集小程序更新了： 1.7 到 1.9 攒了三版一起发，整包体积砍掉四成",
+      "summary": "我的小程序「口袋百宝集」又更新了。 之前发过一帖，这次从 1.6.0 之后说起。 老样子，我自己写的，免费，没广告也没内购。50 多个小工具，不联网不登录。 上次的功能更新停在 1.6.0 。后面 1.7 到 1.9 攒了三版，一起提的审。 1.7.0 是功能：条形码加了存相册，颜色工具换了选色方式。 1.8.0 和 1.9.0 没有新功能，全是体积优化。说实话一开始只是想试试能压多少，压完发现效果比预期大，就顺手把该做的验证都做了一遍。 1.7.0 加的两个功能 条形码生成现在能存到相册了。之前只能看，现在点一下保存到相册，白底黑条带内容文字那种图，扫...",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a7e08b98bce15f88be62f31f3",
+        "original": "https://www.v2ex.com/t/1247547#reply0"
+      },
+      "publishedAt": "2026-10-10T02:45:23.000Z",
+      "discoveredAt": "2026-10-10T02:46:10.423Z",
+      "category": "money",
+      "score": 9,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a7e08b98bce15f88be62f31f3"
+      }
+    },
+    {
+      "id": "aa2935295fdb541cbc1cad728",
+      "title": "[问与答] 昨天看了对话孙宇晨的视频，里面提出了年轻人三大宝：孙学、薄肌、黄毛，大家怎么看?",
+      "originalTitle": "[问与答] 昨天看了对话孙宇晨的视频，里面提出了年轻人三大宝：孙学、薄肌、黄毛，大家怎么看?",
+      "summary": "感觉还是比较有意思，跟传统思维还是差距蛮大的。也挺搞笑，想听听咱们程序员的感受。",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/aa2935295fdb541cbc1cad728",
+        "original": "https://www.v2ex.com/t/1247546#reply0"
+      },
+      "publishedAt": "2026-10-10T02:44:02.000Z",
+      "discoveredAt": "2026-10-10T02:46:10.582Z",
+      "category": "money",
+      "score": 9,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/aa2935295fdb541cbc1cad728"
+      }
+    },
+    {
+      "id": "a6e92b08fd3508bee217c880c",
+      "title": "[问与答] 昨天看了对话孙宇晨的视频，里面提出了年轻人三大宝：孙学、薄肌、黄毛，大家怎么看?",
+      "originalTitle": "[问与答] 昨天看了对话孙宇晨的视频，里面提出了年轻人三大宝：孙学、薄肌、黄毛，大家怎么看?",
+      "summary": "感觉还是比较有意思，跟传统思维还是差距蛮大的。也挺搞笑，想听听咱们程序员的感受。",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a6e92b08fd3508bee217c880c",
+        "original": "https://www.v2ex.com/t/1247546#reply3"
+      },
+      "publishedAt": "2026-10-10T02:44:02.000Z",
+      "discoveredAt": "2026-10-10T03:00:47.393Z",
+      "category": "money",
+      "score": 9,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a6e92b08fd3508bee217c880c"
+      }
+    },
+    {
+      "id": "a8ed6c79b96d25cc835286682",
+      "title": "[问与答] 目前最好的语音输入法是哪个?",
+      "originalTitle": "[问与答] 目前最好的语音输入法是哪个?",
+      "summary": "能够尽量保护隐私 能够很好的识别中文英文",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a8ed6c79b96d25cc835286682",
+        "original": "https://www.v2ex.com/t/1247545#reply4"
+      },
+      "publishedAt": "2026-10-10T02:40:14.000Z",
+      "discoveredAt": "2026-10-10T03:00:47.538Z",
+      "category": "money",
+      "score": 10,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a8ed6c79b96d25cc835286682"
+      }
+    },
+    {
+      "id": "a5e5690ded013b03837d993c3",
+      "title": "[问与答] 目前最好的语音输入法是哪个?",
+      "originalTitle": "[问与答] 目前最好的语音输入法是哪个?",
+      "summary": "能够尽量保护隐私 能够很好的识别中文英文",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a5e5690ded013b03837d993c3",
+        "original": "https://www.v2ex.com/t/1247545#reply0"
+      },
+      "publishedAt": "2026-10-10T02:40:14.000Z",
+      "discoveredAt": "2026-10-10T02:46:10.724Z",
+      "category": "money",
+      "score": 10,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a5e5690ded013b03837d993c3"
+      }
+    },
+    {
+      "id": "acd3c103c12ab04e3c6f840ca",
+      "title": "[Claude] claude 代充",
+      "originalTitle": "[Claude] claude 代充",
+      "summary": "pro 150 质保订阅，封号不质保，走 ios 订阅 有需要请联系： base64: d3hzc3luZWc=",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/acd3c103c12ab04e3c6f840ca",
+        "original": "https://www.v2ex.com/t/1247544#reply0"
+      },
+      "publishedAt": "2026-10-10T02:32:45.000Z",
+      "discoveredAt": "2026-10-10T02:34:43.485Z",
+      "category": "money",
+      "score": 9,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/acd3c103c12ab04e3c6f840ca"
+      }
+    },
+    {
+      "id": "a7ce303ab079cd6a94b901e99",
+      "title": "[分享创造] dtool：面向 AI Agent 的本地数据管道 CLI",
+      "originalTitle": "[分享创造] dtool：面向 AI Agent 的本地数据管道 CLI",
+      "summary": "dtool：面向 AI Agent 的本地数据管道 CLI 简介 dtool 是一个本地数据管道 CLI ，单二进制、无外部依赖，主要面向 AI Agent 处理 Excel / JSON 的场景。 项目开源，地址： https://github.com/dezhishen/dtool 开源协议：MIT 它的核心思路是：不把原始表塞进模型上下文，也不让模型现场写 Python ，而是先把表转成数据集和 Schema ，把计算下推到本地 SQLite ，用 SQL 作为计算层。 SQL 是标准、准确、成熟的数据查询语言。它声明式、语义明确、结果确定，过滤、...",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a7ce303ab079cd6a94b901e99",
+        "original": "https://www.v2ex.com/t/1247543#reply0"
+      },
+      "publishedAt": "2026-10-10T02:26:44.000Z",
+      "discoveredAt": "2026-10-10T02:34:43.683Z",
+      "category": "money",
+      "score": 10,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a7ce303ab079cd6a94b901e99"
+      }
+    },
+    {
+      "id": "aa828ab5606ebd40cfb4c6ca2",
+      "title": "[Claude Code] 从 ChatGPT 转向 Claude 体验好了一大截",
+      "originalTitle": "[Claude Code] 从 ChatGPT 转向 Claude 体验好了一大截",
+      "summary": "从 9 月初发现 ChatGPT 的 10x 账号被降智后，合租了一个美国家宽，又新开了一个 ChatGPT 的 5x 账号。但是仍旧发现： 速度明细变慢 还是发现被降智了。选用的 6.1 模型，在 codex 自带统计中查看 analyze 下的 message ，看到 80%都是 5.6luna 的回复 于是放弃了 ChatGPT ，前几天开了 Claude 的 5x ，感觉体验要好上很多，功能准确性也感觉有提升。 一直用默认的 Opus 5.5 模型，用 spec-kit 来协助开发。",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/aa828ab5606ebd40cfb4c6ca2",
+        "original": "https://www.v2ex.com/t/1247542#reply7"
+      },
+      "publishedAt": "2026-10-10T02:25:04.000Z",
+      "discoveredAt": "2026-10-10T03:00:47.974Z",
+      "category": "money",
+      "score": 9,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/aa828ab5606ebd40cfb4c6ca2"
+      }
+    },
+    {
+      "id": "a06d00ed455e3ba5fd4795311",
+      "title": "[Claude Code] 从 ChatGPT 转向 Claude 体验好了一大截",
+      "originalTitle": "[Claude Code] 从 ChatGPT 转向 Claude 体验好了一大截",
+      "summary": "从 9 月初发现 ChatGPT 的 10x 账号被降智后，合租了一个美国家宽，又新开了一个 ChatGPT 的 5x 账号。但是仍旧发现： 速度明细变慢 还是发现被降智了。选用的 6.1 模型，在 codex 自带统计中查看 analyze 下的 message ，看到 80%都是 5.6luna 的回复 于是放弃了 ChatGPT ，前几天开了 Claude 的 5x ，感觉体验要好上很多，功能准确性也感觉有提升。 一直用默认的 Opus 5.5 模型，用 spec-kit 来协助开发。",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a06d00ed455e3ba5fd4795311",
+        "original": "https://www.v2ex.com/t/1247542#reply3"
+      },
+      "publishedAt": "2026-10-10T02:25:04.000Z",
+      "discoveredAt": "2026-10-10T02:34:43.831Z",
+      "category": "money",
+      "score": 9,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a06d00ed455e3ba5fd4795311"
+      }
+    },
+    {
+      "id": "aa0a6d6c302f73afe1dab81b5",
+      "title": "[Claude Code] 从 ChatGPT 转向 Claude 体验好了一大截",
+      "originalTitle": "[Claude Code] 从 ChatGPT 转向 Claude 体验好了一大截",
+      "summary": "从 9 月初发现 ChatGPT 的 10x 账号被降智后，合租了一个美国家宽，又新开了一个 ChatGPT 的 5x 账号。但是仍旧发现： 速度明细变慢 还是发现被降智了。选用的 6.1 模型，在 codex 自带统计中查看 analyze 下的 message ，看到 80%都是 5.6luna 的回复 于是放弃了 ChatGPT ，前几天开了 Claude 的 5x ，感觉体验要好上很多，功能准确性也感觉有提升。 一直用默认的 Opus 5.5 模型，用 spec-kit 来协助开发。",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/aa0a6d6c302f73afe1dab81b5",
+        "original": "https://www.v2ex.com/t/1247542#reply6"
+      },
+      "publishedAt": "2026-10-10T02:25:04.000Z",
+      "discoveredAt": "2026-10-10T02:46:11.153Z",
+      "category": "money",
+      "score": 10,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/aa0a6d6c302f73afe1dab81b5"
+      }
+    },
+    {
+      "id": "ae9e014802db586ce5528fcb6",
+      "title": "[Apple] Apple TV 看样子真要来了",
+      "originalTitle": "[Apple] Apple TV 看样子真要来了",
+      "summary": "猜了这么多年，总算应该可能大概率要发布了吧。 这下不得不买了😋",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/ae9e014802db586ce5528fcb6",
+        "original": "https://www.v2ex.com/t/1247540#reply3"
+      },
+      "publishedAt": "2026-10-10T02:20:07.000Z",
+      "discoveredAt": "2026-10-10T02:46:11.295Z",
+      "category": "money",
+      "score": 10,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/ae9e014802db586ce5528fcb6"
+      }
+    },
+    {
+      "id": "a3bea96eb3050e79a8d2765da",
+      "title": "[Apple] Apple TV 看样子真要来了",
+      "originalTitle": "[Apple] Apple TV 看样子真要来了",
+      "summary": "猜了这么多年，总算应该可能大概率要发布了吧。 这下不得不买了😋",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a3bea96eb3050e79a8d2765da",
+        "original": "https://www.v2ex.com/t/1247540#reply1"
+      },
+      "publishedAt": "2026-10-10T02:20:07.000Z",
+      "discoveredAt": "2026-10-10T02:34:43.978Z",
+      "category": "money",
+      "score": 9,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a3bea96eb3050e79a8d2765da"
+      }
+    },
+    {
+      "id": "a7430f933be21dbe731e043fe",
+      "title": "[Apple] Apple TV 看样子真要来了",
+      "originalTitle": "[Apple] Apple TV 看样子真要来了",
+      "summary": "猜了这么多年，总算应该可能大概率要发布了吧。 这下不得不买了😋",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a7430f933be21dbe731e043fe",
+        "original": "https://www.v2ex.com/t/1247540#reply6"
+      },
+      "publishedAt": "2026-10-10T02:20:07.000Z",
+      "discoveredAt": "2026-10-10T03:00:48.119Z",
+      "category": "money",
+      "score": 10,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a7430f933be21dbe731e043fe"
+      }
+    },
+    {
+      "id": "a75759107d1a16230d7f4a0d7",
+      "title": "[分享创造] 特别喜欢武士零，做了一个类似的赛博风横版在线网页游戏",
+      "originalTitle": "[分享创造] 特别喜欢武士零，做了一个类似的赛博风横版在线网页游戏",
+      "summary": "国庆假期做了个横版赛博风格游戏，自己和朋友已经玩了一段时间了，感觉不错，分享一下。推荐大家用手柄玩，体验更好。如果大家有什么优化需求或者建议，也欢迎提出来。 游戏画面 游戏视频 游戏链接 https://senzan.nosuchfield.com/",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a75759107d1a16230d7f4a0d7",
+        "original": "https://www.v2ex.com/t/1247539#reply1"
+      },
+      "publishedAt": "2026-10-10T02:18:09.000Z",
+      "discoveredAt": "2026-10-10T02:34:44.127Z",
+      "category": "money",
+      "score": 9,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a75759107d1a16230d7f4a0d7"
+      }
+    },
+    {
+      "id": "a3372d7929d4bcdb21e7427d1",
+      "title": "[分享创造] 做了 QueryWin：同一份产品资料，按每个目录和社区的表单拆开",
+      "originalTitle": "[分享创造] 做了 QueryWin：同一份产品资料，按每个目录和社区的表单拆开",
+      "summary": "同一份产品资料，怎么变成每个目录和社区自己要的那一版 给一个产品找露出，真正耗时间的不是找站点，是每个站点要的那一版介绍。 Product Hunt 要一句 tagline 、一段描述、一条首评，还要 topics 和缩略图。AlternativeTo 要的是产品资料：它替代谁、和现有条目怎么区别。Indie Hackers 要的是一篇能发在社区里的帖子，口吻和目录站的简介完全不是一种。普通目录更碎：有的只要一百多字，有的要 logo 、分类、联系邮箱，有的还要你说明是否接受回链。同一段话复制过去，要么超字数，要么字段对不上。 账也是散的。投了十几条之后...",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a3372d7929d4bcdb21e7427d1",
+        "original": "https://www.v2ex.com/t/1247538#reply0"
+      },
+      "publishedAt": "2026-10-10T02:17:59.000Z",
+      "discoveredAt": "2026-10-10T02:34:44.274Z",
+      "category": "money",
+      "score": 10,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a3372d7929d4bcdb21e7427d1"
+      }
+    },
+    {
+      "id": "aa7e368b17136d4ee019b82ab",
+      "title": "[程序员] 有没有好用的 HK 主机推荐",
+      "originalTitle": "[程序员] 有没有好用的 HK 主机推荐",
+      "summary": "有没有好用的 hongkong 主机可以推荐，现在用的 banwagon ，速率还可以，但是 netflix 视频平台太卡了",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/aa7e368b17136d4ee019b82ab",
+        "original": "https://www.v2ex.com/t/1247536#reply2"
+      },
+      "publishedAt": "2026-10-10T02:09:12.000Z",
+      "discoveredAt": "2026-10-10T02:13:30.083Z",
+      "category": "money",
+      "score": 9,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/aa7e368b17136d4ee019b82ab"
+      }
+    },
+    {
+      "id": "a552c8f80ba43521841847f56",
+      "title": "[程序员] 有没有好用的 HK 主机推荐",
+      "originalTitle": "[程序员] 有没有好用的 HK 主机推荐",
+      "summary": "有没有好用的 hongkong 主机可以推荐，现在用的 banwagon ，速率还可以，但是 netflix 视频平台太卡了",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a552c8f80ba43521841847f56",
+        "original": "https://www.v2ex.com/t/1247536#reply4"
+      },
+      "publishedAt": "2026-10-10T02:09:12.000Z",
+      "discoveredAt": "2026-10-10T02:34:44.422Z",
+      "category": "money",
+      "score": 9,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a552c8f80ba43521841847f56"
+      }
+    },
+    {
+      "id": "a350e268b8ab3693c3c968244",
+      "title": "[分享发现] 不要贪便宜买.tech 的域名",
+      "originalTitle": "[分享发现] 不要贪便宜买.tech 的域名",
+      "summary": ".tech 首年是真便宜，续费直接上天 首年 9.9 刚刚到期准备续费时发现续费一年价格 259",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a350e268b8ab3693c3c968244",
+        "original": "https://www.v2ex.com/t/1247535#reply2"
+      },
+      "publishedAt": "2026-10-10T02:06:02.000Z",
+      "discoveredAt": "2026-10-10T02:34:44.569Z",
+      "category": "money",
+      "score": 10,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a350e268b8ab3693c3c968244"
+      }
+    },
+    {
+      "id": "a5881b97b31998e06976b40af",
+      "title": "[分享发现] 不要贪便宜买.tech 的域名",
+      "originalTitle": "[分享发现] 不要贪便宜买.tech 的域名",
+      "summary": ".tech 首年是真便宜，续费直接上天 首年 9.9 刚刚到期准备续费时发现续费一年价格 259",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a5881b97b31998e06976b40af",
+        "original": "https://www.v2ex.com/t/1247535#reply0"
+      },
+      "publishedAt": "2026-10-10T02:06:02.000Z",
+      "discoveredAt": "2026-10-10T02:13:30.229Z",
+      "category": "money",
+      "score": 10,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a5881b97b31998e06976b40af"
+      }
+    },
+    {
+      "id": "a39f0d2910b9ca41ddab1ba15",
+      "title": "[分享发现] 有没有合理的家庭晚上健身方案或经验， 使用 TV 或者手机完成",
+      "originalTitle": "[分享发现] 有没有合理的家庭晚上健身方案或经验， 使用 TV 或者手机完成",
+      "summary": "2 大 2 小，晚上健身，有什么电脑或手机，可以提供健身方案，打卡计划等功能的 APP 最好是一个 app ，每天打开，有今天的健身计划或自行编排计划，打卡等。",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a39f0d2910b9ca41ddab1ba15",
+        "original": "https://www.v2ex.com/t/1247534#reply0"
+      },
+      "publishedAt": "2026-10-10T02:05:29.000Z",
+      "discoveredAt": "2026-10-10T02:13:30.369Z",
+      "category": "money",
+      "score": 10,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a39f0d2910b9ca41ddab1ba15"
+      }
+    },
+    {
+      "id": "a8859a9e641c3a3e1d55729b9",
+      "title": "[Bose] Bose 新出了有线版本降噪耳塞",
+      "originalTitle": "[Bose] Bose 新出了有线版本降噪耳塞",
+      "summary": "Bose Noise Cancelling Wired Earbuds 售价 99 美元 丰泽开始预定价格 799 港币 是新的潮流复古单品？还是有线无损另一种选择？",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a8859a9e641c3a3e1d55729b9",
+        "original": "https://www.v2ex.com/t/1247533#reply2"
+      },
+      "publishedAt": "2026-10-10T02:04:01.000Z",
+      "discoveredAt": "2026-10-10T02:34:44.866Z",
+      "category": "money",
+      "score": 9,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a8859a9e641c3a3e1d55729b9"
+      }
+    },
+    {
+      "id": "aa98a1a3d9ca8e07e8e04bc74",
+      "title": "[Bose] Bose 新出了有线版本降噪耳塞",
+      "originalTitle": "[Bose] Bose 新出了有线版本降噪耳塞",
+      "summary": "Bose Noise Cancelling Wired Earbuds 售价 99 美元 丰泽开始预定价格 799 港币 是新的潮流复古单品？还是有线无损另一种选择？",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/aa98a1a3d9ca8e07e8e04bc74",
+        "original": "https://www.v2ex.com/t/1247533#reply0"
+      },
+      "publishedAt": "2026-10-10T02:04:01.000Z",
+      "discoveredAt": "2026-10-10T02:13:30.511Z",
+      "category": "money",
+      "score": 9,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/aa98a1a3d9ca8e07e8e04bc74"
+      }
+    },
+    {
+      "id": "a2ef5ecd45446440e19930cbf",
+      "title": "[Codex] codex 代充靠谱问题",
+      "originalTitle": "[Codex] codex 代充靠谱问题",
+      "summary": "不想办理 visa 卡，而且 google play 以前绑过中国区域卡，现在锁国区了。 不想折腾了，现在找代充靠谱不，是怎么个流程，我看代充和直接冲价钱差不多了。是给他二维码然后他支付？还是他给你账号这种。",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a2ef5ecd45446440e19930cbf",
+        "original": "https://www.v2ex.com/t/1247532#reply0"
+      },
+      "publishedAt": "2026-10-10T02:01:39.000Z",
+      "discoveredAt": "2026-10-10T02:13:30.652Z",
+      "category": "money",
+      "score": 10,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a2ef5ecd45446440e19930cbf"
+      }
+    },
+    {
+      "id": "ae5a4eacbf29c97d10a1289a5",
+      "title": "[问与答] 如何训练医学大模型？",
+      "originalTitle": "[问与答] 如何训练医学大模型？",
+      "summary": "论文期刊的数据都可以喂给大模型么？ 期刊中的表格、图表那么复杂，机器知道这些表和和图表的意思么？",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/ae5a4eacbf29c97d10a1289a5",
+        "original": "https://www.v2ex.com/t/1247531#reply1"
+      },
+      "publishedAt": "2026-10-10T01:58:55.000Z",
+      "discoveredAt": "2026-10-10T02:13:30.797Z",
+      "category": "money",
+      "score": 10,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/ae5a4eacbf29c97d10a1289a5"
+      }
+    },
+    {
+      "id": "a0b995202c2da0b9a4d1bc45c",
+      "title": "[问与答] 山姆会员规则变了，一年只能绑定两次副卡",
+      "originalTitle": "[问与答] 山姆会员规则变了，一年只能绑定两次副卡",
+      "summary": "为了防止倒卖副卡会员做出的政策，10 月 16 号开始执行，但好像影响不到倒卖，一年 2 次该卖还能卖，所以他到底防止什么了，这个怎么看？",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a0b995202c2da0b9a4d1bc45c",
+        "original": "https://www.v2ex.com/t/1247529#reply2"
+      },
+      "publishedAt": "2026-10-10T01:55:38.000Z",
+      "discoveredAt": "2026-10-10T02:13:30.940Z",
+      "category": "money",
+      "score": 10,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a0b995202c2da0b9a4d1bc45c"
+      }
+    },
+    {
+      "id": "a82aa2acb4cea84f04573c0f3",
+      "title": "[分享创造] PicXure 升级到 0.4.0 了，新功能免费用",
+      "originalTitle": "[分享创造] PicXure 升级到 0.4.0 了，新功能免费用",
+      "summary": "Hello ，大家好！ 各种截图标注软件真不少，各有千秋，最近给 PicXure 增加了如下功能： 截图背景装饰 OCR 文字识别 Pin 图功能 欢迎下载使用: https://picxure.app",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a82aa2acb4cea84f04573c0f3",
+        "original": "https://www.v2ex.com/t/1247528#reply0"
+      },
+      "publishedAt": "2026-10-10T01:55:19.000Z",
+      "discoveredAt": "2026-10-10T02:13:31.082Z",
+      "category": "money",
+      "score": 10,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a82aa2acb4cea84f04573c0f3"
+      }
+    },
+    {
+      "id": "ab7737c5516f748562f4e9082",
+      "title": "[分享创造] 做了一个“珠光宝气”的页面， V 友看看咋样，提提意见",
+      "originalTitle": "[分享创造] 做了一个“珠光宝气”的页面， V 友看看咋样，提提意见",
+      "summary": "www.ailyre.com/news/ 最好用电脑看，效果更完整一些 整体观感如何？是不是有些太浮夸了……",
+      "source": {
+        "name": "V2EX·搞钱创造"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/ab7737c5516f748562f4e9082",
+        "original": "https://www.v2ex.com/t/1247527#reply7"
+      },
+      "publishedAt": "2026-10-10T01:53:32.000Z",
+      "discoveredAt": "2026-10-10T02:13:31.223Z",
+      "category": "money",
+      "score": 10,
+      "selected": true,
+      "reason": "独立开发者创业、副业变现与技术人灵感聚集地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/ab7737c5516f748562f4e9082"
+      }
+    }
+  ],
+  "page": {
+    "count": 40,
+    "hasMore": true,
+    "nextCursor": null
+  }
+}

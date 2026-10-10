@@ -67,10 +67,13 @@ async function exportData() {
     };
 
     const targetFile = path.join(outDir, `${cat}.json`);
+    const targetFileV2 = path.join(path.resolve("data-v2"), `${cat}.json`);
     const jsonStr = JSON.stringify(payload, null, 2);
     // Write strictly as UTF-8 without BOM!
     fs.writeFileSync(targetFile, jsonStr, "utf8");
-    console.log(`[OK] Exported ${cat}.json: ${items.length} items (${Buffer.byteLength(jsonStr)} bytes), latest: ${items[0]?.title} (${items[0]?.publishedAt})`);
+    if (!fs.existsSync(path.resolve("data-v2"))) fs.mkdirSync(path.resolve("data-v2"), { recursive: true });
+    fs.writeFileSync(targetFileV2, jsonStr, "utf8");
+    console.log(`[OK] Exported ${cat}.json (data & data-v2): ${items.length} items (${Buffer.byteLength(jsonStr)} bytes), latest: ${items[0]?.title}`);
   }
 
   await client.end();
