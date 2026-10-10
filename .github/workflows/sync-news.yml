@@ -2,7 +2,7 @@ name: Sync News Cache to CDN
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/20 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -15,13 +15,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Fetch latest news from Render API
+      - name: Fetch latest news from Render API with validation
         run: |
           mkdir -p data
           categories=("global" "domestic" "business" "tech" "money" "culture")
           for cat in "${categories[@]}"; do
             echo "Fetching $cat..."
-            curl -s "https://zenglian-news.onrender.com/api/v1/items?category=$cat&limit=30&mode=all&window=7d" -o "data/${cat}.json" || true
+            tmp_file="/tmp/${cat}.json"
+            if curl -s -f -m 30 "https://zenglian-news.onrender.com/api/v1/items?category=${cat}&limit=30&mode=all&window=7d" -o "$tmp_file"; then
+              if grep -q "schemaVersion" "$tmp_file" && [ $(wc -c < "$tmp_file") -gt 1000 ]; then
+                mv "$tmp_file" "data/${cat}.json"
+                echo "Successfully updated ${cat}.json ($(wc -c < "data/${cat}.json") bytes)"
+              else
+                echo "Warning: Response for $cat is not valid JSON, keeping current cache"
+              fi
+            else
+              echo "Warning: HTTP request failed for $cat, keeping current cache"
+            fi
           done
 
       - name: Commit and push changes
@@ -32,6 +42,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes in news data"
           else
-            git commit -m "Auto-sync latest news data [skip ci]"
+            git commit -m "Auto-sync latest news data with validation [skip ci]"
             git push
           fi
