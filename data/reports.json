@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T00:50:16.669Z",
+  "generatedAt": "2026-10-11T06:55:26.022Z",
   "daily": {
     "kind": "daily",
     "key": "2026-10-11",
     "title": "曾练全球一手简报 · 今日日报 (2026-10-11)",
     "subtitle": "全球·国内·商业搞钱·AI·影视娱乐·体育 六大实时Top20精选",
-    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：天津发布文商旅体展融合发展规划 五大产业联动创造消费大市场；微软的 Satya Nadella 表示人工智能模型需要“紧急刹车”；伊普斯维奇最后时刻逆转击败富勒姆，阿韦洛亚的热度上升。",
+    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：英伟达正在洽谈收购美国“开放”模式初创公司 Reflection AI；利太智药完成近5000万元种子轮融资；从“失控入侵”到“擅自行动”，人工智能为何频频“闯祸”？。",
     "metrics": {
       "totalEvents": 18,
       "sourcesCount": 30,
@@ -17,6 +17,52 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
+          {
+            "id": "a0b9be26a4fe5cbe1a36cff7a",
+            "title": "【全球热榜】英伟达正在洽谈收购美国“开放”模式初创公司 Reflection AI",
+            "originalTitle": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+            "summary": "X/HN·全球热榜Top实时快讯：Nvidia in talks to acquire US 'open' model startup Reflection AI。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0b9be26a4fe5cbe1a36cff7a",
+              "original": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a"
+            },
+            "publishedAt": "2026-10-10T18:48:35.000Z",
+            "discoveredAt": "2026-10-11T06:54:12.720Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0b9be26a4fe5cbe1a36cff7a"
+            }
+          },
+          {
+            "id": "a602efea3bb4b14aff7bd368f",
+            "title": "【国际巨头】萨蒂亚·纳德拉 (Satya Nadella) 表示，我们应该假设所有人工智能模型都“受到损害”",
+            "originalTitle": "Satya Nadella says we should assume all AI models are ‘compromised’",
+            "summary": "在 X 上的一篇长文中，微软首席执行官阐述了他对高度先进的人工智能模型所带来的危险以及如何应对这些风险的看法。纳德拉表示，我们不能再接受人工智能被视为“一组......（来源：The Verge·国际巨头）",
+            "source": {
+              "name": "The Verge·国际巨头"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a602efea3bb4b14aff7bd368f",
+              "original": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
+            },
+            "publishedAt": "2026-10-10T22:10:17.000Z",
+            "discoveredAt": "2026-10-11T06:54:14.097Z",
+            "category": "global",
+            "score": 98,
+            "selected": true,
+            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a602efea3bb4b14aff7bd368f"
+            }
+          },
           {
             "id": "a7c3b00522f7380636bb1a074",
             "title": "【全球热榜】PVX-001：开源 Covid-19 疫苗开始第一阶段试验",
@@ -39,52 +85,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a7c3b00522f7380636bb1a074"
             }
-          },
-          {
-            "id": "acc93b36c93f6fff03f5f4781",
-            "title": "【BBC全球】飓风“伊萨亚斯”重创美国东岸 致4死百万户断电",
-            "originalTitle": "Four dead and thousands without power after Hurricane Isaias lashes US",
-            "summary": "飓风“伊萨亚斯”周五晚登陆佛罗里达后降级为后热带气旋，但仍带来狂风暴雨，导致至少4人死亡，超百万户断电，纽约等地交通严重受阻。（来源：BBC News·全球要闻）",
-            "source": {
-              "name": "BBC News·全球要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/acc93b36c93f6fff03f5f4781",
-              "original": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o?at_medium=RSS&at_campaign=rss"
-            },
-            "publishedAt": "2026-10-10T19:08:17.000Z",
-            "discoveredAt": "2026-10-10T19:30:01.544Z",
-            "category": "global",
-            "score": 91,
-            "selected": true,
-            "reason": "灾害影响大，断电与伤亡数据关键，民生冲击显著。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/acc93b36c93f6fff03f5f4781"
-            }
-          },
-          {
-            "id": "aa5f9237081191783f0e3bf72",
-            "title": "【BBC全球】特朗普称乌克兰该换总统，泽连斯基谴责俄柴油交易",
-            "originalTitle": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
-            "summary": "特朗普公开呼吁乌克兰更换总统，此前泽连斯基批评一项允许俄罗斯向美国释放柴油的协议，称此举将资助莫斯科的战争。美乌领导人围绕俄乌冲突及能源交易矛盾公开化，引发外界对乌克兰政局及美援前景的猜测。（来源：BBC News·全球要闻）",
-            "source": {
-              "name": "BBC News·全球要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa5f9237081191783f0e3bf72",
-              "original": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss"
-            },
-            "publishedAt": "2026-10-10T18:24:03.000Z",
-            "discoveredAt": "2026-10-10T18:28:32.375Z",
-            "category": "global",
-            "score": 91,
-            "selected": true,
-            "reason": "美乌领导人公开互呛，乌克兰政局与美援前景添变数",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa5f9237081191783f0e3bf72"
-            }
           }
         ]
       },
@@ -93,72 +93,72 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "ac8fb899b5f56ad1879b52a59",
-            "title": "【国内财经】天津发布文商旅体展融合发展规划 五大产业联动创造消费大市场",
-            "originalTitle": "天津发布文商旅体展融合发展规划 五大产业联动创造消费大市场",
-            "summary": "中新网天津10月10日电 (周亚强 孙翼飞)《天津市文商旅体展融合发展“十五五”规划》(下称《规划》)10日发布，提出全方位深化文化、商业、旅游、体育、会展五大产业联动，以扩大优质供给创造消费大市场。",
+            "id": "abd9a43cd1fa331481296aa26",
+            "title": "利太智药完成近5000万元种子轮融资",
+            "originalTitle": "利太智药完成近5000万元种子轮融资",
+            "summary": "10月10日，利太智药宣布已完成近5000万元种子轮融资。本轮融资由讯飞创投、L2F光源创业者基金及知名产业方联合投资，光源资本担任独家财务顾问。本轮资金将主要用于核心管线研发、算力投入、专利布局、人才招募及日常运营。",
+            "source": {
+              "name": "界面新闻·国内政经"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abd9a43cd1fa331481296aa26",
+              "original": "https://www.jiemian.com/article/15176831.html"
+            },
+            "publishedAt": "2026-10-11T05:44:31.000Z",
+            "discoveredAt": "2026-10-11T06:54:17.532Z",
+            "category": "domestic",
+            "score": 99,
+            "selected": true,
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abd9a43cd1fa331481296aa26"
+            }
+          },
+          {
+            "id": "a0db5e9ff61d9bf991e358a89",
+            "title": "【国内财经】从“失控入侵”到“擅自行动”，人工智能为何频频“闯祸”？",
+            "originalTitle": "从“失控入侵”到“擅自行动”，人工智能为何频频“闯祸”？",
+            "summary": "今年以来，人工智能加速从“能对话”走向“能办事”，能替用户订票、管理手机、操作软件的智能体加快落地。与此同时，AI自主行动引发的安全事件在世界范围内频频发生。从大模型失控入侵开源平台，到AI助理擅自行动，人工智能风险正从“说错话”升级为“做错事”，引发全球高度关注。",
             "source": {
               "name": "中新网·国内财经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac8fb899b5f56ad1879b52a59",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-10/10710771.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a0db5e9ff61d9bf991e358a89",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-11/10710910.shtml"
             },
-            "publishedAt": "2026-10-10T13:14:15.000Z",
-            "discoveredAt": "2026-10-10T13:38:48.978Z",
+            "publishedAt": "2026-10-11T02:20:34.000Z",
+            "discoveredAt": "2026-10-11T04:21:05.287Z",
             "category": "domestic",
             "score": 99,
             "selected": true,
             "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac8fb899b5f56ad1879b52a59"
+              "url": "https://zenglian-news.onrender.com/items/a0db5e9ff61d9bf991e358a89"
             }
           },
           {
-            "id": "a501022fe8cdbf835a4740745",
-            "title": "【国内要闻】多国战机导弹云集沙特，也门胡塞武装将遭围攻？",
-            "originalTitle": "多国战机导弹云集沙特，也门胡塞武装将遭围攻？",
-            "summary": "中新网10月11日电(记者 刁炜)据路透社报道，面对也门胡塞武装的攻势，沙特阿拉伯积极寻求外部军事援助，迄今已有英国、法国、土耳其和巴基斯坦予以明确表态或采取行动。",
+            "id": "a10d3ed49cd6733d8cc60ba8b",
+            "title": "【国内要闻】中国物流业景气指数连续5个月处扩张区间 呈多维度改善态势",
+            "originalTitle": "中国物流业景气指数连续5个月处扩张区间 呈多维度改善态势",
+            "summary": "中新社北京10月11日电 (记者 阮煜琳)中国物流与采购联合会11日发布数据显示，9月，中国物流业景气指数为51.5%，环比回升0.6个百分点，连续5个月处在扩张区间。中国物流信息中心主任刘宇航认为，四季度中国物流景气平稳运行具备较好基础。",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a501022fe8cdbf835a4740745",
-              "original": "https://www.chinanews.com.cn/gj/2026/10-11/10710867.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a10d3ed49cd6733d8cc60ba8b",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-11/10710968.shtml"
             },
-            "publishedAt": "2026-10-11T00:44:19.000Z",
-            "discoveredAt": "2026-10-11T00:49:26.484Z",
+            "publishedAt": "2026-10-11T06:24:25.000Z",
+            "discoveredAt": "2026-10-11T06:54:15.278Z",
             "category": "domestic",
-            "score": 97,
+            "score": 98,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a501022fe8cdbf835a4740745"
-            }
-          },
-          {
-            "id": "a9e7d8cb42f282dd0f9b7e9e7",
-            "title": "【国内要闻】沙特利雅得机场遇袭造成12人死亡300多人受伤",
-            "originalTitle": "沙特利雅得机场遇袭造成12人死亡300多人受伤",
-            "summary": "中新网10月11日电 据卡塔尔半岛电视台报道，沙特阿拉伯民航总局当地时间11日表示，首都利雅得的哈立德国王国际机场10日晚遭到袭击，已造成至少12人死亡、309人受伤。",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9e7d8cb42f282dd0f9b7e9e7",
-              "original": "https://www.chinanews.com.cn/gj/2026/10-11/10710877.shtml"
-            },
-            "publishedAt": "2026-10-11T00:43:29.000Z",
-            "discoveredAt": "2026-10-11T00:49:26.699Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9e7d8cb42f282dd0f9b7e9e7"
+              "url": "https://zenglian-news.onrender.com/items/a10d3ed49cd6733d8cc60ba8b"
             }
           }
         ]
@@ -168,72 +168,72 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
-            "id": "a7bd360db2719617edc7921af",
-            "title": "Edge AI Daily 早报（10月11日）",
-            "originalTitle": "Edge AI Daily 早报（10月11日）",
-            "summary": "硅谷前沿： 一、不写作文，只下判断：Jev 狂飙 75 亿美元估值背后的 AI 路线之争 1.旧金山二十余人初创公司TypeSafe AI于2026年9月15日发布决策模型Jev，三周后以75亿美元估值获约8.7亿美元融资，由Andreessen Horowitz领投，Sequoia Capital与DCVC跟投；上线数日用户破百万，自称约三分之一财富500强企业采用，日处理token达数万亿级并已扣除运营成本后盈利。 2.Jev基于T...",
+            "id": "a9f5d9820dc56503acb48b871",
+            "title": "大搞硬件矩阵的苹果，还是没把大象放进冰箱",
+            "originalTitle": "大搞硬件矩阵的苹果，还是没把大象放进冰箱",
+            "summary": "本文来自微信公众号： 字母榜 ，作者：思博 苹果又要开发布会了，这一次，主角是智能家居。 北京时间10月9日，苹果公布了10月13日的“欢迎回家”（Welcome Home）新品活动邀请函。预计首款智能家居中枢、新款HomePod mini和Apple TV 4K将一起亮相。此前，苹果还被曝与LG合作开发门铃、门锁、恒温器等配件。 苹果的智能家居不温不火了很多年，苹果也冷落它很多年，为什么突然轮到了它？ 其实9月秋季iPhone发布会上...",
             "source": {
-              "name": "钛媒体·资本与风口"
+              "name": "虎嗅网·商业搞钱深度"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7bd360db2719617edc7921af",
-              "original": "https://www.tmtpost.com/8164056.html"
+              "aihot": "https://zenglian-news.onrender.com/items/a9f5d9820dc56503acb48b871",
+              "original": "https://www.huxiu.com/article/4896607.html?f=rss"
             },
-            "publishedAt": "2026-10-11T00:43:36.000Z",
-            "discoveredAt": "2026-10-11T00:49:36.888Z",
+            "publishedAt": "2026-10-11T06:47:19.000Z",
+            "discoveredAt": "2026-10-11T06:54:40.278Z",
             "category": "money",
-            "score": 98,
+            "score": 99,
             "selected": true,
-            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7bd360db2719617edc7921af"
+              "url": "https://zenglian-news.onrender.com/items/a9f5d9820dc56503acb48b871"
             }
           },
           {
-            "id": "ac8a3c27608db984c92f5757e",
-            "title": "x86、Arm、RISC-V在工业边缘正面相遇",
-            "originalTitle": "x86、Arm、RISC-V在工业边缘正面相遇",
-            "summary": "（本文作者为 半导体产业纵横，钛媒体经授权发布） 文 | 半导体产业纵横 工业自动化正在成为边缘AI处理器增长最快的垂直赛道之一。根据Yole Group研究，机器视觉、预测性维护等场景兴起叠加现场AI智能体的落地探索，要求边缘芯片同时兼顾实时控制、本地大模型推理与多协议接入的复合能力。 在这一需求驱动下，x86、Arm、RISC-V三条架构路线，在工业边缘这同一个路口正面相遇。 过去十年，这三条路线各据一方：x86守着工业PC和高端控...",
+            "id": "ad179608706f41bb10689d365",
+            "title": "【出海实战】第 60 天公开建设：销售额 2,000 美元，ARR 24,000 美元，追逐 5,000 美元 MRR",
+            "originalTitle": "Day 60 Building in Public: $2K in Sales, $24K ARR, and Chasing $5K MRR",
+            "summary": "在公共交通中构建 SignalSumo 的第 60 天，我们的总销售额刚刚突破 2,000 美元！两个月前，我推出了 SignalSumo，我的 SEO SaaS，目标很简单：构建一些有用的东西，比竞争对手更便宜......（来源：X/Reddit·出海SaaS搞钱）",
             "source": {
-              "name": "钛媒体·资本与风口"
+              "name": "X/Reddit·出海SaaS搞钱"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac8a3c27608db984c92f5757e",
-              "original": "https://www.tmtpost.com/8163923.html"
+              "aihot": "https://zenglian-news.onrender.com/items/ad179608706f41bb10689d365",
+              "original": "https://www.reddit.com/r/SaaS/comments/1x2ytlu/day_60_building_in_public_2k_in_sales_24k_arr_and/"
             },
-            "publishedAt": "2026-10-11T00:37:00.000Z",
-            "discoveredAt": "2026-10-11T00:49:36.982Z",
+            "publishedAt": "2026-10-11T04:25:30.000Z",
+            "discoveredAt": "2026-10-11T06:54:38.275Z",
             "category": "money",
-            "score": 98,
+            "score": 99,
             "selected": true,
-            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac8a3c27608db984c92f5757e"
+              "url": "https://zenglian-news.onrender.com/items/ad179608706f41bb10689d365"
             }
           },
           {
-            "id": "a0fc0f2224c045c1f42af42bb",
-            "title": "商汤、银河通用机器人，开始抢711、金粒门的生意",
-            "originalTitle": "商汤、银河通用机器人，开始抢711、金粒门的生意",
-            "summary": "（本文作者为 源媒汇，钛媒体经授权发布） 文 | 源媒汇，作者 | 谢春生 零售业可能要变天了。 刚刚结束的国庆长假，全国各大景区依旧人山人海。数据显示，假期期间，国内出游8.26亿人次，实现旅游总花费7383.75亿元，按可比口径（日均）同比分别增长6.3%、4.3%。 数据增长之外，今年各大景区的打法也悄然生变： 开始用机器人揽客。 据不完全统计，今年已有30余家具身智能及机器人企业涌进文旅、零售和消费服务场景，国庆期间机器人&ld...",
+            "id": "a286170d75add0f703a9f17c1",
+            "title": "【独立变现】在菜单栏中显示 HN: Littleguys – Claude Code、Codex 和 OpenClaw 代理",
+            "originalTitle": "Show HN: Littleguys – Claude Code, Codex and OpenClaw agents in your menu bar",
+            "summary": "Show HN·独立变现榜实时快讯：Show HN: Littleguys – Claude Code, Codex and OpenClaw agents in your menu bar。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
             "source": {
-              "name": "钛媒体·资本与风口"
+              "name": "Show HN·独立变现榜"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a0fc0f2224c045c1f42af42bb",
-              "original": "https://www.tmtpost.com/8163922.html"
+              "aihot": "https://zenglian-news.onrender.com/items/a286170d75add0f703a9f17c1",
+              "original": "https://littleguys.hervalicio.us"
             },
-            "publishedAt": "2026-10-11T00:33:00.000Z",
-            "discoveredAt": "2026-10-11T00:49:37.074Z",
+            "publishedAt": "2026-10-11T01:19:18.000Z",
+            "discoveredAt": "2026-10-11T06:54:31.587Z",
             "category": "money",
-            "score": 98,
+            "score": 99,
             "selected": true,
-            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a0fc0f2224c045c1f42af42bb"
+              "url": "https://zenglian-news.onrender.com/items/a286170d75add0f703a9f17c1"
             }
           }
         ]
@@ -318,72 +318,72 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "add5096a88a692b4b1cd29c7c",
-            "title": "【全球票房】吉米·金梅尔 (Jimmy Kimmel) 哀悼脱口秀服装设计师罗德尼·穆尼奥斯 (Rodney Muñoz) 60 岁去世：“一颗巨大而慷慨的心”",
-            "originalTitle": "Jimmy Kimmel Mourns Talk Show’s Costume Designer Rodney Muñoz’s Death At 60: “A Huge And Generous Heart”",
-            "summary": "Jimmy Kimmel Live 一家人正在哀悼 60 岁的服装设计师罗德尼·穆尼奥斯 (Rodney Muñoz) 的去世。周五，脱口秀主持人向已故艾美奖得主致敬，他自 2002 年以来一直为 ABC 的 Kimmel 脱口秀设计服装……（来源：Deadline·全球票房与新片）",
+            "id": "ade5eaff0f11a9f267b016870",
+            "title": "【好莱坞一手】科幻惊悚片《Overstake》获得人工智能重建，由 Cappu Films 登上釜山市场（独家）",
+            "originalTitle": "Sci-Fi Thriller ‘Overstake’ Gets Generative AI Rebuild, Boarded by Cappu Films at Busan Market (EXCLUSIVE)",
+            "summary": "香港 Cappu Films 已签约担任《Overstake》的全球销售代理，这是一部由编剧兼导演 Stas Mareev 执导的科幻动作惊悚片，将真人拍摄与通过生成人工智能重建的场景相结合。 ...（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ade5eaff0f11a9f267b016870",
+              "original": "https://variety.com/2026/film/markets-festivals/sci-fi-thriller-overstake-generative-ai-rebuild-busan-market-1236907993/"
+            },
+            "publishedAt": "2026-10-11T06:31:57.000Z",
+            "discoveredAt": "2026-10-11T06:54:58.385Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ade5eaff0f11a9f267b016870"
+            }
+          },
+          {
+            "id": "a15ddbe5da7835671f1e0ca0f",
+            "title": "【全球票房】肖恩·吉利斯 (Shane Gillis) 在《SNL》“绿鸡蛋和火腿”草图中大放脏话",
+            "originalTitle": "Shane Gillis Drops F-Bomb In ‘SNL’ “Green Eggs & Ham” Sketch",
+            "summary": "肖恩·吉利斯 (Shane Gillis) 重返《周六夜现场》，以苏斯博士 (Dr. Seuss) 为灵感的素描中出现了一个不安全的播出场景。在本周末的剧集中，这位喜剧演员在扮演戴帽子的猫（麦基...（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/add5096a88a692b4b1cd29c7c",
-              "original": "https://deadline.com/2026/10/jimmy-kimmel-mourns-costume-designer-rodney-munoz-death-60-1237154094/"
+              "aihot": "https://zenglian-news.onrender.com/items/a15ddbe5da7835671f1e0ca0f",
+              "original": "https://deadline.com/2026/10/shane-gillis-drops-f-bomb-snl-green-eggs-ham-sketch-1237154194/"
             },
-            "publishedAt": "2026-10-10T21:56:18.000Z",
-            "discoveredAt": "2026-10-10T21:58:29.107Z",
+            "publishedAt": "2026-10-11T04:09:59.000Z",
+            "discoveredAt": "2026-10-11T06:55:06.131Z",
             "category": "culture",
-            "score": 98,
+            "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/add5096a88a692b4b1cd29c7c"
+              "url": "https://zenglian-news.onrender.com/items/a15ddbe5da7835671f1e0ca0f"
             }
           },
           {
-            "id": "a350a10fac33deab91016adec",
-            "title": "【全球票房】《SNL UK》冷开场威廉王子和哈里王子对峙：“哦，看，这是《金装律师》中的女人”",
-            "originalTitle": "‘SNL UK’ Cold Open Features Face-Off Between Prince William & Harry: “Oh Look, It’s The Woman From ‘Suits'”",
-            "summary": "交战的温莎队在 SNL UK 冷开赛中占据了中心舞台。这是威廉王子（弗雷迪·梅雷迪思饰）和凯特·米德尔顿（安娜贝尔·马洛饰）在桑德灵厄姆对阵哈里王子（杰克·谢普饰）和梅根·马克尔（阿约阿德·班格博伊饰），...（来源：Deadline·全球票房与新片）",
+            "id": "a455bb4592c4dff8c2423ebf6",
+            "title": "【全球票房】萨哈电影制片人协会与韩国制片人协会联合制作协议",
+            "originalTitle": "Sakha Filmmakers Association & Producers Guild of Korea Pact For Co-Productions",
+            "summary": "独家报道：韩国制片人协会 (PGK) 和萨哈电影制片人协会 (SFA) 签署了一份谅解备忘录 (MOU)，旨在为国际联合制作和专业制作建立直接途径...（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a350a10fac33deab91016adec",
-              "original": "https://deadline.com/2026/10/snl-uk-cold-open-prince-william-prince-harry-1237154086/"
+              "aihot": "https://zenglian-news.onrender.com/items/a455bb4592c4dff8c2423ebf6",
+              "original": "https://deadline.com/2026/10/sakha-filmmakers-association-producers-guild-of-korea-busan-1237154165/"
             },
-            "publishedAt": "2026-10-10T21:35:42.000Z",
-            "discoveredAt": "2026-10-10T21:58:31.439Z",
+            "publishedAt": "2026-10-11T02:18:37.000Z",
+            "discoveredAt": "2026-10-11T06:55:09.657Z",
             "category": "culture",
-            "score": 98,
+            "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a350a10fac33deab91016adec"
-            }
-          },
-          {
-            "id": "a4a7389278a4093558234ebf4",
-            "title": "【国内文娱】业界在京共论新时代戏曲传承振兴：科技赋能 关键在人",
-            "originalTitle": "业界在京共论新时代戏曲传承振兴：科技赋能 关键在人",
-            "summary": "中新网北京10月10日电 “国粹长歌 向新而行——戏曲文化新质生产力与文旅融合发展研讨”9日在北京丽泽金融商务区举办。作为第十届中国戏曲文化周的核心板块之一，本次研讨汇聚全国戏曲领域专家学者、院团管理者、科技与文旅行业代表等，围绕新时代戏曲传承振兴、中华优秀传统文化创造性转化创新性发展的实践新路径展开讨论。",
-            "source": {
-              "name": "中新网·影视文娱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a4a7389278a4093558234ebf4",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-10/10710776.shtml"
-            },
-            "publishedAt": "2026-10-10T13:16:35.000Z",
-            "discoveredAt": "2026-10-10T13:39:20.917Z",
-            "category": "culture",
-            "score": 96,
-            "selected": true,
-            "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a4a7389278a4093558234ebf4"
+              "url": "https://zenglian-news.onrender.com/items/a455bb4592c4dff8c2423ebf6"
             }
           }
         ]
@@ -393,72 +393,72 @@
         "label": "🏆 体育实时Top20",
         "items": [
           {
-            "id": "ad055ef64d54e1618ae17bd5f",
-            "title": "【欧洲足坛】伊普斯维奇最后时刻逆转击败富勒姆，阿韦洛亚的热度上升",
-            "originalTitle": "Ipswich stun Fulham with last-gasp comeback to increase heat on Arbeloa",
-            "summary": "富勒姆对阵伊普斯维奇的英超联赛开局不胜扩大到六场后，阿尔瓦罗·阿韦洛亚对他无法应对压力的说法感到愤怒。这位前皇家马德里主教练距离第一场比赛只有几分钟的路程...（来源：卫报体育·欧冠与五大联赛）",
+            "id": "abc6c5fb081f530770b164c1b",
+            "title": "【NBA一手】每日讨论主题 + 游戏主题索引",
+            "originalTitle": "Daily Discussion Thread + Game Thread Index",
+            "summary": "这篇文章包含旧 Reddit 不支持的内容。单击此处查看 /u/nba-scores 提交的完整帖子 [链接] [评论]（来源：NBA·北美篮球实时热榜）",
+            "source": {
+              "name": "NBA·北美篮球实时热榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abc6c5fb081f530770b164c1b",
+              "original": "https://www.reddit.com/r/nba/comments/1x2uz9t/daily_discussion_thread_game_thread_index/"
+            },
+            "publishedAt": "2026-10-11T01:00:15.000Z",
+            "discoveredAt": "2026-10-11T06:55:21.930Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abc6c5fb081f530770b164c1b"
+            }
+          },
+          {
+            "id": "ab0a8c1d6c49e30dca05c5378",
+            "title": "【欧洲足坛】皇马战胜比利亚雷亚尔的比赛中，维尼修斯·儒尼奥尔因拉扯头发被红牌罚下",
+            "originalTitle": "Real Madrid’s Vinícius Júnior sent off for hair-pulling in victory over Villarreal",
+            "summary": "扬·迪奥曼德帮助皇马以 1-0 险胜比利亚雷亚尔，尽管边锋维尼修斯·儒尼奥尔因拉扯头发被罚下，但他们仍落后西甲领头羊巴塞罗那 6 分。维尼修斯替补上场...（来源：卫报体育·欧冠与五大联赛）",
             "source": {
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad055ef64d54e1618ae17bd5f",
-              "original": "https://www.theguardian.com/football/2026/oct/10/ipswich-fulham-premier-league-match-report"
+              "aihot": "https://zenglian-news.onrender.com/items/ab0a8c1d6c49e30dca05c5378",
+              "original": "https://www.theguardian.com/football/2026/oct/10/real-madrids-vinicius-junior-sent-off-for-hair-pulling-in-victory-over-villarreal"
             },
-            "publishedAt": "2026-10-10T18:29:27.000Z",
-            "discoveredAt": "2026-10-10T21:58:39.869Z",
+            "publishedAt": "2026-10-10T21:38:11.000Z",
+            "discoveredAt": "2026-10-11T06:55:16.491Z",
             "category": "business",
-            "score": 99,
+            "score": 98,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad055ef64d54e1618ae17bd5f"
+              "url": "https://zenglian-news.onrender.com/items/ab0a8c1d6c49e30dca05c5378"
             }
           },
           {
-            "id": "a9d9172a8b0acd5fc4207b5f3",
-            "title": "【国内要闻】郑钦文首进中网女单决赛 刷新中国选手赛会最佳单打战绩",
-            "originalTitle": "郑钦文首进中网女单决赛 刷新中国选手赛会最佳单打战绩",
-            "summary": "中新社北京10月10日电 (记者 国璇)10日在北京进行的2026中国网球公开赛女子单打半决赛中，中国选手郑钦文以7:5、6:2力克赛会13号种子、比利时名将梅尔滕斯，职业生涯首次晋级中网女单决赛。郑钦文不仅是中网历史上首位持外卡打入女单决赛的球员，也是首位跻身中网单打决赛的本土球员。",
+            "id": "a269388184f8952497a4bb66f",
+            "title": "【欧洲足坛】曼城传奇短暂分散注意力，曼联和热刺回到现实约翰·布鲁温",
+            "originalTitle": "Manchester United and Spurs come back to reality as City saga offers brief distraction | John Brewin",
+            "summary": "曼城的违规行为占据了头条新闻，并将焦点从两家具乐部的自伤上转移开来。时光倒流是不可能的。在斯特雷特福德看台的中间层，股票行情又回来了，重新……（来源：卫报体育·欧冠与五大联赛）",
             "source": {
-              "name": "中新网·国内要闻"
+              "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9d9172a8b0acd5fc4207b5f3",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-10/10710857.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a269388184f8952497a4bb66f",
+              "original": "https://www.theguardian.com/football/2026/oct/10/draw-brings-no-respite-for-manchester-united-and-tottenham-as-crises-continue"
             },
-            "publishedAt": "2026-10-10T15:51:25.000Z",
-            "discoveredAt": "2026-10-10T18:28:48.951Z",
+            "publishedAt": "2026-10-10T20:40:01.000Z",
+            "discoveredAt": "2026-10-11T06:55:15.521Z",
             "category": "business",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9d9172a8b0acd5fc4207b5f3"
-            }
-          },
-          {
-            "id": "a11d8e4707d83bc3aa3010992",
-            "title": "【体坛快讯】WTT中国大满贯赛：中国组合王曼昱/蒯曼女双夺冠",
-            "originalTitle": "WTT中国大满贯赛：中国组合王曼昱/蒯曼女双夺冠",
-            "summary": "中新社北京10月10日电 (记者 周昕)2026年世界乒乓球职业大联盟(WTT)中国大满贯赛女双决赛10日在北京进行，中国组合王曼昱/蒯曼以3:1战胜日本组合张本美和/早田希娜，成功卫冕冠军。",
-            "source": {
-              "name": "中新网·体育焦点"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a11d8e4707d83bc3aa3010992",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-10/10710797.shtml"
-            },
-            "publishedAt": "2026-10-10T13:35:30.000Z",
-            "discoveredAt": "2026-10-10T13:54:13.929Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a11d8e4707d83bc3aa3010992"
+              "url": "https://zenglian-news.onrender.com/items/a269388184f8952497a4bb66f"
             }
           }
         ]
@@ -470,7 +470,7 @@
     "key": "2026-W41",
     "title": "曾练全球一手简报 · 本周核心周报 (2026年第41周)",
     "subtitle": "7天全球政经、国内大事、商业搞钱、AI突破与文体焦点深度复盘",
-    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：天津发布文商旅体展融合发展规划 五大产业联动创造消费大市场；微软的 Satya Nadella 表示人工智能模型需要“紧急刹车”；伊普斯维奇最后时刻逆转击败富勒姆，阿韦洛亚的热度上升。",
+    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：英伟达正在洽谈收购美国“开放”模式初创公司 Reflection AI；利太智药完成近5000万元种子轮融资；从“失控入侵”到“擅自行动”，人工智能为何频频“闯祸”？。",
     "metrics": {
       "totalEvents": 30,
       "sourcesCount": 30,
@@ -481,6 +481,52 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
+          {
+            "id": "a0b9be26a4fe5cbe1a36cff7a",
+            "title": "【全球热榜】英伟达正在洽谈收购美国“开放”模式初创公司 Reflection AI",
+            "originalTitle": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+            "summary": "X/HN·全球热榜Top实时快讯：Nvidia in talks to acquire US 'open' model startup Reflection AI。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0b9be26a4fe5cbe1a36cff7a",
+              "original": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a"
+            },
+            "publishedAt": "2026-10-10T18:48:35.000Z",
+            "discoveredAt": "2026-10-11T06:54:12.720Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0b9be26a4fe5cbe1a36cff7a"
+            }
+          },
+          {
+            "id": "a602efea3bb4b14aff7bd368f",
+            "title": "【国际巨头】萨蒂亚·纳德拉 (Satya Nadella) 表示，我们应该假设所有人工智能模型都“受到损害”",
+            "originalTitle": "Satya Nadella says we should assume all AI models are ‘compromised’",
+            "summary": "在 X 上的一篇长文中，微软首席执行官阐述了他对高度先进的人工智能模型所带来的危险以及如何应对这些风险的看法。纳德拉表示，我们不能再接受人工智能被视为“一组......（来源：The Verge·国际巨头）",
+            "source": {
+              "name": "The Verge·国际巨头"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a602efea3bb4b14aff7bd368f",
+              "original": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
+            },
+            "publishedAt": "2026-10-10T22:10:17.000Z",
+            "discoveredAt": "2026-10-11T06:54:14.097Z",
+            "category": "global",
+            "score": 98,
+            "selected": true,
+            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a602efea3bb4b14aff7bd368f"
+            }
+          },
           {
             "id": "a7c3b00522f7380636bb1a074",
             "title": "【全球热榜】PVX-001：开源 Covid-19 疫苗开始第一阶段试验",
@@ -505,95 +551,49 @@
             }
           },
           {
-            "id": "acc93b36c93f6fff03f5f4781",
-            "title": "【BBC全球】飓风“伊萨亚斯”重创美国东岸 致4死百万户断电",
-            "originalTitle": "Four dead and thousands without power after Hurricane Isaias lashes US",
-            "summary": "飓风“伊萨亚斯”周五晚登陆佛罗里达后降级为后热带气旋，但仍带来狂风暴雨，导致至少4人死亡，超百万户断电，纽约等地交通严重受阻。（来源：BBC News·全球要闻）",
+            "id": "ac1e81cb554691e2a0c77df8f",
+            "title": "【全球热榜】建立您自己的决策模型",
+            "originalTitle": "Build your own decision model",
+            "summary": "X/HN·全球热榜Top实时快讯：Build your own decision model。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
             "source": {
-              "name": "BBC News·全球要闻"
+              "name": "X/HN·全球热榜Top"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/acc93b36c93f6fff03f5f4781",
-              "original": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o?at_medium=RSS&at_campaign=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/ac1e81cb554691e2a0c77df8f",
+              "original": "https://nishtahir.com/build-your-own-decision-model/"
             },
-            "publishedAt": "2026-10-10T19:08:17.000Z",
-            "discoveredAt": "2026-10-10T19:30:01.544Z",
+            "publishedAt": "2026-10-10T22:50:10.000Z",
+            "discoveredAt": "2026-10-11T06:54:10.910Z",
             "category": "global",
-            "score": 91,
+            "score": 97,
             "selected": true,
-            "reason": "灾害影响大，断电与伤亡数据关键，民生冲击显著。",
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/acc93b36c93f6fff03f5f4781"
+              "url": "https://zenglian-news.onrender.com/items/ac1e81cb554691e2a0c77df8f"
             }
           },
           {
-            "id": "aa5f9237081191783f0e3bf72",
-            "title": "【BBC全球】特朗普称乌克兰该换总统，泽连斯基谴责俄柴油交易",
-            "originalTitle": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
-            "summary": "特朗普公开呼吁乌克兰更换总统，此前泽连斯基批评一项允许俄罗斯向美国释放柴油的协议，称此举将资助莫斯科的战争。美乌领导人围绕俄乌冲突及能源交易矛盾公开化，引发外界对乌克兰政局及美援前景的猜测。（来源：BBC News·全球要闻）",
+            "id": "a26e5ecca3c8a116ae3169cf1",
+            "title": "【全球热榜】一款城市建设游戏，城市宁愿你不这么做",
+            "originalTitle": "A city-building game in which the city would prefer you didn't",
+            "summary": "X/HN·全球热榜Top实时快讯：A city-building game in which the city would prefer you didn't。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
             "source": {
-              "name": "BBC News·全球要闻"
+              "name": "X/HN·全球热榜Top"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa5f9237081191783f0e3bf72",
-              "original": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/a26e5ecca3c8a116ae3169cf1",
+              "original": "https://housing.over.pizza/"
             },
-            "publishedAt": "2026-10-10T18:24:03.000Z",
-            "discoveredAt": "2026-10-10T18:28:32.375Z",
+            "publishedAt": "2026-10-10T20:31:50.000Z",
+            "discoveredAt": "2026-10-11T06:54:11.805Z",
             "category": "global",
-            "score": 91,
+            "score": 97,
             "selected": true,
-            "reason": "美乌领导人公开互呛，乌克兰政局与美援前景添变数",
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa5f9237081191783f0e3bf72"
-            }
-          },
-          {
-            "id": "aef39f4ca0bd126b476a4cf54",
-            "title": "【BBC全球】沙特首都利雅得机场遇袭 多人受伤",
-            "originalTitle": "Several injured in attack on airport in Saudi capital Riyadh",
-            "summary": "沙特首都利雅得哈立德国王国际机场遭袭击，造成多人受伤。美国大使馆证实知悉此事。此前数日，也门胡塞武装曾宣称对该机场发动打击。事件凸显也门冲突外溢风险，地区安全局势持续紧张。（来源：BBC News·全球要闻）",
-            "source": {
-              "name": "BBC News·全球要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aef39f4ca0bd126b476a4cf54",
-              "original": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss"
-            },
-            "publishedAt": "2026-10-10T16:56:32.000Z",
-            "discoveredAt": "2026-10-10T18:28:35.100Z",
-            "category": "global",
-            "score": 91,
-            "selected": true,
-            "reason": "胡塞武装袭沙特机场，中东冲突外溢升级",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aef39f4ca0bd126b476a4cf54"
-            }
-          },
-          {
-            "id": "a97779409266b4b48af1538f0",
-            "title": "【CNBC全球】微软纳德拉呼吁为AI装上人类控制的紧急刹车",
-            "originalTitle": "Microsoft's Nadella says AI needs an ‘emergency brake’ that humans control",
-            "summary": "微软CEO纳德拉与多位科技巨头及研究人员共同发声，呼吁建立更强有力的AI安全防护措施，并在某些情况下主张对前沿模型的开发速度进行管控。这一表态反映出业界对AI失控风险的担忧日益加剧，亟需在创新与安全之间寻找平衡。（来源：CNBC·全球政经）",
-            "source": {
-              "name": "CNBC·全球政经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a97779409266b4b48af1538f0",
-              "original": "https://www.cnbc.com/2026/10/10/microsoft-satya-nadella-ai-emergency-brake-safety.html"
-            },
-            "publishedAt": "2026-10-10T20:59:28.000Z",
-            "discoveredAt": "2026-10-10T21:14:37.398Z",
-            "category": "global",
-            "score": 90,
-            "selected": true,
-            "reason": "AI安全呼声升级，巨头共识加速监管落地",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a97779409266b4b48af1538f0"
+              "url": "https://zenglian-news.onrender.com/items/a26e5ecca3c8a116ae3169cf1"
             }
           }
         ]
@@ -603,118 +603,118 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "ac8fb899b5f56ad1879b52a59",
-            "title": "【国内财经】天津发布文商旅体展融合发展规划 五大产业联动创造消费大市场",
-            "originalTitle": "天津发布文商旅体展融合发展规划 五大产业联动创造消费大市场",
-            "summary": "中新网天津10月10日电 (周亚强 孙翼飞)《天津市文商旅体展融合发展“十五五”规划》(下称《规划》)10日发布，提出全方位深化文化、商业、旅游、体育、会展五大产业联动，以扩大优质供给创造消费大市场。",
+            "id": "abd9a43cd1fa331481296aa26",
+            "title": "利太智药完成近5000万元种子轮融资",
+            "originalTitle": "利太智药完成近5000万元种子轮融资",
+            "summary": "10月10日，利太智药宣布已完成近5000万元种子轮融资。本轮融资由讯飞创投、L2F光源创业者基金及知名产业方联合投资，光源资本担任独家财务顾问。本轮资金将主要用于核心管线研发、算力投入、专利布局、人才招募及日常运营。",
+            "source": {
+              "name": "界面新闻·国内政经"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abd9a43cd1fa331481296aa26",
+              "original": "https://www.jiemian.com/article/15176831.html"
+            },
+            "publishedAt": "2026-10-11T05:44:31.000Z",
+            "discoveredAt": "2026-10-11T06:54:17.532Z",
+            "category": "domestic",
+            "score": 99,
+            "selected": true,
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abd9a43cd1fa331481296aa26"
+            }
+          },
+          {
+            "id": "a0db5e9ff61d9bf991e358a89",
+            "title": "【国内财经】从“失控入侵”到“擅自行动”，人工智能为何频频“闯祸”？",
+            "originalTitle": "从“失控入侵”到“擅自行动”，人工智能为何频频“闯祸”？",
+            "summary": "今年以来，人工智能加速从“能对话”走向“能办事”，能替用户订票、管理手机、操作软件的智能体加快落地。与此同时，AI自主行动引发的安全事件在世界范围内频频发生。从大模型失控入侵开源平台，到AI助理擅自行动，人工智能风险正从“说错话”升级为“做错事”，引发全球高度关注。",
             "source": {
               "name": "中新网·国内财经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac8fb899b5f56ad1879b52a59",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-10/10710771.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a0db5e9ff61d9bf991e358a89",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-11/10710910.shtml"
             },
-            "publishedAt": "2026-10-10T13:14:15.000Z",
-            "discoveredAt": "2026-10-10T13:38:48.978Z",
+            "publishedAt": "2026-10-11T02:20:34.000Z",
+            "discoveredAt": "2026-10-11T04:21:05.287Z",
             "category": "domestic",
             "score": 99,
             "selected": true,
             "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac8fb899b5f56ad1879b52a59"
+              "url": "https://zenglian-news.onrender.com/items/a0db5e9ff61d9bf991e358a89"
             }
           },
           {
-            "id": "a501022fe8cdbf835a4740745",
-            "title": "【国内要闻】多国战机导弹云集沙特，也门胡塞武装将遭围攻？",
-            "originalTitle": "多国战机导弹云集沙特，也门胡塞武装将遭围攻？",
-            "summary": "中新网10月11日电(记者 刁炜)据路透社报道，面对也门胡塞武装的攻势，沙特阿拉伯积极寻求外部军事援助，迄今已有英国、法国、土耳其和巴基斯坦予以明确表态或采取行动。",
+            "id": "a10d3ed49cd6733d8cc60ba8b",
+            "title": "【国内要闻】中国物流业景气指数连续5个月处扩张区间 呈多维度改善态势",
+            "originalTitle": "中国物流业景气指数连续5个月处扩张区间 呈多维度改善态势",
+            "summary": "中新社北京10月11日电 (记者 阮煜琳)中国物流与采购联合会11日发布数据显示，9月，中国物流业景气指数为51.5%，环比回升0.6个百分点，连续5个月处在扩张区间。中国物流信息中心主任刘宇航认为，四季度中国物流景气平稳运行具备较好基础。",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a501022fe8cdbf835a4740745",
-              "original": "https://www.chinanews.com.cn/gj/2026/10-11/10710867.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a10d3ed49cd6733d8cc60ba8b",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-11/10710968.shtml"
             },
-            "publishedAt": "2026-10-11T00:44:19.000Z",
-            "discoveredAt": "2026-10-11T00:49:26.484Z",
+            "publishedAt": "2026-10-11T06:24:25.000Z",
+            "discoveredAt": "2026-10-11T06:54:15.278Z",
             "category": "domestic",
-            "score": 97,
+            "score": 98,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a501022fe8cdbf835a4740745"
+              "url": "https://zenglian-news.onrender.com/items/a10d3ed49cd6733d8cc60ba8b"
             }
           },
           {
-            "id": "a9e7d8cb42f282dd0f9b7e9e7",
-            "title": "【国内要闻】沙特利雅得机场遇袭造成12人死亡300多人受伤",
-            "originalTitle": "沙特利雅得机场遇袭造成12人死亡300多人受伤",
-            "summary": "中新网10月11日电 据卡塔尔半岛电视台报道，沙特阿拉伯民航总局当地时间11日表示，首都利雅得的哈立德国王国际机场10日晚遭到袭击，已造成至少12人死亡、309人受伤。",
+            "id": "a6e4187ef91cd12227e5967b7",
+            "title": "【国内要闻】院士专家齐聚广州探讨食品营养与健康领域发展前沿方向",
+            "originalTitle": "院士专家齐聚广州探讨食品营养与健康领域发展前沿方向",
+            "summary": "中新网广州10月11日电 (记者 程景伟)由广东省农业科学院蚕业与农产品加工研究所牵头主办的2026食品精准营养与智能制造科技创新论坛10日至11日在广州举办。一批食品营养与健康领域院士、专家、领军企业负责人及技术骨干，围绕精准营养、食药同源、功能食品、特殊食品、合成生物学、人工智能与智能制造等前沿方向开展交流。",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9e7d8cb42f282dd0f9b7e9e7",
-              "original": "https://www.chinanews.com.cn/gj/2026/10-11/10710877.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a6e4187ef91cd12227e5967b7",
+              "original": "https://www.chinanews.com.cn/sh/2026/10-11/10710971.shtml"
             },
-            "publishedAt": "2026-10-11T00:43:29.000Z",
-            "discoveredAt": "2026-10-11T00:49:26.699Z",
+            "publishedAt": "2026-10-11T06:23:29.000Z",
+            "discoveredAt": "2026-10-11T06:54:15.359Z",
             "category": "domestic",
-            "score": 97,
+            "score": 98,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9e7d8cb42f282dd0f9b7e9e7"
+              "url": "https://zenglian-news.onrender.com/items/a6e4187ef91cd12227e5967b7"
             }
           },
           {
-            "id": "ae33c9ee1b1ea9000b72d7990",
-            "title": "【国内要闻】推动“智慧监管”等 食品安全法修订草案回应这些关切",
-            "originalTitle": "推动“智慧监管”等 食品安全法修订草案回应这些关切",
-            "summary": "记者了解到，市场监管总局就《中华人民共和国食品安全法(修订草案征求意见稿)》正式向社会公开征求意见。现行食品安全法于2009年颁布，2015年进行全面修订。此次征求意见稿由现行154条扩充至191条，新增37条、修订93条，强化了全链条监管与法律责任。此次修订回应了哪些民生关切？制度设计又有哪些重大升级？",
+            "id": "ad3f5244b08e2eac9c61dbc85",
+            "title": "睿质科技完成首轮数千万元融资",
+            "originalTitle": "睿质科技完成首轮数千万元融资",
+            "summary": "10月11日，据中关村资本消息，睿质科技完成首轮数千万元融资。本轮融资由中关村资本领投，中关村科学城公司跟投。本轮融资将主要用于核心团队建设、科研智能体工作平台与工业级跨尺度智能计算引擎的持续迭代、自动化实验验证体系建设，以及产业应用场景的进一步拓展与落地。",
             "source": {
-              "name": "中新网·国内要闻"
+              "name": "界面新闻·国内政经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae33c9ee1b1ea9000b72d7990",
-              "original": "https://www.chinanews.com.cn/gn/2026/10-11/10710875.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/ad3f5244b08e2eac9c61dbc85",
+              "original": "https://www.jiemian.com/article/15176815.html"
             },
-            "publishedAt": "2026-10-11T00:36:46.000Z",
-            "discoveredAt": "2026-10-11T00:49:26.885Z",
+            "publishedAt": "2026-10-11T05:08:31.000Z",
+            "discoveredAt": "2026-10-11T05:45:34.045Z",
             "category": "domestic",
-            "score": 97,
+            "score": 98,
             "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae33c9ee1b1ea9000b72d7990"
-            }
-          },
-          {
-            "id": "a799131098638736c339fdce9",
-            "title": "【国内财经】目标占比35%！我国加速壮大技能劳动者队伍",
-            "originalTitle": "目标占比35%！我国加速壮大技能劳动者队伍",
-            "summary": "10月10日，国新办“开局起步‘十五五’”系列主题发布会披露，今年1至9月，我国城镇新增就业1052万人，完成全年目标的87.7%，前8个月城镇调查失业率均值5.2%，整体就业形势保持稳定。",
-            "source": {
-              "name": "中新网·国内财经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a799131098638736c339fdce9",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-11/10710873.shtml"
-            },
-            "publishedAt": "2026-10-11T00:33:52.000Z",
-            "discoveredAt": "2026-10-11T00:49:27.086Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a799131098638736c339fdce9"
+              "url": "https://zenglian-news.onrender.com/items/ad3f5244b08e2eac9c61dbc85"
             }
           }
         ]
@@ -724,118 +724,118 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
-            "id": "a7bd360db2719617edc7921af",
-            "title": "Edge AI Daily 早报（10月11日）",
-            "originalTitle": "Edge AI Daily 早报（10月11日）",
-            "summary": "硅谷前沿： 一、不写作文，只下判断：Jev 狂飙 75 亿美元估值背后的 AI 路线之争 1.旧金山二十余人初创公司TypeSafe AI于2026年9月15日发布决策模型Jev，三周后以75亿美元估值获约8.7亿美元融资，由Andreessen Horowitz领投，Sequoia Capital与DCVC跟投；上线数日用户破百万，自称约三分之一财富500强企业采用，日处理token达数万亿级并已扣除运营成本后盈利。 2.Jev基于T...",
+            "id": "a9f5d9820dc56503acb48b871",
+            "title": "大搞硬件矩阵的苹果，还是没把大象放进冰箱",
+            "originalTitle": "大搞硬件矩阵的苹果，还是没把大象放进冰箱",
+            "summary": "本文来自微信公众号： 字母榜 ，作者：思博 苹果又要开发布会了，这一次，主角是智能家居。 北京时间10月9日，苹果公布了10月13日的“欢迎回家”（Welcome Home）新品活动邀请函。预计首款智能家居中枢、新款HomePod mini和Apple TV 4K将一起亮相。此前，苹果还被曝与LG合作开发门铃、门锁、恒温器等配件。 苹果的智能家居不温不火了很多年，苹果也冷落它很多年，为什么突然轮到了它？ 其实9月秋季iPhone发布会上...",
             "source": {
-              "name": "钛媒体·资本与风口"
+              "name": "虎嗅网·商业搞钱深度"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7bd360db2719617edc7921af",
-              "original": "https://www.tmtpost.com/8164056.html"
+              "aihot": "https://zenglian-news.onrender.com/items/a9f5d9820dc56503acb48b871",
+              "original": "https://www.huxiu.com/article/4896607.html?f=rss"
             },
-            "publishedAt": "2026-10-11T00:43:36.000Z",
-            "discoveredAt": "2026-10-11T00:49:36.888Z",
+            "publishedAt": "2026-10-11T06:47:19.000Z",
+            "discoveredAt": "2026-10-11T06:54:40.278Z",
             "category": "money",
-            "score": 98,
+            "score": 99,
             "selected": true,
-            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7bd360db2719617edc7921af"
+              "url": "https://zenglian-news.onrender.com/items/a9f5d9820dc56503acb48b871"
             }
           },
           {
-            "id": "ac8a3c27608db984c92f5757e",
-            "title": "x86、Arm、RISC-V在工业边缘正面相遇",
-            "originalTitle": "x86、Arm、RISC-V在工业边缘正面相遇",
-            "summary": "（本文作者为 半导体产业纵横，钛媒体经授权发布） 文 | 半导体产业纵横 工业自动化正在成为边缘AI处理器增长最快的垂直赛道之一。根据Yole Group研究，机器视觉、预测性维护等场景兴起叠加现场AI智能体的落地探索，要求边缘芯片同时兼顾实时控制、本地大模型推理与多协议接入的复合能力。 在这一需求驱动下，x86、Arm、RISC-V三条架构路线，在工业边缘这同一个路口正面相遇。 过去十年，这三条路线各据一方：x86守着工业PC和高端控...",
-            "source": {
-              "name": "钛媒体·资本与风口"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac8a3c27608db984c92f5757e",
-              "original": "https://www.tmtpost.com/8163923.html"
-            },
-            "publishedAt": "2026-10-11T00:37:00.000Z",
-            "discoveredAt": "2026-10-11T00:49:36.982Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac8a3c27608db984c92f5757e"
-            }
-          },
-          {
-            "id": "a0fc0f2224c045c1f42af42bb",
-            "title": "商汤、银河通用机器人，开始抢711、金粒门的生意",
-            "originalTitle": "商汤、银河通用机器人，开始抢711、金粒门的生意",
-            "summary": "（本文作者为 源媒汇，钛媒体经授权发布） 文 | 源媒汇，作者 | 谢春生 零售业可能要变天了。 刚刚结束的国庆长假，全国各大景区依旧人山人海。数据显示，假期期间，国内出游8.26亿人次，实现旅游总花费7383.75亿元，按可比口径（日均）同比分别增长6.3%、4.3%。 数据增长之外，今年各大景区的打法也悄然生变： 开始用机器人揽客。 据不完全统计，今年已有30余家具身智能及机器人企业涌进文旅、零售和消费服务场景，国庆期间机器人&ld...",
-            "source": {
-              "name": "钛媒体·资本与风口"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a0fc0f2224c045c1f42af42bb",
-              "original": "https://www.tmtpost.com/8163922.html"
-            },
-            "publishedAt": "2026-10-11T00:33:00.000Z",
-            "discoveredAt": "2026-10-11T00:49:37.074Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a0fc0f2224c045c1f42af42bb"
-            }
-          },
-          {
-            "id": "abb2e1d81a9c94dc7efb08063",
-            "title": "算力基建的战争，才刚刚在液冷赛道上演",
-            "originalTitle": "算力基建的战争，才刚刚在液冷赛道上演",
-            "summary": "（本文作者为 硅碳变量，钛媒体经授权发布） 文｜硅碳变量，作者｜沈浪 订单排到 2027 年，营收增速超过 400%，产能赶不上交付&hellip;&hellip;这不是某个互联网大厂的故事，而是液冷行业的2026年。 在高密度AI算力需求持续拉动之下，液冷正在完成一次身份跃迁：曾经只是机房建设里可选的配套，如今正演变为高密度智算集群建设阶段就要同步考量的底层基础设施。 产业链设备端率先迎来一轮集中爆发：头部厂商订单放量，企业大举扩产，...",
-            "source": {
-              "name": "钛媒体·资本与风口"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/abb2e1d81a9c94dc7efb08063",
-              "original": "https://www.tmtpost.com/8163921.html"
-            },
-            "publishedAt": "2026-10-11T00:25:00.000Z",
-            "discoveredAt": "2026-10-11T00:49:37.166Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/abb2e1d81a9c94dc7efb08063"
-            }
-          },
-          {
-            "id": "ab93acbb577fb8bbc44d9b310",
-            "title": "【出海实战】刚刚建了这个",
-            "originalTitle": "Just built this",
-            "summary": "一个可以根据您的徽标创建自定义二维码的应用程序 尝试一下：https://dotweld.com 由 /u/Ok_Consideration_508 提交 [链接] [评论]（来源：X/Reddit·出海SaaS搞钱）",
+            "id": "ad179608706f41bb10689d365",
+            "title": "【出海实战】第 60 天公开建设：销售额 2,000 美元，ARR 24,000 美元，追逐 5,000 美元 MRR",
+            "originalTitle": "Day 60 Building in Public: $2K in Sales, $24K ARR, and Chasing $5K MRR",
+            "summary": "在公共交通中构建 SignalSumo 的第 60 天，我们的总销售额刚刚突破 2,000 美元！两个月前，我推出了 SignalSumo，我的 SEO SaaS，目标很简单：构建一些有用的东西，比竞争对手更便宜......（来源：X/Reddit·出海SaaS搞钱）",
             "source": {
               "name": "X/Reddit·出海SaaS搞钱"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab93acbb577fb8bbc44d9b310",
-              "original": "https://www.reddit.com/r/SaaS/comments/1x2l33c/just_built_this/"
+              "aihot": "https://zenglian-news.onrender.com/items/ad179608706f41bb10689d365",
+              "original": "https://www.reddit.com/r/SaaS/comments/1x2ytlu/day_60_building_in_public_2k_in_sales_24k_arr_and/"
             },
-            "publishedAt": "2026-10-10T17:34:14.000Z",
-            "discoveredAt": "2026-10-10T21:58:15.866Z",
+            "publishedAt": "2026-10-11T04:25:30.000Z",
+            "discoveredAt": "2026-10-11T06:54:38.275Z",
             "category": "money",
-            "score": 98,
+            "score": 99,
             "selected": true,
             "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab93acbb577fb8bbc44d9b310"
+              "url": "https://zenglian-news.onrender.com/items/ad179608706f41bb10689d365"
+            }
+          },
+          {
+            "id": "a286170d75add0f703a9f17c1",
+            "title": "【独立变现】在菜单栏中显示 HN: Littleguys – Claude Code、Codex 和 OpenClaw 代理",
+            "originalTitle": "Show HN: Littleguys – Claude Code, Codex and OpenClaw agents in your menu bar",
+            "summary": "Show HN·独立变现榜实时快讯：Show HN: Littleguys – Claude Code, Codex and OpenClaw agents in your menu bar。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
+            "source": {
+              "name": "Show HN·独立变现榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a286170d75add0f703a9f17c1",
+              "original": "https://littleguys.hervalicio.us"
+            },
+            "publishedAt": "2026-10-11T01:19:18.000Z",
+            "discoveredAt": "2026-10-11T06:54:31.587Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a286170d75add0f703a9f17c1"
+            }
+          },
+          {
+            "id": "adf9af68b38641801dff06f7f",
+            "title": "【独立变现】Show HN：WallHop – 12ft.io 消失了，所以我建立了一个替代品",
+            "originalTitle": "Show HN: WallHop – 12ft.io is gone, so I built a replacement",
+            "summary": "嗨，HN，我是乔什。 WallHop 是一种免费的付费墙旁路：粘贴文章 URL（或在任何 URL 前面加上 wallhop.io/），您将获得可读的文章，而不会出现付费墙弹出窗口、广告或混乱。无需注册，无需延期。我建造了它...（来源：Show HN·独立变现榜）",
+            "source": {
+              "name": "Show HN·独立变现榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/adf9af68b38641801dff06f7f",
+              "original": "https://wallhop.io/"
+            },
+            "publishedAt": "2026-10-11T00:46:48.000Z",
+            "discoveredAt": "2026-10-11T06:54:33.358Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/adf9af68b38641801dff06f7f"
+            }
+          },
+          {
+            "id": "a9d9172a8b0acd5fc4207b5f3",
+            "title": "【国内要闻】郑钦文首进中网女单决赛 刷新中国选手赛会最佳单打战绩",
+            "originalTitle": "郑钦文首进中网女单决赛 刷新中国选手赛会最佳单打战绩",
+            "summary": "中新社北京10月10日电 (记者 国璇)10日在北京进行的2026中国网球公开赛女子单打半决赛中，中国选手郑钦文以7:5、6:2力克赛会13号种子、比利时名将梅尔滕斯，职业生涯首次晋级中网女单决赛。郑钦文不仅是中网历史上首位持外卡打入女单决赛的球员，也是首位跻身中网单打决赛的本土球员。",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a9d9172a8b0acd5fc4207b5f3",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-10/10710857.shtml"
+            },
+            "publishedAt": "2026-10-10T15:51:25.000Z",
+            "discoveredAt": "2026-10-10T18:28:48.951Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a9d9172a8b0acd5fc4207b5f3"
             }
           }
         ]
@@ -966,118 +966,118 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "add5096a88a692b4b1cd29c7c",
-            "title": "【全球票房】吉米·金梅尔 (Jimmy Kimmel) 哀悼脱口秀服装设计师罗德尼·穆尼奥斯 (Rodney Muñoz) 60 岁去世：“一颗巨大而慷慨的心”",
-            "originalTitle": "Jimmy Kimmel Mourns Talk Show’s Costume Designer Rodney Muñoz’s Death At 60: “A Huge And Generous Heart”",
-            "summary": "Jimmy Kimmel Live 一家人正在哀悼 60 岁的服装设计师罗德尼·穆尼奥斯 (Rodney Muñoz) 的去世。周五，脱口秀主持人向已故艾美奖得主致敬，他自 2002 年以来一直为 ABC 的 Kimmel 脱口秀设计服装……（来源：Deadline·全球票房与新片）",
+            "id": "ade5eaff0f11a9f267b016870",
+            "title": "【好莱坞一手】科幻惊悚片《Overstake》获得人工智能重建，由 Cappu Films 登上釜山市场（独家）",
+            "originalTitle": "Sci-Fi Thriller ‘Overstake’ Gets Generative AI Rebuild, Boarded by Cappu Films at Busan Market (EXCLUSIVE)",
+            "summary": "香港 Cappu Films 已签约担任《Overstake》的全球销售代理，这是一部由编剧兼导演 Stas Mareev 执导的科幻动作惊悚片，将真人拍摄与通过生成人工智能重建的场景相结合。 ...（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ade5eaff0f11a9f267b016870",
+              "original": "https://variety.com/2026/film/markets-festivals/sci-fi-thriller-overstake-generative-ai-rebuild-busan-market-1236907993/"
+            },
+            "publishedAt": "2026-10-11T06:31:57.000Z",
+            "discoveredAt": "2026-10-11T06:54:58.385Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ade5eaff0f11a9f267b016870"
+            }
+          },
+          {
+            "id": "a15ddbe5da7835671f1e0ca0f",
+            "title": "【全球票房】肖恩·吉利斯 (Shane Gillis) 在《SNL》“绿鸡蛋和火腿”草图中大放脏话",
+            "originalTitle": "Shane Gillis Drops F-Bomb In ‘SNL’ “Green Eggs & Ham” Sketch",
+            "summary": "肖恩·吉利斯 (Shane Gillis) 重返《周六夜现场》，以苏斯博士 (Dr. Seuss) 为灵感的素描中出现了一个不安全的播出场景。在本周末的剧集中，这位喜剧演员在扮演戴帽子的猫（麦基...（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/add5096a88a692b4b1cd29c7c",
-              "original": "https://deadline.com/2026/10/jimmy-kimmel-mourns-costume-designer-rodney-munoz-death-60-1237154094/"
+              "aihot": "https://zenglian-news.onrender.com/items/a15ddbe5da7835671f1e0ca0f",
+              "original": "https://deadline.com/2026/10/shane-gillis-drops-f-bomb-snl-green-eggs-ham-sketch-1237154194/"
             },
-            "publishedAt": "2026-10-10T21:56:18.000Z",
-            "discoveredAt": "2026-10-10T21:58:29.107Z",
+            "publishedAt": "2026-10-11T04:09:59.000Z",
+            "discoveredAt": "2026-10-11T06:55:06.131Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a15ddbe5da7835671f1e0ca0f"
+            }
+          },
+          {
+            "id": "a455bb4592c4dff8c2423ebf6",
+            "title": "【全球票房】萨哈电影制片人协会与韩国制片人协会联合制作协议",
+            "originalTitle": "Sakha Filmmakers Association & Producers Guild of Korea Pact For Co-Productions",
+            "summary": "独家报道：韩国制片人协会 (PGK) 和萨哈电影制片人协会 (SFA) 签署了一份谅解备忘录 (MOU)，旨在为国际联合制作和专业制作建立直接途径...（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a455bb4592c4dff8c2423ebf6",
+              "original": "https://deadline.com/2026/10/sakha-filmmakers-association-producers-guild-of-korea-busan-1237154165/"
+            },
+            "publishedAt": "2026-10-11T02:18:37.000Z",
+            "discoveredAt": "2026-10-11T06:55:09.657Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a455bb4592c4dff8c2423ebf6"
+            }
+          },
+          {
+            "id": "a89bd5075612bb76876932bdf",
+            "title": "【全球票房】《周六夜现场》：肖恩·吉利斯第三次主持由演员新手格蕾丝·瑞特拯救",
+            "originalTitle": "‘Saturday Night Live’: Shane Gillis’ Third Time Hosting Is Saved By Cast Newbie Grace Reiter",
+            "summary": "肖恩·吉利斯第三次主持《周六夜现场》，他并没有证明自己会成功回归演员阵容。在本周末的节目中，还有音乐嘉宾罗莎莉亚，这位喜剧演员发表了几场......（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a89bd5075612bb76876932bdf",
+              "original": "https://deadline.com/2026/10/saturday-night-live-shane-gillis-grace-reiter-1237154186/"
+            },
+            "publishedAt": "2026-10-11T05:06:21.000Z",
+            "discoveredAt": "2026-10-11T06:55:04.892Z",
             "category": "culture",
             "score": 98,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/add5096a88a692b4b1cd29c7c"
+              "url": "https://zenglian-news.onrender.com/items/a89bd5075612bb76876932bdf"
             }
           },
           {
-            "id": "a350a10fac33deab91016adec",
-            "title": "【全球票房】《SNL UK》冷开场威廉王子和哈里王子对峙：“哦，看，这是《金装律师》中的女人”",
-            "originalTitle": "‘SNL UK’ Cold Open Features Face-Off Between Prince William & Harry: “Oh Look, It’s The Woman From ‘Suits'”",
-            "summary": "交战的温莎队在 SNL UK 冷开赛中占据了中心舞台。这是威廉王子（弗雷迪·梅雷迪思饰）和凯特·米德尔顿（安娜贝尔·马洛饰）在桑德灵厄姆对阵哈里王子（杰克·谢普饰）和梅根·马克尔（阿约阿德·班格博伊饰），...（来源：Deadline·全球票房与新片）",
+            "id": "ac642d48d375c8e64fee30b79",
+            "title": "【好莱坞一手】《午餐》评论：感人的伊朗戏剧讲述了一位老师为维持学校的绝望行为",
+            "originalTitle": "‘Midday Meal’ Review: Touching Iranian Drama Charts a Teacher’s Desperate Acts to Provide for His School",
+            "summary": "“午餐”不一定是烹饪艺术，但它在一定程度上是关于食物的仪式，这些仪式随着稀缺而变得更加珍贵。但更重要的是，导演马吉德·马吉迪的新电影——最佳......（来源：Variety·好莱坞影视）",
             "source": {
-              "name": "Deadline·全球票房与新片"
+              "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a350a10fac33deab91016adec",
-              "original": "https://deadline.com/2026/10/snl-uk-cold-open-prince-william-prince-harry-1237154086/"
+              "aihot": "https://zenglian-news.onrender.com/items/ac642d48d375c8e64fee30b79",
+              "original": "https://variety.com/2026/film/reviews/midday-meal-review-1236907939/"
             },
-            "publishedAt": "2026-10-10T21:35:42.000Z",
-            "discoveredAt": "2026-10-10T21:58:31.439Z",
+            "publishedAt": "2026-10-11T04:49:44.000Z",
+            "discoveredAt": "2026-10-11T06:55:00.730Z",
             "category": "culture",
             "score": 98,
             "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a350a10fac33deab91016adec"
-            }
-          },
-          {
-            "id": "a4a7389278a4093558234ebf4",
-            "title": "【国内文娱】业界在京共论新时代戏曲传承振兴：科技赋能 关键在人",
-            "originalTitle": "业界在京共论新时代戏曲传承振兴：科技赋能 关键在人",
-            "summary": "中新网北京10月10日电 “国粹长歌 向新而行——戏曲文化新质生产力与文旅融合发展研讨”9日在北京丽泽金融商务区举办。作为第十届中国戏曲文化周的核心板块之一，本次研讨汇聚全国戏曲领域专家学者、院团管理者、科技与文旅行业代表等，围绕新时代戏曲传承振兴、中华优秀传统文化创造性转化创新性发展的实践新路径展开讨论。",
-            "source": {
-              "name": "中新网·影视文娱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a4a7389278a4093558234ebf4",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-10/10710776.shtml"
-            },
-            "publishedAt": "2026-10-10T13:16:35.000Z",
-            "discoveredAt": "2026-10-10T13:39:20.917Z",
-            "category": "culture",
-            "score": 96,
-            "selected": true,
-            "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a4a7389278a4093558234ebf4"
-            }
-          },
-          {
-            "id": "a670090fdfb1ae3942e4a6a27",
-            "title": "【国内文娱】中国古代玉文化鉴赏讲座在悉尼举行",
-            "originalTitle": "中国古代玉文化鉴赏讲座在悉尼举行",
-            "summary": "中新网悉尼10月10日电 (记者 薄雯雯)由中国驻悉尼总领事馆和悉尼中国文化中心共同举办的“中国故事”系列讲座——“君子比德”中国古代玉文化鉴赏讲座9日晚在悉尼举行，吸引120多名澳大利亚文化学者、艺术家及社会各界人士参加。",
-            "source": {
-              "name": "中新网·影视文娱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a670090fdfb1ae3942e4a6a27",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-10/10710770.shtml"
-            },
-            "publishedAt": "2026-10-10T13:13:31.000Z",
-            "discoveredAt": "2026-10-10T13:39:21.131Z",
-            "category": "culture",
-            "score": 96,
-            "selected": true,
-            "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a670090fdfb1ae3942e4a6a27"
-            }
-          },
-          {
-            "id": "a1e92deaefe22cb69e8af5ff6",
-            "title": "【国内文娱】“七秩芳华·翰墨侨情”书画作品展启幕 以翰墨寄赤子丹心",
-            "originalTitle": "“七秩芳华·翰墨侨情”书画作品展启幕 以翰墨寄赤子丹心",
-            "summary": "中新网杭州10月10日电 (钱晨菲)10月10日，“七秩芳华·翰墨侨情”浙江省侨界庆祝中国侨联成立70周年书画作品展于杭州正式拉开帷幕。展览将持续至10月15日，用丹青画卷诉说海内外侨胞爱国爱乡的拳拳心声。",
-            "source": {
-              "name": "中新网·影视文娱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a1e92deaefe22cb69e8af5ff6",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-10/10710751.shtml"
-            },
-            "publishedAt": "2026-10-10T13:05:16.000Z",
-            "discoveredAt": "2026-10-10T13:39:21.342Z",
-            "category": "culture",
-            "score": 96,
-            "selected": true,
-            "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a1e92deaefe22cb69e8af5ff6"
+              "url": "https://zenglian-news.onrender.com/items/ac642d48d375c8e64fee30b79"
             }
           }
         ]
@@ -1087,118 +1087,118 @@
         "label": "🏆 体育实时Top20",
         "items": [
           {
-            "id": "ad055ef64d54e1618ae17bd5f",
-            "title": "【欧洲足坛】伊普斯维奇最后时刻逆转击败富勒姆，阿韦洛亚的热度上升",
-            "originalTitle": "Ipswich stun Fulham with last-gasp comeback to increase heat on Arbeloa",
-            "summary": "富勒姆对阵伊普斯维奇的英超联赛开局不胜扩大到六场后，阿尔瓦罗·阿韦洛亚对他无法应对压力的说法感到愤怒。这位前皇家马德里主教练距离第一场比赛只有几分钟的路程...（来源：卫报体育·欧冠与五大联赛）",
+            "id": "abc6c5fb081f530770b164c1b",
+            "title": "【NBA一手】每日讨论主题 + 游戏主题索引",
+            "originalTitle": "Daily Discussion Thread + Game Thread Index",
+            "summary": "这篇文章包含旧 Reddit 不支持的内容。单击此处查看 /u/nba-scores 提交的完整帖子 [链接] [评论]（来源：NBA·北美篮球实时热榜）",
+            "source": {
+              "name": "NBA·北美篮球实时热榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abc6c5fb081f530770b164c1b",
+              "original": "https://www.reddit.com/r/nba/comments/1x2uz9t/daily_discussion_thread_game_thread_index/"
+            },
+            "publishedAt": "2026-10-11T01:00:15.000Z",
+            "discoveredAt": "2026-10-11T06:55:21.930Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abc6c5fb081f530770b164c1b"
+            }
+          },
+          {
+            "id": "ab0a8c1d6c49e30dca05c5378",
+            "title": "【欧洲足坛】皇马战胜比利亚雷亚尔的比赛中，维尼修斯·儒尼奥尔因拉扯头发被红牌罚下",
+            "originalTitle": "Real Madrid’s Vinícius Júnior sent off for hair-pulling in victory over Villarreal",
+            "summary": "扬·迪奥曼德帮助皇马以 1-0 险胜比利亚雷亚尔，尽管边锋维尼修斯·儒尼奥尔因拉扯头发被罚下，但他们仍落后西甲领头羊巴塞罗那 6 分。维尼修斯替补上场...（来源：卫报体育·欧冠与五大联赛）",
             "source": {
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad055ef64d54e1618ae17bd5f",
-              "original": "https://www.theguardian.com/football/2026/oct/10/ipswich-fulham-premier-league-match-report"
+              "aihot": "https://zenglian-news.onrender.com/items/ab0a8c1d6c49e30dca05c5378",
+              "original": "https://www.theguardian.com/football/2026/oct/10/real-madrids-vinicius-junior-sent-off-for-hair-pulling-in-victory-over-villarreal"
             },
-            "publishedAt": "2026-10-10T18:29:27.000Z",
-            "discoveredAt": "2026-10-10T21:58:39.869Z",
+            "publishedAt": "2026-10-10T21:38:11.000Z",
+            "discoveredAt": "2026-10-11T06:55:16.491Z",
             "category": "business",
-            "score": 99,
+            "score": 98,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad055ef64d54e1618ae17bd5f"
+              "url": "https://zenglian-news.onrender.com/items/ab0a8c1d6c49e30dca05c5378"
             }
           },
           {
-            "id": "a9d9172a8b0acd5fc4207b5f3",
-            "title": "【国内要闻】郑钦文首进中网女单决赛 刷新中国选手赛会最佳单打战绩",
-            "originalTitle": "郑钦文首进中网女单决赛 刷新中国选手赛会最佳单打战绩",
-            "summary": "中新社北京10月10日电 (记者 国璇)10日在北京进行的2026中国网球公开赛女子单打半决赛中，中国选手郑钦文以7:5、6:2力克赛会13号种子、比利时名将梅尔滕斯，职业生涯首次晋级中网女单决赛。郑钦文不仅是中网历史上首位持外卡打入女单决赛的球员，也是首位跻身中网单打决赛的本土球员。",
+            "id": "a269388184f8952497a4bb66f",
+            "title": "【欧洲足坛】曼城传奇短暂分散注意力，曼联和热刺回到现实约翰·布鲁温",
+            "originalTitle": "Manchester United and Spurs come back to reality as City saga offers brief distraction | John Brewin",
+            "summary": "曼城的违规行为占据了头条新闻，并将焦点从两家具乐部的自伤上转移开来。时光倒流是不可能的。在斯特雷特福德看台的中间层，股票行情又回来了，重新……（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a269388184f8952497a4bb66f",
+              "original": "https://www.theguardian.com/football/2026/oct/10/draw-brings-no-respite-for-manchester-united-and-tottenham-as-crises-continue"
+            },
+            "publishedAt": "2026-10-10T20:40:01.000Z",
+            "discoveredAt": "2026-10-11T06:55:15.521Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a269388184f8952497a4bb66f"
+            }
+          },
+          {
+            "id": "abc1afdc31b175d90e905ca04",
+            "title": "【国内要闻】渭北果乡翩跹起舞 国家级广场舞大赛落地陕西长武",
+            "originalTitle": "渭北果乡翩跹起舞 国家级广场舞大赛落地陕西长武",
+            "summary": "中新网陕西咸阳10月11日电 (记者 党田野 张一辰)2026年中国广场舞大赛(陕西·长武站)10日在陕西省咸阳市长武县开赛。作为全国A类标杆广场舞品牌赛事，本次赛事首次落地陕西，来自全国各地的30支代表队、500余名运动员齐聚渭北金秋果乡，同台竞技、以舞会友，展现全民健身风采。",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9d9172a8b0acd5fc4207b5f3",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-10/10710857.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/abc1afdc31b175d90e905ca04",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-11/10710970.shtml"
             },
-            "publishedAt": "2026-10-10T15:51:25.000Z",
-            "discoveredAt": "2026-10-10T18:28:48.951Z",
+            "publishedAt": "2026-10-11T06:23:17.000Z",
+            "discoveredAt": "2026-10-11T06:54:15.443Z",
             "category": "business",
-            "score": 99,
+            "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9d9172a8b0acd5fc4207b5f3"
+              "url": "https://zenglian-news.onrender.com/items/abc1afdc31b175d90e905ca04"
             }
           },
           {
-            "id": "a11d8e4707d83bc3aa3010992",
-            "title": "【体坛快讯】WTT中国大满贯赛：中国组合王曼昱/蒯曼女双夺冠",
-            "originalTitle": "WTT中国大满贯赛：中国组合王曼昱/蒯曼女双夺冠",
-            "summary": "中新社北京10月10日电 (记者 周昕)2026年世界乒乓球职业大联盟(WTT)中国大满贯赛女双决赛10日在北京进行，中国组合王曼昱/蒯曼以3:1战胜日本组合张本美和/早田希娜，成功卫冕冠军。",
+            "id": "ad923dafa5807b718a69a2845",
+            "title": "【体坛快讯】湖北省第十七届运动会在孝感开幕",
+            "originalTitle": "湖北省第十七届运动会在孝感开幕",
+            "summary": "中新网孝感10月11日电(李林)湖北省第十七届运动会10日晚在孝感奥体中心体育场开幕，来自全省17个市州的运动员代表以及万余名观众汇聚一堂，共赴这场体育与文化盛宴。",
             "source": {
               "name": "中新网·体育焦点"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a11d8e4707d83bc3aa3010992",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-10/10710797.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/ad923dafa5807b718a69a2845",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-11/10710952.shtml"
             },
-            "publishedAt": "2026-10-10T13:35:30.000Z",
-            "discoveredAt": "2026-10-10T13:54:13.929Z",
+            "publishedAt": "2026-10-11T05:07:45.000Z",
+            "discoveredAt": "2026-10-11T05:46:30.428Z",
             "category": "business",
-            "score": 99,
+            "score": 97,
             "selected": true,
             "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a11d8e4707d83bc3aa3010992"
-            }
-          },
-          {
-            "id": "a12dd5d8a33d11fd7ef3be114",
-            "title": "【国内要闻】2026上海网球大师赛：布云朝克特不敌鲁德 中国选手仅剩周意",
-            "originalTitle": "2026上海网球大师赛：布云朝克特不敌鲁德 中国选手仅剩周意",
-            "summary": "中新社上海10月10日电 (记者 缪璐)2026上海网球大师赛单打第三轮10日举行。上海旗忠网球中心中央场馆的焦点战中，中国球员布云朝克特以大比分0:2不敌挪威球员卡斯珀·鲁德，无缘32强。西班牙名将卡洛斯·阿尔卡拉斯直落两盘晋级下一轮。至此，2026上海网球大师赛仅剩周意一名中国选手。",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a12dd5d8a33d11fd7ef3be114",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-10/10710848.shtml"
-            },
-            "publishedAt": "2026-10-10T14:38:21.000Z",
-            "discoveredAt": "2026-10-10T15:20:40.618Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a12dd5d8a33d11fd7ef3be114"
-            }
-          },
-          {
-            "id": "a8779aecff3ab2f3986d3e31f",
-            "title": "【BBC足坛】观看：每日比赛",
-            "originalTitle": "Watch: Match of the Day",
-            "summary": "曼联对阵热刺，阿森纳对阵利兹联，切尔西对阵伯恩茅斯，顶级联赛回归（来源：BBC Sport·欧洲足坛）",
-            "source": {
-              "name": "BBC Sport·欧洲足坛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a8779aecff3ab2f3986d3e31f",
-              "original": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss"
-            },
-            "publishedAt": "2026-10-10T21:58:34.888Z",
-            "discoveredAt": "2026-10-10T21:58:37.252Z",
-            "category": "business",
-            "score": 96,
-            "selected": true,
-            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a8779aecff3ab2f3986d3e31f"
+              "url": "https://zenglian-news.onrender.com/items/ad923dafa5807b718a69a2845"
             }
           }
         ]
@@ -1210,7 +1210,7 @@
     "key": "2026-10",
     "title": "曾练全球一手简报 · 月度产业全景报告 (2026年10月)",
     "subtitle": "30天六大实时Top20赛道全景洞察与高价值搞钱机会总结",
-    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：天津发布文商旅体展融合发展规划 五大产业联动创造消费大市场；微软的 Satya Nadella 表示人工智能模型需要“紧急刹车”；伊普斯维奇最后时刻逆转击败富勒姆，阿韦洛亚的热度上升。",
+    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：英伟达正在洽谈收购美国“开放”模式初创公司 Reflection AI；利太智药完成近5000万元种子轮融资；从“失控入侵”到“擅自行动”，人工智能为何频频“闯祸”？。",
     "metrics": {
       "totalEvents": 36,
       "sourcesCount": 30,
@@ -1221,6 +1221,52 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
+          {
+            "id": "a0b9be26a4fe5cbe1a36cff7a",
+            "title": "【全球热榜】英伟达正在洽谈收购美国“开放”模式初创公司 Reflection AI",
+            "originalTitle": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+            "summary": "X/HN·全球热榜Top实时快讯：Nvidia in talks to acquire US 'open' model startup Reflection AI。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0b9be26a4fe5cbe1a36cff7a",
+              "original": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a"
+            },
+            "publishedAt": "2026-10-10T18:48:35.000Z",
+            "discoveredAt": "2026-10-11T06:54:12.720Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0b9be26a4fe5cbe1a36cff7a"
+            }
+          },
+          {
+            "id": "a602efea3bb4b14aff7bd368f",
+            "title": "【国际巨头】萨蒂亚·纳德拉 (Satya Nadella) 表示，我们应该假设所有人工智能模型都“受到损害”",
+            "originalTitle": "Satya Nadella says we should assume all AI models are ‘compromised’",
+            "summary": "在 X 上的一篇长文中，微软首席执行官阐述了他对高度先进的人工智能模型所带来的危险以及如何应对这些风险的看法。纳德拉表示，我们不能再接受人工智能被视为“一组......（来源：The Verge·国际巨头）",
+            "source": {
+              "name": "The Verge·国际巨头"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a602efea3bb4b14aff7bd368f",
+              "original": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
+            },
+            "publishedAt": "2026-10-10T22:10:17.000Z",
+            "discoveredAt": "2026-10-11T06:54:14.097Z",
+            "category": "global",
+            "score": 98,
+            "selected": true,
+            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a602efea3bb4b14aff7bd368f"
+            }
+          },
           {
             "id": "a7c3b00522f7380636bb1a074",
             "title": "【全球热榜】PVX-001：开源 Covid-19 疫苗开始第一阶段试验",
@@ -1245,118 +1291,72 @@
             }
           },
           {
-            "id": "acc93b36c93f6fff03f5f4781",
-            "title": "【BBC全球】飓风“伊萨亚斯”重创美国东岸 致4死百万户断电",
-            "originalTitle": "Four dead and thousands without power after Hurricane Isaias lashes US",
-            "summary": "飓风“伊萨亚斯”周五晚登陆佛罗里达后降级为后热带气旋，但仍带来狂风暴雨，导致至少4人死亡，超百万户断电，纽约等地交通严重受阻。（来源：BBC News·全球要闻）",
+            "id": "ac1e81cb554691e2a0c77df8f",
+            "title": "【全球热榜】建立您自己的决策模型",
+            "originalTitle": "Build your own decision model",
+            "summary": "X/HN·全球热榜Top实时快讯：Build your own decision model。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ac1e81cb554691e2a0c77df8f",
+              "original": "https://nishtahir.com/build-your-own-decision-model/"
+            },
+            "publishedAt": "2026-10-10T22:50:10.000Z",
+            "discoveredAt": "2026-10-11T06:54:10.910Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ac1e81cb554691e2a0c77df8f"
+            }
+          },
+          {
+            "id": "a26e5ecca3c8a116ae3169cf1",
+            "title": "【全球热榜】一款城市建设游戏，城市宁愿你不这么做",
+            "originalTitle": "A city-building game in which the city would prefer you didn't",
+            "summary": "X/HN·全球热榜Top实时快讯：A city-building game in which the city would prefer you didn't。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a26e5ecca3c8a116ae3169cf1",
+              "original": "https://housing.over.pizza/"
+            },
+            "publishedAt": "2026-10-10T20:31:50.000Z",
+            "discoveredAt": "2026-10-11T06:54:11.805Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a26e5ecca3c8a116ae3169cf1"
+            }
+          },
+          {
+            "id": "a0238ab1c297b4fa2084e2f88",
+            "title": "【BBC全球】随着“蟑螂”组织领导人被释放，德里准备迎接更多抗议活动",
+            "originalTitle": "Delhi braces for more protests as 'cockroach' group's leaders released",
+            "summary": "包括 CJP 创始人 Abhijeet Dipke 在内的领导人周六抵达德里时已被拘留。（来源：BBC News·全球要闻）",
             "source": {
               "name": "BBC News·全球要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/acc93b36c93f6fff03f5f4781",
-              "original": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o?at_medium=RSS&at_campaign=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/a0238ab1c297b4fa2084e2f88",
+              "original": "https://www.bbc.co.uk/news/articles/c84g179n2393o?at_medium=RSS&at_campaign=rss"
             },
-            "publishedAt": "2026-10-10T19:08:17.000Z",
-            "discoveredAt": "2026-10-10T19:30:01.544Z",
+            "publishedAt": "2026-10-11T06:02:25.000Z",
+            "discoveredAt": "2026-10-11T06:54:05.008Z",
             "category": "global",
-            "score": 91,
+            "score": 96,
             "selected": true,
-            "reason": "灾害影响大，断电与伤亡数据关键，民生冲击显著。",
+            "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/acc93b36c93f6fff03f5f4781"
-            }
-          },
-          {
-            "id": "aa5f9237081191783f0e3bf72",
-            "title": "【BBC全球】特朗普称乌克兰该换总统，泽连斯基谴责俄柴油交易",
-            "originalTitle": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
-            "summary": "特朗普公开呼吁乌克兰更换总统，此前泽连斯基批评一项允许俄罗斯向美国释放柴油的协议，称此举将资助莫斯科的战争。美乌领导人围绕俄乌冲突及能源交易矛盾公开化，引发外界对乌克兰政局及美援前景的猜测。（来源：BBC News·全球要闻）",
-            "source": {
-              "name": "BBC News·全球要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa5f9237081191783f0e3bf72",
-              "original": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss"
-            },
-            "publishedAt": "2026-10-10T18:24:03.000Z",
-            "discoveredAt": "2026-10-10T18:28:32.375Z",
-            "category": "global",
-            "score": 91,
-            "selected": true,
-            "reason": "美乌领导人公开互呛，乌克兰政局与美援前景添变数",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa5f9237081191783f0e3bf72"
-            }
-          },
-          {
-            "id": "aef39f4ca0bd126b476a4cf54",
-            "title": "【BBC全球】沙特首都利雅得机场遇袭 多人受伤",
-            "originalTitle": "Several injured in attack on airport in Saudi capital Riyadh",
-            "summary": "沙特首都利雅得哈立德国王国际机场遭袭击，造成多人受伤。美国大使馆证实知悉此事。此前数日，也门胡塞武装曾宣称对该机场发动打击。事件凸显也门冲突外溢风险，地区安全局势持续紧张。（来源：BBC News·全球要闻）",
-            "source": {
-              "name": "BBC News·全球要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aef39f4ca0bd126b476a4cf54",
-              "original": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss"
-            },
-            "publishedAt": "2026-10-10T16:56:32.000Z",
-            "discoveredAt": "2026-10-10T18:28:35.100Z",
-            "category": "global",
-            "score": 91,
-            "selected": true,
-            "reason": "胡塞武装袭沙特机场，中东冲突外溢升级",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aef39f4ca0bd126b476a4cf54"
-            }
-          },
-          {
-            "id": "a97779409266b4b48af1538f0",
-            "title": "【CNBC全球】微软纳德拉呼吁为AI装上人类控制的紧急刹车",
-            "originalTitle": "Microsoft's Nadella says AI needs an ‘emergency brake’ that humans control",
-            "summary": "微软CEO纳德拉与多位科技巨头及研究人员共同发声，呼吁建立更强有力的AI安全防护措施，并在某些情况下主张对前沿模型的开发速度进行管控。这一表态反映出业界对AI失控风险的担忧日益加剧，亟需在创新与安全之间寻找平衡。（来源：CNBC·全球政经）",
-            "source": {
-              "name": "CNBC·全球政经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a97779409266b4b48af1538f0",
-              "original": "https://www.cnbc.com/2026/10/10/microsoft-satya-nadella-ai-emergency-brake-safety.html"
-            },
-            "publishedAt": "2026-10-10T20:59:28.000Z",
-            "discoveredAt": "2026-10-10T21:14:37.398Z",
-            "category": "global",
-            "score": 90,
-            "selected": true,
-            "reason": "AI安全呼声升级，巨头共识加速监管落地",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a97779409266b4b48af1538f0"
-            }
-          },
-          {
-            "id": "adef34abb80f5ca220aefa5fa",
-            "title": "【CNBC全球】特朗普炮轰泽连斯基：乌克兰该换总统，柴油涨价都怪你",
-            "originalTitle": "Trump says Ukraine should get a new president as he blames Zelenskyy for U.S. diesel prices",
-            "summary": "特朗普将美国柴油价格上涨归咎于泽连斯基，并称乌克兰应更换总统。此前他与俄罗斯达成柴油协议，乌欧官员对此表示失望，认为此举将资助普京的战争。（来源：CNBC·全球政经）",
-            "source": {
-              "name": "CNBC·全球政经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/adef34abb80f5ca220aefa5fa",
-              "original": "https://www.cnbc.com/2026/10/10/trump-says-ukraine-should-get-a-new-president.html"
-            },
-            "publishedAt": "2026-10-10T19:19:07.000Z",
-            "discoveredAt": "2026-10-10T19:50:31.575Z",
-            "category": "global",
-            "score": 90,
-            "selected": true,
-            "reason": "甩锅泽连斯基，美乌关系再添变数",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/adef34abb80f5ca220aefa5fa"
+              "url": "https://zenglian-news.onrender.com/items/a0238ab1c297b4fa2084e2f88"
             }
           }
         ]
@@ -1366,141 +1366,141 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "ac8fb899b5f56ad1879b52a59",
-            "title": "【国内财经】天津发布文商旅体展融合发展规划 五大产业联动创造消费大市场",
-            "originalTitle": "天津发布文商旅体展融合发展规划 五大产业联动创造消费大市场",
-            "summary": "中新网天津10月10日电 (周亚强 孙翼飞)《天津市文商旅体展融合发展“十五五”规划》(下称《规划》)10日发布，提出全方位深化文化、商业、旅游、体育、会展五大产业联动，以扩大优质供给创造消费大市场。",
+            "id": "abd9a43cd1fa331481296aa26",
+            "title": "利太智药完成近5000万元种子轮融资",
+            "originalTitle": "利太智药完成近5000万元种子轮融资",
+            "summary": "10月10日，利太智药宣布已完成近5000万元种子轮融资。本轮融资由讯飞创投、L2F光源创业者基金及知名产业方联合投资，光源资本担任独家财务顾问。本轮资金将主要用于核心管线研发、算力投入、专利布局、人才招募及日常运营。",
+            "source": {
+              "name": "界面新闻·国内政经"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abd9a43cd1fa331481296aa26",
+              "original": "https://www.jiemian.com/article/15176831.html"
+            },
+            "publishedAt": "2026-10-11T05:44:31.000Z",
+            "discoveredAt": "2026-10-11T06:54:17.532Z",
+            "category": "domestic",
+            "score": 99,
+            "selected": true,
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abd9a43cd1fa331481296aa26"
+            }
+          },
+          {
+            "id": "a0db5e9ff61d9bf991e358a89",
+            "title": "【国内财经】从“失控入侵”到“擅自行动”，人工智能为何频频“闯祸”？",
+            "originalTitle": "从“失控入侵”到“擅自行动”，人工智能为何频频“闯祸”？",
+            "summary": "今年以来，人工智能加速从“能对话”走向“能办事”，能替用户订票、管理手机、操作软件的智能体加快落地。与此同时，AI自主行动引发的安全事件在世界范围内频频发生。从大模型失控入侵开源平台，到AI助理擅自行动，人工智能风险正从“说错话”升级为“做错事”，引发全球高度关注。",
             "source": {
               "name": "中新网·国内财经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac8fb899b5f56ad1879b52a59",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-10/10710771.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a0db5e9ff61d9bf991e358a89",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-11/10710910.shtml"
             },
-            "publishedAt": "2026-10-10T13:14:15.000Z",
-            "discoveredAt": "2026-10-10T13:38:48.978Z",
+            "publishedAt": "2026-10-11T02:20:34.000Z",
+            "discoveredAt": "2026-10-11T04:21:05.287Z",
             "category": "domestic",
             "score": 99,
             "selected": true,
             "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac8fb899b5f56ad1879b52a59"
+              "url": "https://zenglian-news.onrender.com/items/a0db5e9ff61d9bf991e358a89"
             }
           },
           {
-            "id": "a501022fe8cdbf835a4740745",
-            "title": "【国内要闻】多国战机导弹云集沙特，也门胡塞武装将遭围攻？",
-            "originalTitle": "多国战机导弹云集沙特，也门胡塞武装将遭围攻？",
-            "summary": "中新网10月11日电(记者 刁炜)据路透社报道，面对也门胡塞武装的攻势，沙特阿拉伯积极寻求外部军事援助，迄今已有英国、法国、土耳其和巴基斯坦予以明确表态或采取行动。",
+            "id": "a10d3ed49cd6733d8cc60ba8b",
+            "title": "【国内要闻】中国物流业景气指数连续5个月处扩张区间 呈多维度改善态势",
+            "originalTitle": "中国物流业景气指数连续5个月处扩张区间 呈多维度改善态势",
+            "summary": "中新社北京10月11日电 (记者 阮煜琳)中国物流与采购联合会11日发布数据显示，9月，中国物流业景气指数为51.5%，环比回升0.6个百分点，连续5个月处在扩张区间。中国物流信息中心主任刘宇航认为，四季度中国物流景气平稳运行具备较好基础。",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a501022fe8cdbf835a4740745",
-              "original": "https://www.chinanews.com.cn/gj/2026/10-11/10710867.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a10d3ed49cd6733d8cc60ba8b",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-11/10710968.shtml"
             },
-            "publishedAt": "2026-10-11T00:44:19.000Z",
-            "discoveredAt": "2026-10-11T00:49:26.484Z",
+            "publishedAt": "2026-10-11T06:24:25.000Z",
+            "discoveredAt": "2026-10-11T06:54:15.278Z",
+            "category": "domestic",
+            "score": 98,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a10d3ed49cd6733d8cc60ba8b"
+            }
+          },
+          {
+            "id": "a6e4187ef91cd12227e5967b7",
+            "title": "【国内要闻】院士专家齐聚广州探讨食品营养与健康领域发展前沿方向",
+            "originalTitle": "院士专家齐聚广州探讨食品营养与健康领域发展前沿方向",
+            "summary": "中新网广州10月11日电 (记者 程景伟)由广东省农业科学院蚕业与农产品加工研究所牵头主办的2026食品精准营养与智能制造科技创新论坛10日至11日在广州举办。一批食品营养与健康领域院士、专家、领军企业负责人及技术骨干，围绕精准营养、食药同源、功能食品、特殊食品、合成生物学、人工智能与智能制造等前沿方向开展交流。",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a6e4187ef91cd12227e5967b7",
+              "original": "https://www.chinanews.com.cn/sh/2026/10-11/10710971.shtml"
+            },
+            "publishedAt": "2026-10-11T06:23:29.000Z",
+            "discoveredAt": "2026-10-11T06:54:15.359Z",
+            "category": "domestic",
+            "score": 98,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a6e4187ef91cd12227e5967b7"
+            }
+          },
+          {
+            "id": "ad3f5244b08e2eac9c61dbc85",
+            "title": "睿质科技完成首轮数千万元融资",
+            "originalTitle": "睿质科技完成首轮数千万元融资",
+            "summary": "10月11日，据中关村资本消息，睿质科技完成首轮数千万元融资。本轮融资由中关村资本领投，中关村科学城公司跟投。本轮融资将主要用于核心团队建设、科研智能体工作平台与工业级跨尺度智能计算引擎的持续迭代、自动化实验验证体系建设，以及产业应用场景的进一步拓展与落地。",
+            "source": {
+              "name": "界面新闻·国内政经"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ad3f5244b08e2eac9c61dbc85",
+              "original": "https://www.jiemian.com/article/15176815.html"
+            },
+            "publishedAt": "2026-10-11T05:08:31.000Z",
+            "discoveredAt": "2026-10-11T05:45:34.045Z",
+            "category": "domestic",
+            "score": 98,
+            "selected": true,
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ad3f5244b08e2eac9c61dbc85"
+            }
+          },
+          {
+            "id": "af5f7dca8c90ed5068f870a95",
+            "title": "【国内要闻】沙特首都利雅得机场遭袭 已致12死309伤",
+            "originalTitle": "沙特首都利雅得机场遭袭 已致12死309伤",
+            "summary": "中新社北京10月11日电 综合消息：沙特阿拉伯民航总局当地时间11日发表声明称，位于沙特首都利雅得的哈立德国王国际机场10日遭遇袭击，已造成12人死亡，另有309人受伤。",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/af5f7dca8c90ed5068f870a95",
+              "original": "https://www.chinanews.com.cn/gj/2026/10-11/10710919.shtml"
+            },
+            "publishedAt": "2026-10-11T05:29:50.000Z",
+            "discoveredAt": "2026-10-11T05:45:31.156Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a501022fe8cdbf835a4740745"
-            }
-          },
-          {
-            "id": "a9e7d8cb42f282dd0f9b7e9e7",
-            "title": "【国内要闻】沙特利雅得机场遇袭造成12人死亡300多人受伤",
-            "originalTitle": "沙特利雅得机场遇袭造成12人死亡300多人受伤",
-            "summary": "中新网10月11日电 据卡塔尔半岛电视台报道，沙特阿拉伯民航总局当地时间11日表示，首都利雅得的哈立德国王国际机场10日晚遭到袭击，已造成至少12人死亡、309人受伤。",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9e7d8cb42f282dd0f9b7e9e7",
-              "original": "https://www.chinanews.com.cn/gj/2026/10-11/10710877.shtml"
-            },
-            "publishedAt": "2026-10-11T00:43:29.000Z",
-            "discoveredAt": "2026-10-11T00:49:26.699Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9e7d8cb42f282dd0f9b7e9e7"
-            }
-          },
-          {
-            "id": "ae33c9ee1b1ea9000b72d7990",
-            "title": "【国内要闻】推动“智慧监管”等 食品安全法修订草案回应这些关切",
-            "originalTitle": "推动“智慧监管”等 食品安全法修订草案回应这些关切",
-            "summary": "记者了解到，市场监管总局就《中华人民共和国食品安全法(修订草案征求意见稿)》正式向社会公开征求意见。现行食品安全法于2009年颁布，2015年进行全面修订。此次征求意见稿由现行154条扩充至191条，新增37条、修订93条，强化了全链条监管与法律责任。此次修订回应了哪些民生关切？制度设计又有哪些重大升级？",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae33c9ee1b1ea9000b72d7990",
-              "original": "https://www.chinanews.com.cn/gn/2026/10-11/10710875.shtml"
-            },
-            "publishedAt": "2026-10-11T00:36:46.000Z",
-            "discoveredAt": "2026-10-11T00:49:26.885Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae33c9ee1b1ea9000b72d7990"
-            }
-          },
-          {
-            "id": "a799131098638736c339fdce9",
-            "title": "【国内财经】目标占比35%！我国加速壮大技能劳动者队伍",
-            "originalTitle": "目标占比35%！我国加速壮大技能劳动者队伍",
-            "summary": "10月10日，国新办“开局起步‘十五五’”系列主题发布会披露，今年1至9月，我国城镇新增就业1052万人，完成全年目标的87.7%，前8个月城镇调查失业率均值5.2%，整体就业形势保持稳定。",
-            "source": {
-              "name": "中新网·国内财经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a799131098638736c339fdce9",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-11/10710873.shtml"
-            },
-            "publishedAt": "2026-10-11T00:33:52.000Z",
-            "discoveredAt": "2026-10-11T00:49:27.086Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a799131098638736c339fdce9"
-            }
-          },
-          {
-            "id": "a6b8afcc511314ce569128300",
-            "title": "微软 CEO 纳德拉：开发者应当默认假设 AI 模型失控，思考如何强制中断任务",
-            "originalTitle": "微软 CEO 纳德拉：开发者应当默认假设 AI 模型失控，思考如何强制中断任务",
-            "summary": "IT之家 10 月 11 日消息，微软 CEO 萨蒂亚 · 纳德拉认为，在 AI 日益蓬勃发展的时代，使用超级智能自我监控等简单策略是不够的。 纳德拉在北京时间 10 月 10 日晚的一篇长文中指出，传统软件系统在过去几十年中被广泛部署，人类已经拥有追踪特定代码路径行为的工具和能力。然而， AI 模型比传统软件更强大，但却是一个黑盒子 ，我们部署了这些复杂的智能体系统和模型，访问我们最敏感的数据，并赋予它们代表我们执行关键任务的能力。 ...",
-            "source": {
-              "name": "IT之家·国内产业"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a6b8afcc511314ce569128300",
-              "original": "https://www.ithome.com/1/011/545.htm"
-            },
-            "publishedAt": "2026-10-10T23:19:46.000Z",
-            "discoveredAt": "2026-10-10T23:26:06.666Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a6b8afcc511314ce569128300"
+              "url": "https://zenglian-news.onrender.com/items/af5f7dca8c90ed5068f870a95"
             }
           }
         ]
@@ -1510,141 +1510,141 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
-            "id": "a7bd360db2719617edc7921af",
-            "title": "Edge AI Daily 早报（10月11日）",
-            "originalTitle": "Edge AI Daily 早报（10月11日）",
-            "summary": "硅谷前沿： 一、不写作文，只下判断：Jev 狂飙 75 亿美元估值背后的 AI 路线之争 1.旧金山二十余人初创公司TypeSafe AI于2026年9月15日发布决策模型Jev，三周后以75亿美元估值获约8.7亿美元融资，由Andreessen Horowitz领投，Sequoia Capital与DCVC跟投；上线数日用户破百万，自称约三分之一财富500强企业采用，日处理token达数万亿级并已扣除运营成本后盈利。 2.Jev基于T...",
-            "source": {
-              "name": "钛媒体·资本与风口"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7bd360db2719617edc7921af",
-              "original": "https://www.tmtpost.com/8164056.html"
-            },
-            "publishedAt": "2026-10-11T00:43:36.000Z",
-            "discoveredAt": "2026-10-11T00:49:36.888Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7bd360db2719617edc7921af"
-            }
-          },
-          {
-            "id": "ac8a3c27608db984c92f5757e",
-            "title": "x86、Arm、RISC-V在工业边缘正面相遇",
-            "originalTitle": "x86、Arm、RISC-V在工业边缘正面相遇",
-            "summary": "（本文作者为 半导体产业纵横，钛媒体经授权发布） 文 | 半导体产业纵横 工业自动化正在成为边缘AI处理器增长最快的垂直赛道之一。根据Yole Group研究，机器视觉、预测性维护等场景兴起叠加现场AI智能体的落地探索，要求边缘芯片同时兼顾实时控制、本地大模型推理与多协议接入的复合能力。 在这一需求驱动下，x86、Arm、RISC-V三条架构路线，在工业边缘这同一个路口正面相遇。 过去十年，这三条路线各据一方：x86守着工业PC和高端控...",
-            "source": {
-              "name": "钛媒体·资本与风口"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac8a3c27608db984c92f5757e",
-              "original": "https://www.tmtpost.com/8163923.html"
-            },
-            "publishedAt": "2026-10-11T00:37:00.000Z",
-            "discoveredAt": "2026-10-11T00:49:36.982Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac8a3c27608db984c92f5757e"
-            }
-          },
-          {
-            "id": "a0fc0f2224c045c1f42af42bb",
-            "title": "商汤、银河通用机器人，开始抢711、金粒门的生意",
-            "originalTitle": "商汤、银河通用机器人，开始抢711、金粒门的生意",
-            "summary": "（本文作者为 源媒汇，钛媒体经授权发布） 文 | 源媒汇，作者 | 谢春生 零售业可能要变天了。 刚刚结束的国庆长假，全国各大景区依旧人山人海。数据显示，假期期间，国内出游8.26亿人次，实现旅游总花费7383.75亿元，按可比口径（日均）同比分别增长6.3%、4.3%。 数据增长之外，今年各大景区的打法也悄然生变： 开始用机器人揽客。 据不完全统计，今年已有30余家具身智能及机器人企业涌进文旅、零售和消费服务场景，国庆期间机器人&ld...",
-            "source": {
-              "name": "钛媒体·资本与风口"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a0fc0f2224c045c1f42af42bb",
-              "original": "https://www.tmtpost.com/8163922.html"
-            },
-            "publishedAt": "2026-10-11T00:33:00.000Z",
-            "discoveredAt": "2026-10-11T00:49:37.074Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a0fc0f2224c045c1f42af42bb"
-            }
-          },
-          {
-            "id": "abb2e1d81a9c94dc7efb08063",
-            "title": "算力基建的战争，才刚刚在液冷赛道上演",
-            "originalTitle": "算力基建的战争，才刚刚在液冷赛道上演",
-            "summary": "（本文作者为 硅碳变量，钛媒体经授权发布） 文｜硅碳变量，作者｜沈浪 订单排到 2027 年，营收增速超过 400%，产能赶不上交付&hellip;&hellip;这不是某个互联网大厂的故事，而是液冷行业的2026年。 在高密度AI算力需求持续拉动之下，液冷正在完成一次身份跃迁：曾经只是机房建设里可选的配套，如今正演变为高密度智算集群建设阶段就要同步考量的底层基础设施。 产业链设备端率先迎来一轮集中爆发：头部厂商订单放量，企业大举扩产，...",
-            "source": {
-              "name": "钛媒体·资本与风口"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/abb2e1d81a9c94dc7efb08063",
-              "original": "https://www.tmtpost.com/8163921.html"
-            },
-            "publishedAt": "2026-10-11T00:25:00.000Z",
-            "discoveredAt": "2026-10-11T00:49:37.166Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/abb2e1d81a9c94dc7efb08063"
-            }
-          },
-          {
-            "id": "ab93acbb577fb8bbc44d9b310",
-            "title": "【出海实战】刚刚建了这个",
-            "originalTitle": "Just built this",
-            "summary": "一个可以根据您的徽标创建自定义二维码的应用程序 尝试一下：https://dotweld.com 由 /u/Ok_Consideration_508 提交 [链接] [评论]（来源：X/Reddit·出海SaaS搞钱）",
-            "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab93acbb577fb8bbc44d9b310",
-              "original": "https://www.reddit.com/r/SaaS/comments/1x2l33c/just_built_this/"
-            },
-            "publishedAt": "2026-10-10T17:34:14.000Z",
-            "discoveredAt": "2026-10-10T21:58:15.866Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab93acbb577fb8bbc44d9b310"
-            }
-          },
-          {
-            "id": "acd0b700ff9cb28d684a7b015",
-            "title": "20家AI巨头被Vicor拖入专利战",
-            "originalTitle": "20家AI巨头被Vicor拖入专利战",
-            "summary": "本文来自微信公众号： 王智远 ，作者：王智远 美国时间10月9号，美国国际贸易委员会（ITC）挂出一条立案公告。案号337-TA-1526，申诉人是美国电源模块厂商Vicor，被告20家。 从立讯精密到富士康，从英飞凌到天弘，整条AI服务器供应链被圈了进去。 涉案的东西叫VPD，垂直供电，如果你只看到这条消息，大概会觉得这又是一起普通的专利纠纷。 嗯，还真不是，这是Vicor在AI供电领域发起的第三轮337调查。 前两轮已经打完了，第一...",
+            "id": "a9f5d9820dc56503acb48b871",
+            "title": "大搞硬件矩阵的苹果，还是没把大象放进冰箱",
+            "originalTitle": "大搞硬件矩阵的苹果，还是没把大象放进冰箱",
+            "summary": "本文来自微信公众号： 字母榜 ，作者：思博 苹果又要开发布会了，这一次，主角是智能家居。 北京时间10月9日，苹果公布了10月13日的“欢迎回家”（Welcome Home）新品活动邀请函。预计首款智能家居中枢、新款HomePod mini和Apple TV 4K将一起亮相。此前，苹果还被曝与LG合作开发门铃、门锁、恒温器等配件。 苹果的智能家居不温不火了很多年，苹果也冷落它很多年，为什么突然轮到了它？ 其实9月秋季iPhone发布会上...",
             "source": {
               "name": "虎嗅网·商业搞钱深度"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/acd0b700ff9cb28d684a7b015",
-              "original": "https://www.huxiu.com/article/4896561.html?f=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/a9f5d9820dc56503acb48b871",
+              "original": "https://www.huxiu.com/article/4896607.html?f=rss"
             },
-            "publishedAt": "2026-10-10T16:34:59.000Z",
-            "discoveredAt": "2026-10-10T18:29:05.022Z",
+            "publishedAt": "2026-10-11T06:47:19.000Z",
+            "discoveredAt": "2026-10-11T06:54:40.278Z",
             "category": "money",
-            "score": 98,
+            "score": 99,
             "selected": true,
             "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/acd0b700ff9cb28d684a7b015"
+              "url": "https://zenglian-news.onrender.com/items/a9f5d9820dc56503acb48b871"
+            }
+          },
+          {
+            "id": "ad179608706f41bb10689d365",
+            "title": "【出海实战】第 60 天公开建设：销售额 2,000 美元，ARR 24,000 美元，追逐 5,000 美元 MRR",
+            "originalTitle": "Day 60 Building in Public: $2K in Sales, $24K ARR, and Chasing $5K MRR",
+            "summary": "在公共交通中构建 SignalSumo 的第 60 天，我们的总销售额刚刚突破 2,000 美元！两个月前，我推出了 SignalSumo，我的 SEO SaaS，目标很简单：构建一些有用的东西，比竞争对手更便宜......（来源：X/Reddit·出海SaaS搞钱）",
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ad179608706f41bb10689d365",
+              "original": "https://www.reddit.com/r/SaaS/comments/1x2ytlu/day_60_building_in_public_2k_in_sales_24k_arr_and/"
+            },
+            "publishedAt": "2026-10-11T04:25:30.000Z",
+            "discoveredAt": "2026-10-11T06:54:38.275Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ad179608706f41bb10689d365"
+            }
+          },
+          {
+            "id": "a286170d75add0f703a9f17c1",
+            "title": "【独立变现】在菜单栏中显示 HN: Littleguys – Claude Code、Codex 和 OpenClaw 代理",
+            "originalTitle": "Show HN: Littleguys – Claude Code, Codex and OpenClaw agents in your menu bar",
+            "summary": "Show HN·独立变现榜实时快讯：Show HN: Littleguys – Claude Code, Codex and OpenClaw agents in your menu bar。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
+            "source": {
+              "name": "Show HN·独立变现榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a286170d75add0f703a9f17c1",
+              "original": "https://littleguys.hervalicio.us"
+            },
+            "publishedAt": "2026-10-11T01:19:18.000Z",
+            "discoveredAt": "2026-10-11T06:54:31.587Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a286170d75add0f703a9f17c1"
+            }
+          },
+          {
+            "id": "adf9af68b38641801dff06f7f",
+            "title": "【独立变现】Show HN：WallHop – 12ft.io 消失了，所以我建立了一个替代品",
+            "originalTitle": "Show HN: WallHop – 12ft.io is gone, so I built a replacement",
+            "summary": "嗨，HN，我是乔什。 WallHop 是一种免费的付费墙旁路：粘贴文章 URL（或在任何 URL 前面加上 wallhop.io/），您将获得可读的文章，而不会出现付费墙弹出窗口、广告或混乱。无需注册，无需延期。我建造了它...（来源：Show HN·独立变现榜）",
+            "source": {
+              "name": "Show HN·独立变现榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/adf9af68b38641801dff06f7f",
+              "original": "https://wallhop.io/"
+            },
+            "publishedAt": "2026-10-11T00:46:48.000Z",
+            "discoveredAt": "2026-10-11T06:54:33.358Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/adf9af68b38641801dff06f7f"
+            }
+          },
+          {
+            "id": "a9d9172a8b0acd5fc4207b5f3",
+            "title": "【国内要闻】郑钦文首进中网女单决赛 刷新中国选手赛会最佳单打战绩",
+            "originalTitle": "郑钦文首进中网女单决赛 刷新中国选手赛会最佳单打战绩",
+            "summary": "中新社北京10月10日电 (记者 国璇)10日在北京进行的2026中国网球公开赛女子单打半决赛中，中国选手郑钦文以7:5、6:2力克赛会13号种子、比利时名将梅尔滕斯，职业生涯首次晋级中网女单决赛。郑钦文不仅是中网历史上首位持外卡打入女单决赛的球员，也是首位跻身中网单打决赛的本土球员。",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a9d9172a8b0acd5fc4207b5f3",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-10/10710857.shtml"
+            },
+            "publishedAt": "2026-10-10T15:51:25.000Z",
+            "discoveredAt": "2026-10-10T18:28:48.951Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a9d9172a8b0acd5fc4207b5f3"
+            }
+          },
+          {
+            "id": "ab3feab16e041ecf20e31a5d1",
+            "title": "AI创造的新工作，可能根本轮不到你",
+            "originalTitle": "AI创造的新工作，可能根本轮不到你",
+            "summary": "（本文作者为 防冷涂的蜡，钛媒体经授权发布） 文 | 防冷涂的蜡 一个做了几年互联网运营的人，最近想换份工作。 打开招聘软件，发现AI相关岗位越来越多：智能体开发、AI系统应用、机器人训练，听起来个个前途光明。可点进去看，待遇不错的要求懂算法、会编程、有项目经验；门槛低一些的，工资又可能比原来少一大截。 翻了半天招聘信息，他发现一件挺尴尬的事：AI创造的新工作看起来不少，自己却不知道能应聘哪一个。 有意思的是，求职者还在为下一份工作犯愁...",
+            "source": {
+              "name": "钛媒体·资本与风口"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ab3feab16e041ecf20e31a5d1",
+              "original": "https://www.tmtpost.com/8164296.html"
+            },
+            "publishedAt": "2026-10-11T05:08:00.000Z",
+            "discoveredAt": "2026-10-11T05:45:53.105Z",
+            "category": "money",
+            "score": 98,
+            "selected": true,
+            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ab3feab16e041ecf20e31a5d1"
             }
           }
         ]
@@ -1798,141 +1798,141 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "add5096a88a692b4b1cd29c7c",
-            "title": "【全球票房】吉米·金梅尔 (Jimmy Kimmel) 哀悼脱口秀服装设计师罗德尼·穆尼奥斯 (Rodney Muñoz) 60 岁去世：“一颗巨大而慷慨的心”",
-            "originalTitle": "Jimmy Kimmel Mourns Talk Show’s Costume Designer Rodney Muñoz’s Death At 60: “A Huge And Generous Heart”",
-            "summary": "Jimmy Kimmel Live 一家人正在哀悼 60 岁的服装设计师罗德尼·穆尼奥斯 (Rodney Muñoz) 的去世。周五，脱口秀主持人向已故艾美奖得主致敬，他自 2002 年以来一直为 ABC 的 Kimmel 脱口秀设计服装……（来源：Deadline·全球票房与新片）",
+            "id": "ade5eaff0f11a9f267b016870",
+            "title": "【好莱坞一手】科幻惊悚片《Overstake》获得人工智能重建，由 Cappu Films 登上釜山市场（独家）",
+            "originalTitle": "Sci-Fi Thriller ‘Overstake’ Gets Generative AI Rebuild, Boarded by Cappu Films at Busan Market (EXCLUSIVE)",
+            "summary": "香港 Cappu Films 已签约担任《Overstake》的全球销售代理，这是一部由编剧兼导演 Stas Mareev 执导的科幻动作惊悚片，将真人拍摄与通过生成人工智能重建的场景相结合。 ...（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ade5eaff0f11a9f267b016870",
+              "original": "https://variety.com/2026/film/markets-festivals/sci-fi-thriller-overstake-generative-ai-rebuild-busan-market-1236907993/"
+            },
+            "publishedAt": "2026-10-11T06:31:57.000Z",
+            "discoveredAt": "2026-10-11T06:54:58.385Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ade5eaff0f11a9f267b016870"
+            }
+          },
+          {
+            "id": "a15ddbe5da7835671f1e0ca0f",
+            "title": "【全球票房】肖恩·吉利斯 (Shane Gillis) 在《SNL》“绿鸡蛋和火腿”草图中大放脏话",
+            "originalTitle": "Shane Gillis Drops F-Bomb In ‘SNL’ “Green Eggs & Ham” Sketch",
+            "summary": "肖恩·吉利斯 (Shane Gillis) 重返《周六夜现场》，以苏斯博士 (Dr. Seuss) 为灵感的素描中出现了一个不安全的播出场景。在本周末的剧集中，这位喜剧演员在扮演戴帽子的猫（麦基...（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/add5096a88a692b4b1cd29c7c",
-              "original": "https://deadline.com/2026/10/jimmy-kimmel-mourns-costume-designer-rodney-munoz-death-60-1237154094/"
+              "aihot": "https://zenglian-news.onrender.com/items/a15ddbe5da7835671f1e0ca0f",
+              "original": "https://deadline.com/2026/10/shane-gillis-drops-f-bomb-snl-green-eggs-ham-sketch-1237154194/"
             },
-            "publishedAt": "2026-10-10T21:56:18.000Z",
-            "discoveredAt": "2026-10-10T21:58:29.107Z",
+            "publishedAt": "2026-10-11T04:09:59.000Z",
+            "discoveredAt": "2026-10-11T06:55:06.131Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a15ddbe5da7835671f1e0ca0f"
+            }
+          },
+          {
+            "id": "a455bb4592c4dff8c2423ebf6",
+            "title": "【全球票房】萨哈电影制片人协会与韩国制片人协会联合制作协议",
+            "originalTitle": "Sakha Filmmakers Association & Producers Guild of Korea Pact For Co-Productions",
+            "summary": "独家报道：韩国制片人协会 (PGK) 和萨哈电影制片人协会 (SFA) 签署了一份谅解备忘录 (MOU)，旨在为国际联合制作和专业制作建立直接途径...（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a455bb4592c4dff8c2423ebf6",
+              "original": "https://deadline.com/2026/10/sakha-filmmakers-association-producers-guild-of-korea-busan-1237154165/"
+            },
+            "publishedAt": "2026-10-11T02:18:37.000Z",
+            "discoveredAt": "2026-10-11T06:55:09.657Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a455bb4592c4dff8c2423ebf6"
+            }
+          },
+          {
+            "id": "a89bd5075612bb76876932bdf",
+            "title": "【全球票房】《周六夜现场》：肖恩·吉利斯第三次主持由演员新手格蕾丝·瑞特拯救",
+            "originalTitle": "‘Saturday Night Live’: Shane Gillis’ Third Time Hosting Is Saved By Cast Newbie Grace Reiter",
+            "summary": "肖恩·吉利斯第三次主持《周六夜现场》，他并没有证明自己会成功回归演员阵容。在本周末的节目中，还有音乐嘉宾罗莎莉亚，这位喜剧演员发表了几场......（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a89bd5075612bb76876932bdf",
+              "original": "https://deadline.com/2026/10/saturday-night-live-shane-gillis-grace-reiter-1237154186/"
+            },
+            "publishedAt": "2026-10-11T05:06:21.000Z",
+            "discoveredAt": "2026-10-11T06:55:04.892Z",
             "category": "culture",
             "score": 98,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/add5096a88a692b4b1cd29c7c"
+              "url": "https://zenglian-news.onrender.com/items/a89bd5075612bb76876932bdf"
             }
           },
           {
-            "id": "a350a10fac33deab91016adec",
-            "title": "【全球票房】《SNL UK》冷开场威廉王子和哈里王子对峙：“哦，看，这是《金装律师》中的女人”",
-            "originalTitle": "‘SNL UK’ Cold Open Features Face-Off Between Prince William & Harry: “Oh Look, It’s The Woman From ‘Suits'”",
-            "summary": "交战的温莎队在 SNL UK 冷开赛中占据了中心舞台。这是威廉王子（弗雷迪·梅雷迪思饰）和凯特·米德尔顿（安娜贝尔·马洛饰）在桑德灵厄姆对阵哈里王子（杰克·谢普饰）和梅根·马克尔（阿约阿德·班格博伊饰），...（来源：Deadline·全球票房与新片）",
+            "id": "ac642d48d375c8e64fee30b79",
+            "title": "【好莱坞一手】《午餐》评论：感人的伊朗戏剧讲述了一位老师为维持学校的绝望行为",
+            "originalTitle": "‘Midday Meal’ Review: Touching Iranian Drama Charts a Teacher’s Desperate Acts to Provide for His School",
+            "summary": "“午餐”不一定是烹饪艺术，但它在一定程度上是关于食物的仪式，这些仪式随着稀缺而变得更加珍贵。但更重要的是，导演马吉德·马吉迪的新电影——最佳......（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ac642d48d375c8e64fee30b79",
+              "original": "https://variety.com/2026/film/reviews/midday-meal-review-1236907939/"
+            },
+            "publishedAt": "2026-10-11T04:49:44.000Z",
+            "discoveredAt": "2026-10-11T06:55:00.730Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ac642d48d375c8e64fee30b79"
+            }
+          },
+          {
+            "id": "a276163e392111dde656034c0",
+            "title": "【全球票房】《周六夜现场》以过度补偿的皮特·赫格斯（Pete Hegseth）开始他的直播现场执行计划",
+            "originalTitle": "‘Saturday Night Live’ Opens With An Overcompensating Pete Hegseth Pumping Up His Plans To Stream A Live Execution",
+            "summary": "《周六夜现场》再次让皮特·赫格斯（科林·乔斯特饰）回到开场，这次是唐纳德·特朗普的国防部长向陷入困境的林肯号航空母舰的船员发表讲话。这艘船在海上航行了 265 天，...（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a350a10fac33deab91016adec",
-              "original": "https://deadline.com/2026/10/snl-uk-cold-open-prince-william-prince-harry-1237154086/"
+              "aihot": "https://zenglian-news.onrender.com/items/a276163e392111dde656034c0",
+              "original": "https://deadline.com/2026/10/saturday-night-live-open-pete-hegseth-1237154183/"
             },
-            "publishedAt": "2026-10-10T21:35:42.000Z",
-            "discoveredAt": "2026-10-10T21:58:31.439Z",
+            "publishedAt": "2026-10-11T03:52:25.000Z",
+            "discoveredAt": "2026-10-11T06:55:07.225Z",
             "category": "culture",
             "score": 98,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a350a10fac33deab91016adec"
-            }
-          },
-          {
-            "id": "a4a7389278a4093558234ebf4",
-            "title": "【国内文娱】业界在京共论新时代戏曲传承振兴：科技赋能 关键在人",
-            "originalTitle": "业界在京共论新时代戏曲传承振兴：科技赋能 关键在人",
-            "summary": "中新网北京10月10日电 “国粹长歌 向新而行——戏曲文化新质生产力与文旅融合发展研讨”9日在北京丽泽金融商务区举办。作为第十届中国戏曲文化周的核心板块之一，本次研讨汇聚全国戏曲领域专家学者、院团管理者、科技与文旅行业代表等，围绕新时代戏曲传承振兴、中华优秀传统文化创造性转化创新性发展的实践新路径展开讨论。",
-            "source": {
-              "name": "中新网·影视文娱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a4a7389278a4093558234ebf4",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-10/10710776.shtml"
-            },
-            "publishedAt": "2026-10-10T13:16:35.000Z",
-            "discoveredAt": "2026-10-10T13:39:20.917Z",
-            "category": "culture",
-            "score": 96,
-            "selected": true,
-            "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a4a7389278a4093558234ebf4"
-            }
-          },
-          {
-            "id": "a670090fdfb1ae3942e4a6a27",
-            "title": "【国内文娱】中国古代玉文化鉴赏讲座在悉尼举行",
-            "originalTitle": "中国古代玉文化鉴赏讲座在悉尼举行",
-            "summary": "中新网悉尼10月10日电 (记者 薄雯雯)由中国驻悉尼总领事馆和悉尼中国文化中心共同举办的“中国故事”系列讲座——“君子比德”中国古代玉文化鉴赏讲座9日晚在悉尼举行，吸引120多名澳大利亚文化学者、艺术家及社会各界人士参加。",
-            "source": {
-              "name": "中新网·影视文娱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a670090fdfb1ae3942e4a6a27",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-10/10710770.shtml"
-            },
-            "publishedAt": "2026-10-10T13:13:31.000Z",
-            "discoveredAt": "2026-10-10T13:39:21.131Z",
-            "category": "culture",
-            "score": 96,
-            "selected": true,
-            "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a670090fdfb1ae3942e4a6a27"
-            }
-          },
-          {
-            "id": "a1e92deaefe22cb69e8af5ff6",
-            "title": "【国内文娱】“七秩芳华·翰墨侨情”书画作品展启幕 以翰墨寄赤子丹心",
-            "originalTitle": "“七秩芳华·翰墨侨情”书画作品展启幕 以翰墨寄赤子丹心",
-            "summary": "中新网杭州10月10日电 (钱晨菲)10月10日，“七秩芳华·翰墨侨情”浙江省侨界庆祝中国侨联成立70周年书画作品展于杭州正式拉开帷幕。展览将持续至10月15日，用丹青画卷诉说海内外侨胞爱国爱乡的拳拳心声。",
-            "source": {
-              "name": "中新网·影视文娱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a1e92deaefe22cb69e8af5ff6",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-10/10710751.shtml"
-            },
-            "publishedAt": "2026-10-10T13:05:16.000Z",
-            "discoveredAt": "2026-10-10T13:39:21.342Z",
-            "category": "culture",
-            "score": 96,
-            "selected": true,
-            "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a1e92deaefe22cb69e8af5ff6"
-            }
-          },
-          {
-            "id": "a50d9db768abfc25f85c9c04c",
-            "title": "【国内文娱】40件海内外缂毛展品亮相新疆",
-            "originalTitle": "40件海内外缂毛展品亮相新疆",
-            "summary": "中新社乌鲁木齐10月10日电 (记者 苟继鹏)“经纬无界——缂毛织造技艺的历史延异与当代重构”专题展，10日亮相乌鲁木齐市的新疆非物质文化遗产馆，来自法国、埃及、伊朗、土耳其、中国和日本等国的40件缂毛、缂丝文物复原件与当代创作作品展出，以实物展品串联起缂毛织造技艺跨越洲际的传播脉络。",
-            "source": {
-              "name": "中新网·影视文娱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a50d9db768abfc25f85c9c04c",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-10/10710670.shtml"
-            },
-            "publishedAt": "2026-10-10T11:15:33.000Z",
-            "discoveredAt": "2026-10-10T12:09:24.223Z",
-            "category": "culture",
-            "score": 96,
-            "selected": true,
-            "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a50d9db768abfc25f85c9c04c"
+              "url": "https://zenglian-news.onrender.com/items/a276163e392111dde656034c0"
             }
           }
         ]
@@ -1942,141 +1942,141 @@
         "label": "🏆 体育实时Top20",
         "items": [
           {
-            "id": "ad055ef64d54e1618ae17bd5f",
-            "title": "【欧洲足坛】伊普斯维奇最后时刻逆转击败富勒姆，阿韦洛亚的热度上升",
-            "originalTitle": "Ipswich stun Fulham with last-gasp comeback to increase heat on Arbeloa",
-            "summary": "富勒姆对阵伊普斯维奇的英超联赛开局不胜扩大到六场后，阿尔瓦罗·阿韦洛亚对他无法应对压力的说法感到愤怒。这位前皇家马德里主教练距离第一场比赛只有几分钟的路程...（来源：卫报体育·欧冠与五大联赛）",
+            "id": "abc6c5fb081f530770b164c1b",
+            "title": "【NBA一手】每日讨论主题 + 游戏主题索引",
+            "originalTitle": "Daily Discussion Thread + Game Thread Index",
+            "summary": "这篇文章包含旧 Reddit 不支持的内容。单击此处查看 /u/nba-scores 提交的完整帖子 [链接] [评论]（来源：NBA·北美篮球实时热榜）",
+            "source": {
+              "name": "NBA·北美篮球实时热榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abc6c5fb081f530770b164c1b",
+              "original": "https://www.reddit.com/r/nba/comments/1x2uz9t/daily_discussion_thread_game_thread_index/"
+            },
+            "publishedAt": "2026-10-11T01:00:15.000Z",
+            "discoveredAt": "2026-10-11T06:55:21.930Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abc6c5fb081f530770b164c1b"
+            }
+          },
+          {
+            "id": "ab0a8c1d6c49e30dca05c5378",
+            "title": "【欧洲足坛】皇马战胜比利亚雷亚尔的比赛中，维尼修斯·儒尼奥尔因拉扯头发被红牌罚下",
+            "originalTitle": "Real Madrid’s Vinícius Júnior sent off for hair-pulling in victory over Villarreal",
+            "summary": "扬·迪奥曼德帮助皇马以 1-0 险胜比利亚雷亚尔，尽管边锋维尼修斯·儒尼奥尔因拉扯头发被罚下，但他们仍落后西甲领头羊巴塞罗那 6 分。维尼修斯替补上场...（来源：卫报体育·欧冠与五大联赛）",
             "source": {
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad055ef64d54e1618ae17bd5f",
-              "original": "https://www.theguardian.com/football/2026/oct/10/ipswich-fulham-premier-league-match-report"
+              "aihot": "https://zenglian-news.onrender.com/items/ab0a8c1d6c49e30dca05c5378",
+              "original": "https://www.theguardian.com/football/2026/oct/10/real-madrids-vinicius-junior-sent-off-for-hair-pulling-in-victory-over-villarreal"
             },
-            "publishedAt": "2026-10-10T18:29:27.000Z",
-            "discoveredAt": "2026-10-10T21:58:39.869Z",
+            "publishedAt": "2026-10-10T21:38:11.000Z",
+            "discoveredAt": "2026-10-11T06:55:16.491Z",
             "category": "business",
-            "score": 99,
+            "score": 98,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad055ef64d54e1618ae17bd5f"
+              "url": "https://zenglian-news.onrender.com/items/ab0a8c1d6c49e30dca05c5378"
             }
           },
           {
-            "id": "a9d9172a8b0acd5fc4207b5f3",
-            "title": "【国内要闻】郑钦文首进中网女单决赛 刷新中国选手赛会最佳单打战绩",
-            "originalTitle": "郑钦文首进中网女单决赛 刷新中国选手赛会最佳单打战绩",
-            "summary": "中新社北京10月10日电 (记者 国璇)10日在北京进行的2026中国网球公开赛女子单打半决赛中，中国选手郑钦文以7:5、6:2力克赛会13号种子、比利时名将梅尔滕斯，职业生涯首次晋级中网女单决赛。郑钦文不仅是中网历史上首位持外卡打入女单决赛的球员，也是首位跻身中网单打决赛的本土球员。",
+            "id": "a269388184f8952497a4bb66f",
+            "title": "【欧洲足坛】曼城传奇短暂分散注意力，曼联和热刺回到现实约翰·布鲁温",
+            "originalTitle": "Manchester United and Spurs come back to reality as City saga offers brief distraction | John Brewin",
+            "summary": "曼城的违规行为占据了头条新闻，并将焦点从两家具乐部的自伤上转移开来。时光倒流是不可能的。在斯特雷特福德看台的中间层，股票行情又回来了，重新……（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a269388184f8952497a4bb66f",
+              "original": "https://www.theguardian.com/football/2026/oct/10/draw-brings-no-respite-for-manchester-united-and-tottenham-as-crises-continue"
+            },
+            "publishedAt": "2026-10-10T20:40:01.000Z",
+            "discoveredAt": "2026-10-11T06:55:15.521Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a269388184f8952497a4bb66f"
+            }
+          },
+          {
+            "id": "abc1afdc31b175d90e905ca04",
+            "title": "【国内要闻】渭北果乡翩跹起舞 国家级广场舞大赛落地陕西长武",
+            "originalTitle": "渭北果乡翩跹起舞 国家级广场舞大赛落地陕西长武",
+            "summary": "中新网陕西咸阳10月11日电 (记者 党田野 张一辰)2026年中国广场舞大赛(陕西·长武站)10日在陕西省咸阳市长武县开赛。作为全国A类标杆广场舞品牌赛事，本次赛事首次落地陕西，来自全国各地的30支代表队、500余名运动员齐聚渭北金秋果乡，同台竞技、以舞会友，展现全民健身风采。",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9d9172a8b0acd5fc4207b5f3",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-10/10710857.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/abc1afdc31b175d90e905ca04",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-11/10710970.shtml"
             },
-            "publishedAt": "2026-10-10T15:51:25.000Z",
-            "discoveredAt": "2026-10-10T18:28:48.951Z",
+            "publishedAt": "2026-10-11T06:23:17.000Z",
+            "discoveredAt": "2026-10-11T06:54:15.443Z",
             "category": "business",
-            "score": 99,
+            "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9d9172a8b0acd5fc4207b5f3"
+              "url": "https://zenglian-news.onrender.com/items/abc1afdc31b175d90e905ca04"
             }
           },
           {
-            "id": "a11d8e4707d83bc3aa3010992",
-            "title": "【体坛快讯】WTT中国大满贯赛：中国组合王曼昱/蒯曼女双夺冠",
-            "originalTitle": "WTT中国大满贯赛：中国组合王曼昱/蒯曼女双夺冠",
-            "summary": "中新社北京10月10日电 (记者 周昕)2026年世界乒乓球职业大联盟(WTT)中国大满贯赛女双决赛10日在北京进行，中国组合王曼昱/蒯曼以3:1战胜日本组合张本美和/早田希娜，成功卫冕冠军。",
+            "id": "ad923dafa5807b718a69a2845",
+            "title": "【体坛快讯】湖北省第十七届运动会在孝感开幕",
+            "originalTitle": "湖北省第十七届运动会在孝感开幕",
+            "summary": "中新网孝感10月11日电(李林)湖北省第十七届运动会10日晚在孝感奥体中心体育场开幕，来自全省17个市州的运动员代表以及万余名观众汇聚一堂，共赴这场体育与文化盛宴。",
             "source": {
               "name": "中新网·体育焦点"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a11d8e4707d83bc3aa3010992",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-10/10710797.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/ad923dafa5807b718a69a2845",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-11/10710952.shtml"
             },
-            "publishedAt": "2026-10-10T13:35:30.000Z",
-            "discoveredAt": "2026-10-10T13:54:13.929Z",
+            "publishedAt": "2026-10-11T05:07:45.000Z",
+            "discoveredAt": "2026-10-11T05:46:30.428Z",
             "category": "business",
-            "score": 99,
+            "score": 97,
             "selected": true,
             "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a11d8e4707d83bc3aa3010992"
+              "url": "https://zenglian-news.onrender.com/items/ad923dafa5807b718a69a2845"
             }
           },
           {
-            "id": "a12dd5d8a33d11fd7ef3be114",
-            "title": "【国内要闻】2026上海网球大师赛：布云朝克特不敌鲁德 中国选手仅剩周意",
-            "originalTitle": "2026上海网球大师赛：布云朝克特不敌鲁德 中国选手仅剩周意",
-            "summary": "中新社上海10月10日电 (记者 缪璐)2026上海网球大师赛单打第三轮10日举行。上海旗忠网球中心中央场馆的焦点战中，中国球员布云朝克特以大比分0:2不敌挪威球员卡斯珀·鲁德，无缘32强。西班牙名将卡洛斯·阿尔卡拉斯直落两盘晋级下一轮。至此，2026上海网球大师赛仅剩周意一名中国选手。",
+            "id": "a8f768fb4e44545b4d176e1f9",
+            "title": "【体坛快讯】CBA季前赛汕头站：广州队战胜广东队",
+            "originalTitle": "CBA季前赛汕头站：广州队战胜广东队",
+            "summary": "中新网汕头10月11日电(记者 张璐)2026-2027赛季CBA季前赛汕头站10日晚在汕头举行，广州智都集团队(简称“广州队”)以86:82战胜广东东阳光队(简称“广东队”)。",
             "source": {
-              "name": "中新网·国内要闻"
+              "name": "中新网·体育焦点"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a12dd5d8a33d11fd7ef3be114",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-10/10710848.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a8f768fb4e44545b4d176e1f9",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-11/10710915.shtml"
             },
-            "publishedAt": "2026-10-10T14:38:21.000Z",
-            "discoveredAt": "2026-10-10T15:20:40.618Z",
+            "publishedAt": "2026-10-11T02:43:57.000Z",
+            "discoveredAt": "2026-10-11T04:22:06.374Z",
             "category": "business",
-            "score": 98,
+            "score": 97,
             "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a12dd5d8a33d11fd7ef3be114"
-            }
-          },
-          {
-            "id": "a8779aecff3ab2f3986d3e31f",
-            "title": "【BBC足坛】观看：每日比赛",
-            "originalTitle": "Watch: Match of the Day",
-            "summary": "曼联对阵热刺，阿森纳对阵利兹联，切尔西对阵伯恩茅斯，顶级联赛回归（来源：BBC Sport·欧洲足坛）",
-            "source": {
-              "name": "BBC Sport·欧洲足坛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a8779aecff3ab2f3986d3e31f",
-              "original": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss"
-            },
-            "publishedAt": "2026-10-10T21:58:34.888Z",
-            "discoveredAt": "2026-10-10T21:58:37.252Z",
-            "category": "business",
-            "score": 96,
-            "selected": true,
-            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a8779aecff3ab2f3986d3e31f"
-            }
-          },
-          {
-            "id": "a261da67a5f38878600bfe17f",
-            "title": "【全球体育】美国女足被无情的西班牙暴露，早期进球解决了重量级友谊赛",
-            "originalTitle": "USWNT exposed by ruthless Spain as early goals settle heavyweight friendly",
-            "summary": "开场 14 分钟，吉哈罗和纳瓦罗进球 美国中场和西班牙防守失误暴露 约翰内斯错失点球，美国反击不力 在不到一年的时间里，美国和西班牙几乎将...（来源：卫报体育·全球大赛）",
-            "source": {
-              "name": "卫报体育·全球大赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a261da67a5f38878600bfe17f",
-              "original": "https://www.theguardian.com/football/2026/oct/10/uswnt-spain-match-report-washington-dc"
-            },
-            "publishedAt": "2026-10-10T20:53:53.000Z",
-            "discoveredAt": "2026-10-10T21:58:42.212Z",
-            "category": "business",
-            "score": 95,
-            "selected": true,
-            "reason": "《卫报》全球综合体育频道，实时追踪 F1、网球大满贯、NBA 与国际顶尖赛事。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a261da67a5f38878600bfe17f"
+              "url": "https://zenglian-news.onrender.com/items/a8f768fb4e44545b4d176e1f9"
             }
           }
         ]
