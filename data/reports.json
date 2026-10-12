@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T22:31:26.379Z",
+  "generatedAt": "2026-10-12T01:42:16.686Z",
   "daily": {
     "kind": "daily",
     "key": "2026-10-12",
     "title": "曾练全球一手简报 · 今日日报 (2026-10-12)",
     "subtitle": "全球·国内·商业搞钱·AI·影视娱乐·体育 六大实时Top20精选",
-    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：Apple 的“欢迎回家”活动有哪些值得期待的内容；“袁稻思源”杂交水稻智能育种平台长沙发布 AI赋能育种创新；2026总票房破310亿！国产电影加速出海 “电影+”持续释放大能量。",
+    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：特朗普宣布：新任白宫新闻秘书13日举行首次新闻发布会；Apple 的“欢迎回家”活动有哪些值得期待的内容；2026总票房破310亿！国产电影加速出海 “电影+”持续释放大能量。",
     "metrics": {
       "totalEvents": 18,
       "sourcesCount": 30,
@@ -17,6 +17,29 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
+          {
+            "id": "a2ba4c5d0df01707a27b888b8",
+            "title": "【国内要闻】特朗普宣布：新任白宫新闻秘书13日举行首次新闻发布会",
+            "originalTitle": "特朗普宣布：新任白宫新闻秘书13日举行首次新闻发布会",
+            "summary": "中新网10月12日电 综合报道，美国总统特朗普当地时间11日在社交媒体平台“真实社交”上表示，他很高兴地宣布，凯蒂·扎卡里亚将于12日正式出任白宫新闻秘书，并于13日上午9时30分在白宫新闻简报室举行首次新闻发布会。",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a2ba4c5d0df01707a27b888b8",
+              "original": "https://www.chinanews.com.cn/gj/2026/10-12/10711180.shtml"
+            },
+            "publishedAt": "2026-10-12T00:29:17.000Z",
+            "discoveredAt": "2026-10-12T00:41:18.482Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a2ba4c5d0df01707a27b888b8"
+            }
+          },
           {
             "id": "a8231e70303b7e87b570e438f",
             "title": "【国际巨头】Apple 的“欢迎回家”活动有哪些值得期待的内容",
@@ -38,29 +61,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a8231e70303b7e87b570e438f"
-            }
-          },
-          {
-            "id": "a25e8f3f2117b9b144dfc4915",
-            "title": "【全球热榜】Yandex 数据中心遭受攻击后 Cloudflare 机器人流量突然下降",
-            "originalTitle": "Sudden drop in Cloudflare bot traffic after strike on Yandex datacenter",
-            "summary": "X/HN·全球热榜Top实时快讯：Sudden drop in Cloudflare bot traffic after strike on Yandex datacenter。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a25e8f3f2117b9b144dfc4915",
-              "original": "https://radar.cloudflare.com/bots/as13238?dateRange=7d"
-            },
-            "publishedAt": "2026-10-11T10:27:53.000Z",
-            "discoveredAt": "2026-10-11T13:51:08.469Z",
-            "category": "global",
-            "score": 98,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a25e8f3f2117b9b144dfc4915"
             }
           },
           {
@@ -93,29 +93,6 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "a50fe0fe7cb0a392193cf9d02",
-            "title": "【国内要闻】“袁稻思源”杂交水稻智能育种平台长沙发布 AI赋能育种创新",
-            "originalTitle": "“袁稻思源”杂交水稻智能育种平台长沙发布 AI赋能育种创新",
-            "summary": "中新社长沙10月11日电 (记者 唐小晴)“袁稻思源”杂交水稻智能育种平台11日在长沙正式上线。这意味着湖南杂交水稻育种告别传统经验模式，迈入数据驱动、智能决策的全新发展阶段。",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a50fe0fe7cb0a392193cf9d02",
-              "original": "https://www.chinanews.com.cn/sh/2026/10-11/10711148.shtml"
-            },
-            "publishedAt": "2026-10-11T15:46:44.000Z",
-            "discoveredAt": "2026-10-11T16:10:59.277Z",
-            "category": "domestic",
-            "score": 99,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a50fe0fe7cb0a392193cf9d02"
-            }
-          },
-          {
             "id": "a0f55621be535d3d5c0275f5d",
             "title": "【国内财经】2026总票房破310亿！国产电影加速出海 “电影+”持续释放大能量",
             "originalTitle": "2026总票房破310亿！国产电影加速出海 “电影+”持续释放大能量",
@@ -139,26 +116,49 @@
             }
           },
           {
-            "id": "a2073dd85ad87d15a17159f6e",
-            "title": "【国内财经】“铜鼓黄精”区域公用品牌亮相江西南昌",
-            "originalTitle": "“铜鼓黄精”区域公用品牌亮相江西南昌",
-            "summary": "中新网南昌10月11日电(付丽玲)11日上午，“铜鼓黄精”区域公用品牌品鉴推介会暨品牌战略发布会在江西南昌举行。会上正式发布了“铜鼓黄精”区域公用品牌体系和产业发展规划，并搭建集品牌发布、成果展示、专家赋能、产销对接、媒体宣传于一体的综合平台，进一步提升“铜鼓黄精”品牌影响力和市场竞争力。",
+            "id": "a7ec3f5215e082f64af26eb6e",
+            "title": "【国内要闻】AI大战数学家，谁是赢家？",
+            "originalTitle": "AI大战数学家，谁是赢家？",
+            "summary": "中新网·国内要闻实时快讯：AI大战数学家，谁是赢家？。中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "source": {
-              "name": "中新网·国内财经"
+              "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a2073dd85ad87d15a17159f6e",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-11/10711037.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a7ec3f5215e082f64af26eb6e",
+              "original": "https://www.chinanews.com.cn/ll/2026/10-12/10711823.shtml"
             },
-            "publishedAt": "2026-10-11T09:30:15.000Z",
-            "discoveredAt": "2026-10-11T10:16:00.570Z",
+            "publishedAt": "2026-10-12T01:36:26.000Z",
+            "discoveredAt": "2026-10-12T01:41:42.388Z",
             "category": "domestic",
-            "score": 99,
+            "score": 97,
             "selected": true,
-            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a2073dd85ad87d15a17159f6e"
+              "url": "https://zenglian-news.onrender.com/items/a7ec3f5215e082f64af26eb6e"
+            }
+          },
+          {
+            "id": "a8e4669ae4dafb74f3e210dbd",
+            "title": "【国内要闻】10月12日央行开展500亿元7天期逆回购操作",
+            "originalTitle": "10月12日央行开展500亿元7天期逆回购操作",
+            "summary": "中新网10月12日电 据央行网站消息，2026年10月12日中国人民银行以固定利率、数量招标方式开展了500亿元7天期逆回购操作，全额满足了一级交易商需求。具体情况如下：",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a8e4669ae4dafb74f3e210dbd",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-12/10711818.shtml"
+            },
+            "publishedAt": "2026-10-12T01:34:20.000Z",
+            "discoveredAt": "2026-10-12T01:41:42.491Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a8e4669ae4dafb74f3e210dbd"
             }
           }
         ]
@@ -167,6 +167,52 @@
         "category": "money",
         "label": "💰 商业搞钱Top20",
         "items": [
+          {
+            "id": "aa626f133ec1871b21149d171",
+            "title": "算力基建的战争，才刚刚在液冷赛道上演",
+            "originalTitle": "算力基建的战争，才刚刚在液冷赛道上演",
+            "summary": "本文来自微信公众号： 硅碳变量 ，作者：沈浪 订单排到2027年，营收增速超过400%，产能赶不上交付……这不是某个互联网大厂的故事，而是液冷行业的2026年。 在高密度AI算力需求持续拉动之下，液冷正在完成一次身份跃迁：曾经只是机房建设里可选的配套，如今正演变为高密度智算集群建设阶段就要同步考量的底层基础设施。 产业链设备端率先迎来一轮集中爆发：头部厂商订单放量，企业大举扩产，跨界新玩家接连涌入。 这场由算力建设热潮点燃的“冷”生意，...",
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aa626f133ec1871b21149d171",
+              "original": "https://www.huxiu.com/article/4896684.html?f=rss"
+            },
+            "publishedAt": "2026-10-12T01:28:14.000Z",
+            "discoveredAt": "2026-10-12T01:41:50.319Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aa626f133ec1871b21149d171"
+            }
+          },
+          {
+            "id": "a356d39a6c72b6afb5216b980",
+            "title": "陶哲轩在“害怕”什么？",
+            "originalTitle": "陶哲轩在“害怕”什么？",
+            "summary": "本文来自微信公众号： 腾讯科技 ，作者：苏扬，编辑：徐青阳，题图来自：视觉中国 当AI开始批量生产数学证明，人类凭什么确信这些证明是可靠的？ 美国当地时间10月9日，著名数学家、菲尔兹奖得主陶哲轩在其博客转发了托马斯&middot;黑尔斯的专栏文章&ldquo;《数学家应该了解的Lean定理证明器：可靠性与人工智能问题》&rdquo;。 陶哲轩博客转发文章截图 这场AI数学浪潮的矛盾在于：AI正在以前所未有的速度攻克数学难题，这些难题过...",
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a356d39a6c72b6afb5216b980",
+              "original": "https://www.huxiu.com/article/4896661.html?f=rss"
+            },
+            "publishedAt": "2026-10-12T00:34:24.000Z",
+            "discoveredAt": "2026-10-12T00:41:41.342Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a356d39a6c72b6afb5216b980"
+            }
+          },
           {
             "id": "a2af9c1e418dec692cee386ca",
             "title": "【出海实战】对于那些说 SAAS 已死的人？我们忘记了经济是什么吗？",
@@ -188,52 +234,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a2af9c1e418dec692cee386ca"
-            }
-          },
-          {
-            "id": "a27576042694310a3b6f7ecef",
-            "title": "苹果终于要给MacBook加触屏了，这次为什么不一样？",
-            "originalTitle": "苹果终于要给MacBook加触屏了，这次为什么不一样？",
-            "summary": "本文来自微信公众号： Linda产业笔记 ，作者：Linda 梁领 苹果有一句流传很广的内部信条，Mac用键盘，iPad用手指，谁也别碰谁的地盘。 蒂姆·库克在公开场合把触屏笔记本比作“把烤面包机和冰箱绑在一起”。这句话说了十年，苹果的产品经理们也执行了十年，直到今年10月。 据彭博社报道，苹果将在10月27日前后发布第一台支持触控操作的MacBook Pro。OLED屏幕、灵动岛、更薄的机身，全部一次性上齐。MacBook Pro自2...",
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a27576042694310a3b6f7ecef",
-              "original": "https://www.huxiu.com/article/4896654.html?f=rss"
-            },
-            "publishedAt": "2026-10-11T17:40:17.000Z",
-            "discoveredAt": "2026-10-11T18:41:44.642Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a27576042694310a3b6f7ecef"
-            }
-          },
-          {
-            "id": "a5940dbb3a2085f76fcfccc78",
-            "title": "【出海实战】我们的 SaaS 首次赞助了赛车手",
-            "originalTitle": "Our SaaS just sponsored a racing driver for the first time",
-            "summary": "我们把bundle.social标志放在一辆赛车上，据我所知，我们的车手在资格赛中获得了第二名，我正在度假，所以更新通知有点晚了，但我高兴极了，我们俩都喜欢赛车和汽车......（来源：X/Reddit·出海SaaS搞钱）",
-            "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a5940dbb3a2085f76fcfccc78",
-              "original": "https://www.reddit.com/r/SaaS/comments/1x356dj/our_saas_just_sponsored_a_racing_driver_for_the/"
-            },
-            "publishedAt": "2026-10-11T10:49:28.000Z",
-            "discoveredAt": "2026-10-11T13:51:38.140Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a5940dbb3a2085f76fcfccc78"
             }
           }
         ]
@@ -364,26 +364,26 @@
             }
           },
           {
-            "id": "ab2e385d4d3cfaa4b9e5fdecb",
-            "title": "【传言】英伟达停产RTX 5090，旗舰芯片全面转向工作站",
-            "originalTitle": "【传言】英伟达停产RTX 5090，旗舰芯片全面转向工作站",
-            "summary": "据知名爆料者 MEGAsizeGPU 透露，英伟达已停止向 GeForce RTX 5090 供货 GB202 芯片，未来所有 GB202 芯片将转为工作站显卡独占。作为基于 Blackwell 架构的旗舰级芯片，GB202 并未在 RTX 5090 上发挥全部性能。 爆料者 hongxing2020 也确认 RTX 5090 停产，包括中国特供的D系列在内均停止销售。根据工厂内部通知，配备24GB显存的 RTX 5080 将接棒成为最...",
+            "id": "a3067f5703a61d3c9b8e1ea99",
+            "title": "【全球票房】罗伯特·帕丁森在《黄金时段》中以“粉丝”的身份对待克里斯·汉森：“我想让他变得酷”",
+            "originalTitle": "Robert Pattinson Approached Chris Hansen Portrayal In ‘Primetime’ As “A Fan”: “I Was Trying To Make Him Cool”",
+            "summary": "尽管克里斯·汉森明确表示这种感觉不是相互的，但黄金时段的罗伯特·帕丁森承认他是《捕捉铁血战士》主持人的粉丝。继汉森对兰斯·奥本海的持续批评之后……（来源：Deadline·全球票房与新片）",
             "source": {
-              "name": "机核网·影漫与游戏"
+              "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab2e385d4d3cfaa4b9e5fdecb",
-              "original": "https://www.gcores.com/articles/220759"
+              "aihot": "https://zenglian-news.onrender.com/items/a3067f5703a61d3c9b8e1ea99",
+              "original": "https://deadline.com/2026/10/robert-pattinson-fan-chris-hansen-primetime-1237154442/"
             },
-            "publishedAt": "2026-10-11T10:36:51.000Z",
-            "discoveredAt": "2026-10-11T13:52:07.791Z",
+            "publishedAt": "2026-10-11T22:01:11.000Z",
+            "discoveredAt": "2026-10-11T22:30:55.788Z",
             "category": "culture",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "国内最具深度的影视、动漫、科幻文化与主机游戏一手资讯与评论。",
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab2e385d4d3cfaa4b9e5fdecb"
+              "url": "https://zenglian-news.onrender.com/items/a3067f5703a61d3c9b8e1ea99"
             }
           }
         ]
@@ -392,6 +392,29 @@
         "category": "business",
         "label": "🏆 体育实时Top20",
         "items": [
+          {
+            "id": "a4b66f8cd8d2336e6eef74647",
+            "title": "【体坛快讯】刘宇婕4杆大胜 中国女子高尔夫球公开赛首迎业余冠军",
+            "originalTitle": "刘宇婕4杆大胜 中国女子高尔夫球公开赛首迎业余冠军",
+            "summary": "中新网上海10月12日电 2026中国女子高尔夫球公开赛(以下简称“中国女子公开赛”)11日在上海崇明岛PGA安瀛高尔夫俱乐部结束全部三轮比赛。刘宇婕在决赛轮交出69杆，以209杆、低于标准杆7杆的总成绩夺冠，拿下个人女子中巡第三冠，也成为中国女子公开赛创办二十年来的首位业余冠军。",
+            "source": {
+              "name": "中新网·体育焦点"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a4b66f8cd8d2336e6eef74647",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-12/10711822.shtml"
+            },
+            "publishedAt": "2026-10-12T01:38:30.000Z",
+            "discoveredAt": "2026-10-12T01:42:09.963Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a4b66f8cd8d2336e6eef74647"
+            }
+          },
           {
             "id": "a2a07e14f966432b3bfa0aa84",
             "title": "【BBC足坛】曼城的声明胜利给人一种与赛季无关的感觉",
@@ -437,29 +460,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a70b047779f42ece05bfcce0f"
             }
-          },
-          {
-            "id": "af3b4fe3fbdd75339452dd056",
-            "title": "【BBC足坛】曼城轻松击败十人利物浦，多库欣喜若狂",
-            "originalTitle": "Doku delights as Manchester City cruise past 10-man Liverpool",
-            "summary": "在被判违反英超财务规则后的第一场比赛中，曼城在安菲尔德以 3-0 轻松战胜利物浦，将他们的完美开局延续到六场比赛，因为他们......（来源：BBC Sport·欧洲足坛）",
-            "source": {
-              "name": "BBC Sport·欧洲足坛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af3b4fe3fbdd75339452dd056",
-              "original": "https://www.bbc.co.uk/sport/football/videos/c6vgy2ll1zypo?at_medium=RSS&at_campaign=rss"
-            },
-            "publishedAt": "2026-10-11T18:59:19.000Z",
-            "discoveredAt": "2026-10-11T22:31:05.020Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af3b4fe3fbdd75339452dd056"
-            }
           }
         ]
       }
@@ -470,7 +470,7 @@
     "key": "2026-W41",
     "title": "曾练全球一手简报 · 本周核心周报 (2026年第41周)",
     "subtitle": "7天全球政经、国内大事、商业搞钱、AI突破与文体焦点深度复盘",
-    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：Apple 的“欢迎回家”活动有哪些值得期待的内容；“袁稻思源”杂交水稻智能育种平台长沙发布 AI赋能育种创新；2026总票房破310亿！国产电影加速出海 “电影+”持续释放大能量。",
+    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：特朗普宣布：新任白宫新闻秘书13日举行首次新闻发布会；Apple 的“欢迎回家”活动有哪些值得期待的内容；2026总票房破310亿！国产电影加速出海 “电影+”持续释放大能量。",
     "metrics": {
       "totalEvents": 30,
       "sourcesCount": 30,
@@ -481,6 +481,29 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
+          {
+            "id": "a2ba4c5d0df01707a27b888b8",
+            "title": "【国内要闻】特朗普宣布：新任白宫新闻秘书13日举行首次新闻发布会",
+            "originalTitle": "特朗普宣布：新任白宫新闻秘书13日举行首次新闻发布会",
+            "summary": "中新网10月12日电 综合报道，美国总统特朗普当地时间11日在社交媒体平台“真实社交”上表示，他很高兴地宣布，凯蒂·扎卡里亚将于12日正式出任白宫新闻秘书，并于13日上午9时30分在白宫新闻简报室举行首次新闻发布会。",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a2ba4c5d0df01707a27b888b8",
+              "original": "https://www.chinanews.com.cn/gj/2026/10-12/10711180.shtml"
+            },
+            "publishedAt": "2026-10-12T00:29:17.000Z",
+            "discoveredAt": "2026-10-12T00:41:18.482Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a2ba4c5d0df01707a27b888b8"
+            }
+          },
           {
             "id": "a8231e70303b7e87b570e438f",
             "title": "【国际巨头】Apple 的“欢迎回家”活动有哪些值得期待的内容",
@@ -502,29 +525,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a8231e70303b7e87b570e438f"
-            }
-          },
-          {
-            "id": "a25e8f3f2117b9b144dfc4915",
-            "title": "【全球热榜】Yandex 数据中心遭受攻击后 Cloudflare 机器人流量突然下降",
-            "originalTitle": "Sudden drop in Cloudflare bot traffic after strike on Yandex datacenter",
-            "summary": "X/HN·全球热榜Top实时快讯：Sudden drop in Cloudflare bot traffic after strike on Yandex datacenter。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a25e8f3f2117b9b144dfc4915",
-              "original": "https://radar.cloudflare.com/bots/as13238?dateRange=7d"
-            },
-            "publishedAt": "2026-10-11T10:27:53.000Z",
-            "discoveredAt": "2026-10-11T13:51:08.469Z",
-            "category": "global",
-            "score": 98,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a25e8f3f2117b9b144dfc4915"
             }
           },
           {
@@ -603,29 +603,6 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "a50fe0fe7cb0a392193cf9d02",
-            "title": "【国内要闻】“袁稻思源”杂交水稻智能育种平台长沙发布 AI赋能育种创新",
-            "originalTitle": "“袁稻思源”杂交水稻智能育种平台长沙发布 AI赋能育种创新",
-            "summary": "中新社长沙10月11日电 (记者 唐小晴)“袁稻思源”杂交水稻智能育种平台11日在长沙正式上线。这意味着湖南杂交水稻育种告别传统经验模式，迈入数据驱动、智能决策的全新发展阶段。",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a50fe0fe7cb0a392193cf9d02",
-              "original": "https://www.chinanews.com.cn/sh/2026/10-11/10711148.shtml"
-            },
-            "publishedAt": "2026-10-11T15:46:44.000Z",
-            "discoveredAt": "2026-10-11T16:10:59.277Z",
-            "category": "domestic",
-            "score": 99,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a50fe0fe7cb0a392193cf9d02"
-            }
-          },
-          {
             "id": "a0f55621be535d3d5c0275f5d",
             "title": "【国内财经】2026总票房破310亿！国产电影加速出海 “电影+”持续释放大能量",
             "originalTitle": "2026总票房破310亿！国产电影加速出海 “电影+”持续释放大能量",
@@ -649,72 +626,95 @@
             }
           },
           {
-            "id": "a2073dd85ad87d15a17159f6e",
-            "title": "【国内财经】“铜鼓黄精”区域公用品牌亮相江西南昌",
-            "originalTitle": "“铜鼓黄精”区域公用品牌亮相江西南昌",
-            "summary": "中新网南昌10月11日电(付丽玲)11日上午，“铜鼓黄精”区域公用品牌品鉴推介会暨品牌战略发布会在江西南昌举行。会上正式发布了“铜鼓黄精”区域公用品牌体系和产业发展规划，并搭建集品牌发布、成果展示、专家赋能、产销对接、媒体宣传于一体的综合平台，进一步提升“铜鼓黄精”品牌影响力和市场竞争力。",
-            "source": {
-              "name": "中新网·国内财经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a2073dd85ad87d15a17159f6e",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-11/10711037.shtml"
-            },
-            "publishedAt": "2026-10-11T09:30:15.000Z",
-            "discoveredAt": "2026-10-11T10:16:00.570Z",
-            "category": "domestic",
-            "score": 99,
-            "selected": true,
-            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a2073dd85ad87d15a17159f6e"
-            }
-          },
-          {
-            "id": "a9c95356a21e936797bfc5871",
-            "title": "【国内要闻】全球媒体聚焦 | “长征是值得非洲探讨的国家发展理念”",
-            "originalTitle": "全球媒体聚焦 | “长征是值得非洲探讨的国家发展理念”",
-            "summary": "2026年是中国工农红军长征胜利90周年。肯尼亚“首都调频”网站10月10日刊文称，今天的中国拥有现代化的城市和规模庞大的消费市场，但人们很容易忽略，走到这一步的道路有多么漫长和艰难。这正是长征精神的意义所在，这种精神是“值得非洲探讨的国家发展理念”。",
+            "id": "a7ec3f5215e082f64af26eb6e",
+            "title": "【国内要闻】AI大战数学家，谁是赢家？",
+            "originalTitle": "AI大战数学家，谁是赢家？",
+            "summary": "中新网·国内要闻实时快讯：AI大战数学家，谁是赢家？。中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9c95356a21e936797bfc5871",
-              "original": "https://www.chinanews.com.cn/gj/2026/10-12/10711156.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a7ec3f5215e082f64af26eb6e",
+              "original": "https://www.chinanews.com.cn/ll/2026/10-12/10711823.shtml"
             },
-            "publishedAt": "2026-10-11T16:13:26.000Z",
-            "discoveredAt": "2026-10-11T16:25:22.096Z",
+            "publishedAt": "2026-10-12T01:36:26.000Z",
+            "discoveredAt": "2026-10-12T01:41:42.388Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9c95356a21e936797bfc5871"
+              "url": "https://zenglian-news.onrender.com/items/a7ec3f5215e082f64af26eb6e"
             }
           },
           {
-            "id": "af964afa216ee87297416827e",
-            "title": "曝苹果新一代 Apple TV 4K 内置麦克风、Siri Remote 遥控器将配扬声器便于查找",
-            "originalTitle": "曝苹果新一代 Apple TV 4K 内置麦克风、Siri Remote 遥控器将配扬声器便于查找",
-            "summary": "IT之家 10 月 11 日消息，苹果将在本周二举行“欢迎回家”活动，主角预计是 HomeView 智能家庭中枢，除此之外还有新款 HomePod mini 和 Apple TV 4K。 据彭博社记者马克 · 古尔曼今日透露， 新款 Apple TV 4K 将在 10 月 30 日发售 ，苹果已在这款新品中测试内置麦克风，用户直接说出 Siri 就能进行语音交互。 IT之家了解到，现款 Apple TV 4K 仅在 Siri Remot...",
+            "id": "a8e4669ae4dafb74f3e210dbd",
+            "title": "【国内要闻】10月12日央行开展500亿元7天期逆回购操作",
+            "originalTitle": "10月12日央行开展500亿元7天期逆回购操作",
+            "summary": "中新网10月12日电 据央行网站消息，2026年10月12日中国人民银行以固定利率、数量招标方式开展了500亿元7天期逆回购操作，全额满足了一级交易商需求。具体情况如下：",
             "source": {
-              "name": "IT之家·国内产业"
+              "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af964afa216ee87297416827e",
-              "original": "https://www.ithome.com/1/011/714.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a8e4669ae4dafb74f3e210dbd",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-12/10711818.shtml"
             },
-            "publishedAt": "2026-10-11T15:20:30.000Z",
-            "discoveredAt": "2026-10-11T16:11:07.953Z",
+            "publishedAt": "2026-10-12T01:34:20.000Z",
+            "discoveredAt": "2026-10-12T01:41:42.491Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af964afa216ee87297416827e"
+              "url": "https://zenglian-news.onrender.com/items/a8e4669ae4dafb74f3e210dbd"
+            }
+          },
+          {
+            "id": "a9a628f0636121847e7208325",
+            "title": "【国内要闻】三步一“公主”，五步一“娘娘”！洛阳市长喊你来“穿越”",
+            "originalTitle": "三步一“公主”，五步一“娘娘”！洛阳市长喊你来“穿越”",
+            "summary": "在河南洛阳，穿汉服是什么体验？“三步一‘公主’，五步一‘娘娘’！”10月11日，“2026世界市长对话·洛阳”开幕式上，洛阳市市长张玉杰向各国嘉宾推介洛邑古城，邀请大家亲身体验汉服文化，感受古都洛阳的独特魅力。(王士豪）",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a9a628f0636121847e7208325",
+              "original": "http://www.chinanews.com.cn/sh/shipin/cns-d/2026/10-12/news1071522.shtml"
+            },
+            "publishedAt": "2026-10-12T01:34:19.000Z",
+            "discoveredAt": "2026-10-12T01:41:42.520Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a9a628f0636121847e7208325"
+            }
+          },
+          {
+            "id": "a6b33c4925cb5539cc430b9af",
+            "title": "【国内要闻】10月12日人民币对美元中间价报6.7313 上调17个基点",
+            "originalTitle": "10月12日人民币对美元中间价报6.7313 上调17个基点",
+            "summary": "中新网10月12日电 据中国外汇交易中心网站消息，中国人民银行授权中国外汇交易中心公布，2026年10月12日银行间外汇市场人民币汇率中间价为1美元对人民币6.7313元，上调17个基点。",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a6b33c4925cb5539cc430b9af",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-12/10711815.shtml"
+            },
+            "publishedAt": "2026-10-12T01:31:48.000Z",
+            "discoveredAt": "2026-10-12T01:41:42.549Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a6b33c4925cb5539cc430b9af"
             }
           }
         ]
@@ -723,6 +723,52 @@
         "category": "money",
         "label": "💰 商业搞钱Top20",
         "items": [
+          {
+            "id": "aa626f133ec1871b21149d171",
+            "title": "算力基建的战争，才刚刚在液冷赛道上演",
+            "originalTitle": "算力基建的战争，才刚刚在液冷赛道上演",
+            "summary": "本文来自微信公众号： 硅碳变量 ，作者：沈浪 订单排到2027年，营收增速超过400%，产能赶不上交付……这不是某个互联网大厂的故事，而是液冷行业的2026年。 在高密度AI算力需求持续拉动之下，液冷正在完成一次身份跃迁：曾经只是机房建设里可选的配套，如今正演变为高密度智算集群建设阶段就要同步考量的底层基础设施。 产业链设备端率先迎来一轮集中爆发：头部厂商订单放量，企业大举扩产，跨界新玩家接连涌入。 这场由算力建设热潮点燃的“冷”生意，...",
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aa626f133ec1871b21149d171",
+              "original": "https://www.huxiu.com/article/4896684.html?f=rss"
+            },
+            "publishedAt": "2026-10-12T01:28:14.000Z",
+            "discoveredAt": "2026-10-12T01:41:50.319Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aa626f133ec1871b21149d171"
+            }
+          },
+          {
+            "id": "a356d39a6c72b6afb5216b980",
+            "title": "陶哲轩在“害怕”什么？",
+            "originalTitle": "陶哲轩在“害怕”什么？",
+            "summary": "本文来自微信公众号： 腾讯科技 ，作者：苏扬，编辑：徐青阳，题图来自：视觉中国 当AI开始批量生产数学证明，人类凭什么确信这些证明是可靠的？ 美国当地时间10月9日，著名数学家、菲尔兹奖得主陶哲轩在其博客转发了托马斯&middot;黑尔斯的专栏文章&ldquo;《数学家应该了解的Lean定理证明器：可靠性与人工智能问题》&rdquo;。 陶哲轩博客转发文章截图 这场AI数学浪潮的矛盾在于：AI正在以前所未有的速度攻克数学难题，这些难题过...",
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a356d39a6c72b6afb5216b980",
+              "original": "https://www.huxiu.com/article/4896661.html?f=rss"
+            },
+            "publishedAt": "2026-10-12T00:34:24.000Z",
+            "discoveredAt": "2026-10-12T00:41:41.342Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a356d39a6c72b6afb5216b980"
+            }
+          },
           {
             "id": "a2af9c1e418dec692cee386ca",
             "title": "【出海实战】对于那些说 SAAS 已死的人？我们忘记了经济是什么吗？",
@@ -744,29 +790,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a2af9c1e418dec692cee386ca"
-            }
-          },
-          {
-            "id": "a27576042694310a3b6f7ecef",
-            "title": "苹果终于要给MacBook加触屏了，这次为什么不一样？",
-            "originalTitle": "苹果终于要给MacBook加触屏了，这次为什么不一样？",
-            "summary": "本文来自微信公众号： Linda产业笔记 ，作者：Linda 梁领 苹果有一句流传很广的内部信条，Mac用键盘，iPad用手指，谁也别碰谁的地盘。 蒂姆·库克在公开场合把触屏笔记本比作“把烤面包机和冰箱绑在一起”。这句话说了十年，苹果的产品经理们也执行了十年，直到今年10月。 据彭博社报道，苹果将在10月27日前后发布第一台支持触控操作的MacBook Pro。OLED屏幕、灵动岛、更薄的机身，全部一次性上齐。MacBook Pro自2...",
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a27576042694310a3b6f7ecef",
-              "original": "https://www.huxiu.com/article/4896654.html?f=rss"
-            },
-            "publishedAt": "2026-10-11T17:40:17.000Z",
-            "discoveredAt": "2026-10-11T18:41:44.642Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a27576042694310a3b6f7ecef"
             }
           },
           {
@@ -813,29 +836,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a3ec3b1fc6073a067b2ecdcae"
-            }
-          },
-          {
-            "id": "a797cea3e1c53078b9521af16",
-            "title": "【国内要闻】郑钦文成为中网首位本土女单冠军",
-            "originalTitle": "郑钦文成为中网首位本土女单冠军",
-            "summary": "新华社北京10月11日电 在刚刚结束的2026中国网球公开赛女单决赛中，中国选手郑钦文以2:0击败新科法网冠军、俄罗斯名将安德烈耶娃。她成为中网举办20届以来首位来自中国本土的女单冠军，这也是她职业生涯第一个女子网球选手协会(WTA)1000级别赛事冠军。",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a797cea3e1c53078b9521af16",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-11/10711134.shtml"
-            },
-            "publishedAt": "2026-10-11T13:29:28.000Z",
-            "discoveredAt": "2026-10-11T13:51:17.559Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a797cea3e1c53078b9521af16"
             }
           }
         ]
@@ -926,7 +926,7 @@
               "original": "https://www.qbitai.com/2026/10/502584.html"
             },
             "publishedAt": "2026-10-11T05:23:47.000Z",
-            "discoveredAt": "2026-10-11T22:30:40.004Z",
+            "discoveredAt": "2026-10-12T01:41:55.326Z",
             "category": "tech",
             "score": 99,
             "selected": true,
@@ -1012,29 +1012,6 @@
             }
           },
           {
-            "id": "ab2e385d4d3cfaa4b9e5fdecb",
-            "title": "【传言】英伟达停产RTX 5090，旗舰芯片全面转向工作站",
-            "originalTitle": "【传言】英伟达停产RTX 5090，旗舰芯片全面转向工作站",
-            "summary": "据知名爆料者 MEGAsizeGPU 透露，英伟达已停止向 GeForce RTX 5090 供货 GB202 芯片，未来所有 GB202 芯片将转为工作站显卡独占。作为基于 Blackwell 架构的旗舰级芯片，GB202 并未在 RTX 5090 上发挥全部性能。 爆料者 hongxing2020 也确认 RTX 5090 停产，包括中国特供的D系列在内均停止销售。根据工厂内部通知，配备24GB显存的 RTX 5080 将接棒成为最...",
-            "source": {
-              "name": "机核网·影漫与游戏"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab2e385d4d3cfaa4b9e5fdecb",
-              "original": "https://www.gcores.com/articles/220759"
-            },
-            "publishedAt": "2026-10-11T10:36:51.000Z",
-            "discoveredAt": "2026-10-11T13:52:07.791Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "国内最具深度的影视、动漫、科幻文化与主机游戏一手资讯与评论。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab2e385d4d3cfaa4b9e5fdecb"
-            }
-          },
-          {
             "id": "a3067f5703a61d3c9b8e1ea99",
             "title": "【全球票房】罗伯特·帕丁森在《黄金时段》中以“粉丝”的身份对待克里斯·汉森：“我想让他变得酷”",
             "originalTitle": "Robert Pattinson Approached Chris Hansen Portrayal In ‘Primetime’ As “A Fan”: “I Was Trying To Make Him Cool”",
@@ -1079,6 +1056,29 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a8895bd314cd6af37d98661ca"
             }
+          },
+          {
+            "id": "a6b87468fff020ae9d8f35e65",
+            "title": "【全球票房】《新秀》第 9 季和衍生剧《北方》确定首播日期、预告片和客串明星，ABC 将于周三设置“新秀”版块",
+            "originalTitle": "‘The Rookie’ Season 9 & Spinoff ‘North’ Get Premiere Dates, Teaser & Guest Stars As ABC Sets ‘Rookie’ Block On Wednesday",
+            "summary": "新秀再次上路。由内森·菲利安 (Nathan Fillion) 主演的 ABC 热播犯罪剧第九季将于 1 月 6 日在新的时间、新的夜晚（周三晚上 9 点）首播。它将作为新的引导...（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a6b87468fff020ae9d8f35e65",
+              "original": "https://deadline.com/2026/10/the-rookie-season-9-north-premiere-date-teaser-guest-stars-1237154409/"
+            },
+            "publishedAt": "2026-10-11T20:16:42.000Z",
+            "discoveredAt": "2026-10-11T22:30:58.479Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a6b87468fff020ae9d8f35e65"
+            }
           }
         ]
       },
@@ -1086,6 +1086,29 @@
         "category": "business",
         "label": "🏆 体育实时Top20",
         "items": [
+          {
+            "id": "a4b66f8cd8d2336e6eef74647",
+            "title": "【体坛快讯】刘宇婕4杆大胜 中国女子高尔夫球公开赛首迎业余冠军",
+            "originalTitle": "刘宇婕4杆大胜 中国女子高尔夫球公开赛首迎业余冠军",
+            "summary": "中新网上海10月12日电 2026中国女子高尔夫球公开赛(以下简称“中国女子公开赛”)11日在上海崇明岛PGA安瀛高尔夫俱乐部结束全部三轮比赛。刘宇婕在决赛轮交出69杆，以209杆、低于标准杆7杆的总成绩夺冠，拿下个人女子中巡第三冠，也成为中国女子公开赛创办二十年来的首位业余冠军。",
+            "source": {
+              "name": "中新网·体育焦点"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a4b66f8cd8d2336e6eef74647",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-12/10711822.shtml"
+            },
+            "publishedAt": "2026-10-12T01:38:30.000Z",
+            "discoveredAt": "2026-10-12T01:42:09.963Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a4b66f8cd8d2336e6eef74647"
+            }
+          },
           {
             "id": "a2a07e14f966432b3bfa0aa84",
             "title": "【BBC足坛】曼城的声明胜利给人一种与赛季无关的感觉",
@@ -1156,49 +1179,26 @@
             }
           },
           {
-            "id": "a889b34efd7ee021d4a9ad436",
-            "title": "【欧洲足坛】“我们发出自己的声音”：马雷斯卡在利物浦获胜后欢呼曼城",
-            "originalTitle": "‘We make our own noise’: Maresca hails Manchester City after Liverpool triumph",
-            "summary": "“你无法想象我有多高兴......我来这里是为了赢球”自从有罪判决恩佐·马雷斯卡称赞曼城在利物浦“制造自己的噪音”以来，曼城在安菲尔德的第一场比赛以3-0获胜，因为他们无视了球队......（来源：卫报体育·欧冠与五大联赛）",
+            "id": "a1135538d0ade4ae321362505",
+            "title": "【体坛快讯】一路闯关、创多项历史！回顾郑钦文2026中网冠军之路",
+            "originalTitle": "一路闯关、创多项历史！回顾郑钦文2026中网冠军之路",
+            "summary": "北京时间10月11日，2026中网女单决赛，郑钦文2-0战胜安德列娃，收获了自己首个中网女单冠军，也是首个1000赛冠军头衔。同时，也创下了中网的历史：首个本土球员夺得女单冠军！",
             "source": {
-              "name": "卫报体育·欧冠与五大联赛"
+              "name": "中新网·体育焦点"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a889b34efd7ee021d4a9ad436",
-              "original": "https://www.theguardian.com/football/2026/oct/11/enzo-maresca-manchester-city-liverpool-premier-league"
+              "aihot": "https://zenglian-news.onrender.com/items/a1135538d0ade4ae321362505",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-12/10711162.shtml"
             },
-            "publishedAt": "2026-10-11T19:43:59.000Z",
-            "discoveredAt": "2026-10-11T22:31:13.794Z",
+            "publishedAt": "2026-10-11T22:46:19.000Z",
+            "discoveredAt": "2026-10-11T23:43:03.728Z",
             "category": "business",
             "score": 98,
             "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a889b34efd7ee021d4a9ad436"
-            }
-          },
-          {
-            "id": "a55974733e40809d9be66c6c7",
-            "title": "【BBC足坛】格拉斯纳在塞尔赫斯特回归后遭遇损失，水晶宫击败森林队",
-            "originalTitle": "Glasner suffers loss on Selhurst return as Palace beat Forest",
-            "summary": "奥利弗·格拉斯纳（Oliver Glasner）带着他的诺丁汉森林队回到水晶宫，经历了令人沮丧的经历，让他们早早领先，输给了老鹰队。（来源：BBC Sport·欧洲足坛）",
-            "source": {
-              "name": "BBC Sport·欧洲足坛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a55974733e40809d9be66c6c7",
-              "original": "https://www.bbc.co.uk/sport/football/videos/cwz0zkj27greo?at_medium=RSS&at_campaign=rss"
-            },
-            "publishedAt": "2026-10-11T18:59:02.000Z",
-            "discoveredAt": "2026-10-11T22:31:07.777Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a55974733e40809d9be66c6c7"
+              "url": "https://zenglian-news.onrender.com/items/a1135538d0ade4ae321362505"
             }
           }
         ]
@@ -1210,7 +1210,7 @@
     "key": "2026-10",
     "title": "曾练全球一手简报 · 月度产业全景报告 (2026年10月)",
     "subtitle": "30天六大实时Top20赛道全景洞察与高价值搞钱机会总结",
-    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：Apple 的“欢迎回家”活动有哪些值得期待的内容；“袁稻思源”杂交水稻智能育种平台长沙发布 AI赋能育种创新；2026总票房破310亿！国产电影加速出海 “电影+”持续释放大能量。",
+    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：特朗普宣布：新任白宫新闻秘书13日举行首次新闻发布会；Apple 的“欢迎回家”活动有哪些值得期待的内容；2026总票房破310亿！国产电影加速出海 “电影+”持续释放大能量。",
     "metrics": {
       "totalEvents": 36,
       "sourcesCount": 30,
@@ -1221,6 +1221,29 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
+          {
+            "id": "a2ba4c5d0df01707a27b888b8",
+            "title": "【国内要闻】特朗普宣布：新任白宫新闻秘书13日举行首次新闻发布会",
+            "originalTitle": "特朗普宣布：新任白宫新闻秘书13日举行首次新闻发布会",
+            "summary": "中新网10月12日电 综合报道，美国总统特朗普当地时间11日在社交媒体平台“真实社交”上表示，他很高兴地宣布，凯蒂·扎卡里亚将于12日正式出任白宫新闻秘书，并于13日上午9时30分在白宫新闻简报室举行首次新闻发布会。",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a2ba4c5d0df01707a27b888b8",
+              "original": "https://www.chinanews.com.cn/gj/2026/10-12/10711180.shtml"
+            },
+            "publishedAt": "2026-10-12T00:29:17.000Z",
+            "discoveredAt": "2026-10-12T00:41:18.482Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a2ba4c5d0df01707a27b888b8"
+            }
+          },
           {
             "id": "a8231e70303b7e87b570e438f",
             "title": "【国际巨头】Apple 的“欢迎回家”活动有哪些值得期待的内容",
@@ -1242,29 +1265,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a8231e70303b7e87b570e438f"
-            }
-          },
-          {
-            "id": "a25e8f3f2117b9b144dfc4915",
-            "title": "【全球热榜】Yandex 数据中心遭受攻击后 Cloudflare 机器人流量突然下降",
-            "originalTitle": "Sudden drop in Cloudflare bot traffic after strike on Yandex datacenter",
-            "summary": "X/HN·全球热榜Top实时快讯：Sudden drop in Cloudflare bot traffic after strike on Yandex datacenter。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a25e8f3f2117b9b144dfc4915",
-              "original": "https://radar.cloudflare.com/bots/as13238?dateRange=7d"
-            },
-            "publishedAt": "2026-10-11T10:27:53.000Z",
-            "discoveredAt": "2026-10-11T13:51:08.469Z",
-            "category": "global",
-            "score": 98,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a25e8f3f2117b9b144dfc4915"
             }
           },
           {
@@ -1366,29 +1366,6 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "a50fe0fe7cb0a392193cf9d02",
-            "title": "【国内要闻】“袁稻思源”杂交水稻智能育种平台长沙发布 AI赋能育种创新",
-            "originalTitle": "“袁稻思源”杂交水稻智能育种平台长沙发布 AI赋能育种创新",
-            "summary": "中新社长沙10月11日电 (记者 唐小晴)“袁稻思源”杂交水稻智能育种平台11日在长沙正式上线。这意味着湖南杂交水稻育种告别传统经验模式，迈入数据驱动、智能决策的全新发展阶段。",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a50fe0fe7cb0a392193cf9d02",
-              "original": "https://www.chinanews.com.cn/sh/2026/10-11/10711148.shtml"
-            },
-            "publishedAt": "2026-10-11T15:46:44.000Z",
-            "discoveredAt": "2026-10-11T16:10:59.277Z",
-            "category": "domestic",
-            "score": 99,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a50fe0fe7cb0a392193cf9d02"
-            }
-          },
-          {
             "id": "a0f55621be535d3d5c0275f5d",
             "title": "【国内财经】2026总票房破310亿！国产电影加速出海 “电影+”持续释放大能量",
             "originalTitle": "2026总票房破310亿！国产电影加速出海 “电影+”持续释放大能量",
@@ -1412,95 +1389,118 @@
             }
           },
           {
-            "id": "a2073dd85ad87d15a17159f6e",
-            "title": "【国内财经】“铜鼓黄精”区域公用品牌亮相江西南昌",
-            "originalTitle": "“铜鼓黄精”区域公用品牌亮相江西南昌",
-            "summary": "中新网南昌10月11日电(付丽玲)11日上午，“铜鼓黄精”区域公用品牌品鉴推介会暨品牌战略发布会在江西南昌举行。会上正式发布了“铜鼓黄精”区域公用品牌体系和产业发展规划，并搭建集品牌发布、成果展示、专家赋能、产销对接、媒体宣传于一体的综合平台，进一步提升“铜鼓黄精”品牌影响力和市场竞争力。",
-            "source": {
-              "name": "中新网·国内财经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a2073dd85ad87d15a17159f6e",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-11/10711037.shtml"
-            },
-            "publishedAt": "2026-10-11T09:30:15.000Z",
-            "discoveredAt": "2026-10-11T10:16:00.570Z",
-            "category": "domestic",
-            "score": 99,
-            "selected": true,
-            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a2073dd85ad87d15a17159f6e"
-            }
-          },
-          {
-            "id": "a9c95356a21e936797bfc5871",
-            "title": "【国内要闻】全球媒体聚焦 | “长征是值得非洲探讨的国家发展理念”",
-            "originalTitle": "全球媒体聚焦 | “长征是值得非洲探讨的国家发展理念”",
-            "summary": "2026年是中国工农红军长征胜利90周年。肯尼亚“首都调频”网站10月10日刊文称，今天的中国拥有现代化的城市和规模庞大的消费市场，但人们很容易忽略，走到这一步的道路有多么漫长和艰难。这正是长征精神的意义所在，这种精神是“值得非洲探讨的国家发展理念”。",
+            "id": "a7ec3f5215e082f64af26eb6e",
+            "title": "【国内要闻】AI大战数学家，谁是赢家？",
+            "originalTitle": "AI大战数学家，谁是赢家？",
+            "summary": "中新网·国内要闻实时快讯：AI大战数学家，谁是赢家？。中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9c95356a21e936797bfc5871",
-              "original": "https://www.chinanews.com.cn/gj/2026/10-12/10711156.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a7ec3f5215e082f64af26eb6e",
+              "original": "https://www.chinanews.com.cn/ll/2026/10-12/10711823.shtml"
             },
-            "publishedAt": "2026-10-11T16:13:26.000Z",
-            "discoveredAt": "2026-10-11T16:25:22.096Z",
+            "publishedAt": "2026-10-12T01:36:26.000Z",
+            "discoveredAt": "2026-10-12T01:41:42.388Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9c95356a21e936797bfc5871"
+              "url": "https://zenglian-news.onrender.com/items/a7ec3f5215e082f64af26eb6e"
             }
           },
           {
-            "id": "af964afa216ee87297416827e",
-            "title": "曝苹果新一代 Apple TV 4K 内置麦克风、Siri Remote 遥控器将配扬声器便于查找",
-            "originalTitle": "曝苹果新一代 Apple TV 4K 内置麦克风、Siri Remote 遥控器将配扬声器便于查找",
-            "summary": "IT之家 10 月 11 日消息，苹果将在本周二举行“欢迎回家”活动，主角预计是 HomeView 智能家庭中枢，除此之外还有新款 HomePod mini 和 Apple TV 4K。 据彭博社记者马克 · 古尔曼今日透露， 新款 Apple TV 4K 将在 10 月 30 日发售 ，苹果已在这款新品中测试内置麦克风，用户直接说出 Siri 就能进行语音交互。 IT之家了解到，现款 Apple TV 4K 仅在 Siri Remot...",
+            "id": "a8e4669ae4dafb74f3e210dbd",
+            "title": "【国内要闻】10月12日央行开展500亿元7天期逆回购操作",
+            "originalTitle": "10月12日央行开展500亿元7天期逆回购操作",
+            "summary": "中新网10月12日电 据央行网站消息，2026年10月12日中国人民银行以固定利率、数量招标方式开展了500亿元7天期逆回购操作，全额满足了一级交易商需求。具体情况如下：",
             "source": {
-              "name": "IT之家·国内产业"
+              "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af964afa216ee87297416827e",
-              "original": "https://www.ithome.com/1/011/714.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a8e4669ae4dafb74f3e210dbd",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-12/10711818.shtml"
             },
-            "publishedAt": "2026-10-11T15:20:30.000Z",
-            "discoveredAt": "2026-10-11T16:11:07.953Z",
+            "publishedAt": "2026-10-12T01:34:20.000Z",
+            "discoveredAt": "2026-10-12T01:41:42.491Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af964afa216ee87297416827e"
+              "url": "https://zenglian-news.onrender.com/items/a8e4669ae4dafb74f3e210dbd"
             }
           },
           {
-            "id": "a8c589b3a6f706a4007b157cc",
-            "title": "古尔曼：苹果计划在多个直营店举办 iPhone Duo 大型体验活动，最多摆出 150 台以上样机",
-            "originalTitle": "古尔曼：苹果计划在多个直营店举办 iPhone Duo 大型体验活动，最多摆出 150 台以上样机",
-            "summary": "IT之家 10 月 11 日消息，彭博社记者马克 · 古尔曼今天在新一期《Power On》通讯透露，苹果正在为其首款折叠屏手机 iPhone Duo 谋划声势浩大的展示活动， 让每一位潜在顾客都能充分体验这款新品 。 古尔曼表示，苹果将在美国各地的 Apple Store 直营店摆出大量样机，供到来的顾客上手体验。 预计纽约第五大道的旗舰店将布置超 150 台体验机 ，分布在上手区和展示设施中。苹果总部 Apple Park 游客中心...",
+            "id": "a9a628f0636121847e7208325",
+            "title": "【国内要闻】三步一“公主”，五步一“娘娘”！洛阳市长喊你来“穿越”",
+            "originalTitle": "三步一“公主”，五步一“娘娘”！洛阳市长喊你来“穿越”",
+            "summary": "在河南洛阳，穿汉服是什么体验？“三步一‘公主’，五步一‘娘娘’！”10月11日，“2026世界市长对话·洛阳”开幕式上，洛阳市市长张玉杰向各国嘉宾推介洛邑古城，邀请大家亲身体验汉服文化，感受古都洛阳的独特魅力。(王士豪）",
             "source": {
-              "name": "IT之家·国内产业"
+              "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a8c589b3a6f706a4007b157cc",
-              "original": "https://www.ithome.com/1/011/712.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a9a628f0636121847e7208325",
+              "original": "http://www.chinanews.com.cn/sh/shipin/cns-d/2026/10-12/news1071522.shtml"
             },
-            "publishedAt": "2026-10-11T15:01:19.000Z",
-            "discoveredAt": "2026-10-11T16:11:08.352Z",
+            "publishedAt": "2026-10-12T01:34:19.000Z",
+            "discoveredAt": "2026-10-12T01:41:42.520Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a8c589b3a6f706a4007b157cc"
+              "url": "https://zenglian-news.onrender.com/items/a9a628f0636121847e7208325"
+            }
+          },
+          {
+            "id": "a6b33c4925cb5539cc430b9af",
+            "title": "【国内要闻】10月12日人民币对美元中间价报6.7313 上调17个基点",
+            "originalTitle": "10月12日人民币对美元中间价报6.7313 上调17个基点",
+            "summary": "中新网10月12日电 据中国外汇交易中心网站消息，中国人民银行授权中国外汇交易中心公布，2026年10月12日银行间外汇市场人民币汇率中间价为1美元对人民币6.7313元，上调17个基点。",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a6b33c4925cb5539cc430b9af",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-12/10711815.shtml"
+            },
+            "publishedAt": "2026-10-12T01:31:48.000Z",
+            "discoveredAt": "2026-10-12T01:41:42.549Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a6b33c4925cb5539cc430b9af"
+            }
+          },
+          {
+            "id": "a30cc5ecc9ce407636a691c98",
+            "title": "【国内要闻】北方大部地区将有冷空气活动 西南地区东部江南北部等地有一次较强降水过程",
+            "originalTitle": "北方大部地区将有冷空气活动 西南地区东部江南北部等地有一次较强降水过程",
+            "summary": "中新网10月12日电 据中央气象台网站消息，昨日，四川、甘肃、陕西等地出现中到大雨。12日至13日，冷空气将影响北方地区，关注大风降温对人体健康、交通出行等的影响；12日华北南部、黄淮等地有降雨，13日西南、江南等地将有新一轮降雨过程，关注降雨对农业生产、城市运行、旅游等的影响；12日华北黄淮等地关注低能见度天气对交通运输、人体健康等的影响。",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a30cc5ecc9ce407636a691c98",
+              "original": "https://www.chinanews.com.cn/sh/2026/10-12/10711174.shtml"
+            },
+            "publishedAt": "2026-10-12T00:20:30.000Z",
+            "discoveredAt": "2026-10-12T00:26:43.772Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a30cc5ecc9ce407636a691c98"
             }
           }
         ]
@@ -1509,6 +1509,52 @@
         "category": "money",
         "label": "💰 商业搞钱Top20",
         "items": [
+          {
+            "id": "aa626f133ec1871b21149d171",
+            "title": "算力基建的战争，才刚刚在液冷赛道上演",
+            "originalTitle": "算力基建的战争，才刚刚在液冷赛道上演",
+            "summary": "本文来自微信公众号： 硅碳变量 ，作者：沈浪 订单排到2027年，营收增速超过400%，产能赶不上交付……这不是某个互联网大厂的故事，而是液冷行业的2026年。 在高密度AI算力需求持续拉动之下，液冷正在完成一次身份跃迁：曾经只是机房建设里可选的配套，如今正演变为高密度智算集群建设阶段就要同步考量的底层基础设施。 产业链设备端率先迎来一轮集中爆发：头部厂商订单放量，企业大举扩产，跨界新玩家接连涌入。 这场由算力建设热潮点燃的“冷”生意，...",
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aa626f133ec1871b21149d171",
+              "original": "https://www.huxiu.com/article/4896684.html?f=rss"
+            },
+            "publishedAt": "2026-10-12T01:28:14.000Z",
+            "discoveredAt": "2026-10-12T01:41:50.319Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aa626f133ec1871b21149d171"
+            }
+          },
+          {
+            "id": "a356d39a6c72b6afb5216b980",
+            "title": "陶哲轩在“害怕”什么？",
+            "originalTitle": "陶哲轩在“害怕”什么？",
+            "summary": "本文来自微信公众号： 腾讯科技 ，作者：苏扬，编辑：徐青阳，题图来自：视觉中国 当AI开始批量生产数学证明，人类凭什么确信这些证明是可靠的？ 美国当地时间10月9日，著名数学家、菲尔兹奖得主陶哲轩在其博客转发了托马斯&middot;黑尔斯的专栏文章&ldquo;《数学家应该了解的Lean定理证明器：可靠性与人工智能问题》&rdquo;。 陶哲轩博客转发文章截图 这场AI数学浪潮的矛盾在于：AI正在以前所未有的速度攻克数学难题，这些难题过...",
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a356d39a6c72b6afb5216b980",
+              "original": "https://www.huxiu.com/article/4896661.html?f=rss"
+            },
+            "publishedAt": "2026-10-12T00:34:24.000Z",
+            "discoveredAt": "2026-10-12T00:41:41.342Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a356d39a6c72b6afb5216b980"
+            }
+          },
           {
             "id": "a2af9c1e418dec692cee386ca",
             "title": "【出海实战】对于那些说 SAAS 已死的人？我们忘记了经济是什么吗？",
@@ -1530,29 +1576,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a2af9c1e418dec692cee386ca"
-            }
-          },
-          {
-            "id": "a27576042694310a3b6f7ecef",
-            "title": "苹果终于要给MacBook加触屏了，这次为什么不一样？",
-            "originalTitle": "苹果终于要给MacBook加触屏了，这次为什么不一样？",
-            "summary": "本文来自微信公众号： Linda产业笔记 ，作者：Linda 梁领 苹果有一句流传很广的内部信条，Mac用键盘，iPad用手指，谁也别碰谁的地盘。 蒂姆·库克在公开场合把触屏笔记本比作“把烤面包机和冰箱绑在一起”。这句话说了十年，苹果的产品经理们也执行了十年，直到今年10月。 据彭博社报道，苹果将在10月27日前后发布第一台支持触控操作的MacBook Pro。OLED屏幕、灵动岛、更薄的机身，全部一次性上齐。MacBook Pro自2...",
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a27576042694310a3b6f7ecef",
-              "original": "https://www.huxiu.com/article/4896654.html?f=rss"
-            },
-            "publishedAt": "2026-10-11T17:40:17.000Z",
-            "discoveredAt": "2026-10-11T18:41:44.642Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a27576042694310a3b6f7ecef"
             }
           },
           {
@@ -1602,49 +1625,26 @@
             }
           },
           {
-            "id": "a797cea3e1c53078b9521af16",
-            "title": "【国内要闻】郑钦文成为中网首位本土女单冠军",
-            "originalTitle": "郑钦文成为中网首位本土女单冠军",
-            "summary": "新华社北京10月11日电 在刚刚结束的2026中国网球公开赛女单决赛中，中国选手郑钦文以2:0击败新科法网冠军、俄罗斯名将安德烈耶娃。她成为中网举办20届以来首位来自中国本土的女单冠军，这也是她职业生涯第一个女子网球选手协会(WTA)1000级别赛事冠军。",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a797cea3e1c53078b9521af16",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-11/10711134.shtml"
-            },
-            "publishedAt": "2026-10-11T13:29:28.000Z",
-            "discoveredAt": "2026-10-11T13:51:17.559Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a797cea3e1c53078b9521af16"
-            }
-          },
-          {
-            "id": "a4d6289bb8e4d995a72c3f370",
-            "title": "AI到底有没有“灵魂”？",
-            "originalTitle": "AI到底有没有“灵魂”？",
-            "summary": "本文来自微信公众号： 凤凰网财经 ，作者：凤凰AI研究院 2026年4月，旧金山某间闭门会场里，坐着一群宗教人士。 Anthropic联合创始人奥拉（Christopher Olah）把一页幻灯片打到墙上。 对话框里，Claude反复落下“我是个耻辱”这行字，不停歇地重复了50次，像在自我审判。 这一幕被Anthropic当作“可能具备意识与痛觉”的疑似证据。 一位计算机工程师直接反问到，如果它真有意识，你们让它免费干活，这就是造奴隶。...",
+            "id": "a7226a73badca3e629d64f6f3",
+            "title": "手机涨价的真相：秋天过去仍会继续？",
+            "originalTitle": "手机涨价的真相：秋天过去仍会继续？",
+            "summary": "本文来自微信公众号： 陆玖商业评论 ，作者：锦俊 这一轮涨价的本质，不是厂商在借机收割，而是厂商从“定价者”变成了“价格接受者”。它们面对存储原厂时的谈判地位，和面对消费者时的强势，互换了位置。消费者觉得手机贵了，但厂商比消费者更难受。 十一假期后，小曾打开了小米商城。 和过去五年一样，他没有去看刚发布的小米18Pro。作为一个资深“等等党”，他有自己的一套方法论：新一代旗舰发布，上一代必然跳水。小米17是去年9月发的，12GB+256...",
             "source": {
               "name": "虎嗅网·商业搞钱深度"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a4d6289bb8e4d995a72c3f370",
-              "original": "https://www.huxiu.com/article/4896637.html?f=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/a7226a73badca3e629d64f6f3",
+              "original": "https://www.huxiu.com/article/4896685.html?f=rss"
             },
-            "publishedAt": "2026-10-11T13:13:13.000Z",
-            "discoveredAt": "2026-10-11T13:51:41.362Z",
+            "publishedAt": "2026-10-12T01:29:09.000Z",
+            "discoveredAt": "2026-10-12T01:41:50.290Z",
             "category": "money",
             "score": 98,
             "selected": true,
             "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a4d6289bb8e4d995a72c3f370"
+              "url": "https://zenglian-news.onrender.com/items/a7226a73badca3e629d64f6f3"
             }
           }
         ]
@@ -1735,7 +1735,7 @@
               "original": "https://www.qbitai.com/2026/10/502584.html"
             },
             "publishedAt": "2026-10-11T05:23:47.000Z",
-            "discoveredAt": "2026-10-11T22:30:40.004Z",
+            "discoveredAt": "2026-10-12T01:41:55.326Z",
             "category": "tech",
             "score": 99,
             "selected": true,
@@ -1844,29 +1844,6 @@
             }
           },
           {
-            "id": "ab2e385d4d3cfaa4b9e5fdecb",
-            "title": "【传言】英伟达停产RTX 5090，旗舰芯片全面转向工作站",
-            "originalTitle": "【传言】英伟达停产RTX 5090，旗舰芯片全面转向工作站",
-            "summary": "据知名爆料者 MEGAsizeGPU 透露，英伟达已停止向 GeForce RTX 5090 供货 GB202 芯片，未来所有 GB202 芯片将转为工作站显卡独占。作为基于 Blackwell 架构的旗舰级芯片，GB202 并未在 RTX 5090 上发挥全部性能。 爆料者 hongxing2020 也确认 RTX 5090 停产，包括中国特供的D系列在内均停止销售。根据工厂内部通知，配备24GB显存的 RTX 5080 将接棒成为最...",
-            "source": {
-              "name": "机核网·影漫与游戏"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab2e385d4d3cfaa4b9e5fdecb",
-              "original": "https://www.gcores.com/articles/220759"
-            },
-            "publishedAt": "2026-10-11T10:36:51.000Z",
-            "discoveredAt": "2026-10-11T13:52:07.791Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "国内最具深度的影视、动漫、科幻文化与主机游戏一手资讯与评论。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab2e385d4d3cfaa4b9e5fdecb"
-            }
-          },
-          {
             "id": "a3067f5703a61d3c9b8e1ea99",
             "title": "【全球票房】罗伯特·帕丁森在《黄金时段》中以“粉丝”的身份对待克里斯·汉森：“我想让他变得酷”",
             "originalTitle": "Robert Pattinson Approached Chris Hansen Portrayal In ‘Primetime’ As “A Fan”: “I Was Trying To Make Him Cool”",
@@ -1934,6 +1911,29 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a6b87468fff020ae9d8f35e65"
             }
+          },
+          {
+            "id": "ae6680360b9beec69cb64d668",
+            "title": "【全球票房】《阿耳忒弥斯奇幻奇观》动画系列获得迪士尼频道、迪士尼+青睐，作者 Eoin Colfer 担任 EP — NYCC",
+            "originalTitle": "‘Artemis Fowl’ Animated Series Greenlit At Disney Channel, Disney+ With Author Eoin Colfer As EP — NYCC",
+            "summary": "More than 25 years after introducing the world to Artemis Fowl, author Eoin Colfer is teaming up with Disney for an animated series adaptation.周日在纽约动漫展上，科尔弗在“Ar 25 年”期间宣布...（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ae6680360b9beec69cb64d668",
+              "original": "https://deadline.com/2026/10/artemis-fowl-animated-series-greenlit-disney-eoin-colfer-nycc-1237154400/"
+            },
+            "publishedAt": "2026-10-11T18:45:00.000Z",
+            "discoveredAt": "2026-10-11T22:30:59.678Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ae6680360b9beec69cb64d668"
+            }
           }
         ]
       },
@@ -1941,6 +1941,29 @@
         "category": "business",
         "label": "🏆 体育实时Top20",
         "items": [
+          {
+            "id": "a4b66f8cd8d2336e6eef74647",
+            "title": "【体坛快讯】刘宇婕4杆大胜 中国女子高尔夫球公开赛首迎业余冠军",
+            "originalTitle": "刘宇婕4杆大胜 中国女子高尔夫球公开赛首迎业余冠军",
+            "summary": "中新网上海10月12日电 2026中国女子高尔夫球公开赛(以下简称“中国女子公开赛”)11日在上海崇明岛PGA安瀛高尔夫俱乐部结束全部三轮比赛。刘宇婕在决赛轮交出69杆，以209杆、低于标准杆7杆的总成绩夺冠，拿下个人女子中巡第三冠，也成为中国女子公开赛创办二十年来的首位业余冠军。",
+            "source": {
+              "name": "中新网·体育焦点"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a4b66f8cd8d2336e6eef74647",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-12/10711822.shtml"
+            },
+            "publishedAt": "2026-10-12T01:38:30.000Z",
+            "discoveredAt": "2026-10-12T01:42:09.963Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a4b66f8cd8d2336e6eef74647"
+            }
+          },
           {
             "id": "a2a07e14f966432b3bfa0aa84",
             "title": "【BBC足坛】曼城的声明胜利给人一种与赛季无关的感觉",
@@ -2011,6 +2034,29 @@
             }
           },
           {
+            "id": "a1135538d0ade4ae321362505",
+            "title": "【体坛快讯】一路闯关、创多项历史！回顾郑钦文2026中网冠军之路",
+            "originalTitle": "一路闯关、创多项历史！回顾郑钦文2026中网冠军之路",
+            "summary": "北京时间10月11日，2026中网女单决赛，郑钦文2-0战胜安德列娃，收获了自己首个中网女单冠军，也是首个1000赛冠军头衔。同时，也创下了中网的历史：首个本土球员夺得女单冠军！",
+            "source": {
+              "name": "中新网·体育焦点"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a1135538d0ade4ae321362505",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-12/10711162.shtml"
+            },
+            "publishedAt": "2026-10-11T22:46:19.000Z",
+            "discoveredAt": "2026-10-11T23:43:03.728Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a1135538d0ade4ae321362505"
+            }
+          },
+          {
             "id": "a889b34efd7ee021d4a9ad436",
             "title": "【欧洲足坛】“我们发出自己的声音”：马雷斯卡在利物浦获胜后欢呼曼城",
             "originalTitle": "‘We make our own noise’: Maresca hails Manchester City after Liverpool triumph",
@@ -2031,52 +2077,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a889b34efd7ee021d4a9ad436"
-            }
-          },
-          {
-            "id": "a55974733e40809d9be66c6c7",
-            "title": "【BBC足坛】格拉斯纳在塞尔赫斯特回归后遭遇损失，水晶宫击败森林队",
-            "originalTitle": "Glasner suffers loss on Selhurst return as Palace beat Forest",
-            "summary": "奥利弗·格拉斯纳（Oliver Glasner）带着他的诺丁汉森林队回到水晶宫，经历了令人沮丧的经历，让他们早早领先，输给了老鹰队。（来源：BBC Sport·欧洲足坛）",
-            "source": {
-              "name": "BBC Sport·欧洲足坛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a55974733e40809d9be66c6c7",
-              "original": "https://www.bbc.co.uk/sport/football/videos/cwz0zkj27greo?at_medium=RSS&at_campaign=rss"
-            },
-            "publishedAt": "2026-10-11T18:59:02.000Z",
-            "discoveredAt": "2026-10-11T22:31:07.777Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a55974733e40809d9be66c6c7"
-            }
-          },
-          {
-            "id": "a100a6be80ef78a47848e4426",
-            "title": "【NBA一手】卡尔-安东尼·唐斯对尼克斯关于管理层延期谈判的公开声明的回应是：“这对我来说是个新闻。至少可以说，我非常失望。让我们说显而易见的事情。这是生意，但球场上有生意需要我们处理。”",
-            "originalTitle": "Karl-Anthony Towns' response to the Knicks' public statement regarding the front office tabling extension talks until later in the season: \"It was news to me. Very disappointed to say the least. Let's state the obvious. It's business, but there is business on the court for us to handle.\"",
-            "summary": "资料来源：https://www.nytimes.com/athletic/7681236/2026/10/11/karl-anthony-towns-knicks-contract-extension/?unlocked\\_article\\_code=1.H1E.YPBY.bl5s8OWEc\\_21&source=emp\\_shared\\_article&smid=ta-ios-share [爱德华三世]卡尔-...（来源：NBA·北美篮球实时热榜）",
-            "source": {
-              "name": "NBA·北美篮球实时热榜"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a100a6be80ef78a47848e4426",
-              "original": "https://www.reddit.com/r/nba/comments/1x3g46d/karlanthony_towns_response_to_the_knicks_public/"
-            },
-            "publishedAt": "2026-10-11T18:48:43.000Z",
-            "discoveredAt": "2026-10-11T22:31:22.890Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a100a6be80ef78a47848e4426"
             }
           }
         ]
