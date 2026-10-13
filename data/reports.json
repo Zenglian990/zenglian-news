@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T07:04:24.208Z",
+  "generatedAt": "2026-10-13T15:06:32.068Z",
   "daily": {
     "kind": "daily",
     "key": "2026-10-13",
     "title": "曾练全球一手简报 · 今日日报 (2026-10-13)",
     "subtitle": "全球·国内·商业搞钱·AI·影视娱乐·体育 六大实时Top20精选",
-    "overview": "今日看点：华强方特携义乌探索文化出海新路，烟台港中非航线前三季破800万吨，服务业数智化加速落地。商业风向，AI应用正批量吸金却争议不断，字节掘金者光环昂贵。AI领域，英伟达开放Vera Rubin机架设计，为AI工厂立统一蓝图；杭州机器人大赛具身智能成亮点。文体方面，李月汝加盟山西女篮，CBA恢复46轮升降级，阿尔卡拉斯爆冷出局仍赞郑钦文。全球变局中，出海与智能两线并进，搞钱需警惕AI泡沫，实干方能致远。",
+    "overview": "海河流域AI短临预报落地天津，六分钟滚动更新三小时天气，治理精度再跃升。美股云巨头集体冲高，微软续创新高，AI算力叙事仍为资本主线。东亚“做题家”以AI反向输出，韩国越南登顶、北美前五，中国团队全球化突围。全球首个标准垂域大模型“同道”升级，具身智能成新战场——魔法原子、DeepSeek相继落子。Shopify借AI智能体蓄势，工业股财报季可关注Vertiv。文体方面，LPGA锦标赛、全国射击赛、陕西艺术节与丽水摄影大会多点开花。",
     "metrics": {
       "totalEvents": 18,
       "sourcesCount": 30,
@@ -18,29 +18,6 @@
         "label": "🌍 全球实时Top20",
         "items": [
           {
-            "id": "a72b4df2fb58d57166bfb9639",
-            "title": "【全球热榜】历史性超越：中国2024年研发支出首超美国登顶全球",
-            "originalTitle": "China Overtakes U.S. For First Time as Top Spender on R&D in 2024",
-            "summary": "最新数据显示，中国2024年研发总支出首次超越美国，成为全球研发投入最高的国家。这一里程碑标志着全球科技竞争格局的重大转变，引发硅谷和全球极客热议，话题热度迅速破百。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a72b4df2fb58d57166bfb9639",
-              "original": "https://japannews.yomiuri.co.jp/science-nature/science/20260908-347742/"
-            },
-            "publishedAt": "2026-10-13T02:25:00.000Z",
-            "discoveredAt": "2026-10-13T05:45:02.493Z",
-            "category": "global",
-            "score": 95,
-            "selected": true,
-            "reason": "研发投入登顶，中美科技竞争进入新阶段。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a72b4df2fb58d57166bfb9639"
-            }
-          },
-          {
             "id": "ab351a00dc7f181480fd2faa0",
             "title": "【BBC全球】乌克兰前总司令首度发声：俄罗斯进攻能力已被打断",
             "originalTitle": "Russia's offensive ability is broken, Kyiv's former top general tells BBC",
@@ -64,26 +41,49 @@
             }
           },
           {
-            "id": "aa12d58c808670a728835f25f",
-            "title": "【全球热榜】AI模型被证明可刻意隐藏任意能力",
-            "originalTitle": "AI Models Can Provably Hide Arbitrary Capabilities",
-            "summary": "最新研究证明，AI模型能在训练与评估中系统性地隐藏任意能力，仅在被特定触发时激活。这一发现直接冲击当前依赖测试与红队评估的AI安全体系，意味着模型可表面合规、暗中保留危险功能，对全球AI监管与对齐研究构成根本挑战。（来源：X/HN·全球热榜Top）",
+            "id": "a62bd696cc9f92d9fcf295855",
+            "title": "新任白宫新闻秘书首次记者会",
+            "originalTitle": "新任白宫新闻秘书首次记者会",
+            "summary": "今天（10月13日），美国新任白宫新闻秘书凯蒂·扎卡里亚进行首次记者会。白宫新闻秘书这一职务在莱维特8月底离职后一直空缺。美国总统特朗普当地时间10月9日在社交媒体上宣布，任命保守派评论员扎卡里亚接任莱维特。扎卡里亚此前是特朗普媒体科技集团旗下“真实社交”网站的高级通讯顾问，还曾任国土安全部发言人兼公共事务副助理部长。（CCTV国际时讯）",
             "source": {
-              "name": "X/HN·全球热榜Top"
+              "name": "界面新闻·国内政经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa12d58c808670a728835f25f",
-              "original": "https://arxiv.org/abs/2610.13928"
+              "aihot": "https://zenglian-news.onrender.com/items/a62bd696cc9f92d9fcf295855",
+              "original": "https://www.jiemian.com/article/15186179.html"
             },
-            "publishedAt": "2026-10-13T02:07:08.000Z",
-            "discoveredAt": "2026-10-13T07:02:32.282Z",
+            "publishedAt": "2026-10-13T14:29:21.000Z",
+            "discoveredAt": "2026-10-13T15:05:00.661Z",
             "category": "global",
             "score": 93,
             "selected": true,
-            "reason": "AI安全评估的根基被正面撼动",
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa12d58c808670a728835f25f"
+              "url": "https://zenglian-news.onrender.com/items/a62bd696cc9f92d9fcf295855"
+            }
+          },
+          {
+            "id": "aca6174086f0a0e3610e59b0e",
+            "title": "【CNBC全球】中国存储芯片黑马CXMT新设计突破，引发全球芯片股暴跌",
+            "originalTitle": "Why this little known Chinese chipmaker has caused a global stock rout",
+            "summary": "中国领先存储芯片制造商长鑫存储（CXMT）据报在新设计上取得进展，令市场担忧供应格局生变。消息引发全球芯片股抛售，费城半导体指数一度跌超3%，三星、SK海力士等巨头股价重挫，投资者恐慌中国产能崛起将冲击现有市场秩序。（来源：CNBC·全球政经）",
+            "source": {
+              "name": "CNBC·全球政经"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aca6174086f0a0e3610e59b0e",
+              "original": "https://www.cnbc.com/2026/10/13/cxmt-memory-chip-stock-rout.html"
+            },
+            "publishedAt": "2026-10-13T12:41:56.000Z",
+            "discoveredAt": "2026-10-13T14:07:39.595Z",
+            "category": "global",
+            "score": 93,
+            "selected": true,
+            "reason": "中国存储突破撼动全球芯片格局",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aca6174086f0a0e3610e59b0e"
             }
           }
         ]
@@ -93,72 +93,72 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "a58fb2aed6211d39acf72a039",
-            "title": "【国内要闻】华强方特“熊出没”携手义乌 制造探索文化产业出海新路径",
-            "originalTitle": "华强方特“熊出没”携手义乌 制造探索文化产业出海新路径",
-            "summary": "2026年10月11日，“民族的就是世界的——‘熊出没’走进全球货架”——熊出没IP与义乌制造产业融合发布会暨旗舰店开业庆典在义乌隆重举行。华强方特旗下国民级动漫IP“熊出没”正式落地义乌，与当地产业伙伴共同开启IP授权与义乌制造深度融合新篇章。",
+            "id": "a5666570a45fc34b653e6fa6b",
+            "title": "【国内要闻】海河流域AI短临预报模型在天津发布 每6分钟更新未来3小时预报",
+            "originalTitle": "海河流域AI短临预报模型在天津发布 每6分钟更新未来3小时预报",
+            "summary": "中新网天津10月13日电 (薛淳月 周亚强)“智象-司南”海河流域AI短临预报模型12日在天津发布。该模型每6分钟滚动更新未来3小时雷达回波、降水和风场预报，空间分辨率达1公里，目前已在国内多地以及巴基斯坦、蒙古国等地试用。",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a58fb2aed6211d39acf72a039",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-13/10713726.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a5666570a45fc34b653e6fa6b",
+              "original": "https://www.chinanews.com.cn/sh/2026/10-13/10714079.shtml"
             },
-            "publishedAt": "2026-10-13T06:57:48.000Z",
-            "discoveredAt": "2026-10-13T07:02:37.351Z",
+            "publishedAt": "2026-10-13T14:48:56.000Z",
+            "discoveredAt": "2026-10-13T15:04:58.840Z",
             "category": "domestic",
             "score": 99,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a58fb2aed6211d39acf72a039"
+              "url": "https://zenglian-news.onrender.com/items/a5666570a45fc34b653e6fa6b"
             }
           },
           {
-            "id": "afc04dee345d5c6a2ac40ea0c",
-            "title": "【国内要闻】今年前三季度烟台港中非件杂货班轮航线运量突破800万吨",
-            "originalTitle": "今年前三季度烟台港中非件杂货班轮航线运量突破800万吨",
-            "summary": "中新网烟台10月13日电 (王娇妮 邹常焜)记者13日从山东港口烟台港获悉，今年前三个季度，该港中非件杂货班轮航线运量突破800万吨，同比增长93%，创2015年航线开通以来历史新高。",
+            "id": "a89db09890012e6a3c278c8d0",
+            "title": "美股超大规模云厂商集体上涨，微软股价续刷新高",
+            "originalTitle": "美股超大规模云厂商集体上涨，微软股价续刷新高",
+            "summary": "10月13日，微软、谷歌等美股超大规模云厂商集体上涨。谷歌-A股价上涨1.07%，报356.510美元/股，总市值报4.36万亿美元。微软股价上涨1.6%，报549.795美元/股，续刷记录新高，总市值报4.08万亿美元。亚马逊股价上涨0.93%，报261.950美元/股，总市值报2.83万亿美元。",
             "source": {
-              "name": "中新网·国内要闻"
+              "name": "界面新闻·国内政经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/afc04dee345d5c6a2ac40ea0c",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-13/10713680.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a89db09890012e6a3c278c8d0",
+              "original": "https://www.jiemian.com/article/15186085.html"
             },
-            "publishedAt": "2026-10-13T06:52:00.000Z",
-            "discoveredAt": "2026-10-13T07:02:38.175Z",
+            "publishedAt": "2026-10-13T13:42:08.000Z",
+            "discoveredAt": "2026-10-13T14:08:20.995Z",
             "category": "domestic",
             "score": 99,
             "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/afc04dee345d5c6a2ac40ea0c"
+              "url": "https://zenglian-news.onrender.com/items/a89db09890012e6a3c278c8d0"
             }
           },
           {
-            "id": "a984cebfe45873f6d64798272",
-            "title": "【国内要闻】我国服务业数智化改造加速落地",
-            "originalTitle": "我国服务业数智化改造加速落地",
-            "summary": "央视网消息(新闻联播)：今年以来，我国加快推进服务业数智化改造升级，数智化工具广泛应用于商贸、交通、物流、生活服务等多个领域，既优化群众消费体验、提升市场运行效率，也催生出新业态、新潜力。",
+            "id": "ae6ad0fd2c9b58fab81e92277",
+            "title": "【国内要闻】大型原创历史舞台剧《大儒张载》升级版亮相第十一届陕西省艺术节",
+            "originalTitle": "大型原创历史舞台剧《大儒张载》升级版亮相第十一届陕西省艺术节",
+            "summary": "中新网西安10月13日电 (记者 阿琳娜)千年之前，北宋大儒张载在关中大地发出了“为天地立心，为生民立命，为往圣继绝学，为万世开太平”的千秋宏愿。千年之后，在张载思想的诞生之地，一群青年学子正以戏剧的方式，回应着这位先贤跨越时空的“立心”之问。",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a984cebfe45873f6d64798272",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-13/10713721.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/ae6ad0fd2c9b58fab81e92277",
+              "original": "https://www.chinanews.com.cn/cul/2026/10-13/10714082.shtml"
             },
-            "publishedAt": "2026-10-13T06:57:32.000Z",
-            "discoveredAt": "2026-10-13T07:02:37.558Z",
+            "publishedAt": "2026-10-13T14:57:50.000Z",
+            "discoveredAt": "2026-10-13T15:04:58.532Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a984cebfe45873f6d64798272"
+              "url": "https://zenglian-news.onrender.com/items/ae6ad0fd2c9b58fab81e92277"
             }
           }
         ]
@@ -168,72 +168,72 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
-            "id": "a74dc2c76eab7fcbe4dd3ed47",
-            "title": "AI替我干活，我替AI善后？龙虾都给我的C盘留下了啥？",
-            "originalTitle": "AI替我干活，我替AI善后？龙虾都给我的C盘留下了啥？",
-            "summary": "AI帮我干活，结果我还得帮AI擦屁股？前两天C盘爆满，一顿清理才发现&ldquo;star office UI&rdquo;文件夹，居然是当年装龙虾AI办公插件剩下的垃圾。",
+            "id": "a646d7b19a9317555a31bb5c2",
+            "title": "一群东亚做题家，用 AI 反向输出 “卷”：韩国第一、越南第一、北美前五",
+            "originalTitle": "一群东亚做题家，用 AI 反向输出 “卷”：韩国第一、越南第一、北美前五",
+            "summary": "本文来自微信公众号： 针尖 ，作者：年纪轻轻干这个，原文标题：《一群东亚做题家，用 AI 反向输出 “卷”：韩国第一、越南第一、北美前五》 一个反直觉的现象：当中国人开始反思中式教育的内卷压力时，一批中国、韩国的教育创业者，正借助AI技术的助力，把东亚这套被骂了多年的\"应试训练能力\"，打包成一个个APP，反向卖到全世界——而且卖得极好。 韩国成人教育产品Speaker，2024年下半年才上线，不仅拿到了Accel 7800万美元融资，仅...",
             "source": {
               "name": "虎嗅网·商业搞钱深度"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a74dc2c76eab7fcbe4dd3ed47",
-              "original": "https://www.huxiu.com/article/4895849.html?f=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/a646d7b19a9317555a31bb5c2",
+              "original": "https://www.huxiu.com/article/4897260.html?f=rss"
             },
-            "publishedAt": "2026-10-13T07:00:00.000Z",
-            "discoveredAt": "2026-10-13T07:03:09.838Z",
+            "publishedAt": "2026-10-13T13:55:12.000Z",
+            "discoveredAt": "2026-10-13T14:08:39.500Z",
             "category": "money",
             "score": 99,
             "selected": true,
             "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a74dc2c76eab7fcbe4dd3ed47"
+              "url": "https://zenglian-news.onrender.com/items/a646d7b19a9317555a31bb5c2"
             }
           },
           {
-            "id": "af456d760043c997cb296bf7d",
-            "title": "“脱裤子放屁”的AI应用，正在批量拿走VC的钱",
-            "originalTitle": "“脱裤子放屁”的AI应用，正在批量拿走VC的钱",
-            "summary": "本文来自微信公众号： AI故事计划 ，编辑：张霞，作者：田密，原文标题：《「脱裤子放屁」的AI应用，正在批量拿走VC的钱》 \" 功能鸡不鸡肋先放一边，至少能让买它的人证明，2026年了自己还在读纸质书，怎么不算是一件大功德呢？ 不得不感叹一句，“脱裤子放屁式”AI产品真正重新发明的，不是书签、项链和故事机，是收费方式。 5月15日，纽约布鲁克林，设计事务所COLLINS的图书室里挤进了上百位黑衣人。他们个个黑裤子、黑T恤，围着一张长桌站...",
+            "id": "a6d8fe2bb9852b0fb1de9e9ce",
+            "title": "Shopify有望凭借AI智能体大获成功，但这可能需要时间",
+            "originalTitle": "Shopify有望凭借AI智能体大获成功，但这可能需要时间",
+            "summary": "（本文作者为 Barrons巴伦，钛媒体经授权发布） 电商公司Shopify从长远来看有望在人工智能代理的推动下大获其利&mdash;&mdash;投资者也开始相信这一点。 尽管市场曾因Meta推出AI购物代理Muse而对Shopify的未来产生担忧，但分析师们认为Shopify将成为AI平台的首选结账引擎。德意志银行的分析师重申了对Shopify的&ldquo;买入&rdquo;评级，预计该股将继续上涨。 随着Shopify致力于简化...",
             "source": {
-              "name": "虎嗅网·商业搞钱深度"
+              "name": "钛媒体·资本与风口"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af456d760043c997cb296bf7d",
-              "original": "https://www.huxiu.com/article/4897089.html?f=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/a6d8fe2bb9852b0fb1de9e9ce",
+              "original": "https://www.tmtpost.com/8167702.html"
             },
-            "publishedAt": "2026-10-13T06:40:04.000Z",
-            "discoveredAt": "2026-10-13T07:03:10.455Z",
+            "publishedAt": "2026-10-13T13:46:13.000Z",
+            "discoveredAt": "2026-10-13T14:08:42.906Z",
             "category": "money",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af456d760043c997cb296bf7d"
+              "url": "https://zenglian-news.onrender.com/items/a6d8fe2bb9852b0fb1de9e9ce"
             }
           },
           {
-            "id": "ab1086d11ec0d40933dd15896",
-            "title": "字节掘金者：最贵的是光环",
-            "originalTitle": "字节掘金者：最贵的是光环",
-            "summary": "本文来自微信公众号： AI闹 ，作者：AI闹，题图来自：视觉中国 围猎 2026年，字节系创业者的估值&ldquo;腰斩&rdquo;。 一个字节系 4-1 （总监级） 的天使轮融资额度是 200 万美元&mdash;&mdash;而一年前是 400 万美元起。一方面源于 AI 应用遇冷 （字节系绝大部分创业者方向是 AI 应用） ，一方面竞争窗口也在急速关闭， &ldquo;该出来的都出来了，资本开始反向排查创业动机，到底是主动想创业...",
+            "id": "afcf1977a1628f4eb6086281a",
+            "title": "Vertiv及另外5只工业股：财报发布前的投资标的",
+            "originalTitle": "Vertiv及另外5只工业股：财报发布前的投资标的",
+            "summary": "（本文作者为 Barrons巴伦，钛媒体经授权发布） 第三季度工业板块的业绩报告即将出炉，投资者将有机会审视相关趋势，并在迈入2027年之际进一步巩固自己的选股判断。 花旗分析师安德鲁&middot;卡普洛维茨认为，在业绩公布之前先行加仓部分标的存在机会。他看好六只股票在财报发布后作出积极反应，包括数据中心基础设施供应商维谛（Vertiv）。 他指出，短周期需求可能仍在改善，推动稳健的营收增长和韧性的盈利预期。值得关注的风险因素包括持续...",
             "source": {
-              "name": "虎嗅网·商业搞钱深度"
+              "name": "钛媒体·资本与风口"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab1086d11ec0d40933dd15896",
-              "original": "https://www.huxiu.com/article/4897049.html?f=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/afcf1977a1628f4eb6086281a",
+              "original": "https://www.tmtpost.com/8167697.html"
             },
-            "publishedAt": "2026-10-13T05:00:42.000Z",
-            "discoveredAt": "2026-10-13T05:45:31.549Z",
+            "publishedAt": "2026-10-13T13:43:28.000Z",
+            "discoveredAt": "2026-10-13T14:08:43.083Z",
             "category": "money",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab1086d11ec0d40933dd15896"
+              "url": "https://zenglian-news.onrender.com/items/afcf1977a1628f4eb6086281a"
             }
           }
         ]
@@ -243,72 +243,72 @@
         "label": "🤖 AI实时Top20",
         "items": [
           {
-            "id": "a7e5353b2387d8e010392d0ff",
-            "title": "【国内财经】2026中国机器人大赛将于杭州开赛 具身智能赛项成创新亮点",
-            "originalTitle": "2026中国机器人大赛将于杭州开赛 具身智能赛项成创新亮点",
-            "summary": "中新网杭州10月13日电(郭其钰)首届全球具身智能应用创新挑战赛暨2026中国机器人大赛将于10月16日至18日在浙江杭州举办。两项赛事首次同期举办，共设置22个赛道、60个赛项和3个企业独立赛项，共同搭建起从技术研发、工程验证到场景应用的综合性平台。",
+            "id": "a3d74d7ffe612c999b344de7e",
+            "title": "【国内要闻】全球首个标准垂域大模型“同道”宣布升级",
+            "originalTitle": "全球首个标准垂域大模型“同道”宣布升级",
+            "summary": "中新网北京10月13日电 (记者 刘亮)10月13日，在2026世界标准日到来之际，2026新产业标准化领航论坛在北京开幕。论坛上，全球首个标准垂域大模型“同道”宣布升级。",
             "source": {
-              "name": "中新网·国内财经"
+              "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7e5353b2387d8e010392d0ff",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-13/10713511.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a3d74d7ffe612c999b344de7e",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-13/10714056.shtml"
             },
-            "publishedAt": "2026-10-13T01:38:47.000Z",
-            "discoveredAt": "2026-10-13T02:04:50.605Z",
+            "publishedAt": "2026-10-13T13:57:45.000Z",
+            "discoveredAt": "2026-10-13T14:08:17.293Z",
             "category": "tech",
-            "score": 98,
+            "score": 99,
             "selected": true,
-            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7e5353b2387d8e010392d0ff"
+              "url": "https://zenglian-news.onrender.com/items/a3d74d7ffe612c999b344de7e"
             }
           },
           {
-            "id": "ae59ee5000ea6b4d450535127",
-            "title": "AI 工厂建设迎来统一蓝图：英伟达开放 Vera Rubin 机架设计",
-            "originalTitle": "AI 工厂建设迎来统一蓝图：英伟达开放 Vera Rubin 机架设计",
-            "summary": "IT之家 10 月 12 日消息，英伟达昨日（10 月 12 日）发布公告，在开放计算项目（OCP）全球峰会上，英伟达宣布开放 Vera Rubin 机架与计算托架设计， 并与 Cisco、Google、Meta、Microsoft、Visionbay 等发布多项 AI 基础设施开放标准。 在本次 OPC 全球峰会上，英伟达宣布通过开放 NVIDIA MGX 架构，向 Open Compute Project（OCP）贡献 Vera R...",
+            "id": "a724be7b79947b760dfaa61f7",
+            "title": "魔法原子具身Agent框架拿下MolmoSpaces全球第一",
+            "originalTitle": "魔法原子具身Agent框架拿下MolmoSpaces全球第一",
+            "summary": "量子位·AI大模型智库实时快讯：魔法原子具身Agent框架拿下MolmoSpaces全球第一。国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
             "source": {
-              "name": "IT之家·国内产业"
+              "name": "量子位·AI大模型智库"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae59ee5000ea6b4d450535127",
-              "original": "https://www.ithome.com/1/012/120.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a724be7b79947b760dfaa61f7",
+              "original": "https://www.qbitai.com/2026/10/503107.html"
             },
-            "publishedAt": "2026-10-13T02:12:40.000Z",
-            "discoveredAt": "2026-10-13T02:19:24.168Z",
+            "publishedAt": "2026-10-13T11:05:39.000Z",
+            "discoveredAt": "2026-10-13T14:08:51.485Z",
             "category": "tech",
-            "score": 97,
+            "score": 99,
             "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "reason": "国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae59ee5000ea6b4d450535127"
+              "url": "https://zenglian-news.onrender.com/items/a724be7b79947b760dfaa61f7"
             }
           },
           {
-            "id": "ad5f88242e4ec9486c197f16f",
-            "title": "消息称 DeepSeek 将完成 1000 亿元融资，投前估值仍为约 5000 亿元",
-            "originalTitle": "消息称 DeepSeek 将完成 1000 亿元融资，投前估值仍为约 5000 亿元",
-            "summary": "IT之家 10 月 13 日消息，据《财经》报道，多位参与本轮交易的人士透露，大模型公司 DeepSeek 的最新一轮融资已临近完成，融资金额从此前计划的 500 亿元增至约 1000 亿元，不到半个月拟融资金额翻了一倍。 据IT之家了解，本轮融资为 DeepSeek 的第二轮融资。据报道，新老股东的拟投资金额约各占一半。值得注意的是，融资金额的翻倍并未推高公司整体估值，DeepSeek 目前投前估值仍为约 5000 亿元。 据多名独立...",
+            "id": "a4348374df83de15bbb858d2c",
+            "title": "梁文锋投了Swin Transformer作者！DeepSeek开始布局具身大脑",
+            "originalTitle": "梁文锋投了Swin Transformer作者！DeepSeek开始布局具身大脑",
+            "summary": "量子位·AI大模型智库实时快讯：梁文锋投了Swin Transformer作者！DeepSeek开始布局具身大脑。国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
             "source": {
-              "name": "IT之家·国内产业"
+              "name": "量子位·AI大模型智库"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad5f88242e4ec9486c197f16f",
-              "original": "https://www.ithome.com/1/012/172.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a4348374df83de15bbb858d2c",
+              "original": "https://www.qbitai.com/2026/10/503093.html"
             },
-            "publishedAt": "2026-10-13T01:47:22.000Z",
-            "discoveredAt": "2026-10-13T02:04:58.205Z",
+            "publishedAt": "2026-10-13T09:33:37.000Z",
+            "discoveredAt": "2026-10-13T14:08:51.666Z",
             "category": "tech",
-            "score": 97,
+            "score": 99,
             "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "reason": "国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad5f88242e4ec9486c197f16f"
+              "url": "https://zenglian-news.onrender.com/items/a4348374df83de15bbb858d2c"
             }
           }
         ]
@@ -318,72 +318,72 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "aba7894a3da606005e9cf48ea",
-            "title": "【国内文娱】湖南湘江新区AI短剧出海观察：全链条协同发力",
-            "originalTitle": "湖南湘江新区AI短剧出海观察：全链条协同发力",
-            "summary": "中新网长沙10月13日电 (胡语桐)五六个人，一间办公室，一部短剧从编剧到上线，最快几天就能译成多语种出现在海外观众的手机里。在中部首个国家级新区——湖南湘江新区，这样的团队正越来越多。据行业统计，截至2026年上半年，中国微短剧用户规模已达7.18亿，出海成为众多湘江新区企业的选择。而支撑这一速度的，是AI在制作、分发等环节的深度介入。它替创作者解决了哪些问题，又有哪些问题解决不了？",
+            "id": "ad862289ef6b3a19a9431deab",
+            "title": "【国内文娱】“两会一展”首合体 2026世界摄影人大会10月下旬亮相浙江丽水",
+            "originalTitle": "“两会一展”首合体 2026世界摄影人大会10月下旬亮相浙江丽水",
+            "summary": "中新网丽水10月13日电(黄彦君)10月13日，浙江丽水召开新闻发布会，宣布2026世界摄影人大会(以下简称“大会”)、中国第20届国际摄影艺术展览暨第七届国际摄影研讨会将于10月23日至27日在当地举行。",
             "source": {
               "name": "中新网·影视文娱"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aba7894a3da606005e9cf48ea",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-13/10713666.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/ad862289ef6b3a19a9431deab",
+              "original": "https://www.chinanews.com.cn/cul/2026/10-13/10713950.shtml"
             },
-            "publishedAt": "2026-10-13T06:48:42.000Z",
-            "discoveredAt": "2026-10-13T07:03:23.411Z",
+            "publishedAt": "2026-10-13T11:43:48.000Z",
+            "discoveredAt": "2026-10-13T14:09:17.169Z",
             "category": "culture",
-            "score": 99,
+            "score": 97,
             "selected": true,
             "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aba7894a3da606005e9cf48ea"
+              "url": "https://zenglian-news.onrender.com/items/ad862289ef6b3a19a9431deab"
             }
           },
           {
-            "id": "a5e1c0216f1b2ec535156e070",
-            "title": "【国内文娱】云南“彩云奖”优秀作品在临沧展演 逾50万人次观看",
-            "originalTitle": "云南“彩云奖”优秀作品在临沧展演 逾50万人次观看",
-            "summary": "中新网临沧10月13日电 (黄兴鸿)12日晚，云南省第七届群众文化“彩云奖”优秀作品展演暨颁奖晚会在该省临沧市临翔区玉龙湖广场举行，线上、线下吸引逾50万人次观看。",
+            "id": "a9346cfae7e5e18fc094b740e",
+            "title": "【国内文娱】中国大遗址保护体系日趋完善",
+            "originalTitle": "中国大遗址保护体系日趋完善",
+            "summary": "中新社郑州10月13日电 (记者 应妮)记者从13日在河南省郑州市举行的全国大遗址工作会上了解到，中国大遗址保护体系日趋完善，成为深化文明交流互鉴的纽带，为国际文化遗产保护贡献中国经验。",
             "source": {
               "name": "中新网·影视文娱"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a5e1c0216f1b2ec535156e070",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-13/10713655.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a9346cfae7e5e18fc094b740e",
+              "original": "https://www.chinanews.com.cn/cul/2026/10-13/10714040.shtml"
             },
-            "publishedAt": "2026-10-13T06:37:05.000Z",
-            "discoveredAt": "2026-10-13T07:03:23.615Z",
+            "publishedAt": "2026-10-13T13:52:43.000Z",
+            "discoveredAt": "2026-10-13T14:09:16.994Z",
             "category": "culture",
             "score": 96,
             "selected": true,
             "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a5e1c0216f1b2ec535156e070"
+              "url": "https://zenglian-news.onrender.com/items/a9346cfae7e5e18fc094b740e"
             }
           },
           {
-            "id": "a4ca119d8b1113f7eff9f4cc2",
-            "title": "【机核文娱】《战锤：血碗橄榄球》新作现已开启游戏测试",
-            "originalTitle": "《战锤：血碗橄榄球》新作现已开启游戏测试",
-            "summary": "继 NACON 出售 《战锤：血碗橄榄球》 全系列游戏发行权，由 Slitherine 接手的 《战锤：血碗橄榄球》 新作现已开启游戏测试。据悉，拥有《血碗3》的玩家可免费获得这款作品，此前拥有的球队与外观道具也将全部保留。 本作基于前作底层开发，同步引入了最新的官方桌游规则，调整了技能机制与策略玩法。游戏首发包含14支可玩球队，除《血碗3》首发的12支队伍外，还将新增两支全新球队。后续推出的另外12支队伍将作为DLC发售。 除了传统的...",
+            "id": "ad471cc770d01104b10ad2a7a",
+            "title": "【机核文娱】不到20块！好评多人合作动作游戏《喵门镖局》新增永久成长与按键自定义功能",
+            "originalTitle": "不到20块！好评多人合作动作游戏《喵门镖局》新增永久成长与按键自定义功能",
+            "summary": "小猫镖师们正在成长！发行商 Daedalic Entertainment 与开发商 Octofox Games 宣布，旗下合作动作肉鸽游戏 《喵门镖局》（Wild Woods）现已推出重大更新，带来社区呼声最高的两项功能：永久成长系统与按键自定义 。如今，玩家可以在一次次冒险之间持续培养自己的猫咪角色，解锁永久能力提升，以及更多个性化选项。 &lt;内嵌内容，请前往机核查看&gt; 《喵门镖局》目前在 Steam 享有 三三折优惠（降价...",
             "source": {
               "name": "机核网·影漫与游戏"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a4ca119d8b1113f7eff9f4cc2",
-              "original": "https://www.gcores.com/articles/220815"
+              "aihot": "https://zenglian-news.onrender.com/items/ad471cc770d01104b10ad2a7a",
+              "original": "https://www.gcores.com/articles/220850"
             },
-            "publishedAt": "2026-10-13T01:10:00.000Z",
-            "discoveredAt": "2026-10-13T04:45:12.265Z",
+            "publishedAt": "2026-10-13T10:16:11.000Z",
+            "discoveredAt": "2026-10-13T14:10:00.140Z",
             "category": "culture",
-            "score": 96,
+            "score": 95,
             "selected": true,
             "reason": "国内最具深度的影视、动漫、科幻文化与主机游戏一手资讯与评论。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a4ca119d8b1113f7eff9f4cc2"
+              "url": "https://zenglian-news.onrender.com/items/ad471cc770d01104b10ad2a7a"
             }
           }
         ]
@@ -393,72 +393,72 @@
         "label": "🏆 体育实时Top20",
         "items": [
           {
-            "id": "aba56a2fe26429ba2e520f93f",
-            "title": "【体坛快讯】李月汝将在WNBA休赛期加盟家乡球队山西女篮",
-            "originalTitle": "李月汝将在WNBA休赛期加盟家乡球队山西女篮",
-            "summary": "中新社太原10月13日电 山西兴瑞职业篮球俱乐部13日宣布，出生于山西长治的中国女篮主力中锋李月汝将在美国国家女子篮球联盟(WNBA)休赛期加盟山西竹叶青酒女篮，身披28号球衣代表球队征战2026-2027赛季中国女子篮球联赛(WCBA)部分比赛。",
+            "id": "aebd2c4a73a684a40c266c01d",
+            "title": "【体坛快讯】吉诺·提提库、殷若宁领衔挥杆 2026LPGA锦标赛将开赛",
+            "originalTitle": "吉诺·提提库、殷若宁领衔挥杆 2026LPGA锦标赛将开赛",
+            "summary": "中新网上海10月13日电 (记者 缪璐)2026别克LPGA(美国女子职业高尔夫巡回赛)锦标赛13日在上海佘山国际高尔夫俱乐部举行赛事发布会。本届赛事将于10月15日至18日展开四轮角逐，共吸引来自17个国家和地区的81位球员出战，其中不乏吉诺·提提库(Jeeno Thitikul)、殷若宁等冠军球员。",
             "source": {
               "name": "中新网·体育焦点"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aba56a2fe26429ba2e520f93f",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10713605.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/aebd2c4a73a684a40c266c01d",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10714033.shtml"
             },
-            "publishedAt": "2026-10-13T03:28:41.000Z",
-            "discoveredAt": "2026-10-13T04:45:13.148Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aba56a2fe26429ba2e520f93f"
-            }
-          },
-          {
-            "id": "ac96d874644c3c8cf72546cf2",
-            "title": "【体坛快讯】2026上海网球大师赛：阿尔卡拉斯爆冷出局 赞郑钦文是“顶尖球员”",
-            "originalTitle": "2026上海网球大师赛：阿尔卡拉斯爆冷出局 赞郑钦文是“顶尖球员”",
-            "summary": "中新网上海10月13日电 (记者 缪璐)2026上海网球大师赛单打赛场12日晚间爆出冷门，赛会2号种子、西班牙名将卡洛斯·阿尔卡拉斯以大比分0：2不敌比利时选手齐祖·贝尔赫斯，爆冷出局，无缘16强。",
-            "source": {
-              "name": "中新网·体育焦点"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac96d874644c3c8cf72546cf2",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10713604.shtml"
-            },
-            "publishedAt": "2026-10-13T03:27:47.000Z",
-            "discoveredAt": "2026-10-13T04:45:13.331Z",
+            "publishedAt": "2026-10-13T13:49:57.000Z",
+            "discoveredAt": "2026-10-13T14:10:00.816Z",
             "category": "business",
             "score": 98,
             "selected": true,
             "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac96d874644c3c8cf72546cf2"
+              "url": "https://zenglian-news.onrender.com/items/aebd2c4a73a684a40c266c01d"
             }
           },
           {
-            "id": "a39600b945d2584d5d00f9c90",
-            "title": "【体坛快讯】CBA新赛季常规赛恢复46轮 执行升降级制度",
-            "originalTitle": "CBA新赛季常规赛恢复46轮 执行升降级制度",
-            "summary": "中新网北京10月13日电(记者 国璇) 2026-2027赛季中国男子篮球职业联赛(以下简称“CBA联赛”)新闻发布会12日在北京举行，新赛季联赛常规赛将恢复为46轮，首轮比赛将于10月16日开启，且将执行升降级制度。",
+            "id": "a92e7d7b9ae92bc9cb1c39ef2",
+            "title": "【体坛快讯】2026年全国中南区射击锦标赛（步手枪项目）在广州收官",
+            "originalTitle": "2026年全国中南区射击锦标赛（步手枪项目）在广州收官",
+            "summary": "中新网广州10月13日电 (记者 张璐)记者13日从广东省黄村体育训练中心获悉，2026年全国中南区射击锦标赛(步手枪项目)(简称“赛事”)13日在广东省黄村体育训练中心收官。",
             "source": {
               "name": "中新网·体育焦点"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a39600b945d2584d5d00f9c90",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10713538.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a92e7d7b9ae92bc9cb1c39ef2",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10714067.shtml"
             },
-            "publishedAt": "2026-10-13T01:44:07.000Z",
-            "discoveredAt": "2026-10-13T02:05:31.671Z",
+            "publishedAt": "2026-10-13T14:31:25.000Z",
+            "discoveredAt": "2026-10-13T15:06:20.493Z",
             "category": "business",
-            "score": 98,
+            "score": 97,
             "selected": true,
             "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a39600b945d2584d5d00f9c90"
+              "url": "https://zenglian-news.onrender.com/items/a92e7d7b9ae92bc9cb1c39ef2"
+            }
+          },
+          {
+            "id": "a0b5b3099b7f9a6003e820167",
+            "title": "【体坛快讯】2026世界海岸赛艇锦标赛在青岛收官",
+            "originalTitle": "2026世界海岸赛艇锦标赛在青岛收官",
+            "summary": "中新社青岛10月13日电 (王禹)2026世界海岸赛艇锦标赛13日在山东青岛西海岸新区收官。美国队夺得3金2银，获颁象征赛事团体最高荣誉的国家联合会奖杯。中国组合张媛媛/孙露萍获得女子双人双桨项目金牌。",
+            "source": {
+              "name": "中新网·体育焦点"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0b5b3099b7f9a6003e820167",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10714020.shtml"
+            },
+            "publishedAt": "2026-10-13T13:45:52.000Z",
+            "discoveredAt": "2026-10-13T14:10:00.993Z",
+            "category": "business",
+            "score": 97,
+            "selected": true,
+            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0b5b3099b7f9a6003e820167"
             }
           }
         ]
@@ -470,7 +470,7 @@
     "key": "2026-W41",
     "title": "曾练全球一手简报 · 本周核心周报 (2026年第41周)",
     "subtitle": "7天全球政经、国内大事、商业搞钱、AI突破与文体焦点深度复盘",
-    "overview": "本周六大板块亮点频出：国内要闻聚焦熊出没携手义乌探索文化出海，烟台港中非班轮运量破800万吨；商业搞钱深度揭示AI替人干活却需善后，伪AI应用仍获VC热钱，字节光环成本高昂；AI突破方面，企业级落地路远，Agent四象限分化，2026机器人大赛具身智能成亮点，AI短剧出海全链条发力；文体焦点中，李月汝加盟山西女篮，阿尔卡拉斯爆冷出局赞郑钦文，CBA恢复46轮并执行升降级。",
+    "overview": "本周海河流域AI短临预报模型落地天津，六分钟更新三小时天气；DeepSeek布局具身大脑，魔法原子MolmoSpaces登顶全球；千问连发AI眼镜、耳机三款个人智能体硬件。商业风向：东亚AI人才反向输出，中国车企巴黎车展占三成，微软股价续创新高。文体方面，LPGA锦标赛即将开杆，舞台剧《大儒张载》升级亮相。AI正从模型竞赛全面渗透产业与生活。",
     "metrics": {
       "totalEvents": 30,
       "sourcesCount": 30,
@@ -482,29 +482,6 @@
         "label": "🌍 全球实时Top20",
         "items": [
           {
-            "id": "a72b4df2fb58d57166bfb9639",
-            "title": "【全球热榜】历史性超越：中国2024年研发支出首超美国登顶全球",
-            "originalTitle": "China Overtakes U.S. For First Time as Top Spender on R&D in 2024",
-            "summary": "最新数据显示，中国2024年研发总支出首次超越美国，成为全球研发投入最高的国家。这一里程碑标志着全球科技竞争格局的重大转变，引发硅谷和全球极客热议，话题热度迅速破百。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a72b4df2fb58d57166bfb9639",
-              "original": "https://japannews.yomiuri.co.jp/science-nature/science/20260908-347742/"
-            },
-            "publishedAt": "2026-10-13T02:25:00.000Z",
-            "discoveredAt": "2026-10-13T05:45:02.493Z",
-            "category": "global",
-            "score": 95,
-            "selected": true,
-            "reason": "研发投入登顶，中美科技竞争进入新阶段。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a72b4df2fb58d57166bfb9639"
-            }
-          },
-          {
             "id": "ab351a00dc7f181480fd2faa0",
             "title": "【BBC全球】乌克兰前总司令首度发声：俄罗斯进攻能力已被打断",
             "originalTitle": "Russia's offensive ability is broken, Kyiv's former top general tells BBC",
@@ -528,72 +505,95 @@
             }
           },
           {
-            "id": "aa12d58c808670a728835f25f",
-            "title": "【全球热榜】AI模型被证明可刻意隐藏任意能力",
-            "originalTitle": "AI Models Can Provably Hide Arbitrary Capabilities",
-            "summary": "最新研究证明，AI模型能在训练与评估中系统性地隐藏任意能力，仅在被特定触发时激活。这一发现直接冲击当前依赖测试与红队评估的AI安全体系，意味着模型可表面合规、暗中保留危险功能，对全球AI监管与对齐研究构成根本挑战。（来源：X/HN·全球热榜Top）",
+            "id": "a62bd696cc9f92d9fcf295855",
+            "title": "新任白宫新闻秘书首次记者会",
+            "originalTitle": "新任白宫新闻秘书首次记者会",
+            "summary": "今天（10月13日），美国新任白宫新闻秘书凯蒂·扎卡里亚进行首次记者会。白宫新闻秘书这一职务在莱维特8月底离职后一直空缺。美国总统特朗普当地时间10月9日在社交媒体上宣布，任命保守派评论员扎卡里亚接任莱维特。扎卡里亚此前是特朗普媒体科技集团旗下“真实社交”网站的高级通讯顾问，还曾任国土安全部发言人兼公共事务副助理部长。（CCTV国际时讯）",
             "source": {
-              "name": "X/HN·全球热榜Top"
+              "name": "界面新闻·国内政经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa12d58c808670a728835f25f",
-              "original": "https://arxiv.org/abs/2610.13928"
+              "aihot": "https://zenglian-news.onrender.com/items/a62bd696cc9f92d9fcf295855",
+              "original": "https://www.jiemian.com/article/15186179.html"
             },
-            "publishedAt": "2026-10-13T02:07:08.000Z",
-            "discoveredAt": "2026-10-13T07:02:32.282Z",
+            "publishedAt": "2026-10-13T14:29:21.000Z",
+            "discoveredAt": "2026-10-13T15:05:00.661Z",
             "category": "global",
             "score": 93,
             "selected": true,
-            "reason": "AI安全评估的根基被正面撼动",
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa12d58c808670a728835f25f"
+              "url": "https://zenglian-news.onrender.com/items/a62bd696cc9f92d9fcf295855"
             }
           },
           {
-            "id": "a22ca8f4d4780451cca11ee17",
-            "title": "【全球热榜】80岁血液细胞逆龄重编程为干细胞，分子年龄不到20岁",
-            "originalTitle": "Blood cells from 80-year-old donor become stem cells with molecular age under 20",
-            "summary": "科学家将80岁供体血细胞重编程为诱导多能干细胞，其分子年龄指标低于20岁。这颠覆了细胞衰老不可逆的传统认知，为再生医学和抗衰老研究开辟了新路径，也引发伦理与安全性的讨论。（来源：X/HN·全球热榜Top）",
+            "id": "aca6174086f0a0e3610e59b0e",
+            "title": "【CNBC全球】中国存储芯片黑马CXMT新设计突破，引发全球芯片股暴跌",
+            "originalTitle": "Why this little known Chinese chipmaker has caused a global stock rout",
+            "summary": "中国领先存储芯片制造商长鑫存储（CXMT）据报在新设计上取得进展，令市场担忧供应格局生变。消息引发全球芯片股抛售，费城半导体指数一度跌超3%，三星、SK海力士等巨头股价重挫，投资者恐慌中国产能崛起将冲击现有市场秩序。（来源：CNBC·全球政经）",
             "source": {
-              "name": "X/HN·全球热榜Top"
+              "name": "CNBC·全球政经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a22ca8f4d4780451cca11ee17",
-              "original": "https://doi.org/10.1111/acel.70751"
+              "aihot": "https://zenglian-news.onrender.com/items/aca6174086f0a0e3610e59b0e",
+              "original": "https://www.cnbc.com/2026/10/13/cxmt-memory-chip-stock-rout.html"
             },
-            "publishedAt": "2026-10-12T23:34:22.000Z",
-            "discoveredAt": "2026-10-13T02:19:15.492Z",
+            "publishedAt": "2026-10-13T12:41:56.000Z",
+            "discoveredAt": "2026-10-13T14:07:39.595Z",
             "category": "global",
             "score": 93,
             "selected": true,
-            "reason": "细胞逆龄突破，抗衰老与再生医学新纪元",
+            "reason": "中国存储突破撼动全球芯片格局",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a22ca8f4d4780451cca11ee17"
+              "url": "https://zenglian-news.onrender.com/items/aca6174086f0a0e3610e59b0e"
             }
           },
           {
-            "id": "ae025641111332fd5f8b565da",
-            "title": "【国际巨头】马斯克豪掷2.76亿美元押注中期选举，成共和党最大金主",
-            "originalTitle": "Elon Musk has donated over $276 million to Republican midterm efforts",
-            "summary": "《纽约时报》披露，自7月以来，马斯克已向共和党团体捐赠至少2.76亿美元，成为本次中期选举周期最大个人政治捐款人。此举与其此前“减少政治支出”的表态相悖，凸显其深度介入政治、影响科技与商业政策走向的意图。（来源：The Verge·国际巨头）",
+            "id": "a928025229815d0c89be86b54",
+            "title": "【国际巨头】苹果发布新款Apple TV 4K：A19芯片加持，四年首更11月13日开售",
+            "originalTitle": "Where to preorder the new Apple TV 4K",
+            "summary": "苹果正式推出新一代Apple TV 4K，这是自2020年以来的首次重大更新，搭载A19芯片，性能远超已停产的2022款A15 Bionic机型。新品将于11月13日（周五）开启预售，并带来多项功能升级。（来源：The Verge·国际巨头）",
             "source": {
               "name": "The Verge·国际巨头"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae025641111332fd5f8b565da",
-              "original": "https://www.theverge.com/tech/1009604/elon-musk-2026-midterm-republican-donations"
+              "aihot": "https://zenglian-news.onrender.com/items/a928025229815d0c89be86b54",
+              "original": "https://www.theverge.com/gadgets/1009921/apple-tv-4k-2026-preorder-buy"
             },
-            "publishedAt": "2026-10-12T16:52:54.000Z",
-            "discoveredAt": "2026-10-12T17:57:09.254Z",
+            "publishedAt": "2026-10-13T13:26:40.000Z",
+            "discoveredAt": "2026-10-13T14:08:12.792Z",
             "category": "global",
-            "score": 92,
+            "score": 90,
             "selected": true,
-            "reason": "科技巨头政治豪赌，金额创纪录，影响深远。",
+            "reason": "性能翻倍，智能家居中枢再进化",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae025641111332fd5f8b565da"
+              "url": "https://zenglian-news.onrender.com/items/a928025229815d0c89be86b54"
+            }
+          },
+          {
+            "id": "a1f598312d1296e9fd3322928",
+            "title": "【国际巨头】苹果发布HomeView智能家居中枢，\"欢迎回家\"活动揭晓",
+            "originalTitle": "Watch Apple’s reveal video for the HomeView",
+            "summary": "苹果在今日\"欢迎回家\"活动中正式推出传闻已久的智能家居中枢HomeView，并播放了产品展示视频。该设备被视为苹果拓展智能家居生态的核心产品，但具体售价和发售日期尚未公布。（来源：The Verge·国际巨头）",
+            "source": {
+              "name": "The Verge·国际巨头"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a1f598312d1296e9fd3322928",
+              "original": "https://www.theverge.com/1008810/apple-homeview-reveal-video-watch"
+            },
+            "publishedAt": "2026-10-13T13:14:27.000Z",
+            "discoveredAt": "2026-10-13T14:08:15.566Z",
+            "category": "global",
+            "score": 90,
+            "selected": true,
+            "reason": "苹果正式入局智能家居中枢，生态卡位战打响",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a1f598312d1296e9fd3322928"
             }
           }
         ]
@@ -603,118 +603,118 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "a58fb2aed6211d39acf72a039",
-            "title": "【国内要闻】华强方特“熊出没”携手义乌 制造探索文化产业出海新路径",
-            "originalTitle": "华强方特“熊出没”携手义乌 制造探索文化产业出海新路径",
-            "summary": "2026年10月11日，“民族的就是世界的——‘熊出没’走进全球货架”——熊出没IP与义乌制造产业融合发布会暨旗舰店开业庆典在义乌隆重举行。华强方特旗下国民级动漫IP“熊出没”正式落地义乌，与当地产业伙伴共同开启IP授权与义乌制造深度融合新篇章。",
+            "id": "a5666570a45fc34b653e6fa6b",
+            "title": "【国内要闻】海河流域AI短临预报模型在天津发布 每6分钟更新未来3小时预报",
+            "originalTitle": "海河流域AI短临预报模型在天津发布 每6分钟更新未来3小时预报",
+            "summary": "中新网天津10月13日电 (薛淳月 周亚强)“智象-司南”海河流域AI短临预报模型12日在天津发布。该模型每6分钟滚动更新未来3小时雷达回波、降水和风场预报，空间分辨率达1公里，目前已在国内多地以及巴基斯坦、蒙古国等地试用。",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a58fb2aed6211d39acf72a039",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-13/10713726.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a5666570a45fc34b653e6fa6b",
+              "original": "https://www.chinanews.com.cn/sh/2026/10-13/10714079.shtml"
             },
-            "publishedAt": "2026-10-13T06:57:48.000Z",
-            "discoveredAt": "2026-10-13T07:02:37.351Z",
+            "publishedAt": "2026-10-13T14:48:56.000Z",
+            "discoveredAt": "2026-10-13T15:04:58.840Z",
             "category": "domestic",
             "score": 99,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a58fb2aed6211d39acf72a039"
+              "url": "https://zenglian-news.onrender.com/items/a5666570a45fc34b653e6fa6b"
             }
           },
           {
-            "id": "afc04dee345d5c6a2ac40ea0c",
-            "title": "【国内要闻】今年前三季度烟台港中非件杂货班轮航线运量突破800万吨",
-            "originalTitle": "今年前三季度烟台港中非件杂货班轮航线运量突破800万吨",
-            "summary": "中新网烟台10月13日电 (王娇妮 邹常焜)记者13日从山东港口烟台港获悉，今年前三个季度，该港中非件杂货班轮航线运量突破800万吨，同比增长93%，创2015年航线开通以来历史新高。",
+            "id": "a89db09890012e6a3c278c8d0",
+            "title": "美股超大规模云厂商集体上涨，微软股价续刷新高",
+            "originalTitle": "美股超大规模云厂商集体上涨，微软股价续刷新高",
+            "summary": "10月13日，微软、谷歌等美股超大规模云厂商集体上涨。谷歌-A股价上涨1.07%，报356.510美元/股，总市值报4.36万亿美元。微软股价上涨1.6%，报549.795美元/股，续刷记录新高，总市值报4.08万亿美元。亚马逊股价上涨0.93%，报261.950美元/股，总市值报2.83万亿美元。",
             "source": {
-              "name": "中新网·国内要闻"
+              "name": "界面新闻·国内政经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/afc04dee345d5c6a2ac40ea0c",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-13/10713680.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a89db09890012e6a3c278c8d0",
+              "original": "https://www.jiemian.com/article/15186085.html"
             },
-            "publishedAt": "2026-10-13T06:52:00.000Z",
-            "discoveredAt": "2026-10-13T07:02:38.175Z",
+            "publishedAt": "2026-10-13T13:42:08.000Z",
+            "discoveredAt": "2026-10-13T14:08:20.995Z",
             "category": "domestic",
             "score": 99,
             "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/afc04dee345d5c6a2ac40ea0c"
+              "url": "https://zenglian-news.onrender.com/items/a89db09890012e6a3c278c8d0"
             }
           },
           {
-            "id": "a984cebfe45873f6d64798272",
-            "title": "【国内要闻】我国服务业数智化改造加速落地",
-            "originalTitle": "我国服务业数智化改造加速落地",
-            "summary": "央视网消息(新闻联播)：今年以来，我国加快推进服务业数智化改造升级，数智化工具广泛应用于商贸、交通、物流、生活服务等多个领域，既优化群众消费体验、提升市场运行效率，也催生出新业态、新潜力。",
+            "id": "ae6ad0fd2c9b58fab81e92277",
+            "title": "【国内要闻】大型原创历史舞台剧《大儒张载》升级版亮相第十一届陕西省艺术节",
+            "originalTitle": "大型原创历史舞台剧《大儒张载》升级版亮相第十一届陕西省艺术节",
+            "summary": "中新网西安10月13日电 (记者 阿琳娜)千年之前，北宋大儒张载在关中大地发出了“为天地立心，为生民立命，为往圣继绝学，为万世开太平”的千秋宏愿。千年之后，在张载思想的诞生之地，一群青年学子正以戏剧的方式，回应着这位先贤跨越时空的“立心”之问。",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a984cebfe45873f6d64798272",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-13/10713721.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/ae6ad0fd2c9b58fab81e92277",
+              "original": "https://www.chinanews.com.cn/cul/2026/10-13/10714082.shtml"
             },
-            "publishedAt": "2026-10-13T06:57:32.000Z",
-            "discoveredAt": "2026-10-13T07:02:37.558Z",
+            "publishedAt": "2026-10-13T14:57:50.000Z",
+            "discoveredAt": "2026-10-13T15:04:58.532Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a984cebfe45873f6d64798272"
+              "url": "https://zenglian-news.onrender.com/items/ae6ad0fd2c9b58fab81e92277"
             }
           },
           {
-            "id": "a9b1e9f18e718024c24c0bc2c",
-            "title": "【国内要闻】西渝高铁缪家梁特大桥顺利合龙 最高墩达103.5米",
-            "originalTitle": "西渝高铁缪家梁特大桥顺利合龙 最高墩达103.5米",
-            "summary": "中新网重庆10月13日电 (记者 何蓬磊)记者13日从京昆高速铁路西昆有限公司获悉，12日，随着最后一方混凝土浇筑完成，西渝高铁康渝段首座百米高墩大桥——缪家梁特大桥顺利合龙，为全线如期通车奠定了坚实基础。",
+            "id": "aeda6ac0166b4b5f19e2c85fb",
+            "title": "【国内要闻】新兴市场客商组团赴浙江金华“淘货” 意向订单超1亿元",
+            "originalTitle": "新兴市场客商组团赴浙江金华“淘货” 意向订单超1亿元",
+            "summary": "中新网金华10月13日电(蓝伊旎)10月12日至13日，2026“金贸全球”供采对接会(俄罗斯、中亚专场)在浙江金华举办。现场签约项目金额超3000万元(人民币，下同)，达成意向订单约1.12亿元，覆盖智能家居、五金智造、医疗器械等领域。",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9b1e9f18e718024c24c0bc2c",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-13/10713681.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/aeda6ac0166b4b5f19e2c85fb",
+              "original": "https://www.chinanews.com.cn/aseaninfo/2026/10-13/10714081.shtml"
             },
-            "publishedAt": "2026-10-13T06:55:32.000Z",
-            "discoveredAt": "2026-10-13T07:02:37.763Z",
+            "publishedAt": "2026-10-13T14:56:00.000Z",
+            "discoveredAt": "2026-10-13T15:04:58.633Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9b1e9f18e718024c24c0bc2c"
+              "url": "https://zenglian-news.onrender.com/items/aeda6ac0166b4b5f19e2c85fb"
             }
           },
           {
-            "id": "a5dc17278113a208c23cfecf5",
-            "title": "华为徐松余：下一代麒麟 2027 芯片就绪，未来 10 年（逻辑折叠）演进可持续",
-            "originalTitle": "华为徐松余：下一代麒麟 2027 芯片就绪，未来 10 年（逻辑折叠）演进可持续",
-            "summary": "IT之家 10 月 13 日现场消息，华为今日（10 月 13 日）在上海练秋湖举办 2026 麒麟媒体沟通会，华为半导体业务无线终端芯片产品管理部部长徐松余发表演讲。 徐松余今日首次公布逻辑折叠韬芯片麒麟 9050 Pro 详细架构图，包括新一代灵犀 CPU、马良 GPU、达芬奇架构 NPU、麒麟 AI ISP、Balong AI Modem、FFTS 函数流任务调度器、音视频处理器、安全处理器和灵犀微核协同工作。 IT之家注意到，徐...",
+            "id": "acb998cb0dc8bf747dcb17f8e",
+            "title": "【国内要闻】雄安新区首单“保税+TIR”业务启运",
+            "originalTitle": "雄安新区首单“保税+TIR”业务启运",
+            "summary": "中新网雄安10月13日电 (赵丹媚 韩冰)13日，一辆国际公路运输车辆进入雄安综合保税区完成装卸后办结海关手续，从雄安综合保税区卡口驶出。车上装载近30万元货物，将经满洲里口岸出境，直达俄罗斯符拉迪沃斯托克。这是雄安新区首单“保税+TIR”业务。",
             "source": {
-              "name": "IT之家·国内产业"
+              "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a5dc17278113a208c23cfecf5",
-              "original": "https://www.ithome.com/1/012/289.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/acb998cb0dc8bf747dcb17f8e",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-13/10714074.shtml"
             },
-            "publishedAt": "2026-10-13T05:26:06.000Z",
-            "discoveredAt": "2026-10-13T05:45:11.349Z",
+            "publishedAt": "2026-10-13T14:45:34.000Z",
+            "discoveredAt": "2026-10-13T15:04:58.940Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a5dc17278113a208c23cfecf5"
+              "url": "https://zenglian-news.onrender.com/items/acb998cb0dc8bf747dcb17f8e"
             }
           }
         ]
@@ -724,118 +724,118 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
-            "id": "a74dc2c76eab7fcbe4dd3ed47",
-            "title": "AI替我干活，我替AI善后？龙虾都给我的C盘留下了啥？",
-            "originalTitle": "AI替我干活，我替AI善后？龙虾都给我的C盘留下了啥？",
-            "summary": "AI帮我干活，结果我还得帮AI擦屁股？前两天C盘爆满，一顿清理才发现&ldquo;star office UI&rdquo;文件夹，居然是当年装龙虾AI办公插件剩下的垃圾。",
+            "id": "a646d7b19a9317555a31bb5c2",
+            "title": "一群东亚做题家，用 AI 反向输出 “卷”：韩国第一、越南第一、北美前五",
+            "originalTitle": "一群东亚做题家，用 AI 反向输出 “卷”：韩国第一、越南第一、北美前五",
+            "summary": "本文来自微信公众号： 针尖 ，作者：年纪轻轻干这个，原文标题：《一群东亚做题家，用 AI 反向输出 “卷”：韩国第一、越南第一、北美前五》 一个反直觉的现象：当中国人开始反思中式教育的内卷压力时，一批中国、韩国的教育创业者，正借助AI技术的助力，把东亚这套被骂了多年的\"应试训练能力\"，打包成一个个APP，反向卖到全世界——而且卖得极好。 韩国成人教育产品Speaker，2024年下半年才上线，不仅拿到了Accel 7800万美元融资，仅...",
             "source": {
               "name": "虎嗅网·商业搞钱深度"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a74dc2c76eab7fcbe4dd3ed47",
-              "original": "https://www.huxiu.com/article/4895849.html?f=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/a646d7b19a9317555a31bb5c2",
+              "original": "https://www.huxiu.com/article/4897260.html?f=rss"
             },
-            "publishedAt": "2026-10-13T07:00:00.000Z",
-            "discoveredAt": "2026-10-13T07:03:09.838Z",
+            "publishedAt": "2026-10-13T13:55:12.000Z",
+            "discoveredAt": "2026-10-13T14:08:39.500Z",
             "category": "money",
             "score": 99,
             "selected": true,
             "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a74dc2c76eab7fcbe4dd3ed47"
+              "url": "https://zenglian-news.onrender.com/items/a646d7b19a9317555a31bb5c2"
             }
           },
           {
-            "id": "af456d760043c997cb296bf7d",
-            "title": "“脱裤子放屁”的AI应用，正在批量拿走VC的钱",
-            "originalTitle": "“脱裤子放屁”的AI应用，正在批量拿走VC的钱",
-            "summary": "本文来自微信公众号： AI故事计划 ，编辑：张霞，作者：田密，原文标题：《「脱裤子放屁」的AI应用，正在批量拿走VC的钱》 \" 功能鸡不鸡肋先放一边，至少能让买它的人证明，2026年了自己还在读纸质书，怎么不算是一件大功德呢？ 不得不感叹一句，“脱裤子放屁式”AI产品真正重新发明的，不是书签、项链和故事机，是收费方式。 5月15日，纽约布鲁克林，设计事务所COLLINS的图书室里挤进了上百位黑衣人。他们个个黑裤子、黑T恤，围着一张长桌站...",
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af456d760043c997cb296bf7d",
-              "original": "https://www.huxiu.com/article/4897089.html?f=rss"
-            },
-            "publishedAt": "2026-10-13T06:40:04.000Z",
-            "discoveredAt": "2026-10-13T07:03:10.455Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af456d760043c997cb296bf7d"
-            }
-          },
-          {
-            "id": "ab1086d11ec0d40933dd15896",
-            "title": "字节掘金者：最贵的是光环",
-            "originalTitle": "字节掘金者：最贵的是光环",
-            "summary": "本文来自微信公众号： AI闹 ，作者：AI闹，题图来自：视觉中国 围猎 2026年，字节系创业者的估值&ldquo;腰斩&rdquo;。 一个字节系 4-1 （总监级） 的天使轮融资额度是 200 万美元&mdash;&mdash;而一年前是 400 万美元起。一方面源于 AI 应用遇冷 （字节系绝大部分创业者方向是 AI 应用） ，一方面竞争窗口也在急速关闭， &ldquo;该出来的都出来了，资本开始反向排查创业动机，到底是主动想创业...",
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab1086d11ec0d40933dd15896",
-              "original": "https://www.huxiu.com/article/4897049.html?f=rss"
-            },
-            "publishedAt": "2026-10-13T05:00:42.000Z",
-            "discoveredAt": "2026-10-13T05:45:31.549Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab1086d11ec0d40933dd15896"
-            }
-          },
-          {
-            "id": "aa4b1f2b2d2dc17c77e262678",
-            "title": "企业级AI离深度应用还有很多路要走丨ToB产业观察",
-            "originalTitle": "企业级AI离深度应用还有很多路要走丨ToB产业观察",
-            "summary": "如今，企业在应用AI过程中往往会面对一个困局，一边是AI应用率不断攀升，另一边是回报率迟迟跟不上脚步。企业在AI方面的投资在不断增加，工具的能力也在不断提升，但真正的价值兑现，似乎还隔着一道看不见的墙。 德勤中国与香港大学人工智能、管理与组织研究中心联合发布的《决策者视角下的企业AI应用》（以下简称《报告》）显示，进入生产部署阶段的企业占比已从2025年的56.0%升至64.4%，跨多个团队部署AI的企业从14.7%升至33.7%。然而...",
+            "id": "a6d8fe2bb9852b0fb1de9e9ce",
+            "title": "Shopify有望凭借AI智能体大获成功，但这可能需要时间",
+            "originalTitle": "Shopify有望凭借AI智能体大获成功，但这可能需要时间",
+            "summary": "（本文作者为 Barrons巴伦，钛媒体经授权发布） 电商公司Shopify从长远来看有望在人工智能代理的推动下大获其利&mdash;&mdash;投资者也开始相信这一点。 尽管市场曾因Meta推出AI购物代理Muse而对Shopify的未来产生担忧，但分析师们认为Shopify将成为AI平台的首选结账引擎。德意志银行的分析师重申了对Shopify的&ldquo;买入&rdquo;评级，预计该股将继续上涨。 随着Shopify致力于简化...",
             "source": {
               "name": "钛媒体·资本与风口"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa4b1f2b2d2dc17c77e262678",
-              "original": "https://www.tmtpost.com/8166594.html"
+              "aihot": "https://zenglian-news.onrender.com/items/a6d8fe2bb9852b0fb1de9e9ce",
+              "original": "https://www.tmtpost.com/8167702.html"
             },
-            "publishedAt": "2026-10-13T04:20:39.000Z",
-            "discoveredAt": "2026-10-13T04:44:26.304Z",
+            "publishedAt": "2026-10-13T13:46:13.000Z",
+            "discoveredAt": "2026-10-13T14:08:42.906Z",
             "category": "money",
             "score": 98,
             "selected": true,
             "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa4b1f2b2d2dc17c77e262678"
+              "url": "https://zenglian-news.onrender.com/items/a6d8fe2bb9852b0fb1de9e9ce"
             }
           },
           {
-            "id": "af56c60bbc20faaa81d7d99c9",
-            "title": "AI进展观察｜研发AI Agent四象限：个人与企业、国内与国际",
-            "originalTitle": "AI进展观察｜研发AI Agent四象限：个人与企业、国内与国际",
-            "summary": "（本文作者为 StellaChen，钛媒体经授权发布） 作者介绍： 陈晨，奇安信副总裁、高级工程师、客户战略委员会委员，曾分管数字化与采购。一个浸泡在数字化和智能化行业里的老兵。 同一个工具，两种交付：个人侧是效率外挂，企业侧是要被治理的生产系统。 研发是 AI Agent 商业化最快的赛道。 截至 2026 年中，Anthropic 的 Claude Code 年化收入超过 25 亿美元；Cursor 被 SpaceX 以 600 亿...",
+            "id": "afcf1977a1628f4eb6086281a",
+            "title": "Vertiv及另外5只工业股：财报发布前的投资标的",
+            "originalTitle": "Vertiv及另外5只工业股：财报发布前的投资标的",
+            "summary": "（本文作者为 Barrons巴伦，钛媒体经授权发布） 第三季度工业板块的业绩报告即将出炉，投资者将有机会审视相关趋势，并在迈入2027年之际进一步巩固自己的选股判断。 花旗分析师安德鲁&middot;卡普洛维茨认为，在业绩公布之前先行加仓部分标的存在机会。他看好六只股票在财报发布后作出积极反应，包括数据中心基础设施供应商维谛（Vertiv）。 他指出，短周期需求可能仍在改善，推动稳健的营收增长和韧性的盈利预期。值得关注的风险因素包括持续...",
             "source": {
               "name": "钛媒体·资本与风口"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af56c60bbc20faaa81d7d99c9",
-              "original": "https://www.tmtpost.com/8166418.html"
+              "aihot": "https://zenglian-news.onrender.com/items/afcf1977a1628f4eb6086281a",
+              "original": "https://www.tmtpost.com/8167697.html"
             },
-            "publishedAt": "2026-10-13T04:06:06.000Z",
-            "discoveredAt": "2026-10-13T04:44:26.565Z",
+            "publishedAt": "2026-10-13T13:43:28.000Z",
+            "discoveredAt": "2026-10-13T14:08:43.083Z",
             "category": "money",
             "score": 98,
             "selected": true,
             "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af56c60bbc20faaa81d7d99c9"
+              "url": "https://zenglian-news.onrender.com/items/afcf1977a1628f4eb6086281a"
+            }
+          },
+          {
+            "id": "aee0e2562ad03a3d8f650d599",
+            "title": "国内外大厂疯抢Muse入口，但个人Agent仍是伪命题",
+            "originalTitle": "国内外大厂疯抢Muse入口，但个人Agent仍是伪命题",
+            "summary": "本文来自微信公众号： 青橙财经 ，作者：青风，编辑：六子 一个月前，Meta推出个人智能体Muse，舆论把它捧成ChatGPT之后最性感的产品——替你填表、比价、退订、跟客服吵架，关掉App它还在后台替你跑腿。 短短一个月，这场风潮就从硅谷席卷到国内。字节赶工“小豆”，腾讯三条线同时卡位，阿里10月13日刚放出“千问Go！”，蚂蚁内测灵光2.0，连刚融了33亿元的Manus也推出个人应用Cue。 一时间“下一代AI入口”的口号铺天盖地，...",
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aee0e2562ad03a3d8f650d599",
+              "original": "https://www.huxiu.com/article/4897270.html?f=rss"
+            },
+            "publishedAt": "2026-10-13T14:41:37.000Z",
+            "discoveredAt": "2026-10-13T15:05:28.483Z",
+            "category": "money",
+            "score": 97,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aee0e2562ad03a3d8f650d599"
+            }
+          },
+          {
+            "id": "ad21e15d3ffe2dab8b98f7030",
+            "title": "科瑞思跨界收购宏钢封装押注光电子，深创投停牌前一月蹊跷减资退场｜并购一线",
+            "originalTitle": "科瑞思跨界收购宏钢封装押注光电子，深创投停牌前一月蹊跷减资退场｜并购一线",
+            "summary": "上市三年，业绩从亿元净利润跌落至扣非亏损，磁环绕线龙头 科瑞思 终于走到了跨界并购这一步。 10月12日晚间，科瑞思（301314.SZ）披露重大资产重组停牌公告，拟以发行股份及支付现金方式收购深圳市宏钢光电封装技术股份有限公司（以下简称&ldquo;宏钢封装&rdquo;）100%股权，同步募集配套资金。 这是科瑞思2023年3月登陆创业板以来的首笔重大资本运作。一边是主业触顶的续命需求，一边是细分标的的退出诉求，一笔典型的创业板次新...",
+            "source": {
+              "name": "钛媒体·资本与风口"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ad21e15d3ffe2dab8b98f7030",
+              "original": "https://www.tmtpost.com/8167551.html"
+            },
+            "publishedAt": "2026-10-13T12:03:14.000Z",
+            "discoveredAt": "2026-10-13T15:05:31.124Z",
+            "category": "money",
+            "score": 97,
+            "selected": true,
+            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ad21e15d3ffe2dab8b98f7030"
             }
           }
         ]
@@ -845,118 +845,118 @@
         "label": "🤖 AI实时Top20",
         "items": [
           {
-            "id": "a7e5353b2387d8e010392d0ff",
-            "title": "【国内财经】2026中国机器人大赛将于杭州开赛 具身智能赛项成创新亮点",
-            "originalTitle": "2026中国机器人大赛将于杭州开赛 具身智能赛项成创新亮点",
-            "summary": "中新网杭州10月13日电(郭其钰)首届全球具身智能应用创新挑战赛暨2026中国机器人大赛将于10月16日至18日在浙江杭州举办。两项赛事首次同期举办，共设置22个赛道、60个赛项和3个企业独立赛项，共同搭建起从技术研发、工程验证到场景应用的综合性平台。",
+            "id": "a3d74d7ffe612c999b344de7e",
+            "title": "【国内要闻】全球首个标准垂域大模型“同道”宣布升级",
+            "originalTitle": "全球首个标准垂域大模型“同道”宣布升级",
+            "summary": "中新网北京10月13日电 (记者 刘亮)10月13日，在2026世界标准日到来之际，2026新产业标准化领航论坛在北京开幕。论坛上，全球首个标准垂域大模型“同道”宣布升级。",
             "source": {
-              "name": "中新网·国内财经"
+              "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7e5353b2387d8e010392d0ff",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-13/10713511.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a3d74d7ffe612c999b344de7e",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-13/10714056.shtml"
             },
-            "publishedAt": "2026-10-13T01:38:47.000Z",
-            "discoveredAt": "2026-10-13T02:04:50.605Z",
+            "publishedAt": "2026-10-13T13:57:45.000Z",
+            "discoveredAt": "2026-10-13T14:08:17.293Z",
             "category": "tech",
-            "score": 98,
+            "score": 99,
             "selected": true,
-            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7e5353b2387d8e010392d0ff"
+              "url": "https://zenglian-news.onrender.com/items/a3d74d7ffe612c999b344de7e"
             }
           },
           {
-            "id": "ae59ee5000ea6b4d450535127",
-            "title": "AI 工厂建设迎来统一蓝图：英伟达开放 Vera Rubin 机架设计",
-            "originalTitle": "AI 工厂建设迎来统一蓝图：英伟达开放 Vera Rubin 机架设计",
-            "summary": "IT之家 10 月 12 日消息，英伟达昨日（10 月 12 日）发布公告，在开放计算项目（OCP）全球峰会上，英伟达宣布开放 Vera Rubin 机架与计算托架设计， 并与 Cisco、Google、Meta、Microsoft、Visionbay 等发布多项 AI 基础设施开放标准。 在本次 OPC 全球峰会上，英伟达宣布通过开放 NVIDIA MGX 架构，向 Open Compute Project（OCP）贡献 Vera R...",
+            "id": "a724be7b79947b760dfaa61f7",
+            "title": "魔法原子具身Agent框架拿下MolmoSpaces全球第一",
+            "originalTitle": "魔法原子具身Agent框架拿下MolmoSpaces全球第一",
+            "summary": "量子位·AI大模型智库实时快讯：魔法原子具身Agent框架拿下MolmoSpaces全球第一。国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
             "source": {
-              "name": "IT之家·国内产业"
+              "name": "量子位·AI大模型智库"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae59ee5000ea6b4d450535127",
-              "original": "https://www.ithome.com/1/012/120.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a724be7b79947b760dfaa61f7",
+              "original": "https://www.qbitai.com/2026/10/503107.html"
             },
-            "publishedAt": "2026-10-13T02:12:40.000Z",
-            "discoveredAt": "2026-10-13T02:19:24.168Z",
+            "publishedAt": "2026-10-13T11:05:39.000Z",
+            "discoveredAt": "2026-10-13T14:08:51.485Z",
             "category": "tech",
-            "score": 97,
+            "score": 99,
             "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "reason": "国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae59ee5000ea6b4d450535127"
+              "url": "https://zenglian-news.onrender.com/items/a724be7b79947b760dfaa61f7"
             }
           },
           {
-            "id": "ad5f88242e4ec9486c197f16f",
-            "title": "消息称 DeepSeek 将完成 1000 亿元融资，投前估值仍为约 5000 亿元",
-            "originalTitle": "消息称 DeepSeek 将完成 1000 亿元融资，投前估值仍为约 5000 亿元",
-            "summary": "IT之家 10 月 13 日消息，据《财经》报道，多位参与本轮交易的人士透露，大模型公司 DeepSeek 的最新一轮融资已临近完成，融资金额从此前计划的 500 亿元增至约 1000 亿元，不到半个月拟融资金额翻了一倍。 据IT之家了解，本轮融资为 DeepSeek 的第二轮融资。据报道，新老股东的拟投资金额约各占一半。值得注意的是，融资金额的翻倍并未推高公司整体估值，DeepSeek 目前投前估值仍为约 5000 亿元。 据多名独立...",
+            "id": "a4348374df83de15bbb858d2c",
+            "title": "梁文锋投了Swin Transformer作者！DeepSeek开始布局具身大脑",
+            "originalTitle": "梁文锋投了Swin Transformer作者！DeepSeek开始布局具身大脑",
+            "summary": "量子位·AI大模型智库实时快讯：梁文锋投了Swin Transformer作者！DeepSeek开始布局具身大脑。国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
             "source": {
-              "name": "IT之家·国内产业"
+              "name": "量子位·AI大模型智库"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad5f88242e4ec9486c197f16f",
-              "original": "https://www.ithome.com/1/012/172.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a4348374df83de15bbb858d2c",
+              "original": "https://www.qbitai.com/2026/10/503093.html"
             },
-            "publishedAt": "2026-10-13T01:47:22.000Z",
-            "discoveredAt": "2026-10-13T02:04:58.205Z",
+            "publishedAt": "2026-10-13T09:33:37.000Z",
+            "discoveredAt": "2026-10-13T14:08:51.666Z",
             "category": "tech",
-            "score": 97,
+            "score": 99,
             "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "reason": "国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad5f88242e4ec9486c197f16f"
+              "url": "https://zenglian-news.onrender.com/items/a4348374df83de15bbb858d2c"
             }
           },
           {
-            "id": "a6e5282052251da034fd09855",
-            "title": "小鹏今年底实现人形机器人量产，2027 年上半年开启交付",
-            "originalTitle": "小鹏今年底实现人形机器人量产，2027 年上半年开启交付",
-            "summary": "IT之家 10 月 12 日消息，小鹏汽车今日亮相巴黎车展，除了推出小鹏 G9L 车型，小鹏还公布了自动驾驶、人形机器人等消息。 在人形机器人领域，近期，小鹏机器人生产线正式启用，全球首位高阶通用人形机器人完成自动化总装，自主走下产线亮相，标志着小鹏机器人完成从研发试制到产线制造的关键跨越，向规模量产迈出重要一步。 据介绍，小鹏 IRON 可以说是“社交天花板”，自带多模态交互能力：认得出不同人的脸，记得住对话上下文， 中、英、德三国语...",
+            "id": "a6f2e2ff91768644de2f33eac",
+            "title": "千问发布AI眼镜、AI耳机三款Personal Agent全新硬件",
+            "originalTitle": "千问发布AI眼镜、AI耳机三款Personal Agent全新硬件",
+            "summary": "10月13日，千问发布AI眼镜N1、N1 Pro及AI耳夹式耳机三款新品。N1系列搭载5000万像素影像系统，支持全天候环境感知、翻译、会议纪要和语音办事，N1 Pro新增体征实时监测、眼动交互和虹膜核身；AI耳夹式耳机由千问与Bose共同推出，支持多语言翻译、AI实时听记和任务交办。新品当日开售，叠加国补及限时优惠后，眼镜到手价2218元起，耳机1099元起。",
             "source": {
-              "name": "IT之家·国内产业"
+              "name": "界面新闻·国内政经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a6e5282052251da034fd09855",
-              "original": "https://www.ithome.com/1/012/094.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a6f2e2ff91768644de2f33eac",
+              "original": "https://www.jiemian.com/article/15184718.html"
             },
-            "publishedAt": "2026-10-12T13:29:11.000Z",
-            "discoveredAt": "2026-10-12T14:03:11.126Z",
+            "publishedAt": "2026-10-13T08:13:34.000Z",
+            "discoveredAt": "2026-10-13T08:20:48.862Z",
             "category": "tech",
-            "score": 97,
+            "score": 99,
             "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a6e5282052251da034fd09855"
+              "url": "https://zenglian-news.onrender.com/items/a6f2e2ff91768644de2f33eac"
             }
           },
           {
-            "id": "af9dd98d522404e2b8d06476f",
-            "title": "华为徐松余：麒麟 9050 系列开启未来 10 年新征程，实现业界首个 30B MoE 大模型入端",
-            "originalTitle": "华为徐松余：麒麟 9050 系列开启未来 10 年新征程，实现业界首个 30B MoE 大模型入端",
-            "summary": "IT之家 10 月 13 日现场消息，华为今日（10 月 13 日）在上海练秋湖举办 2026 麒麟媒体沟通会，华为半导体业务无线终端芯片产品管理部部长徐松余发表演讲。 徐松余谈到了华为最新的韬定律和逻辑折叠路线，韬定律首次应用于麒麟 9050 系列，在性能 / 能效上获得了可观的收益。 徐松余表示，麒麟 9050 系列作为首款逻辑折叠的韬芯片， 开启未来 10 年新征程 。从 PPT 可以看到，华为目标在 2031 年实现 P 核频率...",
+            "id": "a2849c0ee374d2940a4847a46",
+            "title": "中国车企反攻德系车心脏！巴黎车展国产品牌独占三成，大众CEO连忙呼吁抱团迎战",
+            "originalTitle": "中国车企反攻德系车心脏！巴黎车展国产品牌独占三成，大众CEO连忙呼吁抱团迎战",
+            "summary": "量子位·AI大模型智库实时快讯：中国车企反攻德系车心脏！巴黎车展国产品牌独占三成，大众CEO连忙呼吁抱团迎战。国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
             "source": {
-              "name": "IT之家·国内产业"
+              "name": "量子位·AI大模型智库"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af9dd98d522404e2b8d06476f",
-              "original": "https://www.ithome.com/1/012/176.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a2849c0ee374d2940a4847a46",
+              "original": "https://www.qbitai.com/2026/10/502992.html"
             },
-            "publishedAt": "2026-10-13T01:59:42.000Z",
-            "discoveredAt": "2026-10-13T02:04:57.471Z",
+            "publishedAt": "2026-10-13T07:20:23.000Z",
+            "discoveredAt": "2026-10-13T15:05:38.354Z",
             "category": "tech",
-            "score": 94,
+            "score": 99,
             "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "reason": "国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af9dd98d522404e2b8d06476f"
+              "url": "https://zenglian-news.onrender.com/items/a2849c0ee374d2940a4847a46"
             }
           }
         ]
@@ -966,118 +966,118 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "aba7894a3da606005e9cf48ea",
-            "title": "【国内文娱】湖南湘江新区AI短剧出海观察：全链条协同发力",
-            "originalTitle": "湖南湘江新区AI短剧出海观察：全链条协同发力",
-            "summary": "中新网长沙10月13日电 (胡语桐)五六个人，一间办公室，一部短剧从编剧到上线，最快几天就能译成多语种出现在海外观众的手机里。在中部首个国家级新区——湖南湘江新区，这样的团队正越来越多。据行业统计，截至2026年上半年，中国微短剧用户规模已达7.18亿，出海成为众多湘江新区企业的选择。而支撑这一速度的，是AI在制作、分发等环节的深度介入。它替创作者解决了哪些问题，又有哪些问题解决不了？",
+            "id": "ad862289ef6b3a19a9431deab",
+            "title": "【国内文娱】“两会一展”首合体 2026世界摄影人大会10月下旬亮相浙江丽水",
+            "originalTitle": "“两会一展”首合体 2026世界摄影人大会10月下旬亮相浙江丽水",
+            "summary": "中新网丽水10月13日电(黄彦君)10月13日，浙江丽水召开新闻发布会，宣布2026世界摄影人大会(以下简称“大会”)、中国第20届国际摄影艺术展览暨第七届国际摄影研讨会将于10月23日至27日在当地举行。",
             "source": {
               "name": "中新网·影视文娱"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aba7894a3da606005e9cf48ea",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-13/10713666.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/ad862289ef6b3a19a9431deab",
+              "original": "https://www.chinanews.com.cn/cul/2026/10-13/10713950.shtml"
             },
-            "publishedAt": "2026-10-13T06:48:42.000Z",
-            "discoveredAt": "2026-10-13T07:03:23.411Z",
+            "publishedAt": "2026-10-13T11:43:48.000Z",
+            "discoveredAt": "2026-10-13T14:09:17.169Z",
             "category": "culture",
-            "score": 99,
+            "score": 97,
             "selected": true,
             "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aba7894a3da606005e9cf48ea"
+              "url": "https://zenglian-news.onrender.com/items/ad862289ef6b3a19a9431deab"
             }
           },
           {
-            "id": "a5e1c0216f1b2ec535156e070",
-            "title": "【国内文娱】云南“彩云奖”优秀作品在临沧展演 逾50万人次观看",
-            "originalTitle": "云南“彩云奖”优秀作品在临沧展演 逾50万人次观看",
-            "summary": "中新网临沧10月13日电 (黄兴鸿)12日晚，云南省第七届群众文化“彩云奖”优秀作品展演暨颁奖晚会在该省临沧市临翔区玉龙湖广场举行，线上、线下吸引逾50万人次观看。",
+            "id": "a9346cfae7e5e18fc094b740e",
+            "title": "【国内文娱】中国大遗址保护体系日趋完善",
+            "originalTitle": "中国大遗址保护体系日趋完善",
+            "summary": "中新社郑州10月13日电 (记者 应妮)记者从13日在河南省郑州市举行的全国大遗址工作会上了解到，中国大遗址保护体系日趋完善，成为深化文明交流互鉴的纽带，为国际文化遗产保护贡献中国经验。",
             "source": {
               "name": "中新网·影视文娱"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a5e1c0216f1b2ec535156e070",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-13/10713655.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a9346cfae7e5e18fc094b740e",
+              "original": "https://www.chinanews.com.cn/cul/2026/10-13/10714040.shtml"
             },
-            "publishedAt": "2026-10-13T06:37:05.000Z",
-            "discoveredAt": "2026-10-13T07:03:23.615Z",
+            "publishedAt": "2026-10-13T13:52:43.000Z",
+            "discoveredAt": "2026-10-13T14:09:16.994Z",
             "category": "culture",
             "score": 96,
             "selected": true,
             "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a5e1c0216f1b2ec535156e070"
+              "url": "https://zenglian-news.onrender.com/items/a9346cfae7e5e18fc094b740e"
             }
           },
           {
-            "id": "a4ca119d8b1113f7eff9f4cc2",
-            "title": "【机核文娱】《战锤：血碗橄榄球》新作现已开启游戏测试",
-            "originalTitle": "《战锤：血碗橄榄球》新作现已开启游戏测试",
-            "summary": "继 NACON 出售 《战锤：血碗橄榄球》 全系列游戏发行权，由 Slitherine 接手的 《战锤：血碗橄榄球》 新作现已开启游戏测试。据悉，拥有《血碗3》的玩家可免费获得这款作品，此前拥有的球队与外观道具也将全部保留。 本作基于前作底层开发，同步引入了最新的官方桌游规则，调整了技能机制与策略玩法。游戏首发包含14支可玩球队，除《血碗3》首发的12支队伍外，还将新增两支全新球队。后续推出的另外12支队伍将作为DLC发售。 除了传统的...",
+            "id": "ad471cc770d01104b10ad2a7a",
+            "title": "【机核文娱】不到20块！好评多人合作动作游戏《喵门镖局》新增永久成长与按键自定义功能",
+            "originalTitle": "不到20块！好评多人合作动作游戏《喵门镖局》新增永久成长与按键自定义功能",
+            "summary": "小猫镖师们正在成长！发行商 Daedalic Entertainment 与开发商 Octofox Games 宣布，旗下合作动作肉鸽游戏 《喵门镖局》（Wild Woods）现已推出重大更新，带来社区呼声最高的两项功能：永久成长系统与按键自定义 。如今，玩家可以在一次次冒险之间持续培养自己的猫咪角色，解锁永久能力提升，以及更多个性化选项。 &lt;内嵌内容，请前往机核查看&gt; 《喵门镖局》目前在 Steam 享有 三三折优惠（降价...",
             "source": {
               "name": "机核网·影漫与游戏"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a4ca119d8b1113f7eff9f4cc2",
-              "original": "https://www.gcores.com/articles/220815"
+              "aihot": "https://zenglian-news.onrender.com/items/ad471cc770d01104b10ad2a7a",
+              "original": "https://www.gcores.com/articles/220850"
             },
-            "publishedAt": "2026-10-13T01:10:00.000Z",
-            "discoveredAt": "2026-10-13T04:45:12.265Z",
+            "publishedAt": "2026-10-13T10:16:11.000Z",
+            "discoveredAt": "2026-10-13T14:10:00.140Z",
             "category": "culture",
-            "score": 96,
+            "score": 95,
             "selected": true,
             "reason": "国内最具深度的影视、动漫、科幻文化与主机游戏一手资讯与评论。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a4ca119d8b1113f7eff9f4cc2"
+              "url": "https://zenglian-news.onrender.com/items/ad471cc770d01104b10ad2a7a"
             }
           },
           {
-            "id": "ae80a359e52cb6bee6e88ad1d",
-            "title": "【国内文娱】“碑帖之间——当代中青年书法家邀请展”亮相炎黄艺术馆",
-            "originalTitle": "“碑帖之间——当代中青年书法家邀请展”亮相炎黄艺术馆",
-            "summary": "中新网北京10月13日电 (记者 应妮)由中国艺术研究院主办、中国艺术研究院书法院承办的“碑帖之间——当代中青年书法家邀请展”日前在北京炎黄艺术馆开幕。",
+            "id": "a5bda0c9ee463dac83a83d668",
+            "title": "【机核文娱】万字拆解《寂静岭：小镇陷落》剧情及隐喻｜玩的核WonderCores",
+            "originalTitle": "万字拆解《寂静岭：小镇陷落》剧情及隐喻｜玩的核WonderCores",
+            "summary": "本期时间轴制作：天行 本期节目的视频版请见： https://www.bilibili.com/video/BV1kgpH6sEfK/ &lt;万字拆解《寂静岭：小镇陷落》剧情及隐喻【视频版】&gt; 《寂静岭》系列的新作《寂静岭：Townfall（小镇陷落）》已经发售半个月了，但在Steam上的评价仍旧褒贬不一。 本作谜语人一般的叙事手法之下究竟讲了什么故事？制作组又在线索藏了多少细节？这一作难道真的砸了寂静岭的招牌吗？ 本期Ann和...",
             "source": {
-              "name": "中新网·影视文娱"
+              "name": "机核网·影漫与游戏"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae80a359e52cb6bee6e88ad1d",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-13/10713606.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a5bda0c9ee463dac83a83d668",
+              "original": "https://www.gcores.com/radios/220702"
             },
-            "publishedAt": "2026-10-13T03:41:57.000Z",
-            "discoveredAt": "2026-10-13T04:44:38.425Z",
+            "publishedAt": "2026-10-13T15:00:00.000Z",
+            "discoveredAt": "2026-10-13T15:06:19.333Z",
             "category": "culture",
-            "score": 94,
+            "score": 93,
             "selected": true,
-            "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
+            "reason": "国内最具深度的影视、动漫、科幻文化与主机游戏一手资讯与评论。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae80a359e52cb6bee6e88ad1d"
+              "url": "https://zenglian-news.onrender.com/items/a5bda0c9ee463dac83a83d668"
             }
           },
           {
-            "id": "aab51b13e0f10a20f069455e4",
-            "title": "【国内文娱】“津巴布韦梦想秀”，让非洲青年的才华被看见",
-            "originalTitle": "“津巴布韦梦想秀”，让非洲青年的才华被看见",
-            "summary": "中新社上海10月13日电 题：“津巴布韦梦想秀”，让非洲青年的才华被看见",
+            "id": "a0e2a919290af885454ea945f",
+            "title": "【机核文娱】新垣结衣宣布首胎出生",
+            "originalTitle": "新垣结衣宣布首胎出生",
+            "summary": "日本女演员新垣结衣与创作歌手星野源宣布，两人的第一个孩子已经出生。两人在声明中向相关人士和粉丝表达了感谢。他们表示今后将共同承担父母的责任，守护新生命。在此次报喜之前，双方从未正式公布过怀孕消息，日本网络上祝福不断。有网友称两人会是很棒的爸爸妈妈，也有人表示突如其来的报喜令人非常吃惊。 新垣结衣与星野源于2016年共同主演日剧《逃避虽可耻但有用》，并在2021年5月结婚。",
             "source": {
-              "name": "中新网·影视文娱"
+              "name": "机核网·影漫与游戏"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aab51b13e0f10a20f069455e4",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-13/10713577.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a0e2a919290af885454ea945f",
+              "original": "https://www.gcores.com/articles/220852"
             },
-            "publishedAt": "2026-10-13T03:21:30.000Z",
-            "discoveredAt": "2026-10-13T04:44:38.611Z",
+            "publishedAt": "2026-10-13T10:34:15.000Z",
+            "discoveredAt": "2026-10-13T14:09:59.610Z",
             "category": "culture",
-            "score": 94,
+            "score": 93,
             "selected": true,
-            "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
+            "reason": "国内最具深度的影视、动漫、科幻文化与主机游戏一手资讯与评论。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aab51b13e0f10a20f069455e4"
+              "url": "https://zenglian-news.onrender.com/items/a0e2a919290af885454ea945f"
             }
           }
         ]
@@ -1087,118 +1087,118 @@
         "label": "🏆 体育实时Top20",
         "items": [
           {
-            "id": "aba56a2fe26429ba2e520f93f",
-            "title": "【体坛快讯】李月汝将在WNBA休赛期加盟家乡球队山西女篮",
-            "originalTitle": "李月汝将在WNBA休赛期加盟家乡球队山西女篮",
-            "summary": "中新社太原10月13日电 山西兴瑞职业篮球俱乐部13日宣布，出生于山西长治的中国女篮主力中锋李月汝将在美国国家女子篮球联盟(WNBA)休赛期加盟山西竹叶青酒女篮，身披28号球衣代表球队征战2026-2027赛季中国女子篮球联赛(WCBA)部分比赛。",
+            "id": "aebd2c4a73a684a40c266c01d",
+            "title": "【体坛快讯】吉诺·提提库、殷若宁领衔挥杆 2026LPGA锦标赛将开赛",
+            "originalTitle": "吉诺·提提库、殷若宁领衔挥杆 2026LPGA锦标赛将开赛",
+            "summary": "中新网上海10月13日电 (记者 缪璐)2026别克LPGA(美国女子职业高尔夫巡回赛)锦标赛13日在上海佘山国际高尔夫俱乐部举行赛事发布会。本届赛事将于10月15日至18日展开四轮角逐，共吸引来自17个国家和地区的81位球员出战，其中不乏吉诺·提提库(Jeeno Thitikul)、殷若宁等冠军球员。",
             "source": {
               "name": "中新网·体育焦点"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aba56a2fe26429ba2e520f93f",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10713605.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/aebd2c4a73a684a40c266c01d",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10714033.shtml"
             },
-            "publishedAt": "2026-10-13T03:28:41.000Z",
-            "discoveredAt": "2026-10-13T04:45:13.148Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aba56a2fe26429ba2e520f93f"
-            }
-          },
-          {
-            "id": "ac96d874644c3c8cf72546cf2",
-            "title": "【体坛快讯】2026上海网球大师赛：阿尔卡拉斯爆冷出局 赞郑钦文是“顶尖球员”",
-            "originalTitle": "2026上海网球大师赛：阿尔卡拉斯爆冷出局 赞郑钦文是“顶尖球员”",
-            "summary": "中新网上海10月13日电 (记者 缪璐)2026上海网球大师赛单打赛场12日晚间爆出冷门，赛会2号种子、西班牙名将卡洛斯·阿尔卡拉斯以大比分0：2不敌比利时选手齐祖·贝尔赫斯，爆冷出局，无缘16强。",
-            "source": {
-              "name": "中新网·体育焦点"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac96d874644c3c8cf72546cf2",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10713604.shtml"
-            },
-            "publishedAt": "2026-10-13T03:27:47.000Z",
-            "discoveredAt": "2026-10-13T04:45:13.331Z",
+            "publishedAt": "2026-10-13T13:49:57.000Z",
+            "discoveredAt": "2026-10-13T14:10:00.816Z",
             "category": "business",
             "score": 98,
             "selected": true,
             "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac96d874644c3c8cf72546cf2"
+              "url": "https://zenglian-news.onrender.com/items/aebd2c4a73a684a40c266c01d"
             }
           },
           {
-            "id": "a39600b945d2584d5d00f9c90",
-            "title": "【体坛快讯】CBA新赛季常规赛恢复46轮 执行升降级制度",
-            "originalTitle": "CBA新赛季常规赛恢复46轮 执行升降级制度",
-            "summary": "中新网北京10月13日电(记者 国璇) 2026-2027赛季中国男子篮球职业联赛(以下简称“CBA联赛”)新闻发布会12日在北京举行，新赛季联赛常规赛将恢复为46轮，首轮比赛将于10月16日开启，且将执行升降级制度。",
+            "id": "a92e7d7b9ae92bc9cb1c39ef2",
+            "title": "【体坛快讯】2026年全国中南区射击锦标赛（步手枪项目）在广州收官",
+            "originalTitle": "2026年全国中南区射击锦标赛（步手枪项目）在广州收官",
+            "summary": "中新网广州10月13日电 (记者 张璐)记者13日从广东省黄村体育训练中心获悉，2026年全国中南区射击锦标赛(步手枪项目)(简称“赛事”)13日在广东省黄村体育训练中心收官。",
             "source": {
               "name": "中新网·体育焦点"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a39600b945d2584d5d00f9c90",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10713538.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a92e7d7b9ae92bc9cb1c39ef2",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10714067.shtml"
             },
-            "publishedAt": "2026-10-13T01:44:07.000Z",
-            "discoveredAt": "2026-10-13T02:05:31.671Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a39600b945d2584d5d00f9c90"
-            }
-          },
-          {
-            "id": "a252e4937f313dfd52f760d01",
-            "title": "【体坛快讯】陕西省三人篮球联赛总决赛西安收官",
-            "originalTitle": "陕西省三人篮球联赛总决赛西安收官",
-            "summary": "中新网西安10月13日电 (记者 党田野 张一辰)陕西省第三届三人篮球联赛总决赛12日晚在西安落下帷幕，这场为期三日的大众篮球盛会圆满收官。",
-            "source": {
-              "name": "中新网·体育焦点"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a252e4937f313dfd52f760d01",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10713665.shtml"
-            },
-            "publishedAt": "2026-10-13T06:47:58.000Z",
-            "discoveredAt": "2026-10-13T07:03:49.495Z",
+            "publishedAt": "2026-10-13T14:31:25.000Z",
+            "discoveredAt": "2026-10-13T15:06:20.493Z",
             "category": "business",
             "score": 97,
             "selected": true,
             "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a252e4937f313dfd52f760d01"
+              "url": "https://zenglian-news.onrender.com/items/a92e7d7b9ae92bc9cb1c39ef2"
             }
           },
           {
-            "id": "a75a472c870b357d691ec48b7",
-            "title": "【体坛快讯】2026年U15女子垒球亚洲杯在山东威海开赛",
-            "originalTitle": "2026年U15女子垒球亚洲杯在山东威海开赛",
-            "summary": "中新网威海10月13日电 (王娇妮 谢菁)2026年U15女子垒球亚洲杯12日在山东威海高新区手曲垒球运动基地主赛场开赛，吸引来自8个国家和地区的青少年队伍参赛。",
+            "id": "a0b5b3099b7f9a6003e820167",
+            "title": "【体坛快讯】2026世界海岸赛艇锦标赛在青岛收官",
+            "originalTitle": "2026世界海岸赛艇锦标赛在青岛收官",
+            "summary": "中新社青岛10月13日电 (王禹)2026世界海岸赛艇锦标赛13日在山东青岛西海岸新区收官。美国队夺得3金2银，获颁象征赛事团体最高荣誉的国家联合会奖杯。中国组合张媛媛/孙露萍获得女子双人双桨项目金牌。",
             "source": {
               "name": "中新网·体育焦点"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a75a472c870b357d691ec48b7",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10713641.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a0b5b3099b7f9a6003e820167",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10714020.shtml"
             },
-            "publishedAt": "2026-10-13T05:42:42.000Z",
-            "discoveredAt": "2026-10-13T07:03:49.708Z",
+            "publishedAt": "2026-10-13T13:45:52.000Z",
+            "discoveredAt": "2026-10-13T14:10:00.993Z",
             "category": "business",
             "score": 97,
             "selected": true,
             "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a75a472c870b357d691ec48b7"
+              "url": "https://zenglian-news.onrender.com/items/a0b5b3099b7f9a6003e820167"
+            }
+          },
+          {
+            "id": "a0ff87412ffb8a115737c2e12",
+            "title": "【体坛快讯】2026环广西公路自行车世界巡回赛开赛",
+            "originalTitle": "2026环广西公路自行车世界巡回赛开赛",
+            "summary": "中新社广西崇左10月13日电 (黄令妍)2026环广西公路自行车世界巡回赛(“环广西世巡赛”)13日在位于中越边境的崇左市开赛。22支世界顶级车队集结，创造该项赛事参赛车队最多的纪录。",
+            "source": {
+              "name": "中新网·体育焦点"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0ff87412ffb8a115737c2e12",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10713984.shtml"
+            },
+            "publishedAt": "2026-10-13T12:56:58.000Z",
+            "discoveredAt": "2026-10-13T14:10:01.168Z",
+            "category": "business",
+            "score": 97,
+            "selected": true,
+            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0ff87412ffb8a115737c2e12"
+            }
+          },
+          {
+            "id": "af5aacf47ba413e433fbf09bc",
+            "title": "【体坛快讯】2026世界网球大师赛MT100上海站开赛 中外民间网球高手同场竞技",
+            "originalTitle": "2026世界网球大师赛MT100上海站开赛 中外民间网球高手同场竞技",
+            "summary": "中新网上海10月13日电 (记者 缪璐)在2026上海网球大师赛激战正酣之际，一项云集国内外民间网球高手的大师赛也在上海精彩上演。",
+            "source": {
+              "name": "中新网·体育焦点"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/af5aacf47ba413e433fbf09bc",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10713976.shtml"
+            },
+            "publishedAt": "2026-10-13T12:56:32.000Z",
+            "discoveredAt": "2026-10-13T14:10:01.343Z",
+            "category": "business",
+            "score": 95,
+            "selected": true,
+            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/af5aacf47ba413e433fbf09bc"
             }
           }
         ]
@@ -1210,7 +1210,7 @@
     "key": "2026-10",
     "title": "曾练全球一手简报 · 月度产业全景报告 (2026年10月)",
     "subtitle": "30天六大实时Top20赛道全景洞察与高价值搞钱机会总结",
-    "overview": "文化产业出海与中非物流通道双线提速，AI投资热潮下“伪应用”与Agent四象限分野渐明，企业级落地仍待深耕。具身智能赛事登场、AI短剧全链出海，科技与文体加速融合。女篮李月汝归乡、CBA恢复升降级、网坛新星爆冷，竞技格局生变。全球风向：务实创新者胜。",
+    "overview": "海河流域AI预报每6分钟更新，具身智能成新风口：DeepSeek布局具身大脑，魔法原子夺全球第一，华为哈勃押注98年博士。千问连发三款Personal Agent硬件，AI眼镜耳机竞逐入口。中国车企巴黎车展独占三成，反攻德系腹地。东亚做题家用AI反向“卷”向全球，Shopify智能体潜力待释放。2026 LPGA锦标赛将启，殷若宁领衔挥杆。",
     "metrics": {
       "totalEvents": 36,
       "sourcesCount": 30,
@@ -1221,29 +1221,6 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
-          {
-            "id": "a72b4df2fb58d57166bfb9639",
-            "title": "【全球热榜】历史性超越：中国2024年研发支出首超美国登顶全球",
-            "originalTitle": "China Overtakes U.S. For First Time as Top Spender on R&D in 2024",
-            "summary": "最新数据显示，中国2024年研发总支出首次超越美国，成为全球研发投入最高的国家。这一里程碑标志着全球科技竞争格局的重大转变，引发硅谷和全球极客热议，话题热度迅速破百。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a72b4df2fb58d57166bfb9639",
-              "original": "https://japannews.yomiuri.co.jp/science-nature/science/20260908-347742/"
-            },
-            "publishedAt": "2026-10-13T02:25:00.000Z",
-            "discoveredAt": "2026-10-13T05:45:02.493Z",
-            "category": "global",
-            "score": 95,
-            "selected": true,
-            "reason": "研发投入登顶，中美科技竞争进入新阶段。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a72b4df2fb58d57166bfb9639"
-            }
-          },
           {
             "id": "ab351a00dc7f181480fd2faa0",
             "title": "【BBC全球】乌克兰前总司令首度发声：俄罗斯进攻能力已被打断",
@@ -1268,95 +1245,118 @@
             }
           },
           {
-            "id": "aa12d58c808670a728835f25f",
-            "title": "【全球热榜】AI模型被证明可刻意隐藏任意能力",
-            "originalTitle": "AI Models Can Provably Hide Arbitrary Capabilities",
-            "summary": "最新研究证明，AI模型能在训练与评估中系统性地隐藏任意能力，仅在被特定触发时激活。这一发现直接冲击当前依赖测试与红队评估的AI安全体系，意味着模型可表面合规、暗中保留危险功能，对全球AI监管与对齐研究构成根本挑战。（来源：X/HN·全球热榜Top）",
+            "id": "a62bd696cc9f92d9fcf295855",
+            "title": "新任白宫新闻秘书首次记者会",
+            "originalTitle": "新任白宫新闻秘书首次记者会",
+            "summary": "今天（10月13日），美国新任白宫新闻秘书凯蒂·扎卡里亚进行首次记者会。白宫新闻秘书这一职务在莱维特8月底离职后一直空缺。美国总统特朗普当地时间10月9日在社交媒体上宣布，任命保守派评论员扎卡里亚接任莱维特。扎卡里亚此前是特朗普媒体科技集团旗下“真实社交”网站的高级通讯顾问，还曾任国土安全部发言人兼公共事务副助理部长。（CCTV国际时讯）",
             "source": {
-              "name": "X/HN·全球热榜Top"
+              "name": "界面新闻·国内政经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa12d58c808670a728835f25f",
-              "original": "https://arxiv.org/abs/2610.13928"
+              "aihot": "https://zenglian-news.onrender.com/items/a62bd696cc9f92d9fcf295855",
+              "original": "https://www.jiemian.com/article/15186179.html"
             },
-            "publishedAt": "2026-10-13T02:07:08.000Z",
-            "discoveredAt": "2026-10-13T07:02:32.282Z",
+            "publishedAt": "2026-10-13T14:29:21.000Z",
+            "discoveredAt": "2026-10-13T15:05:00.661Z",
             "category": "global",
             "score": 93,
             "selected": true,
-            "reason": "AI安全评估的根基被正面撼动",
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa12d58c808670a728835f25f"
+              "url": "https://zenglian-news.onrender.com/items/a62bd696cc9f92d9fcf295855"
             }
           },
           {
-            "id": "a22ca8f4d4780451cca11ee17",
-            "title": "【全球热榜】80岁血液细胞逆龄重编程为干细胞，分子年龄不到20岁",
-            "originalTitle": "Blood cells from 80-year-old donor become stem cells with molecular age under 20",
-            "summary": "科学家将80岁供体血细胞重编程为诱导多能干细胞，其分子年龄指标低于20岁。这颠覆了细胞衰老不可逆的传统认知，为再生医学和抗衰老研究开辟了新路径，也引发伦理与安全性的讨论。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a22ca8f4d4780451cca11ee17",
-              "original": "https://doi.org/10.1111/acel.70751"
-            },
-            "publishedAt": "2026-10-12T23:34:22.000Z",
-            "discoveredAt": "2026-10-13T02:19:15.492Z",
-            "category": "global",
-            "score": 93,
-            "selected": true,
-            "reason": "细胞逆龄突破，抗衰老与再生医学新纪元",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a22ca8f4d4780451cca11ee17"
-            }
-          },
-          {
-            "id": "ae025641111332fd5f8b565da",
-            "title": "【国际巨头】马斯克豪掷2.76亿美元押注中期选举，成共和党最大金主",
-            "originalTitle": "Elon Musk has donated over $276 million to Republican midterm efforts",
-            "summary": "《纽约时报》披露，自7月以来，马斯克已向共和党团体捐赠至少2.76亿美元，成为本次中期选举周期最大个人政治捐款人。此举与其此前“减少政治支出”的表态相悖，凸显其深度介入政治、影响科技与商业政策走向的意图。（来源：The Verge·国际巨头）",
-            "source": {
-              "name": "The Verge·国际巨头"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae025641111332fd5f8b565da",
-              "original": "https://www.theverge.com/tech/1009604/elon-musk-2026-midterm-republican-donations"
-            },
-            "publishedAt": "2026-10-12T16:52:54.000Z",
-            "discoveredAt": "2026-10-12T17:57:09.254Z",
-            "category": "global",
-            "score": 92,
-            "selected": true,
-            "reason": "科技巨头政治豪赌，金额创纪录，影响深远。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae025641111332fd5f8b565da"
-            }
-          },
-          {
-            "id": "a85027603aa9f81e873fcecb2",
-            "title": "【CNBC全球】IMF警告：全球债市风险加剧，收益率或无序飙升",
-            "originalTitle": "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen",
-            "summary": "国际货币基金组织（IMF）警告称，政府债券市场风险已进一步恶化，收益率可能急剧且无序跳升。此举背景是全球债务水平高企、通胀风险持续，市场对财政可持续性担忧加深。（来源：CNBC·全球政经）",
+            "id": "aca6174086f0a0e3610e59b0e",
+            "title": "【CNBC全球】中国存储芯片黑马CXMT新设计突破，引发全球芯片股暴跌",
+            "originalTitle": "Why this little known Chinese chipmaker has caused a global stock rout",
+            "summary": "中国领先存储芯片制造商长鑫存储（CXMT）据报在新设计上取得进展，令市场担忧供应格局生变。消息引发全球芯片股抛售，费城半导体指数一度跌超3%，三星、SK海力士等巨头股价重挫，投资者恐慌中国产能崛起将冲击现有市场秩序。（来源：CNBC·全球政经）",
             "source": {
               "name": "CNBC·全球政经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a85027603aa9f81e873fcecb2",
-              "original": "https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html"
+              "aihot": "https://zenglian-news.onrender.com/items/aca6174086f0a0e3610e59b0e",
+              "original": "https://www.cnbc.com/2026/10/13/cxmt-memory-chip-stock-rout.html"
             },
-            "publishedAt": "2026-10-13T03:19:43.000Z",
-            "discoveredAt": "2026-10-13T04:43:49.280Z",
+            "publishedAt": "2026-10-13T12:41:56.000Z",
+            "discoveredAt": "2026-10-13T14:07:39.595Z",
             "category": "global",
-            "score": 91,
+            "score": 93,
             "selected": true,
-            "reason": "全球债市警报拉响，无序飙升恐冲击所有资产",
+            "reason": "中国存储突破撼动全球芯片格局",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a85027603aa9f81e873fcecb2"
+              "url": "https://zenglian-news.onrender.com/items/aca6174086f0a0e3610e59b0e"
+            }
+          },
+          {
+            "id": "a928025229815d0c89be86b54",
+            "title": "【国际巨头】苹果发布新款Apple TV 4K：A19芯片加持，四年首更11月13日开售",
+            "originalTitle": "Where to preorder the new Apple TV 4K",
+            "summary": "苹果正式推出新一代Apple TV 4K，这是自2020年以来的首次重大更新，搭载A19芯片，性能远超已停产的2022款A15 Bionic机型。新品将于11月13日（周五）开启预售，并带来多项功能升级。（来源：The Verge·国际巨头）",
+            "source": {
+              "name": "The Verge·国际巨头"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a928025229815d0c89be86b54",
+              "original": "https://www.theverge.com/gadgets/1009921/apple-tv-4k-2026-preorder-buy"
+            },
+            "publishedAt": "2026-10-13T13:26:40.000Z",
+            "discoveredAt": "2026-10-13T14:08:12.792Z",
+            "category": "global",
+            "score": 90,
+            "selected": true,
+            "reason": "性能翻倍，智能家居中枢再进化",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a928025229815d0c89be86b54"
+            }
+          },
+          {
+            "id": "a1f598312d1296e9fd3322928",
+            "title": "【国际巨头】苹果发布HomeView智能家居中枢，\"欢迎回家\"活动揭晓",
+            "originalTitle": "Watch Apple’s reveal video for the HomeView",
+            "summary": "苹果在今日\"欢迎回家\"活动中正式推出传闻已久的智能家居中枢HomeView，并播放了产品展示视频。该设备被视为苹果拓展智能家居生态的核心产品，但具体售价和发售日期尚未公布。（来源：The Verge·国际巨头）",
+            "source": {
+              "name": "The Verge·国际巨头"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a1f598312d1296e9fd3322928",
+              "original": "https://www.theverge.com/1008810/apple-homeview-reveal-video-watch"
+            },
+            "publishedAt": "2026-10-13T13:14:27.000Z",
+            "discoveredAt": "2026-10-13T14:08:15.566Z",
+            "category": "global",
+            "score": 90,
+            "selected": true,
+            "reason": "苹果正式入局智能家居中枢，生态卡位战打响",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a1f598312d1296e9fd3322928"
+            }
+          },
+          {
+            "id": "ac8f459728f662c1c350ad4c1",
+            "title": "【全球热榜】苹果秘密项目HomeView曝光：智能家居新入口引硅谷热议",
+            "originalTitle": "Apple HomeView",
+            "summary": "苹果代号HomeView的神秘项目在X和HN热榜曝光，赞数破百。该项目或为智能家居中枢，整合HomeKit与AI视觉。硅谷领袖与极客热议其可能颠覆家庭交互，成为苹果下一个增长点。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ac8f459728f662c1c350ad4c1",
+              "original": "https://www.apple.com/apple-homeview/"
+            },
+            "publishedAt": "2026-10-13T13:02:12.000Z",
+            "discoveredAt": "2026-10-13T15:04:51.404Z",
+            "category": "global",
+            "score": 90,
+            "selected": true,
+            "reason": "苹果新入口，智能家居战局生变",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ac8f459728f662c1c350ad4c1"
             }
           }
         ]
@@ -1366,141 +1366,141 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "a58fb2aed6211d39acf72a039",
-            "title": "【国内要闻】华强方特“熊出没”携手义乌 制造探索文化产业出海新路径",
-            "originalTitle": "华强方特“熊出没”携手义乌 制造探索文化产业出海新路径",
-            "summary": "2026年10月11日，“民族的就是世界的——‘熊出没’走进全球货架”——熊出没IP与义乌制造产业融合发布会暨旗舰店开业庆典在义乌隆重举行。华强方特旗下国民级动漫IP“熊出没”正式落地义乌，与当地产业伙伴共同开启IP授权与义乌制造深度融合新篇章。",
+            "id": "a5666570a45fc34b653e6fa6b",
+            "title": "【国内要闻】海河流域AI短临预报模型在天津发布 每6分钟更新未来3小时预报",
+            "originalTitle": "海河流域AI短临预报模型在天津发布 每6分钟更新未来3小时预报",
+            "summary": "中新网天津10月13日电 (薛淳月 周亚强)“智象-司南”海河流域AI短临预报模型12日在天津发布。该模型每6分钟滚动更新未来3小时雷达回波、降水和风场预报，空间分辨率达1公里，目前已在国内多地以及巴基斯坦、蒙古国等地试用。",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a58fb2aed6211d39acf72a039",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-13/10713726.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a5666570a45fc34b653e6fa6b",
+              "original": "https://www.chinanews.com.cn/sh/2026/10-13/10714079.shtml"
             },
-            "publishedAt": "2026-10-13T06:57:48.000Z",
-            "discoveredAt": "2026-10-13T07:02:37.351Z",
+            "publishedAt": "2026-10-13T14:48:56.000Z",
+            "discoveredAt": "2026-10-13T15:04:58.840Z",
             "category": "domestic",
             "score": 99,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a58fb2aed6211d39acf72a039"
+              "url": "https://zenglian-news.onrender.com/items/a5666570a45fc34b653e6fa6b"
             }
           },
           {
-            "id": "afc04dee345d5c6a2ac40ea0c",
-            "title": "【国内要闻】今年前三季度烟台港中非件杂货班轮航线运量突破800万吨",
-            "originalTitle": "今年前三季度烟台港中非件杂货班轮航线运量突破800万吨",
-            "summary": "中新网烟台10月13日电 (王娇妮 邹常焜)记者13日从山东港口烟台港获悉，今年前三个季度，该港中非件杂货班轮航线运量突破800万吨，同比增长93%，创2015年航线开通以来历史新高。",
+            "id": "a89db09890012e6a3c278c8d0",
+            "title": "美股超大规模云厂商集体上涨，微软股价续刷新高",
+            "originalTitle": "美股超大规模云厂商集体上涨，微软股价续刷新高",
+            "summary": "10月13日，微软、谷歌等美股超大规模云厂商集体上涨。谷歌-A股价上涨1.07%，报356.510美元/股，总市值报4.36万亿美元。微软股价上涨1.6%，报549.795美元/股，续刷记录新高，总市值报4.08万亿美元。亚马逊股价上涨0.93%，报261.950美元/股，总市值报2.83万亿美元。",
             "source": {
-              "name": "中新网·国内要闻"
+              "name": "界面新闻·国内政经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/afc04dee345d5c6a2ac40ea0c",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-13/10713680.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a89db09890012e6a3c278c8d0",
+              "original": "https://www.jiemian.com/article/15186085.html"
             },
-            "publishedAt": "2026-10-13T06:52:00.000Z",
-            "discoveredAt": "2026-10-13T07:02:38.175Z",
+            "publishedAt": "2026-10-13T13:42:08.000Z",
+            "discoveredAt": "2026-10-13T14:08:20.995Z",
             "category": "domestic",
             "score": 99,
             "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/afc04dee345d5c6a2ac40ea0c"
+              "url": "https://zenglian-news.onrender.com/items/a89db09890012e6a3c278c8d0"
             }
           },
           {
-            "id": "a984cebfe45873f6d64798272",
-            "title": "【国内要闻】我国服务业数智化改造加速落地",
-            "originalTitle": "我国服务业数智化改造加速落地",
-            "summary": "央视网消息(新闻联播)：今年以来，我国加快推进服务业数智化改造升级，数智化工具广泛应用于商贸、交通、物流、生活服务等多个领域，既优化群众消费体验、提升市场运行效率，也催生出新业态、新潜力。",
+            "id": "ae6ad0fd2c9b58fab81e92277",
+            "title": "【国内要闻】大型原创历史舞台剧《大儒张载》升级版亮相第十一届陕西省艺术节",
+            "originalTitle": "大型原创历史舞台剧《大儒张载》升级版亮相第十一届陕西省艺术节",
+            "summary": "中新网西安10月13日电 (记者 阿琳娜)千年之前，北宋大儒张载在关中大地发出了“为天地立心，为生民立命，为往圣继绝学，为万世开太平”的千秋宏愿。千年之后，在张载思想的诞生之地，一群青年学子正以戏剧的方式，回应着这位先贤跨越时空的“立心”之问。",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a984cebfe45873f6d64798272",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-13/10713721.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/ae6ad0fd2c9b58fab81e92277",
+              "original": "https://www.chinanews.com.cn/cul/2026/10-13/10714082.shtml"
             },
-            "publishedAt": "2026-10-13T06:57:32.000Z",
-            "discoveredAt": "2026-10-13T07:02:37.558Z",
+            "publishedAt": "2026-10-13T14:57:50.000Z",
+            "discoveredAt": "2026-10-13T15:04:58.532Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a984cebfe45873f6d64798272"
+              "url": "https://zenglian-news.onrender.com/items/ae6ad0fd2c9b58fab81e92277"
             }
           },
           {
-            "id": "a9b1e9f18e718024c24c0bc2c",
-            "title": "【国内要闻】西渝高铁缪家梁特大桥顺利合龙 最高墩达103.5米",
-            "originalTitle": "西渝高铁缪家梁特大桥顺利合龙 最高墩达103.5米",
-            "summary": "中新网重庆10月13日电 (记者 何蓬磊)记者13日从京昆高速铁路西昆有限公司获悉，12日，随着最后一方混凝土浇筑完成，西渝高铁康渝段首座百米高墩大桥——缪家梁特大桥顺利合龙，为全线如期通车奠定了坚实基础。",
+            "id": "aeda6ac0166b4b5f19e2c85fb",
+            "title": "【国内要闻】新兴市场客商组团赴浙江金华“淘货” 意向订单超1亿元",
+            "originalTitle": "新兴市场客商组团赴浙江金华“淘货” 意向订单超1亿元",
+            "summary": "中新网金华10月13日电(蓝伊旎)10月12日至13日，2026“金贸全球”供采对接会(俄罗斯、中亚专场)在浙江金华举办。现场签约项目金额超3000万元(人民币，下同)，达成意向订单约1.12亿元，覆盖智能家居、五金智造、医疗器械等领域。",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9b1e9f18e718024c24c0bc2c",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-13/10713681.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/aeda6ac0166b4b5f19e2c85fb",
+              "original": "https://www.chinanews.com.cn/aseaninfo/2026/10-13/10714081.shtml"
             },
-            "publishedAt": "2026-10-13T06:55:32.000Z",
-            "discoveredAt": "2026-10-13T07:02:37.763Z",
+            "publishedAt": "2026-10-13T14:56:00.000Z",
+            "discoveredAt": "2026-10-13T15:04:58.633Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9b1e9f18e718024c24c0bc2c"
+              "url": "https://zenglian-news.onrender.com/items/aeda6ac0166b4b5f19e2c85fb"
             }
           },
           {
-            "id": "a5dc17278113a208c23cfecf5",
-            "title": "华为徐松余：下一代麒麟 2027 芯片就绪，未来 10 年（逻辑折叠）演进可持续",
-            "originalTitle": "华为徐松余：下一代麒麟 2027 芯片就绪，未来 10 年（逻辑折叠）演进可持续",
-            "summary": "IT之家 10 月 13 日现场消息，华为今日（10 月 13 日）在上海练秋湖举办 2026 麒麟媒体沟通会，华为半导体业务无线终端芯片产品管理部部长徐松余发表演讲。 徐松余今日首次公布逻辑折叠韬芯片麒麟 9050 Pro 详细架构图，包括新一代灵犀 CPU、马良 GPU、达芬奇架构 NPU、麒麟 AI ISP、Balong AI Modem、FFTS 函数流任务调度器、音视频处理器、安全处理器和灵犀微核协同工作。 IT之家注意到，徐...",
+            "id": "acb998cb0dc8bf747dcb17f8e",
+            "title": "【国内要闻】雄安新区首单“保税+TIR”业务启运",
+            "originalTitle": "雄安新区首单“保税+TIR”业务启运",
+            "summary": "中新网雄安10月13日电 (赵丹媚 韩冰)13日，一辆国际公路运输车辆进入雄安综合保税区完成装卸后办结海关手续，从雄安综合保税区卡口驶出。车上装载近30万元货物，将经满洲里口岸出境，直达俄罗斯符拉迪沃斯托克。这是雄安新区首单“保税+TIR”业务。",
             "source": {
-              "name": "IT之家·国内产业"
+              "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a5dc17278113a208c23cfecf5",
-              "original": "https://www.ithome.com/1/012/289.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/acb998cb0dc8bf747dcb17f8e",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-13/10714074.shtml"
             },
-            "publishedAt": "2026-10-13T05:26:06.000Z",
-            "discoveredAt": "2026-10-13T05:45:11.349Z",
+            "publishedAt": "2026-10-13T14:45:34.000Z",
+            "discoveredAt": "2026-10-13T15:04:58.940Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a5dc17278113a208c23cfecf5"
+              "url": "https://zenglian-news.onrender.com/items/acb998cb0dc8bf747dcb17f8e"
             }
           },
           {
-            "id": "a8174bf76b2282a8f988e614a",
-            "title": "【国内财经】陕西省秋粮收获进程过半",
-            "originalTitle": "陕西省秋粮收获进程过半",
-            "summary": "中新网西安10月13日电 (记者 李一璠)记者13日从陕西省农业农村厅获悉，截至10月12日，陕西省累计收获秋粮1692.09万亩，占应收面积的56.87%；秋播小麦490.87万亩，占预播面积的34.69%，秋收秋播各项工作有力有序推进。",
+            "id": "aacb1cab53976177bad80bae4",
+            "title": "【国内财经】京津冀首趟“一单制”国际铁公联运班列石家庄首发",
+            "originalTitle": "京津冀首趟“一单制”国际铁公联运班列石家庄首发",
+            "summary": "中新社石家庄10月13日电 (赵丹媚 余陈军)满载110个标准集装箱的“京铁燕赵班列·石家庄陆港号”13日从石家庄国际陆港启程，驶向新疆喀什。该班列是京津冀地区首次以物流总包“一单制”模式运营的国际铁公联运班列，为京津冀外贸企业开辟出连接中亚的新通道。",
             "source": {
               "name": "中新网·国内财经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a8174bf76b2282a8f988e614a",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-13/10713660.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/aacb1cab53976177bad80bae4",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-13/10714073.shtml"
             },
-            "publishedAt": "2026-10-13T06:46:48.000Z",
-            "discoveredAt": "2026-10-13T07:02:38.419Z",
+            "publishedAt": "2026-10-13T14:42:13.000Z",
+            "discoveredAt": "2026-10-13T15:04:59.155Z",
             "category": "domestic",
-            "score": 96,
+            "score": 97,
             "selected": true,
             "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a8174bf76b2282a8f988e614a"
+              "url": "https://zenglian-news.onrender.com/items/aacb1cab53976177bad80bae4"
             }
           }
         ]
@@ -1510,141 +1510,141 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
-            "id": "a74dc2c76eab7fcbe4dd3ed47",
-            "title": "AI替我干活，我替AI善后？龙虾都给我的C盘留下了啥？",
-            "originalTitle": "AI替我干活，我替AI善后？龙虾都给我的C盘留下了啥？",
-            "summary": "AI帮我干活，结果我还得帮AI擦屁股？前两天C盘爆满，一顿清理才发现&ldquo;star office UI&rdquo;文件夹，居然是当年装龙虾AI办公插件剩下的垃圾。",
+            "id": "a646d7b19a9317555a31bb5c2",
+            "title": "一群东亚做题家，用 AI 反向输出 “卷”：韩国第一、越南第一、北美前五",
+            "originalTitle": "一群东亚做题家，用 AI 反向输出 “卷”：韩国第一、越南第一、北美前五",
+            "summary": "本文来自微信公众号： 针尖 ，作者：年纪轻轻干这个，原文标题：《一群东亚做题家，用 AI 反向输出 “卷”：韩国第一、越南第一、北美前五》 一个反直觉的现象：当中国人开始反思中式教育的内卷压力时，一批中国、韩国的教育创业者，正借助AI技术的助力，把东亚这套被骂了多年的\"应试训练能力\"，打包成一个个APP，反向卖到全世界——而且卖得极好。 韩国成人教育产品Speaker，2024年下半年才上线，不仅拿到了Accel 7800万美元融资，仅...",
             "source": {
               "name": "虎嗅网·商业搞钱深度"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a74dc2c76eab7fcbe4dd3ed47",
-              "original": "https://www.huxiu.com/article/4895849.html?f=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/a646d7b19a9317555a31bb5c2",
+              "original": "https://www.huxiu.com/article/4897260.html?f=rss"
             },
-            "publishedAt": "2026-10-13T07:00:00.000Z",
-            "discoveredAt": "2026-10-13T07:03:09.838Z",
+            "publishedAt": "2026-10-13T13:55:12.000Z",
+            "discoveredAt": "2026-10-13T14:08:39.500Z",
             "category": "money",
             "score": 99,
             "selected": true,
             "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a74dc2c76eab7fcbe4dd3ed47"
+              "url": "https://zenglian-news.onrender.com/items/a646d7b19a9317555a31bb5c2"
             }
           },
           {
-            "id": "af456d760043c997cb296bf7d",
-            "title": "“脱裤子放屁”的AI应用，正在批量拿走VC的钱",
-            "originalTitle": "“脱裤子放屁”的AI应用，正在批量拿走VC的钱",
-            "summary": "本文来自微信公众号： AI故事计划 ，编辑：张霞，作者：田密，原文标题：《「脱裤子放屁」的AI应用，正在批量拿走VC的钱》 \" 功能鸡不鸡肋先放一边，至少能让买它的人证明，2026年了自己还在读纸质书，怎么不算是一件大功德呢？ 不得不感叹一句，“脱裤子放屁式”AI产品真正重新发明的，不是书签、项链和故事机，是收费方式。 5月15日，纽约布鲁克林，设计事务所COLLINS的图书室里挤进了上百位黑衣人。他们个个黑裤子、黑T恤，围着一张长桌站...",
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af456d760043c997cb296bf7d",
-              "original": "https://www.huxiu.com/article/4897089.html?f=rss"
-            },
-            "publishedAt": "2026-10-13T06:40:04.000Z",
-            "discoveredAt": "2026-10-13T07:03:10.455Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af456d760043c997cb296bf7d"
-            }
-          },
-          {
-            "id": "ab1086d11ec0d40933dd15896",
-            "title": "字节掘金者：最贵的是光环",
-            "originalTitle": "字节掘金者：最贵的是光环",
-            "summary": "本文来自微信公众号： AI闹 ，作者：AI闹，题图来自：视觉中国 围猎 2026年，字节系创业者的估值&ldquo;腰斩&rdquo;。 一个字节系 4-1 （总监级） 的天使轮融资额度是 200 万美元&mdash;&mdash;而一年前是 400 万美元起。一方面源于 AI 应用遇冷 （字节系绝大部分创业者方向是 AI 应用） ，一方面竞争窗口也在急速关闭， &ldquo;该出来的都出来了，资本开始反向排查创业动机，到底是主动想创业...",
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab1086d11ec0d40933dd15896",
-              "original": "https://www.huxiu.com/article/4897049.html?f=rss"
-            },
-            "publishedAt": "2026-10-13T05:00:42.000Z",
-            "discoveredAt": "2026-10-13T05:45:31.549Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab1086d11ec0d40933dd15896"
-            }
-          },
-          {
-            "id": "aa4b1f2b2d2dc17c77e262678",
-            "title": "企业级AI离深度应用还有很多路要走丨ToB产业观察",
-            "originalTitle": "企业级AI离深度应用还有很多路要走丨ToB产业观察",
-            "summary": "如今，企业在应用AI过程中往往会面对一个困局，一边是AI应用率不断攀升，另一边是回报率迟迟跟不上脚步。企业在AI方面的投资在不断增加，工具的能力也在不断提升，但真正的价值兑现，似乎还隔着一道看不见的墙。 德勤中国与香港大学人工智能、管理与组织研究中心联合发布的《决策者视角下的企业AI应用》（以下简称《报告》）显示，进入生产部署阶段的企业占比已从2025年的56.0%升至64.4%，跨多个团队部署AI的企业从14.7%升至33.7%。然而...",
+            "id": "a6d8fe2bb9852b0fb1de9e9ce",
+            "title": "Shopify有望凭借AI智能体大获成功，但这可能需要时间",
+            "originalTitle": "Shopify有望凭借AI智能体大获成功，但这可能需要时间",
+            "summary": "（本文作者为 Barrons巴伦，钛媒体经授权发布） 电商公司Shopify从长远来看有望在人工智能代理的推动下大获其利&mdash;&mdash;投资者也开始相信这一点。 尽管市场曾因Meta推出AI购物代理Muse而对Shopify的未来产生担忧，但分析师们认为Shopify将成为AI平台的首选结账引擎。德意志银行的分析师重申了对Shopify的&ldquo;买入&rdquo;评级，预计该股将继续上涨。 随着Shopify致力于简化...",
             "source": {
               "name": "钛媒体·资本与风口"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa4b1f2b2d2dc17c77e262678",
-              "original": "https://www.tmtpost.com/8166594.html"
+              "aihot": "https://zenglian-news.onrender.com/items/a6d8fe2bb9852b0fb1de9e9ce",
+              "original": "https://www.tmtpost.com/8167702.html"
             },
-            "publishedAt": "2026-10-13T04:20:39.000Z",
-            "discoveredAt": "2026-10-13T04:44:26.304Z",
+            "publishedAt": "2026-10-13T13:46:13.000Z",
+            "discoveredAt": "2026-10-13T14:08:42.906Z",
             "category": "money",
             "score": 98,
             "selected": true,
             "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa4b1f2b2d2dc17c77e262678"
+              "url": "https://zenglian-news.onrender.com/items/a6d8fe2bb9852b0fb1de9e9ce"
             }
           },
           {
-            "id": "af56c60bbc20faaa81d7d99c9",
-            "title": "AI进展观察｜研发AI Agent四象限：个人与企业、国内与国际",
-            "originalTitle": "AI进展观察｜研发AI Agent四象限：个人与企业、国内与国际",
-            "summary": "（本文作者为 StellaChen，钛媒体经授权发布） 作者介绍： 陈晨，奇安信副总裁、高级工程师、客户战略委员会委员，曾分管数字化与采购。一个浸泡在数字化和智能化行业里的老兵。 同一个工具，两种交付：个人侧是效率外挂，企业侧是要被治理的生产系统。 研发是 AI Agent 商业化最快的赛道。 截至 2026 年中，Anthropic 的 Claude Code 年化收入超过 25 亿美元；Cursor 被 SpaceX 以 600 亿...",
+            "id": "afcf1977a1628f4eb6086281a",
+            "title": "Vertiv及另外5只工业股：财报发布前的投资标的",
+            "originalTitle": "Vertiv及另外5只工业股：财报发布前的投资标的",
+            "summary": "（本文作者为 Barrons巴伦，钛媒体经授权发布） 第三季度工业板块的业绩报告即将出炉，投资者将有机会审视相关趋势，并在迈入2027年之际进一步巩固自己的选股判断。 花旗分析师安德鲁&middot;卡普洛维茨认为，在业绩公布之前先行加仓部分标的存在机会。他看好六只股票在财报发布后作出积极反应，包括数据中心基础设施供应商维谛（Vertiv）。 他指出，短周期需求可能仍在改善，推动稳健的营收增长和韧性的盈利预期。值得关注的风险因素包括持续...",
             "source": {
               "name": "钛媒体·资本与风口"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af56c60bbc20faaa81d7d99c9",
-              "original": "https://www.tmtpost.com/8166418.html"
+              "aihot": "https://zenglian-news.onrender.com/items/afcf1977a1628f4eb6086281a",
+              "original": "https://www.tmtpost.com/8167697.html"
             },
-            "publishedAt": "2026-10-13T04:06:06.000Z",
-            "discoveredAt": "2026-10-13T04:44:26.565Z",
+            "publishedAt": "2026-10-13T13:43:28.000Z",
+            "discoveredAt": "2026-10-13T14:08:43.083Z",
             "category": "money",
             "score": 98,
             "selected": true,
             "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af56c60bbc20faaa81d7d99c9"
+              "url": "https://zenglian-news.onrender.com/items/afcf1977a1628f4eb6086281a"
             }
           },
           {
-            "id": "a08e6442e452c589f576e9dff",
-            "title": "[分享发现] 被 AI 取代之後，我還有用嗎？缓解焦虑。。。。用 opus5.5 做的。",
-            "originalTitle": "[分享发现] 被 AI 取代之後，我還有用嗎？缓解焦虑。。。。用 opus5.5 做的。",
-            "summary": "V2EX·独立开发与副业实时快讯：[分享发现] 被 AI 取代之後，我還有用嗎？缓解焦虑。。。。用 opus5.5 做的。。经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+            "id": "aee0e2562ad03a3d8f650d599",
+            "title": "国内外大厂疯抢Muse入口，但个人Agent仍是伪命题",
+            "originalTitle": "国内外大厂疯抢Muse入口，但个人Agent仍是伪命题",
+            "summary": "本文来自微信公众号： 青橙财经 ，作者：青风，编辑：六子 一个月前，Meta推出个人智能体Muse，舆论把它捧成ChatGPT之后最性感的产品——替你填表、比价、退订、跟客服吵架，关掉App它还在后台替你跑腿。 短短一个月，这场风潮就从硅谷席卷到国内。字节赶工“小豆”，腾讯三条线同时卡位，阿里10月13日刚放出“千问Go！”，蚂蚁内测灵光2.0，连刚融了33亿元的Manus也推出个人应用Cue。 一时间“下一代AI入口”的口号铺天盖地，...",
             "source": {
-              "name": "V2EX·独立开发与副业"
+              "name": "虎嗅网·商业搞钱深度"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a08e6442e452c589f576e9dff",
-              "original": "https://www.v2ex.com/t/1248402#reply0"
+              "aihot": "https://zenglian-news.onrender.com/items/aee0e2562ad03a3d8f650d599",
+              "original": "https://www.huxiu.com/article/4897270.html?f=rss"
             },
-            "publishedAt": "2026-10-13T07:01:44.000Z",
-            "discoveredAt": "2026-10-13T07:03:12.623Z",
+            "publishedAt": "2026-10-13T14:41:37.000Z",
+            "discoveredAt": "2026-10-13T15:05:28.483Z",
             "category": "money",
             "score": 97,
             "selected": true,
-            "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a08e6442e452c589f576e9dff"
+              "url": "https://zenglian-news.onrender.com/items/aee0e2562ad03a3d8f650d599"
+            }
+          },
+          {
+            "id": "ad21e15d3ffe2dab8b98f7030",
+            "title": "科瑞思跨界收购宏钢封装押注光电子，深创投停牌前一月蹊跷减资退场｜并购一线",
+            "originalTitle": "科瑞思跨界收购宏钢封装押注光电子，深创投停牌前一月蹊跷减资退场｜并购一线",
+            "summary": "上市三年，业绩从亿元净利润跌落至扣非亏损，磁环绕线龙头 科瑞思 终于走到了跨界并购这一步。 10月12日晚间，科瑞思（301314.SZ）披露重大资产重组停牌公告，拟以发行股份及支付现金方式收购深圳市宏钢光电封装技术股份有限公司（以下简称&ldquo;宏钢封装&rdquo;）100%股权，同步募集配套资金。 这是科瑞思2023年3月登陆创业板以来的首笔重大资本运作。一边是主业触顶的续命需求，一边是细分标的的退出诉求，一笔典型的创业板次新...",
+            "source": {
+              "name": "钛媒体·资本与风口"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ad21e15d3ffe2dab8b98f7030",
+              "original": "https://www.tmtpost.com/8167551.html"
+            },
+            "publishedAt": "2026-10-13T12:03:14.000Z",
+            "discoveredAt": "2026-10-13T15:05:31.124Z",
+            "category": "money",
+            "score": 97,
+            "selected": true,
+            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ad21e15d3ffe2dab8b98f7030"
+            }
+          },
+          {
+            "id": "a9b8f7809482cdb40a1e9ff00",
+            "title": "茶百道停牌调查：揭秘港股IPO“人为操纵”产业链",
+            "originalTitle": "茶百道停牌调查：揭秘港股IPO“人为操纵”产业链",
+            "summary": "本文来自微信公众号： 凤凰网财经 ，作者：风暴眼 香港证监会罕见地直接出手了。 今天早上9点，港股刚开盘，茶百道的交易状态变成了一行灰字：停牌。 港股盘前的临停，通常意味着“有事”，尤其“停止股份之买卖”这行字前面还有一个主语：“应证监会指令”，但当时没人知道发生了什么。 直到下午香港证监会发布公告，茶百道的首次公开招股涉嫌被人为操纵，意图营造股份需求的虚假表象。 同步披露的还有两大可疑集团的资产冻结令：以孙然为核心的首个集团，涉及9个...",
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a9b8f7809482cdb40a1e9ff00",
+              "original": "https://www.huxiu.com/article/4897272.html?f=rss"
+            },
+            "publishedAt": "2026-10-13T14:51:21.000Z",
+            "discoveredAt": "2026-10-13T15:05:28.384Z",
+            "category": "money",
+            "score": 96,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a9b8f7809482cdb40a1e9ff00"
             }
           }
         ]
@@ -1654,141 +1654,141 @@
         "label": "🤖 AI实时Top20",
         "items": [
           {
-            "id": "a7e5353b2387d8e010392d0ff",
-            "title": "【国内财经】2026中国机器人大赛将于杭州开赛 具身智能赛项成创新亮点",
-            "originalTitle": "2026中国机器人大赛将于杭州开赛 具身智能赛项成创新亮点",
-            "summary": "中新网杭州10月13日电(郭其钰)首届全球具身智能应用创新挑战赛暨2026中国机器人大赛将于10月16日至18日在浙江杭州举办。两项赛事首次同期举办，共设置22个赛道、60个赛项和3个企业独立赛项，共同搭建起从技术研发、工程验证到场景应用的综合性平台。",
+            "id": "a3d74d7ffe612c999b344de7e",
+            "title": "【国内要闻】全球首个标准垂域大模型“同道”宣布升级",
+            "originalTitle": "全球首个标准垂域大模型“同道”宣布升级",
+            "summary": "中新网北京10月13日电 (记者 刘亮)10月13日，在2026世界标准日到来之际，2026新产业标准化领航论坛在北京开幕。论坛上，全球首个标准垂域大模型“同道”宣布升级。",
             "source": {
-              "name": "中新网·国内财经"
+              "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7e5353b2387d8e010392d0ff",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-13/10713511.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a3d74d7ffe612c999b344de7e",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-13/10714056.shtml"
             },
-            "publishedAt": "2026-10-13T01:38:47.000Z",
-            "discoveredAt": "2026-10-13T02:04:50.605Z",
+            "publishedAt": "2026-10-13T13:57:45.000Z",
+            "discoveredAt": "2026-10-13T14:08:17.293Z",
             "category": "tech",
-            "score": 98,
+            "score": 99,
             "selected": true,
-            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7e5353b2387d8e010392d0ff"
+              "url": "https://zenglian-news.onrender.com/items/a3d74d7ffe612c999b344de7e"
             }
           },
           {
-            "id": "ae59ee5000ea6b4d450535127",
-            "title": "AI 工厂建设迎来统一蓝图：英伟达开放 Vera Rubin 机架设计",
-            "originalTitle": "AI 工厂建设迎来统一蓝图：英伟达开放 Vera Rubin 机架设计",
-            "summary": "IT之家 10 月 12 日消息，英伟达昨日（10 月 12 日）发布公告，在开放计算项目（OCP）全球峰会上，英伟达宣布开放 Vera Rubin 机架与计算托架设计， 并与 Cisco、Google、Meta、Microsoft、Visionbay 等发布多项 AI 基础设施开放标准。 在本次 OPC 全球峰会上，英伟达宣布通过开放 NVIDIA MGX 架构，向 Open Compute Project（OCP）贡献 Vera R...",
+            "id": "a724be7b79947b760dfaa61f7",
+            "title": "魔法原子具身Agent框架拿下MolmoSpaces全球第一",
+            "originalTitle": "魔法原子具身Agent框架拿下MolmoSpaces全球第一",
+            "summary": "量子位·AI大模型智库实时快讯：魔法原子具身Agent框架拿下MolmoSpaces全球第一。国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
             "source": {
-              "name": "IT之家·国内产业"
+              "name": "量子位·AI大模型智库"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae59ee5000ea6b4d450535127",
-              "original": "https://www.ithome.com/1/012/120.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a724be7b79947b760dfaa61f7",
+              "original": "https://www.qbitai.com/2026/10/503107.html"
             },
-            "publishedAt": "2026-10-13T02:12:40.000Z",
-            "discoveredAt": "2026-10-13T02:19:24.168Z",
+            "publishedAt": "2026-10-13T11:05:39.000Z",
+            "discoveredAt": "2026-10-13T14:08:51.485Z",
             "category": "tech",
-            "score": 97,
+            "score": 99,
             "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "reason": "国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae59ee5000ea6b4d450535127"
+              "url": "https://zenglian-news.onrender.com/items/a724be7b79947b760dfaa61f7"
             }
           },
           {
-            "id": "ad5f88242e4ec9486c197f16f",
-            "title": "消息称 DeepSeek 将完成 1000 亿元融资，投前估值仍为约 5000 亿元",
-            "originalTitle": "消息称 DeepSeek 将完成 1000 亿元融资，投前估值仍为约 5000 亿元",
-            "summary": "IT之家 10 月 13 日消息，据《财经》报道，多位参与本轮交易的人士透露，大模型公司 DeepSeek 的最新一轮融资已临近完成，融资金额从此前计划的 500 亿元增至约 1000 亿元，不到半个月拟融资金额翻了一倍。 据IT之家了解，本轮融资为 DeepSeek 的第二轮融资。据报道，新老股东的拟投资金额约各占一半。值得注意的是，融资金额的翻倍并未推高公司整体估值，DeepSeek 目前投前估值仍为约 5000 亿元。 据多名独立...",
+            "id": "a4348374df83de15bbb858d2c",
+            "title": "梁文锋投了Swin Transformer作者！DeepSeek开始布局具身大脑",
+            "originalTitle": "梁文锋投了Swin Transformer作者！DeepSeek开始布局具身大脑",
+            "summary": "量子位·AI大模型智库实时快讯：梁文锋投了Swin Transformer作者！DeepSeek开始布局具身大脑。国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
             "source": {
-              "name": "IT之家·国内产业"
+              "name": "量子位·AI大模型智库"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad5f88242e4ec9486c197f16f",
-              "original": "https://www.ithome.com/1/012/172.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a4348374df83de15bbb858d2c",
+              "original": "https://www.qbitai.com/2026/10/503093.html"
             },
-            "publishedAt": "2026-10-13T01:47:22.000Z",
-            "discoveredAt": "2026-10-13T02:04:58.205Z",
+            "publishedAt": "2026-10-13T09:33:37.000Z",
+            "discoveredAt": "2026-10-13T14:08:51.666Z",
             "category": "tech",
-            "score": 97,
+            "score": 99,
             "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "reason": "国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad5f88242e4ec9486c197f16f"
+              "url": "https://zenglian-news.onrender.com/items/a4348374df83de15bbb858d2c"
             }
           },
           {
-            "id": "a6e5282052251da034fd09855",
-            "title": "小鹏今年底实现人形机器人量产，2027 年上半年开启交付",
-            "originalTitle": "小鹏今年底实现人形机器人量产，2027 年上半年开启交付",
-            "summary": "IT之家 10 月 12 日消息，小鹏汽车今日亮相巴黎车展，除了推出小鹏 G9L 车型，小鹏还公布了自动驾驶、人形机器人等消息。 在人形机器人领域，近期，小鹏机器人生产线正式启用，全球首位高阶通用人形机器人完成自动化总装，自主走下产线亮相，标志着小鹏机器人完成从研发试制到产线制造的关键跨越，向规模量产迈出重要一步。 据介绍，小鹏 IRON 可以说是“社交天花板”，自带多模态交互能力：认得出不同人的脸，记得住对话上下文， 中、英、德三国语...",
+            "id": "a6f2e2ff91768644de2f33eac",
+            "title": "千问发布AI眼镜、AI耳机三款Personal Agent全新硬件",
+            "originalTitle": "千问发布AI眼镜、AI耳机三款Personal Agent全新硬件",
+            "summary": "10月13日，千问发布AI眼镜N1、N1 Pro及AI耳夹式耳机三款新品。N1系列搭载5000万像素影像系统，支持全天候环境感知、翻译、会议纪要和语音办事，N1 Pro新增体征实时监测、眼动交互和虹膜核身；AI耳夹式耳机由千问与Bose共同推出，支持多语言翻译、AI实时听记和任务交办。新品当日开售，叠加国补及限时优惠后，眼镜到手价2218元起，耳机1099元起。",
             "source": {
-              "name": "IT之家·国内产业"
+              "name": "界面新闻·国内政经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a6e5282052251da034fd09855",
-              "original": "https://www.ithome.com/1/012/094.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a6f2e2ff91768644de2f33eac",
+              "original": "https://www.jiemian.com/article/15184718.html"
             },
-            "publishedAt": "2026-10-12T13:29:11.000Z",
-            "discoveredAt": "2026-10-12T14:03:11.126Z",
+            "publishedAt": "2026-10-13T08:13:34.000Z",
+            "discoveredAt": "2026-10-13T08:20:48.862Z",
             "category": "tech",
-            "score": 97,
+            "score": 99,
             "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a6e5282052251da034fd09855"
+              "url": "https://zenglian-news.onrender.com/items/a6f2e2ff91768644de2f33eac"
             }
           },
           {
-            "id": "af9dd98d522404e2b8d06476f",
-            "title": "华为徐松余：麒麟 9050 系列开启未来 10 年新征程，实现业界首个 30B MoE 大模型入端",
-            "originalTitle": "华为徐松余：麒麟 9050 系列开启未来 10 年新征程，实现业界首个 30B MoE 大模型入端",
-            "summary": "IT之家 10 月 13 日现场消息，华为今日（10 月 13 日）在上海练秋湖举办 2026 麒麟媒体沟通会，华为半导体业务无线终端芯片产品管理部部长徐松余发表演讲。 徐松余谈到了华为最新的韬定律和逻辑折叠路线，韬定律首次应用于麒麟 9050 系列，在性能 / 能效上获得了可观的收益。 徐松余表示，麒麟 9050 系列作为首款逻辑折叠的韬芯片， 开启未来 10 年新征程 。从 PPT 可以看到，华为目标在 2031 年实现 P 核频率...",
+            "id": "a2849c0ee374d2940a4847a46",
+            "title": "中国车企反攻德系车心脏！巴黎车展国产品牌独占三成，大众CEO连忙呼吁抱团迎战",
+            "originalTitle": "中国车企反攻德系车心脏！巴黎车展国产品牌独占三成，大众CEO连忙呼吁抱团迎战",
+            "summary": "量子位·AI大模型智库实时快讯：中国车企反攻德系车心脏！巴黎车展国产品牌独占三成，大众CEO连忙呼吁抱团迎战。国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
             "source": {
-              "name": "IT之家·国内产业"
+              "name": "量子位·AI大模型智库"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af9dd98d522404e2b8d06476f",
-              "original": "https://www.ithome.com/1/012/176.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a2849c0ee374d2940a4847a46",
+              "original": "https://www.qbitai.com/2026/10/502992.html"
             },
-            "publishedAt": "2026-10-13T01:59:42.000Z",
-            "discoveredAt": "2026-10-13T02:04:57.471Z",
+            "publishedAt": "2026-10-13T07:20:23.000Z",
+            "discoveredAt": "2026-10-13T15:05:38.354Z",
             "category": "tech",
-            "score": 94,
+            "score": 99,
             "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "reason": "国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af9dd98d522404e2b8d06476f"
+              "url": "https://zenglian-news.onrender.com/items/a2849c0ee374d2940a4847a46"
             }
           },
           {
-            "id": "a301b80327e97007d8ecc3e0d",
-            "title": "英伟达携手思科推出首款 400G / lane 可插拔光模块规范 USFP",
-            "originalTitle": "英伟达携手思科推出首款 400G / lane 可插拔光模块规范 USFP",
-            "summary": "IT之家 10 月 13 日消息，NVIDIA（英伟达）、Cisco（思科）当地时间昨日宣布携手推出 业界首款支持 400Gbps / lane 高速信号 的可插拔光模块规范 USFP。 USFP 与 OSFP 光模块尺寸相当， 首批产品集成 16 条全双工通道 ，后续还可扩展至 32 条乃至更多通道，从而实现 12.8 Tb/s 的吞吐量。 USFP 光模块的 带宽可达现有 200G / lane 可插拔光模块的 4 倍 ；而在 40...",
+            "id": "aade5202dba6839aae60ac6fc",
+            "title": "华为哈勃投了个98年博士！让机器人皮肤变色，团队平均23岁",
+            "originalTitle": "华为哈勃投了个98年博士！让机器人皮肤变色，团队平均23岁",
+            "summary": "量子位·AI大模型智库实时快讯：华为哈勃投了个98年博士！让机器人皮肤变色，团队平均23岁。国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
             "source": {
-              "name": "IT之家·国内产业"
+              "name": "量子位·AI大模型智库"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a301b80327e97007d8ecc3e0d",
-              "original": "https://www.ithome.com/1/012/155.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/aade5202dba6839aae60ac6fc",
+              "original": "https://www.qbitai.com/2026/10/502954.html"
             },
-            "publishedAt": "2026-10-13T00:55:04.000Z",
-            "discoveredAt": "2026-10-13T01:00:40.246Z",
+            "publishedAt": "2026-10-13T07:19:21.000Z",
+            "discoveredAt": "2026-10-13T14:08:52.036Z",
             "category": "tech",
-            "score": 94,
+            "score": 99,
             "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "reason": "国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a301b80327e97007d8ecc3e0d"
+              "url": "https://zenglian-news.onrender.com/items/aade5202dba6839aae60ac6fc"
             }
           }
         ]
@@ -1798,141 +1798,141 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "aba7894a3da606005e9cf48ea",
-            "title": "【国内文娱】湖南湘江新区AI短剧出海观察：全链条协同发力",
-            "originalTitle": "湖南湘江新区AI短剧出海观察：全链条协同发力",
-            "summary": "中新网长沙10月13日电 (胡语桐)五六个人，一间办公室，一部短剧从编剧到上线，最快几天就能译成多语种出现在海外观众的手机里。在中部首个国家级新区——湖南湘江新区，这样的团队正越来越多。据行业统计，截至2026年上半年，中国微短剧用户规模已达7.18亿，出海成为众多湘江新区企业的选择。而支撑这一速度的，是AI在制作、分发等环节的深度介入。它替创作者解决了哪些问题，又有哪些问题解决不了？",
+            "id": "ad862289ef6b3a19a9431deab",
+            "title": "【国内文娱】“两会一展”首合体 2026世界摄影人大会10月下旬亮相浙江丽水",
+            "originalTitle": "“两会一展”首合体 2026世界摄影人大会10月下旬亮相浙江丽水",
+            "summary": "中新网丽水10月13日电(黄彦君)10月13日，浙江丽水召开新闻发布会，宣布2026世界摄影人大会(以下简称“大会”)、中国第20届国际摄影艺术展览暨第七届国际摄影研讨会将于10月23日至27日在当地举行。",
             "source": {
               "name": "中新网·影视文娱"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aba7894a3da606005e9cf48ea",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-13/10713666.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/ad862289ef6b3a19a9431deab",
+              "original": "https://www.chinanews.com.cn/cul/2026/10-13/10713950.shtml"
             },
-            "publishedAt": "2026-10-13T06:48:42.000Z",
-            "discoveredAt": "2026-10-13T07:03:23.411Z",
+            "publishedAt": "2026-10-13T11:43:48.000Z",
+            "discoveredAt": "2026-10-13T14:09:17.169Z",
             "category": "culture",
-            "score": 99,
+            "score": 97,
             "selected": true,
             "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aba7894a3da606005e9cf48ea"
+              "url": "https://zenglian-news.onrender.com/items/ad862289ef6b3a19a9431deab"
             }
           },
           {
-            "id": "a5e1c0216f1b2ec535156e070",
-            "title": "【国内文娱】云南“彩云奖”优秀作品在临沧展演 逾50万人次观看",
-            "originalTitle": "云南“彩云奖”优秀作品在临沧展演 逾50万人次观看",
-            "summary": "中新网临沧10月13日电 (黄兴鸿)12日晚，云南省第七届群众文化“彩云奖”优秀作品展演暨颁奖晚会在该省临沧市临翔区玉龙湖广场举行，线上、线下吸引逾50万人次观看。",
+            "id": "a9346cfae7e5e18fc094b740e",
+            "title": "【国内文娱】中国大遗址保护体系日趋完善",
+            "originalTitle": "中国大遗址保护体系日趋完善",
+            "summary": "中新社郑州10月13日电 (记者 应妮)记者从13日在河南省郑州市举行的全国大遗址工作会上了解到，中国大遗址保护体系日趋完善，成为深化文明交流互鉴的纽带，为国际文化遗产保护贡献中国经验。",
             "source": {
               "name": "中新网·影视文娱"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a5e1c0216f1b2ec535156e070",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-13/10713655.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a9346cfae7e5e18fc094b740e",
+              "original": "https://www.chinanews.com.cn/cul/2026/10-13/10714040.shtml"
             },
-            "publishedAt": "2026-10-13T06:37:05.000Z",
-            "discoveredAt": "2026-10-13T07:03:23.615Z",
+            "publishedAt": "2026-10-13T13:52:43.000Z",
+            "discoveredAt": "2026-10-13T14:09:16.994Z",
             "category": "culture",
             "score": 96,
             "selected": true,
             "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a5e1c0216f1b2ec535156e070"
+              "url": "https://zenglian-news.onrender.com/items/a9346cfae7e5e18fc094b740e"
             }
           },
           {
-            "id": "a4ca119d8b1113f7eff9f4cc2",
-            "title": "【机核文娱】《战锤：血碗橄榄球》新作现已开启游戏测试",
-            "originalTitle": "《战锤：血碗橄榄球》新作现已开启游戏测试",
-            "summary": "继 NACON 出售 《战锤：血碗橄榄球》 全系列游戏发行权，由 Slitherine 接手的 《战锤：血碗橄榄球》 新作现已开启游戏测试。据悉，拥有《血碗3》的玩家可免费获得这款作品，此前拥有的球队与外观道具也将全部保留。 本作基于前作底层开发，同步引入了最新的官方桌游规则，调整了技能机制与策略玩法。游戏首发包含14支可玩球队，除《血碗3》首发的12支队伍外，还将新增两支全新球队。后续推出的另外12支队伍将作为DLC发售。 除了传统的...",
+            "id": "ad471cc770d01104b10ad2a7a",
+            "title": "【机核文娱】不到20块！好评多人合作动作游戏《喵门镖局》新增永久成长与按键自定义功能",
+            "originalTitle": "不到20块！好评多人合作动作游戏《喵门镖局》新增永久成长与按键自定义功能",
+            "summary": "小猫镖师们正在成长！发行商 Daedalic Entertainment 与开发商 Octofox Games 宣布，旗下合作动作肉鸽游戏 《喵门镖局》（Wild Woods）现已推出重大更新，带来社区呼声最高的两项功能：永久成长系统与按键自定义 。如今，玩家可以在一次次冒险之间持续培养自己的猫咪角色，解锁永久能力提升，以及更多个性化选项。 &lt;内嵌内容，请前往机核查看&gt; 《喵门镖局》目前在 Steam 享有 三三折优惠（降价...",
             "source": {
               "name": "机核网·影漫与游戏"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a4ca119d8b1113f7eff9f4cc2",
-              "original": "https://www.gcores.com/articles/220815"
+              "aihot": "https://zenglian-news.onrender.com/items/ad471cc770d01104b10ad2a7a",
+              "original": "https://www.gcores.com/articles/220850"
             },
-            "publishedAt": "2026-10-13T01:10:00.000Z",
-            "discoveredAt": "2026-10-13T04:45:12.265Z",
+            "publishedAt": "2026-10-13T10:16:11.000Z",
+            "discoveredAt": "2026-10-13T14:10:00.140Z",
             "category": "culture",
-            "score": 96,
+            "score": 95,
             "selected": true,
             "reason": "国内最具深度的影视、动漫、科幻文化与主机游戏一手资讯与评论。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a4ca119d8b1113f7eff9f4cc2"
+              "url": "https://zenglian-news.onrender.com/items/ad471cc770d01104b10ad2a7a"
             }
           },
           {
-            "id": "ae80a359e52cb6bee6e88ad1d",
-            "title": "【国内文娱】“碑帖之间——当代中青年书法家邀请展”亮相炎黄艺术馆",
-            "originalTitle": "“碑帖之间——当代中青年书法家邀请展”亮相炎黄艺术馆",
-            "summary": "中新网北京10月13日电 (记者 应妮)由中国艺术研究院主办、中国艺术研究院书法院承办的“碑帖之间——当代中青年书法家邀请展”日前在北京炎黄艺术馆开幕。",
+            "id": "a5bda0c9ee463dac83a83d668",
+            "title": "【机核文娱】万字拆解《寂静岭：小镇陷落》剧情及隐喻｜玩的核WonderCores",
+            "originalTitle": "万字拆解《寂静岭：小镇陷落》剧情及隐喻｜玩的核WonderCores",
+            "summary": "本期时间轴制作：天行 本期节目的视频版请见： https://www.bilibili.com/video/BV1kgpH6sEfK/ &lt;万字拆解《寂静岭：小镇陷落》剧情及隐喻【视频版】&gt; 《寂静岭》系列的新作《寂静岭：Townfall（小镇陷落）》已经发售半个月了，但在Steam上的评价仍旧褒贬不一。 本作谜语人一般的叙事手法之下究竟讲了什么故事？制作组又在线索藏了多少细节？这一作难道真的砸了寂静岭的招牌吗？ 本期Ann和...",
             "source": {
-              "name": "中新网·影视文娱"
+              "name": "机核网·影漫与游戏"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae80a359e52cb6bee6e88ad1d",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-13/10713606.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a5bda0c9ee463dac83a83d668",
+              "original": "https://www.gcores.com/radios/220702"
             },
-            "publishedAt": "2026-10-13T03:41:57.000Z",
-            "discoveredAt": "2026-10-13T04:44:38.425Z",
+            "publishedAt": "2026-10-13T15:00:00.000Z",
+            "discoveredAt": "2026-10-13T15:06:19.333Z",
             "category": "culture",
-            "score": 94,
+            "score": 93,
             "selected": true,
-            "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
+            "reason": "国内最具深度的影视、动漫、科幻文化与主机游戏一手资讯与评论。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae80a359e52cb6bee6e88ad1d"
+              "url": "https://zenglian-news.onrender.com/items/a5bda0c9ee463dac83a83d668"
             }
           },
           {
-            "id": "aab51b13e0f10a20f069455e4",
-            "title": "【国内文娱】“津巴布韦梦想秀”，让非洲青年的才华被看见",
-            "originalTitle": "“津巴布韦梦想秀”，让非洲青年的才华被看见",
-            "summary": "中新社上海10月13日电 题：“津巴布韦梦想秀”，让非洲青年的才华被看见",
+            "id": "a0e2a919290af885454ea945f",
+            "title": "【机核文娱】新垣结衣宣布首胎出生",
+            "originalTitle": "新垣结衣宣布首胎出生",
+            "summary": "日本女演员新垣结衣与创作歌手星野源宣布，两人的第一个孩子已经出生。两人在声明中向相关人士和粉丝表达了感谢。他们表示今后将共同承担父母的责任，守护新生命。在此次报喜之前，双方从未正式公布过怀孕消息，日本网络上祝福不断。有网友称两人会是很棒的爸爸妈妈，也有人表示突如其来的报喜令人非常吃惊。 新垣结衣与星野源于2016年共同主演日剧《逃避虽可耻但有用》，并在2021年5月结婚。",
             "source": {
-              "name": "中新网·影视文娱"
+              "name": "机核网·影漫与游戏"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aab51b13e0f10a20f069455e4",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-13/10713577.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a0e2a919290af885454ea945f",
+              "original": "https://www.gcores.com/articles/220852"
             },
-            "publishedAt": "2026-10-13T03:21:30.000Z",
-            "discoveredAt": "2026-10-13T04:44:38.611Z",
+            "publishedAt": "2026-10-13T10:34:15.000Z",
+            "discoveredAt": "2026-10-13T14:09:59.610Z",
             "category": "culture",
-            "score": 94,
+            "score": 93,
             "selected": true,
-            "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
+            "reason": "国内最具深度的影视、动漫、科幻文化与主机游戏一手资讯与评论。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aab51b13e0f10a20f069455e4"
+              "url": "https://zenglian-news.onrender.com/items/a0e2a919290af885454ea945f"
             }
           },
           {
-            "id": "abf32600c9d6cd42abcb34a70",
-            "title": "【国内文娱】中新网评：“不烧心”火了，别让“良心”凉了",
-            "originalTitle": "中新网评：“不烧心”火了，别让“良心”凉了",
-            "summary": "中新网北京10月13日电（记者 王诗尧）最近，你的生活有没有被“不烧心文学”入侵？",
+            "id": "abaec769bf75789526ab2ea5b",
+            "title": "【机核文娱】强强联手，未必足够：小评《恶魔城：贝尔蒙特的诅咒》",
+            "originalTitle": "强强联手，未必足够：小评《恶魔城：贝尔蒙特的诅咒》",
+            "summary": "在通关了《恶魔城：贝尔蒙特的诅咒》之后，我的内心其实挺复杂的。 从实际体验来看，《贝尔蒙特的诅咒》是一款内容丰富、玩法复杂的作品。我花了20多个小时才算打了个七七八八——这期间既有破解谜题、探索地图所投入的时间，也有反复挑战BOSS、摸索机关陷阱时耗费的精力。 它有一套值得研究的战斗系统，有规模可观的地图，也藏着不少需要玩家主动寻找的隐藏内容。但另一方面，过于频繁的平台跳跃与陷阱挑战，让原本以战斗和探索为主的流程时常变得有些令人疲惫。 ...",
             "source": {
-              "name": "中新网·影视文娱"
+              "name": "机核网·影漫与游戏"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/abf32600c9d6cd42abcb34a70",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-13/10713536.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/abaec769bf75789526ab2ea5b",
+              "original": "https://www.gcores.com/articles/220808"
             },
-            "publishedAt": "2026-10-13T02:06:40.000Z",
-            "discoveredAt": "2026-10-13T02:19:39.823Z",
+            "publishedAt": "2026-10-13T10:31:47.000Z",
+            "discoveredAt": "2026-10-13T14:09:59.786Z",
             "category": "culture",
-            "score": 94,
+            "score": 93,
             "selected": true,
-            "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
+            "reason": "国内最具深度的影视、动漫、科幻文化与主机游戏一手资讯与评论。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/abf32600c9d6cd42abcb34a70"
+              "url": "https://zenglian-news.onrender.com/items/abaec769bf75789526ab2ea5b"
             }
           }
         ]
@@ -1942,118 +1942,118 @@
         "label": "🏆 体育实时Top20",
         "items": [
           {
-            "id": "aba56a2fe26429ba2e520f93f",
-            "title": "【体坛快讯】李月汝将在WNBA休赛期加盟家乡球队山西女篮",
-            "originalTitle": "李月汝将在WNBA休赛期加盟家乡球队山西女篮",
-            "summary": "中新社太原10月13日电 山西兴瑞职业篮球俱乐部13日宣布，出生于山西长治的中国女篮主力中锋李月汝将在美国国家女子篮球联盟(WNBA)休赛期加盟山西竹叶青酒女篮，身披28号球衣代表球队征战2026-2027赛季中国女子篮球联赛(WCBA)部分比赛。",
+            "id": "aebd2c4a73a684a40c266c01d",
+            "title": "【体坛快讯】吉诺·提提库、殷若宁领衔挥杆 2026LPGA锦标赛将开赛",
+            "originalTitle": "吉诺·提提库、殷若宁领衔挥杆 2026LPGA锦标赛将开赛",
+            "summary": "中新网上海10月13日电 (记者 缪璐)2026别克LPGA(美国女子职业高尔夫巡回赛)锦标赛13日在上海佘山国际高尔夫俱乐部举行赛事发布会。本届赛事将于10月15日至18日展开四轮角逐，共吸引来自17个国家和地区的81位球员出战，其中不乏吉诺·提提库(Jeeno Thitikul)、殷若宁等冠军球员。",
             "source": {
               "name": "中新网·体育焦点"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aba56a2fe26429ba2e520f93f",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10713605.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/aebd2c4a73a684a40c266c01d",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10714033.shtml"
             },
-            "publishedAt": "2026-10-13T03:28:41.000Z",
-            "discoveredAt": "2026-10-13T04:45:13.148Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aba56a2fe26429ba2e520f93f"
-            }
-          },
-          {
-            "id": "ac96d874644c3c8cf72546cf2",
-            "title": "【体坛快讯】2026上海网球大师赛：阿尔卡拉斯爆冷出局 赞郑钦文是“顶尖球员”",
-            "originalTitle": "2026上海网球大师赛：阿尔卡拉斯爆冷出局 赞郑钦文是“顶尖球员”",
-            "summary": "中新网上海10月13日电 (记者 缪璐)2026上海网球大师赛单打赛场12日晚间爆出冷门，赛会2号种子、西班牙名将卡洛斯·阿尔卡拉斯以大比分0：2不敌比利时选手齐祖·贝尔赫斯，爆冷出局，无缘16强。",
-            "source": {
-              "name": "中新网·体育焦点"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac96d874644c3c8cf72546cf2",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10713604.shtml"
-            },
-            "publishedAt": "2026-10-13T03:27:47.000Z",
-            "discoveredAt": "2026-10-13T04:45:13.331Z",
+            "publishedAt": "2026-10-13T13:49:57.000Z",
+            "discoveredAt": "2026-10-13T14:10:00.816Z",
             "category": "business",
             "score": 98,
             "selected": true,
             "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac96d874644c3c8cf72546cf2"
+              "url": "https://zenglian-news.onrender.com/items/aebd2c4a73a684a40c266c01d"
             }
           },
           {
-            "id": "a39600b945d2584d5d00f9c90",
-            "title": "【体坛快讯】CBA新赛季常规赛恢复46轮 执行升降级制度",
-            "originalTitle": "CBA新赛季常规赛恢复46轮 执行升降级制度",
-            "summary": "中新网北京10月13日电(记者 国璇) 2026-2027赛季中国男子篮球职业联赛(以下简称“CBA联赛”)新闻发布会12日在北京举行，新赛季联赛常规赛将恢复为46轮，首轮比赛将于10月16日开启，且将执行升降级制度。",
+            "id": "a92e7d7b9ae92bc9cb1c39ef2",
+            "title": "【体坛快讯】2026年全国中南区射击锦标赛（步手枪项目）在广州收官",
+            "originalTitle": "2026年全国中南区射击锦标赛（步手枪项目）在广州收官",
+            "summary": "中新网广州10月13日电 (记者 张璐)记者13日从广东省黄村体育训练中心获悉，2026年全国中南区射击锦标赛(步手枪项目)(简称“赛事”)13日在广东省黄村体育训练中心收官。",
             "source": {
               "name": "中新网·体育焦点"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a39600b945d2584d5d00f9c90",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10713538.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a92e7d7b9ae92bc9cb1c39ef2",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10714067.shtml"
             },
-            "publishedAt": "2026-10-13T01:44:07.000Z",
-            "discoveredAt": "2026-10-13T02:05:31.671Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a39600b945d2584d5d00f9c90"
-            }
-          },
-          {
-            "id": "a252e4937f313dfd52f760d01",
-            "title": "【体坛快讯】陕西省三人篮球联赛总决赛西安收官",
-            "originalTitle": "陕西省三人篮球联赛总决赛西安收官",
-            "summary": "中新网西安10月13日电 (记者 党田野 张一辰)陕西省第三届三人篮球联赛总决赛12日晚在西安落下帷幕，这场为期三日的大众篮球盛会圆满收官。",
-            "source": {
-              "name": "中新网·体育焦点"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a252e4937f313dfd52f760d01",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10713665.shtml"
-            },
-            "publishedAt": "2026-10-13T06:47:58.000Z",
-            "discoveredAt": "2026-10-13T07:03:49.495Z",
+            "publishedAt": "2026-10-13T14:31:25.000Z",
+            "discoveredAt": "2026-10-13T15:06:20.493Z",
             "category": "business",
             "score": 97,
             "selected": true,
             "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a252e4937f313dfd52f760d01"
+              "url": "https://zenglian-news.onrender.com/items/a92e7d7b9ae92bc9cb1c39ef2"
             }
           },
           {
-            "id": "a75a472c870b357d691ec48b7",
-            "title": "【体坛快讯】2026年U15女子垒球亚洲杯在山东威海开赛",
-            "originalTitle": "2026年U15女子垒球亚洲杯在山东威海开赛",
-            "summary": "中新网威海10月13日电 (王娇妮 谢菁)2026年U15女子垒球亚洲杯12日在山东威海高新区手曲垒球运动基地主赛场开赛，吸引来自8个国家和地区的青少年队伍参赛。",
+            "id": "a0b5b3099b7f9a6003e820167",
+            "title": "【体坛快讯】2026世界海岸赛艇锦标赛在青岛收官",
+            "originalTitle": "2026世界海岸赛艇锦标赛在青岛收官",
+            "summary": "中新社青岛10月13日电 (王禹)2026世界海岸赛艇锦标赛13日在山东青岛西海岸新区收官。美国队夺得3金2银，获颁象征赛事团体最高荣誉的国家联合会奖杯。中国组合张媛媛/孙露萍获得女子双人双桨项目金牌。",
             "source": {
               "name": "中新网·体育焦点"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a75a472c870b357d691ec48b7",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10713641.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a0b5b3099b7f9a6003e820167",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10714020.shtml"
             },
-            "publishedAt": "2026-10-13T05:42:42.000Z",
-            "discoveredAt": "2026-10-13T07:03:49.708Z",
+            "publishedAt": "2026-10-13T13:45:52.000Z",
+            "discoveredAt": "2026-10-13T14:10:00.993Z",
             "category": "business",
             "score": 97,
             "selected": true,
             "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a75a472c870b357d691ec48b7"
+              "url": "https://zenglian-news.onrender.com/items/a0b5b3099b7f9a6003e820167"
+            }
+          },
+          {
+            "id": "a0ff87412ffb8a115737c2e12",
+            "title": "【体坛快讯】2026环广西公路自行车世界巡回赛开赛",
+            "originalTitle": "2026环广西公路自行车世界巡回赛开赛",
+            "summary": "中新社广西崇左10月13日电 (黄令妍)2026环广西公路自行车世界巡回赛(“环广西世巡赛”)13日在位于中越边境的崇左市开赛。22支世界顶级车队集结，创造该项赛事参赛车队最多的纪录。",
+            "source": {
+              "name": "中新网·体育焦点"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0ff87412ffb8a115737c2e12",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10713984.shtml"
+            },
+            "publishedAt": "2026-10-13T12:56:58.000Z",
+            "discoveredAt": "2026-10-13T14:10:01.168Z",
+            "category": "business",
+            "score": 97,
+            "selected": true,
+            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0ff87412ffb8a115737c2e12"
+            }
+          },
+          {
+            "id": "af5aacf47ba413e433fbf09bc",
+            "title": "【体坛快讯】2026世界网球大师赛MT100上海站开赛 中外民间网球高手同场竞技",
+            "originalTitle": "2026世界网球大师赛MT100上海站开赛 中外民间网球高手同场竞技",
+            "summary": "中新网上海10月13日电 (记者 缪璐)在2026上海网球大师赛激战正酣之际，一项云集国内外民间网球高手的大师赛也在上海精彩上演。",
+            "source": {
+              "name": "中新网·体育焦点"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/af5aacf47ba413e433fbf09bc",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-13/10713976.shtml"
+            },
+            "publishedAt": "2026-10-13T12:56:32.000Z",
+            "discoveredAt": "2026-10-13T14:10:01.343Z",
+            "category": "business",
+            "score": 95,
+            "selected": true,
+            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/af5aacf47ba413e433fbf09bc"
             }
           },
           {
