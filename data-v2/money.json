@@ -10,26 +10,141 @@
   },
   "items": [
     {
-      "id": "ae934ac51b078e2af4d0797b3",
-      "title": "[分享创造] 一个基于 Rust 的 Windows 远程桌面 RDP 连接管理小工具，用于管理 Windows 远程桌面 RDP 连接（仅 Windows 版）",
-      "originalTitle": "[分享创造] 一个基于 Rust 的 Windows 远程桌面 RDP 连接管理小工具，用于管理 Windows 远程桌面 RDP 连接（仅 Windows 版）",
-      "summary": "RDM Rust （仅 Windows 版） 一个基于 Rust 的 Windows 远程桌面 RDP 连接管理项目，用于管理 Windows 远程桌面 RDP 连接 Rust + GPUI + gpui-kit 组件库 无 WebView 。 独立的可执行文件，无需安装 截图 安全 密码使用 Windows DPAPI （ CryptProtectData ）加密存储。 加密密钥由 Windows 按当前用户自动生成和管理，不落盘、不...",
+      "id": "a94cc92666b220442fec9ac79",
+      "title": "[iOS] Find My 查找 APP 里的 AirTag 全部消失不见了",
+      "originalTitle": "[iOS] Find My 查找 APP 里的 AirTag 全部消失不见了",
+      "summary": "所有的设备 iPhone iPad Mac 都是正常能看到的，只有物品栏里 AirTag 全部不见了。 系统是最新的 iOS 27.01 ，重启手机无效，用我的 iPad Pro （ iPadOS 26 ） 查看也是同样的情况。 真是日了狗了 苹果这个软件质量真是越来越差 不到半年的时间 碰到过两次极其严重的罕见的故障 上次是 macOS 整个钥匙串突然被锁死",
       "source": {
         "name": "V2EX·独立开发与副业"
       },
       "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/ae934ac51b078e2af4d0797b3",
-        "original": "https://www.v2ex.com/t/1249173#reply0"
+        "aihot": "https://zenglian-news.onrender.com/items/a94cc92666b220442fec9ac79",
+        "original": "https://www.v2ex.com/t/1249192#reply0"
       },
-      "publishedAt": "2026-10-15T14:59:47.000Z",
-      "discoveredAt": "2026-10-15T15:06:56.660Z",
+      "publishedAt": "2026-10-15T18:31:07.000Z",
+      "discoveredAt": "2026-10-15T19:10:55.947Z",
+      "category": "money",
+      "score": 94,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a94cc92666b220442fec9ac79"
+      }
+    },
+    {
+      "id": "a510e72e8c9b8bca9153cdafc",
+      "title": "[微信] WeChat 欧洲和英国的数据存放位置疑似和其隐私政策写的不一致",
+      "originalTitle": "[微信] WeChat 欧洲和英国的数据存放位置疑似和其隐私政策写的不一致",
+      "summary": "前面在办公然后突然收到一条消息 如图 根据目前近 3 年的肉测，再加上同站内这条帖子 https://v2ex.com/t/1242222#reply14 基本可以证实： WeChat EU 存放位置确实不在荷兰，反正肯定不在欧洲 每次打开 WeChat 加载消息都会有数秒乃至十余秒的延迟 而 UK--DE 的延迟才 15-18ms 左右 到荷兰的延迟绝对没有这么大 查询发现数据会绕到北美--新加坡再绕地球一圈绕回来 另外根据这条消息：...",
+      "source": {
+        "name": "V2EX·独立开发与副业"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a510e72e8c9b8bca9153cdafc",
+        "original": "https://www.v2ex.com/t/1249190#reply3"
+      },
+      "publishedAt": "2026-10-15T17:36:59.000Z",
+      "discoveredAt": "2026-10-15T19:10:56.109Z",
       "category": "money",
       "score": 91,
       "selected": true,
       "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
       "attribution": {
         "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/ae934ac51b078e2af4d0797b3"
+        "url": "https://zenglian-news.onrender.com/items/a510e72e8c9b8bca9153cdafc"
+      }
+    },
+    {
+      "id": "a87f542153b29e26d70c75047",
+      "title": "[分享创造] 免费听歌，现在还吸引人吗",
+      "originalTitle": "[分享创造] 免费听歌，现在还吸引人吗",
+      "summary": "搓了一个音乐播放器 Nonsplayer ，最近刚完成它的多音源聚合功能。简单来说，它用可以播放的音源来替换无法播放的音源，感官上实现了“免费”听歌。不知道现在做免费听歌还能不能吸引到更多用户来使用。其实我是想规避这种版权问题的，所以才选择把这些音源都做成插件。最后哪个音源出现了问题，直接把这个音源给移除掉，从而不影响软件本体的维护和运行。 它还支持插件系统，为 Nonsplayer 生态提供了更多可能性。我自己搓了几个插件来 一个是灵...",
+      "source": {
+        "name": "V2EX·独立开发与副业"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a87f542153b29e26d70c75047",
+        "original": "https://www.v2ex.com/t/1249189#reply0"
+      },
+      "publishedAt": "2026-10-15T17:28:23.000Z",
+      "discoveredAt": "2026-10-15T19:10:56.267Z",
+      "category": "money",
+      "score": 91,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a87f542153b29e26d70c75047"
+      }
+    },
+    {
+      "id": "a0a7b1175333ca647c8dc22a5",
+      "title": "【独立变现】Show HN：Sygal – 在本地将 PDF、扫描件和网页转换为 Markdown",
+      "originalTitle": "Show HN: Sygal – Convert PDFs, scans and web pages to Markdown, locally",
+      "summary": "Show HN·独立变现榜实时快讯：Show HN: Sygal – Convert PDFs, scans and web pages to Markdown, locally。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
+      "source": {
+        "name": "Show HN·独立变现榜"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a0a7b1175333ca647c8dc22a5",
+        "original": "https://sygal.app"
+      },
+      "publishedAt": "2026-10-15T16:26:16.000Z",
+      "discoveredAt": "2026-10-15T19:10:36.711Z",
+      "category": "money",
+      "score": 99,
+      "selected": true,
+      "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a0a7b1175333ca647c8dc22a5"
+      }
+    },
+    {
+      "id": "a121e058e1b262bfef190d622",
+      "title": "光大环境连拿两座200吨小炉，小型焚烧市场前景如何？",
+      "originalTitle": "光大环境连拿两座200吨小炉，小型焚烧市场前景如何？",
+      "summary": "本文来自微信公众号： 青山产业评论 ，作者：青山研究院 过去十几年，垃圾焚烧行业有一套成熟的增长逻辑：建更大的厂，处理更多垃圾，获得更长的运营期限。 一座垃圾焚烧厂，只要垃圾量足够稳定，既能获得处理费，又能通过发电获得收益。规模越大，设备、人员和环保设施的成本越容易摊薄，项目的经济性通常也越好。这套逻辑支撑了行业的高速发展，也成就了光大环境等一批龙头企业。 但最近，光大环境的两笔小项目值得关注。 9月28日，青海海南州贵德县温泉生活垃圾...",
+      "source": {
+        "name": "虎嗅网·商业搞钱深度"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a121e058e1b262bfef190d622",
+        "original": "https://www.huxiu.com/article/4897880.html?f=rss"
+      },
+      "publishedAt": "2026-10-15T16:15:21.000Z",
+      "discoveredAt": "2026-10-15T19:10:53.423Z",
+      "category": "money",
+      "score": 95,
+      "selected": true,
+      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a121e058e1b262bfef190d622"
+      }
+    },
+    {
+      "id": "a01580a0057321eb881b71e50",
+      "title": "【独立变现】Show HN：Proa – 具有快速 SSR 和多目标渲染的 Rust Web 框架",
+      "originalTitle": "Show HN: Proa – A Rust web framework with fast SSR and multi-target rendering",
+      "summary": "视频：https://youtu.be/-CfCyvIKYyo?si=hCLuStkXxanCUJD1 多目标渲染视频：https://youtu.be/pJx84jdBDKU?si=HRRd6dgUWXiqeWhq 基准测试：https://github.com/Proa-Labs/proa-benchmarks（来源：Show HN·独立变现榜）",
+      "source": {
+        "name": "Show HN·独立变现榜"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a01580a0057321eb881b71e50",
+        "original": "https://proa.so/"
+      },
+      "publishedAt": "2026-10-15T15:52:08.000Z",
+      "discoveredAt": "2026-10-15T19:10:38.132Z",
+      "category": "money",
+      "score": 99,
+      "selected": true,
+      "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a01580a0057321eb881b71e50"
       }
     },
     {
@@ -148,29 +263,6 @@
       }
     },
     {
-      "id": "ad9390a8abbad4f10c463ae6a",
-      "title": "@所有人，跑步进入喝大水、练薄肌、睡大觉的日子人时代",
-      "originalTitle": "@所有人，跑步进入喝大水、练薄肌、睡大觉的日子人时代",
-      "summary": "本文来自微信公众号： 酷玩实验室 ，作者：酷玩实验室 你今天喝大水了吗？ 普通人的生活，突然有了实践手册，最近很多人在倡导“喝大水、练薄肌、睡大觉、吃抗炎饮食”，堪称纯过日子人的实践手册。 听起来像一套严肃理论，细看又都是些日常琐事。 在这个大耍起时代，这些曾经被嗤之以鼻的健康习惯突然变成了年轻人津津乐道的生活方式。 生活越是复杂难搞，他们就越要用最简单的方式重新养育自己。 01、喝大水， 工位旁最醒目的主权声明 大结果没拿到，大后果倒...",
-      "source": {
-        "name": "虎嗅网·商业搞钱深度"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/ad9390a8abbad4f10c463ae6a",
-        "original": "https://www.huxiu.com/article/4897864.html?f=rss"
-      },
-      "publishedAt": "2026-10-15T14:10:41.000Z",
-      "discoveredAt": "2026-10-15T14:18:05.324Z",
-      "category": "money",
-      "score": 95,
-      "selected": true,
-      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/ad9390a8abbad4f10c463ae6a"
-      }
-    },
-    {
       "id": "a6f7d1828d4288df707914eca",
       "title": "特斯拉与SpaceX的合并可能在数周内实现",
       "originalTitle": "特斯拉与SpaceX的合并可能在数周内实现",
@@ -194,6 +286,52 @@
       }
     },
     {
+      "id": "a5815db89e674f3c5ec5ccecc",
+      "title": "【出海实战】ChatGPT 可能会成为 SaaS 的一个非常好的分销渠道",
+      "originalTitle": "ChatGPT might become a surprisingly good distribution channel for SaaS",
+      "summary": "销售软件最困难的事情之一是在人们真正需要它的时候到达他们。谷歌在这方面做得非常好。但 ChatGPT 可以更进一步。有人要求 ChatGPT 比较保险...（来源：X/Reddit·出海SaaS搞钱）",
+      "source": {
+        "name": "X/Reddit·出海SaaS搞钱"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a5815db89e674f3c5ec5ccecc",
+        "original": "https://www.reddit.com/r/SaaS/comments/1x6kxqu/chatgpt_might_become_a_surprisingly_good/"
+      },
+      "publishedAt": "2026-10-15T12:58:11.000Z",
+      "discoveredAt": "2026-10-15T19:10:52.368Z",
+      "category": "money",
+      "score": 99,
+      "selected": true,
+      "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a5815db89e674f3c5ec5ccecc"
+      }
+    },
+    {
+      "id": "acef85635c178ddeeca1cee4e",
+      "title": "【独立变现】显示 HN：无围栏 – 与公共土地接壤的待售土地",
+      "originalTitle": "Show HN: Unfenced – Land for sale that borders public land",
+      "summary": "Show HN·独立变现榜实时快讯：Show HN: Unfenced – Land for sale that borders public land。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
+      "source": {
+        "name": "Show HN·独立变现榜"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/acef85635c178ddeeca1cee4e",
+        "original": "https://unfenced.land/"
+      },
+      "publishedAt": "2026-10-15T11:38:57.000Z",
+      "discoveredAt": "2026-10-15T19:10:38.750Z",
+      "category": "money",
+      "score": 99,
+      "selected": true,
+      "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/acef85635c178ddeeca1cee4e"
+      }
+    },
+    {
       "id": "aead4991661dcaef2430ce653",
       "title": "100万+ 内部GPU+免费午饭，盛大想把“超级个体”弹射上天",
       "originalTitle": "100万+ 内部GPU+免费午饭，盛大想把“超级个体”弹射上天",
@@ -214,6 +352,29 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/aead4991661dcaef2430ce653"
+      }
+    },
+    {
+      "id": "a29c0896f0cc22fd0bd07e825",
+      "title": "【出海实战】Adobe，您将一无所有并幸福快乐……",
+      "originalTitle": "You'll own nothing and be happy, Adobe...",
+      "summary": "由 /u/BlokZNCR 提交 [链接] [评论]（来源：X/Reddit·出海SaaS搞钱）",
+      "source": {
+        "name": "X/Reddit·出海SaaS搞钱"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a29c0896f0cc22fd0bd07e825",
+        "original": "https://www.reddit.com/r/SaaS/comments/1x6idat/youll_own_nothing_and_be_happy_adobe/"
+      },
+      "publishedAt": "2026-10-15T10:44:35.000Z",
+      "discoveredAt": "2026-10-15T19:10:49.879Z",
+      "category": "money",
+      "score": 97,
+      "selected": true,
+      "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a29c0896f0cc22fd0bd07e825"
       }
     },
     {
@@ -286,187 +447,26 @@
       }
     },
     {
-      "id": "a23346239fcc4dacd923dfbd3",
-      "title": "【出海实战】Vibe 编码不会杀死 SaaS",
-      "originalTitle": "Vibe coding isn’t killing SaaS",
-      "summary": "X 最近充满了运营商，他们表示他们取消了订阅并自行重建了所有初创工具……如果您是独立黑客或独立创始人，我明白。构建自己的工具...（来源：X/Reddit·出海SaaS搞钱）",
-      "source": {
-        "name": "X/Reddit·出海SaaS搞钱"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a23346239fcc4dacd923dfbd3",
-        "original": "https://www.reddit.com/r/SaaS/comments/1x67q1k/vibe_coding_isnt_killing_saas/"
-      },
-      "publishedAt": "2026-10-15T00:31:11.000Z",
-      "discoveredAt": "2026-10-15T00:45:31.313Z",
-      "category": "money",
-      "score": 99,
-      "selected": true,
-      "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a23346239fcc4dacd923dfbd3"
-      }
-    },
-    {
-      "id": "a192bcc774faf36bd93885daf",
-      "title": "【出海实战】Reddit 广告帮助：这向您展示了什么？",
-      "originalTitle": "Help with Reddit Ads: what does this show you?",
-      "summary": "我是广告新手，需要一些帮助。我的 ICP 是 18-24 岁的金融本科生/应届毕业生。在我获得的大约 2,600 次点击中，我只获得了两次注册。话虽这么说，我进去检查了 posthog...（来源：X/Reddit·出海SaaS搞钱）",
-      "source": {
-        "name": "X/Reddit·出海SaaS搞钱"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a192bcc774faf36bd93885daf",
-        "original": "https://www.reddit.com/r/SaaS/comments/1x66ky3/help_with_reddit_ads_what_does_this_show_you/"
-      },
-      "publishedAt": "2026-10-14T23:37:24.000Z",
-      "discoveredAt": "2026-10-15T00:45:33.039Z",
-      "category": "money",
-      "score": 98,
-      "selected": true,
-      "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a192bcc774faf36bd93885daf"
-      }
-    },
-    {
-      "id": "a3a8d319a0fc606461e2dd481",
-      "title": "【独立变现】Show HN：Petal，开源 CoScreen/ScreenHero 终于免费了",
-      "originalTitle": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
-      "summary": "嗨，HN！我是 Jason Thomas，CoScreen 的创始人之一。你们中有些人可能知道，Datadog 于 7 月 31 日取消了 CoScreen 服务。我们最初的 CoScreen 团队的四个人花了几个月的时间构建了一个...（来源：Show HN·独立变现榜）",
+      "id": "a4ea29ca1e36d97e5f5abb492",
+      "title": "【独立变现】Show HN：触发器、Iroh 支持的文件共享持久隧道",
+      "originalTitle": "Show HN: Flipflop, Iroh-powered persistent tunnels for filesharing",
+      "summary": "这是一个项目，源于我使用 LocalSend 和 DashBeam 在设备之间传输内容的挫败感，并以快速为额外目标，尝试了 Slint 框架，最重要的是，建立...（来源：Show HN·独立变现榜）",
       "source": {
         "name": "Show HN·独立变现榜"
       },
       "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a3a8d319a0fc606461e2dd481",
-        "original": "https://petal.live/"
+        "aihot": "https://zenglian-news.onrender.com/items/a4ea29ca1e36d97e5f5abb492",
+        "original": "https://github.com/andunieee/flipflop"
       },
-      "publishedAt": "2026-10-14T18:23:14.000Z",
-      "discoveredAt": "2026-10-15T05:19:47.668Z",
+      "publishedAt": "2026-10-15T04:25:28.000Z",
+      "discoveredAt": "2026-10-15T19:10:40.246Z",
       "category": "money",
       "score": 99,
       "selected": true,
       "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
       "attribution": {
         "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a3a8d319a0fc606461e2dd481"
-      }
-    },
-    {
-      "id": "a69ea6422419caf792bc38088",
-      "title": "【独立变现】Show HN：我编写了一个电子邮件应用程序，每个收件箱仅接受一个发件人",
-      "originalTitle": "Show HN: I wrote an email app that accepts only one sender per inbox",
-      "summary": "无限的收件箱，包括前缀，您在使用它们之前无需创建收件箱 - 它们会在您添加后缀时自行创建。三种类型的收件箱： - 一个发件人。锁定发送电子邮件的第一个域（例如...（来源：Show HN·独立变现榜）",
-      "source": {
-        "name": "Show HN·独立变现榜"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a69ea6422419caf792bc38088",
-        "original": "https://clova.email/"
-      },
-      "publishedAt": "2026-10-14T17:00:59.000Z",
-      "discoveredAt": "2026-10-15T05:19:48.401Z",
-      "category": "money",
-      "score": 99,
-      "selected": true,
-      "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a69ea6422419caf792bc38088"
-      }
-    },
-    {
-      "id": "a490409f8bafb638f1c5477f7",
-      "title": "【出海实战】作为一名 22 岁的独立创始人，我刚刚通过 SaaS 赚到了 10 万美元。 100 美元起",
-      "originalTitle": "I just hit $100K with my SaaS as a 22-year-old solo founder. Started with $100",
-      "summary": "我的 B2B SaaS Getlead 的总收入终于突破了 100,000 美元。我今年 22 岁，完全独立、完全自力更生。没有投资人，没有团队。刚开始只需 100 美元。几个月前，即使达到 1 万美元也感觉......（来源：X/Reddit·出海SaaS搞钱）",
-      "source": {
-        "name": "X/Reddit·出海SaaS搞钱"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a490409f8bafb638f1c5477f7",
-        "original": "https://www.reddit.com/r/SaaS/comments/1x5vy9i/i_just_hit_100k_with_my_saas_as_a_22yearold_solo/"
-      },
-      "publishedAt": "2026-10-14T16:32:34.000Z",
-      "discoveredAt": "2026-10-14T19:15:56.862Z",
-      "category": "money",
-      "score": 99,
-      "selected": true,
-      "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a490409f8bafb638f1c5477f7"
-      }
-    },
-    {
-      "id": "a0cf1659ae7e12c1a775bdace",
-      "title": "【独立变现】Show HN：Graphicle，Graphify 的 Rust 端口，具有用于编码代理的内存",
-      "originalTitle": "Show HN: Graphicle, a Rust port of Graphify with memory for coding agents",
-      "summary": "Show HN·独立变现榜实时快讯：Show HN: Graphicle, a Rust port of Graphify with memory for coding agents。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
-      "source": {
-        "name": "Show HN·独立变现榜"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a0cf1659ae7e12c1a775bdace",
-        "original": "https://github.com/graphicle-ai/graphicle"
-      },
-      "publishedAt": "2026-10-14T15:00:41.000Z",
-      "discoveredAt": "2026-10-15T05:19:48.981Z",
-      "category": "money",
-      "score": 99,
-      "selected": true,
-      "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a0cf1659ae7e12c1a775bdace"
-      }
-    },
-    {
-      "id": "a0123fb1ae978ac6ea6013d52",
-      "title": "【独立变现】Show HN：用代码构建的 3D 达芬奇导览博物馆",
-      "originalTitle": "Show HN: A guided 3D Leonardo da Vinci museum, built in code",
-      "summary": "你好 HN，我是一家小型非营利组织的创始人，该组织建造了时代博物馆。上周，我们开设了第一个侧翼，即数字达芬奇博物馆。这是一次虚拟之旅，共有 17 个站点，参观他的作品，然后是他在...的最后一栋房子。（来源：Show HN·独立变现榜）",
-      "source": {
-        "name": "Show HN·独立变现榜"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a0123fb1ae978ac6ea6013d52",
-        "original": "https://museumofages.org/w/vinci"
-      },
-      "publishedAt": "2026-10-14T10:00:24.000Z",
-      "discoveredAt": "2026-10-14T14:56:55.617Z",
-      "category": "money",
-      "score": 99,
-      "selected": true,
-      "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a0123fb1ae978ac6ea6013d52"
-      }
-    },
-    {
-      "id": "a30dbe60379c01bb6d8712500",
-      "title": "【出海实战】当AI让谁都能写软件，我们到底在为谁造产品？",
-      "originalTitle": "If anyone can build software with AI, who are we building products for?",
-      "summary": "开发者用AI复刻Adobe全家桶并开源为ArtCraft，免费提供Photoshop、Illustrator、Premiere等七款替代品。虽不完美但引发热议，核心问题浮现：当软件开发门槛趋近于零，产品该为谁而建？（来源：X/Reddit·出海SaaS搞钱）",
-      "source": {
-        "name": "X/Reddit·出海SaaS搞钱"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a30dbe60379c01bb6d8712500",
-        "original": "https://www.reddit.com/r/SaaS/comments/1x5jfir/if_anyone_can_build_software_with_ai_who_are_we/"
-      },
-      "publishedAt": "2026-10-14T05:54:14.000Z",
-      "discoveredAt": "2026-10-14T09:45:52.309Z",
-      "category": "money",
-      "score": 90,
-      "selected": true,
-      "reason": "AI颠覆软件业，产品价值面临重估",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a30dbe60379c01bb6d8712500"
+        "url": "https://zenglian-news.onrender.com/items/a4ea29ca1e36d97e5f5abb492"
       }
     }
   ],
