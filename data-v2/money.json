@@ -10,49 +10,95 @@
   },
   "items": [
     {
-      "id": "ad744058e5202d4f55d4ad74f",
-      "title": "[硬件] SSD 到底能用几年？闪迪给了个公式，顺便说说服务器上怎么看盘快不快写坏了",
-      "originalTitle": "[硬件] SSD 到底能用几年？闪迪给了个公式，顺便说说服务器上怎么看盘快不快写坏了",
-      "summary": "闪迪最近发了篇科普，说正常使用下大多数 SSD 能用 5 到 10 年，很多更久，寿命主要看写了多少数据。里面有个公式挺好用，整理一下，再补一点服务器上的经验。 三个数 指标 意思 TBW 总写入量，这块盘一共能写多少 TB DWPD 保修期内每天能把整盘写满几遍，企业盘常标这个 MTBF 平均无故障时间，说的是整盘可靠性，不是闪存磨损 TBW 和 DWPD 可以互换：TBW ≈ DWPD × 容量（ TB ）× 365 × 保修年数。...",
+      "id": "a5e77544c596bed2acabb0973",
+      "title": "[Linux] libcr 项目组发布免费瀑布流相册应用 crPhotos 1.9.0 for Linux , 支持 安卓快速分享",
+      "originalTitle": "[Linux] libcr 项目组发布免费瀑布流相册应用 crPhotos 1.9.0 for Linux , 支持 安卓快速分享",
+      "summary": "crPhotos 是一款纯 C++开发的瀑布流相册应用， 构建自 chromium 154 版本 内置 GPU 渲染加速，视频硬件解码的高性能相册应用 保持全平台 UI 体验一致性，同步支持所有主流桌面系统 新增 Android QuickShare 协议支持，方便设备间分享 在 Pixel 手机，LineageOS, Windows QuickShare 设备间测试成功 - 通过时间线浏览本地照片与视频。 - 添加媒体库文件夹、按文件...",
       "source": {
         "name": "V2EX·独立开发与副业"
       },
       "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/ad744058e5202d4f55d4ad74f",
-        "original": "https://www.v2ex.com/t/1249503#reply0"
+        "aihot": "https://zenglian-news.onrender.com/items/a5e77544c596bed2acabb0973",
+        "original": "https://www.v2ex.com/t/1249506#reply0"
       },
-      "publishedAt": "2026-10-16T20:31:19.000Z",
-      "discoveredAt": "2026-10-16T20:35:24.363Z",
+      "publishedAt": "2026-10-16T23:24:21.000Z",
+      "discoveredAt": "2026-10-16T23:55:24.082Z",
       "category": "money",
-      "score": 91,
+      "score": 92,
       "selected": true,
       "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
       "attribution": {
         "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/ad744058e5202d4f55d4ad74f"
+        "url": "https://zenglian-news.onrender.com/items/a5e77544c596bed2acabb0973"
       }
     },
     {
-      "id": "adc805c2482c5e47486a4e9ff",
-      "title": "[分享创造] 做了个 macOS 原生 Emby 观影助手： TMDB 搜索找片、片单浏览、入库核对与外部播放",
-      "originalTitle": "[分享创造] 做了个 macOS 原生 Emby 观影助手： TMDB 搜索找片、片单浏览、入库核对与外部播放",
-      "summary": "有没有人也想把 豆瓣电影 Top 250 、IMDb Top 250 ，或者各大电影节的获奖作品收集齐 ？ 我自己就有这个需求。麻烦的往往是逐部核对：榜单里有哪些，自己的 Emby 已经收了哪些，还缺哪些？同一部电影可能出现在好几个榜单里，片名又有不同译法；榜单更新后，还得重新查一遍。片单一多，手工对比就很费时间。 为此，我自己会定期抓取、整理并更新一批影视榜单，再维护成 TMDB 片单，主要包括： 经典与口碑榜 ：豆瓣电影 Top 2...",
+      "id": "a70e8aa1c1a132029f99dcfdf",
+      "title": "该撕下Anthropic“2万亿预期估值”的面具了",
+      "originalTitle": "该撕下Anthropic“2万亿预期估值”的面具了",
+      "summary": "出品 | 虎嗅科技组 作者 | 梁卡尔 编辑 | 苗正卿 头图 | 视觉中国 还没敲钟，市场就已经先替它投票了。 美东时间10月14日旧金山闭门会刚散场，10月15日科技股就迎来一轮抛售，AI基建、芯片和租算力的AI算力云普跌，英伟达参投的CoreWeave股债双杀。 华尔街的共识很直白，今年AI行情的短期命门，就系在这场还没发生的IPO上，OpenAI还排在它后面。它若卖不好，整个AI烧钱扩算力的游戏都要重估。 而Anthropic交...",
+      "source": {
+        "name": "虎嗅网·商业搞钱深度"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a70e8aa1c1a132029f99dcfdf",
+        "original": "https://www.huxiu.com/article/4898196.html?f=rss"
+      },
+      "publishedAt": "2026-10-16T23:00:03.000Z",
+      "discoveredAt": "2026-10-16T23:55:21.512Z",
+      "category": "money",
+      "score": 99,
+      "selected": true,
+      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a70e8aa1c1a132029f99dcfdf"
+      }
+    },
+    {
+      "id": "ad4ac4bf69666239903f60125",
+      "title": "[插件与扩展] Chrome 插件，突破 1000 用户， 4 个付费，聊聊冷启动，送 5 个一年版 Pro",
+      "originalTitle": "[插件与扩展] Chrome 插件，突破 1000 用户， 4 个付费，聊聊冷启动，送 5 个一年版 Pro",
+      "summary": "第一次做 Chrome 插件，最近终于突破了 1000 用户，Chrome 商店评分 4.9 ，目前有 4 个付费用户。 插件叫 OutlineSave ，主要是给 ChatGPT 等 AI 长对话生成完整目录，支持 400+ 轮长对话的目录加载、搜索和跳转，也支持高亮、备注、书签，以及导出带目录和搜索功能的离线 HTML 。 想聊聊这段时间的冷启动经历。 1. 最开始真的很难找到用户 刚开始基本没什么自然流量，经常找身边的熟人帮忙安装...",
       "source": {
         "name": "V2EX·独立开发与副业"
       },
       "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/adc805c2482c5e47486a4e9ff",
-        "original": "https://www.v2ex.com/t/1249501#reply0"
+        "aihot": "https://zenglian-news.onrender.com/items/ad4ac4bf69666239903f60125",
+        "original": "https://www.v2ex.com/t/1249505#reply0"
       },
-      "publishedAt": "2026-10-16T19:33:33.000Z",
-      "discoveredAt": "2026-10-16T19:58:22.947Z",
+      "publishedAt": "2026-10-16T22:50:07.000Z",
+      "discoveredAt": "2026-10-16T22:54:33.606Z",
       "category": "money",
       "score": 95,
       "selected": true,
       "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
       "attribution": {
         "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/adc805c2482c5e47486a4e9ff"
+        "url": "https://zenglian-news.onrender.com/items/ad4ac4bf69666239903f60125"
+      }
+    },
+    {
+      "id": "a166e42174b4a23cb990b79f0",
+      "title": "【出海实战】我刚刚获得了第一个 SaaS 付费客户！",
+      "originalTitle": "I just got my first paying customer for my SaaS!",
+      "summary": "我刚刚获得了第一个 SaaS 付费客户！来自X/Reddit·出海SaaS搞钱的实时报道。（来源：X/Reddit·出海SaaS搞钱）",
+      "source": {
+        "name": "X/Reddit·出海SaaS搞钱"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a166e42174b4a23cb990b79f0",
+        "original": "https://www.reddit.com/r/SaaS/comments/1x7qtgp/i_just_got_my_first_paying_customer_for_my_saas/"
+      },
+      "publishedAt": "2026-10-16T20:17:24.000Z",
+      "discoveredAt": "2026-10-16T23:55:20.628Z",
+      "category": "money",
+      "score": 99,
+      "selected": true,
+      "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a166e42174b4a23cb990b79f0"
       }
     },
     {
@@ -145,29 +191,6 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/aa0da3ecadff250f2821e2adb"
-      }
-    },
-    {
-      "id": "afda9453b898959c4804f2b6d",
-      "title": "小儿推拿馆，熬走了街边所有的店",
-      "originalTitle": "小儿推拿馆，熬走了街边所有的店",
-      "summary": "本文来自微信公众号： 表外表里 ，编辑：曹宾玲，作者：洞见数据研究院 周燃发现，小区门口藏着一位“钉子户”。 最近两三年，附近的水果、烟酒店生意滑坡，餐饮更是“开一家倒一家”，寿命以半年计。唯独那家平平无奇的小儿推拿馆，熬走一任任邻居，仍屹立不倒。 进店一瞧，无论等待区还是诊室内，都乌泱泱坐满人。他粗略数了数，半天的客人就有30位，按150元/人的常规价格，日营业额能跑赢许多头部奶茶店。 这一幕，让周燃百思不得其解。 小儿推拿并非新鲜事...",
-      "source": {
-        "name": "虎嗅网·商业搞钱深度"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/afda9453b898959c4804f2b6d",
-        "original": "https://www.huxiu.com/article/4898189.html?f=rss"
-      },
-      "publishedAt": "2026-10-16T14:31:39.000Z",
-      "discoveredAt": "2026-10-16T14:38:56.705Z",
-      "category": "money",
-      "score": 95,
-      "selected": true,
-      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/afda9453b898959c4804f2b6d"
       }
     },
     {
@@ -444,29 +467,6 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/a35a5656f183e24b89480f511"
-      }
-    },
-    {
-      "id": "adbdc15cc17e55704478117b0",
-      "title": "【出海实战】我非常高兴我的第一个 SaaS 已经拥有 50 多个用户♥️😊",
-      "originalTitle": "I’m extremely happy that my first SaaS has hit 50+ users ♥️😊",
-      "summary": "由 /u/Remarkable_Drive_165 提交 [链接] [评论]（来源：X/Reddit·出海SaaS搞钱）",
-      "source": {
-        "name": "X/Reddit·出海SaaS搞钱"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/adbdc15cc17e55704478117b0",
-        "original": "https://www.reddit.com/r/SaaS/comments/1x7718n/im_extremely_happy_that_my_first_saas_has_hit_50/"
-      },
-      "publishedAt": "2026-10-16T04:42:26.000Z",
-      "discoveredAt": "2026-10-16T09:52:28.462Z",
-      "category": "money",
-      "score": 98,
-      "selected": true,
-      "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/adbdc15cc17e55704478117b0"
       }
     }
   ],

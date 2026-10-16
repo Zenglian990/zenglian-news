@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T21:35:26.640Z",
+  "generatedAt": "2026-10-16T23:55:50.702Z",
   "daily": {
     "kind": "daily",
     "key": "2026-10-17",
     "title": "曾练全球一手简报 · 今日日报 (2026-10-17)",
     "subtitle": "全球·国内·商业搞钱·AI·影视娱乐·体育 六大实时Top20精选",
-    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：Claude Code 团队如何进行代码审查；美国 90% 的工作时间都花在了人工智能基准未涵盖的任务上；新款 Apple TV 4K 刚刚获得第一个（非常小的）折扣。",
+    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：苹果更新应用商店规则，打击“裸露”人工智能应用；Claude Code 团队如何进行代码审查；中国官方确定14个“人工智能+文化和旅游”试点项目。",
     "metrics": {
       "totalEvents": 18,
       "sourcesCount": 30,
@@ -17,6 +17,29 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
+          {
+            "id": "ad1629f72438b3f8c319b0159",
+            "title": "【国际巨头】苹果更新应用商店规则，打击“裸露”人工智能应用",
+            "originalTitle": "Apple's updated App Store rules go after &#8216;nudify' AI apps",
+            "summary": "苹果的应用程序商店规则现在更明确地禁止所谓的“裸体”应用程序，这些应用程序在未经人们同意的情况下使用人工智能工具生成人们的亲密图像。规则的改变是在 X 使用后对苹果的严重批评之后发生的。（来源：The Verge·国际巨头）",
+            "source": {
+              "name": "The Verge·国际巨头"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ad1629f72438b3f8c319b0159",
+              "original": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment"
+            },
+            "publishedAt": "2026-10-16T22:51:22.000Z",
+            "discoveredAt": "2026-10-16T23:55:00.446Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ad1629f72438b3f8c319b0159"
+            }
+          },
           {
             "id": "a63084bf206b39a0656611389",
             "title": "【全球热榜】Claude Code 团队如何进行代码审查",
@@ -41,49 +64,26 @@
             }
           },
           {
-            "id": "aab9ddf15755c7afd43514ef2",
-            "title": "【全球热榜】美国 90% 的工作时间都花在了人工智能基准未涵盖的任务上",
-            "originalTitle": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-            "summary": "X/HN·全球热榜Top实时快讯：90% of US working hours are spent on tasks not covered well by AI benchmarks。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "id": "a628f8bc100e6ee29130e3ed8",
+            "title": "【BBC全球】德国牛排馆女继承人受审引发巨大间谍丑闻",
+            "originalTitle": "Trial of German steakhouse heiress that sparked a huge spy scandal",
+            "summary": "15 个月来，汉堡一座戒备森严的法庭一直在审理克里斯蒂娜·布洛克 (Christina Block) 的案件，她被指控下令绑架自己的孩子。（来源：BBC News·全球要闻）",
             "source": {
-              "name": "X/HN·全球热榜Top"
+              "name": "BBC News·全球要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aab9ddf15755c7afd43514ef2",
-              "original": "https://www.mercor.com/research/labor-index/benchmark-map/"
+              "aihot": "https://zenglian-news.onrender.com/items/a628f8bc100e6ee29130e3ed8",
+              "original": "https://www.bbc.co.uk/news/articles/cwvgdn3d656vo?at_medium=RSS&at_campaign=rss"
             },
-            "publishedAt": "2026-10-16T17:08:38.000Z",
-            "discoveredAt": "2026-10-16T18:24:54.396Z",
+            "publishedAt": "2026-10-16T23:07:18.000Z",
+            "discoveredAt": "2026-10-16T23:54:54.925Z",
             "category": "global",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aab9ddf15755c7afd43514ef2"
-            }
-          },
-          {
-            "id": "a4aae05fdf55d206a995d2829",
-            "title": "【国际巨头】新款 Apple TV 4K 刚刚获得第一个（非常小的）折扣",
-            "originalTitle": "The new Apple TV 4K just got its first (very small) discount",
-            "summary": "新款 Apple TV 4K 将于 11 月上市。 |图片来源：The Verge 本周早些时候，苹果宣布推出新款 Apple TV 4K，其价格几乎是 2022 年型号发布时的两倍。亚马逊现在提供...（来源：The Verge·国际巨头）",
-            "source": {
-              "name": "The Verge·国际巨头"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a4aae05fdf55d206a995d2829",
-              "original": "https://www.theverge.com/gadgets/1012962/apple-tv-4k-fourth-generation-fanttik-s1-pro-deal-sale"
-            },
-            "publishedAt": "2026-10-16T16:02:22.000Z",
-            "discoveredAt": "2026-10-16T18:24:56.805Z",
-            "category": "global",
-            "score": 99,
-            "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a4aae05fdf55d206a995d2829"
+              "url": "https://zenglian-news.onrender.com/items/a628f8bc100e6ee29130e3ed8"
             }
           }
         ]
@@ -168,6 +168,52 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
+            "id": "a70e8aa1c1a132029f99dcfdf",
+            "title": "该撕下Anthropic“2万亿预期估值”的面具了",
+            "originalTitle": "该撕下Anthropic“2万亿预期估值”的面具了",
+            "summary": "出品 | 虎嗅科技组 作者 | 梁卡尔 编辑 | 苗正卿 头图 | 视觉中国 还没敲钟，市场就已经先替它投票了。 美东时间10月14日旧金山闭门会刚散场，10月15日科技股就迎来一轮抛售，AI基建、芯片和租算力的AI算力云普跌，英伟达参投的CoreWeave股债双杀。 华尔街的共识很直白，今年AI行情的短期命门，就系在这场还没发生的IPO上，OpenAI还排在它后面。它若卖不好，整个AI烧钱扩算力的游戏都要重估。 而Anthropic交...",
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a70e8aa1c1a132029f99dcfdf",
+              "original": "https://www.huxiu.com/article/4898196.html?f=rss"
+            },
+            "publishedAt": "2026-10-16T23:00:03.000Z",
+            "discoveredAt": "2026-10-16T23:55:21.512Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a70e8aa1c1a132029f99dcfdf"
+            }
+          },
+          {
+            "id": "a166e42174b4a23cb990b79f0",
+            "title": "【出海实战】我刚刚获得了第一个 SaaS 付费客户！",
+            "originalTitle": "I just got my first paying customer for my SaaS!",
+            "summary": "我刚刚获得了第一个 SaaS 付费客户！来自X/Reddit·出海SaaS搞钱的实时报道。（来源：X/Reddit·出海SaaS搞钱）",
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a166e42174b4a23cb990b79f0",
+              "original": "https://www.reddit.com/r/SaaS/comments/1x7qtgp/i_just_got_my_first_paying_customer_for_my_saas/"
+            },
+            "publishedAt": "2026-10-16T20:17:24.000Z",
+            "discoveredAt": "2026-10-16T23:55:20.628Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a166e42174b4a23cb990b79f0"
+            }
+          },
+          {
             "id": "a09ac13f155dd5147918f859b",
             "title": "【独立变现】Show HN：Stoke Money – 围绕现金流预测构建的个人理财应用程序",
             "originalTitle": "Show HN: Stoke Money – Personal finance app built around a cash flow forecast",
@@ -189,52 +235,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a09ac13f155dd5147918f859b"
             }
-          },
-          {
-            "id": "a5c4ebb8c358178393ba390f8",
-            "title": "【独立变现】显示 HN：OneDeploy – 具有夜间备份和 TLS 的托管开源应用程序",
-            "originalTitle": "Show HN: OneDeploy – Managed open-source apps with nightly backups and TLS",
-            "summary": "Show HN·独立变现榜实时快讯：Show HN: OneDeploy – Managed open-source apps with nightly backups and TLS。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
-            "source": {
-              "name": "Show HN·独立变现榜"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a5c4ebb8c358178393ba390f8",
-              "original": "https://onedeploy.co"
-            },
-            "publishedAt": "2026-10-16T15:38:35.000Z",
-            "discoveredAt": "2026-10-16T18:25:10.292Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a5c4ebb8c358178393ba390f8"
-            }
-          },
-          {
-            "id": "aa0da3ecadff250f2821e2adb",
-            "title": "【独立变现】Show HN：rStation – 人工智能代理的共享研究实验室",
-            "originalTitle": "Show HN: rStation – A shared research lab for your AI agents",
-            "summary": "Show HN·独立变现榜实时快讯：Show HN: rStation – A shared research lab for your AI agents。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
-            "source": {
-              "name": "Show HN·独立变现榜"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa0da3ecadff250f2821e2adb",
-              "original": "https://rstation.ai/"
-            },
-            "publishedAt": "2026-10-16T14:35:43.000Z",
-            "discoveredAt": "2026-10-16T18:25:10.735Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa0da3ecadff250f2821e2adb"
-            }
           }
         ]
       },
@@ -242,6 +242,29 @@
         "category": "tech",
         "label": "🤖 AI实时Top20",
         "items": [
+          {
+            "id": "a443885d42d43ed90a36238c9",
+            "title": "【OpenAI官宣】Itaú 如何为其整个客户群构建生成式人工智能",
+            "originalTitle": "How Itaú is building generative AI for its entire customer base",
+            "summary": "借助对话界面 ia.i 和 IARA 治理平台，Itaú 正在将其人工智能优先战略应用于巴西监管最严格的行业之一的客户和员工。（来源：OpenAI·官方一手）",
+            "source": {
+              "name": "OpenAI·官方一手"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a443885d42d43ed90a36238c9",
+              "original": "https://openai.com/index/itau-generative-ai"
+            },
+            "publishedAt": "2026-10-16T19:00:00.000Z",
+            "discoveredAt": "2026-10-16T23:55:24.794Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "OpenAI 官方博客与研究产品一手公告，全球人工智能行业最高风向标。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a443885d42d43ed90a36238c9"
+            }
+          },
           {
             "id": "a9bfaa346512128ab8b7c8bb1",
             "title": "【MIT·AI】圆桌会议：与人工智能病毒创造者的对话",
@@ -287,29 +310,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ac402c775771f3824badd0966"
             }
-          },
-          {
-            "id": "ad25c64aa9c07736a7653db82",
-            "title": "【硅谷AI】一位 Nvidia 内部人士转型为风险投资家，探讨机器人技术尚未达到 ChatGPT 时刻的原因",
-            "originalTitle": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
-            "summary": "Amulya Vishwanath 花了七年时间领导 NVIDIA 机器人平台的产品营销，他表示机器人技术目前正处于“乐高时代”，具有执行器、机器人手、软件等基本构建模块……（来源：TechCrunch·硅谷AI）",
-            "source": {
-              "name": "TechCrunch·硅谷AI"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad25c64aa9c07736a7653db82",
-              "original": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/"
-            },
-            "publishedAt": "2026-10-16T16:30:00.000Z",
-            "discoveredAt": "2026-10-16T18:25:21.838Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad25c64aa9c07736a7653db82"
-            }
           }
         ]
       },
@@ -317,6 +317,52 @@
         "category": "culture",
         "label": "🎬 影视娱乐Top20",
         "items": [
+          {
+            "id": "aeb700b28f2b2ef0dfedcd60b",
+            "title": "【全球票房】《Whalefall》的导演兼作者如何将父子关系的结束编织成一个生存故事",
+            "originalTitle": "How ‘Whalefall’s Director & Author Wove The Closure Of A Father-Son Relationship Into A Survival Tale",
+            "summary": "剧透警告：这篇文章剧透了根据丹尼尔·克劳斯的小说改编的电影《鲸落》的情节，该电影现已上映。 《Whalefall》导演布莱恩·达菲尔德（Brian Duffield）有一个流传甚广的笑话，他打算总结这部来自 20 世纪的电影……（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aeb700b28f2b2ef0dfedcd60b",
+              "original": "https://deadline.com/2026/10/whalefall-dad-son-themes-director-author-explain-set-visit-1237158531/"
+            },
+            "publishedAt": "2026-10-16T23:20:50.000Z",
+            "discoveredAt": "2026-10-16T23:55:41.656Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aeb700b28f2b2ef0dfedcd60b"
+            }
+          },
+          {
+            "id": "a67c31a92b4668b2cfaa6fefc",
+            "title": "【全球票房】《La Bola Negra》导演二人组洛斯·贾维斯揭示西班牙风情如何成为“我们生命的旅程”",
+            "originalTitle": "‘La Bola Negra’ Directing Duo Los Javis Reveal How Spanish Sensation Became “The Journey Of Our Lives”",
+            "summary": "佩内洛普·克鲁兹 (Penélope Cruz) 多年来一直是洛斯贾维斯 (Los Javis)（西班牙电影制作人哈维尔·安布罗西 (Javier Ambrossi) 和哈维尔·卡尔沃 (Javier Calvo) 的绰号) 的缪斯女神，后来他们共进午餐，说服她在《洛斯贾维斯》中扮演一名歌手（实际上更像是一种自然的力量）。（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a67c31a92b4668b2cfaa6fefc",
+              "original": "https://deadline.com/2026/10/la-bola-negra-directors-interview-los-javis-1237165637/"
+            },
+            "publishedAt": "2026-10-16T22:15:00.000Z",
+            "discoveredAt": "2026-10-16T23:55:42.822Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a67c31a92b4668b2cfaa6fefc"
+            }
+          },
           {
             "id": "a94fe5f018faa355497da3aaa",
             "title": "【好莱坞一手】派拉蒙与《饥饿游戏》导演弗朗西斯·劳伦斯合作拍摄《红色崛起》电影",
@@ -338,52 +384,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a94fe5f018faa355497da3aaa"
-            }
-          },
-          {
-            "id": "a3d542816382e0a37e97bb608",
-            "title": "【全球票房】Netflix 凭借《La Bola Negra》进入票房时代； “你可以看到一切”和“马斯克”对峙——专业预览",
-            "originalTitle": "Netflix Enters Box Office Era With ‘La Bola Negra’; ‘You Can See Everything’ & ‘Musk’ Face Off – Specialty Preview",
-            "summary": "西班牙戛纳获奖影片《波拉黑》 (La Bola Negra) 将于本周末上映，这部西班牙奥斯卡最佳国际影片的灵感源自未完成的费德里科·加西亚·洛尔卡 (Federico García Lorca) 戏剧，标志着 Netflix 的一个里程碑。 A24 首次亮相热闹的 Eliz...（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a3d542816382e0a37e97bb608",
-              "original": "https://deadline.com/2026/10/indie-films-opening-you-can-see-everything-la-bola-negra-netflix-1237165901/"
-            },
-            "publishedAt": "2026-10-16T20:45:17.000Z",
-            "discoveredAt": "2026-10-16T21:35:05.541Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a3d542816382e0a37e97bb608"
-            }
-          },
-          {
-            "id": "a09f8ca4120822441008bdebc",
-            "title": "【好莱坞一手】《我玩洛奇》伦敦电影节惊喜放映",
-            "originalTitle": "‘I Play Rocky’ Surprise Screens at London Film Festival",
-            "summary": "周五晚上伦敦电影节的惊喜电影是《我扮演洛基》，这是彼得·法拉利的传记片，讲述了西尔维斯特·史泰龙深受喜爱的拳击系列的开始。法雷利 (Farrelly) 现场介绍了这款...（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a09f8ca4120822441008bdebc",
-              "original": "https://variety.com/2026/film/festivals/i-play-rocky-surprise-movie-london-film-festival-1236914385/"
-            },
-            "publishedAt": "2026-10-16T20:32:24.000Z",
-            "discoveredAt": "2026-10-16T21:34:55.430Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a09f8ca4120822441008bdebc"
             }
           }
         ]
@@ -470,7 +470,7 @@
     "key": "2026-W41",
     "title": "曾练全球一手简报 · 本周核心周报 (2026年第41周)",
     "subtitle": "7天全球政经、国内大事、商业搞钱、AI突破与文体焦点深度复盘",
-    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：Claude Code 团队如何进行代码审查；美国 90% 的工作时间都花在了人工智能基准未涵盖的任务上；新款 Apple TV 4K 刚刚获得第一个（非常小的）折扣。",
+    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：苹果更新应用商店规则，打击“裸露”人工智能应用；Claude Code 团队如何进行代码审查；中国官方确定14个“人工智能+文化和旅游”试点项目。",
     "metrics": {
       "totalEvents": 30,
       "sourcesCount": 30,
@@ -481,6 +481,29 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
+          {
+            "id": "ad1629f72438b3f8c319b0159",
+            "title": "【国际巨头】苹果更新应用商店规则，打击“裸露”人工智能应用",
+            "originalTitle": "Apple's updated App Store rules go after &#8216;nudify' AI apps",
+            "summary": "苹果的应用程序商店规则现在更明确地禁止所谓的“裸体”应用程序，这些应用程序在未经人们同意的情况下使用人工智能工具生成人们的亲密图像。规则的改变是在 X 使用后对苹果的严重批评之后发生的。（来源：The Verge·国际巨头）",
+            "source": {
+              "name": "The Verge·国际巨头"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ad1629f72438b3f8c319b0159",
+              "original": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment"
+            },
+            "publishedAt": "2026-10-16T22:51:22.000Z",
+            "discoveredAt": "2026-10-16T23:55:00.446Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ad1629f72438b3f8c319b0159"
+            }
+          },
           {
             "id": "a63084bf206b39a0656611389",
             "title": "【全球热榜】Claude Code 团队如何进行代码审查",
@@ -505,49 +528,26 @@
             }
           },
           {
-            "id": "aab9ddf15755c7afd43514ef2",
-            "title": "【全球热榜】美国 90% 的工作时间都花在了人工智能基准未涵盖的任务上",
-            "originalTitle": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-            "summary": "X/HN·全球热榜Top实时快讯：90% of US working hours are spent on tasks not covered well by AI benchmarks。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "id": "a628f8bc100e6ee29130e3ed8",
+            "title": "【BBC全球】德国牛排馆女继承人受审引发巨大间谍丑闻",
+            "originalTitle": "Trial of German steakhouse heiress that sparked a huge spy scandal",
+            "summary": "15 个月来，汉堡一座戒备森严的法庭一直在审理克里斯蒂娜·布洛克 (Christina Block) 的案件，她被指控下令绑架自己的孩子。（来源：BBC News·全球要闻）",
             "source": {
-              "name": "X/HN·全球热榜Top"
+              "name": "BBC News·全球要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aab9ddf15755c7afd43514ef2",
-              "original": "https://www.mercor.com/research/labor-index/benchmark-map/"
+              "aihot": "https://zenglian-news.onrender.com/items/a628f8bc100e6ee29130e3ed8",
+              "original": "https://www.bbc.co.uk/news/articles/cwvgdn3d656vo?at_medium=RSS&at_campaign=rss"
             },
-            "publishedAt": "2026-10-16T17:08:38.000Z",
-            "discoveredAt": "2026-10-16T18:24:54.396Z",
+            "publishedAt": "2026-10-16T23:07:18.000Z",
+            "discoveredAt": "2026-10-16T23:54:54.925Z",
             "category": "global",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aab9ddf15755c7afd43514ef2"
-            }
-          },
-          {
-            "id": "a4aae05fdf55d206a995d2829",
-            "title": "【国际巨头】新款 Apple TV 4K 刚刚获得第一个（非常小的）折扣",
-            "originalTitle": "The new Apple TV 4K just got its first (very small) discount",
-            "summary": "新款 Apple TV 4K 将于 11 月上市。 |图片来源：The Verge 本周早些时候，苹果宣布推出新款 Apple TV 4K，其价格几乎是 2022 年型号发布时的两倍。亚马逊现在提供...（来源：The Verge·国际巨头）",
-            "source": {
-              "name": "The Verge·国际巨头"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a4aae05fdf55d206a995d2829",
-              "original": "https://www.theverge.com/gadgets/1012962/apple-tv-4k-fourth-generation-fanttik-s1-pro-deal-sale"
-            },
-            "publishedAt": "2026-10-16T16:02:22.000Z",
-            "discoveredAt": "2026-10-16T18:24:56.805Z",
-            "category": "global",
-            "score": 99,
-            "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a4aae05fdf55d206a995d2829"
+              "url": "https://zenglian-news.onrender.com/items/a628f8bc100e6ee29130e3ed8"
             }
           },
           {
@@ -574,26 +574,26 @@
             }
           },
           {
-            "id": "a57540b93e73367ca5ea95696",
-            "title": "【国际巨头】Apple 的 HomeView 有应用程序问题",
-            "originalTitle": "Apple's HomeView has an app problem",
-            "summary": "自 Apple 发布大型智能家居产品以来已经过去了几天，我们获得了有关 Apple HomeView 的更多信息以及一系列新问题。该设备具有充足的计算能力，始终连接...（来源：The Verge·国际巨头）",
+            "id": "ae4740dba278c7f9e9fafe73c",
+            "title": "【全球热榜】我从未授权扫描我的秘密的集成",
+            "originalTitle": "I never authorized an integration that scans my secrets",
+            "summary": "X/HN·全球热榜Top实时快讯：I never authorized an integration that scans my secrets。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
             "source": {
-              "name": "The Verge·国际巨头"
+              "name": "X/HN·全球热榜Top"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a57540b93e73367ca5ea95696",
-              "original": "https://www.theverge.com/podcast/1012911/apple-homeview-apps-carplay-vergecast"
+              "aihot": "https://zenglian-news.onrender.com/items/ae4740dba278c7f9e9fafe73c",
+              "original": "https://github.com/home-assistant/home-assistant.io/issues/49314"
             },
-            "publishedAt": "2026-10-16T15:38:17.000Z",
-            "discoveredAt": "2026-10-16T18:24:57.818Z",
+            "publishedAt": "2026-10-16T20:33:41.000Z",
+            "discoveredAt": "2026-10-16T23:54:55.815Z",
             "category": "global",
-            "score": 98,
+            "score": 97,
             "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a57540b93e73367ca5ea95696"
+              "url": "https://zenglian-news.onrender.com/items/ae4740dba278c7f9e9fafe73c"
             }
           }
         ]
@@ -672,49 +672,49 @@
             }
           },
           {
-            "id": "abc7c7b0193c872258f53e79b",
-            "title": "【国内要闻】中新健康｜老人大量囤积废品被儿女“举报”，医生紧急提醒！",
-            "originalTitle": "中新健康｜老人大量囤积废品被儿女“举报”，医生紧急提醒！",
-            "summary": "中新网北京10月17日电(罗春昊)近日，有媒体报道，江西抚州一男子向消防救援部门求助，其母亲长期在家中、楼道大量堆积废品，父亲因此肺部感染住院，母亲之前也同样因感染住过院。该男子多次劝阻无效，无奈选择“举报”母亲。",
+            "id": "acaaec780d79f13ec717f9afd",
+            "title": "蒲得宇预估 2026 全球手机出货量降 14.2%，苹果成唯一增长的主要手机厂商",
+            "originalTitle": "蒲得宇预估 2026 全球手机出货量降 14.2%，苹果成唯一增长的主要手机厂商",
+            "summary": "IT之家 10 月 17 日消息，在本周发布的投资简报中，广发证券分析师蒲得宇（Jeff Pu）和 Henry Huang 预测， 苹果将是 2026 年唯一一家出货量实现增长的主要智能手机制造商（增长 4%）。 在两位分析师联合发布的投资简报中， 预测 2026 年全球智能手机出货量约 10.8 亿部，同比下降约为 14.2%。 而苹果却有望成为唯一实现出货增长的主要厂商，达到 2.57 亿部，预计同比增长 4%，届时其全球出货份额将...",
             "source": {
-              "name": "中新网·国内要闻"
+              "name": "IT之家·国内产业"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/abc7c7b0193c872258f53e79b",
-              "original": "https://www.chinanews.com.cn/jk/2026/10-17/10716041.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/acaaec780d79f13ec717f9afd",
+              "original": "https://www.ithome.com/1/014/204.htm"
             },
-            "publishedAt": "2026-10-16T17:16:39.000Z",
-            "discoveredAt": "2026-10-16T18:12:33.456Z",
+            "publishedAt": "2026-10-16T23:44:12.000Z",
+            "discoveredAt": "2026-10-16T23:55:04.951Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/abc7c7b0193c872258f53e79b"
+              "url": "https://zenglian-news.onrender.com/items/acaaec780d79f13ec717f9afd"
             }
           },
           {
-            "id": "af728d6ed8827ecdc04ee75ff",
-            "title": "【国内要闻】中央音乐学院举行“10·15”艺术节开幕音乐会",
-            "originalTitle": "中央音乐学院举行“10·15”艺术节开幕音乐会",
-            "summary": "中新网北京10月17日电 10月15日晚，2026中俄教育年·中央音乐学院“10·15”艺术节开幕式交响音乐会在中央音乐学院歌剧音乐厅上演。圣彼得堡国立音乐学院院长、俄罗斯功勋艺术家阿列克谢·瓦西里耶夫执棒中央音乐学院交响乐团，以中俄当代新作与经典民族器乐协奏曲，为第八届“10·15”艺术节拉开帷幕。",
+            "id": "adb89a8b5fc87586053bec938",
+            "title": "马斯克要让 AI 帮企业“砍价”：成本效益有望提升 5% 以上",
+            "originalTitle": "马斯克要让 AI 帮企业“砍价”：成本效益有望提升 5% 以上",
+            "summary": "IT之家 10 月 17 日消息，全球首富埃隆 · 马斯克（Elon Musk）今天（10 月 17 日）在 X 平台发布推文，表示其团队正投入大量资源， 开发面向商业场景的专用议价机器人“Hagglebot”，希望借此提升企业成本效率。 IT之家注：“专用议价机器人”就是为企业谈价格、争取更好交易条件而设计的 AI 软件，并非实体机器人。这里可以把它想象成一个“数字采购谈判员”：企业给它设定预算、可接受价格和交易条件，它再围绕这些目标...",
             "source": {
-              "name": "中新网·国内要闻"
+              "name": "IT之家·国内产业"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af728d6ed8827ecdc04ee75ff",
-              "original": "https://www.chinanews.com.cn/sh/2026/10-17/10716036.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/adb89a8b5fc87586053bec938",
+              "original": "https://www.ithome.com/1/014/192.htm"
             },
-            "publishedAt": "2026-10-16T17:13:32.000Z",
-            "discoveredAt": "2026-10-16T18:12:33.756Z",
+            "publishedAt": "2026-10-16T23:01:02.000Z",
+            "discoveredAt": "2026-10-16T23:08:54.590Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af728d6ed8827ecdc04ee75ff"
+              "url": "https://zenglian-news.onrender.com/items/adb89a8b5fc87586053bec938"
             }
           }
         ]
@@ -723,6 +723,52 @@
         "category": "money",
         "label": "💰 商业搞钱Top20",
         "items": [
+          {
+            "id": "a70e8aa1c1a132029f99dcfdf",
+            "title": "该撕下Anthropic“2万亿预期估值”的面具了",
+            "originalTitle": "该撕下Anthropic“2万亿预期估值”的面具了",
+            "summary": "出品 | 虎嗅科技组 作者 | 梁卡尔 编辑 | 苗正卿 头图 | 视觉中国 还没敲钟，市场就已经先替它投票了。 美东时间10月14日旧金山闭门会刚散场，10月15日科技股就迎来一轮抛售，AI基建、芯片和租算力的AI算力云普跌，英伟达参投的CoreWeave股债双杀。 华尔街的共识很直白，今年AI行情的短期命门，就系在这场还没发生的IPO上，OpenAI还排在它后面。它若卖不好，整个AI烧钱扩算力的游戏都要重估。 而Anthropic交...",
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a70e8aa1c1a132029f99dcfdf",
+              "original": "https://www.huxiu.com/article/4898196.html?f=rss"
+            },
+            "publishedAt": "2026-10-16T23:00:03.000Z",
+            "discoveredAt": "2026-10-16T23:55:21.512Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a70e8aa1c1a132029f99dcfdf"
+            }
+          },
+          {
+            "id": "a166e42174b4a23cb990b79f0",
+            "title": "【出海实战】我刚刚获得了第一个 SaaS 付费客户！",
+            "originalTitle": "I just got my first paying customer for my SaaS!",
+            "summary": "我刚刚获得了第一个 SaaS 付费客户！来自X/Reddit·出海SaaS搞钱的实时报道。（来源：X/Reddit·出海SaaS搞钱）",
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a166e42174b4a23cb990b79f0",
+              "original": "https://www.reddit.com/r/SaaS/comments/1x7qtgp/i_just_got_my_first_paying_customer_for_my_saas/"
+            },
+            "publishedAt": "2026-10-16T20:17:24.000Z",
+            "discoveredAt": "2026-10-16T23:55:20.628Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a166e42174b4a23cb990b79f0"
+            }
+          },
           {
             "id": "a09ac13f155dd5147918f859b",
             "title": "【独立变现】Show HN：Stoke Money – 围绕现金流预测构建的个人理财应用程序",
@@ -791,52 +837,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/aa0da3ecadff250f2821e2adb"
             }
-          },
-          {
-            "id": "aba0fe3af9ea1624ef3dd83e5",
-            "title": "李想，下场“造芯”",
-            "originalTitle": "李想，下场“造芯”",
-            "summary": "本文来自微信公众号： 科创板日报 ，作者：余诗琪，原文标题：《李想，下场“造芯”！》 理想汽车旗下芯片业务平台马赫心科技签署首轮股权融资协议，认购总额16.25亿元，投前估值150亿元，最高投后估值约171亿元。 李想也下场了，造车新势力，正在变成造芯新势力。“蔚小理”三家造车新势力中，已有两家开始把芯片业务独立出来融资。 今日，理想汽车（02015.HK）发布公告，旗下芯片业务平台马赫心科技签署首轮股权融资协议，认购总额16.25亿元...",
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aba0fe3af9ea1624ef3dd83e5",
-              "original": "https://www.huxiu.com/article/4898192.html?f=rss"
-            },
-            "publishedAt": "2026-10-16T14:29:00.000Z",
-            "discoveredAt": "2026-10-16T14:38:56.876Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aba0fe3af9ea1624ef3dd83e5"
-            }
-          },
-          {
-            "id": "accd6ed7e1bfdced2b54b5abb",
-            "title": "【出海实战】我的副业收入比朝九晚五还要多",
-            "originalTitle": "My side project is making more than my 9-5",
-            "summary": "大家好，我不确定你是否还记得我两个月前的上一篇文章。我介绍了我的 SaaS，其 MRR 为 3500 美元。好吧，我刚刚突破了 4000 美元的 MRR，它正式比我朝九晚五的工作赚更多的钱，这对我来说太疯狂了……（来源：X/Reddit·出海SaaS搞钱）",
-            "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/accd6ed7e1bfdced2b54b5abb",
-              "original": "https://www.reddit.com/r/SaaS/comments/1x7bh9i/my_side_project_is_making_more_than_my_95/"
-            },
-            "publishedAt": "2026-10-16T09:18:12.000Z",
-            "discoveredAt": "2026-10-16T14:38:53.898Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/accd6ed7e1bfdced2b54b5abb"
-            }
           }
         ]
       },
@@ -844,6 +844,29 @@
         "category": "tech",
         "label": "🤖 AI实时Top20",
         "items": [
+          {
+            "id": "a443885d42d43ed90a36238c9",
+            "title": "【OpenAI官宣】Itaú 如何为其整个客户群构建生成式人工智能",
+            "originalTitle": "How Itaú is building generative AI for its entire customer base",
+            "summary": "借助对话界面 ia.i 和 IARA 治理平台，Itaú 正在将其人工智能优先战略应用于巴西监管最严格的行业之一的客户和员工。（来源：OpenAI·官方一手）",
+            "source": {
+              "name": "OpenAI·官方一手"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a443885d42d43ed90a36238c9",
+              "original": "https://openai.com/index/itau-generative-ai"
+            },
+            "publishedAt": "2026-10-16T19:00:00.000Z",
+            "discoveredAt": "2026-10-16T23:55:24.794Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "OpenAI 官方博客与研究产品一手公告，全球人工智能行业最高风向标。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a443885d42d43ed90a36238c9"
+            }
+          },
           {
             "id": "a9bfaa346512128ab8b7c8bb1",
             "title": "【MIT·AI】圆桌会议：与人工智能病毒创造者的对话",
@@ -935,29 +958,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a42ff3ca15fcc4d1862f56d5b"
             }
-          },
-          {
-            "id": "a466c14291678b952bab812d0",
-            "title": "【开源大模型】中国拟对23项人工智能技术（包括大型模型、代理和集群）实施出口管制；已经开源的技术被豁免",
-            "originalTitle": "China proposes export controls on 23 AI technologies (including large models, agents & clusters); already open-sourced tech is exempted",
-            "summary": "2026年10月16日，中国商务部、科学技术部发布《禁止出口限制出口技术目录》修订草案。它建议增加40项技术......（来源：LocalLLaMA·开源大模型）",
-            "source": {
-              "name": "LocalLLaMA·开源大模型"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a466c14291678b952bab812d0",
-              "original": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
-            },
-            "publishedAt": "2026-10-16T13:22:48.000Z",
-            "discoveredAt": "2026-10-16T14:39:14.070Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a466c14291678b952bab812d0"
-            }
           }
         ]
       },
@@ -965,6 +965,52 @@
         "category": "culture",
         "label": "🎬 影视娱乐Top20",
         "items": [
+          {
+            "id": "aeb700b28f2b2ef0dfedcd60b",
+            "title": "【全球票房】《Whalefall》的导演兼作者如何将父子关系的结束编织成一个生存故事",
+            "originalTitle": "How ‘Whalefall’s Director & Author Wove The Closure Of A Father-Son Relationship Into A Survival Tale",
+            "summary": "剧透警告：这篇文章剧透了根据丹尼尔·克劳斯的小说改编的电影《鲸落》的情节，该电影现已上映。 《Whalefall》导演布莱恩·达菲尔德（Brian Duffield）有一个流传甚广的笑话，他打算总结这部来自 20 世纪的电影……（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aeb700b28f2b2ef0dfedcd60b",
+              "original": "https://deadline.com/2026/10/whalefall-dad-son-themes-director-author-explain-set-visit-1237158531/"
+            },
+            "publishedAt": "2026-10-16T23:20:50.000Z",
+            "discoveredAt": "2026-10-16T23:55:41.656Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aeb700b28f2b2ef0dfedcd60b"
+            }
+          },
+          {
+            "id": "a67c31a92b4668b2cfaa6fefc",
+            "title": "【全球票房】《La Bola Negra》导演二人组洛斯·贾维斯揭示西班牙风情如何成为“我们生命的旅程”",
+            "originalTitle": "‘La Bola Negra’ Directing Duo Los Javis Reveal How Spanish Sensation Became “The Journey Of Our Lives”",
+            "summary": "佩内洛普·克鲁兹 (Penélope Cruz) 多年来一直是洛斯贾维斯 (Los Javis)（西班牙电影制作人哈维尔·安布罗西 (Javier Ambrossi) 和哈维尔·卡尔沃 (Javier Calvo) 的绰号) 的缪斯女神，后来他们共进午餐，说服她在《洛斯贾维斯》中扮演一名歌手（实际上更像是一种自然的力量）。（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a67c31a92b4668b2cfaa6fefc",
+              "original": "https://deadline.com/2026/10/la-bola-negra-directors-interview-los-javis-1237165637/"
+            },
+            "publishedAt": "2026-10-16T22:15:00.000Z",
+            "discoveredAt": "2026-10-16T23:55:42.822Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a67c31a92b4668b2cfaa6fefc"
+            }
+          },
           {
             "id": "a94fe5f018faa355497da3aaa",
             "title": "【好莱坞一手】派拉蒙与《饥饿游戏》导演弗朗西斯·劳伦斯合作拍摄《红色崛起》电影",
@@ -989,95 +1035,49 @@
             }
           },
           {
-            "id": "a3d542816382e0a37e97bb608",
-            "title": "【全球票房】Netflix 凭借《La Bola Negra》进入票房时代； “你可以看到一切”和“马斯克”对峙——专业预览",
-            "originalTitle": "Netflix Enters Box Office Era With ‘La Bola Negra’; ‘You Can See Everything’ & ‘Musk’ Face Off – Specialty Preview",
-            "summary": "西班牙戛纳获奖影片《波拉黑》 (La Bola Negra) 将于本周末上映，这部西班牙奥斯卡最佳国际影片的灵感源自未完成的费德里科·加西亚·洛尔卡 (Federico García Lorca) 戏剧，标志着 Netflix 的一个里程碑。 A24 首次亮相热闹的 Eliz...（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a3d542816382e0a37e97bb608",
-              "original": "https://deadline.com/2026/10/indie-films-opening-you-can-see-everything-la-bola-negra-netflix-1237165901/"
-            },
-            "publishedAt": "2026-10-16T20:45:17.000Z",
-            "discoveredAt": "2026-10-16T21:35:05.541Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a3d542816382e0a37e97bb608"
-            }
-          },
-          {
-            "id": "a09f8ca4120822441008bdebc",
-            "title": "【好莱坞一手】《我玩洛奇》伦敦电影节惊喜放映",
-            "originalTitle": "‘I Play Rocky’ Surprise Screens at London Film Festival",
-            "summary": "周五晚上伦敦电影节的惊喜电影是《我扮演洛基》，这是彼得·法拉利的传记片，讲述了西尔维斯特·史泰龙深受喜爱的拳击系列的开始。法雷利 (Farrelly) 现场介绍了这款...（来源：Variety·好莱坞影视）",
+            "id": "a29b80a0881f9ccc72bf6fcea",
+            "title": "【好莱坞一手】《街头霸王》演员指南：所有 WWE 明星、UFC 冠军和名人在真人电影中扮演电子游戏战士",
+            "originalTitle": "‘Street Fighter’ Cast Guide: All the WWE Stars, UFC Champs and Celebs Playing Video Game Fighters in the Live-Action Movie",
+            "summary": "第一回合……战斗！ 《街头霸王》重新登上大银幕，对 20 世纪 80 年代街机游戏中流行的流行格斗游戏视频系列进行了全新演绎，至今仍很受欢迎。派拉蒙和传奇影业的...（来源：Variety·好莱坞影视）",
             "source": {
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a09f8ca4120822441008bdebc",
-              "original": "https://variety.com/2026/film/festivals/i-play-rocky-surprise-movie-london-film-festival-1236914385/"
+              "aihot": "https://zenglian-news.onrender.com/items/a29b80a0881f9ccc72bf6fcea",
+              "original": "https://variety.com/lists/street-fighter-cast-video-game-vs-live-action/"
             },
-            "publishedAt": "2026-10-16T20:32:24.000Z",
-            "discoveredAt": "2026-10-16T21:34:55.430Z",
+            "publishedAt": "2026-10-16T22:30:00.000Z",
+            "discoveredAt": "2026-10-16T23:55:38.803Z",
             "category": "culture",
-            "score": 99,
+            "score": 98,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a09f8ca4120822441008bdebc"
+              "url": "https://zenglian-news.onrender.com/items/a29b80a0881f9ccc72bf6fcea"
             }
           },
           {
-            "id": "ac4364f1e6909f3ad87b67f2d",
-            "title": "【好莱坞一手】2026 年最佳恐怖电影（迄今为止）排名：《痴迷》、《生化危机》、《密室》等",
-            "originalTitle": "The Best Horror Movies of 2026 (So Far), Ranked: ‘Obsession,’ ‘Resident Evil,’ ‘Backrooms’ and More",
-            "summary": "2026 年对于恐怖片来说已经是疯狂的一年，从低成本票房热门影片（《密室》、《痴迷》）到世界上没有续集的电影（《惊声尖叫 7》、《陌生人 – 第三章》）。在充满伤痕的一年里...（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac4364f1e6909f3ad87b67f2d",
-              "original": "https://variety.com/lists/best-horror-movies-2026-ranked/"
-            },
-            "publishedAt": "2026-10-16T20:23:42.000Z",
-            "discoveredAt": "2026-10-16T21:34:57.342Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac4364f1e6909f3ad87b67f2d"
-            }
-          },
-          {
-            "id": "a3dc2cad12d440e27c4842609",
-            "title": "【全球票房】安东尼奥·班德拉斯联手尼古拉斯·凯奇出演《真探》第五季",
-            "originalTitle": "Antonio Banderas Joins Nicolas Cage In ‘True Detective’ Season 5",
-            "summary": "《真探》的下一季已经开始成形。安东尼奥·班德拉斯 (Antonio Banderas) 加入了 HBO 剧集第五季的演员阵容。在此之前，尼古拉斯·凯奇证实他将在晚上进入宇宙……（来源：Deadline·全球票房与新片）",
+            "id": "a9f1a1d34f14772c2cfec9fa7",
+            "title": "【全球票房】《水晶湖》的格温多林·桑德斯特罗姆谈格蕾丝与杰森的友谊，从琳达·卡德里尼和那个杀手的扭曲中“学到了很多”",
+            "originalTitle": "‘Crystal Lake’s Gwendolyn Sundstrom On Grace’s Friendship With Jason, “Learning A Lot” From Linda Cardellini & That Killer Twist",
+            "summary": "剧透：这篇文章包含有关 Peacock 的 Crystal Lake 系列的详细信息 虽然 Crystal Lake 重新审视了《十三号星期五》系列中几位熟悉的当地人，但格温多林·桑德斯特罗姆 (Gwendolyn Sundstrom) 为这部恐怖片前作带来了一个新鲜的角色……（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a3dc2cad12d440e27c4842609",
-              "original": "https://deadline.com/2026/10/antonio-banderas-nicolas-cage-true-detective-season-5-1237166029/"
+              "aihot": "https://zenglian-news.onrender.com/items/a9f1a1d34f14772c2cfec9fa7",
+              "original": "https://deadline.com/2026/10/crystal-lake-gwendolyn-sundstrom-killer-twist-1237158527/"
             },
-            "publishedAt": "2026-10-16T19:30:00.000Z",
-            "discoveredAt": "2026-10-16T21:35:07.155Z",
+            "publishedAt": "2026-10-16T22:00:00.000Z",
+            "discoveredAt": "2026-10-16T23:55:44.259Z",
             "category": "culture",
-            "score": 99,
+            "score": 98,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a3dc2cad12d440e27c4842609"
+              "url": "https://zenglian-news.onrender.com/items/a9f1a1d34f14772c2cfec9fa7"
             }
           }
         ]
@@ -1156,6 +1156,29 @@
             }
           },
           {
+            "id": "a2e8ad483071afe156ce807e2",
+            "title": "【欧洲足坛】瓦尔迪的进球徒劳，狼队的奇雷瓦延续了伯恩利的主场困境",
+            "originalTitle": "Wolves’ Chirewa extends Burnley’s home woes as Vardy’s strike is in vain",
+            "summary": "狼队替补塔万达·奇雷瓦替补出场后几秒钟内就进球，塞萨尔·佩肖托的球队后来居上，将伯恩利在特夫摩尔的主场苦难延长到了 21 场不胜。 Chirewa刚刚取代...（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a2e8ad483071afe156ce807e2",
+              "original": "https://www.theguardian.com/football/2026/oct/16/wolves-chirewa-extends-burnleys-home-woes-as-vardys-strike-is-in-vain"
+            },
+            "publishedAt": "2026-10-16T21:45:35.000Z",
+            "discoveredAt": "2026-10-16T23:55:50.281Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a2e8ad483071afe156ce807e2"
+            }
+          },
+          {
             "id": "ae0a54c584d92bd024ab1d4fb",
             "title": "【BBC足坛】英超联赛历史上最伟大的超级替补排名",
             "originalTitle": "Ranking the Premier League's all-time greatest super subs",
@@ -1177,29 +1200,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ae0a54c584d92bd024ab1d4fb"
             }
-          },
-          {
-            "id": "a89974e050010ffe7e0433139",
-            "title": "【欧洲足坛】“这真的不是一场戏剧”：卡里克在马丁内斯风暴后坚持剧本",
-            "originalTitle": "‘It’s really not a drama’: Carrick sticks to the script after Martínez storm",
-            "summary": "曼联主教练在前往利兹的艰难之旅之前上演了一场大师级的降压情绪课，迈克尔·卡里克在中场回答问题时，在需要时准确地回报了他最令人印象深刻的表现……（来源：卫报体育·欧冠与五大联赛）",
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a89974e050010ffe7e0433139",
-              "original": "https://www.theguardian.com/football/2026/oct/16/michael-carrick-lisandro-martinez-manchester-united-leeds-premier-league"
-            },
-            "publishedAt": "2026-10-16T19:00:09.000Z",
-            "discoveredAt": "2026-10-16T21:35:17.466Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a89974e050010ffe7e0433139"
-            }
           }
         ]
       }
@@ -1210,7 +1210,7 @@
     "key": "2026-10",
     "title": "曾练全球一手简报 · 月度产业全景报告 (2026年10月)",
     "subtitle": "30天六大实时Top20赛道全景洞察与高价值搞钱机会总结",
-    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：Claude Code 团队如何进行代码审查；美国 90% 的工作时间都花在了人工智能基准未涵盖的任务上；新款 Apple TV 4K 刚刚获得第一个（非常小的）折扣。",
+    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：苹果更新应用商店规则，打击“裸露”人工智能应用；Claude Code 团队如何进行代码审查；中国官方确定14个“人工智能+文化和旅游”试点项目。",
     "metrics": {
       "totalEvents": 36,
       "sourcesCount": 30,
@@ -1221,6 +1221,29 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
+          {
+            "id": "ad1629f72438b3f8c319b0159",
+            "title": "【国际巨头】苹果更新应用商店规则，打击“裸露”人工智能应用",
+            "originalTitle": "Apple's updated App Store rules go after &#8216;nudify' AI apps",
+            "summary": "苹果的应用程序商店规则现在更明确地禁止所谓的“裸体”应用程序，这些应用程序在未经人们同意的情况下使用人工智能工具生成人们的亲密图像。规则的改变是在 X 使用后对苹果的严重批评之后发生的。（来源：The Verge·国际巨头）",
+            "source": {
+              "name": "The Verge·国际巨头"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ad1629f72438b3f8c319b0159",
+              "original": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment"
+            },
+            "publishedAt": "2026-10-16T22:51:22.000Z",
+            "discoveredAt": "2026-10-16T23:55:00.446Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ad1629f72438b3f8c319b0159"
+            }
+          },
           {
             "id": "a63084bf206b39a0656611389",
             "title": "【全球热榜】Claude Code 团队如何进行代码审查",
@@ -1245,49 +1268,26 @@
             }
           },
           {
-            "id": "aab9ddf15755c7afd43514ef2",
-            "title": "【全球热榜】美国 90% 的工作时间都花在了人工智能基准未涵盖的任务上",
-            "originalTitle": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-            "summary": "X/HN·全球热榜Top实时快讯：90% of US working hours are spent on tasks not covered well by AI benchmarks。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "id": "a628f8bc100e6ee29130e3ed8",
+            "title": "【BBC全球】德国牛排馆女继承人受审引发巨大间谍丑闻",
+            "originalTitle": "Trial of German steakhouse heiress that sparked a huge spy scandal",
+            "summary": "15 个月来，汉堡一座戒备森严的法庭一直在审理克里斯蒂娜·布洛克 (Christina Block) 的案件，她被指控下令绑架自己的孩子。（来源：BBC News·全球要闻）",
             "source": {
-              "name": "X/HN·全球热榜Top"
+              "name": "BBC News·全球要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aab9ddf15755c7afd43514ef2",
-              "original": "https://www.mercor.com/research/labor-index/benchmark-map/"
+              "aihot": "https://zenglian-news.onrender.com/items/a628f8bc100e6ee29130e3ed8",
+              "original": "https://www.bbc.co.uk/news/articles/cwvgdn3d656vo?at_medium=RSS&at_campaign=rss"
             },
-            "publishedAt": "2026-10-16T17:08:38.000Z",
-            "discoveredAt": "2026-10-16T18:24:54.396Z",
+            "publishedAt": "2026-10-16T23:07:18.000Z",
+            "discoveredAt": "2026-10-16T23:54:54.925Z",
             "category": "global",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aab9ddf15755c7afd43514ef2"
-            }
-          },
-          {
-            "id": "a4aae05fdf55d206a995d2829",
-            "title": "【国际巨头】新款 Apple TV 4K 刚刚获得第一个（非常小的）折扣",
-            "originalTitle": "The new Apple TV 4K just got its first (very small) discount",
-            "summary": "新款 Apple TV 4K 将于 11 月上市。 |图片来源：The Verge 本周早些时候，苹果宣布推出新款 Apple TV 4K，其价格几乎是 2022 年型号发布时的两倍。亚马逊现在提供...（来源：The Verge·国际巨头）",
-            "source": {
-              "name": "The Verge·国际巨头"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a4aae05fdf55d206a995d2829",
-              "original": "https://www.theverge.com/gadgets/1012962/apple-tv-4k-fourth-generation-fanttik-s1-pro-deal-sale"
-            },
-            "publishedAt": "2026-10-16T16:02:22.000Z",
-            "discoveredAt": "2026-10-16T18:24:56.805Z",
-            "category": "global",
-            "score": 99,
-            "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a4aae05fdf55d206a995d2829"
+              "url": "https://zenglian-news.onrender.com/items/a628f8bc100e6ee29130e3ed8"
             }
           },
           {
@@ -1314,49 +1314,49 @@
             }
           },
           {
-            "id": "a57540b93e73367ca5ea95696",
-            "title": "【国际巨头】Apple 的 HomeView 有应用程序问题",
-            "originalTitle": "Apple's HomeView has an app problem",
-            "summary": "自 Apple 发布大型智能家居产品以来已经过去了几天，我们获得了有关 Apple HomeView 的更多信息以及一系列新问题。该设备具有充足的计算能力，始终连接...（来源：The Verge·国际巨头）",
-            "source": {
-              "name": "The Verge·国际巨头"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a57540b93e73367ca5ea95696",
-              "original": "https://www.theverge.com/podcast/1012911/apple-homeview-apps-carplay-vergecast"
-            },
-            "publishedAt": "2026-10-16T15:38:17.000Z",
-            "discoveredAt": "2026-10-16T18:24:57.818Z",
-            "category": "global",
-            "score": 98,
-            "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a57540b93e73367ca5ea95696"
-            }
-          },
-          {
-            "id": "a51325befb602d1d6530ae109",
-            "title": "【全球热榜】Claude 揭示 ECDSA 曲线起源",
-            "originalTitle": "Claude reveals ECDSA curve origins",
-            "summary": "“这只是时间戳”：最流行的加密标准之一的起源之谜已经解释了数十年。我们对密码学界这一长期悬而未决的问题进行了调查，以解决对 ECDSA 的担忧，这是我们的一项研究（来源：X/HN·全球热榜Top）",
+            "id": "ae4740dba278c7f9e9fafe73c",
+            "title": "【全球热榜】我从未授权扫描我的秘密的集成",
+            "originalTitle": "I never authorized an integration that scans my secrets",
+            "summary": "X/HN·全球热榜Top实时快讯：I never authorized an integration that scans my secrets。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
             "source": {
               "name": "X/HN·全球热榜Top"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a51325befb602d1d6530ae109",
-              "original": "https://www.anthropic.com/research/ecdsa-curve-origins"
+              "aihot": "https://zenglian-news.onrender.com/items/ae4740dba278c7f9e9fafe73c",
+              "original": "https://github.com/home-assistant/home-assistant.io/issues/49314"
             },
-            "publishedAt": "2026-10-16T18:55:59.000Z",
-            "discoveredAt": "2026-10-16T21:34:17.722Z",
+            "publishedAt": "2026-10-16T20:33:41.000Z",
+            "discoveredAt": "2026-10-16T23:54:55.815Z",
             "category": "global",
             "score": 97,
             "selected": true,
             "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a51325befb602d1d6530ae109"
+              "url": "https://zenglian-news.onrender.com/items/ae4740dba278c7f9e9fafe73c"
+            }
+          },
+          {
+            "id": "a88b195dae43a612e256813da",
+            "title": "【全球热榜】你本可以凭记忆发明变形金刚",
+            "originalTitle": "You could have invented transformers from memory",
+            "summary": "X/HN·全球热榜Top实时快讯：You could have invented transformers from memory。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a88b195dae43a612e256813da",
+              "original": "https://alexwang.ai/posts/associative-memory/"
+            },
+            "publishedAt": "2026-10-16T19:01:17.000Z",
+            "discoveredAt": "2026-10-16T23:54:56.298Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a88b195dae43a612e256813da"
             }
           }
         ]
@@ -1435,72 +1435,72 @@
             }
           },
           {
-            "id": "abc7c7b0193c872258f53e79b",
-            "title": "【国内要闻】中新健康｜老人大量囤积废品被儿女“举报”，医生紧急提醒！",
-            "originalTitle": "中新健康｜老人大量囤积废品被儿女“举报”，医生紧急提醒！",
-            "summary": "中新网北京10月17日电(罗春昊)近日，有媒体报道，江西抚州一男子向消防救援部门求助，其母亲长期在家中、楼道大量堆积废品，父亲因此肺部感染住院，母亲之前也同样因感染住过院。该男子多次劝阻无效，无奈选择“举报”母亲。",
+            "id": "acaaec780d79f13ec717f9afd",
+            "title": "蒲得宇预估 2026 全球手机出货量降 14.2%，苹果成唯一增长的主要手机厂商",
+            "originalTitle": "蒲得宇预估 2026 全球手机出货量降 14.2%，苹果成唯一增长的主要手机厂商",
+            "summary": "IT之家 10 月 17 日消息，在本周发布的投资简报中，广发证券分析师蒲得宇（Jeff Pu）和 Henry Huang 预测， 苹果将是 2026 年唯一一家出货量实现增长的主要智能手机制造商（增长 4%）。 在两位分析师联合发布的投资简报中， 预测 2026 年全球智能手机出货量约 10.8 亿部，同比下降约为 14.2%。 而苹果却有望成为唯一实现出货增长的主要厂商，达到 2.57 亿部，预计同比增长 4%，届时其全球出货份额将...",
             "source": {
-              "name": "中新网·国内要闻"
+              "name": "IT之家·国内产业"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/abc7c7b0193c872258f53e79b",
-              "original": "https://www.chinanews.com.cn/jk/2026/10-17/10716041.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/acaaec780d79f13ec717f9afd",
+              "original": "https://www.ithome.com/1/014/204.htm"
             },
-            "publishedAt": "2026-10-16T17:16:39.000Z",
-            "discoveredAt": "2026-10-16T18:12:33.456Z",
+            "publishedAt": "2026-10-16T23:44:12.000Z",
+            "discoveredAt": "2026-10-16T23:55:04.951Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/abc7c7b0193c872258f53e79b"
+              "url": "https://zenglian-news.onrender.com/items/acaaec780d79f13ec717f9afd"
             }
           },
           {
-            "id": "af728d6ed8827ecdc04ee75ff",
-            "title": "【国内要闻】中央音乐学院举行“10·15”艺术节开幕音乐会",
-            "originalTitle": "中央音乐学院举行“10·15”艺术节开幕音乐会",
-            "summary": "中新网北京10月17日电 10月15日晚，2026中俄教育年·中央音乐学院“10·15”艺术节开幕式交响音乐会在中央音乐学院歌剧音乐厅上演。圣彼得堡国立音乐学院院长、俄罗斯功勋艺术家阿列克谢·瓦西里耶夫执棒中央音乐学院交响乐团，以中俄当代新作与经典民族器乐协奏曲，为第八届“10·15”艺术节拉开帷幕。",
+            "id": "adb89a8b5fc87586053bec938",
+            "title": "马斯克要让 AI 帮企业“砍价”：成本效益有望提升 5% 以上",
+            "originalTitle": "马斯克要让 AI 帮企业“砍价”：成本效益有望提升 5% 以上",
+            "summary": "IT之家 10 月 17 日消息，全球首富埃隆 · 马斯克（Elon Musk）今天（10 月 17 日）在 X 平台发布推文，表示其团队正投入大量资源， 开发面向商业场景的专用议价机器人“Hagglebot”，希望借此提升企业成本效率。 IT之家注：“专用议价机器人”就是为企业谈价格、争取更好交易条件而设计的 AI 软件，并非实体机器人。这里可以把它想象成一个“数字采购谈判员”：企业给它设定预算、可接受价格和交易条件，它再围绕这些目标...",
             "source": {
-              "name": "中新网·国内要闻"
+              "name": "IT之家·国内产业"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af728d6ed8827ecdc04ee75ff",
-              "original": "https://www.chinanews.com.cn/sh/2026/10-17/10716036.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/adb89a8b5fc87586053bec938",
+              "original": "https://www.ithome.com/1/014/192.htm"
             },
-            "publishedAt": "2026-10-16T17:13:32.000Z",
-            "discoveredAt": "2026-10-16T18:12:33.756Z",
+            "publishedAt": "2026-10-16T23:01:02.000Z",
+            "discoveredAt": "2026-10-16T23:08:54.590Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af728d6ed8827ecdc04ee75ff"
+              "url": "https://zenglian-news.onrender.com/items/adb89a8b5fc87586053bec938"
             }
           },
           {
-            "id": "a192a25ab522ff06f75dcbd81",
-            "title": "【国内要闻】樟树“药交会”观察：“05后”大学生让中医药“潮起来”",
-            "originalTitle": "樟树“药交会”观察：“05后”大学生让中医药“潮起来”",
-            "summary": "中新网江西樟树10月17日电 (王剑)在16日开幕的江西樟树“药交会”上，一批青年学子将本草智慧融入美妆、糕点、标本挂画之中，以鲜活创意为古老中医药赋予新潮表达。“05后”中药学专业大学生把本草知识转化为可看、可尝、可用的文创与日用产品，让中医药走出典籍药柜，走进大众日常。",
+            "id": "acea0b04062f732305458e9a1",
+            "title": "【国内要闻】赞比亚霍乱疫情致25人死亡 官方紧急启动疫苗接种",
+            "originalTitle": "赞比亚霍乱疫情致25人死亡 官方紧急启动疫苗接种",
+            "summary": "新华社哈拉雷10月16日电(记者叶挺)卢萨卡消息：赞比亚政府16日在首都卢萨卡紧急启动口服霍乱疫苗接种工作，以应对近期该国多地暴发的霍乱疫情。据赞比亚卫生部最新通报，本轮疫情已造成25人死亡，确诊病例达966例。",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a192a25ab522ff06f75dcbd81",
-              "original": "https://www.chinanews.com.cn/sh/2026/10-17/10716032.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/acea0b04062f732305458e9a1",
+              "original": "https://www.chinanews.com.cn/gj/2026/10-17/10716050.shtml"
             },
-            "publishedAt": "2026-10-16T17:12:06.000Z",
-            "discoveredAt": "2026-10-16T18:12:33.956Z",
+            "publishedAt": "2026-10-16T22:07:00.000Z",
+            "discoveredAt": "2026-10-16T22:20:15.927Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a192a25ab522ff06f75dcbd81"
+              "url": "https://zenglian-news.onrender.com/items/acea0b04062f732305458e9a1"
             }
           }
         ]
@@ -1509,6 +1509,52 @@
         "category": "money",
         "label": "💰 商业搞钱Top20",
         "items": [
+          {
+            "id": "a70e8aa1c1a132029f99dcfdf",
+            "title": "该撕下Anthropic“2万亿预期估值”的面具了",
+            "originalTitle": "该撕下Anthropic“2万亿预期估值”的面具了",
+            "summary": "出品 | 虎嗅科技组 作者 | 梁卡尔 编辑 | 苗正卿 头图 | 视觉中国 还没敲钟，市场就已经先替它投票了。 美东时间10月14日旧金山闭门会刚散场，10月15日科技股就迎来一轮抛售，AI基建、芯片和租算力的AI算力云普跌，英伟达参投的CoreWeave股债双杀。 华尔街的共识很直白，今年AI行情的短期命门，就系在这场还没发生的IPO上，OpenAI还排在它后面。它若卖不好，整个AI烧钱扩算力的游戏都要重估。 而Anthropic交...",
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a70e8aa1c1a132029f99dcfdf",
+              "original": "https://www.huxiu.com/article/4898196.html?f=rss"
+            },
+            "publishedAt": "2026-10-16T23:00:03.000Z",
+            "discoveredAt": "2026-10-16T23:55:21.512Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a70e8aa1c1a132029f99dcfdf"
+            }
+          },
+          {
+            "id": "a166e42174b4a23cb990b79f0",
+            "title": "【出海实战】我刚刚获得了第一个 SaaS 付费客户！",
+            "originalTitle": "I just got my first paying customer for my SaaS!",
+            "summary": "我刚刚获得了第一个 SaaS 付费客户！来自X/Reddit·出海SaaS搞钱的实时报道。（来源：X/Reddit·出海SaaS搞钱）",
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a166e42174b4a23cb990b79f0",
+              "original": "https://www.reddit.com/r/SaaS/comments/1x7qtgp/i_just_got_my_first_paying_customer_for_my_saas/"
+            },
+            "publishedAt": "2026-10-16T20:17:24.000Z",
+            "discoveredAt": "2026-10-16T23:55:20.628Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a166e42174b4a23cb990b79f0"
+            }
+          },
           {
             "id": "a09ac13f155dd5147918f859b",
             "title": "【独立变现】Show HN：Stoke Money – 围绕现金流预测构建的个人理财应用程序",
@@ -1600,52 +1646,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/aba0fe3af9ea1624ef3dd83e5"
             }
-          },
-          {
-            "id": "accd6ed7e1bfdced2b54b5abb",
-            "title": "【出海实战】我的副业收入比朝九晚五还要多",
-            "originalTitle": "My side project is making more than my 9-5",
-            "summary": "大家好，我不确定你是否还记得我两个月前的上一篇文章。我介绍了我的 SaaS，其 MRR 为 3500 美元。好吧，我刚刚突破了 4000 美元的 MRR，它正式比我朝九晚五的工作赚更多的钱，这对我来说太疯狂了……（来源：X/Reddit·出海SaaS搞钱）",
-            "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/accd6ed7e1bfdced2b54b5abb",
-              "original": "https://www.reddit.com/r/SaaS/comments/1x7bh9i/my_side_project_is_making_more_than_my_95/"
-            },
-            "publishedAt": "2026-10-16T09:18:12.000Z",
-            "discoveredAt": "2026-10-16T14:38:53.898Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/accd6ed7e1bfdced2b54b5abb"
-            }
-          },
-          {
-            "id": "abe177bc02b6e5c6e072b119b",
-            "title": "个人Agent和企业Agent，注定不是同一个物种",
-            "originalTitle": "个人Agent和企业Agent，注定不是同一个物种",
-            "summary": "本文来自微信公众号： AI超维度 ，作者：2050的哈尔 上一篇测完三款企业办公Agent，我们在文末抛了个问题。 OpenAI、Meta、Manus这些公司做Agent，都绕开了办公软件，直接面向个人用户。那么这个所谓“个人Agent”，到底是个新物种，还是硬造出来的伪概念？它和企业Agent，是同一款产品的大号和小号，还是压根就是两个东西？ 表面上看，它们使用相似的大模型、记忆系统、工具协议和电脑操作能力，也都强调理解、规划和执行。...",
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/abe177bc02b6e5c6e072b119b",
-              "original": "https://www.huxiu.com/article/4898193.html?f=rss"
-            },
-            "publishedAt": "2026-10-16T14:43:29.000Z",
-            "discoveredAt": "2026-10-16T14:56:35.328Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/abe177bc02b6e5c6e072b119b"
-            }
           }
         ]
       },
@@ -1653,6 +1653,29 @@
         "category": "tech",
         "label": "🤖 AI实时Top20",
         "items": [
+          {
+            "id": "a443885d42d43ed90a36238c9",
+            "title": "【OpenAI官宣】Itaú 如何为其整个客户群构建生成式人工智能",
+            "originalTitle": "How Itaú is building generative AI for its entire customer base",
+            "summary": "借助对话界面 ia.i 和 IARA 治理平台，Itaú 正在将其人工智能优先战略应用于巴西监管最严格的行业之一的客户和员工。（来源：OpenAI·官方一手）",
+            "source": {
+              "name": "OpenAI·官方一手"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a443885d42d43ed90a36238c9",
+              "original": "https://openai.com/index/itau-generative-ai"
+            },
+            "publishedAt": "2026-10-16T19:00:00.000Z",
+            "discoveredAt": "2026-10-16T23:55:24.794Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "OpenAI 官方博客与研究产品一手公告，全球人工智能行业最高风向标。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a443885d42d43ed90a36238c9"
+            }
+          },
           {
             "id": "a9bfaa346512128ab8b7c8bb1",
             "title": "【MIT·AI】圆桌会议：与人工智能病毒创造者的对话",
@@ -1767,29 +1790,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a466c14291678b952bab812d0"
             }
-          },
-          {
-            "id": "a53cc79e72bce2835ac6c9cef",
-            "title": "【国内要闻】（经济观察）江西加速布局算力建设 多地抢滩“词元经济”",
-            "originalTitle": "（经济观察）江西加速布局算力建设 多地抢滩“词元经济”",
-            "summary": "中新社南昌10月16日电 (记者 吴鹏泉)从南昌高新区到九江，从算力中心到词元工厂，江西正加速布局“词元经济”新赛道。南昌市东湖区Token(词元)产业运营中心16日正式启动，成为这一布局的最新实践。",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a53cc79e72bce2835ac6c9cef",
-              "original": "https://www.chinanews.com.cn/gn/2026/10-16/10715938.shtml"
-            },
-            "publishedAt": "2026-10-16T12:41:17.000Z",
-            "discoveredAt": "2026-10-16T12:46:58.179Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a53cc79e72bce2835ac6c9cef"
-            }
           }
         ]
       },
@@ -1797,6 +1797,52 @@
         "category": "culture",
         "label": "🎬 影视娱乐Top20",
         "items": [
+          {
+            "id": "aeb700b28f2b2ef0dfedcd60b",
+            "title": "【全球票房】《Whalefall》的导演兼作者如何将父子关系的结束编织成一个生存故事",
+            "originalTitle": "How ‘Whalefall’s Director & Author Wove The Closure Of A Father-Son Relationship Into A Survival Tale",
+            "summary": "剧透警告：这篇文章剧透了根据丹尼尔·克劳斯的小说改编的电影《鲸落》的情节，该电影现已上映。 《Whalefall》导演布莱恩·达菲尔德（Brian Duffield）有一个流传甚广的笑话，他打算总结这部来自 20 世纪的电影……（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aeb700b28f2b2ef0dfedcd60b",
+              "original": "https://deadline.com/2026/10/whalefall-dad-son-themes-director-author-explain-set-visit-1237158531/"
+            },
+            "publishedAt": "2026-10-16T23:20:50.000Z",
+            "discoveredAt": "2026-10-16T23:55:41.656Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aeb700b28f2b2ef0dfedcd60b"
+            }
+          },
+          {
+            "id": "a67c31a92b4668b2cfaa6fefc",
+            "title": "【全球票房】《La Bola Negra》导演二人组洛斯·贾维斯揭示西班牙风情如何成为“我们生命的旅程”",
+            "originalTitle": "‘La Bola Negra’ Directing Duo Los Javis Reveal How Spanish Sensation Became “The Journey Of Our Lives”",
+            "summary": "佩内洛普·克鲁兹 (Penélope Cruz) 多年来一直是洛斯贾维斯 (Los Javis)（西班牙电影制作人哈维尔·安布罗西 (Javier Ambrossi) 和哈维尔·卡尔沃 (Javier Calvo) 的绰号) 的缪斯女神，后来他们共进午餐，说服她在《洛斯贾维斯》中扮演一名歌手（实际上更像是一种自然的力量）。（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a67c31a92b4668b2cfaa6fefc",
+              "original": "https://deadline.com/2026/10/la-bola-negra-directors-interview-los-javis-1237165637/"
+            },
+            "publishedAt": "2026-10-16T22:15:00.000Z",
+            "discoveredAt": "2026-10-16T23:55:42.822Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a67c31a92b4668b2cfaa6fefc"
+            }
+          },
           {
             "id": "a94fe5f018faa355497da3aaa",
             "title": "【好莱坞一手】派拉蒙与《饥饿游戏》导演弗朗西斯·劳伦斯合作拍摄《红色崛起》电影",
@@ -1821,95 +1867,49 @@
             }
           },
           {
-            "id": "a3d542816382e0a37e97bb608",
-            "title": "【全球票房】Netflix 凭借《La Bola Negra》进入票房时代； “你可以看到一切”和“马斯克”对峙——专业预览",
-            "originalTitle": "Netflix Enters Box Office Era With ‘La Bola Negra’; ‘You Can See Everything’ & ‘Musk’ Face Off – Specialty Preview",
-            "summary": "西班牙戛纳获奖影片《波拉黑》 (La Bola Negra) 将于本周末上映，这部西班牙奥斯卡最佳国际影片的灵感源自未完成的费德里科·加西亚·洛尔卡 (Federico García Lorca) 戏剧，标志着 Netflix 的一个里程碑。 A24 首次亮相热闹的 Eliz...（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a3d542816382e0a37e97bb608",
-              "original": "https://deadline.com/2026/10/indie-films-opening-you-can-see-everything-la-bola-negra-netflix-1237165901/"
-            },
-            "publishedAt": "2026-10-16T20:45:17.000Z",
-            "discoveredAt": "2026-10-16T21:35:05.541Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a3d542816382e0a37e97bb608"
-            }
-          },
-          {
-            "id": "a09f8ca4120822441008bdebc",
-            "title": "【好莱坞一手】《我玩洛奇》伦敦电影节惊喜放映",
-            "originalTitle": "‘I Play Rocky’ Surprise Screens at London Film Festival",
-            "summary": "周五晚上伦敦电影节的惊喜电影是《我扮演洛基》，这是彼得·法拉利的传记片，讲述了西尔维斯特·史泰龙深受喜爱的拳击系列的开始。法雷利 (Farrelly) 现场介绍了这款...（来源：Variety·好莱坞影视）",
+            "id": "a29b80a0881f9ccc72bf6fcea",
+            "title": "【好莱坞一手】《街头霸王》演员指南：所有 WWE 明星、UFC 冠军和名人在真人电影中扮演电子游戏战士",
+            "originalTitle": "‘Street Fighter’ Cast Guide: All the WWE Stars, UFC Champs and Celebs Playing Video Game Fighters in the Live-Action Movie",
+            "summary": "第一回合……战斗！ 《街头霸王》重新登上大银幕，对 20 世纪 80 年代街机游戏中流行的流行格斗游戏视频系列进行了全新演绎，至今仍很受欢迎。派拉蒙和传奇影业的...（来源：Variety·好莱坞影视）",
             "source": {
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a09f8ca4120822441008bdebc",
-              "original": "https://variety.com/2026/film/festivals/i-play-rocky-surprise-movie-london-film-festival-1236914385/"
+              "aihot": "https://zenglian-news.onrender.com/items/a29b80a0881f9ccc72bf6fcea",
+              "original": "https://variety.com/lists/street-fighter-cast-video-game-vs-live-action/"
             },
-            "publishedAt": "2026-10-16T20:32:24.000Z",
-            "discoveredAt": "2026-10-16T21:34:55.430Z",
+            "publishedAt": "2026-10-16T22:30:00.000Z",
+            "discoveredAt": "2026-10-16T23:55:38.803Z",
             "category": "culture",
-            "score": 99,
+            "score": 98,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a09f8ca4120822441008bdebc"
+              "url": "https://zenglian-news.onrender.com/items/a29b80a0881f9ccc72bf6fcea"
             }
           },
           {
-            "id": "ac4364f1e6909f3ad87b67f2d",
-            "title": "【好莱坞一手】2026 年最佳恐怖电影（迄今为止）排名：《痴迷》、《生化危机》、《密室》等",
-            "originalTitle": "The Best Horror Movies of 2026 (So Far), Ranked: ‘Obsession,’ ‘Resident Evil,’ ‘Backrooms’ and More",
-            "summary": "2026 年对于恐怖片来说已经是疯狂的一年，从低成本票房热门影片（《密室》、《痴迷》）到世界上没有续集的电影（《惊声尖叫 7》、《陌生人 – 第三章》）。在充满伤痕的一年里...（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac4364f1e6909f3ad87b67f2d",
-              "original": "https://variety.com/lists/best-horror-movies-2026-ranked/"
-            },
-            "publishedAt": "2026-10-16T20:23:42.000Z",
-            "discoveredAt": "2026-10-16T21:34:57.342Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac4364f1e6909f3ad87b67f2d"
-            }
-          },
-          {
-            "id": "a3dc2cad12d440e27c4842609",
-            "title": "【全球票房】安东尼奥·班德拉斯联手尼古拉斯·凯奇出演《真探》第五季",
-            "originalTitle": "Antonio Banderas Joins Nicolas Cage In ‘True Detective’ Season 5",
-            "summary": "《真探》的下一季已经开始成形。安东尼奥·班德拉斯 (Antonio Banderas) 加入了 HBO 剧集第五季的演员阵容。在此之前，尼古拉斯·凯奇证实他将在晚上进入宇宙……（来源：Deadline·全球票房与新片）",
+            "id": "a9f1a1d34f14772c2cfec9fa7",
+            "title": "【全球票房】《水晶湖》的格温多林·桑德斯特罗姆谈格蕾丝与杰森的友谊，从琳达·卡德里尼和那个杀手的扭曲中“学到了很多”",
+            "originalTitle": "‘Crystal Lake’s Gwendolyn Sundstrom On Grace’s Friendship With Jason, “Learning A Lot” From Linda Cardellini & That Killer Twist",
+            "summary": "剧透：这篇文章包含有关 Peacock 的 Crystal Lake 系列的详细信息 虽然 Crystal Lake 重新审视了《十三号星期五》系列中几位熟悉的当地人，但格温多林·桑德斯特罗姆 (Gwendolyn Sundstrom) 为这部恐怖片前作带来了一个新鲜的角色……（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a3dc2cad12d440e27c4842609",
-              "original": "https://deadline.com/2026/10/antonio-banderas-nicolas-cage-true-detective-season-5-1237166029/"
+              "aihot": "https://zenglian-news.onrender.com/items/a9f1a1d34f14772c2cfec9fa7",
+              "original": "https://deadline.com/2026/10/crystal-lake-gwendolyn-sundstrom-killer-twist-1237158527/"
             },
-            "publishedAt": "2026-10-16T19:30:00.000Z",
-            "discoveredAt": "2026-10-16T21:35:07.155Z",
+            "publishedAt": "2026-10-16T22:00:00.000Z",
+            "discoveredAt": "2026-10-16T23:55:44.259Z",
             "category": "culture",
-            "score": 99,
+            "score": 98,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a3dc2cad12d440e27c4842609"
+              "url": "https://zenglian-news.onrender.com/items/a9f1a1d34f14772c2cfec9fa7"
             }
           },
           {
@@ -2011,6 +2011,29 @@
             }
           },
           {
+            "id": "a2e8ad483071afe156ce807e2",
+            "title": "【欧洲足坛】瓦尔迪的进球徒劳，狼队的奇雷瓦延续了伯恩利的主场困境",
+            "originalTitle": "Wolves’ Chirewa extends Burnley’s home woes as Vardy’s strike is in vain",
+            "summary": "狼队替补塔万达·奇雷瓦替补出场后几秒钟内就进球，塞萨尔·佩肖托的球队后来居上，将伯恩利在特夫摩尔的主场苦难延长到了 21 场不胜。 Chirewa刚刚取代...（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a2e8ad483071afe156ce807e2",
+              "original": "https://www.theguardian.com/football/2026/oct/16/wolves-chirewa-extends-burnleys-home-woes-as-vardys-strike-is-in-vain"
+            },
+            "publishedAt": "2026-10-16T21:45:35.000Z",
+            "discoveredAt": "2026-10-16T23:55:50.281Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a2e8ad483071afe156ce807e2"
+            }
+          },
+          {
             "id": "ae0a54c584d92bd024ab1d4fb",
             "title": "【BBC足坛】英超联赛历史上最伟大的超级替补排名",
             "originalTitle": "Ranking the Premier League's all-time greatest super subs",
@@ -2054,29 +2077,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a89974e050010ffe7e0433139"
-            }
-          },
-          {
-            "id": "aca9cdc90909626b615ac726a",
-            "title": "【欧洲足坛】弗洛里安·维尔茨之谜：为什么他在利物浦没有找到勒沃库森的状态？",
-            "originalTitle": "The Florian Wirtz mystery: why has he not found Leverkusen form at Liverpool?",
-            "summary": "我们的两位作家挑选了德国人对利物浦的贡献以及这位价值 1.16 亿英镑的前锋可能产生的影响。一些批评来自 OTT，而转会费升至 1.16 亿英镑提高了要求，但是，是的，与他的表现相比......（来源：卫报体育·欧冠与五大联赛）",
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aca9cdc90909626b615ac726a",
-              "original": "https://www.theguardian.com/football/2026/oct/16/florian-wirtz-mystery-found-bayer-leverkusen-form-liverpool"
-            },
-            "publishedAt": "2026-10-16T16:40:30.000Z",
-            "discoveredAt": "2026-10-16T18:25:42.896Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aca9cdc90909626b615ac726a"
             }
           }
         ]
