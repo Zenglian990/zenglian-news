@@ -23,8 +23,9 @@ RUN npm run build -w @aihot/web && npm prune --omit=dev --no-audit --no-fund
 
 FROM base
 ENV NODE_ENV=production
+ENV PORT=8080
 COPY --from=build --chown=node:node /app /app
 RUN mkdir -p /data && chown node:node /data
 USER node
-EXPOSE 3000
+EXPOSE 8080
 CMD ["node", "run-all.mjs"]
