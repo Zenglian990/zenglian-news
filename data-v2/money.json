@@ -10,49 +10,72 @@
   },
   "items": [
     {
-      "id": "abdcc75919ad408d3bbc674e9",
-      "title": "[分享发现] Muse 免费额度不够，求各位互助一下",
-      "originalTitle": "[分享发现] Muse 免费额度不够，求各位互助一下",
-      "summary": "邀请好友，只要 TA 在加入后的 48 小时内通过“设置”兑现邀请码，就能各自分别获得 10 亿个 Muse 词元。 邀请码：J28BB0",
+      "id": "ad744058e5202d4f55d4ad74f",
+      "title": "[硬件] SSD 到底能用几年？闪迪给了个公式，顺便说说服务器上怎么看盘快不快写坏了",
+      "originalTitle": "[硬件] SSD 到底能用几年？闪迪给了个公式，顺便说说服务器上怎么看盘快不快写坏了",
+      "summary": "闪迪最近发了篇科普，说正常使用下大多数 SSD 能用 5 到 10 年，很多更久，寿命主要看写了多少数据。里面有个公式挺好用，整理一下，再补一点服务器上的经验。 三个数 指标 意思 TBW 总写入量，这块盘一共能写多少 TB DWPD 保修期内每天能把整盘写满几遍，企业盘常标这个 MTBF 平均无故障时间，说的是整盘可靠性，不是闪存磨损 TBW 和 DWPD 可以互换：TBW ≈ DWPD × 容量（ TB ）× 365 × 保修年数。...",
       "source": {
         "name": "V2EX·独立开发与副业"
       },
       "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/abdcc75919ad408d3bbc674e9",
-        "original": "https://www.v2ex.com/t/1249497#reply1"
+        "aihot": "https://zenglian-news.onrender.com/items/ad744058e5202d4f55d4ad74f",
+        "original": "https://www.v2ex.com/t/1249503#reply0"
       },
-      "publishedAt": "2026-10-16T17:17:29.000Z",
-      "discoveredAt": "2026-10-16T18:12:58.806Z",
+      "publishedAt": "2026-10-16T20:31:19.000Z",
+      "discoveredAt": "2026-10-16T20:35:24.363Z",
       "category": "money",
-      "score": 89,
+      "score": 91,
       "selected": true,
       "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
       "attribution": {
         "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/abdcc75919ad408d3bbc674e9"
+        "url": "https://zenglian-news.onrender.com/items/ad744058e5202d4f55d4ad74f"
       }
     },
     {
-      "id": "a566c316dc4af499b0dfa57c2",
-      "title": "[分享发现] REA 这么火，简单分享逆向开发游戏的源代码",
-      "originalTitle": "[分享发现] REA 这么火，简单分享逆向开发游戏的源代码",
-      "summary": "纯粹标题党 最近 REA 火的一塌糊涂，导致出现一波想反编译一切的人，感觉他们大概认为只要反编译就能出现完整的可编译源代码一样，还有一波则是像是被杀了妈，恨不得把所有整这玩意的人关入黑牢。 由于槽点太多，所以把这个老玩意拿出来让大家看看。 OpenRCT2 游戏 RollerCoaster Tycoon 2 （过山车大亨 2 ） 的开源版本 RollerCoaster Tycoon 这个游戏的设计和编程全部都是作者 Chris Sawy...",
+      "id": "adc805c2482c5e47486a4e9ff",
+      "title": "[分享创造] 做了个 macOS 原生 Emby 观影助手： TMDB 搜索找片、片单浏览、入库核对与外部播放",
+      "originalTitle": "[分享创造] 做了个 macOS 原生 Emby 观影助手： TMDB 搜索找片、片单浏览、入库核对与外部播放",
+      "summary": "有没有人也想把 豆瓣电影 Top 250 、IMDb Top 250 ，或者各大电影节的获奖作品收集齐 ？ 我自己就有这个需求。麻烦的往往是逐部核对：榜单里有哪些，自己的 Emby 已经收了哪些，还缺哪些？同一部电影可能出现在好几个榜单里，片名又有不同译法；榜单更新后，还得重新查一遍。片单一多，手工对比就很费时间。 为此，我自己会定期抓取、整理并更新一批影视榜单，再维护成 TMDB 片单，主要包括： 经典与口碑榜 ：豆瓣电影 Top 2...",
       "source": {
         "name": "V2EX·独立开发与副业"
       },
       "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a566c316dc4af499b0dfa57c2",
-        "original": "https://www.v2ex.com/t/1249496#reply0"
+        "aihot": "https://zenglian-news.onrender.com/items/adc805c2482c5e47486a4e9ff",
+        "original": "https://www.v2ex.com/t/1249501#reply0"
       },
-      "publishedAt": "2026-10-16T17:06:01.000Z",
-      "discoveredAt": "2026-10-16T18:12:58.987Z",
+      "publishedAt": "2026-10-16T19:33:33.000Z",
+      "discoveredAt": "2026-10-16T19:58:22.947Z",
       "category": "money",
-      "score": 92,
+      "score": 95,
       "selected": true,
       "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
       "attribution": {
         "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a566c316dc4af499b0dfa57c2"
+        "url": "https://zenglian-news.onrender.com/items/adc805c2482c5e47486a4e9ff"
+      }
+    },
+    {
+      "id": "a09ac13f155dd5147918f859b",
+      "title": "【独立变现】Show HN：Stoke Money – 围绕现金流预测构建的个人理财应用程序",
+      "originalTitle": "Show HN: Stoke Money – Personal finance app built around a cash flow forecast",
+      "summary": "您好，HN，我使用过许多财务跟踪应用程序，从 Personal Capital 开始，然后是 Monarch，最后是 Copilot。它们都不能完美地满足我的需求。所有这些应用程序都倾向于模拟“现金流”......（来源：Show HN·独立变现榜）",
+      "source": {
+        "name": "Show HN·独立变现榜"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a09ac13f155dd5147918f859b",
+        "original": "https://stoke.money"
+      },
+      "publishedAt": "2026-10-16T18:54:47.000Z",
+      "discoveredAt": "2026-10-16T21:34:34.741Z",
+      "category": "money",
+      "score": 99,
+      "selected": true,
+      "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a09ac13f155dd5147918f859b"
       }
     },
     {
@@ -76,29 +99,6 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/a5c4ebb8c358178393ba390f8"
-      }
-    },
-    {
-      "id": "a8d2dfd85a9165631e4a5726f",
-      "title": "[分享发现] 美区 id 使用礼品卡开通 gpt plus 一直付款失败 + Android Visa 开通和封号踩坑实录",
-      "originalTitle": "[分享发现] 美区 id 使用礼品卡开通 gpt plus 一直付款失败 + Android Visa 开通和封号踩坑实录",
-      "summary": "背景：7 月 12 号我用 Android 手机开通了 ChatGPT Plus ，结果 7 月 14 号就收到 OpenAI 的封号邮件，账号直接登不上了，封号也没给具体原因，不过推测有可能是我使用 gpt 的时候来回切换节点导致的，因为第一次用 plus ，发现它重连，认为是网络不好，我就来回日本，新加坡，美国的节点切换。 没办法，只能重新注册账号，又在 iOS 上开了一遍。所以整理出来，也顺便记录一下踩过的坑。 iOS 开通流程 ...",
-      "source": {
-        "name": "V2EX·独立开发与副业"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a8d2dfd85a9165631e4a5726f",
-        "original": "https://www.v2ex.com/t/1249492#reply0"
-      },
-      "publishedAt": "2026-10-16T15:24:00.000Z",
-      "discoveredAt": "2026-10-16T15:42:09.336Z",
-      "category": "money",
-      "score": 95,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a8d2dfd85a9165631e4a5726f"
       }
     },
     {
