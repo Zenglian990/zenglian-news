@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T23:55:50.702Z",
+  "generatedAt": "2026-10-17T03:31:11.096Z",
   "daily": {
     "kind": "daily",
     "key": "2026-10-17",
     "title": "曾练全球一手简报 · 今日日报 (2026-10-17)",
     "subtitle": "全球·国内·商业搞钱·AI·影视娱乐·体育 六大实时Top20精选",
-    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：苹果更新应用商店规则，打击“裸露”人工智能应用；Claude Code 团队如何进行代码审查；中国官方确定14个“人工智能+文化和旅游”试点项目。",
+    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：苹果更新应用商店规则，打击“裸露”人工智能应用；Claude Code 团队如何进行代码审查；两部门联合发文 推动“电影+体育”跨界合作。",
     "metrics": {
       "totalEvents": 18,
       "sourcesCount": 30,
@@ -93,26 +93,49 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "a7e383473d74aed89bc5d7180",
-            "title": "【国内财经】中国官方确定14个“人工智能+文化和旅游”试点项目",
-            "originalTitle": "中国官方确定14个“人工智能+文化和旅游”试点项目",
-            "summary": "中新社北京10月16日电 (记者 应妮)为进一步推进人工智能技术在文化和旅游领域融合应用，中国文化和旅游部16日正式公布“人工智能+文化和旅游”的14个应用试点立项名单。",
+            "id": "a336806d0a01d25a9e69be360",
+            "title": "【国内要闻】两部门联合发文 推动“电影+体育”跨界合作",
+            "originalTitle": "两部门联合发文 推动“电影+体育”跨界合作",
+            "summary": "近日，国家电影局、体育总局联合印发《关于开展“跟着电影去运动”行动 推动电影与体育双向赋能的通知》。",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a336806d0a01d25a9e69be360",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-17/10716105.shtml"
+            },
+            "publishedAt": "2026-10-17T03:05:32.000Z",
+            "discoveredAt": "2026-10-17T03:13:09.804Z",
+            "category": "domestic",
+            "score": 99,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a336806d0a01d25a9e69be360"
+            }
+          },
+          {
+            "id": "a491eca401809837a383884f7",
+            "title": "【国内财经】中外记者走进昆山 体验机器人6S店里的“中国智造”",
+            "originalTitle": "中外记者走进昆山 体验机器人6S店里的“中国智造”",
+            "summary": "中新网南京10月17日电(记者 梁晓辉 孙晨慧) 一千平方米，能装下什么？昆山一家机器人6S店给出的答案是：具备语音交互能力的AI猫形机器人、可参与格斗竞技的人形机器人，以及用于港口货轮藤壶清洗的水下机器人。近日，参加2026年“一带一路”记者组织论坛活动的中外记者走进江苏昆山，也顺手把“中国智造”装进行囊。",
             "source": {
               "name": "中新网·国内财经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7e383473d74aed89bc5d7180",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-17/10716015.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a491eca401809837a383884f7",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-17/10716080.shtml"
             },
-            "publishedAt": "2026-10-16T16:47:29.000Z",
-            "discoveredAt": "2026-10-16T18:12:35.758Z",
+            "publishedAt": "2026-10-17T01:36:32.000Z",
+            "discoveredAt": "2026-10-17T03:13:11.626Z",
             "category": "domestic",
             "score": 99,
             "selected": true,
             "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7e383473d74aed89bc5d7180"
+              "url": "https://zenglian-news.onrender.com/items/a491eca401809837a383884f7"
             }
           },
           {
@@ -137,29 +160,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a2f12dfcb4b29f0eb86085611"
             }
-          },
-          {
-            "id": "adc7c83cc5d5a27cf5ba8a161",
-            "title": "【国内财经】广东省退役军人应急救助资金累计发放突破3亿元",
-            "originalTitle": "广东省退役军人应急救助资金累计发放突破3亿元",
-            "summary": "中新网广州10月17日电 (记者 程景伟)据广东省退役军人事务厅16日消息，截至2026年10月10日，广东省退役军人应急救助资金累计发放金额突破3亿元，覆盖全省各地困难退役军人和其他优抚对象超过1.24万人。",
-            "source": {
-              "name": "中新网·国内财经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/adc7c83cc5d5a27cf5ba8a161",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-17/10716018.shtml"
-            },
-            "publishedAt": "2026-10-16T16:54:13.000Z",
-            "discoveredAt": "2026-10-16T18:12:35.457Z",
-            "category": "domestic",
-            "score": 98,
-            "selected": true,
-            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/adc7c83cc5d5a27cf5ba8a161"
-            }
           }
         ]
       },
@@ -167,6 +167,29 @@
         "category": "money",
         "label": "💰 商业搞钱Top20",
         "items": [
+          {
+            "id": "a720cf6338ed502b8ffdfdb51",
+            "title": "马斯克把特斯拉送上天，雷军李想却没接招",
+            "originalTitle": "马斯克把特斯拉送上天，雷军李想却没接招",
+            "summary": "本文来自微信公众号： 资本不熬夜 ，作者：不熬夜研究院 在美国得克萨斯州的太空探索技术公司试验场，一辆白色Roadster驶上弧形坡道，车底风扇将车身吸附在轨道上，车辆逐渐倒挂。随后，推进器启动，Roadster在空中翻转，最终四轮着地。 美国时间10月15日，马斯克终于把特斯拉送上了天。 演示中，马斯克还展示了从静止加速至每小时约97公里只需0.81秒的成绩。现场掌声响起，九年前那辆不断推迟交付的跑车，终于拿出了一段足以在社交媒体传播...",
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a720cf6338ed502b8ffdfdb51",
+              "original": "https://www.huxiu.com/article/4898225.html?f=rss"
+            },
+            "publishedAt": "2026-10-17T02:36:46.000Z",
+            "discoveredAt": "2026-10-17T03:13:29.301Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a720cf6338ed502b8ffdfdb51"
+            }
+          },
           {
             "id": "a70e8aa1c1a132029f99dcfdf",
             "title": "该撕下Anthropic“2万亿预期估值”的面具了",
@@ -212,29 +235,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a166e42174b4a23cb990b79f0"
             }
-          },
-          {
-            "id": "a09ac13f155dd5147918f859b",
-            "title": "【独立变现】Show HN：Stoke Money – 围绕现金流预测构建的个人理财应用程序",
-            "originalTitle": "Show HN: Stoke Money – Personal finance app built around a cash flow forecast",
-            "summary": "您好，HN，我使用过许多财务跟踪应用程序，从 Personal Capital 开始，然后是 Monarch，最后是 Copilot。它们都不能完美地满足我的需求。所有这些应用程序都倾向于模拟“现金流”......（来源：Show HN·独立变现榜）",
-            "source": {
-              "name": "Show HN·独立变现榜"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a09ac13f155dd5147918f859b",
-              "original": "https://stoke.money"
-            },
-            "publishedAt": "2026-10-16T18:54:47.000Z",
-            "discoveredAt": "2026-10-16T21:34:34.741Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a09ac13f155dd5147918f859b"
-            }
           }
         ]
       },
@@ -242,6 +242,52 @@
         "category": "tech",
         "label": "🤖 AI实时Top20",
         "items": [
+          {
+            "id": "a65de5a87942fca164a934a02",
+            "title": "【开源大模型】您可能不知道现在可以使用 Qwen 3.6 27B 做的 10 件事。 （对于菜鸟来说）",
+            "originalTitle": "10 Things you maybe didn't know you can do with Qwen 3.6 27B right now. (For Noobs)",
+            "summary": "我知道每个人都对 3.8 感到兴奋，但老实说我仍在完善 3.6。我讨厌 3.8 的说话方式，所以...我不断看到所有这些关于开源有什么用的帖子，所以我想我应该提交我的...（来源：LocalLLaMA·开源大模型）",
+            "source": {
+              "name": "LocalLLaMA·开源大模型"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a65de5a87942fca164a934a02",
+              "original": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sq8e/10_things_you_maybe_didnt_know_you_can_do_with/"
+            },
+            "publishedAt": "2026-10-16T21:35:36.000Z",
+            "discoveredAt": "2026-10-17T01:07:05.692Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a65de5a87942fca164a934a02"
+            }
+          },
+          {
+            "id": "ac24bbee2e2b083ee7ea1afe8",
+            "title": "【开源大模型】Dario：“通过开源，你可以看到源代码。在这里我们看不到模型的内部。”我的 0.646 t/s MiMo-2.6-Pro 塞满了 128GB 的​​ Jetson AGX Thor：“是的，好吧，这就是你的意见，伙计。”",
+            "originalTitle": "Dario: “With open source you can see the source code. Here we can’t see inside the model.” My 0.646 t/s MiMo-2.6-Pro crammed thru 128GB of Jetson AGX Thor: “Yeah, well, that’s just, like, your opinion, man.”",
+            "summary": "在 Jetson AGX Thor 上以每秒 0.646 个令牌的速度跟踪我第一次运行 MiMo Pro，.. 但从技术上讲它确实加载并运行，所以它很重要。每个解码器层、路由专家、SSD 读取（..更多）都被跟踪和复制...（来源：LocalLLaMA·开源大模型）",
+            "source": {
+              "name": "LocalLLaMA·开源大模型"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ac24bbee2e2b083ee7ea1afe8",
+              "original": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sbxs/dario_with_open_source_you_can_see_the_source/"
+            },
+            "publishedAt": "2026-10-16T21:18:51.000Z",
+            "discoveredAt": "2026-10-17T01:07:14.092Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ac24bbee2e2b083ee7ea1afe8"
+            }
+          },
           {
             "id": "a443885d42d43ed90a36238c9",
             "title": "【OpenAI官宣】Itaú 如何为其整个客户群构建生成式人工智能",
@@ -264,52 +310,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a443885d42d43ed90a36238c9"
             }
-          },
-          {
-            "id": "a9bfaa346512128ab8b7c8bb1",
-            "title": "【MIT·AI】圆桌会议：与人工智能病毒创造者的对话",
-            "originalTitle": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-            "summary": "收听或观看以下会议：人工智能可以设计新的生命形式吗？ 2025 年，斯坦福大学博士生塞缪尔·金 (Samuel King) 使用生成式 AI 模型提出了基因蓝图……（来源：MIT科技评论·AI突破）",
-            "source": {
-              "name": "MIT科技评论·AI突破"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9bfaa346512128ab8b7c8bb1",
-              "original": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/"
-            },
-            "publishedAt": "2026-10-16T18:00:00.000Z",
-            "discoveredAt": "2026-10-16T21:34:47.964Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "麻省理工科技评论权威AI报道，洞察下一代人工智能底层突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9bfaa346512128ab8b7c8bb1"
-            }
-          },
-          {
-            "id": "ac402c775771f3824badd0966",
-            "title": "【硅谷AI】这位正在投资物理人工智能的 Nvidia 资深人士表示，物理人工智能不仅仅是机器人",
-            "originalTitle": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
-            "summary": "Amulya Vishwanath 花了七年时间领导 NVIDIA 机器人平台的产品营销，他表示机器人技术目前正处于“乐高时代”，具有执行器、机器人手、软件等基本构建模块……（来源：TechCrunch·硅谷AI）",
-            "source": {
-              "name": "TechCrunch·硅谷AI"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac402c775771f3824badd0966",
-              "original": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/"
-            },
-            "publishedAt": "2026-10-16T16:30:00.000Z",
-            "discoveredAt": "2026-10-16T18:25:22.287Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac402c775771f3824badd0966"
-            }
           }
         ]
       },
@@ -318,72 +318,72 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "aeb700b28f2b2ef0dfedcd60b",
-            "title": "【全球票房】《Whalefall》的导演兼作者如何将父子关系的结束编织成一个生存故事",
-            "originalTitle": "How ‘Whalefall’s Director & Author Wove The Closure Of A Father-Son Relationship Into A Survival Tale",
-            "summary": "剧透警告：这篇文章剧透了根据丹尼尔·克劳斯的小说改编的电影《鲸落》的情节，该电影现已上映。 《Whalefall》导演布莱恩·达菲尔德（Brian Duffield）有一个流传甚广的笑话，他打算总结这部来自 20 世纪的电影……（来源：Deadline·全球票房与新片）",
+            "id": "a1a8930538069567094c92932",
+            "title": "【全球票房】KJ Apa 向《河谷》制片人罗伯托·阿吉雷-萨卡萨询问《与阿奇的来世》客串：“我不知道我会扮演谁”",
+            "originalTitle": "KJ Apa Asked ‘Riverdale’ Showrunner Roberto Aguirre-Sacasa For ‘Afterlife with Archie’ Cameo: “I Don’t Know Who I’d Play”",
+            "summary": "KJ 阿帕在《河谷镇》之后的生活中继续前行，他准备重返即将上映的《阿奇来世》系列改编作品。继他在 CW 系列剧集 2017 年至 23 年连续七季中饰演阿奇之后，该剧...（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aeb700b28f2b2ef0dfedcd60b",
-              "original": "https://deadline.com/2026/10/whalefall-dad-son-themes-director-author-explain-set-visit-1237158531/"
+              "aihot": "https://zenglian-news.onrender.com/items/a1a8930538069567094c92932",
+              "original": "https://deadline.com/2026/10/kj-apa-asked-roberto-aguirre-sacasa-afterlife-archie-cameo-1237166299/"
             },
-            "publishedAt": "2026-10-16T23:20:50.000Z",
-            "discoveredAt": "2026-10-16T23:55:41.656Z",
+            "publishedAt": "2026-10-17T02:50:05.000Z",
+            "discoveredAt": "2026-10-17T03:31:01.275Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aeb700b28f2b2ef0dfedcd60b"
+              "url": "https://zenglian-news.onrender.com/items/a1a8930538069567094c92932"
             }
           },
           {
-            "id": "a67c31a92b4668b2cfaa6fefc",
-            "title": "【全球票房】《La Bola Negra》导演二人组洛斯·贾维斯揭示西班牙风情如何成为“我们生命的旅程”",
-            "originalTitle": "‘La Bola Negra’ Directing Duo Los Javis Reveal How Spanish Sensation Became “The Journey Of Our Lives”",
-            "summary": "佩内洛普·克鲁兹 (Penélope Cruz) 多年来一直是洛斯贾维斯 (Los Javis)（西班牙电影制作人哈维尔·安布罗西 (Javier Ambrossi) 和哈维尔·卡尔沃 (Javier Calvo) 的绰号) 的缪斯女神，后来他们共进午餐，说服她在《洛斯贾维斯》中扮演一名歌手（实际上更像是一种自然的力量）。（来源：Deadline·全球票房与新片）",
+            "id": "a4ef2cd1609577be0e5a0e336",
+            "title": "【国内文娱】从“拼产能”到“拼精品” AI文旅互动剧为流量短剧“降温”",
+            "originalTitle": "从“拼产能”到“拼精品” AI文旅互动剧为流量短剧“降温”",
+            "summary": "中新网沈阳10月17日电 (记者 李晛)“剧集依托AI三维建模，高度还原沈阳历史风貌：百年老街青砖肌理清晰，旧时商铺幌子随风摇曳……”沈阳市智能应用协会会长、沈阳市人工智能产教融合创新基地负责人张艺天近日向记者展示了东北首部AI文旅互动剧《和智宣游记》中的画面。",
+            "source": {
+              "name": "中新网·影视文娱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a4ef2cd1609577be0e5a0e336",
+              "original": "https://www.chinanews.com.cn/cul/2026/10-17/10716079.shtml"
+            },
+            "publishedAt": "2026-10-17T01:35:40.000Z",
+            "discoveredAt": "2026-10-17T03:13:43.432Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a4ef2cd1609577be0e5a0e336"
+            }
+          },
+          {
+            "id": "a21bb1e6e640d1f806b24b496",
+            "title": "【全球票房】暗黑破坏神科迪取笑《詹妮弗的身体 2》探索梅根福克斯角色更“富有同情心”的一面",
+            "originalTitle": "Diablo Cody Teases ‘Jennifer’s Body 2’ Explores A More “Sympathetic” Side Of Megan Fox’s Character",
+            "summary": "当暗黑破坏神科迪准备再次复活梅根福克斯饰演的青少年魅魔时，她为这个恶魔角色添加了更多人性元素。在讨论“即将推出”的续集《詹妮弗的身体 2》时，这位奥斯卡获奖作家解释了……（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a67c31a92b4668b2cfaa6fefc",
-              "original": "https://deadline.com/2026/10/la-bola-negra-directors-interview-los-javis-1237165637/"
+              "aihot": "https://zenglian-news.onrender.com/items/a21bb1e6e640d1f806b24b496",
+              "original": "https://deadline.com/2026/10/diablo-cody-jennifers-body-2-more-sympathetic-1237166245/"
             },
-            "publishedAt": "2026-10-16T22:15:00.000Z",
-            "discoveredAt": "2026-10-16T23:55:42.822Z",
+            "publishedAt": "2026-10-17T01:01:38.000Z",
+            "discoveredAt": "2026-10-17T03:31:03.024Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a67c31a92b4668b2cfaa6fefc"
-            }
-          },
-          {
-            "id": "a94fe5f018faa355497da3aaa",
-            "title": "【好莱坞一手】派拉蒙与《饥饿游戏》导演弗朗西斯·劳伦斯合作拍摄《红色崛起》电影",
-            "originalTitle": "‘Red Rising’ Movie in the Works at Paramount With ‘Hunger Games’ Director Francis Lawrence",
-            "summary": "收割者万岁！派拉蒙已获得了热门小说《红色崛起》的版权，《饥饿游戏》导演弗朗西斯·劳伦斯还附上了一部根据第一部小说改编的电影。贾斯汀·罗德斯将撰写剧本……（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a94fe5f018faa355497da3aaa",
-              "original": "https://variety.com/2026/film/news/red-rising-movie-paramount-hunger-games-director-books-1236914459/"
-            },
-            "publishedAt": "2026-10-16T21:34:22.000Z",
-            "discoveredAt": "2026-10-16T21:34:51.629Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a94fe5f018faa355497da3aaa"
+              "url": "https://zenglian-news.onrender.com/items/a21bb1e6e640d1f806b24b496"
             }
           }
         ]
@@ -416,49 +416,49 @@
             }
           },
           {
-            "id": "a57b0ac6ce6f41b113b0f9abc",
-            "title": "【NBA一手】[Windhorst] 西雅图不再锁定扩张，墨西哥城可能成为替代方案",
-            "originalTitle": "[Windhorst] Seattle No Longer Lock for Expansion, Mexico City a Possible Alternative",
-            "summary": "多名所有权消息人士告诉 ESPN，NBA 总裁亚当·萧华似乎正在加大对西雅图超音速队未来可能的杠杆游戏的赌注。我们谨慎地说“可能”，因为银...（来源：NBA·北美篮球实时热榜）",
+            "id": "a2e8ad483071afe156ce807e2",
+            "title": "【欧洲足坛】瓦尔迪的进球徒劳，狼队的奇雷瓦延续了伯恩利的主场困境",
+            "originalTitle": "Wolves’ Chirewa extends Burnley’s home woes as Vardy’s strike is in vain",
+            "summary": "狼队替补塔万达·奇雷瓦替补出场后几秒钟内就进球，塞萨尔·佩肖托的球队后来居上，将伯恩利在特夫摩尔的主场苦难延长到了 21 场不胜。 Chirewa刚刚取代...（来源：卫报体育·欧冠与五大联赛）",
             "source": {
-              "name": "NBA·北美篮球实时热榜"
+              "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a57b0ac6ce6f41b113b0f9abc",
-              "original": "https://www.reddit.com/r/nba/comments/1x7iu2h/windhorst_seattle_no_longer_lock_for_expansion/"
+              "aihot": "https://zenglian-news.onrender.com/items/a2e8ad483071afe156ce807e2",
+              "original": "https://www.theguardian.com/football/2026/oct/16/wolves-chirewa-extends-burnleys-home-woes-as-vardys-strike-is-in-vain"
             },
-            "publishedAt": "2026-10-16T15:12:15.000Z",
-            "discoveredAt": "2026-10-16T21:35:25.614Z",
+            "publishedAt": "2026-10-16T21:45:35.000Z",
+            "discoveredAt": "2026-10-16T23:55:50.281Z",
             "category": "business",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a57b0ac6ce6f41b113b0f9abc"
+              "url": "https://zenglian-news.onrender.com/items/a2e8ad483071afe156ce807e2"
             }
           },
           {
-            "id": "a92939a9d5c70aa3f72b0f653",
-            "title": "【NBA一手】[Charania] NBA 和知名体育博彩公司已同意禁止多种类型的投注，据我和 David Purdum 透露",
-            "originalTitle": "[Charania] The NBA and prominent sportsbooks have agreed to ban multiple types of bets, per me and David Purdum",
-            "summary": "- Parl@y 投注涉及同一玩家的统计数据 - “第一”市场；示例：开场提示的获胜者、个人的具体投篮、篮板、助攻、抢断 - 对预计球员的“低于”投注...（来源：NBA·北美篮球实时热榜）",
+            "id": "ae0a54c584d92bd024ab1d4fb",
+            "title": "【BBC足坛】英超联赛历史上最伟大的超级替补排名",
+            "originalTitle": "Ranking the Premier League's all-time greatest super subs",
+            "summary": "有些球员注定会在替补席上发挥最大的影响力，但谁是英超历史上排名前十的超级替补呢？（来源：BBC Sport·欧洲足坛）",
             "source": {
-              "name": "NBA·北美篮球实时热榜"
+              "name": "BBC Sport·欧洲足坛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a92939a9d5c70aa3f72b0f653",
-              "original": "https://www.reddit.com/r/nba/comments/1x7ikx5/charania_the_nba_and_prominent_sportsbooks_have/"
+              "aihot": "https://zenglian-news.onrender.com/items/ae0a54c584d92bd024ab1d4fb",
+              "original": "https://www.bbc.co.uk/sport/football/articles/cqn73xe5eelgo?at_medium=RSS&at_campaign=rss"
             },
-            "publishedAt": "2026-10-16T15:02:18.000Z",
-            "discoveredAt": "2026-10-16T21:35:22.214Z",
+            "publishedAt": "2026-10-16T21:15:47.000Z",
+            "discoveredAt": "2026-10-16T21:35:15.333Z",
             "category": "business",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
+            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a92939a9d5c70aa3f72b0f653"
+              "url": "https://zenglian-news.onrender.com/items/ae0a54c584d92bd024ab1d4fb"
             }
           }
         ]
@@ -470,7 +470,7 @@
     "key": "2026-W41",
     "title": "曾练全球一手简报 · 本周核心周报 (2026年第41周)",
     "subtitle": "7天全球政经、国内大事、商业搞钱、AI突破与文体焦点深度复盘",
-    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：苹果更新应用商店规则，打击“裸露”人工智能应用；Claude Code 团队如何进行代码审查；中国官方确定14个“人工智能+文化和旅游”试点项目。",
+    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：苹果更新应用商店规则，打击“裸露”人工智能应用；Claude Code 团队如何进行代码审查；两部门联合发文 推动“电影+体育”跨界合作。",
     "metrics": {
       "totalEvents": 30,
       "sourcesCount": 30,
@@ -603,26 +603,49 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "a7e383473d74aed89bc5d7180",
-            "title": "【国内财经】中国官方确定14个“人工智能+文化和旅游”试点项目",
-            "originalTitle": "中国官方确定14个“人工智能+文化和旅游”试点项目",
-            "summary": "中新社北京10月16日电 (记者 应妮)为进一步推进人工智能技术在文化和旅游领域融合应用，中国文化和旅游部16日正式公布“人工智能+文化和旅游”的14个应用试点立项名单。",
+            "id": "a336806d0a01d25a9e69be360",
+            "title": "【国内要闻】两部门联合发文 推动“电影+体育”跨界合作",
+            "originalTitle": "两部门联合发文 推动“电影+体育”跨界合作",
+            "summary": "近日，国家电影局、体育总局联合印发《关于开展“跟着电影去运动”行动 推动电影与体育双向赋能的通知》。",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a336806d0a01d25a9e69be360",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-17/10716105.shtml"
+            },
+            "publishedAt": "2026-10-17T03:05:32.000Z",
+            "discoveredAt": "2026-10-17T03:13:09.804Z",
+            "category": "domestic",
+            "score": 99,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a336806d0a01d25a9e69be360"
+            }
+          },
+          {
+            "id": "a491eca401809837a383884f7",
+            "title": "【国内财经】中外记者走进昆山 体验机器人6S店里的“中国智造”",
+            "originalTitle": "中外记者走进昆山 体验机器人6S店里的“中国智造”",
+            "summary": "中新网南京10月17日电(记者 梁晓辉 孙晨慧) 一千平方米，能装下什么？昆山一家机器人6S店给出的答案是：具备语音交互能力的AI猫形机器人、可参与格斗竞技的人形机器人，以及用于港口货轮藤壶清洗的水下机器人。近日，参加2026年“一带一路”记者组织论坛活动的中外记者走进江苏昆山，也顺手把“中国智造”装进行囊。",
             "source": {
               "name": "中新网·国内财经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7e383473d74aed89bc5d7180",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-17/10716015.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a491eca401809837a383884f7",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-17/10716080.shtml"
             },
-            "publishedAt": "2026-10-16T16:47:29.000Z",
-            "discoveredAt": "2026-10-16T18:12:35.758Z",
+            "publishedAt": "2026-10-17T01:36:32.000Z",
+            "discoveredAt": "2026-10-17T03:13:11.626Z",
             "category": "domestic",
             "score": 99,
             "selected": true,
             "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7e383473d74aed89bc5d7180"
+              "url": "https://zenglian-news.onrender.com/items/a491eca401809837a383884f7"
             }
           },
           {
@@ -649,72 +672,49 @@
             }
           },
           {
-            "id": "adc7c83cc5d5a27cf5ba8a161",
-            "title": "【国内财经】广东省退役军人应急救助资金累计发放突破3亿元",
-            "originalTitle": "广东省退役军人应急救助资金累计发放突破3亿元",
-            "summary": "中新网广州10月17日电 (记者 程景伟)据广东省退役军人事务厅16日消息，截至2026年10月10日，广东省退役军人应急救助资金累计发放金额突破3亿元，覆盖全省各地困难退役军人和其他优抚对象超过1.24万人。",
+            "id": "a76ee0e87fb053c909ab65c49",
+            "title": "【国内要闻】活力中国调研行｜广西职教“出海” 老挝兄弟求学",
+            "originalTitle": "活力中国调研行｜广西职教“出海” 老挝兄弟求学",
+            "summary": "视频：活力中国调研行｜广西职教“出海” 老挝兄弟求学来源：新华社",
             "source": {
-              "name": "中新网·国内财经"
+              "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/adc7c83cc5d5a27cf5ba8a161",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-17/10716018.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a76ee0e87fb053c909ab65c49",
+              "original": "https://www.chinanews.com.cn/edu/2026/10-17/10716113.shtml"
             },
-            "publishedAt": "2026-10-16T16:54:13.000Z",
-            "discoveredAt": "2026-10-16T18:12:35.457Z",
+            "publishedAt": "2026-10-17T03:23:01.000Z",
+            "discoveredAt": "2026-10-17T03:30:43.323Z",
             "category": "domestic",
-            "score": 98,
+            "score": 97,
             "selected": true,
-            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/adc7c83cc5d5a27cf5ba8a161"
+              "url": "https://zenglian-news.onrender.com/items/a76ee0e87fb053c909ab65c49"
             }
           },
           {
-            "id": "acaaec780d79f13ec717f9afd",
-            "title": "蒲得宇预估 2026 全球手机出货量降 14.2%，苹果成唯一增长的主要手机厂商",
-            "originalTitle": "蒲得宇预估 2026 全球手机出货量降 14.2%，苹果成唯一增长的主要手机厂商",
-            "summary": "IT之家 10 月 17 日消息，在本周发布的投资简报中，广发证券分析师蒲得宇（Jeff Pu）和 Henry Huang 预测， 苹果将是 2026 年唯一一家出货量实现增长的主要智能手机制造商（增长 4%）。 在两位分析师联合发布的投资简报中， 预测 2026 年全球智能手机出货量约 10.8 亿部，同比下降约为 14.2%。 而苹果却有望成为唯一实现出货增长的主要厂商，达到 2.57 亿部，预计同比增长 4%，届时其全球出货份额将...",
+            "id": "a08e12b4c0a59067bd7dde242",
+            "title": "Win11 用户还能再用 3 年：微软老牌虚拟化组件 App-V Server 扩展支持至 2029 年",
+            "originalTitle": "Win11 用户还能再用 3 年：微软老牌虚拟化组件 App-V Server 扩展支持至 2029 年",
+            "summary": "IT之家 10 月 17 日消息，科技媒体 NeoWin 昨日（10 月 16 日）发布博文， 报道称微软扩展支持 App-V Server（微软应用虚拟化服务器），支持期限延长至 2029 年 10 月 9 日。 IT之家注：App-V 是微软于 2008 年通过 Microsoft Desktop Optimization Pack（MDOP）推出的应用虚拟化技术，其前身来自微软收购的 Softricity 公司及其 SoftGri...",
             "source": {
               "name": "IT之家·国内产业"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/acaaec780d79f13ec717f9afd",
-              "original": "https://www.ithome.com/1/014/204.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a08e12b4c0a59067bd7dde242",
+              "original": "https://www.ithome.com/1/014/258.htm"
             },
-            "publishedAt": "2026-10-16T23:44:12.000Z",
-            "discoveredAt": "2026-10-16T23:55:04.951Z",
+            "publishedAt": "2026-10-17T03:19:36.000Z",
+            "discoveredAt": "2026-10-17T03:30:48.262Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/acaaec780d79f13ec717f9afd"
-            }
-          },
-          {
-            "id": "adb89a8b5fc87586053bec938",
-            "title": "马斯克要让 AI 帮企业“砍价”：成本效益有望提升 5% 以上",
-            "originalTitle": "马斯克要让 AI 帮企业“砍价”：成本效益有望提升 5% 以上",
-            "summary": "IT之家 10 月 17 日消息，全球首富埃隆 · 马斯克（Elon Musk）今天（10 月 17 日）在 X 平台发布推文，表示其团队正投入大量资源， 开发面向商业场景的专用议价机器人“Hagglebot”，希望借此提升企业成本效率。 IT之家注：“专用议价机器人”就是为企业谈价格、争取更好交易条件而设计的 AI 软件，并非实体机器人。这里可以把它想象成一个“数字采购谈判员”：企业给它设定预算、可接受价格和交易条件，它再围绕这些目标...",
-            "source": {
-              "name": "IT之家·国内产业"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/adb89a8b5fc87586053bec938",
-              "original": "https://www.ithome.com/1/014/192.htm"
-            },
-            "publishedAt": "2026-10-16T23:01:02.000Z",
-            "discoveredAt": "2026-10-16T23:08:54.590Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/adb89a8b5fc87586053bec938"
+              "url": "https://zenglian-news.onrender.com/items/a08e12b4c0a59067bd7dde242"
             }
           }
         ]
@@ -723,6 +723,29 @@
         "category": "money",
         "label": "💰 商业搞钱Top20",
         "items": [
+          {
+            "id": "a720cf6338ed502b8ffdfdb51",
+            "title": "马斯克把特斯拉送上天，雷军李想却没接招",
+            "originalTitle": "马斯克把特斯拉送上天，雷军李想却没接招",
+            "summary": "本文来自微信公众号： 资本不熬夜 ，作者：不熬夜研究院 在美国得克萨斯州的太空探索技术公司试验场，一辆白色Roadster驶上弧形坡道，车底风扇将车身吸附在轨道上，车辆逐渐倒挂。随后，推进器启动，Roadster在空中翻转，最终四轮着地。 美国时间10月15日，马斯克终于把特斯拉送上了天。 演示中，马斯克还展示了从静止加速至每小时约97公里只需0.81秒的成绩。现场掌声响起，九年前那辆不断推迟交付的跑车，终于拿出了一段足以在社交媒体传播...",
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a720cf6338ed502b8ffdfdb51",
+              "original": "https://www.huxiu.com/article/4898225.html?f=rss"
+            },
+            "publishedAt": "2026-10-17T02:36:46.000Z",
+            "discoveredAt": "2026-10-17T03:13:29.301Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a720cf6338ed502b8ffdfdb51"
+            }
+          },
           {
             "id": "a70e8aa1c1a132029f99dcfdf",
             "title": "该撕下Anthropic“2万亿预期估值”的面具了",
@@ -814,29 +837,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a5c4ebb8c358178393ba390f8"
             }
-          },
-          {
-            "id": "aa0da3ecadff250f2821e2adb",
-            "title": "【独立变现】Show HN：rStation – 人工智能代理的共享研究实验室",
-            "originalTitle": "Show HN: rStation – A shared research lab for your AI agents",
-            "summary": "Show HN·独立变现榜实时快讯：Show HN: rStation – A shared research lab for your AI agents。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
-            "source": {
-              "name": "Show HN·独立变现榜"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa0da3ecadff250f2821e2adb",
-              "original": "https://rstation.ai/"
-            },
-            "publishedAt": "2026-10-16T14:35:43.000Z",
-            "discoveredAt": "2026-10-16T18:25:10.735Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa0da3ecadff250f2821e2adb"
-            }
           }
         ]
       },
@@ -844,6 +844,52 @@
         "category": "tech",
         "label": "🤖 AI实时Top20",
         "items": [
+          {
+            "id": "a65de5a87942fca164a934a02",
+            "title": "【开源大模型】您可能不知道现在可以使用 Qwen 3.6 27B 做的 10 件事。 （对于菜鸟来说）",
+            "originalTitle": "10 Things you maybe didn't know you can do with Qwen 3.6 27B right now. (For Noobs)",
+            "summary": "我知道每个人都对 3.8 感到兴奋，但老实说我仍在完善 3.6。我讨厌 3.8 的说话方式，所以...我不断看到所有这些关于开源有什么用的帖子，所以我想我应该提交我的...（来源：LocalLLaMA·开源大模型）",
+            "source": {
+              "name": "LocalLLaMA·开源大模型"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a65de5a87942fca164a934a02",
+              "original": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sq8e/10_things_you_maybe_didnt_know_you_can_do_with/"
+            },
+            "publishedAt": "2026-10-16T21:35:36.000Z",
+            "discoveredAt": "2026-10-17T01:07:05.692Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a65de5a87942fca164a934a02"
+            }
+          },
+          {
+            "id": "ac24bbee2e2b083ee7ea1afe8",
+            "title": "【开源大模型】Dario：“通过开源，你可以看到源代码。在这里我们看不到模型的内部。”我的 0.646 t/s MiMo-2.6-Pro 塞满了 128GB 的​​ Jetson AGX Thor：“是的，好吧，这就是你的意见，伙计。”",
+            "originalTitle": "Dario: “With open source you can see the source code. Here we can’t see inside the model.” My 0.646 t/s MiMo-2.6-Pro crammed thru 128GB of Jetson AGX Thor: “Yeah, well, that’s just, like, your opinion, man.”",
+            "summary": "在 Jetson AGX Thor 上以每秒 0.646 个令牌的速度跟踪我第一次运行 MiMo Pro，.. 但从技术上讲它确实加载并运行，所以它很重要。每个解码器层、路由专家、SSD 读取（..更多）都被跟踪和复制...（来源：LocalLLaMA·开源大模型）",
+            "source": {
+              "name": "LocalLLaMA·开源大模型"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ac24bbee2e2b083ee7ea1afe8",
+              "original": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sbxs/dario_with_open_source_you_can_see_the_source/"
+            },
+            "publishedAt": "2026-10-16T21:18:51.000Z",
+            "discoveredAt": "2026-10-17T01:07:14.092Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ac24bbee2e2b083ee7ea1afe8"
+            }
+          },
           {
             "id": "a443885d42d43ed90a36238c9",
             "title": "【OpenAI官宣】Itaú 如何为其整个客户群构建生成式人工智能",
@@ -912,52 +958,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ac402c775771f3824badd0966"
             }
-          },
-          {
-            "id": "ad25c64aa9c07736a7653db82",
-            "title": "【硅谷AI】一位 Nvidia 内部人士转型为风险投资家，探讨机器人技术尚未达到 ChatGPT 时刻的原因",
-            "originalTitle": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
-            "summary": "Amulya Vishwanath 花了七年时间领导 NVIDIA 机器人平台的产品营销，他表示机器人技术目前正处于“乐高时代”，具有执行器、机器人手、软件等基本构建模块……（来源：TechCrunch·硅谷AI）",
-            "source": {
-              "name": "TechCrunch·硅谷AI"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad25c64aa9c07736a7653db82",
-              "original": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/"
-            },
-            "publishedAt": "2026-10-16T16:30:00.000Z",
-            "discoveredAt": "2026-10-16T18:25:21.838Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad25c64aa9c07736a7653db82"
-            }
-          },
-          {
-            "id": "a42ff3ca15fcc4d1862f56d5b",
-            "title": "【硅谷AI】Elorian 的第一个人工智能模型想要用图像进行推理，而不仅仅是图像",
-            "originalTitle": "Elorian’s first AI model wants to reason with images, not just about them",
-            "summary": "根据 Elorian 的评估，Glimpse 在科学图表推理和短视频字幕方面的表现甚至优于 GPT-6 Astra，在其他视觉推理任务上也取得了有竞争力的结果。（来源：TechCrunch·硅谷AI）",
-            "source": {
-              "name": "TechCrunch·硅谷AI"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a42ff3ca15fcc4d1862f56d5b",
-              "original": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/"
-            },
-            "publishedAt": "2026-10-16T16:01:37.000Z",
-            "discoveredAt": "2026-10-16T18:25:22.737Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a42ff3ca15fcc4d1862f56d5b"
-            }
           }
         ]
       },
@@ -965,6 +965,98 @@
         "category": "culture",
         "label": "🎬 影视娱乐Top20",
         "items": [
+          {
+            "id": "a1a8930538069567094c92932",
+            "title": "【全球票房】KJ Apa 向《河谷》制片人罗伯托·阿吉雷-萨卡萨询问《与阿奇的来世》客串：“我不知道我会扮演谁”",
+            "originalTitle": "KJ Apa Asked ‘Riverdale’ Showrunner Roberto Aguirre-Sacasa For ‘Afterlife with Archie’ Cameo: “I Don’t Know Who I’d Play”",
+            "summary": "KJ 阿帕在《河谷镇》之后的生活中继续前行，他准备重返即将上映的《阿奇来世》系列改编作品。继他在 CW 系列剧集 2017 年至 23 年连续七季中饰演阿奇之后，该剧...（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a1a8930538069567094c92932",
+              "original": "https://deadline.com/2026/10/kj-apa-asked-roberto-aguirre-sacasa-afterlife-archie-cameo-1237166299/"
+            },
+            "publishedAt": "2026-10-17T02:50:05.000Z",
+            "discoveredAt": "2026-10-17T03:31:01.275Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a1a8930538069567094c92932"
+            }
+          },
+          {
+            "id": "a4ef2cd1609577be0e5a0e336",
+            "title": "【国内文娱】从“拼产能”到“拼精品” AI文旅互动剧为流量短剧“降温”",
+            "originalTitle": "从“拼产能”到“拼精品” AI文旅互动剧为流量短剧“降温”",
+            "summary": "中新网沈阳10月17日电 (记者 李晛)“剧集依托AI三维建模，高度还原沈阳历史风貌：百年老街青砖肌理清晰，旧时商铺幌子随风摇曳……”沈阳市智能应用协会会长、沈阳市人工智能产教融合创新基地负责人张艺天近日向记者展示了东北首部AI文旅互动剧《和智宣游记》中的画面。",
+            "source": {
+              "name": "中新网·影视文娱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a4ef2cd1609577be0e5a0e336",
+              "original": "https://www.chinanews.com.cn/cul/2026/10-17/10716079.shtml"
+            },
+            "publishedAt": "2026-10-17T01:35:40.000Z",
+            "discoveredAt": "2026-10-17T03:13:43.432Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a4ef2cd1609577be0e5a0e336"
+            }
+          },
+          {
+            "id": "a21bb1e6e640d1f806b24b496",
+            "title": "【全球票房】暗黑破坏神科迪取笑《詹妮弗的身体 2》探索梅根福克斯角色更“富有同情心”的一面",
+            "originalTitle": "Diablo Cody Teases ‘Jennifer’s Body 2’ Explores A More “Sympathetic” Side Of Megan Fox’s Character",
+            "summary": "当暗黑破坏神科迪准备再次复活梅根福克斯饰演的青少年魅魔时，她为这个恶魔角色添加了更多人性元素。在讨论“即将推出”的续集《詹妮弗的身体 2》时，这位奥斯卡获奖作家解释了……（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a21bb1e6e640d1f806b24b496",
+              "original": "https://deadline.com/2026/10/diablo-cody-jennifers-body-2-more-sympathetic-1237166245/"
+            },
+            "publishedAt": "2026-10-17T01:01:38.000Z",
+            "discoveredAt": "2026-10-17T03:31:03.024Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a21bb1e6e640d1f806b24b496"
+            }
+          },
+          {
+            "id": "ab603b633099734e27c0b2d95",
+            "title": "【好莱坞一手】不可能的“鲸落”：导演布莱恩·杜菲尔德想要挑战，所以他找到了一种方法来压碎奥斯汀·艾布拉姆斯的鲸鱼胃，这让旁观者“困惑”",
+            "originalTitle": "The Impossible ‘Whalefall’: Director Brian Duffield Wanted a Challenge, So He Discovered a Way to Crush Austin Abrams in a Whale Stomach That Left Onlookers ‘Baffled’",
+            "summary": "事实证明，在鲸鱼的胃里射击是很困难的。 《鲸落》导演布莱恩·达菲尔德兴高采烈地概述了拍摄他的新电影时遇到的一些最大障碍。这部电影的前提，现在通过......（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ab603b633099734e27c0b2d95",
+              "original": "https://variety.com/2026/film/features/whalefall-austin-abrams-crushed-whale-stomach-on-set-1236912491/"
+            },
+            "publishedAt": "2026-10-17T00:01:05.000Z",
+            "discoveredAt": "2026-10-17T03:31:00.024Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ab603b633099734e27c0b2d95"
+            }
+          },
           {
             "id": "aeb700b28f2b2ef0dfedcd60b",
             "title": "【全球票房】《Whalefall》的导演兼作者如何将父子关系的结束编织成一个生存故事",
@@ -986,98 +1078,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/aeb700b28f2b2ef0dfedcd60b"
-            }
-          },
-          {
-            "id": "a67c31a92b4668b2cfaa6fefc",
-            "title": "【全球票房】《La Bola Negra》导演二人组洛斯·贾维斯揭示西班牙风情如何成为“我们生命的旅程”",
-            "originalTitle": "‘La Bola Negra’ Directing Duo Los Javis Reveal How Spanish Sensation Became “The Journey Of Our Lives”",
-            "summary": "佩内洛普·克鲁兹 (Penélope Cruz) 多年来一直是洛斯贾维斯 (Los Javis)（西班牙电影制作人哈维尔·安布罗西 (Javier Ambrossi) 和哈维尔·卡尔沃 (Javier Calvo) 的绰号) 的缪斯女神，后来他们共进午餐，说服她在《洛斯贾维斯》中扮演一名歌手（实际上更像是一种自然的力量）。（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a67c31a92b4668b2cfaa6fefc",
-              "original": "https://deadline.com/2026/10/la-bola-negra-directors-interview-los-javis-1237165637/"
-            },
-            "publishedAt": "2026-10-16T22:15:00.000Z",
-            "discoveredAt": "2026-10-16T23:55:42.822Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a67c31a92b4668b2cfaa6fefc"
-            }
-          },
-          {
-            "id": "a94fe5f018faa355497da3aaa",
-            "title": "【好莱坞一手】派拉蒙与《饥饿游戏》导演弗朗西斯·劳伦斯合作拍摄《红色崛起》电影",
-            "originalTitle": "‘Red Rising’ Movie in the Works at Paramount With ‘Hunger Games’ Director Francis Lawrence",
-            "summary": "收割者万岁！派拉蒙已获得了热门小说《红色崛起》的版权，《饥饿游戏》导演弗朗西斯·劳伦斯还附上了一部根据第一部小说改编的电影。贾斯汀·罗德斯将撰写剧本……（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a94fe5f018faa355497da3aaa",
-              "original": "https://variety.com/2026/film/news/red-rising-movie-paramount-hunger-games-director-books-1236914459/"
-            },
-            "publishedAt": "2026-10-16T21:34:22.000Z",
-            "discoveredAt": "2026-10-16T21:34:51.629Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a94fe5f018faa355497da3aaa"
-            }
-          },
-          {
-            "id": "a29b80a0881f9ccc72bf6fcea",
-            "title": "【好莱坞一手】《街头霸王》演员指南：所有 WWE 明星、UFC 冠军和名人在真人电影中扮演电子游戏战士",
-            "originalTitle": "‘Street Fighter’ Cast Guide: All the WWE Stars, UFC Champs and Celebs Playing Video Game Fighters in the Live-Action Movie",
-            "summary": "第一回合……战斗！ 《街头霸王》重新登上大银幕，对 20 世纪 80 年代街机游戏中流行的流行格斗游戏视频系列进行了全新演绎，至今仍很受欢迎。派拉蒙和传奇影业的...（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a29b80a0881f9ccc72bf6fcea",
-              "original": "https://variety.com/lists/street-fighter-cast-video-game-vs-live-action/"
-            },
-            "publishedAt": "2026-10-16T22:30:00.000Z",
-            "discoveredAt": "2026-10-16T23:55:38.803Z",
-            "category": "culture",
-            "score": 98,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a29b80a0881f9ccc72bf6fcea"
-            }
-          },
-          {
-            "id": "a9f1a1d34f14772c2cfec9fa7",
-            "title": "【全球票房】《水晶湖》的格温多林·桑德斯特罗姆谈格蕾丝与杰森的友谊，从琳达·卡德里尼和那个杀手的扭曲中“学到了很多”",
-            "originalTitle": "‘Crystal Lake’s Gwendolyn Sundstrom On Grace’s Friendship With Jason, “Learning A Lot” From Linda Cardellini & That Killer Twist",
-            "summary": "剧透：这篇文章包含有关 Peacock 的 Crystal Lake 系列的详细信息 虽然 Crystal Lake 重新审视了《十三号星期五》系列中几位熟悉的当地人，但格温多林·桑德斯特罗姆 (Gwendolyn Sundstrom) 为这部恐怖片前作带来了一个新鲜的角色……（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9f1a1d34f14772c2cfec9fa7",
-              "original": "https://deadline.com/2026/10/crystal-lake-gwendolyn-sundstrom-killer-twist-1237158527/"
-            },
-            "publishedAt": "2026-10-16T22:00:00.000Z",
-            "discoveredAt": "2026-10-16T23:55:44.259Z",
-            "category": "culture",
-            "score": 98,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9f1a1d34f14772c2cfec9fa7"
             }
           }
         ]
@@ -1107,52 +1107,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a0b043118ac0a54b161744f6b"
-            }
-          },
-          {
-            "id": "a57b0ac6ce6f41b113b0f9abc",
-            "title": "【NBA一手】[Windhorst] 西雅图不再锁定扩张，墨西哥城可能成为替代方案",
-            "originalTitle": "[Windhorst] Seattle No Longer Lock for Expansion, Mexico City a Possible Alternative",
-            "summary": "多名所有权消息人士告诉 ESPN，NBA 总裁亚当·萧华似乎正在加大对西雅图超音速队未来可能的杠杆游戏的赌注。我们谨慎地说“可能”，因为银...（来源：NBA·北美篮球实时热榜）",
-            "source": {
-              "name": "NBA·北美篮球实时热榜"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a57b0ac6ce6f41b113b0f9abc",
-              "original": "https://www.reddit.com/r/nba/comments/1x7iu2h/windhorst_seattle_no_longer_lock_for_expansion/"
-            },
-            "publishedAt": "2026-10-16T15:12:15.000Z",
-            "discoveredAt": "2026-10-16T21:35:25.614Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a57b0ac6ce6f41b113b0f9abc"
-            }
-          },
-          {
-            "id": "a92939a9d5c70aa3f72b0f653",
-            "title": "【NBA一手】[Charania] NBA 和知名体育博彩公司已同意禁止多种类型的投注，据我和 David Purdum 透露",
-            "originalTitle": "[Charania] The NBA and prominent sportsbooks have agreed to ban multiple types of bets, per me and David Purdum",
-            "summary": "- Parl@y 投注涉及同一玩家的统计数据 - “第一”市场；示例：开场提示的获胜者、个人的具体投篮、篮板、助攻、抢断 - 对预计球员的“低于”投注...（来源：NBA·北美篮球实时热榜）",
-            "source": {
-              "name": "NBA·北美篮球实时热榜"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a92939a9d5c70aa3f72b0f653",
-              "original": "https://www.reddit.com/r/nba/comments/1x7ikx5/charania_the_nba_and_prominent_sportsbooks_have/"
-            },
-            "publishedAt": "2026-10-16T15:02:18.000Z",
-            "discoveredAt": "2026-10-16T21:35:22.214Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a92939a9d5c70aa3f72b0f653"
             }
           },
           {
@@ -1200,6 +1154,52 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ae0a54c584d92bd024ab1d4fb"
             }
+          },
+          {
+            "id": "a89974e050010ffe7e0433139",
+            "title": "【欧洲足坛】“这真的不是一场戏剧”：卡里克在马丁内斯风暴后坚持剧本",
+            "originalTitle": "‘It’s really not a drama’: Carrick sticks to the script after Martínez storm",
+            "summary": "曼联主教练在前往利兹的艰难之旅之前上演了一场大师级的降压情绪课，迈克尔·卡里克在中场回答问题时，在需要时准确地回报了他最令人印象深刻的表现……（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a89974e050010ffe7e0433139",
+              "original": "https://www.theguardian.com/football/2026/oct/16/michael-carrick-lisandro-martinez-manchester-united-leeds-premier-league"
+            },
+            "publishedAt": "2026-10-16T19:00:09.000Z",
+            "discoveredAt": "2026-10-16T21:35:17.466Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a89974e050010ffe7e0433139"
+            }
+          },
+          {
+            "id": "aca9cdc90909626b615ac726a",
+            "title": "【欧洲足坛】弗洛里安·维尔茨之谜：为什么他在利物浦没有找到勒沃库森的状态？",
+            "originalTitle": "The Florian Wirtz mystery: why has he not found Leverkusen form at Liverpool?",
+            "summary": "我们的两位作家挑选了德国人对利物浦的贡献以及这位价值 1.16 亿英镑的前锋可能产生的影响。一些批评来自 OTT，而转会费升至 1.16 亿英镑提高了要求，但是，是的，与他的表现相比......（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aca9cdc90909626b615ac726a",
+              "original": "https://www.theguardian.com/football/2026/oct/16/florian-wirtz-mystery-found-bayer-leverkusen-form-liverpool"
+            },
+            "publishedAt": "2026-10-16T16:40:30.000Z",
+            "discoveredAt": "2026-10-16T18:25:42.896Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aca9cdc90909626b615ac726a"
+            }
           }
         ]
       }
@@ -1210,7 +1210,7 @@
     "key": "2026-10",
     "title": "曾练全球一手简报 · 月度产业全景报告 (2026年10月)",
     "subtitle": "30天六大实时Top20赛道全景洞察与高价值搞钱机会总结",
-    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：苹果更新应用商店规则，打击“裸露”人工智能应用；Claude Code 团队如何进行代码审查；中国官方确定14个“人工智能+文化和旅游”试点项目。",
+    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：苹果更新应用商店规则，打击“裸露”人工智能应用；Claude Code 团队如何进行代码审查；两部门联合发文 推动“电影+体育”跨界合作。",
     "metrics": {
       "totalEvents": 36,
       "sourcesCount": 30,
@@ -1366,26 +1366,49 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "a7e383473d74aed89bc5d7180",
-            "title": "【国内财经】中国官方确定14个“人工智能+文化和旅游”试点项目",
-            "originalTitle": "中国官方确定14个“人工智能+文化和旅游”试点项目",
-            "summary": "中新社北京10月16日电 (记者 应妮)为进一步推进人工智能技术在文化和旅游领域融合应用，中国文化和旅游部16日正式公布“人工智能+文化和旅游”的14个应用试点立项名单。",
+            "id": "a336806d0a01d25a9e69be360",
+            "title": "【国内要闻】两部门联合发文 推动“电影+体育”跨界合作",
+            "originalTitle": "两部门联合发文 推动“电影+体育”跨界合作",
+            "summary": "近日，国家电影局、体育总局联合印发《关于开展“跟着电影去运动”行动 推动电影与体育双向赋能的通知》。",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a336806d0a01d25a9e69be360",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-17/10716105.shtml"
+            },
+            "publishedAt": "2026-10-17T03:05:32.000Z",
+            "discoveredAt": "2026-10-17T03:13:09.804Z",
+            "category": "domestic",
+            "score": 99,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a336806d0a01d25a9e69be360"
+            }
+          },
+          {
+            "id": "a491eca401809837a383884f7",
+            "title": "【国内财经】中外记者走进昆山 体验机器人6S店里的“中国智造”",
+            "originalTitle": "中外记者走进昆山 体验机器人6S店里的“中国智造”",
+            "summary": "中新网南京10月17日电(记者 梁晓辉 孙晨慧) 一千平方米，能装下什么？昆山一家机器人6S店给出的答案是：具备语音交互能力的AI猫形机器人、可参与格斗竞技的人形机器人，以及用于港口货轮藤壶清洗的水下机器人。近日，参加2026年“一带一路”记者组织论坛活动的中外记者走进江苏昆山，也顺手把“中国智造”装进行囊。",
             "source": {
               "name": "中新网·国内财经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7e383473d74aed89bc5d7180",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-17/10716015.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a491eca401809837a383884f7",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-17/10716080.shtml"
             },
-            "publishedAt": "2026-10-16T16:47:29.000Z",
-            "discoveredAt": "2026-10-16T18:12:35.758Z",
+            "publishedAt": "2026-10-17T01:36:32.000Z",
+            "discoveredAt": "2026-10-17T03:13:11.626Z",
             "category": "domestic",
             "score": 99,
             "selected": true,
             "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7e383473d74aed89bc5d7180"
+              "url": "https://zenglian-news.onrender.com/items/a491eca401809837a383884f7"
             }
           },
           {
@@ -1412,95 +1435,72 @@
             }
           },
           {
-            "id": "adc7c83cc5d5a27cf5ba8a161",
-            "title": "【国内财经】广东省退役军人应急救助资金累计发放突破3亿元",
-            "originalTitle": "广东省退役军人应急救助资金累计发放突破3亿元",
-            "summary": "中新网广州10月17日电 (记者 程景伟)据广东省退役军人事务厅16日消息，截至2026年10月10日，广东省退役军人应急救助资金累计发放金额突破3亿元，覆盖全省各地困难退役军人和其他优抚对象超过1.24万人。",
-            "source": {
-              "name": "中新网·国内财经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/adc7c83cc5d5a27cf5ba8a161",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-17/10716018.shtml"
-            },
-            "publishedAt": "2026-10-16T16:54:13.000Z",
-            "discoveredAt": "2026-10-16T18:12:35.457Z",
-            "category": "domestic",
-            "score": 98,
-            "selected": true,
-            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/adc7c83cc5d5a27cf5ba8a161"
-            }
-          },
-          {
-            "id": "acaaec780d79f13ec717f9afd",
-            "title": "蒲得宇预估 2026 全球手机出货量降 14.2%，苹果成唯一增长的主要手机厂商",
-            "originalTitle": "蒲得宇预估 2026 全球手机出货量降 14.2%，苹果成唯一增长的主要手机厂商",
-            "summary": "IT之家 10 月 17 日消息，在本周发布的投资简报中，广发证券分析师蒲得宇（Jeff Pu）和 Henry Huang 预测， 苹果将是 2026 年唯一一家出货量实现增长的主要智能手机制造商（增长 4%）。 在两位分析师联合发布的投资简报中， 预测 2026 年全球智能手机出货量约 10.8 亿部，同比下降约为 14.2%。 而苹果却有望成为唯一实现出货增长的主要厂商，达到 2.57 亿部，预计同比增长 4%，届时其全球出货份额将...",
-            "source": {
-              "name": "IT之家·国内产业"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/acaaec780d79f13ec717f9afd",
-              "original": "https://www.ithome.com/1/014/204.htm"
-            },
-            "publishedAt": "2026-10-16T23:44:12.000Z",
-            "discoveredAt": "2026-10-16T23:55:04.951Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/acaaec780d79f13ec717f9afd"
-            }
-          },
-          {
-            "id": "adb89a8b5fc87586053bec938",
-            "title": "马斯克要让 AI 帮企业“砍价”：成本效益有望提升 5% 以上",
-            "originalTitle": "马斯克要让 AI 帮企业“砍价”：成本效益有望提升 5% 以上",
-            "summary": "IT之家 10 月 17 日消息，全球首富埃隆 · 马斯克（Elon Musk）今天（10 月 17 日）在 X 平台发布推文，表示其团队正投入大量资源， 开发面向商业场景的专用议价机器人“Hagglebot”，希望借此提升企业成本效率。 IT之家注：“专用议价机器人”就是为企业谈价格、争取更好交易条件而设计的 AI 软件，并非实体机器人。这里可以把它想象成一个“数字采购谈判员”：企业给它设定预算、可接受价格和交易条件，它再围绕这些目标...",
-            "source": {
-              "name": "IT之家·国内产业"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/adb89a8b5fc87586053bec938",
-              "original": "https://www.ithome.com/1/014/192.htm"
-            },
-            "publishedAt": "2026-10-16T23:01:02.000Z",
-            "discoveredAt": "2026-10-16T23:08:54.590Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/adb89a8b5fc87586053bec938"
-            }
-          },
-          {
-            "id": "acea0b04062f732305458e9a1",
-            "title": "【国内要闻】赞比亚霍乱疫情致25人死亡 官方紧急启动疫苗接种",
-            "originalTitle": "赞比亚霍乱疫情致25人死亡 官方紧急启动疫苗接种",
-            "summary": "新华社哈拉雷10月16日电(记者叶挺)卢萨卡消息：赞比亚政府16日在首都卢萨卡紧急启动口服霍乱疫苗接种工作，以应对近期该国多地暴发的霍乱疫情。据赞比亚卫生部最新通报，本轮疫情已造成25人死亡，确诊病例达966例。",
+            "id": "a76ee0e87fb053c909ab65c49",
+            "title": "【国内要闻】活力中国调研行｜广西职教“出海” 老挝兄弟求学",
+            "originalTitle": "活力中国调研行｜广西职教“出海” 老挝兄弟求学",
+            "summary": "视频：活力中国调研行｜广西职教“出海” 老挝兄弟求学来源：新华社",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/acea0b04062f732305458e9a1",
-              "original": "https://www.chinanews.com.cn/gj/2026/10-17/10716050.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a76ee0e87fb053c909ab65c49",
+              "original": "https://www.chinanews.com.cn/edu/2026/10-17/10716113.shtml"
             },
-            "publishedAt": "2026-10-16T22:07:00.000Z",
-            "discoveredAt": "2026-10-16T22:20:15.927Z",
+            "publishedAt": "2026-10-17T03:23:01.000Z",
+            "discoveredAt": "2026-10-17T03:30:43.323Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/acea0b04062f732305458e9a1"
+              "url": "https://zenglian-news.onrender.com/items/a76ee0e87fb053c909ab65c49"
+            }
+          },
+          {
+            "id": "a08e12b4c0a59067bd7dde242",
+            "title": "Win11 用户还能再用 3 年：微软老牌虚拟化组件 App-V Server 扩展支持至 2029 年",
+            "originalTitle": "Win11 用户还能再用 3 年：微软老牌虚拟化组件 App-V Server 扩展支持至 2029 年",
+            "summary": "IT之家 10 月 17 日消息，科技媒体 NeoWin 昨日（10 月 16 日）发布博文， 报道称微软扩展支持 App-V Server（微软应用虚拟化服务器），支持期限延长至 2029 年 10 月 9 日。 IT之家注：App-V 是微软于 2008 年通过 Microsoft Desktop Optimization Pack（MDOP）推出的应用虚拟化技术，其前身来自微软收购的 Softricity 公司及其 SoftGri...",
+            "source": {
+              "name": "IT之家·国内产业"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a08e12b4c0a59067bd7dde242",
+              "original": "https://www.ithome.com/1/014/258.htm"
+            },
+            "publishedAt": "2026-10-17T03:19:36.000Z",
+            "discoveredAt": "2026-10-17T03:30:48.262Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a08e12b4c0a59067bd7dde242"
+            }
+          },
+          {
+            "id": "a218b6293463dc4dfb47360a6",
+            "title": "【国内要闻】AI乌镇 科创桐乡｜1米88“大个子”！濮院街头有了“机器人交警”",
+            "originalTitle": "AI乌镇 科创桐乡｜1米88“大个子”！濮院街头有了“机器人交警”",
+            "summary": "2026年世界互联网大会乌镇峰会日益临近，濮院时尚古镇作为第二分会场，将迎来大批嘉宾和游客。届时交通出行秩序如何保障？",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a218b6293463dc4dfb47360a6",
+              "original": "https://www.chinanews.com.cn/sh/2026/10-17/10716109.shtml"
+            },
+            "publishedAt": "2026-10-17T03:13:11.000Z",
+            "discoveredAt": "2026-10-17T03:30:43.575Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a218b6293463dc4dfb47360a6"
             }
           }
         ]
@@ -1509,6 +1509,29 @@
         "category": "money",
         "label": "💰 商业搞钱Top20",
         "items": [
+          {
+            "id": "a720cf6338ed502b8ffdfdb51",
+            "title": "马斯克把特斯拉送上天，雷军李想却没接招",
+            "originalTitle": "马斯克把特斯拉送上天，雷军李想却没接招",
+            "summary": "本文来自微信公众号： 资本不熬夜 ，作者：不熬夜研究院 在美国得克萨斯州的太空探索技术公司试验场，一辆白色Roadster驶上弧形坡道，车底风扇将车身吸附在轨道上，车辆逐渐倒挂。随后，推进器启动，Roadster在空中翻转，最终四轮着地。 美国时间10月15日，马斯克终于把特斯拉送上了天。 演示中，马斯克还展示了从静止加速至每小时约97公里只需0.81秒的成绩。现场掌声响起，九年前那辆不断推迟交付的跑车，终于拿出了一段足以在社交媒体传播...",
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a720cf6338ed502b8ffdfdb51",
+              "original": "https://www.huxiu.com/article/4898225.html?f=rss"
+            },
+            "publishedAt": "2026-10-17T02:36:46.000Z",
+            "discoveredAt": "2026-10-17T03:13:29.301Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a720cf6338ed502b8ffdfdb51"
+            }
+          },
           {
             "id": "a70e8aa1c1a132029f99dcfdf",
             "title": "该撕下Anthropic“2万亿预期估值”的面具了",
@@ -1623,29 +1646,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/aa0da3ecadff250f2821e2adb"
             }
-          },
-          {
-            "id": "aba0fe3af9ea1624ef3dd83e5",
-            "title": "李想，下场“造芯”",
-            "originalTitle": "李想，下场“造芯”",
-            "summary": "本文来自微信公众号： 科创板日报 ，作者：余诗琪，原文标题：《李想，下场“造芯”！》 理想汽车旗下芯片业务平台马赫心科技签署首轮股权融资协议，认购总额16.25亿元，投前估值150亿元，最高投后估值约171亿元。 李想也下场了，造车新势力，正在变成造芯新势力。“蔚小理”三家造车新势力中，已有两家开始把芯片业务独立出来融资。 今日，理想汽车（02015.HK）发布公告，旗下芯片业务平台马赫心科技签署首轮股权融资协议，认购总额16.25亿元...",
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aba0fe3af9ea1624ef3dd83e5",
-              "original": "https://www.huxiu.com/article/4898192.html?f=rss"
-            },
-            "publishedAt": "2026-10-16T14:29:00.000Z",
-            "discoveredAt": "2026-10-16T14:38:56.876Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aba0fe3af9ea1624ef3dd83e5"
-            }
           }
         ]
       },
@@ -1653,6 +1653,52 @@
         "category": "tech",
         "label": "🤖 AI实时Top20",
         "items": [
+          {
+            "id": "a65de5a87942fca164a934a02",
+            "title": "【开源大模型】您可能不知道现在可以使用 Qwen 3.6 27B 做的 10 件事。 （对于菜鸟来说）",
+            "originalTitle": "10 Things you maybe didn't know you can do with Qwen 3.6 27B right now. (For Noobs)",
+            "summary": "我知道每个人都对 3.8 感到兴奋，但老实说我仍在完善 3.6。我讨厌 3.8 的说话方式，所以...我不断看到所有这些关于开源有什么用的帖子，所以我想我应该提交我的...（来源：LocalLLaMA·开源大模型）",
+            "source": {
+              "name": "LocalLLaMA·开源大模型"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a65de5a87942fca164a934a02",
+              "original": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sq8e/10_things_you_maybe_didnt_know_you_can_do_with/"
+            },
+            "publishedAt": "2026-10-16T21:35:36.000Z",
+            "discoveredAt": "2026-10-17T01:07:05.692Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a65de5a87942fca164a934a02"
+            }
+          },
+          {
+            "id": "ac24bbee2e2b083ee7ea1afe8",
+            "title": "【开源大模型】Dario：“通过开源，你可以看到源代码。在这里我们看不到模型的内部。”我的 0.646 t/s MiMo-2.6-Pro 塞满了 128GB 的​​ Jetson AGX Thor：“是的，好吧，这就是你的意见，伙计。”",
+            "originalTitle": "Dario: “With open source you can see the source code. Here we can’t see inside the model.” My 0.646 t/s MiMo-2.6-Pro crammed thru 128GB of Jetson AGX Thor: “Yeah, well, that’s just, like, your opinion, man.”",
+            "summary": "在 Jetson AGX Thor 上以每秒 0.646 个令牌的速度跟踪我第一次运行 MiMo Pro，.. 但从技术上讲它确实加载并运行，所以它很重要。每个解码器层、路由专家、SSD 读取（..更多）都被跟踪和复制...（来源：LocalLLaMA·开源大模型）",
+            "source": {
+              "name": "LocalLLaMA·开源大模型"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ac24bbee2e2b083ee7ea1afe8",
+              "original": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sbxs/dario_with_open_source_you_can_see_the_source/"
+            },
+            "publishedAt": "2026-10-16T21:18:51.000Z",
+            "discoveredAt": "2026-10-17T01:07:14.092Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ac24bbee2e2b083ee7ea1afe8"
+            }
+          },
           {
             "id": "a443885d42d43ed90a36238c9",
             "title": "【OpenAI官宣】Itaú 如何为其整个客户群构建生成式人工智能",
@@ -1744,52 +1790,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ad25c64aa9c07736a7653db82"
             }
-          },
-          {
-            "id": "a42ff3ca15fcc4d1862f56d5b",
-            "title": "【硅谷AI】Elorian 的第一个人工智能模型想要用图像进行推理，而不仅仅是图像",
-            "originalTitle": "Elorian’s first AI model wants to reason with images, not just about them",
-            "summary": "根据 Elorian 的评估，Glimpse 在科学图表推理和短视频字幕方面的表现甚至优于 GPT-6 Astra，在其他视觉推理任务上也取得了有竞争力的结果。（来源：TechCrunch·硅谷AI）",
-            "source": {
-              "name": "TechCrunch·硅谷AI"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a42ff3ca15fcc4d1862f56d5b",
-              "original": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/"
-            },
-            "publishedAt": "2026-10-16T16:01:37.000Z",
-            "discoveredAt": "2026-10-16T18:25:22.737Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a42ff3ca15fcc4d1862f56d5b"
-            }
-          },
-          {
-            "id": "a466c14291678b952bab812d0",
-            "title": "【开源大模型】中国拟对23项人工智能技术（包括大型模型、代理和集群）实施出口管制；已经开源的技术被豁免",
-            "originalTitle": "China proposes export controls on 23 AI technologies (including large models, agents & clusters); already open-sourced tech is exempted",
-            "summary": "2026年10月16日，中国商务部、科学技术部发布《禁止出口限制出口技术目录》修订草案。它建议增加40项技术......（来源：LocalLLaMA·开源大模型）",
-            "source": {
-              "name": "LocalLLaMA·开源大模型"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a466c14291678b952bab812d0",
-              "original": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
-            },
-            "publishedAt": "2026-10-16T13:22:48.000Z",
-            "discoveredAt": "2026-10-16T14:39:14.070Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a466c14291678b952bab812d0"
-            }
           }
         ]
       },
@@ -1797,6 +1797,98 @@
         "category": "culture",
         "label": "🎬 影视娱乐Top20",
         "items": [
+          {
+            "id": "a1a8930538069567094c92932",
+            "title": "【全球票房】KJ Apa 向《河谷》制片人罗伯托·阿吉雷-萨卡萨询问《与阿奇的来世》客串：“我不知道我会扮演谁”",
+            "originalTitle": "KJ Apa Asked ‘Riverdale’ Showrunner Roberto Aguirre-Sacasa For ‘Afterlife with Archie’ Cameo: “I Don’t Know Who I’d Play”",
+            "summary": "KJ 阿帕在《河谷镇》之后的生活中继续前行，他准备重返即将上映的《阿奇来世》系列改编作品。继他在 CW 系列剧集 2017 年至 23 年连续七季中饰演阿奇之后，该剧...（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a1a8930538069567094c92932",
+              "original": "https://deadline.com/2026/10/kj-apa-asked-roberto-aguirre-sacasa-afterlife-archie-cameo-1237166299/"
+            },
+            "publishedAt": "2026-10-17T02:50:05.000Z",
+            "discoveredAt": "2026-10-17T03:31:01.275Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a1a8930538069567094c92932"
+            }
+          },
+          {
+            "id": "a4ef2cd1609577be0e5a0e336",
+            "title": "【国内文娱】从“拼产能”到“拼精品” AI文旅互动剧为流量短剧“降温”",
+            "originalTitle": "从“拼产能”到“拼精品” AI文旅互动剧为流量短剧“降温”",
+            "summary": "中新网沈阳10月17日电 (记者 李晛)“剧集依托AI三维建模，高度还原沈阳历史风貌：百年老街青砖肌理清晰，旧时商铺幌子随风摇曳……”沈阳市智能应用协会会长、沈阳市人工智能产教融合创新基地负责人张艺天近日向记者展示了东北首部AI文旅互动剧《和智宣游记》中的画面。",
+            "source": {
+              "name": "中新网·影视文娱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a4ef2cd1609577be0e5a0e336",
+              "original": "https://www.chinanews.com.cn/cul/2026/10-17/10716079.shtml"
+            },
+            "publishedAt": "2026-10-17T01:35:40.000Z",
+            "discoveredAt": "2026-10-17T03:13:43.432Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a4ef2cd1609577be0e5a0e336"
+            }
+          },
+          {
+            "id": "a21bb1e6e640d1f806b24b496",
+            "title": "【全球票房】暗黑破坏神科迪取笑《詹妮弗的身体 2》探索梅根福克斯角色更“富有同情心”的一面",
+            "originalTitle": "Diablo Cody Teases ‘Jennifer’s Body 2’ Explores A More “Sympathetic” Side Of Megan Fox’s Character",
+            "summary": "当暗黑破坏神科迪准备再次复活梅根福克斯饰演的青少年魅魔时，她为这个恶魔角色添加了更多人性元素。在讨论“即将推出”的续集《詹妮弗的身体 2》时，这位奥斯卡获奖作家解释了……（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a21bb1e6e640d1f806b24b496",
+              "original": "https://deadline.com/2026/10/diablo-cody-jennifers-body-2-more-sympathetic-1237166245/"
+            },
+            "publishedAt": "2026-10-17T01:01:38.000Z",
+            "discoveredAt": "2026-10-17T03:31:03.024Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a21bb1e6e640d1f806b24b496"
+            }
+          },
+          {
+            "id": "ab603b633099734e27c0b2d95",
+            "title": "【好莱坞一手】不可能的“鲸落”：导演布莱恩·杜菲尔德想要挑战，所以他找到了一种方法来压碎奥斯汀·艾布拉姆斯的鲸鱼胃，这让旁观者“困惑”",
+            "originalTitle": "The Impossible ‘Whalefall’: Director Brian Duffield Wanted a Challenge, So He Discovered a Way to Crush Austin Abrams in a Whale Stomach That Left Onlookers ‘Baffled’",
+            "summary": "事实证明，在鲸鱼的胃里射击是很困难的。 《鲸落》导演布莱恩·达菲尔德兴高采烈地概述了拍摄他的新电影时遇到的一些最大障碍。这部电影的前提，现在通过......（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ab603b633099734e27c0b2d95",
+              "original": "https://variety.com/2026/film/features/whalefall-austin-abrams-crushed-whale-stomach-on-set-1236912491/"
+            },
+            "publishedAt": "2026-10-17T00:01:05.000Z",
+            "discoveredAt": "2026-10-17T03:31:00.024Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ab603b633099734e27c0b2d95"
+            }
+          },
           {
             "id": "aeb700b28f2b2ef0dfedcd60b",
             "title": "【全球票房】《Whalefall》的导演兼作者如何将父子关系的结束编织成一个生存故事",
@@ -1842,98 +1934,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a67c31a92b4668b2cfaa6fefc"
             }
-          },
-          {
-            "id": "a94fe5f018faa355497da3aaa",
-            "title": "【好莱坞一手】派拉蒙与《饥饿游戏》导演弗朗西斯·劳伦斯合作拍摄《红色崛起》电影",
-            "originalTitle": "‘Red Rising’ Movie in the Works at Paramount With ‘Hunger Games’ Director Francis Lawrence",
-            "summary": "收割者万岁！派拉蒙已获得了热门小说《红色崛起》的版权，《饥饿游戏》导演弗朗西斯·劳伦斯还附上了一部根据第一部小说改编的电影。贾斯汀·罗德斯将撰写剧本……（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a94fe5f018faa355497da3aaa",
-              "original": "https://variety.com/2026/film/news/red-rising-movie-paramount-hunger-games-director-books-1236914459/"
-            },
-            "publishedAt": "2026-10-16T21:34:22.000Z",
-            "discoveredAt": "2026-10-16T21:34:51.629Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a94fe5f018faa355497da3aaa"
-            }
-          },
-          {
-            "id": "a29b80a0881f9ccc72bf6fcea",
-            "title": "【好莱坞一手】《街头霸王》演员指南：所有 WWE 明星、UFC 冠军和名人在真人电影中扮演电子游戏战士",
-            "originalTitle": "‘Street Fighter’ Cast Guide: All the WWE Stars, UFC Champs and Celebs Playing Video Game Fighters in the Live-Action Movie",
-            "summary": "第一回合……战斗！ 《街头霸王》重新登上大银幕，对 20 世纪 80 年代街机游戏中流行的流行格斗游戏视频系列进行了全新演绎，至今仍很受欢迎。派拉蒙和传奇影业的...（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a29b80a0881f9ccc72bf6fcea",
-              "original": "https://variety.com/lists/street-fighter-cast-video-game-vs-live-action/"
-            },
-            "publishedAt": "2026-10-16T22:30:00.000Z",
-            "discoveredAt": "2026-10-16T23:55:38.803Z",
-            "category": "culture",
-            "score": 98,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a29b80a0881f9ccc72bf6fcea"
-            }
-          },
-          {
-            "id": "a9f1a1d34f14772c2cfec9fa7",
-            "title": "【全球票房】《水晶湖》的格温多林·桑德斯特罗姆谈格蕾丝与杰森的友谊，从琳达·卡德里尼和那个杀手的扭曲中“学到了很多”",
-            "originalTitle": "‘Crystal Lake’s Gwendolyn Sundstrom On Grace’s Friendship With Jason, “Learning A Lot” From Linda Cardellini & That Killer Twist",
-            "summary": "剧透：这篇文章包含有关 Peacock 的 Crystal Lake 系列的详细信息 虽然 Crystal Lake 重新审视了《十三号星期五》系列中几位熟悉的当地人，但格温多林·桑德斯特罗姆 (Gwendolyn Sundstrom) 为这部恐怖片前作带来了一个新鲜的角色……（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9f1a1d34f14772c2cfec9fa7",
-              "original": "https://deadline.com/2026/10/crystal-lake-gwendolyn-sundstrom-killer-twist-1237158527/"
-            },
-            "publishedAt": "2026-10-16T22:00:00.000Z",
-            "discoveredAt": "2026-10-16T23:55:44.259Z",
-            "category": "culture",
-            "score": 98,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9f1a1d34f14772c2cfec9fa7"
-            }
-          },
-          {
-            "id": "aafbd2be176892ed2f39c2f44",
-            "title": "【全球票房】《鲸落》评论：奥斯汀·艾布拉姆斯在情感上勇敢的身体恐怖中与悲伤、有毒的男子气概和怪异的鲸鱼内脏作斗争",
-            "originalTitle": "‘Whalefall’ Review: Austin Abrams Wrestles With Grief, Toxic Masculinity & Grotesque Whale Innards In Emotionally Gutsy Body Horror",
-            "summary": "奥斯汀·艾布拉姆斯晋升为“尖叫之王”，改编自丹尼尔·克劳斯 2023 年的小说，打造出一部情感上原始的生存/身体恐怖片。在布莱恩·达菲尔德 (Brian Duffield) 编剧和导演的《鲸落》(Whalefall) 中，杰伊 (艾布拉姆斯饰) 去潜水......（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aafbd2be176892ed2f39c2f44",
-              "original": "https://deadline.com/2026/10/whalefall-review-austin-abrams-josh-brolin-emotional-body-horror-1237166094/"
-            },
-            "publishedAt": "2026-10-16T21:07:53.000Z",
-            "discoveredAt": "2026-10-16T21:35:01.891Z",
-            "category": "culture",
-            "score": 98,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aafbd2be176892ed2f39c2f44"
-            }
           }
         ]
       },
@@ -1962,52 +1962,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a0b043118ac0a54b161744f6b"
-            }
-          },
-          {
-            "id": "a57b0ac6ce6f41b113b0f9abc",
-            "title": "【NBA一手】[Windhorst] 西雅图不再锁定扩张，墨西哥城可能成为替代方案",
-            "originalTitle": "[Windhorst] Seattle No Longer Lock for Expansion, Mexico City a Possible Alternative",
-            "summary": "多名所有权消息人士告诉 ESPN，NBA 总裁亚当·萧华似乎正在加大对西雅图超音速队未来可能的杠杆游戏的赌注。我们谨慎地说“可能”，因为银...（来源：NBA·北美篮球实时热榜）",
-            "source": {
-              "name": "NBA·北美篮球实时热榜"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a57b0ac6ce6f41b113b0f9abc",
-              "original": "https://www.reddit.com/r/nba/comments/1x7iu2h/windhorst_seattle_no_longer_lock_for_expansion/"
-            },
-            "publishedAt": "2026-10-16T15:12:15.000Z",
-            "discoveredAt": "2026-10-16T21:35:25.614Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a57b0ac6ce6f41b113b0f9abc"
-            }
-          },
-          {
-            "id": "a92939a9d5c70aa3f72b0f653",
-            "title": "【NBA一手】[Charania] NBA 和知名体育博彩公司已同意禁止多种类型的投注，据我和 David Purdum 透露",
-            "originalTitle": "[Charania] The NBA and prominent sportsbooks have agreed to ban multiple types of bets, per me and David Purdum",
-            "summary": "- Parl@y 投注涉及同一玩家的统计数据 - “第一”市场；示例：开场提示的获胜者、个人的具体投篮、篮板、助攻、抢断 - 对预计球员的“低于”投注...（来源：NBA·北美篮球实时热榜）",
-            "source": {
-              "name": "NBA·北美篮球实时热榜"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a92939a9d5c70aa3f72b0f653",
-              "original": "https://www.reddit.com/r/nba/comments/1x7ikx5/charania_the_nba_and_prominent_sportsbooks_have/"
-            },
-            "publishedAt": "2026-10-16T15:02:18.000Z",
-            "discoveredAt": "2026-10-16T21:35:22.214Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a92939a9d5c70aa3f72b0f653"
             }
           },
           {
@@ -2077,6 +2031,52 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a89974e050010ffe7e0433139"
+            }
+          },
+          {
+            "id": "aca9cdc90909626b615ac726a",
+            "title": "【欧洲足坛】弗洛里安·维尔茨之谜：为什么他在利物浦没有找到勒沃库森的状态？",
+            "originalTitle": "The Florian Wirtz mystery: why has he not found Leverkusen form at Liverpool?",
+            "summary": "我们的两位作家挑选了德国人对利物浦的贡献以及这位价值 1.16 亿英镑的前锋可能产生的影响。一些批评来自 OTT，而转会费升至 1.16 亿英镑提高了要求，但是，是的，与他的表现相比......（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aca9cdc90909626b615ac726a",
+              "original": "https://www.theguardian.com/football/2026/oct/16/florian-wirtz-mystery-found-bayer-leverkusen-form-liverpool"
+            },
+            "publishedAt": "2026-10-16T16:40:30.000Z",
+            "discoveredAt": "2026-10-16T18:25:42.896Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aca9cdc90909626b615ac726a"
+            }
+          },
+          {
+            "id": "aef7b2fa469bf4ab459916120",
+            "title": "【BBC足坛】令人感觉良好的库马斯故事让利物浦微笑",
+            "originalTitle": "Feel-good Koumas story something for Liverpool to smile about",
+            "summary": "刘易斯·库马斯 (Lewis Koumas) 讲述打破史蒂文·杰拉德 (Steven Gerrard) 的纪录、在安多尼·伊劳拉 (Andoni Iraola) 麾下抓住机会，以及为什么他在对阵曼城后无法入睡。（来源：BBC Sport·欧洲足坛）",
+            "source": {
+              "name": "BBC Sport·欧洲足坛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aef7b2fa469bf4ab459916120",
+              "original": "https://www.bbc.co.uk/sport/football/articles/cwy7l5e4376no?at_medium=RSS&at_campaign=rss"
+            },
+            "publishedAt": "2026-10-16T16:06:37.000Z",
+            "discoveredAt": "2026-10-16T18:25:40.737Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aef7b2fa469bf4ab459916120"
             }
           }
         ]
