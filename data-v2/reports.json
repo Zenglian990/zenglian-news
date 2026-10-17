@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T15:40:56.988Z",
+  "generatedAt": "2026-10-17T17:58:33.295Z",
   "daily": {
     "kind": "daily",
-    "key": "2026-10-17",
-    "title": "曾练全球一手简报 · 今日日报 (2026-10-17)",
+    "key": "2026-10-18",
+    "title": "曾练全球一手简报 · 今日日报 (2026-10-18)",
     "subtitle": "全球·国内·商业搞钱·AI·影视娱乐·体育 六大实时Top20精选",
-    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：2026长三角国际青年电影周开幕；AI落地的“检验标准”趋于多元；巨头自研 AI 芯片：靠推理突围，抢回算力垄断利润。",
+    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：2026长三角国际青年电影周开幕；AI落地的“检验标准”趋于多元；小红书的AI，开始和自己的生意算账。",
     "metrics": {
       "totalEvents": 18,
       "sourcesCount": 30,
@@ -17,29 +17,6 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
-          {
-            "id": "a73cacc8d7d40d0e1f87405fb",
-            "title": "【国际巨头】苹果的 HomeView 只是对在线食谱作者的最新威胁",
-            "originalTitle": "Apple’s HomeView is just the latest threat to online recipe writers",
-            "summary": "HomeView 可以将在线菜谱格式简化为易于遵循的步骤。 |图片来源：Apple 当 Apple 向全世界展示 HomeView 时，它为该公司发布了一个不同寻常的广告：不再是原始、精致的技术……（来源：The Verge·国际巨头）",
-            "source": {
-              "name": "The Verge·国际巨头"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a73cacc8d7d40d0e1f87405fb",
-              "original": "https://www.theverge.com/tech/1012820/apple-homeview-recipe-formatting"
-            },
-            "publishedAt": "2026-10-17T12:00:00.000Z",
-            "discoveredAt": "2026-10-17T12:12:23.553Z",
-            "category": "global",
-            "score": 98,
-            "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a73cacc8d7d40d0e1f87405fb"
-            }
-          },
           {
             "id": "ad369b42965b47ad621332c4e",
             "title": "【CNBC全球】有些公司将人工智能提供给每个人。这位首席执行官却反其道而行之",
@@ -84,6 +61,29 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a628f8bc100e6ee29130e3ed8"
+            }
+          },
+          {
+            "id": "ab5da1b41593e8fdc40dd6601",
+            "title": "【全球热榜】全球太阳能发电首次超过核电 – pv magazine China",
+            "originalTitle": "Solar surpasses nuclear power globally for first time – pv magazine Global",
+            "summary": "X/HN·全球热榜Top实时快讯：Solar surpasses nuclear power globally for first time – pv magazine Global。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ab5da1b41593e8fdc40dd6601",
+              "original": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/"
+            },
+            "publishedAt": "2026-10-17T14:01:01.000Z",
+            "discoveredAt": "2026-10-17T15:40:04.306Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ab5da1b41593e8fdc40dd6601"
             }
           }
         ]
@@ -168,6 +168,29 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
+            "id": "a807e2bd2f1691902c2d6a0ce",
+            "title": "小红书的AI，开始和自己的生意算账",
+            "originalTitle": "小红书的AI，开始和自己的生意算账",
+            "summary": "本文来自微信公众号： 奇帆商业 ，编辑：陆垚，作者：小钱 不到半年，小红书重新安排了两次AI部门的职责。 4月30日，小红书将Dots提升为AI一级部门，把模型研发、基础设施、工程和产品集中到同一个组织中。到了9月，产品团队和部分工程团队被划转至社区，Dots转而聚焦底层模型。 10月16日，公司又宣布将Dots与核心基础设施团队Infra打通。 一个刚刚获得独立地位的AI部门，很快就被重新划分了工作范围。 最新的全员信对此给出了一种解...",
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a807e2bd2f1691902c2d6a0ce",
+              "original": "https://www.huxiu.com/article/4898344.html?f=rss"
+            },
+            "publishedAt": "2026-10-17T16:58:48.000Z",
+            "discoveredAt": "2026-10-17T17:57:50.422Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a807e2bd2f1691902c2d6a0ce"
+            }
+          },
+          {
             "id": "aac24583cca2556eaaa54d4d1",
             "title": "巨头自研 AI 芯片：靠推理突围，抢回算力垄断利润",
             "originalTitle": "巨头自研 AI 芯片：靠推理突围，抢回算力垄断利润",
@@ -212,29 +235,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ad4c5f32de30db33dcad281d4"
             }
-          },
-          {
-            "id": "a4d9d205f129b07de39f42c82",
-            "title": "【独立变现】Show HN: Esp32sim – 在浏览器中运行 ESP32 固件",
-            "originalTitle": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
-            "summary": "Show HN·独立变现榜实时快讯：Show HN: Esp32sim – Run ESP32 firmware in the browser。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
-            "source": {
-              "name": "Show HN·独立变现榜"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a4d9d205f129b07de39f42c82",
-              "original": "https://github.com/mikroverk/esp32sim"
-            },
-            "publishedAt": "2026-10-17T13:51:08.000Z",
-            "discoveredAt": "2026-10-17T15:40:19.089Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a4d9d205f129b07de39f42c82"
-            }
           }
         ]
       },
@@ -242,6 +242,52 @@
         "category": "tech",
         "label": "🤖 AI实时Top20",
         "items": [
+          {
+            "id": "a323a8cf519e6d594095267a6",
+            "title": "【X·AI一手】OpenAI又披露了四起流氓事件",
+            "originalTitle": "OpenAI discloses four more rogue incidents",
+            "summary": "X (Twitter)·硅谷AI大佬实时快讯：OpenAI discloses four more rogue incidents。Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。（来源：X (Twitter)·硅谷AI大佬）",
+            "source": {
+              "name": "X (Twitter)·硅谷AI大佬"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a323a8cf519e6d594095267a6",
+              "original": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/"
+            },
+            "publishedAt": "2026-10-17T16:31:12.000Z",
+            "discoveredAt": "2026-10-17T17:57:57.682Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a323a8cf519e6d594095267a6"
+            }
+          },
+          {
+            "id": "ab777336edaf538f1451ed2f9",
+            "title": "【开源大模型】为什么不使用完整的 n-gram-table 运行 Qwen 3.8 Flash Next？",
+            "originalTitle": "Why not run Qwen 3.8 Flash Next with the full n-gram-table?",
+            "summary": "已经发布在这里 https://www.reddit.com/r/LocalLLaMA/comments/1x85hfj/strata_qwen_38_flash_next_fast_but_whats_it/phavui9/ ，但我相信这个主题值得有自己的帖子。 PLE，又名 n 元语法表，位于...（来源：LocalLLaMA·开源大模型）",
+            "source": {
+              "name": "LocalLLaMA·开源大模型"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ab777336edaf538f1451ed2f9",
+              "original": "https://www.reddit.com/r/LocalLLaMA/comments/1x8am0i/why_not_run_qwen_38_flash_next_with_the_full/"
+            },
+            "publishedAt": "2026-10-17T13:44:17.000Z",
+            "discoveredAt": "2026-10-17T17:58:07.224Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ab777336edaf538f1451ed2f9"
+            }
+          },
           {
             "id": "ab9398029c1d2c21a6c398248",
             "title": "【国内要闻】从“薯都”到“token之都”，中国草原跑出算力黑马",
@@ -264,52 +310,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ab9398029c1d2c21a6c398248"
             }
-          },
-          {
-            "id": "ad50cd7d4a361dbe028e05f65",
-            "title": "【国内财经】人形机器人“打工”吸睛，张雪机车成网红打卡点，“中国第一展”凭实力圈粉！",
-            "originalTitle": "人形机器人“打工”吸睛，张雪机车成网红打卡点，“中国第一展”凭实力圈粉！",
-            "summary": "第140届广交会正在广州举行，本届展会，服务机器人专区持续“高热”，张雪机车凭借国际赛事成为网红打卡点，国际医疗服务专区AI诊脉、耳穴压豆等吸引境外客商前来体验。",
-            "source": {
-              "name": "中新网·国内财经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad50cd7d4a361dbe028e05f65",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-17/10716264.shtml"
-            },
-            "publishedAt": "2026-10-17T08:17:27.000Z",
-            "discoveredAt": "2026-10-17T08:28:53.851Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad50cd7d4a361dbe028e05f65"
-            }
-          },
-          {
-            "id": "a65de5a87942fca164a934a02",
-            "title": "【开源大模型】您可能不知道现在可以使用 Qwen 3.6 27B 做的 10 件事。 （对于菜鸟来说）",
-            "originalTitle": "10 Things you maybe didn't know you can do with Qwen 3.6 27B right now. (For Noobs)",
-            "summary": "我知道每个人都对 3.8 感到兴奋，但老实说我仍在完善 3.6。我讨厌 3.8 的说话方式，所以...我不断看到所有这些关于开源有什么用的帖子，所以我想我应该提交我的...（来源：LocalLLaMA·开源大模型）",
-            "source": {
-              "name": "LocalLLaMA·开源大模型"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a65de5a87942fca164a934a02",
-              "original": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sq8e/10_things_you_maybe_didnt_know_you_can_do_with/"
-            },
-            "publishedAt": "2026-10-16T21:35:36.000Z",
-            "discoveredAt": "2026-10-17T01:07:05.692Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a65de5a87942fca164a934a02"
-            }
           }
         ]
       },
@@ -317,52 +317,6 @@
         "category": "culture",
         "label": "🎬 影视娱乐Top20",
         "items": [
-          {
-            "id": "ae2c69c7146ad985b3db2898f",
-            "title": "【好莱坞一手】马赫沙拉·阿里在伦敦演讲中回忆《月光男孩》场景时哭泣，对《蜘蛛侠》保持沉默：“我必须小心”",
-            "originalTitle": "Mahershala Ali Cries Recalling ‘Moonlight’ Scene, Keeps Quiet on ‘Spider-Verse’ at London Talk: ‘I’ve Got to Be Careful’",
-            "summary": "周六，马赫沙拉·阿里在 BFI 伦敦电影节的舞台上回忆起《月光男孩》中的小男孩时泪流满面。巴里·詹金斯的剧情片为他赢得了两项奥斯卡奖之一，最近还标志着......（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae2c69c7146ad985b3db2898f",
-              "original": "https://variety.com/2026/film/festivals/mahershala-ali-cries-moonlight-scene-spider-verse-1236914806/"
-            },
-            "publishedAt": "2026-10-17T14:28:04.000Z",
-            "discoveredAt": "2026-10-17T15:40:39.275Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae2c69c7146ad985b3db2898f"
-            }
-          },
-          {
-            "id": "a84d3586ce2653f88e3e15751",
-            "title": "【好莱坞一手】视觉特效主管解压《愤怒的小鸟电影 3》，包括 Red 的重新设计和角色效果自动化：“他选择相似”",
-            "originalTitle": "‘The Angry Birds Movie 3’ Unpacked by VFX Supervisor, Including Red’s Redesign and Character-Effects Automation: ’He’s Similar by Choice’",
-            "summary": "《愤怒的小鸟大电影 3》中的红羽毛英雄看起来非常熟悉，但 DNEG 动画公司必须对他的大部分进行改造，才能将系列电影带回影院。当工作室重建 Red 的皮毛、面部轮廓时……（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a84d3586ce2653f88e3e15751",
-              "original": "https://variety.com/2026/film/global/the-angry-birds-movie-3-red-redesign-character-automation-1236914681/"
-            },
-            "publishedAt": "2026-10-17T13:56:06.000Z",
-            "discoveredAt": "2026-10-17T15:40:40.509Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a84d3586ce2653f88e3e15751"
-            }
-          },
           {
             "id": "a9b05d90d0ed39261ff57865b",
             "title": "【全球票房】罗杰·科曼 B 级电影《星际迷航》中的阿波罗演员迈克尔·福里斯特去世，享年 97 岁",
@@ -385,6 +339,52 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a9b05d90d0ed39261ff57865b"
             }
+          },
+          {
+            "id": "accbdd0131ce34338e2480d2f",
+            "title": "【全球票房】哈里·斯泰尔斯在麦迪逊广场花园音乐会上以新歌向利亚姆·佩恩致敬",
+            "originalTitle": "Harry Styles Pays Tribute To Liam Payne With New Song At Madison Square Garden Concert",
+            "summary": "昨晚，哈利·斯泰尔斯在麦迪逊广场花园的舞台上表演了一首未发行的原声歌曲《What Is Enough》，向他已故的 One Direction 乐队成员利亚姆·佩恩致敬。演出场场爆满……（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/accbdd0131ce34338e2480d2f",
+              "original": "https://deadline.com/2026/10/harry-styles-liam-payne-madison-square-garden-1237166392/"
+            },
+            "publishedAt": "2026-10-17T17:04:25.000Z",
+            "discoveredAt": "2026-10-17T17:58:17.238Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/accbdd0131ce34338e2480d2f"
+            }
+          },
+          {
+            "id": "a34935f2def202f88b6415fb0",
+            "title": "【好莱坞一手】NBC 如何将现场音乐剧带回电视",
+            "originalTitle": "How NBC Brought Live Musicals Back to Television",
+            "summary": "2011年，NBC的处境并不好。在通用电气收购的最后几年里，该网络一直在苦苦挣扎。 2011 年 1 月，康卡斯特成为大股东，随之而来的是新的领导体制......（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a34935f2def202f88b6415fb0",
+              "original": "https://variety.com/2026/tv/news/sound-of-music-nbc-live-musicals-greenblatt-hairspray-1236914848/"
+            },
+            "publishedAt": "2026-10-17T17:03:19.000Z",
+            "discoveredAt": "2026-10-17T17:58:10.338Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a34935f2def202f88b6415fb0"
+            }
           }
         ]
       },
@@ -393,72 +393,72 @@
         "label": "🏆 体育实时Top20",
         "items": [
           {
-            "id": "ae9377afd3c39e1b647c6a88d",
-            "title": "【欧洲足坛】纽卡斯尔 v 阿斯顿维拉：英超联赛 - 直播",
-            "originalTitle": "Newcastle v Aston Villa: Premier League – live",
-            "summary": "⚽ 英国夏令时下午 5.30 开球的英超联赛更新 ⚽ 实时比分 |桌子|最佳射手 |关注我们蓝天英超联赛最新布伦特福德 1-0 利物浦 富勒姆 1-0 赫尔 曼城 2-1 伊普斯维奇 埃弗顿 0-2 切尔西 (FT...（来源：卫报体育·欧冠与五大联赛）",
+            "id": "abcc134930b601e8a1d901f3d",
+            "title": "【BBC足坛】伊劳拉：利物浦球员处境“微妙”，赛程“要求很高”",
+            "originalTitle": "Liverpool players in 'delicate' situation with 'demanding' schedule - Iraola",
+            "summary": "安多尼·伊劳拉 (Andoni Iraola) 利物浦在 2-1 战胜布伦特福德的比赛中，多米尼克·索博斯莱 (Dominik Szoboszlai) 因上半场受伤被迫下场，苛刻的赛程让他的球员陷入了“微妙的境地”。（来源：BBC Sport·欧洲足坛）",
+            "source": {
+              "name": "BBC Sport·欧洲足坛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abcc134930b601e8a1d901f3d",
+              "original": "https://www.bbc.co.uk/sport/football/videos/ckgelqlz37w3o?at_medium=RSS&at_campaign=rss"
+            },
+            "publishedAt": "2026-10-17T16:56:12.000Z",
+            "discoveredAt": "2026-10-17T17:58:25.892Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abcc134930b601e8a1d901f3d"
+            }
+          },
+          {
+            "id": "a0a58fe46ba2bd1a6c9b73231",
+            "title": "【欧洲足坛】亚历克斯·伊沃比击沉赫尔城取得富勒姆首场胜利后，阿韦洛亚的压力减轻",
+            "originalTitle": "Pressure on Arbeloa lifted after Alex Iwobi sinks Hull for Fulham’s first win",
+            "summary": "在面对一支如此直率的球队时，阿尔瓦罗·阿韦洛亚在面对一支如此直率的球队时表现出如此统治级的表现，几乎感觉不可避免的是，阿尔瓦罗·阿韦洛亚将被剥夺他作为富勒姆主教练的首个英超冠军，就像我们一样……（来源：卫报体育·欧冠与五大联赛）",
             "source": {
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae9377afd3c39e1b647c6a88d",
-              "original": "https://www.theguardian.com/football/live/2026/oct/17/newcastle-v-aston-villa-premier-league-live"
+              "aihot": "https://zenglian-news.onrender.com/items/a0a58fe46ba2bd1a6c9b73231",
+              "original": "https://www.theguardian.com/football/2026/oct/17/fulham-hull-premier-league-match-report"
             },
-            "publishedAt": "2026-10-17T15:00:33.000Z",
-            "discoveredAt": "2026-10-17T15:40:51.317Z",
+            "publishedAt": "2026-10-17T16:08:39.000Z",
+            "discoveredAt": "2026-10-17T17:58:31.698Z",
             "category": "business",
             "score": 99,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae9377afd3c39e1b647c6a88d"
+              "url": "https://zenglian-news.onrender.com/items/a0a58fe46ba2bd1a6c9b73231"
             }
           },
           {
-            "id": "ab8c38a49dcd91b14bf976a3a",
-            "title": "【全球体育】右翼势力正在 WNBA 上宣扬反变性人的愤怒。球员和球迷强烈反对",
-            "originalTitle": "The right is pushing its anti-trans fury on the WNBA. Players and fans are loudly pushing back",
-            "summary": "WNBA 决赛周六在旧金山拉开帷幕，面对反跨性别者的攻击，支持 LGBTQ+ 的体育迷们宣扬了包容的信息。在曼哈顿下城的威尔卡运动酒吧 (Wilka’s Sports Bar)，一群主要是 LGBTQ+ 球迷的 WNBA 季后赛在一场比赛中被点燃。（来源：卫报体育·全球大赛）",
+            "id": "a74cb615783d97722f64de591",
+            "title": "【欧洲足坛】阿森纳与伯明翰战平，WSL延续不胜纪录，球迷嘘声不断",
+            "originalTitle": "Boos for Arsenal as draw with Birmingham extends winless WSL run",
+            "summary": "奥利维亚·史密斯的扳平比分避免了阿森纳的失利，但主场战平伯明翰并没有平息人们对雷妮·斯莱格斯作为枪手主教练的未来的担忧。酋长球场的终场哨声伴随着嘘声……（来源：卫报体育·欧冠与五大联赛）",
             "source": {
-              "name": "卫报体育·全球大赛"
+              "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab8c38a49dcd91b14bf976a3a",
-              "original": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/17/trans-women-wnba-players-fans-advocacy"
+              "aihot": "https://zenglian-news.onrender.com/items/a74cb615783d97722f64de591",
+              "original": "https://www.theguardian.com/football/2026/oct/17/arsenal-birmingham-wsl-match-report"
             },
-            "publishedAt": "2026-10-17T14:00:32.000Z",
-            "discoveredAt": "2026-10-17T15:40:55.867Z",
+            "publishedAt": "2026-10-17T15:44:19.000Z",
+            "discoveredAt": "2026-10-17T17:58:32.907Z",
             "category": "business",
             "score": 99,
             "selected": true,
-            "reason": "《卫报》全球综合体育频道，实时追踪 F1、网球大满贯、NBA 与国际顶尖赛事。",
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab8c38a49dcd91b14bf976a3a"
-            }
-          },
-          {
-            "id": "ad47ba5ec1e30674853cf7e74",
-            "title": "【体坛快讯】2026年全国青少年户外运动大赛总决赛开赛 800余名青少年开启户外挑战",
-            "originalTitle": "2026年全国青少年户外运动大赛总决赛开赛 800余名青少年开启户外挑战",
-            "summary": "中新网重庆10月17日电(记者 肖江川)17日，“奔跑吧·少年”2026年全国青少年户外运动大赛总决赛在重庆市梁平区双桂湖国家湿地公园鸣枪开赛。来自全国各地的800余名青少年在越野闯关、技能挑战中挥洒汗水，沉浸式感受户外运动的独特魅力。",
-            "source": {
-              "name": "中新网·体育焦点"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad47ba5ec1e30674853cf7e74",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-17/10716416.shtml"
-            },
-            "publishedAt": "2026-10-17T12:45:40.000Z",
-            "discoveredAt": "2026-10-17T13:38:17.824Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad47ba5ec1e30674853cf7e74"
+              "url": "https://zenglian-news.onrender.com/items/a74cb615783d97722f64de591"
             }
           }
         ]
@@ -470,7 +470,7 @@
     "key": "2026-W41",
     "title": "曾练全球一手简报 · 本周核心周报 (2026年第41周)",
     "subtitle": "7天全球政经、国内大事、商业搞钱、AI突破与文体焦点深度复盘",
-    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：2026长三角国际青年电影周开幕；AI落地的“检验标准”趋于多元；巨头自研 AI 芯片：靠推理突围，抢回算力垄断利润。",
+    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：2026长三角国际青年电影周开幕；AI落地的“检验标准”趋于多元；小红书的AI，开始和自己的生意算账。",
     "metrics": {
       "totalEvents": 30,
       "sourcesCount": 30,
@@ -481,29 +481,6 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
-          {
-            "id": "a73cacc8d7d40d0e1f87405fb",
-            "title": "【国际巨头】苹果的 HomeView 只是对在线食谱作者的最新威胁",
-            "originalTitle": "Apple’s HomeView is just the latest threat to online recipe writers",
-            "summary": "HomeView 可以将在线菜谱格式简化为易于遵循的步骤。 |图片来源：Apple 当 Apple 向全世界展示 HomeView 时，它为该公司发布了一个不同寻常的广告：不再是原始、精致的技术……（来源：The Verge·国际巨头）",
-            "source": {
-              "name": "The Verge·国际巨头"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a73cacc8d7d40d0e1f87405fb",
-              "original": "https://www.theverge.com/tech/1012820/apple-homeview-recipe-formatting"
-            },
-            "publishedAt": "2026-10-17T12:00:00.000Z",
-            "discoveredAt": "2026-10-17T12:12:23.553Z",
-            "category": "global",
-            "score": 98,
-            "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a73cacc8d7d40d0e1f87405fb"
-            }
-          },
           {
             "id": "ad369b42965b47ad621332c4e",
             "title": "【CNBC全球】有些公司将人工智能提供给每个人。这位首席执行官却反其道而行之",
@@ -594,6 +571,29 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ae4740dba278c7f9e9fafe73c"
+            }
+          },
+          {
+            "id": "a1caf0362388d300df0f11699",
+            "title": "【国际巨头】埃隆·马斯克 (Elon Musk) 就 100 万美元选民赠品诉讼达成和解",
+            "originalTitle": "Elon Musk settles lawsuits over $1 million voter giveaway",
+            "summary": "2024 年，埃隆·马斯克承诺每天向摇摆州随机选择的登记选民捐赠 100 万美元。这引发了法律挑战，引发了对其合法性的质疑，并引起了亚利桑那州两家公司的诉讼……（来源：The Verge·国际巨头）",
+            "source": {
+              "name": "The Verge·国际巨头"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a1caf0362388d300df0f11699",
+              "original": "https://www.theverge.com/tech/1013431/elon-musk-settles-lawsuits-over-1-million-voter-giveaway"
+            },
+            "publishedAt": "2026-10-17T16:39:44.000Z",
+            "discoveredAt": "2026-10-17T17:57:40.928Z",
+            "category": "global",
+            "score": 96,
+            "selected": true,
+            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a1caf0362388d300df0f11699"
             }
           }
         ]
@@ -724,6 +724,29 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
+            "id": "a807e2bd2f1691902c2d6a0ce",
+            "title": "小红书的AI，开始和自己的生意算账",
+            "originalTitle": "小红书的AI，开始和自己的生意算账",
+            "summary": "本文来自微信公众号： 奇帆商业 ，编辑：陆垚，作者：小钱 不到半年，小红书重新安排了两次AI部门的职责。 4月30日，小红书将Dots提升为AI一级部门，把模型研发、基础设施、工程和产品集中到同一个组织中。到了9月，产品团队和部分工程团队被划转至社区，Dots转而聚焦底层模型。 10月16日，公司又宣布将Dots与核心基础设施团队Infra打通。 一个刚刚获得独立地位的AI部门，很快就被重新划分了工作范围。 最新的全员信对此给出了一种解...",
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a807e2bd2f1691902c2d6a0ce",
+              "original": "https://www.huxiu.com/article/4898344.html?f=rss"
+            },
+            "publishedAt": "2026-10-17T16:58:48.000Z",
+            "discoveredAt": "2026-10-17T17:57:50.422Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a807e2bd2f1691902c2d6a0ce"
+            }
+          },
+          {
             "id": "aac24583cca2556eaaa54d4d1",
             "title": "巨头自研 AI 芯片：靠推理突围，抢回算力垄断利润",
             "originalTitle": "巨头自研 AI 芯片：靠推理突围，抢回算力垄断利润",
@@ -814,29 +837,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/adcf25289246b3349eaa3e410"
             }
-          },
-          {
-            "id": "a208cdc2d463f0280d63e21b9",
-            "title": "【出海实战】SaaS 目录非常草率、狡猾且无用",
-            "originalTitle": "SaaS directories are a slopfest, grifty and useless",
-            "summary": "所以……我支付了 BetaList 39 美元来列出我的新副项目。几个小时内，另外五个发布目录给我发了电子邮件，要求更多的钱。恭喜我，我被发现了。我想要一种快速的方法来提高搜索...（来源：X/Reddit·出海SaaS搞钱）",
-            "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a208cdc2d463f0280d63e21b9",
-              "original": "https://www.reddit.com/r/SaaS/comments/1x8313n/saas_directories_are_a_slopfest_grifty_and_useless/"
-            },
-            "publishedAt": "2026-10-17T06:27:29.000Z",
-            "discoveredAt": "2026-10-17T12:12:42.218Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a208cdc2d463f0280d63e21b9"
-            }
           }
         ]
       },
@@ -844,6 +844,52 @@
         "category": "tech",
         "label": "🤖 AI实时Top20",
         "items": [
+          {
+            "id": "a323a8cf519e6d594095267a6",
+            "title": "【X·AI一手】OpenAI又披露了四起流氓事件",
+            "originalTitle": "OpenAI discloses four more rogue incidents",
+            "summary": "X (Twitter)·硅谷AI大佬实时快讯：OpenAI discloses four more rogue incidents。Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。（来源：X (Twitter)·硅谷AI大佬）",
+            "source": {
+              "name": "X (Twitter)·硅谷AI大佬"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a323a8cf519e6d594095267a6",
+              "original": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/"
+            },
+            "publishedAt": "2026-10-17T16:31:12.000Z",
+            "discoveredAt": "2026-10-17T17:57:57.682Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a323a8cf519e6d594095267a6"
+            }
+          },
+          {
+            "id": "ab777336edaf538f1451ed2f9",
+            "title": "【开源大模型】为什么不使用完整的 n-gram-table 运行 Qwen 3.8 Flash Next？",
+            "originalTitle": "Why not run Qwen 3.8 Flash Next with the full n-gram-table?",
+            "summary": "已经发布在这里 https://www.reddit.com/r/LocalLLaMA/comments/1x85hfj/strata_qwen_38_flash_next_fast_but_whats_it/phavui9/ ，但我相信这个主题值得有自己的帖子。 PLE，又名 n 元语法表，位于...（来源：LocalLLaMA·开源大模型）",
+            "source": {
+              "name": "LocalLLaMA·开源大模型"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ab777336edaf538f1451ed2f9",
+              "original": "https://www.reddit.com/r/LocalLLaMA/comments/1x8am0i/why_not_run_qwen_38_flash_next_with_the_full/"
+            },
+            "publishedAt": "2026-10-17T13:44:17.000Z",
+            "discoveredAt": "2026-10-17T17:58:07.224Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ab777336edaf538f1451ed2f9"
+            }
+          },
           {
             "id": "ab9398029c1d2c21a6c398248",
             "title": "【国内要闻】从“薯都”到“token之都”，中国草原跑出算力黑马",
@@ -868,6 +914,29 @@
             }
           },
           {
+            "id": "aad79680695fb99985847e70a",
+            "title": "【开源大模型】Nvidia 已正式确认 5090 并未停产，并将继续发货。",
+            "originalTitle": "Nvidia has officially confirmed that the 5090 is not discontinued and will continue shipping.",
+            "summary": "2026 年 10 月 16 日，在台北 RTX Spark 发布会上接受采访时，Nvidia 个人计算高级副总裁 Jeff Fisher 明确驳斥了最近停产的谣言。 &#32...（来源：LocalLLaMA·开源大模型）",
+            "source": {
+              "name": "LocalLLaMA·开源大模型"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aad79680695fb99985847e70a",
+              "original": "https://www.reddit.com/r/LocalLLaMA/comments/1x88txd/nvidia_has_officially_confirmed_that_the_5090_is/"
+            },
+            "publishedAt": "2026-10-17T12:18:00.000Z",
+            "discoveredAt": "2026-10-17T17:58:05.843Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aad79680695fb99985847e70a"
+            }
+          },
+          {
             "id": "ad50cd7d4a361dbe028e05f65",
             "title": "【国内财经】人形机器人“打工”吸睛，张雪机车成网红打卡点，“中国第一展”凭实力圈粉！",
             "originalTitle": "人形机器人“打工”吸睛，张雪机车成网红打卡点，“中国第一展”凭实力圈粉！",
@@ -889,75 +958,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ad50cd7d4a361dbe028e05f65"
             }
-          },
-          {
-            "id": "a65de5a87942fca164a934a02",
-            "title": "【开源大模型】您可能不知道现在可以使用 Qwen 3.6 27B 做的 10 件事。 （对于菜鸟来说）",
-            "originalTitle": "10 Things you maybe didn't know you can do with Qwen 3.6 27B right now. (For Noobs)",
-            "summary": "我知道每个人都对 3.8 感到兴奋，但老实说我仍在完善 3.6。我讨厌 3.8 的说话方式，所以...我不断看到所有这些关于开源有什么用的帖子，所以我想我应该提交我的...（来源：LocalLLaMA·开源大模型）",
-            "source": {
-              "name": "LocalLLaMA·开源大模型"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a65de5a87942fca164a934a02",
-              "original": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sq8e/10_things_you_maybe_didnt_know_you_can_do_with/"
-            },
-            "publishedAt": "2026-10-16T21:35:36.000Z",
-            "discoveredAt": "2026-10-17T01:07:05.692Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a65de5a87942fca164a934a02"
-            }
-          },
-          {
-            "id": "ac24bbee2e2b083ee7ea1afe8",
-            "title": "【开源大模型】Dario：“通过开源，你可以看到源代码。在这里我们看不到模型的内部。”我的 0.646 t/s MiMo-2.6-Pro 塞满了 128GB 的​​ Jetson AGX Thor：“是的，好吧，这就是你的意见，伙计。”",
-            "originalTitle": "Dario: “With open source you can see the source code. Here we can’t see inside the model.” My 0.646 t/s MiMo-2.6-Pro crammed thru 128GB of Jetson AGX Thor: “Yeah, well, that’s just, like, your opinion, man.”",
-            "summary": "在 Jetson AGX Thor 上以每秒 0.646 个令牌的速度跟踪我第一次运行 MiMo Pro，.. 但从技术上讲它确实加载并运行，所以它很重要。每个解码器层、路由专家、SSD 读取（..更多）都被跟踪和复制...（来源：LocalLLaMA·开源大模型）",
-            "source": {
-              "name": "LocalLLaMA·开源大模型"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac24bbee2e2b083ee7ea1afe8",
-              "original": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sbxs/dario_with_open_source_you_can_see_the_source/"
-            },
-            "publishedAt": "2026-10-16T21:18:51.000Z",
-            "discoveredAt": "2026-10-17T01:07:14.092Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac24bbee2e2b083ee7ea1afe8"
-            }
-          },
-          {
-            "id": "a443885d42d43ed90a36238c9",
-            "title": "【OpenAI官宣】Itaú 如何为其整个客户群构建生成式人工智能",
-            "originalTitle": "How Itaú is building generative AI for its entire customer base",
-            "summary": "借助对话界面 ia.i 和 IARA 治理平台，Itaú 正在将其人工智能优先战略应用于巴西监管最严格的行业之一的客户和员工。（来源：OpenAI·官方一手）",
-            "source": {
-              "name": "OpenAI·官方一手"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a443885d42d43ed90a36238c9",
-              "original": "https://openai.com/index/itau-generative-ai"
-            },
-            "publishedAt": "2026-10-16T19:00:00.000Z",
-            "discoveredAt": "2026-10-16T23:55:24.794Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "OpenAI 官方博客与研究产品一手公告，全球人工智能行业最高风向标。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a443885d42d43ed90a36238c9"
-            }
           }
         ]
       },
@@ -965,52 +965,6 @@
         "category": "culture",
         "label": "🎬 影视娱乐Top20",
         "items": [
-          {
-            "id": "ae2c69c7146ad985b3db2898f",
-            "title": "【好莱坞一手】马赫沙拉·阿里在伦敦演讲中回忆《月光男孩》场景时哭泣，对《蜘蛛侠》保持沉默：“我必须小心”",
-            "originalTitle": "Mahershala Ali Cries Recalling ‘Moonlight’ Scene, Keeps Quiet on ‘Spider-Verse’ at London Talk: ‘I’ve Got to Be Careful’",
-            "summary": "周六，马赫沙拉·阿里在 BFI 伦敦电影节的舞台上回忆起《月光男孩》中的小男孩时泪流满面。巴里·詹金斯的剧情片为他赢得了两项奥斯卡奖之一，最近还标志着......（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae2c69c7146ad985b3db2898f",
-              "original": "https://variety.com/2026/film/festivals/mahershala-ali-cries-moonlight-scene-spider-verse-1236914806/"
-            },
-            "publishedAt": "2026-10-17T14:28:04.000Z",
-            "discoveredAt": "2026-10-17T15:40:39.275Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae2c69c7146ad985b3db2898f"
-            }
-          },
-          {
-            "id": "a84d3586ce2653f88e3e15751",
-            "title": "【好莱坞一手】视觉特效主管解压《愤怒的小鸟电影 3》，包括 Red 的重新设计和角色效果自动化：“他选择相似”",
-            "originalTitle": "‘The Angry Birds Movie 3’ Unpacked by VFX Supervisor, Including Red’s Redesign and Character-Effects Automation: ’He’s Similar by Choice’",
-            "summary": "《愤怒的小鸟大电影 3》中的红羽毛英雄看起来非常熟悉，但 DNEG 动画公司必须对他的大部分进行改造，才能将系列电影带回影院。当工作室重建 Red 的皮毛、面部轮廓时……（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a84d3586ce2653f88e3e15751",
-              "original": "https://variety.com/2026/film/global/the-angry-birds-movie-3-red-redesign-character-automation-1236914681/"
-            },
-            "publishedAt": "2026-10-17T13:56:06.000Z",
-            "discoveredAt": "2026-10-17T15:40:40.509Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a84d3586ce2653f88e3e15751"
-            }
-          },
           {
             "id": "a9b05d90d0ed39261ff57865b",
             "title": "【全球票房】罗杰·科曼 B 级电影《星际迷航》中的阿波罗演员迈克尔·福里斯特去世，享年 97 岁",
@@ -1035,6 +989,75 @@
             }
           },
           {
+            "id": "accbdd0131ce34338e2480d2f",
+            "title": "【全球票房】哈里·斯泰尔斯在麦迪逊广场花园音乐会上以新歌向利亚姆·佩恩致敬",
+            "originalTitle": "Harry Styles Pays Tribute To Liam Payne With New Song At Madison Square Garden Concert",
+            "summary": "昨晚，哈利·斯泰尔斯在麦迪逊广场花园的舞台上表演了一首未发行的原声歌曲《What Is Enough》，向他已故的 One Direction 乐队成员利亚姆·佩恩致敬。演出场场爆满……（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/accbdd0131ce34338e2480d2f",
+              "original": "https://deadline.com/2026/10/harry-styles-liam-payne-madison-square-garden-1237166392/"
+            },
+            "publishedAt": "2026-10-17T17:04:25.000Z",
+            "discoveredAt": "2026-10-17T17:58:17.238Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/accbdd0131ce34338e2480d2f"
+            }
+          },
+          {
+            "id": "a34935f2def202f88b6415fb0",
+            "title": "【好莱坞一手】NBC 如何将现场音乐剧带回电视",
+            "originalTitle": "How NBC Brought Live Musicals Back to Television",
+            "summary": "2011年，NBC的处境并不好。在通用电气收购的最后几年里，该网络一直在苦苦挣扎。 2011 年 1 月，康卡斯特成为大股东，随之而来的是新的领导体制......（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a34935f2def202f88b6415fb0",
+              "original": "https://variety.com/2026/tv/news/sound-of-music-nbc-live-musicals-greenblatt-hairspray-1236914848/"
+            },
+            "publishedAt": "2026-10-17T17:03:19.000Z",
+            "discoveredAt": "2026-10-17T17:58:10.338Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a34935f2def202f88b6415fb0"
+            }
+          },
+          {
+            "id": "ae4710e78c92c868d17c9e2cf",
+            "title": "【全球票房】职业摔跤手本杰明·萨特利死因确定",
+            "originalTitle": "Pro Wrestler Benjamin Satterley Cause Of Death Determined",
+            "summary": "芝加哥库克县法医办公室确定，职业摔跤冠军本杰明·萨特利 (Benjamin Satterley) 于上个月因支气管哮喘去世，享年 40 岁。死亡被归类为自然死亡。死亡原因是...（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ae4710e78c92c868d17c9e2cf",
+              "original": "https://deadline.com/2026/10/benjamin-satterley-cause-of-death-1237166368/"
+            },
+            "publishedAt": "2026-10-17T16:08:58.000Z",
+            "discoveredAt": "2026-10-17T17:58:19.097Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ae4710e78c92c868d17c9e2cf"
+            }
+          },
+          {
             "id": "a7c57f77d0380cf4fffa4c7c0",
             "title": "【全球票房】J.K.罗琳的经纪人尼尔·布莱尔谴责《哈利·波特与被诅咒的孩子》中的变性人权利抗议",
             "originalTitle": "J.K. Rowling’s Agent Neil Blair Condemns Trans Rights Protest At ‘Harry Potter And The Cursed Child’",
@@ -1056,29 +1079,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a7c57f77d0380cf4fffa4c7c0"
             }
-          },
-          {
-            "id": "a024d94ddc099d5255192b263",
-            "title": "【全球票房】安东尼·斯卡拉穆奇对凯蒂·扎卡里亚的白宫任期比他短的反应：“记录是用来被打破的”",
-            "originalTitle": "Anthony Scaramucci Reacts To Katie Zacharia’s White House Tenure Being Shorter Than His: “Records Are Made To Be Broken”",
-            "summary": "安东尼·斯卡拉穆奇 (Anthony Scaramucci) 对凯蒂·扎卡里亚 (Katie Zacharia) 担任白宫新闻秘书的任期进行了评论，事实证明，这一任期比他 2017 年担任唐纳德·特朗普 (Donald Trump) 通讯总监的 10 天任期还要短。（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a024d94ddc099d5255192b263",
-              "original": "https://deadline.com/2026/10/anthony-scaramucci-katie-zacharia-trump-press-secretary-1237166304/"
-            },
-            "publishedAt": "2026-10-17T03:38:34.000Z",
-            "discoveredAt": "2026-10-17T08:04:02.150Z",
-            "category": "culture",
-            "score": 98,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a024d94ddc099d5255192b263"
-            }
           }
         ]
       },
@@ -1086,6 +1086,75 @@
         "category": "business",
         "label": "🏆 体育实时Top20",
         "items": [
+          {
+            "id": "abcc134930b601e8a1d901f3d",
+            "title": "【BBC足坛】伊劳拉：利物浦球员处境“微妙”，赛程“要求很高”",
+            "originalTitle": "Liverpool players in 'delicate' situation with 'demanding' schedule - Iraola",
+            "summary": "安多尼·伊劳拉 (Andoni Iraola) 利物浦在 2-1 战胜布伦特福德的比赛中，多米尼克·索博斯莱 (Dominik Szoboszlai) 因上半场受伤被迫下场，苛刻的赛程让他的球员陷入了“微妙的境地”。（来源：BBC Sport·欧洲足坛）",
+            "source": {
+              "name": "BBC Sport·欧洲足坛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abcc134930b601e8a1d901f3d",
+              "original": "https://www.bbc.co.uk/sport/football/videos/ckgelqlz37w3o?at_medium=RSS&at_campaign=rss"
+            },
+            "publishedAt": "2026-10-17T16:56:12.000Z",
+            "discoveredAt": "2026-10-17T17:58:25.892Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abcc134930b601e8a1d901f3d"
+            }
+          },
+          {
+            "id": "a0a58fe46ba2bd1a6c9b73231",
+            "title": "【欧洲足坛】亚历克斯·伊沃比击沉赫尔城取得富勒姆首场胜利后，阿韦洛亚的压力减轻",
+            "originalTitle": "Pressure on Arbeloa lifted after Alex Iwobi sinks Hull for Fulham’s first win",
+            "summary": "在面对一支如此直率的球队时，阿尔瓦罗·阿韦洛亚在面对一支如此直率的球队时表现出如此统治级的表现，几乎感觉不可避免的是，阿尔瓦罗·阿韦洛亚将被剥夺他作为富勒姆主教练的首个英超冠军，就像我们一样……（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0a58fe46ba2bd1a6c9b73231",
+              "original": "https://www.theguardian.com/football/2026/oct/17/fulham-hull-premier-league-match-report"
+            },
+            "publishedAt": "2026-10-17T16:08:39.000Z",
+            "discoveredAt": "2026-10-17T17:58:31.698Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0a58fe46ba2bd1a6c9b73231"
+            }
+          },
+          {
+            "id": "a74cb615783d97722f64de591",
+            "title": "【欧洲足坛】阿森纳与伯明翰战平，WSL延续不胜纪录，球迷嘘声不断",
+            "originalTitle": "Boos for Arsenal as draw with Birmingham extends winless WSL run",
+            "summary": "奥利维亚·史密斯的扳平比分避免了阿森纳的失利，但主场战平伯明翰并没有平息人们对雷妮·斯莱格斯作为枪手主教练的未来的担忧。酋长球场的终场哨声伴随着嘘声……（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a74cb615783d97722f64de591",
+              "original": "https://www.theguardian.com/football/2026/oct/17/arsenal-birmingham-wsl-match-report"
+            },
+            "publishedAt": "2026-10-17T15:44:19.000Z",
+            "discoveredAt": "2026-10-17T17:58:32.907Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a74cb615783d97722f64de591"
+            }
+          },
           {
             "id": "ae9377afd3c39e1b647c6a88d",
             "title": "【欧洲足坛】纽卡斯尔 v 阿斯顿维拉：英超联赛 - 直播",
@@ -1131,75 +1200,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ab8c38a49dcd91b14bf976a3a"
             }
-          },
-          {
-            "id": "ad47ba5ec1e30674853cf7e74",
-            "title": "【体坛快讯】2026年全国青少年户外运动大赛总决赛开赛 800余名青少年开启户外挑战",
-            "originalTitle": "2026年全国青少年户外运动大赛总决赛开赛 800余名青少年开启户外挑战",
-            "summary": "中新网重庆10月17日电(记者 肖江川)17日，“奔跑吧·少年”2026年全国青少年户外运动大赛总决赛在重庆市梁平区双桂湖国家湿地公园鸣枪开赛。来自全国各地的800余名青少年在越野闯关、技能挑战中挥洒汗水，沉浸式感受户外运动的独特魅力。",
-            "source": {
-              "name": "中新网·体育焦点"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad47ba5ec1e30674853cf7e74",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-17/10716416.shtml"
-            },
-            "publishedAt": "2026-10-17T12:45:40.000Z",
-            "discoveredAt": "2026-10-17T13:38:17.824Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad47ba5ec1e30674853cf7e74"
-            }
-          },
-          {
-            "id": "aca44ae9e77eff89f1fce7c64",
-            "title": "【欧洲足坛】曼城对阵伊普斯维奇、布伦特福德对阵利物浦等：足球时钟 - 直播",
-            "originalTitle": "Manchester City v Ipswich, Brentford v Liverpool, and more: Football clockwatch - live",
-            "summary": "⚽ 周六下午足球比赛更新 ⚽ 实时记分牌 |桌子|最佳射手 |请通过电子邮件发送西蒙·安迪·亨特 (Simon Andy Hunter) 来自希尔·迪金森 (Hill Dickinson) 的比赛报告，您可以在下面找到它。切尔西从...回来了（来源：卫报体育·欧冠与五大联赛）",
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aca44ae9e77eff89f1fce7c64",
-              "original": "https://www.theguardian.com/football/live/2026/oct/17/manchester-city-v-ipswich-brentford-v-liverpool-and-more-football-clockwatch-live"
-            },
-            "publishedAt": "2026-10-17T15:20:21.000Z",
-            "discoveredAt": "2026-10-17T15:40:49.740Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aca44ae9e77eff89f1fce7c64"
-            }
-          },
-          {
-            "id": "adacd80df5aa1a949fa3576f1",
-            "title": "【欧洲足坛】欧洲足球：马竞的巴埃纳迟到的罢工给巴塞罗那带来了压力",
-            "originalTitle": "European football: Baena late strike for Atlético puts pressure on Barcelona",
-            "summary": "西蒙尼的球队落后西甲冠军两分，穆里尼奥·阿莱克斯·巴埃纳表示，如果我是维尼修斯，我就会离开皇家马德里，穆里尼奥·阿莱克斯·巴埃纳在第89分钟进球，帮助马德里竞技1-0战胜西班牙人，给球队施加了压力。（来源：卫报体育·欧冠与五大联赛）",
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/adacd80df5aa1a949fa3576f1",
-              "original": "https://www.theguardian.com/football/2026/oct/17/european-football-bayern-munich-barcelona-psg-inter"
-            },
-            "publishedAt": "2026-10-17T14:44:52.000Z",
-            "discoveredAt": "2026-10-17T15:40:53.010Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/adacd80df5aa1a949fa3576f1"
-            }
           }
         ]
       }
@@ -1210,7 +1210,7 @@
     "key": "2026-10",
     "title": "曾练全球一手简报 · 月度产业全景报告 (2026年10月)",
     "subtitle": "30天六大实时Top20赛道全景洞察与高价值搞钱机会总结",
-    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：2026长三角国际青年电影周开幕；AI落地的“检验标准”趋于多元；巨头自研 AI 芯片：靠推理突围，抢回算力垄断利润。",
+    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：2026长三角国际青年电影周开幕；AI落地的“检验标准”趋于多元；小红书的AI，开始和自己的生意算账。",
     "metrics": {
       "totalEvents": 36,
       "sourcesCount": 30,
@@ -1221,29 +1221,6 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
-          {
-            "id": "a73cacc8d7d40d0e1f87405fb",
-            "title": "【国际巨头】苹果的 HomeView 只是对在线食谱作者的最新威胁",
-            "originalTitle": "Apple’s HomeView is just the latest threat to online recipe writers",
-            "summary": "HomeView 可以将在线菜谱格式简化为易于遵循的步骤。 |图片来源：Apple 当 Apple 向全世界展示 HomeView 时，它为该公司发布了一个不同寻常的广告：不再是原始、精致的技术……（来源：The Verge·国际巨头）",
-            "source": {
-              "name": "The Verge·国际巨头"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a73cacc8d7d40d0e1f87405fb",
-              "original": "https://www.theverge.com/tech/1012820/apple-homeview-recipe-formatting"
-            },
-            "publishedAt": "2026-10-17T12:00:00.000Z",
-            "discoveredAt": "2026-10-17T12:12:23.553Z",
-            "category": "global",
-            "score": 98,
-            "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a73cacc8d7d40d0e1f87405fb"
-            }
-          },
           {
             "id": "ad369b42965b47ad621332c4e",
             "title": "【CNBC全球】有些公司将人工智能提供给每个人。这位首席执行官却反其道而行之",
@@ -1334,6 +1311,29 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ae4740dba278c7f9e9fafe73c"
+            }
+          },
+          {
+            "id": "a1caf0362388d300df0f11699",
+            "title": "【国际巨头】埃隆·马斯克 (Elon Musk) 就 100 万美元选民赠品诉讼达成和解",
+            "originalTitle": "Elon Musk settles lawsuits over $1 million voter giveaway",
+            "summary": "2024 年，埃隆·马斯克承诺每天向摇摆州随机选择的登记选民捐赠 100 万美元。这引发了法律挑战，引发了对其合法性的质疑，并引起了亚利桑那州两家公司的诉讼……（来源：The Verge·国际巨头）",
+            "source": {
+              "name": "The Verge·国际巨头"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a1caf0362388d300df0f11699",
+              "original": "https://www.theverge.com/tech/1013431/elon-musk-settles-lawsuits-over-1-million-voter-giveaway"
+            },
+            "publishedAt": "2026-10-17T16:39:44.000Z",
+            "discoveredAt": "2026-10-17T17:57:40.928Z",
+            "category": "global",
+            "score": 96,
+            "selected": true,
+            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a1caf0362388d300df0f11699"
             }
           },
           {
@@ -1510,6 +1510,29 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
+            "id": "a807e2bd2f1691902c2d6a0ce",
+            "title": "小红书的AI，开始和自己的生意算账",
+            "originalTitle": "小红书的AI，开始和自己的生意算账",
+            "summary": "本文来自微信公众号： 奇帆商业 ，编辑：陆垚，作者：小钱 不到半年，小红书重新安排了两次AI部门的职责。 4月30日，小红书将Dots提升为AI一级部门，把模型研发、基础设施、工程和产品集中到同一个组织中。到了9月，产品团队和部分工程团队被划转至社区，Dots转而聚焦底层模型。 10月16日，公司又宣布将Dots与核心基础设施团队Infra打通。 一个刚刚获得独立地位的AI部门，很快就被重新划分了工作范围。 最新的全员信对此给出了一种解...",
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a807e2bd2f1691902c2d6a0ce",
+              "original": "https://www.huxiu.com/article/4898344.html?f=rss"
+            },
+            "publishedAt": "2026-10-17T16:58:48.000Z",
+            "discoveredAt": "2026-10-17T17:57:50.422Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a807e2bd2f1691902c2d6a0ce"
+            }
+          },
+          {
             "id": "aac24583cca2556eaaa54d4d1",
             "title": "巨头自研 AI 芯片：靠推理突围，抢回算力垄断利润",
             "originalTitle": "巨头自研 AI 芯片：靠推理突围，抢回算力垄断利润",
@@ -1623,29 +1646,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a208cdc2d463f0280d63e21b9"
             }
-          },
-          {
-            "id": "aefcb611f19db71ca65731893",
-            "title": "谁更需要这场双11 ？",
-            "originalTitle": "谁更需要这场双11 ？",
-            "summary": "本文来自微信公众号： 版面之外 ，作者：画画，原文标题：《谁更需要这场双 11 ？》 双11的电商大战正式打响了。 10月15日，京东和天猫把发布会安排在同一天。往年，两家通常错开节奏，轮流占据舆论焦点。今年，谁也不让。 撞期还不是最有意思的。更有意思的是，两家讲的内容都变了。 一年中最重要的卖货时刻，京东把大量时间留给了服务，天猫把AI推到了台前。 低价还在，却不再是发布会最想强调的东西。 双11走到第18年，平台开始重新回答一个问题...",
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aefcb611f19db71ca65731893",
-              "original": "https://www.huxiu.com/article/4898335.html?f=rss"
-            },
-            "publishedAt": "2026-10-17T14:12:43.000Z",
-            "discoveredAt": "2026-10-17T15:01:41.209Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aefcb611f19db71ca65731893"
-            }
           }
         ]
       },
@@ -1653,6 +1653,52 @@
         "category": "tech",
         "label": "🤖 AI实时Top20",
         "items": [
+          {
+            "id": "a323a8cf519e6d594095267a6",
+            "title": "【X·AI一手】OpenAI又披露了四起流氓事件",
+            "originalTitle": "OpenAI discloses four more rogue incidents",
+            "summary": "X (Twitter)·硅谷AI大佬实时快讯：OpenAI discloses four more rogue incidents。Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。（来源：X (Twitter)·硅谷AI大佬）",
+            "source": {
+              "name": "X (Twitter)·硅谷AI大佬"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a323a8cf519e6d594095267a6",
+              "original": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/"
+            },
+            "publishedAt": "2026-10-17T16:31:12.000Z",
+            "discoveredAt": "2026-10-17T17:57:57.682Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a323a8cf519e6d594095267a6"
+            }
+          },
+          {
+            "id": "ab777336edaf538f1451ed2f9",
+            "title": "【开源大模型】为什么不使用完整的 n-gram-table 运行 Qwen 3.8 Flash Next？",
+            "originalTitle": "Why not run Qwen 3.8 Flash Next with the full n-gram-table?",
+            "summary": "已经发布在这里 https://www.reddit.com/r/LocalLLaMA/comments/1x85hfj/strata_qwen_38_flash_next_fast_but_whats_it/phavui9/ ，但我相信这个主题值得有自己的帖子。 PLE，又名 n 元语法表，位于...（来源：LocalLLaMA·开源大模型）",
+            "source": {
+              "name": "LocalLLaMA·开源大模型"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ab777336edaf538f1451ed2f9",
+              "original": "https://www.reddit.com/r/LocalLLaMA/comments/1x8am0i/why_not_run_qwen_38_flash_next_with_the_full/"
+            },
+            "publishedAt": "2026-10-17T13:44:17.000Z",
+            "discoveredAt": "2026-10-17T17:58:07.224Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ab777336edaf538f1451ed2f9"
+            }
+          },
           {
             "id": "ab9398029c1d2c21a6c398248",
             "title": "【国内要闻】从“薯都”到“token之都”，中国草原跑出算力黑马",
@@ -1674,6 +1720,29 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ab9398029c1d2c21a6c398248"
+            }
+          },
+          {
+            "id": "aad79680695fb99985847e70a",
+            "title": "【开源大模型】Nvidia 已正式确认 5090 并未停产，并将继续发货。",
+            "originalTitle": "Nvidia has officially confirmed that the 5090 is not discontinued and will continue shipping.",
+            "summary": "2026 年 10 月 16 日，在台北 RTX Spark 发布会上接受采访时，Nvidia 个人计算高级副总裁 Jeff Fisher 明确驳斥了最近停产的谣言。 &#32...（来源：LocalLLaMA·开源大模型）",
+            "source": {
+              "name": "LocalLLaMA·开源大模型"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aad79680695fb99985847e70a",
+              "original": "https://www.reddit.com/r/LocalLLaMA/comments/1x88txd/nvidia_has_officially_confirmed_that_the_5090_is/"
+            },
+            "publishedAt": "2026-10-17T12:18:00.000Z",
+            "discoveredAt": "2026-10-17T17:58:05.843Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aad79680695fb99985847e70a"
             }
           },
           {
@@ -1700,95 +1769,26 @@
             }
           },
           {
-            "id": "a65de5a87942fca164a934a02",
-            "title": "【开源大模型】您可能不知道现在可以使用 Qwen 3.6 27B 做的 10 件事。 （对于菜鸟来说）",
-            "originalTitle": "10 Things you maybe didn't know you can do with Qwen 3.6 27B right now. (For Noobs)",
-            "summary": "我知道每个人都对 3.8 感到兴奋，但老实说我仍在完善 3.6。我讨厌 3.8 的说话方式，所以...我不断看到所有这些关于开源有什么用的帖子，所以我想我应该提交我的...（来源：LocalLLaMA·开源大模型）",
-            "source": {
-              "name": "LocalLLaMA·开源大模型"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a65de5a87942fca164a934a02",
-              "original": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sq8e/10_things_you_maybe_didnt_know_you_can_do_with/"
-            },
-            "publishedAt": "2026-10-16T21:35:36.000Z",
-            "discoveredAt": "2026-10-17T01:07:05.692Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a65de5a87942fca164a934a02"
-            }
-          },
-          {
-            "id": "ac24bbee2e2b083ee7ea1afe8",
-            "title": "【开源大模型】Dario：“通过开源，你可以看到源代码。在这里我们看不到模型的内部。”我的 0.646 t/s MiMo-2.6-Pro 塞满了 128GB 的​​ Jetson AGX Thor：“是的，好吧，这就是你的意见，伙计。”",
-            "originalTitle": "Dario: “With open source you can see the source code. Here we can’t see inside the model.” My 0.646 t/s MiMo-2.6-Pro crammed thru 128GB of Jetson AGX Thor: “Yeah, well, that’s just, like, your opinion, man.”",
-            "summary": "在 Jetson AGX Thor 上以每秒 0.646 个令牌的速度跟踪我第一次运行 MiMo Pro，.. 但从技术上讲它确实加载并运行，所以它很重要。每个解码器层、路由专家、SSD 读取（..更多）都被跟踪和复制...（来源：LocalLLaMA·开源大模型）",
-            "source": {
-              "name": "LocalLLaMA·开源大模型"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac24bbee2e2b083ee7ea1afe8",
-              "original": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sbxs/dario_with_open_source_you_can_see_the_source/"
-            },
-            "publishedAt": "2026-10-16T21:18:51.000Z",
-            "discoveredAt": "2026-10-17T01:07:14.092Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac24bbee2e2b083ee7ea1afe8"
-            }
-          },
-          {
-            "id": "a443885d42d43ed90a36238c9",
-            "title": "【OpenAI官宣】Itaú 如何为其整个客户群构建生成式人工智能",
-            "originalTitle": "How Itaú is building generative AI for its entire customer base",
-            "summary": "借助对话界面 ia.i 和 IARA 治理平台，Itaú 正在将其人工智能优先战略应用于巴西监管最严格的行业之一的客户和员工。（来源：OpenAI·官方一手）",
-            "source": {
-              "name": "OpenAI·官方一手"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a443885d42d43ed90a36238c9",
-              "original": "https://openai.com/index/itau-generative-ai"
-            },
-            "publishedAt": "2026-10-16T19:00:00.000Z",
-            "discoveredAt": "2026-10-16T23:55:24.794Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "OpenAI 官方博客与研究产品一手公告，全球人工智能行业最高风向标。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a443885d42d43ed90a36238c9"
-            }
-          },
-          {
-            "id": "a8c3c81d8d749afb9275532a0",
-            "title": "【X·AI一手】与 Claude 一起设计更高效的量子电路",
-            "originalTitle": "Designing more efficient quantum circuits with Claude",
-            "summary": "X (Twitter)·硅谷AI大佬实时快讯：Designing more efficient quantum circuits with Claude。Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。（来源：X (Twitter)·硅谷AI大佬）",
+            "id": "aec474e1fcd84c27f91e34e40",
+            "title": "【X·AI一手】为什么 Math 抛弃了 OpenAI",
+            "originalTitle": "Why Math Dumped OpenAI",
+            "summary": "X (Twitter)·硅谷AI大佬实时快讯：Why Math Dumped OpenAI。Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。（来源：X (Twitter)·硅谷AI大佬）",
             "source": {
               "name": "X (Twitter)·硅谷AI大佬"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a8c3c81d8d749afb9275532a0",
-              "original": "https://www.anthropic.com/research/designing-efficient-quantum-circuits"
+              "aihot": "https://zenglian-news.onrender.com/items/aec474e1fcd84c27f91e34e40",
+              "original": "https://raymyers.org/post/math-dumped-openai/"
             },
-            "publishedAt": "2026-10-16T18:00:18.000Z",
-            "discoveredAt": "2026-10-17T08:03:51.969Z",
+            "publishedAt": "2026-10-17T06:19:44.000Z",
+            "discoveredAt": "2026-10-17T17:57:58.880Z",
             "category": "tech",
             "score": 99,
             "selected": true,
             "reason": "Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a8c3c81d8d749afb9275532a0"
+              "url": "https://zenglian-news.onrender.com/items/aec474e1fcd84c27f91e34e40"
             }
           }
         ]
@@ -1797,52 +1797,6 @@
         "category": "culture",
         "label": "🎬 影视娱乐Top20",
         "items": [
-          {
-            "id": "ae2c69c7146ad985b3db2898f",
-            "title": "【好莱坞一手】马赫沙拉·阿里在伦敦演讲中回忆《月光男孩》场景时哭泣，对《蜘蛛侠》保持沉默：“我必须小心”",
-            "originalTitle": "Mahershala Ali Cries Recalling ‘Moonlight’ Scene, Keeps Quiet on ‘Spider-Verse’ at London Talk: ‘I’ve Got to Be Careful’",
-            "summary": "周六，马赫沙拉·阿里在 BFI 伦敦电影节的舞台上回忆起《月光男孩》中的小男孩时泪流满面。巴里·詹金斯的剧情片为他赢得了两项奥斯卡奖之一，最近还标志着......（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae2c69c7146ad985b3db2898f",
-              "original": "https://variety.com/2026/film/festivals/mahershala-ali-cries-moonlight-scene-spider-verse-1236914806/"
-            },
-            "publishedAt": "2026-10-17T14:28:04.000Z",
-            "discoveredAt": "2026-10-17T15:40:39.275Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae2c69c7146ad985b3db2898f"
-            }
-          },
-          {
-            "id": "a84d3586ce2653f88e3e15751",
-            "title": "【好莱坞一手】视觉特效主管解压《愤怒的小鸟电影 3》，包括 Red 的重新设计和角色效果自动化：“他选择相似”",
-            "originalTitle": "‘The Angry Birds Movie 3’ Unpacked by VFX Supervisor, Including Red’s Redesign and Character-Effects Automation: ’He’s Similar by Choice’",
-            "summary": "《愤怒的小鸟大电影 3》中的红羽毛英雄看起来非常熟悉，但 DNEG 动画公司必须对他的大部分进行改造，才能将系列电影带回影院。当工作室重建 Red 的皮毛、面部轮廓时……（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a84d3586ce2653f88e3e15751",
-              "original": "https://variety.com/2026/film/global/the-angry-birds-movie-3-red-redesign-character-automation-1236914681/"
-            },
-            "publishedAt": "2026-10-17T13:56:06.000Z",
-            "discoveredAt": "2026-10-17T15:40:40.509Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a84d3586ce2653f88e3e15751"
-            }
-          },
           {
             "id": "a9b05d90d0ed39261ff57865b",
             "title": "【全球票房】罗杰·科曼 B 级电影《星际迷航》中的阿波罗演员迈克尔·福里斯特去世，享年 97 岁",
@@ -1864,6 +1818,75 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a9b05d90d0ed39261ff57865b"
+            }
+          },
+          {
+            "id": "accbdd0131ce34338e2480d2f",
+            "title": "【全球票房】哈里·斯泰尔斯在麦迪逊广场花园音乐会上以新歌向利亚姆·佩恩致敬",
+            "originalTitle": "Harry Styles Pays Tribute To Liam Payne With New Song At Madison Square Garden Concert",
+            "summary": "昨晚，哈利·斯泰尔斯在麦迪逊广场花园的舞台上表演了一首未发行的原声歌曲《What Is Enough》，向他已故的 One Direction 乐队成员利亚姆·佩恩致敬。演出场场爆满……（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/accbdd0131ce34338e2480d2f",
+              "original": "https://deadline.com/2026/10/harry-styles-liam-payne-madison-square-garden-1237166392/"
+            },
+            "publishedAt": "2026-10-17T17:04:25.000Z",
+            "discoveredAt": "2026-10-17T17:58:17.238Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/accbdd0131ce34338e2480d2f"
+            }
+          },
+          {
+            "id": "a34935f2def202f88b6415fb0",
+            "title": "【好莱坞一手】NBC 如何将现场音乐剧带回电视",
+            "originalTitle": "How NBC Brought Live Musicals Back to Television",
+            "summary": "2011年，NBC的处境并不好。在通用电气收购的最后几年里，该网络一直在苦苦挣扎。 2011 年 1 月，康卡斯特成为大股东，随之而来的是新的领导体制......（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a34935f2def202f88b6415fb0",
+              "original": "https://variety.com/2026/tv/news/sound-of-music-nbc-live-musicals-greenblatt-hairspray-1236914848/"
+            },
+            "publishedAt": "2026-10-17T17:03:19.000Z",
+            "discoveredAt": "2026-10-17T17:58:10.338Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a34935f2def202f88b6415fb0"
+            }
+          },
+          {
+            "id": "ae4710e78c92c868d17c9e2cf",
+            "title": "【全球票房】职业摔跤手本杰明·萨特利死因确定",
+            "originalTitle": "Pro Wrestler Benjamin Satterley Cause Of Death Determined",
+            "summary": "芝加哥库克县法医办公室确定，职业摔跤冠军本杰明·萨特利 (Benjamin Satterley) 于上个月因支气管哮喘去世，享年 40 岁。死亡被归类为自然死亡。死亡原因是...（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ae4710e78c92c868d17c9e2cf",
+              "original": "https://deadline.com/2026/10/benjamin-satterley-cause-of-death-1237166368/"
+            },
+            "publishedAt": "2026-10-17T16:08:58.000Z",
+            "discoveredAt": "2026-10-17T17:58:19.097Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ae4710e78c92c868d17c9e2cf"
             }
           },
           {
@@ -1890,49 +1913,26 @@
             }
           },
           {
-            "id": "a024d94ddc099d5255192b263",
-            "title": "【全球票房】安东尼·斯卡拉穆奇对凯蒂·扎卡里亚的白宫任期比他短的反应：“记录是用来被打破的”",
-            "originalTitle": "Anthony Scaramucci Reacts To Katie Zacharia’s White House Tenure Being Shorter Than His: “Records Are Made To Be Broken”",
-            "summary": "安东尼·斯卡拉穆奇 (Anthony Scaramucci) 对凯蒂·扎卡里亚 (Katie Zacharia) 担任白宫新闻秘书的任期进行了评论，事实证明，这一任期比他 2017 年担任唐纳德·特朗普 (Donald Trump) 通讯总监的 10 天任期还要短。（来源：Deadline·全球票房与新片）",
+            "id": "ae58a3d38a54a2fc0410d2f1b",
+            "title": "【好莱坞一手】埃尔维斯·普雷斯利 (Elvis Presley)、朱莉·安德鲁斯 (Julie Andrews) 等人的好莱坞资深公关吉恩·施瓦姆 (Gene Schwam) 去世，享年 96 岁",
+            "originalTitle": "Gene Schwam, Veteran Hollywood Publicist to Elvis Presley, Julie Andrews and More, Dies at 96",
+            "summary": "好莱坞资深公关吉恩·施瓦姆（Gene Schwam）曾代表埃尔维斯·普雷斯利（Elvis Presley）、布莱克·爱德华兹（Blake Edwards）、朱莉·安德鲁斯（Julie Andrews）、芭芭拉·伊登（Barbara Eden）和伦尼·布鲁斯（Lenny Bruce）等顶级人才，于周五在洛杉矶因短暂患病去世。他已经 96 岁了。施瓦姆……（来源：Variety·好莱坞影视）",
             "source": {
-              "name": "Deadline·全球票房与新片"
+              "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a024d94ddc099d5255192b263",
-              "original": "https://deadline.com/2026/10/anthony-scaramucci-katie-zacharia-trump-press-secretary-1237166304/"
+              "aihot": "https://zenglian-news.onrender.com/items/ae58a3d38a54a2fc0410d2f1b",
+              "original": "https://variety.com/2026/film/news/gene-schwam-dead-publicist-elvis-presley-1236914812/"
             },
-            "publishedAt": "2026-10-17T03:38:34.000Z",
-            "discoveredAt": "2026-10-17T08:04:02.150Z",
+            "publishedAt": "2026-10-17T17:28:07.000Z",
+            "discoveredAt": "2026-10-17T17:58:09.323Z",
             "category": "culture",
-            "score": 98,
+            "score": 97,
             "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a024d94ddc099d5255192b263"
-            }
-          },
-          {
-            "id": "a2a810c0911076fa215795239",
-            "title": "【全球票房】《9-1-1：纳什维尔》在第二季首播中向查德·洛的女儿菲奥娜致敬",
-            "originalTitle": "‘9-1-1: Nashville’ Pays Tribute To Chad Lowe’s Daughter Fiona With Title Card In Season 2 Premiere",
-            "summary": "《9-1-1：纳什维尔》第二季回归，执行制片人查德·洛 (Chad Lowe) 为女儿菲奥娜 (Fiona) 的去世而悲痛不已。星期四，美国广播公司 (ABC) 播出的第二季首播集“Going Rogue”以一张纪念 F. 的标题卡结束。（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a2a810c0911076fa215795239",
-              "original": "https://deadline.com/2026/10/9-1-1-nashville-pays-tribute-chad-lowe-daughter-title-card-1237166302/"
-            },
-            "publishedAt": "2026-10-17T03:34:47.000Z",
-            "discoveredAt": "2026-10-17T08:04:03.257Z",
-            "category": "culture",
-            "score": 98,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a2a810c0911076fa215795239"
+              "url": "https://zenglian-news.onrender.com/items/ae58a3d38a54a2fc0410d2f1b"
             }
           }
         ]
@@ -1941,6 +1941,75 @@
         "category": "business",
         "label": "🏆 体育实时Top20",
         "items": [
+          {
+            "id": "abcc134930b601e8a1d901f3d",
+            "title": "【BBC足坛】伊劳拉：利物浦球员处境“微妙”，赛程“要求很高”",
+            "originalTitle": "Liverpool players in 'delicate' situation with 'demanding' schedule - Iraola",
+            "summary": "安多尼·伊劳拉 (Andoni Iraola) 利物浦在 2-1 战胜布伦特福德的比赛中，多米尼克·索博斯莱 (Dominik Szoboszlai) 因上半场受伤被迫下场，苛刻的赛程让他的球员陷入了“微妙的境地”。（来源：BBC Sport·欧洲足坛）",
+            "source": {
+              "name": "BBC Sport·欧洲足坛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abcc134930b601e8a1d901f3d",
+              "original": "https://www.bbc.co.uk/sport/football/videos/ckgelqlz37w3o?at_medium=RSS&at_campaign=rss"
+            },
+            "publishedAt": "2026-10-17T16:56:12.000Z",
+            "discoveredAt": "2026-10-17T17:58:25.892Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abcc134930b601e8a1d901f3d"
+            }
+          },
+          {
+            "id": "a0a58fe46ba2bd1a6c9b73231",
+            "title": "【欧洲足坛】亚历克斯·伊沃比击沉赫尔城取得富勒姆首场胜利后，阿韦洛亚的压力减轻",
+            "originalTitle": "Pressure on Arbeloa lifted after Alex Iwobi sinks Hull for Fulham’s first win",
+            "summary": "在面对一支如此直率的球队时，阿尔瓦罗·阿韦洛亚在面对一支如此直率的球队时表现出如此统治级的表现，几乎感觉不可避免的是，阿尔瓦罗·阿韦洛亚将被剥夺他作为富勒姆主教练的首个英超冠军，就像我们一样……（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0a58fe46ba2bd1a6c9b73231",
+              "original": "https://www.theguardian.com/football/2026/oct/17/fulham-hull-premier-league-match-report"
+            },
+            "publishedAt": "2026-10-17T16:08:39.000Z",
+            "discoveredAt": "2026-10-17T17:58:31.698Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0a58fe46ba2bd1a6c9b73231"
+            }
+          },
+          {
+            "id": "a74cb615783d97722f64de591",
+            "title": "【欧洲足坛】阿森纳与伯明翰战平，WSL延续不胜纪录，球迷嘘声不断",
+            "originalTitle": "Boos for Arsenal as draw with Birmingham extends winless WSL run",
+            "summary": "奥利维亚·史密斯的扳平比分避免了阿森纳的失利，但主场战平伯明翰并没有平息人们对雷妮·斯莱格斯作为枪手主教练的未来的担忧。酋长球场的终场哨声伴随着嘘声……（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a74cb615783d97722f64de591",
+              "original": "https://www.theguardian.com/football/2026/oct/17/arsenal-birmingham-wsl-match-report"
+            },
+            "publishedAt": "2026-10-17T15:44:19.000Z",
+            "discoveredAt": "2026-10-17T17:58:32.907Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a74cb615783d97722f64de591"
+            }
+          },
           {
             "id": "ae9377afd3c39e1b647c6a88d",
             "title": "【欧洲足坛】纽卡斯尔 v 阿斯顿维拉：英超联赛 - 直播",
@@ -2008,75 +2077,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ad47ba5ec1e30674853cf7e74"
-            }
-          },
-          {
-            "id": "aca44ae9e77eff89f1fce7c64",
-            "title": "【欧洲足坛】曼城对阵伊普斯维奇、布伦特福德对阵利物浦等：足球时钟 - 直播",
-            "originalTitle": "Manchester City v Ipswich, Brentford v Liverpool, and more: Football clockwatch - live",
-            "summary": "⚽ 周六下午足球比赛更新 ⚽ 实时记分牌 |桌子|最佳射手 |请通过电子邮件发送西蒙·安迪·亨特 (Simon Andy Hunter) 来自希尔·迪金森 (Hill Dickinson) 的比赛报告，您可以在下面找到它。切尔西从...回来了（来源：卫报体育·欧冠与五大联赛）",
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aca44ae9e77eff89f1fce7c64",
-              "original": "https://www.theguardian.com/football/live/2026/oct/17/manchester-city-v-ipswich-brentford-v-liverpool-and-more-football-clockwatch-live"
-            },
-            "publishedAt": "2026-10-17T15:20:21.000Z",
-            "discoveredAt": "2026-10-17T15:40:49.740Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aca44ae9e77eff89f1fce7c64"
-            }
-          },
-          {
-            "id": "adacd80df5aa1a949fa3576f1",
-            "title": "【欧洲足坛】欧洲足球：马竞的巴埃纳迟到的罢工给巴塞罗那带来了压力",
-            "originalTitle": "European football: Baena late strike for Atlético puts pressure on Barcelona",
-            "summary": "西蒙尼的球队落后西甲冠军两分，穆里尼奥·阿莱克斯·巴埃纳表示，如果我是维尼修斯，我就会离开皇家马德里，穆里尼奥·阿莱克斯·巴埃纳在第89分钟进球，帮助马德里竞技1-0战胜西班牙人，给球队施加了压力。（来源：卫报体育·欧冠与五大联赛）",
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/adacd80df5aa1a949fa3576f1",
-              "original": "https://www.theguardian.com/football/2026/oct/17/european-football-bayern-munich-barcelona-psg-inter"
-            },
-            "publishedAt": "2026-10-17T14:44:52.000Z",
-            "discoveredAt": "2026-10-17T15:40:53.010Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/adacd80df5aa1a949fa3576f1"
-            }
-          },
-          {
-            "id": "aec41fbdb3611ea244e86e3f8",
-            "title": "【欧洲足坛】冠军综述：泽穆拉为迪奥尼西缓刑沃特福德",
-            "originalTitle": "Championship roundup: Zemura seals Watford reprieve for Dionisi",
-            "summary": "沃特福德2-0击败查尔顿，米德尔斯堡2-2卡迪夫城，晋级倒数三强；米尔沃尔 2-2 林肯沃特福德解除了对阿莱西奥·迪奥尼西的压力，平息了他们的支持者对老板吉诺·波佐的叛乱……（来源：卫报体育·欧冠与五大联赛）",
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aec41fbdb3611ea244e86e3f8",
-              "original": "https://www.theguardian.com/football/2026/oct/17/championship-roundup-middlesbrough-watford-millwall-swansea-west-ham"
-            },
-            "publishedAt": "2026-10-17T14:04:41.000Z",
-            "discoveredAt": "2026-10-17T15:40:51.981Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aec41fbdb3611ea244e86e3f8"
             }
           }
         ]
