@@ -10,6 +10,75 @@
   },
   "items": [
     {
+      "id": "aab4fd73e6bfb614e4e858f52",
+      "title": "[分享创造] Play Martin:No Filter Fighters",
+      "originalTitle": "[分享创造] Play Martin:No Filter Fighters",
+      "summary": "Martin Fighters https://martinfighters.com/ is an online gaming website dedicated to Martin No Filter Fighters, a fast-paced browser fighting game inspired by the Martin universe. Visitors can play directly in their brow...",
+      "source": {
+        "name": "V2EX·独立开发与副业"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/aab4fd73e6bfb614e4e858f52",
+        "original": "https://www.v2ex.com/t/1249845#reply0"
+      },
+      "publishedAt": "2026-10-18T18:06:43.000Z",
+      "discoveredAt": "2026-10-18T18:40:28.872Z",
+      "category": "money",
+      "score": 91,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/aab4fd73e6bfb614e4e858f52"
+      }
+    },
+    {
+      "id": "ad3cfb2084e9e46c977b8b1bf",
+      "title": "[分享创造] 分享一个开源项目 Agent8：让只有 Java 8 的 AIX / HP-UX / Solaris 继续当新版 Jenkins 的 agent",
+      "originalTitle": "[分享创造] 分享一个开源项目 Agent8：让只有 Java 8 的 AIX / HP-UX / Solaris 继续当新版 Jenkins 的 agent",
+      "summary": "传统行业（银行、电信、制造）的 CI 里一个很常见的老问题：软件要支持 AIX 、HP-UX 、Solaris ，构建机都挂在 Jenkins 上，但这些系统上的 Java 基本停在 8 （ AIX 7.1 和 HP-UX 最高 Java 8 ，Solaris 最高 11 ）。 Jenkins 这几年把 Java 要求从 8 抬到 11 、17 ，现在是 21 ，而且 agent 也一样要满足。安全扫描一来 controller 必须升...",
+      "source": {
+        "name": "V2EX·独立开发与副业"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/ad3cfb2084e9e46c977b8b1bf",
+        "original": "https://www.v2ex.com/t/1249844#reply0"
+      },
+      "publishedAt": "2026-10-18T17:48:47.000Z",
+      "discoveredAt": "2026-10-18T18:40:29.203Z",
+      "category": "money",
+      "score": 95,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/ad3cfb2084e9e46c977b8b1bf"
+      }
+    },
+    {
+      "id": "a1793c179f08b570f2f53d42c",
+      "title": "[OpenAI] codex 邀请新用户各得 1000 额度，还有需要的吗，留下邮箱",
+      "originalTitle": "[OpenAI] codex 邀请新用户各得 1000 额度，还有需要的吗，留下邮箱",
+      "summary": "V2EX·独立开发与副业实时快讯：[OpenAI] codex 邀请新用户各得 1000 额度，还有需要的吗，留下邮箱。经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "source": {
+        "name": "V2EX·独立开发与副业"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a1793c179f08b570f2f53d42c",
+        "original": "https://www.v2ex.com/t/1249843#reply0"
+      },
+      "publishedAt": "2026-10-18T17:39:12.000Z",
+      "discoveredAt": "2026-10-18T18:40:29.399Z",
+      "category": "money",
+      "score": 97,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a1793c179f08b570f2f53d42c"
+      }
+    },
+    {
       "id": "a6667808661efb9ba310461e4",
       "title": "[硬件] 一个 1 兆瓦的 AI 机柜，用 54V 光铜排就要 200 公斤：英伟达要把机柜供电换成 800V 直流",
       "originalTitle": "[硬件] 一个 1 兆瓦的 AI 机柜，用 54V 光铜排就要 200 公斤：英伟达要把机柜供电换成 800V 直流",
@@ -56,26 +125,26 @@
       }
     },
     {
-      "id": "a625f66ec0b5d0066a23db07f",
-      "title": "[数学] 陶哲轩：好问题是会被采空的资源",
-      "originalTitle": "[数学] 陶哲轩：好问题是会被采空的资源",
-      "summary": "最近看到一系列的 Agent 数学证明和陶哲轩的，很有感触。解决一个数学问题就像有心种花化不开，无心栽柳柳成荫 他拿自己参与的等式理论项目（ ETP ）举例。这个项目用几个月解决了 2,200 多万个泛代数蕴涵关系，并在 Lean 里形式化。有几处蕴涵卡了他们很久，逼出了构造无限反例的新技术，后来自动定理证明器发现它们其实有很小的有限反例。要是有限反例先被找到，那些更有意思的方法可能就不会出现。他的说法是，数学史上第一次，纯数学里的开放...",
+      "id": "ab5d0071aed03c8afbbea284d",
+      "title": "【出海实战】租用了其他人的 SaaS 并扩展到 3900 美元 MRR 😅",
+      "originalTitle": "Rented someone else SaaS and scaled to $3.9k MRR 😅",
+      "summary": "我可能构建了 10 多个没人要求的 SaaS。所以我尝试了相反的方法......找到了一个 SaaS，它知道它有客户并提供白标签。将我的品牌放在上面，并纯粹专注于通过 Linkedin 外展和组织进行营销...（来源：X/Reddit·出海SaaS搞钱）",
       "source": {
-        "name": "V2EX·独立开发与副业"
+        "name": "X/Reddit·出海SaaS搞钱"
       },
       "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a625f66ec0b5d0066a23db07f",
-        "original": "https://www.v2ex.com/t/1249835#reply0"
+        "aihot": "https://zenglian-news.onrender.com/items/ab5d0071aed03c8afbbea284d",
+        "original": "https://www.reddit.com/r/SaaS/comments/1x97sm5/rented_someone_else_saas_and_scaled_to_39k_mrr/"
       },
-      "publishedAt": "2026-10-18T16:31:41.000Z",
-      "discoveredAt": "2026-10-18T16:49:06.642Z",
+      "publishedAt": "2026-10-18T16:41:09.000Z",
+      "discoveredAt": "2026-10-18T19:17:53.659Z",
       "category": "money",
-      "score": 91,
+      "score": 99,
       "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
       "attribution": {
         "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a625f66ec0b5d0066a23db07f"
+        "url": "https://zenglian-news.onrender.com/items/ab5d0071aed03c8afbbea284d"
       }
     },
     {
@@ -168,29 +237,6 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/af1ed150fccf6b40ea4a6b63e"
-      }
-    },
-    {
-      "id": "a0d05fdbd0ecd0133441f448d",
-      "title": "[grok] grok 订阅后如果操作 X 居然还要另外充值",
-      "originalTitle": "[grok] grok 订阅后如果操作 X 居然还要另外充值",
-      "summary": "绷不住了，premium 才送十几块，两个小时就用完了，老马这套路太深了",
-      "source": {
-        "name": "V2EX·独立开发与副业"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a0d05fdbd0ecd0133441f448d",
-        "original": "https://www.v2ex.com/t/1249829#reply0"
-      },
-      "publishedAt": "2026-10-18T15:12:35.000Z",
-      "discoveredAt": "2026-10-18T15:42:54.612Z",
-      "category": "money",
-      "score": 89,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a0d05fdbd0ecd0133441f448d"
       }
     },
     {
@@ -332,6 +378,29 @@
       }
     },
     {
+      "id": "ac39d47a1105a419bae792acf",
+      "title": "【独立变现】Show HN：《时之笛》重制版之前的《塞尔达传说》时间表",
+      "originalTitle": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
+      "summary": "这是我在《时之笛》重制版 17 天后发布之前制作的。我记得小时候玩这个游戏的感觉，但我没跟上故事情节，所以我制定了一个时间表，以便在《时间之门》重播之前赶上……（来源：Show HN·独立变现榜）",
+      "source": {
+        "name": "Show HN·独立变现榜"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/ac39d47a1105a419bae792acf",
+        "original": "https://legendofhyrule.com/"
+      },
+      "publishedAt": "2026-10-18T13:06:54.000Z",
+      "discoveredAt": "2026-10-18T19:17:50.528Z",
+      "category": "money",
+      "score": 99,
+      "selected": true,
+      "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/ac39d47a1105a419bae792acf"
+      }
+    },
+    {
       "id": "a718e9fb546a58ebf0d9309a0",
       "title": "【国内要闻】第二届全国全民健身大赛（华南区）自行车骑游大会在清远举行",
       "originalTitle": "第二届全国全民健身大赛（华南区）自行车骑游大会在清远举行",
@@ -398,75 +467,6 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/a132bbfded2e35863edaa95cb"
-      }
-    },
-    {
-      "id": "a167fbdeefa9313e374c47213",
-      "title": "【出海实战】我比较了 Levels、Marc Lou、Rob Walling、Justin Welsh 和 Hormozi 对于免费计划的实际看法。几乎所有人都说跳过它。",
-      "originalTitle": "I compared what Levels, Marc Lou, Rob Walling, Justin Welsh and Hormozi actually say about free plans. Almost all of them say skip it.",
-      "summary": "我一直在考虑是否添加免费计划，所以我回顾了一些自力更生的创始人在他们的演讲、文章和帖子中实际上所说的内容。他们自己的话，不是大师总结的版本。斯...（来源：X/Reddit·出海SaaS搞钱）",
-      "source": {
-        "name": "X/Reddit·出海SaaS搞钱"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a167fbdeefa9313e374c47213",
-        "original": "https://www.reddit.com/r/SaaS/comments/1x8zpc0/i_compared_what_levels_marc_lou_rob_walling/"
-      },
-      "publishedAt": "2026-10-18T10:16:18.000Z",
-      "discoveredAt": "2026-10-18T16:49:01.193Z",
-      "category": "money",
-      "score": 98,
-      "selected": true,
-      "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a167fbdeefa9313e374c47213"
-      }
-    },
-    {
-      "id": "a70ec200f595212c99b29ceb0",
-      "title": "【国内要闻】第五届亚洲残疾人运动会开幕式举行 中国体育代表团入场",
-      "originalTitle": "第五届亚洲残疾人运动会开幕式举行 中国体育代表团入场",
-      "summary": "10月18日，第五届亚洲残疾人运动会开幕式在日本名古屋举行，开幕式上，中国体育代表团男子残疾人举重运动员闫盼盼、女子残疾人跆拳道运动员李羽洁作为旗手，引领中国代表团入场。",
-      "source": {
-        "name": "中新网·国内要闻"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a70ec200f595212c99b29ceb0",
-        "original": "https://www.chinanews.com.cn/ty/2026/10-18/10716729.shtml"
-      },
-      "publishedAt": "2026-10-18T09:35:20.000Z",
-      "discoveredAt": "2026-10-18T09:44:38.906Z",
-      "category": "money",
-      "score": 97,
-      "selected": true,
-      "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a70ec200f595212c99b29ceb0"
-      }
-    },
-    {
-      "id": "a62f5f2b8b36ada421c30a272",
-      "title": "【国内要闻】逐浪汉江 2026年安康市划跑三项赛吸引千余名爱好者参与",
-      "originalTitle": "逐浪汉江 2026年安康市划跑三项赛吸引千余名爱好者参与",
-      "summary": "中新网陕西安康10月18日电 (记者 张一辰 李一璠)10月18日，“全民健身·运动三秦”陕西省群众体育五级联赛安康赛区暨2026年安康市划跑三项赛在龙舟文化园落下帷幕。",
-      "source": {
-        "name": "中新网·国内要闻"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a62f5f2b8b36ada421c30a272",
-        "original": "https://www.chinanews.com.cn/ty/2026/10-18/10716713.shtml"
-      },
-      "publishedAt": "2026-10-18T09:19:59.000Z",
-      "discoveredAt": "2026-10-18T09:27:53.179Z",
-      "category": "money",
-      "score": 97,
-      "selected": true,
-      "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a62f5f2b8b36ada421c30a272"
       }
     }
   ],
