@@ -10,72 +10,371 @@
   },
   "items": [
     {
-      "id": "a19a45e75a38e41fce3a771d7",
-      "title": "08年之后，为什么美国再无系统性金融危机？",
-      "originalTitle": "08年之后，为什么美国再无系统性金融危机？",
-      "summary": "本文来自微信公众号： 局外人的视界 ，作者：卡夫卡不忙了 很久没有写点有深度的东西了，这其实也不能怪我，往往想搞点严肃的内容，结果大家都不爱看，所以我也懒得写了。 写昨天文章的时候，有粉丝发来私信，非常悲观的认为AI泡沫已经破裂了，或者说正在破裂的边缘。 毕竟很有名的高志凯教授都说了。 在2018年的时候，我认为美股的泡沫应该破了，那种感觉非常强烈。 2015-2018年是美帝的加息周期，但上一轮加息加到最高2.25%-2.5%，美联储...",
-      "source": {
-        "name": "虎嗅网·商业搞钱深度"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a19a45e75a38e41fce3a771d7",
-        "original": "https://www.huxiu.com/article/4898426.html?f=rss"
-      },
-      "publishedAt": "2026-10-18T13:14:30.000Z",
-      "discoveredAt": "2026-10-18T13:30:21.300Z",
-      "category": "money",
-      "score": 96,
-      "selected": true,
-      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a19a45e75a38e41fce3a771d7"
-      }
-    },
-    {
-      "id": "a1590f4650ff88b3f46102503",
-      "title": "[编程] 我使用 OCaml 5 开发的开源编程语言： Emo 今天官网上线了",
-      "originalTitle": "[编程] 我使用 OCaml 5 开发的开源编程语言： Emo 今天官网上线了",
-      "summary": "废话不多说，看官网吧： https://www.emo-lang.cn/ 国产系统级编程语言。",
+      "id": "a6667808661efb9ba310461e4",
+      "title": "[硬件] 一个 1 兆瓦的 AI 机柜，用 54V 光铜排就要 200 公斤：英伟达要把机柜供电换成 800V 直流",
+      "originalTitle": "[硬件] 一个 1 兆瓦的 AI 机柜，用 54V 光铜排就要 200 公斤：英伟达要把机柜供电换成 800V 直流",
+      "summary": "最近看到英伟达展台上一面墙，十几家功率芯片厂把各自的 800V 电源分配板挂在一起。翻了一下英伟达去年的技术博客和今年 GTC 期间的报道，整理一下为什么要换、换成什么样。 为什么 54V 不够了 现在 GB200 / GB300 这一代机柜里是 54V 直流母线。功率上到 1 兆瓦一个柜子以后，电流太大： 项目 英伟达的数字 54V 下 1MW 机柜的铜排 最多约 200 公斤 54V 下电源架 最多占 64U 800V 对比 415...",
       "source": {
         "name": "V2EX·独立开发与副业"
       },
       "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a1590f4650ff88b3f46102503",
-        "original": "https://www.v2ex.com/t/1249811#reply0"
+        "aihot": "https://zenglian-news.onrender.com/items/a6667808661efb9ba310461e4",
+        "original": "https://www.v2ex.com/t/1249837#reply0"
       },
-      "publishedAt": "2026-10-18T13:11:39.000Z",
-      "discoveredAt": "2026-10-18T13:30:25.088Z",
+      "publishedAt": "2026-10-18T16:43:45.000Z",
+      "discoveredAt": "2026-10-18T16:49:06.413Z",
       "category": "money",
-      "score": 90,
+      "score": 97,
       "selected": true,
       "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
       "attribution": {
         "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a1590f4650ff88b3f46102503"
+        "url": "https://zenglian-news.onrender.com/items/a6667808661efb9ba310461e4"
       }
     },
     {
-      "id": "af131070a1c8734aa6f5c7a2c",
-      "title": "[互联网] 一个所有站长都关系的问题：全国每天有多少备案域名掉注册",
-      "originalTitle": "[互联网] 一个所有站长都关系的问题：全国每天有多少备案域名掉注册",
-      "summary": "注意：买卖备案域名可能违规。但是您注册过期的备案域名是您的自由，建议您注册之后，自觉注销原有备案。 混抢注群的人，几乎每周都会看到同一个问题：全国每天到底有多少个备案域名掉下来？下面的回答永远是拍脑袋——\"几千个吧\"\"上万肯定有\"。我们决定不拍脑袋，用 21.6 万个真实备案域名的到期数据，实打实算一次。 一、为什么要算这笔账 备案域名掉注册，是中文互联网一个真实存在、但从没被量化过的市场。抢注的人凭感觉蹲，卖数据的人凭感觉报价，中间差...",
+      "id": "aecf2b1df6d8fda9531dd317f",
+      "title": "[酷工作] [常州] 创始全栈工程师(AI 向)",
+      "originalTitle": "[酷工作] [常州] 创始全栈工程师(AI 向)",
+      "summary": "创始全栈工程师 一、 关于我们与现状 我们是一个处于 从 0 到 1 验证期 的 AI 原生初创团队，已获得百万级天使轮投资(勉强够启动)。 我们在做 ：基于 AI 应用与智能体 的软硬件产品开发。把应用、智能体和配套硬件做成可以拿到市场验证的产品。 我们的现状 ：资金已到位，但依然处于 创业生死线与高风险探索期 。我们没有大公司的安逸，只有高密度的实战和快速打磨产品的张力。 我们的资源 ：产品走向市场时，可以借助资方的 渠道与流量 加...",
       "source": {
         "name": "V2EX·独立开发与副业"
       },
       "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/af131070a1c8734aa6f5c7a2c",
-        "original": "https://www.v2ex.com/t/1249810#reply0"
+        "aihot": "https://zenglian-news.onrender.com/items/aecf2b1df6d8fda9531dd317f",
+        "original": "https://www.v2ex.com/t/1249836#reply0"
       },
-      "publishedAt": "2026-10-18T13:04:07.000Z",
-      "discoveredAt": "2026-10-18T13:30:25.258Z",
+      "publishedAt": "2026-10-18T16:43:35.000Z",
+      "discoveredAt": "2026-10-18T16:49:06.530Z",
+      "category": "money",
+      "score": 95,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/aecf2b1df6d8fda9531dd317f"
+      }
+    },
+    {
+      "id": "a625f66ec0b5d0066a23db07f",
+      "title": "[数学] 陶哲轩：好问题是会被采空的资源",
+      "originalTitle": "[数学] 陶哲轩：好问题是会被采空的资源",
+      "summary": "最近看到一系列的 Agent 数学证明和陶哲轩的，很有感触。解决一个数学问题就像有心种花化不开，无心栽柳柳成荫 他拿自己参与的等式理论项目（ ETP ）举例。这个项目用几个月解决了 2,200 多万个泛代数蕴涵关系，并在 Lean 里形式化。有几处蕴涵卡了他们很久，逼出了构造无限反例的新技术，后来自动定理证明器发现它们其实有很小的有限反例。要是有限反例先被找到，那些更有意思的方法可能就不会出现。他的说法是，数学史上第一次，纯数学里的开放...",
+      "source": {
+        "name": "V2EX·独立开发与副业"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a625f66ec0b5d0066a23db07f",
+        "original": "https://www.v2ex.com/t/1249835#reply0"
+      },
+      "publishedAt": "2026-10-18T16:31:41.000Z",
+      "discoveredAt": "2026-10-18T16:49:06.642Z",
       "category": "money",
       "score": 91,
       "selected": true,
       "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
       "attribution": {
         "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/af131070a1c8734aa6f5c7a2c"
+        "url": "https://zenglian-news.onrender.com/items/a625f66ec0b5d0066a23db07f"
+      }
+    },
+    {
+      "id": "af9eaa9c86ec40601747317e3",
+      "title": "保留所有可能性，是行动力最贵的死法",
+      "originalTitle": "保留所有可能性，是行动力最贵的死法",
+      "summary": "本文来自微信公众号： 乐鉴笔记 ，作者：乐鉴 你窝在沙发里，打开手机找部片子看。首页推了几十个分类，每个分类下面十几部推荐。你划了二十分钟，越划越焦虑——不是没有想看的，是每部看起来都还行，但没有一部让你觉得\"就是它了\"。 最后你关掉APP，刷了半小时短视频。 同样的逻辑，换一个场景。周五晚上，你打开电脑准备规划周末。想学的那门课收藏夹里躺了三周，朋友推荐的书第一章还没翻完，跑步计划从上周就该启动了，那个项目方案拖了快一个月。你看着这些...",
+      "source": {
+        "name": "虎嗅网·商业搞钱深度"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/af9eaa9c86ec40601747317e3",
+        "original": "https://www.huxiu.com/article/4898445.html?f=rss"
+      },
+      "publishedAt": "2026-10-18T16:24:05.000Z",
+      "discoveredAt": "2026-10-18T16:49:02.794Z",
+      "category": "money",
+      "score": 95,
+      "selected": true,
+      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/af9eaa9c86ec40601747317e3"
+      }
+    },
+    {
+      "id": "af9b643d28ea41442b9b742ea",
+      "title": "向西跋涉：中国汽车的欧洲十六年",
+      "originalTitle": "向西跋涉：中国汽车的欧洲十六年",
+      "summary": "本文来自微信公众号： 秦朔朋友圈 ，作者：周吉祥 路过苏黎世机场，我看见了航站楼正面大楼墙面极氪那块巨大的广告牌，目测一两百平。它立在车来车往的地方，刚出机场打上车，抬起眼皮便能撞见。异国他乡，印象格外深。想来，说德语的、说法语的、说中文的、说英语的，都会看见它。 苏黎世机场去年进出3200多万人次，据说，这里有钱人和拿主意的人的比例，在欧洲机场里数一数二。 10月12日，我参观了“巴黎车展”，在凡尔赛门，第91届。光是吉利系的站台活动...",
+      "source": {
+        "name": "虎嗅网·商业搞钱深度"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/af9b643d28ea41442b9b742ea",
+        "original": "https://www.huxiu.com/article/4898444.html?f=rss"
+      },
+      "publishedAt": "2026-10-18T16:10:23.000Z",
+      "discoveredAt": "2026-10-18T16:49:02.908Z",
+      "category": "money",
+      "score": 95,
+      "selected": true,
+      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/af9b643d28ea41442b9b742ea"
+      }
+    },
+    {
+      "id": "a8a67bfdb62da472ebdd5eadb",
+      "title": "为责任和尊严而战：中国软件业还要亏多久？|| 大视野",
+      "originalTitle": "为责任和尊严而战：中国软件业还要亏多久？|| 大视野",
+      "summary": "本文来自微信公众号： 秦朔朋友圈 ，作者：秦朔 如果一个产业，在国家的五年计划/规划中长期出现，那一定有着基础性、关键性的作用。 1986年4月，经全国人大批准的第七个五年计划纲要提出，“围绕开拓新兴产业的需要，加快集成电路、电子计算机、通信设备和软件产业的发展。”“制定发展计算机应用软件的政策。” 从那时起，软件产业在国家发展规划中从未缺席。在“十五五”规划纲要中，基础软件和工业软件再次入围，被写入“打好关键核心技术攻坚战”“促进数字...",
+      "source": {
+        "name": "虎嗅网·商业搞钱深度"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a8a67bfdb62da472ebdd5eadb",
+        "original": "https://www.huxiu.com/article/4898443.html?f=rss"
+      },
+      "publishedAt": "2026-10-18T16:09:09.000Z",
+      "discoveredAt": "2026-10-18T16:49:03.021Z",
+      "category": "money",
+      "score": 95,
+      "selected": true,
+      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a8a67bfdb62da472ebdd5eadb"
+      }
+    },
+    {
+      "id": "af1ed150fccf6b40ea4a6b63e",
+      "title": "你买的新iPhone沉在霍尔木兹海峡了？恭喜你又被AI新闻给骗了。",
+      "originalTitle": "你买的新iPhone沉在霍尔木兹海峡了？恭喜你又被AI新闻给骗了。",
+      "summary": "本文来自微信公众号： 01Founder ，编辑：Max，作者：一直在路上的Max 我不知道你有没有看过这个新闻，反正我在好几个AI群里都看到了。 说的是一艘货轮在霍尔木兹海峡沉了，上面装着大量全新iPhone和法国香水，东西漂在海上，人伊朗的渔民老哥直接开船过去捞，捞上来回港口就卖。 群里转了不少视频号，有货轮冒烟的画面，也有小船围着打捞的画面。 我之前看到的时候，就觉得有点抽象，尤其那个视频，总觉得哪里怪怪的。 结果今天再刷，才发现...",
+      "source": {
+        "name": "虎嗅网·商业搞钱深度"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/af1ed150fccf6b40ea4a6b63e",
+        "original": "https://www.huxiu.com/article/4898442.html?f=rss"
+      },
+      "publishedAt": "2026-10-18T16:05:50.000Z",
+      "discoveredAt": "2026-10-18T16:49:03.132Z",
+      "category": "money",
+      "score": 97,
+      "selected": true,
+      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/af1ed150fccf6b40ea4a6b63e"
+      }
+    },
+    {
+      "id": "a0d05fdbd0ecd0133441f448d",
+      "title": "[grok] grok 订阅后如果操作 X 居然还要另外充值",
+      "originalTitle": "[grok] grok 订阅后如果操作 X 居然还要另外充值",
+      "summary": "绷不住了，premium 才送十几块，两个小时就用完了，老马这套路太深了",
+      "source": {
+        "name": "V2EX·独立开发与副业"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a0d05fdbd0ecd0133441f448d",
+        "original": "https://www.v2ex.com/t/1249829#reply0"
+      },
+      "publishedAt": "2026-10-18T15:12:35.000Z",
+      "discoveredAt": "2026-10-18T15:42:54.612Z",
+      "category": "money",
+      "score": 89,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a0d05fdbd0ecd0133441f448d"
+      }
+    },
+    {
+      "id": "a219154506a423ce359aba098",
+      "title": "“驽工理论”被美国人偷走了",
+      "originalTitle": "“驽工理论”被美国人偷走了",
+      "summary": "本文来自微信公众号： 骑桶跑路人 ，作者：骑桶跑路人 驽工理论，是今年知乎人文社科领域的重大创新。目前已经被ban了，足见其含金量，说它能和“刀工理论”并驾齐驱也不为过。 墙里开花墙外香，虽然驽工理论在我国被ban了，但被美国人偷走去拍电影了。有一种戴高乐的军事著作，法国人自己不看，但德国人看的既视感。 我最近看了《生化危机·爆发夜》，是《生化危机》这个系列评分最高的电影，烂番茄96％。这部电影的理论基础就是驽工理论，即层层外包，最终将...",
+      "source": {
+        "name": "虎嗅网·商业搞钱深度"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a219154506a423ce359aba098",
+        "original": "https://www.huxiu.com/article/4898436.html?f=rss"
+      },
+      "publishedAt": "2026-10-18T15:04:36.000Z",
+      "discoveredAt": "2026-10-18T15:42:49.615Z",
+      "category": "money",
+      "score": 98,
+      "selected": true,
+      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a219154506a423ce359aba098"
+      }
+    },
+    {
+      "id": "a2951ca7c4feb52438ea5b16a",
+      "title": "济安金信行业分类对养老金投资的价值观察",
+      "originalTitle": "济安金信行业分类对养老金投资的价值观察",
+      "summary": "（本文作者为 Barrons巴伦，钛媒体经授权发布） 一、济安金信行业分类标准简要介绍 济安金信行业分类是国内第三方机构推出的本土资本市场行业分类成果，采用&ldquo;经济部门基座+产业链价值延展&rdquo;双维度范式，搭建45个一级、144个二级、369个三级的三级架构，分别匹配宏观统计、中观产业链、微观细分赛道研究需求（具体分类参考 http://www.jajx.com/industrytype）。该标准坚持实质重于形式与单一...",
+      "source": {
+        "name": "钛媒体·资本与风口"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a2951ca7c4feb52438ea5b16a",
+        "original": "https://www.tmtpost.com/8172537.html"
+      },
+      "publishedAt": "2026-10-18T14:38:14.000Z",
+      "discoveredAt": "2026-10-18T15:42:53.180Z",
+      "category": "money",
+      "score": 94,
+      "selected": true,
+      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a2951ca7c4feb52438ea5b16a"
+      }
+    },
+    {
+      "id": "abd47da22c645f3a237859f53",
+      "title": "中美AI竞争的新变量：开源、算力与产业生态",
+      "originalTitle": "中美AI竞争的新变量：开源、算力与产业生态",
+      "summary": "（本文作者为 Barrons巴伦，钛媒体经授权发布） 过去几年，中美人工智能竞争最容易被看见的是模型排行榜、GPU数量和参数规模。但到了2026年，竞争的重心正在发生变化：模型能力仍然重要，真正决定一套技术路线能否持续扩张的，越来越包括推理成本、开发者生态、云服务、企业部署、真实场景数据以及规则制定能力。 开源与闭源因此不再只是工程师之间的技术路线之争。对企业而言，它关系到商业模式和客户控制权；对产业而言，它决定模型能以多低的成本进入制...",
+      "source": {
+        "name": "钛媒体·资本与风口"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/abd47da22c645f3a237859f53",
+        "original": "https://www.tmtpost.com/8172534.html"
+      },
+      "publishedAt": "2026-10-18T14:37:59.000Z",
+      "discoveredAt": "2026-10-18T15:42:53.377Z",
+      "category": "money",
+      "score": 98,
+      "selected": true,
+      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/abd47da22c645f3a237859f53"
+      }
+    },
+    {
+      "id": "a5e7c046ec577cfeccdf0dead",
+      "title": "价值判断：跌停板的投资机会和风险提示（10月16日）｜上市公司观察",
+      "originalTitle": "价值判断：跌停板的投资机会和风险提示（10月16日）｜上市公司观察",
+      "summary": "（本文作者为 Barrons巴伦，钛媒体经授权发布） 一、市场概览 10月16日，A股三大指数集体高开，早盘冲高后震荡回落、沪指盘中一度失守3700点关口，午后在军工与汽车零部件板块带动下震荡回升，全天呈&ldquo;指数分化、军工领涨、个股涨多跌少&rdquo;的格局。上证指数涨0.24%报3716.28点（3700点失而复得），深证成指跌0.12%报11802.46点，创业板指跌0.39%报2772.38点，科创综指跌0.18%报1...",
+      "source": {
+        "name": "钛媒体·资本与风口"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a5e7c046ec577cfeccdf0dead",
+        "original": "https://www.tmtpost.com/8172532.html"
+      },
+      "publishedAt": "2026-10-18T14:37:35.000Z",
+      "discoveredAt": "2026-10-18T15:42:53.579Z",
+      "category": "money",
+      "score": 95,
+      "selected": true,
+      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a5e7c046ec577cfeccdf0dead"
+      }
+    },
+    {
+      "id": "a27a4baee70fb39d3863c5ba0",
+      "title": "数学的“第四次危机”：从不可说，到无可说",
+      "originalTitle": "数学的“第四次危机”：从不可说，到无可说",
+      "summary": "（本文作者为 Barrons巴伦，钛媒体经授权发布） 过去两年，资本市场正在把&ldquo;AGI&rdquo;&ldquo;AI for Science&rdquo;&ldquo;自动科研&rdquo;&ldquo;AI科学家&rdquo;写进对科技公司的增长预期。投资者关心的已经不只是模型能否生成更好的文字、代码和图像，而是它能否进入科学发现最稀缺的环节&mdash;&mdash;提出问题、形成猜想、构造证明，并由此持续创造新知识。...",
+      "source": {
+        "name": "钛媒体·资本与风口"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a27a4baee70fb39d3863c5ba0",
+        "original": "https://www.tmtpost.com/8172522.html"
+      },
+      "publishedAt": "2026-10-18T14:36:51.000Z",
+      "discoveredAt": "2026-10-18T15:42:53.815Z",
+      "category": "money",
+      "score": 96,
+      "selected": true,
+      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a27a4baee70fb39d3863c5ba0"
+      }
+    },
+    {
+      "id": "aeeb74fd0f864f23438641009",
+      "title": "DeepSeek成立产品部！1.3亿人免费用的AI，变现模式会参考ChatGPT订阅吗？",
+      "originalTitle": "DeepSeek成立产品部！1.3亿人免费用的AI，变现模式会参考ChatGPT订阅吗？",
+      "summary": "（本文作者为 财能圈，钛媒体经授权发布） 文 | 财能圈 DeepSeek成立产品部，是想要把1.30亿免费用户变成一份招股书里讲得清楚的变现路线图。而学ChatGPT上订阅这个最直觉的答案，恰恰可能是最危险的那一个。 10月16日，DeepSeek将Harness团队以及Web、App、Platform三个团队整合为产品部，原Harness负责人崔添翼出任产品部负责人，统筹公司全部产品、设计和研发工作，产品部同期开始对外招聘产品设计师...",
+      "source": {
+        "name": "钛媒体·资本与风口"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/aeeb74fd0f864f23438641009",
+        "original": "https://www.tmtpost.com/8172203.html"
+      },
+      "publishedAt": "2026-10-18T13:59:34.000Z",
+      "discoveredAt": "2026-10-18T14:26:08.609Z",
+      "category": "money",
+      "score": 98,
+      "selected": true,
+      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/aeeb74fd0f864f23438641009"
+      }
+    },
+    {
+      "id": "a718e9fb546a58ebf0d9309a0",
+      "title": "【国内要闻】第二届全国全民健身大赛（华南区）自行车骑游大会在清远举行",
+      "originalTitle": "第二届全国全民健身大赛（华南区）自行车骑游大会在清远举行",
+      "summary": "中新网清远10月18日电 (记者 张璐)第二届全国全民健身大赛(华南区)自行车骑游大会暨清远连南国家石漠公园自行车骑行活动(以下简称“活动”)18日在连南瑶族自治县举行。来自各地的骑友齐聚世界瑶乡，在喀斯特峰林与千年瑶寨之间穿行，用一场骑游感受全民健身的活力与民族文化的魅力。",
+      "source": {
+        "name": "中新网·国内要闻"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a718e9fb546a58ebf0d9309a0",
+        "original": "https://www.chinanews.com.cn/ty/2026/10-18/10716846.shtml"
+      },
+      "publishedAt": "2026-10-18T12:57:47.000Z",
+      "discoveredAt": "2026-10-18T13:29:54.139Z",
+      "category": "money",
+      "score": 97,
+      "selected": true,
+      "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a718e9fb546a58ebf0d9309a0"
+      }
+    },
+    {
+      "id": "a7c437978a22a76a0fa3bc361",
+      "title": "【国内要闻】武阳里2026中国公路自行车公开赛（眉山彭山站）热力启幕",
+      "originalTitle": "武阳里2026中国公路自行车公开赛（眉山彭山站）热力启幕",
+      "summary": "中新网四川眉山10月18日电 武阳里2026中国公路自行车公开赛(眉山彭山站)在眉山市鸣枪开赛。赛事延续“问寿寻宝·骑迹彭山”主题，吸引了来自全国各地的近3000名车手齐聚寿乡，参赛人数创下2026赛季分站赛新高。",
+      "source": {
+        "name": "中新网·国内要闻"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a7c437978a22a76a0fa3bc361",
+        "original": "https://www.chinanews.com.cn/ty/2026/10-18/10716845.shtml"
+      },
+      "publishedAt": "2026-10-18T12:57:07.000Z",
+      "discoveredAt": "2026-10-18T13:29:54.310Z",
+      "category": "money",
+      "score": 97,
+      "selected": true,
+      "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a7c437978a22a76a0fa3bc361"
       }
     },
     {
@@ -102,118 +401,26 @@
       }
     },
     {
-      "id": "a93e06cc0e370ab97744581dd",
-      "title": "花一个月工资，在大兴安岭盘个院子",
-      "originalTitle": "花一个月工资，在大兴安岭盘个院子",
-      "summary": "本文来自微信公众号： 北纬实验室 ，作者：陈默，题图来自：北纬实验室 &ldquo;这或许是我做过的最勇敢的决定。&rdquo;2026年4月底的一天，许雯雯和丈夫进行了一次将近2000公里的居家大迁徙。 他们包了一辆车，雇了两个司机，带着七只猫、一只狗、两只龙猫和全部家当，用24个小时一刻不停地从北京开到了新定居地&mdash;&mdash;内蒙古自治区呼伦贝尔市牙克石市伊图里河镇。小镇位于大兴安岭山脉西部，在北京春暖花开的时节，小镇...",
+      "id": "a167fbdeefa9313e374c47213",
+      "title": "【出海实战】我比较了 Levels、Marc Lou、Rob Walling、Justin Welsh 和 Hormozi 对于免费计划的实际看法。几乎所有人都说跳过它。",
+      "originalTitle": "I compared what Levels, Marc Lou, Rob Walling, Justin Welsh and Hormozi actually say about free plans. Almost all of them say skip it.",
+      "summary": "我一直在考虑是否添加免费计划，所以我回顾了一些自力更生的创始人在他们的演讲、文章和帖子中实际上所说的内容。他们自己的话，不是大师总结的版本。斯...（来源：X/Reddit·出海SaaS搞钱）",
       "source": {
-        "name": "虎嗅网·商业搞钱深度"
+        "name": "X/Reddit·出海SaaS搞钱"
       },
       "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a93e06cc0e370ab97744581dd",
-        "original": "https://www.huxiu.com/article/4898393.html?f=rss"
+        "aihot": "https://zenglian-news.onrender.com/items/a167fbdeefa9313e374c47213",
+        "original": "https://www.reddit.com/r/SaaS/comments/1x8zpc0/i_compared_what_levels_marc_lou_rob_walling/"
       },
-      "publishedAt": "2026-10-18T12:19:22.000Z",
-      "discoveredAt": "2026-10-18T13:30:21.472Z",
-      "category": "money",
-      "score": 95,
-      "selected": true,
-      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a93e06cc0e370ab97744581dd"
-      }
-    },
-    {
-      "id": "abf4c5dfe6f45bb6acfaa0bee",
-      "title": "它确实止住了我的“猪瘾”，但差点让我的胃死掉",
-      "originalTitle": "它确实止住了我的“猪瘾”，但差点让我的胃死掉",
-      "summary": "本文来自微信公众号： 果壳 ，作者：Lynx，编辑：卢盼、代天医 本文来自“果壳病人”。这里会发布与健康、疾病有关的故事，并呈现每个故事背后的百态人生。如果希望分享自己的故事，欢迎投稿给health@guokr.com 8月的一个上午，我突然浑身乏力。那段时间，我在用替尔泊肽，一种减重的处方药。医生叮嘱过，有些人会因为打这个针食欲下降，忘了吃饭，不知不觉低血糖。 再一想，我当天没吃早餐——第一反应是我可能低血糖了，得赶紧吃点东西！于是，...",
-      "source": {
-        "name": "虎嗅网·商业搞钱深度"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/abf4c5dfe6f45bb6acfaa0bee",
-        "original": "https://www.huxiu.com/article/4898425.html?f=rss"
-      },
-      "publishedAt": "2026-10-18T12:15:48.000Z",
-      "discoveredAt": "2026-10-18T13:30:21.641Z",
-      "category": "money",
-      "score": 96,
-      "selected": true,
-      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/abf4c5dfe6f45bb6acfaa0bee"
-      }
-    },
-    {
-      "id": "ab8242d321ef58e1c3d714353",
-      "title": "疯狂砸钱后，中国车出海开始纯过日子",
-      "originalTitle": "疯狂砸钱后，中国车出海开始纯过日子",
-      "summary": "出品｜虎嗅汽车组 作者｜杨杰 题图｜虎嗅拍摄 中国车出海的前一个阶段，是一笔算不过来的账。 2026年上半年，中国汽车出口509.6万辆，同比增长65.3%，半年度出口量首次突破500万辆，连续第三年稳居全球第一。 但在高速增长的背后，资本市场给出的答案是股价集体重挫： 港股13家主流车企上半年全线收跌 ，北京汽车跌59.6%，赛力斯跌56.7%，岚图跌54.1%，华晨中国跌52.8%，广汽集团跌49.1%，五家跌幅逼近或超过50%；A...",
-      "source": {
-        "name": "虎嗅网·商业搞钱深度"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/ab8242d321ef58e1c3d714353",
-        "original": "https://www.huxiu.com/article/4898416.html?f=rss"
-      },
-      "publishedAt": "2026-10-18T12:04:12.000Z",
-      "discoveredAt": "2026-10-18T13:30:21.811Z",
+      "publishedAt": "2026-10-18T10:16:18.000Z",
+      "discoveredAt": "2026-10-18T16:49:01.193Z",
       "category": "money",
       "score": 98,
       "selected": true,
-      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+      "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
       "attribution": {
         "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/ab8242d321ef58e1c3d714353"
-      }
-    },
-    {
-      "id": "a976e3fdfa180bf5849139fa9",
-      "title": "[分享创造] [开源/安卓] 勿追踪：利用无障碍权限自动去除安卓应用分享链接中的追踪参数",
-      "originalTitle": "[分享创造] [开源/安卓] 勿追踪：利用无障碍权限自动去除安卓应用分享链接中的追踪参数",
-      "summary": "一句简介 用户点击分享按钮后应用产生悬浮窗，点击悬浮窗后，应用利用无障碍权限点击分享链接，解析后去除链接中的应用参数后进入二次分享面板。 应用简介 已完成功能： 支持以在用户点击分享按键后自动点击分享链接解析，或等待用户点击悬浮窗 二次分享面板支持悬浮窗或跳转应用内分享 支持去除图片中二维码的追踪链接（利用 ML Kit 识别并重绘） 自定义的规则导入 应用特性 一般追踪链接都会携带含有分享用户的隐私参数，用于大数据关联。同时，部分应用...",
-      "source": {
-        "name": "V2EX·独立开发与副业"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a976e3fdfa180bf5849139fa9",
-        "original": "https://www.v2ex.com/t/1249785#reply0"
-      },
-      "publishedAt": "2026-10-18T10:24:16.000Z",
-      "discoveredAt": "2026-10-18T10:34:03.921Z",
-      "category": "money",
-      "score": 92,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a976e3fdfa180bf5849139fa9"
-      }
-    },
-    {
-      "id": "aaaf53a8d179df25dfb7975ee",
-      "title": "饮品行业魔咒：卖水的做不好饮料，卖饮料的做不好水",
-      "originalTitle": "饮品行业魔咒：卖水的做不好饮料，卖饮料的做不好水",
-      "summary": "本文来自微信公众号： 新经销 ，作者：高级研究员 海游 在前两天的一个行业论坛，我提了一个观点：国内卖好瓶装水的企业卖饮料都不行，卖好饮料的卖瓶装水都不行。 这几年，经常能看到水企推出茶饮料、功能饮料，也看到饮料企业试水矿泉水、纯净水。很多企业觉得，无非是多生产一款产品，利用现有经销商网络，再铺进原来的终端。 但最后的结果，往往不如人意。 瓶装水和饮料是两个概念，瓶装水是消费者竞争力，是消费习惯的培养，饮料是渠道竞争力，是渠道力下的场景...",
-      "source": {
-        "name": "虎嗅网·商业搞钱深度"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/aaaf53a8d179df25dfb7975ee",
-        "original": "https://www.huxiu.com/article/4898410.html?f=rss"
-      },
-      "publishedAt": "2026-10-18T10:09:18.000Z",
-      "discoveredAt": "2026-10-18T10:33:59.620Z",
-      "category": "money",
-      "score": 95,
-      "selected": true,
-      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/aaaf53a8d179df25dfb7975ee"
+        "url": "https://zenglian-news.onrender.com/items/a167fbdeefa9313e374c47213"
       }
     },
     {
@@ -240,29 +447,6 @@
       }
     },
     {
-      "id": "a4a6244ff0d77104ebc0b3dd9",
-      "title": "[OpenWrt] 现在还有哪些机场支持 openwrt?",
-      "originalTitle": "[OpenWrt] 现在还有哪些机场支持 openwrt?",
-      "summary": "V2EX·独立开发与副业实时快讯：[OpenWrt] 现在还有哪些机场支持 openwrt?。经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "source": {
-        "name": "V2EX·独立开发与副业"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a4a6244ff0d77104ebc0b3dd9",
-        "original": "https://www.v2ex.com/t/1249774#reply0"
-      },
-      "publishedAt": "2026-10-18T09:29:15.000Z",
-      "discoveredAt": "2026-10-18T09:30:33.733Z",
-      "category": "money",
-      "score": 95,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a4a6244ff0d77104ebc0b3dd9"
-      }
-    },
-    {
       "id": "a62f5f2b8b36ada421c30a272",
       "title": "【国内要闻】逐浪汉江 2026年安康市划跑三项赛吸引千余名爱好者参与",
       "originalTitle": "逐浪汉江 2026年安康市划跑三项赛吸引千余名爱好者参与",
@@ -283,190 +467,6 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/a62f5f2b8b36ada421c30a272"
-      }
-    },
-    {
-      "id": "abc69439e68df3197e0a5207a",
-      "title": "【国内要闻】学体联2026年全国大学生跳绳锦标赛云南镇雄落幕",
-      "originalTitle": "学体联2026年全国大学生跳绳锦标赛云南镇雄落幕",
-      "summary": "中新网云南昭通10月18日电 (马礼琼 陈忠华)学体联2026年全国大学生跳绳锦标赛17日晚在云南省昭通市镇雄县落下帷幕。三天时间里，来自全国21个省(自治区、直辖市)的75支高校代表队、900余名参赛人员齐聚赤水源头，以绳为翼、跃动如风，用汗水与坚持诠释青春力量。",
-      "source": {
-        "name": "中新网·国内要闻"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/abc69439e68df3197e0a5207a",
-        "original": "https://www.chinanews.com.cn/ty/2026/10-18/10716709.shtml"
-      },
-      "publishedAt": "2026-10-18T09:16:01.000Z",
-      "discoveredAt": "2026-10-18T09:27:53.649Z",
-      "category": "money",
-      "score": 97,
-      "selected": true,
-      "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/abc69439e68df3197e0a5207a"
-      }
-    },
-    {
-      "id": "ab9eabfdfd971202b42ec13b8",
-      "title": "【出海实战】在构建 SaaS 创意之前如何对其进行验证？",
-      "originalTitle": "How do you validate a SaaS idea before building it?",
-      "summary": "我正在探索一些 SaaS 想法，并试图找出在投入过多时间进行开发之前验证需求的最有效方法。我很想听听什么对你真正有用，尤其是......（来源：X/Reddit·出海SaaS搞钱）",
-      "source": {
-        "name": "X/Reddit·出海SaaS搞钱"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/ab9eabfdfd971202b42ec13b8",
-        "original": "https://www.reddit.com/r/SaaS/comments/1x8yl0o/how_do_you_validate_a_saas_idea_before_building_it/"
-      },
-      "publishedAt": "2026-10-18T09:05:04.000Z",
-      "discoveredAt": "2026-10-18T13:30:18.230Z",
-      "category": "money",
-      "score": 99,
-      "selected": true,
-      "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/ab9eabfdfd971202b42ec13b8"
-      }
-    },
-    {
-      "id": "a72c400210fbe453628997a20",
-      "title": "“任丘样本”给行业上了一课：全国首批锂+钠示范落地河北，大电芯为何看远景790Ah？",
-      "originalTitle": "“任丘样本”给行业上了一课：全国首批锂+钠示范落地河北，大电芯为何看远景790Ah？",
-      "summary": "（本文作者为 预见能源，钛媒体经授权发布） 文 | 预见能源 河北任丘一个100MW/400MWh的独立储能项目，最近引起行业关注。 项目体量不大，身份却不普通：全国首批&ldquo;磷酸铁锂+钠离子&rdquo;双技术路线试点，同步建设220kV升压站直接接入区域主网，涉网性能和控制可靠性被写成硬门槛；磷酸铁锂标段由远景中标，将搭载远景动力790Ah方壳卷绕电芯。 放在2026年容量电价机制落地、河北清单制管理收紧的节点上看，这单中标...",
-      "source": {
-        "name": "钛媒体·资本与风口"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a72c400210fbe453628997a20",
-        "original": "https://www.tmtpost.com/8172199.html"
-      },
-      "publishedAt": "2026-10-18T07:55:20.000Z",
-      "discoveredAt": "2026-10-18T09:28:21.584Z",
-      "category": "money",
-      "score": 94,
-      "selected": true,
-      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a72c400210fbe453628997a20"
-      }
-    },
-    {
-      "id": "acfb5742f0cece87ebbe99a70",
-      "title": "美光崛起背后：美国内存“独苗”的生存战、资本博弈与AI重生",
-      "originalTitle": "美光崛起背后：美国内存“独苗”的生存战、资本博弈与AI重生",
-      "summary": "（本文作者为 硅谷101，钛媒体经授权发布） 文 | 硅谷101 9月30日，美光再次交出了一份创纪录的财报。 2026财年第四季度，美光单季营收达到542.3亿美元，营业利润率达到80.7%，营收与净利润双双刷新纪录。AI带来的强劲需求，正在让这家存储芯片公司迎来历史上最赚钱的时刻。 但回顾美光近五十年的历史，它的成长远没有今天的业绩看起来那么顺利。在存储行业残酷的价格周期中，许多曾经的巨头相继退出，而美光却一次次熬过亏损和行业洗牌，...",
-      "source": {
-        "name": "钛媒体·资本与风口"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/acfb5742f0cece87ebbe99a70",
-        "original": "https://www.tmtpost.com/8172334.html"
-      },
-      "publishedAt": "2026-10-18T07:55:14.000Z",
-      "discoveredAt": "2026-10-18T09:28:22.022Z",
-      "category": "money",
-      "score": 98,
-      "selected": true,
-      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/acfb5742f0cece87ebbe99a70"
-      }
-    },
-    {
-      "id": "a5810dce96b336cd3f2c0f291",
-      "title": "【国内要闻】以赛为媒 江西南昌积极推进三人篮球运动普及发展",
-      "originalTitle": "以赛为媒 江西南昌积极推进三人篮球运动普及发展",
-      "summary": "中新网南昌10月18日电(卢梦梦)10月17日晚，以“让梦想启航”为主题的2026 FIBA Open3×3南昌三人篮球英雄争霸赛暨全国青少年总决赛在江西省南昌市东湖区开幕。",
-      "source": {
-        "name": "中新网·国内要闻"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a5810dce96b336cd3f2c0f291",
-        "original": "https://www.chinanews.com.cn/ty/2026/10-18/10716656.shtml"
-      },
-      "publishedAt": "2026-10-18T07:50:47.000Z",
-      "discoveredAt": "2026-10-18T07:56:26.908Z",
-      "category": "money",
-      "score": 98,
-      "selected": true,
-      "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a5810dce96b336cd3f2c0f291"
-      }
-    },
-    {
-      "id": "a954761053169c8d3ed64c464",
-      "title": "【出海实战】我的第一个 Ready Nextjs Supabase Auth 样板",
-      "originalTitle": "My first Ready Nextjs Supabase Auth Boilerplate",
-      "summary": "https://preview.redd.it/k7f5aoo0k6wh1.png?width=1677&format=png&auto=webp&s=9846e4b432074086ffea8689697f0aa2f2511f19 由/u/Icy-Maintenance-231 提交 [链接] [评论]（来源：X/Reddit·出海SaaS搞钱）",
-      "source": {
-        "name": "X/Reddit·出海SaaS搞钱"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a954761053169c8d3ed64c464",
-        "original": "https://www.reddit.com/r/SaaS/comments/1x8xayc/my_first_ready_nextjs_supabase_auth_boilerplate/"
-      },
-      "publishedAt": "2026-10-18T07:43:59.000Z",
-      "discoveredAt": "2026-10-18T09:28:16.100Z",
-      "category": "money",
-      "score": 99,
-      "selected": true,
-      "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a954761053169c8d3ed64c464"
-      }
-    },
-    {
-      "id": "a801db69ffb49c7215e905e76",
-      "title": "4549家店狂奔，必胜客却“栽”在一只蟑螂手里",
-      "originalTitle": "4549家店狂奔，必胜客却“栽”在一只蟑螂手里",
-      "summary": "（本文作者为 创业最前线，钛媒体经授权发布） 文 | 创业最前线，作者 | 付艳翠，编辑 | 冯羽 回访电话是在收到外卖后几分钟就接到的。 王丽丽已经不是第一次点必胜客，但每次门店员工都会打来电话，细致询问用餐体验、收集优化建议，彰显品牌精细化服务的姿态。 只是同一套服务，落到不同的消费者身上，却是两个版本的故事。 佛山消费者林里不会忘记，中秋前夕那份送到家门口的榴莲披萨&mdash;&mdash;外包装完好，盒外还附着一张提示纸，可打...",
-      "source": {
-        "name": "钛媒体·资本与风口"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a801db69ffb49c7215e905e76",
-        "original": "https://www.tmtpost.com/8172248.html"
-      },
-      "publishedAt": "2026-10-18T07:35:58.000Z",
-      "discoveredAt": "2026-10-18T07:42:18.226Z",
-      "category": "money",
-      "score": 96,
-      "selected": true,
-      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a801db69ffb49c7215e905e76"
-      }
-    },
-    {
-      "id": "a749a397980f8d8c516232ab4",
-      "title": "营收腰斩的煌上煌加盟商，变“孤独守店人”",
-      "originalTitle": "营收腰斩的煌上煌加盟商，变“孤独守店人”",
-      "summary": "（本文作者为 创业最前线，钛媒体经授权发布） 文 | 创业最前线，作者 | 王晴，编辑 | 冯羽 &ldquo;做了四年煌上煌，想去旅游了。&rdquo; 今年年初，韩胜终于将位于广东的煌上煌店铺挂上了闲鱼，当时投资了30万元，这个数字在平台上被他划掉了，改为售价9万8。有了这笔钱，他与煌上煌之间将达成平账的结局，&ldquo;两不相欠&rdquo;了。 卖店是韩胜纠结了许久的决定。&ldquo;煌上煌是我的第一次创业，把店盘出去还是舍...",
-      "source": {
-        "name": "钛媒体·资本与风口"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a749a397980f8d8c516232ab4",
-        "original": "https://www.tmtpost.com/8172236.html"
-      },
-      "publishedAt": "2026-10-18T07:35:56.000Z",
-      "discoveredAt": "2026-10-18T07:42:18.439Z",
-      "category": "money",
-      "score": 98,
-      "selected": true,
-      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a749a397980f8d8c516232ab4"
       }
     }
   ],
