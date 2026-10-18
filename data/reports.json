@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T22:36:35.565Z",
+  "generatedAt": "2026-10-18T00:24:42.180Z",
   "daily": {
     "kind": "daily",
     "key": "2026-10-18",
     "title": "曾练全球一手简报 · 今日日报 (2026-10-18)",
     "subtitle": "全球·国内·商业搞钱·AI·影视娱乐·体育 六大实时Top20精选",
-    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：2026长三角国际青年电影周开幕；AI落地的“检验标准”趋于多元；小红书的AI，开始和自己的生意算账。",
+    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：AI落地的“检验标准”趋于多元；Anthropic，也要付10%高息；您会将您的人工智能模型和工具交给一家提供商吗？。",
     "metrics": {
       "totalEvents": 18,
       "sourcesCount": 30,
@@ -93,29 +93,6 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "a92cdb3249e5e7b88f113ad9c",
-            "title": "2026长三角国际青年电影周开幕",
-            "originalTitle": "2026长三角国际青年电影周开幕",
-            "summary": "10月17日，由国家电影局指导，中央广播电视总台和浙江省人民政府共同主办的2026长三角国际青年电影周在宁波开幕。作为国内首个聚焦青年电影人的电影周，2026长三角国际青年电影周旨在打造专业化、综合性电影平台，支持青年电影创作创新、培育电影新生力量、推动电影技术应用、促进电影国际交流。电影周组委会还将开展“之江荣誉”推荐，让优秀青年电影人和电影作品得到更加广泛的认可。（央视新闻）",
-            "source": {
-              "name": "界面新闻·国内政经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a92cdb3249e5e7b88f113ad9c",
-              "original": "https://www.jiemian.com/article/15203179.html"
-            },
-            "publishedAt": "2026-10-17T15:02:08.000Z",
-            "discoveredAt": "2026-10-17T15:40:12.348Z",
-            "category": "domestic",
-            "score": 99,
-            "selected": true,
-            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a92cdb3249e5e7b88f113ad9c"
-            }
-          },
-          {
             "id": "a4a1f1a7dc08ed4ae21065cf9",
             "title": "【国内财经】AI落地的“检验标准”趋于多元",
             "originalTitle": "AI落地的“检验标准”趋于多元",
@@ -160,6 +137,29 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a3f5ad637e938ec711d5127b4"
             }
+          },
+          {
+            "id": "a60c98bd6e59917410521308d",
+            "title": "Meta 修改商业服务条款引发“用于训练 AI”争议，现已删除相关表述",
+            "originalTitle": "Meta 修改商业服务条款引发“用于训练 AI”争议，现已删除相关表述",
+            "summary": "IT之家 10 月 18 日消息，Meta 最近更新了其商业服务条款，声明其有权“使用来自 [企业账户] 域名、网页或 URL 的任何内容，以提供、开发、改进、研究、 训练 并维护”Meta 产品及服务的完整性。 IT之家注意到，接受 Nieman Lab 采访的法律专家指出，这是一项“引人注目的条款”，它可能赋予 Meta 抓取任何拥有 Meta 企业账户的内容发布商网站、 并利用相关内容训练其人工智能模型的权限 。 不过，Meta ...",
+            "source": {
+              "name": "IT之家·国内产业"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a60c98bd6e59917410521308d",
+              "original": "https://www.ithome.com/1/014/429.htm"
+            },
+            "publishedAt": "2026-10-18T00:00:43.000Z",
+            "discoveredAt": "2026-10-18T00:18:41.997Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a60c98bd6e59917410521308d"
+            }
           }
         ]
       },
@@ -167,6 +167,52 @@
         "category": "money",
         "label": "💰 商业搞钱Top20",
         "items": [
+          {
+            "id": "ab3c2668346dec943eb30da60",
+            "title": "Anthropic，也要付10%高息",
+            "originalTitle": "Anthropic，也要付10%高息",
+            "summary": "本文来自微信公众号： 财联社 ，作者：史正丞 随着AI云服务商CoreWeave股债遭遇重挫，AI投资热潮背后的债务风险正在引发市场更仔细的审视。 据周末的最新报道，近期披露第三季度收入达到168亿美元、并称已连续两个季度实现调整后盈利的头部AI实验室Anthropic，正在推进一项规模达600亿美元的芯片融资计划。其中，私募股权巨头黑石集团认购的次级债票息高达10%。 AI融资越来越贵 据悉，Anthropic正在推进名为“北极星项目...",
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ab3c2668346dec943eb30da60",
+              "original": "https://www.huxiu.com/article/4898347.html?f=rss"
+            },
+            "publishedAt": "2026-10-17T23:38:25.000Z",
+            "discoveredAt": "2026-10-18T00:19:00.876Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ab3c2668346dec943eb30da60"
+            }
+          },
+          {
+            "id": "a0834a657a517751336d74575",
+            "title": "【出海实战】您会将您的人工智能模型和工具交给一家提供商吗？",
+            "originalTitle": "Would you put your AI models and tools behind one provider?",
+            "summary": "我正在 Dreamtune Labs 打造这个空间，我质疑“更少的账户和一个余额”到底有多重要。对于使用模型 API 以及搜索、抓取或计算等工具构建 SaaS 产品的人们：...（来源：X/Reddit·出海SaaS搞钱）",
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0834a657a517751336d74575",
+              "original": "https://www.reddit.com/r/SaaS/comments/1x8l1m4/would_you_put_your_ai_models_and_tools_behind_one/"
+            },
+            "publishedAt": "2026-10-17T20:57:51.000Z",
+            "discoveredAt": "2026-10-18T00:24:13.573Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0834a657a517751336d74575"
+            }
+          },
           {
             "id": "a807e2bd2f1691902c2d6a0ce",
             "title": "小红书的AI，开始和自己的生意算账",
@@ -188,52 +234,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a807e2bd2f1691902c2d6a0ce"
-            }
-          },
-          {
-            "id": "aac24583cca2556eaaa54d4d1",
-            "title": "巨头自研 AI 芯片：靠推理突围，抢回算力垄断利润",
-            "originalTitle": "巨头自研 AI 芯片：靠推理突围，抢回算力垄断利润",
-            "summary": "本文来自微信公众号： 偏科声 ，作者：李小年，原文标题：《巨头自研 AI 芯片：靠推理突围，抢回算力垄断利润》 随着微软全新自研AI芯片Maia 300的发布，微软和谷歌、亚马逊走上了同一条算力突围之路。科技巨头们不再盲目内卷商用高端训练赛道，转而集中资源倾斜推理场景、主攻商业化落地。这一战略取舍的背后，是技术门槛、商业化效率与产业链利润分配的深度重构。 2023年11月，微软推出初代Maia 100，正式入局自研算力赛道。这款芯片采用...",
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aac24583cca2556eaaa54d4d1",
-              "original": "https://www.huxiu.com/article/4898339.html?f=rss"
-            },
-            "publishedAt": "2026-10-17T14:54:26.000Z",
-            "discoveredAt": "2026-10-17T15:01:40.586Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aac24583cca2556eaaa54d4d1"
-            }
-          },
-          {
-            "id": "ad4c5f32de30db33dcad281d4",
-            "title": "动辄千集的AI短剧，越长越赚钱？",
-            "originalTitle": "动辄千集的AI短剧，越长越赚钱？",
-            "summary": "本文来自微信公众号： 叁拾代 ，作者：叁拾代 AI提高了制作效率，长篇网文则为持续开发提供了充足的故事。有漫剧从业者估算，单季爆款收入约在100万至200万元之间，十季收入在千万以上。 从多季连载到一次性上线千集，超长篇正在成为头部漫剧的主流形态。 DataEye发布的9月红果AI剧／漫剧百强榜中，系列IP由8月的23个增至41个，100部作品中，61部为系列续作。据红果官方战报，《万妖图录传》第十三季10月1日上线，10月3日观看量突...",
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad4c5f32de30db33dcad281d4",
-              "original": "https://www.huxiu.com/article/4898336.html?f=rss"
-            },
-            "publishedAt": "2026-10-17T14:36:54.000Z",
-            "discoveredAt": "2026-10-17T15:01:41.017Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad4c5f32de30db33dcad281d4"
             }
           }
         ]
@@ -318,72 +318,72 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "a656cce9e5337677f5db62bb6",
-            "title": "【全球票房】《街头霸王》的奥维尔·派克试图“编排”凯莉·米洛客串：“伙计们，我可以给她发短信”",
-            "originalTitle": "‘Street Fighter’s Orville Peck Tried To “Orchestrate” Kylie Minogue Cameo: “Guys, I Can Text Her”",
-            "summary": "30 多年后，凯莉·米洛 (Kylie Minogue) 饰演携带火箭筒的卡米 (Cammy) 令《街头霸王》粉丝为之倾倒，她险些在最新的改编电影中客串回归。这位两届格莱美奖得主澳大利亚流行偶像的朋友和......（来源：Deadline·全球票房与新片）",
+            "id": "a36be0367033cbbc7691e41d8",
+            "title": "【全球票房】克莱夫·巴克 (Clive Barker) 调侃《猛鬼追魂：复兴》视频游戏重新点燃了电影系列的“许多想法”：“计划继续参与其中”",
+            "originalTitle": "Clive Barker Teases ‘Hellraiser: Revival’ Video Game Has Reignited “Many Ideas” For Film Franchise: “Planning To Keep My Fingers In That Pie”",
+            "summary": "距首次在银幕上打开《哀叹配置》近 40 年后，克莱夫·巴克准备在《猛鬼追魂》系列电影中再次探索痛苦与快乐。随着 Sabre Interactive 的 Hellra 最近发布...（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a656cce9e5337677f5db62bb6",
-              "original": "https://deadline.com/2026/10/street-fighter-orville-peck-tried-kylie-minogue-cameo-1237166445/"
+              "aihot": "https://zenglian-news.onrender.com/items/a36be0367033cbbc7691e41d8",
+              "original": "https://deadline.com/2026/10/clive-barker-hellraiser-revival-reignited-ideas-film-franchise-1237166512/"
             },
-            "publishedAt": "2026-10-17T21:06:20.000Z",
-            "discoveredAt": "2026-10-17T22:36:24.503Z",
+            "publishedAt": "2026-10-17T23:25:29.000Z",
+            "discoveredAt": "2026-10-18T00:24:34.802Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a656cce9e5337677f5db62bb6"
+              "url": "https://zenglian-news.onrender.com/items/a36be0367033cbbc7691e41d8"
             }
           },
           {
-            "id": "afd4def2404533c878867fe96",
-            "title": "【好莱坞一手】《克拉拉与太阳》评论：塔伊卡·维迪蒂灾难性的安卓幻想中没有生命——智能的、人工的或其他的",
-            "originalTitle": "‘Klara and the Sun’ Review: There’s No Life — Intelligent, Artificial or Otherwise — in Taika Waititi’s Calamitous Android Fantasy",
-            "summary": "塔伊卡·维迪蒂（Taika Waititi）曾将一部庄严复杂、充满疑问的小说改编成一部歪斜的童眼喜剧，这就是说，他的《乔乔兔》是一部关于希特勒青年团成员的粗俗、伤感的“反仇恨讽刺剧”……（来源：Variety·好莱坞影视）",
+            "id": "aaf73e1cecf1917dd2dcc852a",
+            "title": "【好莱坞一手】詹姆斯·麦卡沃伊表示《分裂》是唯一一部“真正持续给我带来报酬”的电影",
+            "originalTitle": "James McAvoy Says ‘Split’ Is The Only Film That ‘Really Consistently Pays Me’",
+            "summary": "詹姆斯·麦卡沃伊曾出演过《不说恶人》、《赎罪》和《X战警：第一战》等电影，但他最近透露，他“唯一”仍然持续收到残留的电影是 M·奈特·沙马兰 2016 年的恐怖片……（来源：Variety·好莱坞影视）",
             "source": {
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/afd4def2404533c878867fe96",
-              "original": "https://variety.com/2026/film/news/klara-and-the-sun-review-1236914992/"
+              "aihot": "https://zenglian-news.onrender.com/items/aaf73e1cecf1917dd2dcc852a",
+              "original": "https://variety.com/2026/film/news/james-mcavoy-split-only-film-that-consistently-pays-me-1236915162/"
             },
-            "publishedAt": "2026-10-17T20:45:01.000Z",
-            "discoveredAt": "2026-10-17T22:36:22.143Z",
+            "publishedAt": "2026-10-17T23:21:55.000Z",
+            "discoveredAt": "2026-10-18T00:24:31.316Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/afd4def2404533c878867fe96"
+              "url": "https://zenglian-news.onrender.com/items/aaf73e1cecf1917dd2dcc852a"
             }
           },
           {
-            "id": "ac56e3ec1a4c1ef888f591b29",
-            "title": "【全球票房】《与星共舞》瓦尔·切默科夫斯基 (Val Chmerkovskiy) 因 TikTok 引用威尔·史密斯奥斯卡时刻而被停职；舞者回应：“本能是为了保护我的妻子”",
-            "originalTitle": "‘Dancing With The Stars’ Suspends Val Chmerkovskiy For TikTok Referencing Will Smith Oscar Moment; Dancer Responds, “Instinct Was To Defend My Wife”",
-            "summary": "Chmerkovskiy 的回应已更新：Val Chmerkovskiy 因在 TikTok 上发布了一条有争议的消息，该消息似乎提到了威尔·史密斯 (Will Smith) 在 2022 年奥斯卡奖上的耳光，因此被暂停与星共舞一周的资格。在一个圣...（来源：Deadline·全球票房与新片）",
+            "id": "ae1fd0006a5a314f92bc39e5b",
+            "title": "【好莱坞一手】这里是在线购买纽约尼克斯队麦迪逊广场花园主场揭幕战门票的地方",
+            "originalTitle": "Here’s Where to Buy New York Knicks Home Opener Tickets at Madison Square Garden Online",
+            "summary": "距离 NBA 开赛仅剩几天，纽约市最热门的门票是 10 月 20 日星期二在麦迪逊广场花园举行的尼克斯队主场揭幕战。自从赢得 NBA 总决赛对阵圣安东尼奥马刺队以来，...（来源：Variety·好莱坞影视）",
             "source": {
-              "name": "Deadline·全球票房与新片"
+              "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac56e3ec1a4c1ef888f591b29",
-              "original": "https://deadline.com/2026/10/val-chmerkovskiy-dancing-with-the-stars-suspension-1237166428/"
+              "aihot": "https://zenglian-news.onrender.com/items/ae1fd0006a5a314f92bc39e5b",
+              "original": "https://variety.com/2026/shopping/news/new-york-knicks-home-opener-2026-msg-tickets-buy-online-1236874638/"
             },
-            "publishedAt": "2026-10-17T19:30:02.000Z",
-            "discoveredAt": "2026-10-17T20:28:57.431Z",
+            "publishedAt": "2026-10-17T23:03:54.000Z",
+            "discoveredAt": "2026-10-18T00:24:32.257Z",
             "category": "culture",
             "score": 99,
             "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac56e3ec1a4c1ef888f591b29"
+              "url": "https://zenglian-news.onrender.com/items/ae1fd0006a5a314f92bc39e5b"
             }
           }
         ]
@@ -470,7 +470,7 @@
     "key": "2026-W41",
     "title": "曾练全球一手简报 · 本周核心周报 (2026年第41周)",
     "subtitle": "7天全球政经、国内大事、商业搞钱、AI突破与文体焦点深度复盘",
-    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：2026长三角国际青年电影周开幕；AI落地的“检验标准”趋于多元；小红书的AI，开始和自己的生意算账。",
+    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：AI落地的“检验标准”趋于多元；Anthropic，也要付10%高息；您会将您的人工智能模型和工具交给一家提供商吗？。",
     "metrics": {
       "totalEvents": 30,
       "sourcesCount": 30,
@@ -574,26 +574,26 @@
             }
           },
           {
-            "id": "ad671084c55d913a134ab6e4e",
-            "title": "【全球热榜】7.2 内核的开发统计",
-            "originalTitle": "Development statistics for the 7.2 kernel",
-            "summary": "X/HN·全球热榜Top实时快讯：Development statistics for the 7.2 kernel。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "id": "a5f29a8d5771747c9515e4729",
+            "title": "【全球热榜】我成为日本公民",
+            "originalTitle": "I Became a Citizen of Japan",
+            "summary": "X/HN·全球热榜Top实时快讯：I Became a Citizen of Japan。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
             "source": {
               "name": "X/HN·全球热榜Top"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad671084c55d913a134ab6e4e",
-              "original": "https://lwn.net/Articles/1088776/"
+              "aihot": "https://zenglian-news.onrender.com/items/a5f29a8d5771747c9515e4729",
+              "original": "https://www.derekwessman.com/blog-1/natural"
             },
-            "publishedAt": "2026-10-17T17:14:12.000Z",
-            "discoveredAt": "2026-10-17T20:28:22.616Z",
+            "publishedAt": "2026-10-17T17:36:17.000Z",
+            "discoveredAt": "2026-10-18T00:24:02.827Z",
             "category": "global",
             "score": 97,
             "selected": true,
             "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad671084c55d913a134ab6e4e"
+              "url": "https://zenglian-news.onrender.com/items/a5f29a8d5771747c9515e4729"
             }
           }
         ]
@@ -602,29 +602,6 @@
         "category": "domestic",
         "label": "🇨🇳 国内实时Top20",
         "items": [
-          {
-            "id": "a92cdb3249e5e7b88f113ad9c",
-            "title": "2026长三角国际青年电影周开幕",
-            "originalTitle": "2026长三角国际青年电影周开幕",
-            "summary": "10月17日，由国家电影局指导，中央广播电视总台和浙江省人民政府共同主办的2026长三角国际青年电影周在宁波开幕。作为国内首个聚焦青年电影人的电影周，2026长三角国际青年电影周旨在打造专业化、综合性电影平台，支持青年电影创作创新、培育电影新生力量、推动电影技术应用、促进电影国际交流。电影周组委会还将开展“之江荣誉”推荐，让优秀青年电影人和电影作品得到更加广泛的认可。（央视新闻）",
-            "source": {
-              "name": "界面新闻·国内政经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a92cdb3249e5e7b88f113ad9c",
-              "original": "https://www.jiemian.com/article/15203179.html"
-            },
-            "publishedAt": "2026-10-17T15:02:08.000Z",
-            "discoveredAt": "2026-10-17T15:40:12.348Z",
-            "category": "domestic",
-            "score": 99,
-            "selected": true,
-            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a92cdb3249e5e7b88f113ad9c"
-            }
-          },
           {
             "id": "a4a1f1a7dc08ed4ae21065cf9",
             "title": "【国内财经】AI落地的“检验标准”趋于多元",
@@ -669,6 +646,29 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a3f5ad637e938ec711d5127b4"
+            }
+          },
+          {
+            "id": "a60c98bd6e59917410521308d",
+            "title": "Meta 修改商业服务条款引发“用于训练 AI”争议，现已删除相关表述",
+            "originalTitle": "Meta 修改商业服务条款引发“用于训练 AI”争议，现已删除相关表述",
+            "summary": "IT之家 10 月 18 日消息，Meta 最近更新了其商业服务条款，声明其有权“使用来自 [企业账户] 域名、网页或 URL 的任何内容，以提供、开发、改进、研究、 训练 并维护”Meta 产品及服务的完整性。 IT之家注意到，接受 Nieman Lab 采访的法律专家指出，这是一项“引人注目的条款”，它可能赋予 Meta 抓取任何拥有 Meta 企业账户的内容发布商网站、 并利用相关内容训练其人工智能模型的权限 。 不过，Meta ...",
+            "source": {
+              "name": "IT之家·国内产业"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a60c98bd6e59917410521308d",
+              "original": "https://www.ithome.com/1/014/429.htm"
+            },
+            "publishedAt": "2026-10-18T00:00:43.000Z",
+            "discoveredAt": "2026-10-18T00:18:41.997Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a60c98bd6e59917410521308d"
             }
           },
           {
@@ -724,6 +724,52 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
+            "id": "ab3c2668346dec943eb30da60",
+            "title": "Anthropic，也要付10%高息",
+            "originalTitle": "Anthropic，也要付10%高息",
+            "summary": "本文来自微信公众号： 财联社 ，作者：史正丞 随着AI云服务商CoreWeave股债遭遇重挫，AI投资热潮背后的债务风险正在引发市场更仔细的审视。 据周末的最新报道，近期披露第三季度收入达到168亿美元、并称已连续两个季度实现调整后盈利的头部AI实验室Anthropic，正在推进一项规模达600亿美元的芯片融资计划。其中，私募股权巨头黑石集团认购的次级债票息高达10%。 AI融资越来越贵 据悉，Anthropic正在推进名为“北极星项目...",
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ab3c2668346dec943eb30da60",
+              "original": "https://www.huxiu.com/article/4898347.html?f=rss"
+            },
+            "publishedAt": "2026-10-17T23:38:25.000Z",
+            "discoveredAt": "2026-10-18T00:19:00.876Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ab3c2668346dec943eb30da60"
+            }
+          },
+          {
+            "id": "a0834a657a517751336d74575",
+            "title": "【出海实战】您会将您的人工智能模型和工具交给一家提供商吗？",
+            "originalTitle": "Would you put your AI models and tools behind one provider?",
+            "summary": "我正在 Dreamtune Labs 打造这个空间，我质疑“更少的账户和一个余额”到底有多重要。对于使用模型 API 以及搜索、抓取或计算等工具构建 SaaS 产品的人们：...（来源：X/Reddit·出海SaaS搞钱）",
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0834a657a517751336d74575",
+              "original": "https://www.reddit.com/r/SaaS/comments/1x8l1m4/would_you_put_your_ai_models_and_tools_behind_one/"
+            },
+            "publishedAt": "2026-10-17T20:57:51.000Z",
+            "discoveredAt": "2026-10-18T00:24:13.573Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0834a657a517751336d74575"
+            }
+          },
+          {
             "id": "a807e2bd2f1691902c2d6a0ce",
             "title": "小红书的AI，开始和自己的生意算账",
             "originalTitle": "小红书的AI，开始和自己的生意算账",
@@ -744,52 +790,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a807e2bd2f1691902c2d6a0ce"
-            }
-          },
-          {
-            "id": "aac24583cca2556eaaa54d4d1",
-            "title": "巨头自研 AI 芯片：靠推理突围，抢回算力垄断利润",
-            "originalTitle": "巨头自研 AI 芯片：靠推理突围，抢回算力垄断利润",
-            "summary": "本文来自微信公众号： 偏科声 ，作者：李小年，原文标题：《巨头自研 AI 芯片：靠推理突围，抢回算力垄断利润》 随着微软全新自研AI芯片Maia 300的发布，微软和谷歌、亚马逊走上了同一条算力突围之路。科技巨头们不再盲目内卷商用高端训练赛道，转而集中资源倾斜推理场景、主攻商业化落地。这一战略取舍的背后，是技术门槛、商业化效率与产业链利润分配的深度重构。 2023年11月，微软推出初代Maia 100，正式入局自研算力赛道。这款芯片采用...",
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aac24583cca2556eaaa54d4d1",
-              "original": "https://www.huxiu.com/article/4898339.html?f=rss"
-            },
-            "publishedAt": "2026-10-17T14:54:26.000Z",
-            "discoveredAt": "2026-10-17T15:01:40.586Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aac24583cca2556eaaa54d4d1"
-            }
-          },
-          {
-            "id": "ad4c5f32de30db33dcad281d4",
-            "title": "动辄千集的AI短剧，越长越赚钱？",
-            "originalTitle": "动辄千集的AI短剧，越长越赚钱？",
-            "summary": "本文来自微信公众号： 叁拾代 ，作者：叁拾代 AI提高了制作效率，长篇网文则为持续开发提供了充足的故事。有漫剧从业者估算，单季爆款收入约在100万至200万元之间，十季收入在千万以上。 从多季连载到一次性上线千集，超长篇正在成为头部漫剧的主流形态。 DataEye发布的9月红果AI剧／漫剧百强榜中，系列IP由8月的23个增至41个，100部作品中，61部为系列续作。据红果官方战报，《万妖图录传》第十三季10月1日上线，10月3日观看量突...",
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad4c5f32de30db33dcad281d4",
-              "original": "https://www.huxiu.com/article/4898336.html?f=rss"
-            },
-            "publishedAt": "2026-10-17T14:36:54.000Z",
-            "discoveredAt": "2026-10-17T15:01:41.017Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad4c5f32de30db33dcad281d4"
             }
           },
           {
@@ -966,6 +966,75 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
+            "id": "a36be0367033cbbc7691e41d8",
+            "title": "【全球票房】克莱夫·巴克 (Clive Barker) 调侃《猛鬼追魂：复兴》视频游戏重新点燃了电影系列的“许多想法”：“计划继续参与其中”",
+            "originalTitle": "Clive Barker Teases ‘Hellraiser: Revival’ Video Game Has Reignited “Many Ideas” For Film Franchise: “Planning To Keep My Fingers In That Pie”",
+            "summary": "距首次在银幕上打开《哀叹配置》近 40 年后，克莱夫·巴克准备在《猛鬼追魂》系列电影中再次探索痛苦与快乐。随着 Sabre Interactive 的 Hellra 最近发布...（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a36be0367033cbbc7691e41d8",
+              "original": "https://deadline.com/2026/10/clive-barker-hellraiser-revival-reignited-ideas-film-franchise-1237166512/"
+            },
+            "publishedAt": "2026-10-17T23:25:29.000Z",
+            "discoveredAt": "2026-10-18T00:24:34.802Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a36be0367033cbbc7691e41d8"
+            }
+          },
+          {
+            "id": "aaf73e1cecf1917dd2dcc852a",
+            "title": "【好莱坞一手】詹姆斯·麦卡沃伊表示《分裂》是唯一一部“真正持续给我带来报酬”的电影",
+            "originalTitle": "James McAvoy Says ‘Split’ Is The Only Film That ‘Really Consistently Pays Me’",
+            "summary": "詹姆斯·麦卡沃伊曾出演过《不说恶人》、《赎罪》和《X战警：第一战》等电影，但他最近透露，他“唯一”仍然持续收到残留的电影是 M·奈特·沙马兰 2016 年的恐怖片……（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aaf73e1cecf1917dd2dcc852a",
+              "original": "https://variety.com/2026/film/news/james-mcavoy-split-only-film-that-consistently-pays-me-1236915162/"
+            },
+            "publishedAt": "2026-10-17T23:21:55.000Z",
+            "discoveredAt": "2026-10-18T00:24:31.316Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aaf73e1cecf1917dd2dcc852a"
+            }
+          },
+          {
+            "id": "ae1fd0006a5a314f92bc39e5b",
+            "title": "【好莱坞一手】这里是在线购买纽约尼克斯队麦迪逊广场花园主场揭幕战门票的地方",
+            "originalTitle": "Here’s Where to Buy New York Knicks Home Opener Tickets at Madison Square Garden Online",
+            "summary": "距离 NBA 开赛仅剩几天，纽约市最热门的门票是 10 月 20 日星期二在麦迪逊广场花园举行的尼克斯队主场揭幕战。自从赢得 NBA 总决赛对阵圣安东尼奥马刺队以来，...（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ae1fd0006a5a314f92bc39e5b",
+              "original": "https://variety.com/2026/shopping/news/new-york-knicks-home-opener-2026-msg-tickets-buy-online-1236874638/"
+            },
+            "publishedAt": "2026-10-17T23:03:54.000Z",
+            "discoveredAt": "2026-10-18T00:24:32.257Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ae1fd0006a5a314f92bc39e5b"
+            }
+          },
+          {
             "id": "a656cce9e5337677f5db62bb6",
             "title": "【全球票房】《街头霸王》的奥维尔·派克试图“编排”凯莉·米洛客串：“伙计们，我可以给她发短信”",
             "originalTitle": "‘Street Fighter’s Orville Peck Tried To “Orchestrate” Kylie Minogue Cameo: “Guys, I Can Text Her”",
@@ -1009,75 +1078,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/afd4def2404533c878867fe96"
-            }
-          },
-          {
-            "id": "ac56e3ec1a4c1ef888f591b29",
-            "title": "【全球票房】《与星共舞》瓦尔·切默科夫斯基 (Val Chmerkovskiy) 因 TikTok 引用威尔·史密斯奥斯卡时刻而被停职；舞者回应：“本能是为了保护我的妻子”",
-            "originalTitle": "‘Dancing With The Stars’ Suspends Val Chmerkovskiy For TikTok Referencing Will Smith Oscar Moment; Dancer Responds, “Instinct Was To Defend My Wife”",
-            "summary": "Chmerkovskiy 的回应已更新：Val Chmerkovskiy 因在 TikTok 上发布了一条有争议的消息，该消息似乎提到了威尔·史密斯 (Will Smith) 在 2022 年奥斯卡奖上的耳光，因此被暂停与星共舞一周的资格。在一个圣...（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac56e3ec1a4c1ef888f591b29",
-              "original": "https://deadline.com/2026/10/val-chmerkovskiy-dancing-with-the-stars-suspension-1237166428/"
-            },
-            "publishedAt": "2026-10-17T19:30:02.000Z",
-            "discoveredAt": "2026-10-17T20:28:57.431Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac56e3ec1a4c1ef888f591b29"
-            }
-          },
-          {
-            "id": "a8eeb3ae27ad073e3dbe56764",
-            "title": "【全球票房】唐纳德·特朗普最终抵达“SNL UK”，与安迪·伯纳姆和弗拉基米尔·泽伦斯基进行工作交换冷开",
-            "originalTitle": "Donald Trump Finally Arrives On ‘SNL UK’ In Job Swap Cold Open With Andy Burnham & Volodymyr Zelenskyy",
-            "summary": "过去几年，唐纳德·特朗普在英国呆了一段时间，但今晚他终于在英国《周六夜现场》首次亮相。詹姆斯·奥斯汀·约翰逊 (James Austin Johnson) 带着他的总统参加了英国广播公司 (NBC) 天空电视台的热门节目，参加了一份工作...（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a8eeb3ae27ad073e3dbe56764",
-              "original": "https://deadline.com/2026/10/snl-uk-donald-trump-first-time-andy-burnham-zelensky-1237166466/"
-            },
-            "publishedAt": "2026-10-17T21:23:27.000Z",
-            "discoveredAt": "2026-10-17T22:36:23.372Z",
-            "category": "culture",
-            "score": 98,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a8eeb3ae27ad073e3dbe56764"
-            }
-          },
-          {
-            "id": "a7b25eb4c6a4f8ef0415106ee",
-            "title": "【好莱坞一手】环球影业内容集团约翰·威尔逊 (John Wilson) 为哈里·斯泰尔斯 (Harry Styles) 制作的《Together, Together》巡演文档（独家）",
-            "originalTitle": "Harry Styles ‘Together, Together’ Tour Doc Coming From John Wilson, Universal Pictures Content Group (EXCLUSIVE)",
-            "summary": "哈里·斯泰尔斯 (Harry Styles) 邀请了市场上最热闹的纪录片制片人之一到他历史悠久的麦迪逊广场花园驻地幕后拍摄。约翰·威尔逊 (John Wilson) 是独立票房奇迹《历史》的导演……（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7b25eb4c6a4f8ef0415106ee",
-              "original": "https://variety.com/2026/film/news/harry-styles-john-wilson-tour-documentary-universal-1236914875/"
-            },
-            "publishedAt": "2026-10-17T19:00:20.000Z",
-            "discoveredAt": "2026-10-17T20:28:50.486Z",
-            "category": "culture",
-            "score": 98,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7b25eb4c6a4f8ef0415106ee"
             }
           }
         ]
@@ -1210,7 +1210,7 @@
     "key": "2026-10",
     "title": "曾练全球一手简报 · 月度产业全景报告 (2026年10月)",
     "subtitle": "30天六大实时Top20赛道全景洞察与高价值搞钱机会总结",
-    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：2026长三角国际青年电影周开幕；AI落地的“检验标准”趋于多元；小红书的AI，开始和自己的生意算账。",
+    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：AI落地的“检验标准”趋于多元；Anthropic，也要付10%高息；您会将您的人工智能模型和工具交给一家提供商吗？。",
     "metrics": {
       "totalEvents": 36,
       "sourcesCount": 30,
@@ -1314,6 +1314,29 @@
             }
           },
           {
+            "id": "a5f29a8d5771747c9515e4729",
+            "title": "【全球热榜】我成为日本公民",
+            "originalTitle": "I Became a Citizen of Japan",
+            "summary": "X/HN·全球热榜Top实时快讯：I Became a Citizen of Japan。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a5f29a8d5771747c9515e4729",
+              "original": "https://www.derekwessman.com/blog-1/natural"
+            },
+            "publishedAt": "2026-10-17T17:36:17.000Z",
+            "discoveredAt": "2026-10-18T00:24:02.827Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a5f29a8d5771747c9515e4729"
+            }
+          },
+          {
             "id": "ad671084c55d913a134ab6e4e",
             "title": "【全球热榜】7.2 内核的开发统计",
             "originalTitle": "Development statistics for the 7.2 kernel",
@@ -1335,29 +1358,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ad671084c55d913a134ab6e4e"
             }
-          },
-          {
-            "id": "ab41e54f5a7ccfd5f4eaf35ba",
-            "title": "【全球热榜】黄金现在是美国最大的出口产品",
-            "originalTitle": "Gold is now the top U.S. export",
-            "summary": "X/HN·全球热榜Top实时快讯：Gold is now the top U.S. export。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab41e54f5a7ccfd5f4eaf35ba",
-              "original": "https://www.numismaticnews.net/gold-now-top-u-s-export"
-            },
-            "publishedAt": "2026-10-17T17:06:07.000Z",
-            "discoveredAt": "2026-10-17T22:35:57.253Z",
-            "category": "global",
-            "score": 97,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab41e54f5a7ccfd5f4eaf35ba"
-            }
           }
         ]
       },
@@ -1365,29 +1365,6 @@
         "category": "domestic",
         "label": "🇨🇳 国内实时Top20",
         "items": [
-          {
-            "id": "a92cdb3249e5e7b88f113ad9c",
-            "title": "2026长三角国际青年电影周开幕",
-            "originalTitle": "2026长三角国际青年电影周开幕",
-            "summary": "10月17日，由国家电影局指导，中央广播电视总台和浙江省人民政府共同主办的2026长三角国际青年电影周在宁波开幕。作为国内首个聚焦青年电影人的电影周，2026长三角国际青年电影周旨在打造专业化、综合性电影平台，支持青年电影创作创新、培育电影新生力量、推动电影技术应用、促进电影国际交流。电影周组委会还将开展“之江荣誉”推荐，让优秀青年电影人和电影作品得到更加广泛的认可。（央视新闻）",
-            "source": {
-              "name": "界面新闻·国内政经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a92cdb3249e5e7b88f113ad9c",
-              "original": "https://www.jiemian.com/article/15203179.html"
-            },
-            "publishedAt": "2026-10-17T15:02:08.000Z",
-            "discoveredAt": "2026-10-17T15:40:12.348Z",
-            "category": "domestic",
-            "score": 99,
-            "selected": true,
-            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a92cdb3249e5e7b88f113ad9c"
-            }
-          },
           {
             "id": "a4a1f1a7dc08ed4ae21065cf9",
             "title": "【国内财经】AI落地的“检验标准”趋于多元",
@@ -1432,6 +1409,29 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a3f5ad637e938ec711d5127b4"
+            }
+          },
+          {
+            "id": "a60c98bd6e59917410521308d",
+            "title": "Meta 修改商业服务条款引发“用于训练 AI”争议，现已删除相关表述",
+            "originalTitle": "Meta 修改商业服务条款引发“用于训练 AI”争议，现已删除相关表述",
+            "summary": "IT之家 10 月 18 日消息，Meta 最近更新了其商业服务条款，声明其有权“使用来自 [企业账户] 域名、网页或 URL 的任何内容，以提供、开发、改进、研究、 训练 并维护”Meta 产品及服务的完整性。 IT之家注意到，接受 Nieman Lab 采访的法律专家指出，这是一项“引人注目的条款”，它可能赋予 Meta 抓取任何拥有 Meta 企业账户的内容发布商网站、 并利用相关内容训练其人工智能模型的权限 。 不过，Meta ...",
+            "source": {
+              "name": "IT之家·国内产业"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a60c98bd6e59917410521308d",
+              "original": "https://www.ithome.com/1/014/429.htm"
+            },
+            "publishedAt": "2026-10-18T00:00:43.000Z",
+            "discoveredAt": "2026-10-18T00:18:41.997Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a60c98bd6e59917410521308d"
             }
           },
           {
@@ -1510,6 +1510,52 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
+            "id": "ab3c2668346dec943eb30da60",
+            "title": "Anthropic，也要付10%高息",
+            "originalTitle": "Anthropic，也要付10%高息",
+            "summary": "本文来自微信公众号： 财联社 ，作者：史正丞 随着AI云服务商CoreWeave股债遭遇重挫，AI投资热潮背后的债务风险正在引发市场更仔细的审视。 据周末的最新报道，近期披露第三季度收入达到168亿美元、并称已连续两个季度实现调整后盈利的头部AI实验室Anthropic，正在推进一项规模达600亿美元的芯片融资计划。其中，私募股权巨头黑石集团认购的次级债票息高达10%。 AI融资越来越贵 据悉，Anthropic正在推进名为“北极星项目...",
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ab3c2668346dec943eb30da60",
+              "original": "https://www.huxiu.com/article/4898347.html?f=rss"
+            },
+            "publishedAt": "2026-10-17T23:38:25.000Z",
+            "discoveredAt": "2026-10-18T00:19:00.876Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ab3c2668346dec943eb30da60"
+            }
+          },
+          {
+            "id": "a0834a657a517751336d74575",
+            "title": "【出海实战】您会将您的人工智能模型和工具交给一家提供商吗？",
+            "originalTitle": "Would you put your AI models and tools behind one provider?",
+            "summary": "我正在 Dreamtune Labs 打造这个空间，我质疑“更少的账户和一个余额”到底有多重要。对于使用模型 API 以及搜索、抓取或计算等工具构建 SaaS 产品的人们：...（来源：X/Reddit·出海SaaS搞钱）",
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0834a657a517751336d74575",
+              "original": "https://www.reddit.com/r/SaaS/comments/1x8l1m4/would_you_put_your_ai_models_and_tools_behind_one/"
+            },
+            "publishedAt": "2026-10-17T20:57:51.000Z",
+            "discoveredAt": "2026-10-18T00:24:13.573Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0834a657a517751336d74575"
+            }
+          },
+          {
             "id": "a807e2bd2f1691902c2d6a0ce",
             "title": "小红书的AI，开始和自己的生意算账",
             "originalTitle": "小红书的AI，开始和自己的生意算账",
@@ -1530,52 +1576,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a807e2bd2f1691902c2d6a0ce"
-            }
-          },
-          {
-            "id": "aac24583cca2556eaaa54d4d1",
-            "title": "巨头自研 AI 芯片：靠推理突围，抢回算力垄断利润",
-            "originalTitle": "巨头自研 AI 芯片：靠推理突围，抢回算力垄断利润",
-            "summary": "本文来自微信公众号： 偏科声 ，作者：李小年，原文标题：《巨头自研 AI 芯片：靠推理突围，抢回算力垄断利润》 随着微软全新自研AI芯片Maia 300的发布，微软和谷歌、亚马逊走上了同一条算力突围之路。科技巨头们不再盲目内卷商用高端训练赛道，转而集中资源倾斜推理场景、主攻商业化落地。这一战略取舍的背后，是技术门槛、商业化效率与产业链利润分配的深度重构。 2023年11月，微软推出初代Maia 100，正式入局自研算力赛道。这款芯片采用...",
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aac24583cca2556eaaa54d4d1",
-              "original": "https://www.huxiu.com/article/4898339.html?f=rss"
-            },
-            "publishedAt": "2026-10-17T14:54:26.000Z",
-            "discoveredAt": "2026-10-17T15:01:40.586Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aac24583cca2556eaaa54d4d1"
-            }
-          },
-          {
-            "id": "ad4c5f32de30db33dcad281d4",
-            "title": "动辄千集的AI短剧，越长越赚钱？",
-            "originalTitle": "动辄千集的AI短剧，越长越赚钱？",
-            "summary": "本文来自微信公众号： 叁拾代 ，作者：叁拾代 AI提高了制作效率，长篇网文则为持续开发提供了充足的故事。有漫剧从业者估算，单季爆款收入约在100万至200万元之间，十季收入在千万以上。 从多季连载到一次性上线千集，超长篇正在成为头部漫剧的主流形态。 DataEye发布的9月红果AI剧／漫剧百强榜中，系列IP由8月的23个增至41个，100部作品中，61部为系列续作。据红果官方战报，《万妖图录传》第十三季10月1日上线，10月3日观看量突...",
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad4c5f32de30db33dcad281d4",
-              "original": "https://www.huxiu.com/article/4898336.html?f=rss"
-            },
-            "publishedAt": "2026-10-17T14:36:54.000Z",
-            "discoveredAt": "2026-10-17T15:01:41.017Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad4c5f32de30db33dcad281d4"
             }
           },
           {
@@ -1798,6 +1798,75 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
+            "id": "a36be0367033cbbc7691e41d8",
+            "title": "【全球票房】克莱夫·巴克 (Clive Barker) 调侃《猛鬼追魂：复兴》视频游戏重新点燃了电影系列的“许多想法”：“计划继续参与其中”",
+            "originalTitle": "Clive Barker Teases ‘Hellraiser: Revival’ Video Game Has Reignited “Many Ideas” For Film Franchise: “Planning To Keep My Fingers In That Pie”",
+            "summary": "距首次在银幕上打开《哀叹配置》近 40 年后，克莱夫·巴克准备在《猛鬼追魂》系列电影中再次探索痛苦与快乐。随着 Sabre Interactive 的 Hellra 最近发布...（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a36be0367033cbbc7691e41d8",
+              "original": "https://deadline.com/2026/10/clive-barker-hellraiser-revival-reignited-ideas-film-franchise-1237166512/"
+            },
+            "publishedAt": "2026-10-17T23:25:29.000Z",
+            "discoveredAt": "2026-10-18T00:24:34.802Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a36be0367033cbbc7691e41d8"
+            }
+          },
+          {
+            "id": "aaf73e1cecf1917dd2dcc852a",
+            "title": "【好莱坞一手】詹姆斯·麦卡沃伊表示《分裂》是唯一一部“真正持续给我带来报酬”的电影",
+            "originalTitle": "James McAvoy Says ‘Split’ Is The Only Film That ‘Really Consistently Pays Me’",
+            "summary": "詹姆斯·麦卡沃伊曾出演过《不说恶人》、《赎罪》和《X战警：第一战》等电影，但他最近透露，他“唯一”仍然持续收到残留的电影是 M·奈特·沙马兰 2016 年的恐怖片……（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aaf73e1cecf1917dd2dcc852a",
+              "original": "https://variety.com/2026/film/news/james-mcavoy-split-only-film-that-consistently-pays-me-1236915162/"
+            },
+            "publishedAt": "2026-10-17T23:21:55.000Z",
+            "discoveredAt": "2026-10-18T00:24:31.316Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aaf73e1cecf1917dd2dcc852a"
+            }
+          },
+          {
+            "id": "ae1fd0006a5a314f92bc39e5b",
+            "title": "【好莱坞一手】这里是在线购买纽约尼克斯队麦迪逊广场花园主场揭幕战门票的地方",
+            "originalTitle": "Here’s Where to Buy New York Knicks Home Opener Tickets at Madison Square Garden Online",
+            "summary": "距离 NBA 开赛仅剩几天，纽约市最热门的门票是 10 月 20 日星期二在麦迪逊广场花园举行的尼克斯队主场揭幕战。自从赢得 NBA 总决赛对阵圣安东尼奥马刺队以来，...（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ae1fd0006a5a314f92bc39e5b",
+              "original": "https://variety.com/2026/shopping/news/new-york-knicks-home-opener-2026-msg-tickets-buy-online-1236874638/"
+            },
+            "publishedAt": "2026-10-17T23:03:54.000Z",
+            "discoveredAt": "2026-10-18T00:24:32.257Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ae1fd0006a5a314f92bc39e5b"
+            }
+          },
+          {
             "id": "a656cce9e5337677f5db62bb6",
             "title": "【全球票房】《街头霸王》的奥维尔·派克试图“编排”凯莉·米洛客串：“伙计们，我可以给她发短信”",
             "originalTitle": "‘Street Fighter’s Orville Peck Tried To “Orchestrate” Kylie Minogue Cameo: “Guys, I Can Text Her”",
@@ -1844,95 +1913,26 @@
             }
           },
           {
-            "id": "ac56e3ec1a4c1ef888f591b29",
-            "title": "【全球票房】《与星共舞》瓦尔·切默科夫斯基 (Val Chmerkovskiy) 因 TikTok 引用威尔·史密斯奥斯卡时刻而被停职；舞者回应：“本能是为了保护我的妻子”",
-            "originalTitle": "‘Dancing With The Stars’ Suspends Val Chmerkovskiy For TikTok Referencing Will Smith Oscar Moment; Dancer Responds, “Instinct Was To Defend My Wife”",
-            "summary": "Chmerkovskiy 的回应已更新：Val Chmerkovskiy 因在 TikTok 上发布了一条有争议的消息，该消息似乎提到了威尔·史密斯 (Will Smith) 在 2022 年奥斯卡奖上的耳光，因此被暂停与星共舞一周的资格。在一个圣...（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac56e3ec1a4c1ef888f591b29",
-              "original": "https://deadline.com/2026/10/val-chmerkovskiy-dancing-with-the-stars-suspension-1237166428/"
-            },
-            "publishedAt": "2026-10-17T19:30:02.000Z",
-            "discoveredAt": "2026-10-17T20:28:57.431Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac56e3ec1a4c1ef888f591b29"
-            }
-          },
-          {
-            "id": "a8eeb3ae27ad073e3dbe56764",
-            "title": "【全球票房】唐纳德·特朗普最终抵达“SNL UK”，与安迪·伯纳姆和弗拉基米尔·泽伦斯基进行工作交换冷开",
-            "originalTitle": "Donald Trump Finally Arrives On ‘SNL UK’ In Job Swap Cold Open With Andy Burnham & Volodymyr Zelenskyy",
-            "summary": "过去几年，唐纳德·特朗普在英国呆了一段时间，但今晚他终于在英国《周六夜现场》首次亮相。詹姆斯·奥斯汀·约翰逊 (James Austin Johnson) 带着他的总统参加了英国广播公司 (NBC) 天空电视台的热门节目，参加了一份工作...（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a8eeb3ae27ad073e3dbe56764",
-              "original": "https://deadline.com/2026/10/snl-uk-donald-trump-first-time-andy-burnham-zelensky-1237166466/"
-            },
-            "publishedAt": "2026-10-17T21:23:27.000Z",
-            "discoveredAt": "2026-10-17T22:36:23.372Z",
-            "category": "culture",
-            "score": 98,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a8eeb3ae27ad073e3dbe56764"
-            }
-          },
-          {
-            "id": "a7b25eb4c6a4f8ef0415106ee",
-            "title": "【好莱坞一手】环球影业内容集团约翰·威尔逊 (John Wilson) 为哈里·斯泰尔斯 (Harry Styles) 制作的《Together, Together》巡演文档（独家）",
-            "originalTitle": "Harry Styles ‘Together, Together’ Tour Doc Coming From John Wilson, Universal Pictures Content Group (EXCLUSIVE)",
-            "summary": "哈里·斯泰尔斯 (Harry Styles) 邀请了市场上最热闹的纪录片制片人之一到他历史悠久的麦迪逊广场花园驻地幕后拍摄。约翰·威尔逊 (John Wilson) 是独立票房奇迹《历史》的导演……（来源：Variety·好莱坞影视）",
+            "id": "ad30b9bfc3d150fb7bb2f9554",
+            "title": "【好莱坞一手】昆汀·塔伦蒂诺确认他已经为自己的第十部电影“写了剧本”，但还不会继续下去，因为他想“活一点”",
+            "originalTitle": "Quentin Tarantino Confirms He’s ‘Written a Script’ for His Tenth Film, But Won’t Pursue It Yet Because He Wants to ‘Live a Little’",
+            "summary": "昆汀·塔伦蒂诺早就表示他将在拍完第十部故事片后退休，但影迷们还不用担心。虽然《低俗小说》导演确认他已经完成了最终项目的剧本，但他不会……（来源：Variety·好莱坞影视）",
             "source": {
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7b25eb4c6a4f8ef0415106ee",
-              "original": "https://variety.com/2026/film/news/harry-styles-john-wilson-tour-documentary-universal-1236914875/"
+              "aihot": "https://zenglian-news.onrender.com/items/ad30b9bfc3d150fb7bb2f9554",
+              "original": "https://variety.com/2026/film/news/quentin-tarantino-confirms-script-for-tenth-film-1236915169/"
             },
-            "publishedAt": "2026-10-17T19:00:20.000Z",
-            "discoveredAt": "2026-10-17T20:28:50.486Z",
+            "publishedAt": "2026-10-17T23:59:24.000Z",
+            "discoveredAt": "2026-10-18T00:24:30.259Z",
             "category": "culture",
             "score": 98,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7b25eb4c6a4f8ef0415106ee"
-            }
-          },
-          {
-            "id": "a7ca82308f1903c838425446b",
-            "title": "【全球票房】麦莉赛勒斯泪流满面地回忆多莉帕顿在好莱坞碗音乐会上表演的“乔琳”",
-            "originalTitle": "Miley Cyrus Tearfully Remembers Dolly Parton At Hollywood Bowl Concert, Performs ‘Jolene’",
-            "summary": "昨晚，麦莉·赛勒斯在好莱坞露天剧场向她的教母多莉·帕顿致以泪水，她坐在舞台边缘，感叹自己只能看到这位乡村音乐偶像的表演……（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7ca82308f1903c838425446b",
-              "original": "https://deadline.com/2026/10/miley-cyrus-dolly-parton-jolene-hollywood-bowl-1237166419/"
-            },
-            "publishedAt": "2026-10-17T18:26:36.000Z",
-            "discoveredAt": "2026-10-17T20:28:58.841Z",
-            "category": "culture",
-            "score": 98,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7ca82308f1903c838425446b"
+              "url": "https://zenglian-news.onrender.com/items/ad30b9bfc3d150fb7bb2f9554"
             }
           }
         ]
