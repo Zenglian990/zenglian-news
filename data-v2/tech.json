@@ -10,6 +10,75 @@
   },
   "items": [
     {
+      "id": "ab66aa420e3c6bf7bcf4002af",
+      "title": "英伟达优化 Kimi K3 模型推理速度，提升 1.68 倍",
+      "originalTitle": "英伟达优化 Kimi K3 模型推理速度，提升 1.68 倍",
+      "summary": "IT之家 10 月 18 日消息，调研机构 SemiAnalysis 今日发文称，英伟达通过一项上游 vLLM 优化，让 2.8 万亿参数量的 Kimi K3 模型实现 423 tok/s/user（每用户每秒每 Token）的推理速度， 对比相同硬件（GB300 NVL72）性能提升 1.68 倍 。 据介绍，该项优化由英伟达 CentML 工程师 Benjamin 完成。它通过大规模 Megakernel 融合，使用 Cute DS...",
+      "source": {
+        "name": "IT之家·国内产业"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/ab66aa420e3c6bf7bcf4002af",
+        "original": "https://www.ithome.com/1/014/595.htm"
+      },
+      "publishedAt": "2026-10-18T13:25:18.000Z",
+      "discoveredAt": "2026-10-18T13:30:01.269Z",
+      "category": "tech",
+      "score": 94,
+      "selected": true,
+      "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/ab66aa420e3c6bf7bcf4002af"
+      }
+    },
+    {
+      "id": "a202c8fc6dc4301de07aa4b89",
+      "title": "Deepseek公布API网页搜索与抓取费用：每1000次成功请求5元",
+      "originalTitle": "Deepseek公布API网页搜索与抓取费用：每1000次成功请求5元",
+      "summary": "DeepSeek发布公告，DeepSeek API现已支持网页搜索与抓取，按请求次数计费，单价为每1000次成功请求5元。公告称，当前用户在DeepSeek Harness / Claude Code / Codex中使用DeepSeek API时，已经会通过Server端工具调用访问到Search / Fetch接口，这部分Search / Fetch接口调用目前未计费，并将于11月1日00:00起按次收取调用费用。",
+      "source": {
+        "name": "界面新闻·国内政经"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a202c8fc6dc4301de07aa4b89",
+        "original": "https://www.jiemian.com/article/15204049.html"
+      },
+      "publishedAt": "2026-10-18T12:28:19.000Z",
+      "discoveredAt": "2026-10-18T13:29:57.745Z",
+      "category": "tech",
+      "score": 99,
+      "selected": true,
+      "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a202c8fc6dc4301de07aa4b89"
+      }
+    },
+    {
+      "id": "a1e630aaaa12a44e4554c78a6",
+      "title": "【国内财经】（经济观察）中国民企AI大模型在全球“圈粉”",
+      "originalTitle": "（经济观察）中国民企AI大模型在全球“圈粉”",
+      "summary": "中新社北京10月18日电 (记者 刘亮)从深度求索(DeepSeek)到阿里巴巴通义千问；从月之暗面的Kimi K3到MiniMax的M3；从智谱的GLM到阶跃星辰的Step5 Preview，再到字节跳动的豆包、百度文心一言……一段时间以来，中国民营企业人工智能(AI)大模型集群式崛起，在全球“圈粉”。",
+      "source": {
+        "name": "中新网·国内财经"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a1e630aaaa12a44e4554c78a6",
+        "original": "https://www.chinanews.com.cn/cj/2026/10-18/10716821.shtml"
+      },
+      "publishedAt": "2026-10-18T12:24:11.000Z",
+      "discoveredAt": "2026-10-18T13:29:55.588Z",
+      "category": "tech",
+      "score": 99,
+      "selected": true,
+      "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a1e630aaaa12a44e4554c78a6"
+      }
+    },
+    {
       "id": "a75fde2a0d91fb89b6ff5b117",
       "title": "高通中国区董事长孟樸：终端侧 AI 正发挥重要作用，智能体的发展进一步加速这一趋势",
       "originalTitle": "高通中国区董事长孟樸：终端侧 AI 正发挥重要作用，智能体的发展进一步加速这一趋势",
@@ -56,29 +125,6 @@
       }
     },
     {
-      "id": "aed8d4713ad5e1589a3b2e76b",
-      "title": "【全球热榜】DeepSeek 搜索和获取 – 每 1000 个成功请求 0.75 美元",
-      "originalTitle": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
-      "summary": "X/HN·全球热榜Top实时快讯：DeepSeek search and fetch – $0.75 per 1000 successful requests。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-      "source": {
-        "name": "X/HN·全球热榜Top"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/aed8d4713ad5e1589a3b2e76b",
-        "original": "https://api-docs.deepseek.com/guides/search/"
-      },
-      "publishedAt": "2026-10-18T06:50:36.000Z",
-      "discoveredAt": "2026-10-18T09:27:50.831Z",
-      "category": "tech",
-      "score": 99,
-      "selected": true,
-      "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/aed8d4713ad5e1589a3b2e76b"
-      }
-    },
-    {
       "id": "a921e73905097b39b7215f700",
       "title": "Anthropic 联合创始人：到 2030 年 AI 有望推动美国 GDP 增长近 50%",
       "originalTitle": "Anthropic 联合创始人：到 2030 年 AI 有望推动美国 GDP 增长近 50%",
@@ -122,29 +168,6 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/aa9adc8e7ca6681cd93ea95a8"
-      }
-    },
-    {
-      "id": "a728bc51b88c56a66f921abf5",
-      "title": "充电 9 分钟可工作 90 分钟，Agility Robotics 为 Digit 5 人形机器人搭载 Nyobolt 快充电池",
-      "originalTitle": "充电 9 分钟可工作 90 分钟，Agility Robotics 为 Digit 5 人形机器人搭载 Nyobolt 快充电池",
-      "summary": "IT之家 10 月 18 日消息，Agility Robotics 的下一代人形机器人，设计目标是把一天中更多时间用于搬运货物，减少插电充电的时间。 据IT之家了解，该公司为 Digit 5 人形机器人选用了 Nyobolt 电池技术，目标实现 24 小时内可有效工作超 20 小时。 这套新电池系统支持充电 9 分钟，就能运行 90 分钟 。搭载该电池的机器人预计将于 2027 年上半年开启早期试用，面向制造、仓储与物流配送企业。 这次...",
-      "source": {
-        "name": "IT之家·国内产业"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a728bc51b88c56a66f921abf5",
-        "original": "https://www.ithome.com/1/014/454.htm"
-      },
-      "publishedAt": "2026-10-18T01:52:16.000Z",
-      "discoveredAt": "2026-10-18T01:55:14.850Z",
-      "category": "tech",
-      "score": 95,
-      "selected": true,
-      "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a728bc51b88c56a66f921abf5"
       }
     },
     {
@@ -444,29 +467,6 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/aad79680695fb99985847e70a"
-      }
-    },
-    {
-      "id": "a69f98770ba8976e0e13b0029",
-      "title": "智谱新模型，懂法方面全球第一了",
-      "originalTitle": "智谱新模型，懂法方面全球第一了",
-      "summary": "量子位·AI大模型智库实时快讯：智谱新模型，懂法方面全球第一了。国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
-      "source": {
-        "name": "量子位·AI大模型智库"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a69f98770ba8976e0e13b0029",
-        "original": "https://www.qbitai.com/2026/10/503965.html"
-      },
-      "publishedAt": "2026-10-17T12:13:45.000Z",
-      "discoveredAt": "2026-10-17T18:00:30.202Z",
-      "category": "tech",
-      "score": 99,
-      "selected": true,
-      "reason": "国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a69f98770ba8976e0e13b0029"
       }
     }
   ],
