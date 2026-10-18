@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T19:18:29.077Z",
+  "generatedAt": "2026-10-18T21:43:09.858Z",
   "daily": {
     "kind": "daily",
     "key": "2026-10-19",
     "title": "曾练全球一手简报 · 今日日报 (2026-10-19)",
     "subtitle": "全球·国内·商业搞钱·AI·影视娱乐·体育 六大实时Top20精选",
-    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：租用了其他人的 SaaS 并扩展到 3900 美元 MRR 😅；Show HN：《时之笛》重制版之前的《塞尔达传说》时间表；如何从离开您的 SaaS 的人那里获得反馈。",
+    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：两年后我将关闭 Adultdatalink.com（成人内容 API）并在 GIthub 上开源代码；租用了其他人的 SaaS 并扩展到 3900 美元 MRR 😅；显示 HN：Ranet3 – 高性能策略路由 IPsec 网状 SD-WAN。",
     "metrics": {
       "totalEvents": 18,
       "sourcesCount": 30,
@@ -17,6 +17,29 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
+          {
+            "id": "a133b876cc5bb5029719f00c8",
+            "title": "【BBC全球】芝加哥与泛滥美国的合成毒品的斗争",
+            "originalTitle": "Inside Chicago's battle against the synthetic drugs flooding the US",
+            "summary": "新一波合成毒品正在席卷美国，引发人们对毒品危机恶化的担忧。英国广播公司 (BBC) 的昆汀·萨默维尔 (Quentin Sommerville) 从芝加哥南区前线报道，那里的社区正在奋战……（来源：BBC News·全球要闻）",
+            "source": {
+              "name": "BBC News·全球要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a133b876cc5bb5029719f00c8",
+              "original": "https://www.bbc.co.uk/news/videos/c84g166kz003o?at_medium=RSS&at_campaign=rss"
+            },
+            "publishedAt": "2026-10-18T21:00:22.000Z",
+            "discoveredAt": "2026-10-18T21:42:19.275Z",
+            "category": "global",
+            "score": 98,
+            "selected": true,
+            "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a133b876cc5bb5029719f00c8"
+            }
+          },
           {
             "id": "a137c977a468da25d5c9052a3",
             "title": "【全球热榜】Namecheap 刚刚查封并禁用了我的所有域名",
@@ -41,49 +64,26 @@
             }
           },
           {
-            "id": "a78b84bc083725ffbcec96c3b",
-            "title": "【全球热榜】软件背后有人",
-            "originalTitle": "Someone behind the software",
-            "summary": "X/HN·全球热榜Top实时快讯：Someone behind the software。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "id": "a216b8b696325506cf7fdd942",
+            "title": "【全球热榜】佛罗里达州的 HOA 和公寓协会正在加剧住房危机",
+            "originalTitle": "Florida's HOAs and condo associations are making the housing crisis worse",
+            "summary": "X/HN·全球热榜Top实时快讯：Florida's HOAs and condo associations are making the housing crisis worse。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
             "source": {
               "name": "X/HN·全球热榜Top"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a78b84bc083725ffbcec96c3b",
-              "original": "https://karrisaarinen.com/posts/someone-behind-the-software/"
+              "aihot": "https://zenglian-news.onrender.com/items/a216b8b696325506cf7fdd942",
+              "original": "https://hoaspy.com/hoa/fl/florida-hoa-housing-crisis.html"
             },
-            "publishedAt": "2026-10-18T16:32:00.000Z",
-            "discoveredAt": "2026-10-18T19:17:40.487Z",
+            "publishedAt": "2026-10-18T18:40:16.000Z",
+            "discoveredAt": "2026-10-18T21:42:20.993Z",
             "category": "global",
             "score": 97,
             "selected": true,
             "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a78b84bc083725ffbcec96c3b"
-            }
-          },
-          {
-            "id": "a54c2a8b99595b81791ace045",
-            "title": "【全球热榜】macOS 15.8.2 破坏 OpenGL",
-            "originalTitle": "macOS 15.8.2 Breaks OpenGL",
-            "summary": "X/HN·全球热榜Top实时快讯：macOS 15.8.2 Breaks OpenGL。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a54c2a8b99595b81791ace045",
-              "original": "https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550"
-            },
-            "publishedAt": "2026-10-18T15:26:06.000Z",
-            "discoveredAt": "2026-10-18T19:17:40.932Z",
-            "category": "global",
-            "score": 97,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a54c2a8b99595b81791ace045"
+              "url": "https://zenglian-news.onrender.com/items/a216b8b696325506cf7fdd942"
             }
           }
         ]
@@ -168,6 +168,29 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
+            "id": "a7d21277dc14a5605134461cc",
+            "title": "【出海实战】两年后我将关闭 Adultdatalink.com（成人内容 API）并在 GIthub 上开源代码",
+            "originalTitle": "I Am Shutting Down adultdatalink.com (Adult Content API) After 2 Years & Open Sourcing The Code on GIthub",
+            "summary": "大家下午好，你们中的一些人可能还记得我不久前在这里发布的色情明星股票市场指数帖子中的adultdatalink.com。这个项目的爆炸性远远超出了我的预期，并且该项目从那里开始不断发展......（来源：X/Reddit·出海SaaS搞钱）",
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a7d21277dc14a5605134461cc",
+              "original": "https://www.reddit.com/r/SaaS/comments/1x9cehp/i_am_shutting_down_adultdatalinkcom_adult_content/"
+            },
+            "publishedAt": "2026-10-18T19:44:21.000Z",
+            "discoveredAt": "2026-10-18T21:42:33.601Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a7d21277dc14a5605134461cc"
+            }
+          },
+          {
             "id": "ab5d0071aed03c8afbbea284d",
             "title": "【出海实战】租用了其他人的 SaaS 并扩展到 3900 美元 MRR 😅",
             "originalTitle": "Rented someone else SaaS and scaled to $3.9k MRR 😅",
@@ -191,49 +214,26 @@
             }
           },
           {
-            "id": "ac39d47a1105a419bae792acf",
-            "title": "【独立变现】Show HN：《时之笛》重制版之前的《塞尔达传说》时间表",
-            "originalTitle": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
-            "summary": "这是我在《时之笛》重制版 17 天后发布之前制作的。我记得小时候玩这个游戏的感觉，但我没跟上故事情节，所以我制定了一个时间表，以便在《时间之门》重播之前赶上……（来源：Show HN·独立变现榜）",
+            "id": "a2b4de1d2a57eceaf3317093f",
+            "title": "【独立变现】显示 HN：Ranet3 – 高性能策略路由 IPsec 网状 SD-WAN",
+            "originalTitle": "Show HN: Ranet3 – High performance policy routed IPsec mesh SD-WAN",
+            "summary": "顺便说一句，这已经在我所有的机器（包括 MacBook）上运行，并且我已将所有机器配置为具有可路由的公共 IP 地址；）特别是对于 mac，我的 ISP 是 SFR（通过同轴连接），仅动态...（来源：Show HN·独立变现榜）",
             "source": {
               "name": "Show HN·独立变现榜"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac39d47a1105a419bae792acf",
-              "original": "https://legendofhyrule.com/"
+              "aihot": "https://zenglian-news.onrender.com/items/a2b4de1d2a57eceaf3317093f",
+              "original": "https://ranet3.com/"
             },
-            "publishedAt": "2026-10-18T13:06:54.000Z",
-            "discoveredAt": "2026-10-18T19:17:50.528Z",
+            "publishedAt": "2026-10-18T14:31:52.000Z",
+            "discoveredAt": "2026-10-18T21:42:30.450Z",
             "category": "money",
             "score": 99,
             "selected": true,
             "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac39d47a1105a419bae792acf"
-            }
-          },
-          {
-            "id": "a132bbfded2e35863edaa95cb",
-            "title": "【出海实战】如何从离开您的 SaaS 的人那里获得反馈",
-            "originalTitle": "How to get feedback from people who leave your SaaS",
-            "summary": "大家好，我想知道你们是如何找出人们离开你们的 SaaS 的原因的？当我联系他们询问时，我从未得到任何回复。我使用 firebase 来更好地理解用户行为，这很有帮助，但仍然不够。任何建议...（来源：X/Reddit·出海SaaS搞钱）",
-            "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a132bbfded2e35863edaa95cb",
-              "original": "https://www.reddit.com/r/SaaS/comments/1x91y8u/how_to_get_feedback_from_people_who_leave_your/"
-            },
-            "publishedAt": "2026-10-18T12:24:55.000Z",
-            "discoveredAt": "2026-10-18T13:30:19.263Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a132bbfded2e35863edaa95cb"
+              "url": "https://zenglian-news.onrender.com/items/a2b4de1d2a57eceaf3317093f"
             }
           }
         ]
@@ -242,6 +242,29 @@
         "category": "tech",
         "label": "🤖 AI实时Top20",
         "items": [
+          {
+            "id": "aae88c5d021523b6311f26392",
+            "title": "【X·AI一手】混合推理代理：LLM 代理在潜在空间中思考，通过文本行动",
+            "originalTitle": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+            "summary": "https://x.com/Jiaru_Zou/status/2110400256647340476 https://github.com/togethercomputer/HybridAgent https://huggingface.co/collections/togethercomputer/hybridag... 评估：https://arxiv.org/html/2610.18861v1#S5（来源：X (Twitter)·硅谷AI大佬）",
+            "source": {
+              "name": "X (Twitter)·硅谷AI大佬"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aae88c5d021523b6311f26392",
+              "original": "https://arxiv.org/abs/2610.18861"
+            },
+            "publishedAt": "2026-10-18T20:48:14.000Z",
+            "discoveredAt": "2026-10-18T21:42:42.179Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aae88c5d021523b6311f26392"
+            }
+          },
           {
             "id": "abb88d597597d9695ff06b7e1",
             "title": "【硅谷AI】迪士尼同意雇用 Character.AI 的大部分员工",
@@ -287,29 +310,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/aa9d0297238353043fab1a890"
             }
-          },
-          {
-            "id": "a5d33c2294cbc00e623379015",
-            "title": "【X·AI一手】Anthropic 提出的人工智能安全法案只有在 50 人死亡或 10 亿美元损失时才会生效",
-            "originalTitle": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
-            "summary": "X (Twitter)·硅谷AI大佬实时快讯：Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages。Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。（来源：X (Twitter)·硅谷AI大佬）",
-            "source": {
-              "name": "X (Twitter)·硅谷AI大佬"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a5d33c2294cbc00e623379015",
-              "original": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model"
-            },
-            "publishedAt": "2026-10-18T14:30:27.000Z",
-            "discoveredAt": "2026-10-18T16:49:09.175Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a5d33c2294cbc00e623379015"
-            }
           }
         ]
       },
@@ -318,72 +318,72 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "a5eb445cc5f61535e7757386d",
-            "title": "【全球票房】A24 如何引发 Meme 热潮并吸引众多观看者：纪录片《你可以看到一切》票房突破 1500 万美元里程碑",
-            "originalTitle": "How A24 Spurred A Meme Craze & Got The Many To Watch ‘You Can See Everything’: Documentary Opens To $15M Milestone",
-            "summary": "不到两个月前，公众甚至不知道内森·菲尔德 (Nathan Fielder) 联合导演并主演的纪录片的存在，这部纪录片讲述了备受争议的希拉洛斯 (Theranos) 创始人伊丽莎白·霍姆斯 (Elizabeth Holmes)。我们在这里与 A24 一起...（来源：Deadline·全球票房与新片）",
+            "id": "aafce82400b95d64be0011fa3",
+            "title": "【好莱坞一手】杰西·艾森伯格的音乐喜剧在伦敦电影节上高调闭幕，朱丽安·摩尔表示《首演》是“我读过的最好的剧本之一”",
+            "originalTitle": "Julianne Moore Says ‘The Debut’ Is ‘One of the Best Scripts I’ve Ever Read’ as Jesse Eisenberg’s Musical Comedy Closes London Film Festival on a High Note",
+            "summary": "周日晚上，《首演》在伦敦电影节上高调落幕，导演杰西·艾森伯格和主演朱丽安·摩尔在皇家节日音乐厅向挤满观众的观众滔滔不绝。 “我的意思是，这部电影由我的......（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aafce82400b95d64be0011fa3",
+              "original": "https://variety.com/2026/film/festivals/julianne-moore-jesse-eisenberg-the-debut-london-premiere-1236915637/"
+            },
+            "publishedAt": "2026-10-18T20:40:12.000Z",
+            "discoveredAt": "2026-10-18T21:42:47.517Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aafce82400b95d64be0011fa3"
+            }
+          },
+          {
+            "id": "a484dd1054d72f7f732e31a57",
+            "title": "【全球票房】彼得·赖斯制作的杰西·艾森伯格电视剧将由 A24 下架",
+            "originalTitle": "Jesse Eisenberg TV Series Produced By Peter Rice To Be Taken Out By A24",
+            "summary": "杰西·艾森伯格正在将注意力转向电视。艾森伯格作为编剧兼导演的最新电影《A24 首秀》（由朱丽安·摩尔主演）刚刚结束，他正在为《A24》准备一部电视剧。书面、执行计划...（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a5eb445cc5f61535e7757386d",
-              "original": "https://deadline.com/2026/10/you-can-see-everything-box-office-elizabeth-holmes-1237167129/"
+              "aihot": "https://zenglian-news.onrender.com/items/a484dd1054d72f7f732e31a57",
+              "original": "https://deadline.com/2026/10/jesse-eisenberg-tv-series-peter-rice-a24-1237167146/"
             },
-            "publishedAt": "2026-10-18T18:50:39.000Z",
-            "discoveredAt": "2026-10-18T19:18:14.037Z",
+            "publishedAt": "2026-10-18T20:28:32.000Z",
+            "discoveredAt": "2026-10-18T21:42:55.715Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a5eb445cc5f61535e7757386d"
+              "url": "https://zenglian-news.onrender.com/items/a484dd1054d72f7f732e31a57"
             }
           },
           {
-            "id": "a8e0075b1c42edc4c62c61957",
-            "title": "【好莱坞一手】伍德斯托克电影节任命杰西卡·爱德华兹为执行总监",
-            "originalTitle": "Woodstock Film Festival Names Jessica Edwards as Executive Director",
-            "summary": "伍德斯托克电影节周日在第 27 届年度电影节闭幕之际宣布，杰西卡·爱德华兹被任命为伍德斯托克电影节新任执行董事。爱德华兹将接替梅拉·布劳斯蒂的角色……（来源：Variety·好莱坞影视）",
+            "id": "a052d8d786831db316f74e726",
+            "title": "【好莱坞一手】乔·曼根尼罗表示，本·阿弗莱克被废弃的蝙蝠侠电影会看到丧钟“摧毁蝙蝠侠的整个生活”并杀死戈登专员",
+            "originalTitle": "Joe Manganiello Says Ben Affleck’s Scrapped Batman Film Would Have Seen Deathstroke ‘Dismantle Batman’s Entire Life’ and Kill Commissioner Gordon",
+            "summary": "乔·曼根尼罗原定在本·阿弗莱克废弃的蝙蝠侠电影中重新扮演丧钟一角，他讲述了如果这部超级英雄电影上映的话会发生什么。在他的新回忆录《血族》中...（来源：Variety·好莱坞影视）",
             "source": {
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a8e0075b1c42edc4c62c61957",
-              "original": "https://variety.com/2026/film/news/woodstock-film-festival-jessica-edwards-executive-director-1236915828/"
+              "aihot": "https://zenglian-news.onrender.com/items/a052d8d786831db316f74e726",
+              "original": "https://variety.com/2026/film/news/joe-manganiello-ben-afflecks-batman-film-deathstroke-1236915997/"
             },
-            "publishedAt": "2026-10-18T18:00:00.000Z",
-            "discoveredAt": "2026-10-18T19:18:10.070Z",
+            "publishedAt": "2026-10-18T20:12:37.000Z",
+            "discoveredAt": "2026-10-18T21:42:48.858Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a8e0075b1c42edc4c62c61957"
-            }
-          },
-          {
-            "id": "af43fb1ea80e4d6626a04a36c",
-            "title": "【好莱坞一手】阿兰·墨菲谈在《青春》和《战争》中扮演愤怒的年轻人——以及他父亲希里安的影响",
-            "originalTitle": "Aran Murphy on Playing an Angry Young Man in ‘Youth’ and ‘War’ — and His Father Cillian’s Influence",
-            "summary": "阿兰·墨菲度过了相当愉快的一个月，因为他不仅在一部而是两部 HBO 电视剧《青春》和《战争》中联合主演，并在塔伊卡·维迪蒂的反乌托邦电影《克拉拉与太阳》中扮演主角之一，该电影将于 10 月 23 日上映。但是……（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af43fb1ea80e4d6626a04a36c",
-              "original": "https://variety.com/2026/tv/news/aran-murphy-youth-war-and-cillian-murphy-influence-1236909378/"
-            },
-            "publishedAt": "2026-10-18T18:00:00.000Z",
-            "discoveredAt": "2026-10-18T19:18:08.956Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af43fb1ea80e4d6626a04a36c"
+              "url": "https://zenglian-news.onrender.com/items/a052d8d786831db316f74e726"
             }
           }
         ]
@@ -392,6 +392,29 @@
         "category": "business",
         "label": "🏆 体育实时Top20",
         "items": [
+          {
+            "id": "a137c5a255419cf87ecfab893",
+            "title": "【NBA一手】[奎因]布朗尼已经两年没有达到进攻可行性的地步了，而且以他的身材来说，防守门槛实在是太高了。如果他永远不会投篮，他就必须是贾马尔·谢德级别的害虫才能证明自己在名单上的位置是合理的，但他不是。拉尔应该把他交易给一些想卖球衣的老板",
+            "originalTitle": "[Quinn] Bronny hasn't reached the point of offensive viability in 2 years and the defensive threshold is so damn high at his size. If he's never gonna make shots, he has to be a Jamal Shead-level pest to justify a roster spot and he isn't. LAL should trade him to some owner who wants to sell jerseys",
+            "summary": "然而，哥伦比亚广播公司体育频道的NBA记者萨姆·奎因建议湖人队应该交易布朗尼·詹姆斯，而不是放弃克内克特。 “如果我是湖人队，我现在就会尝试将布朗尼交易给某个......（来源：NBA·北美篮球实时热榜）",
+            "source": {
+              "name": "NBA·北美篮球实时热榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a137c5a255419cf87ecfab893",
+              "original": "https://www.reddit.com/r/nba/comments/1x9a4bf/quinn_bronny_hasnt_reached_the_point_of_offensive/"
+            },
+            "publishedAt": "2026-10-18T18:13:47.000Z",
+            "discoveredAt": "2026-10-18T21:43:09.155Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a137c5a255419cf87ecfab893"
+            }
+          },
           {
             "id": "af787ec9f41261989b02ff86d",
             "title": "【欧洲足坛】诺丁汉森林 v 阿森纳：英超联赛 - 直播",
@@ -437,29 +460,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a19a7e2b0dc962c43d043c041"
             }
-          },
-          {
-            "id": "aa71762d92a69625fb0bfe992",
-            "title": "【体坛快讯】2026武网：波兰选手赫瓦林斯卡逆转夺冠",
-            "originalTitle": "2026武网：波兰选手赫瓦林斯卡逆转夺冠",
-            "summary": "中新社武汉10月18日电 (记者 武一力)2026武汉网球公开赛18日迎来收官之战。女子单打决赛中，波兰选手赫瓦林斯卡逆转英国选手卡塔尔，夺得职业生涯首个WTA巡回赛冠军。",
-            "source": {
-              "name": "中新网·体育焦点"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa71762d92a69625fb0bfe992",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-18/10716894.shtml"
-            },
-            "publishedAt": "2026-10-18T14:49:23.000Z",
-            "discoveredAt": "2026-10-18T15:43:19.892Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa71762d92a69625fb0bfe992"
-            }
           }
         ]
       }
@@ -470,7 +470,7 @@
     "key": "2026-W41",
     "title": "曾练全球一手简报 · 本周核心周报 (2026年第41周)",
     "subtitle": "7天全球政经、国内大事、商业搞钱、AI突破与文体焦点深度复盘",
-    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：租用了其他人的 SaaS 并扩展到 3900 美元 MRR 😅；Show HN：《时之笛》重制版之前的《塞尔达传说》时间表；如何从离开您的 SaaS 的人那里获得反馈。",
+    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：两年后我将关闭 Adultdatalink.com（成人内容 API）并在 GIthub 上开源代码；租用了其他人的 SaaS 并扩展到 3900 美元 MRR 😅；显示 HN：Ranet3 – 高性能策略路由 IPsec 网状 SD-WAN。",
     "metrics": {
       "totalEvents": 30,
       "sourcesCount": 30,
@@ -481,6 +481,29 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
+          {
+            "id": "a133b876cc5bb5029719f00c8",
+            "title": "【BBC全球】芝加哥与泛滥美国的合成毒品的斗争",
+            "originalTitle": "Inside Chicago's battle against the synthetic drugs flooding the US",
+            "summary": "新一波合成毒品正在席卷美国，引发人们对毒品危机恶化的担忧。英国广播公司 (BBC) 的昆汀·萨默维尔 (Quentin Sommerville) 从芝加哥南区前线报道，那里的社区正在奋战……（来源：BBC News·全球要闻）",
+            "source": {
+              "name": "BBC News·全球要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a133b876cc5bb5029719f00c8",
+              "original": "https://www.bbc.co.uk/news/videos/c84g166kz003o?at_medium=RSS&at_campaign=rss"
+            },
+            "publishedAt": "2026-10-18T21:00:22.000Z",
+            "discoveredAt": "2026-10-18T21:42:19.275Z",
+            "category": "global",
+            "score": 98,
+            "selected": true,
+            "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a133b876cc5bb5029719f00c8"
+            }
+          },
           {
             "id": "a137c977a468da25d5c9052a3",
             "title": "【全球热榜】Namecheap 刚刚查封并禁用了我的所有域名",
@@ -502,6 +525,29 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a137c977a468da25d5c9052a3"
+            }
+          },
+          {
+            "id": "a216b8b696325506cf7fdd942",
+            "title": "【全球热榜】佛罗里达州的 HOA 和公寓协会正在加剧住房危机",
+            "originalTitle": "Florida's HOAs and condo associations are making the housing crisis worse",
+            "summary": "X/HN·全球热榜Top实时快讯：Florida's HOAs and condo associations are making the housing crisis worse。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a216b8b696325506cf7fdd942",
+              "original": "https://hoaspy.com/hoa/fl/florida-hoa-housing-crisis.html"
+            },
+            "publishedAt": "2026-10-18T18:40:16.000Z",
+            "discoveredAt": "2026-10-18T21:42:20.993Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a216b8b696325506cf7fdd942"
             }
           },
           {
@@ -548,52 +594,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a54c2a8b99595b81791ace045"
-            }
-          },
-          {
-            "id": "ab504f9d2f0aacc0bd911797d",
-            "title": "【国际巨头】一名女子因阻挡送货机器人而在费城被捕",
-            "originalTitle": "A woman was arrested in Philly for blocking a delivery robot",
-            "summary": "卡罗琳·马文 (Carolyn Marvin) 因挡住 Uber 送货机器人的道路并拒绝让路而被捕并被指控行为不检。马文告诉费城的 ABC13 频道：“我知道他们正在抢走我们的工作......（来源：The Verge·国际巨头）",
-            "source": {
-              "name": "The Verge·国际巨头"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab504f9d2f0aacc0bd911797d",
-              "original": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot"
-            },
-            "publishedAt": "2026-10-18T18:28:10.000Z",
-            "discoveredAt": "2026-10-18T19:17:42.634Z",
-            "category": "global",
-            "score": 96,
-            "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab504f9d2f0aacc0bd911797d"
-            }
-          },
-          {
-            "id": "a2b7d362f7f3f33b59fe5865d",
-            "title": "【BBC全球】抗议演变成骚乱和抢劫后，巴黎街道上的汽车被烧毁，玻璃被打碎",
-            "originalTitle": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
-            "summary": "全国抗议活动爆发暴力和破坏行为后，约 1,800 人被捕。（来源：BBC News·全球要闻）",
-            "source": {
-              "name": "BBC News·全球要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a2b7d362f7f3f33b59fe5865d",
-              "original": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss"
-            },
-            "publishedAt": "2026-10-18T12:07:31.000Z",
-            "discoveredAt": "2026-10-18T13:29:41.640Z",
-            "category": "global",
-            "score": 96,
-            "selected": true,
-            "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a2b7d362f7f3f33b59fe5865d"
             }
           }
         ]
@@ -724,6 +724,29 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
+            "id": "a7d21277dc14a5605134461cc",
+            "title": "【出海实战】两年后我将关闭 Adultdatalink.com（成人内容 API）并在 GIthub 上开源代码",
+            "originalTitle": "I Am Shutting Down adultdatalink.com (Adult Content API) After 2 Years & Open Sourcing The Code on GIthub",
+            "summary": "大家下午好，你们中的一些人可能还记得我不久前在这里发布的色情明星股票市场指数帖子中的adultdatalink.com。这个项目的爆炸性远远超出了我的预期，并且该项目从那里开始不断发展......（来源：X/Reddit·出海SaaS搞钱）",
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a7d21277dc14a5605134461cc",
+              "original": "https://www.reddit.com/r/SaaS/comments/1x9cehp/i_am_shutting_down_adultdatalinkcom_adult_content/"
+            },
+            "publishedAt": "2026-10-18T19:44:21.000Z",
+            "discoveredAt": "2026-10-18T21:42:33.601Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a7d21277dc14a5605134461cc"
+            }
+          },
+          {
             "id": "ab5d0071aed03c8afbbea284d",
             "title": "【出海实战】租用了其他人的 SaaS 并扩展到 3900 美元 MRR 😅",
             "originalTitle": "Rented someone else SaaS and scaled to $3.9k MRR 😅",
@@ -744,6 +767,29 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ab5d0071aed03c8afbbea284d"
+            }
+          },
+          {
+            "id": "a2b4de1d2a57eceaf3317093f",
+            "title": "【独立变现】显示 HN：Ranet3 – 高性能策略路由 IPsec 网状 SD-WAN",
+            "originalTitle": "Show HN: Ranet3 – High performance policy routed IPsec mesh SD-WAN",
+            "summary": "顺便说一句，这已经在我所有的机器（包括 MacBook）上运行，并且我已将所有机器配置为具有可路由的公共 IP 地址；）特别是对于 mac，我的 ISP 是 SFR（通过同轴连接），仅动态...（来源：Show HN·独立变现榜）",
+            "source": {
+              "name": "Show HN·独立变现榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a2b4de1d2a57eceaf3317093f",
+              "original": "https://ranet3.com/"
+            },
+            "publishedAt": "2026-10-18T14:31:52.000Z",
+            "discoveredAt": "2026-10-18T21:42:30.450Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a2b4de1d2a57eceaf3317093f"
             }
           },
           {
@@ -791,52 +837,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a132bbfded2e35863edaa95cb"
             }
-          },
-          {
-            "id": "a219154506a423ce359aba098",
-            "title": "“驽工理论”被美国人偷走了",
-            "originalTitle": "“驽工理论”被美国人偷走了",
-            "summary": "本文来自微信公众号： 骑桶跑路人 ，作者：骑桶跑路人 驽工理论，是今年知乎人文社科领域的重大创新。目前已经被ban了，足见其含金量，说它能和“刀工理论”并驾齐驱也不为过。 墙里开花墙外香，虽然驽工理论在我国被ban了，但被美国人偷走去拍电影了。有一种戴高乐的军事著作，法国人自己不看，但德国人看的既视感。 我最近看了《生化危机·爆发夜》，是《生化危机》这个系列评分最高的电影，烂番茄96％。这部电影的理论基础就是驽工理论，即层层外包，最终将...",
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a219154506a423ce359aba098",
-              "original": "https://www.huxiu.com/article/4898436.html?f=rss"
-            },
-            "publishedAt": "2026-10-18T15:04:36.000Z",
-            "discoveredAt": "2026-10-18T15:42:49.615Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a219154506a423ce359aba098"
-            }
-          },
-          {
-            "id": "abd47da22c645f3a237859f53",
-            "title": "中美AI竞争的新变量：开源、算力与产业生态",
-            "originalTitle": "中美AI竞争的新变量：开源、算力与产业生态",
-            "summary": "（本文作者为 Barrons巴伦，钛媒体经授权发布） 过去几年，中美人工智能竞争最容易被看见的是模型排行榜、GPU数量和参数规模。但到了2026年，竞争的重心正在发生变化：模型能力仍然重要，真正决定一套技术路线能否持续扩张的，越来越包括推理成本、开发者生态、云服务、企业部署、真实场景数据以及规则制定能力。 开源与闭源因此不再只是工程师之间的技术路线之争。对企业而言，它关系到商业模式和客户控制权；对产业而言，它决定模型能以多低的成本进入制...",
-            "source": {
-              "name": "钛媒体·资本与风口"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/abd47da22c645f3a237859f53",
-              "original": "https://www.tmtpost.com/8172534.html"
-            },
-            "publishedAt": "2026-10-18T14:37:59.000Z",
-            "discoveredAt": "2026-10-18T15:42:53.377Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/abd47da22c645f3a237859f53"
-            }
           }
         ]
       },
@@ -844,6 +844,29 @@
         "category": "tech",
         "label": "🤖 AI实时Top20",
         "items": [
+          {
+            "id": "aae88c5d021523b6311f26392",
+            "title": "【X·AI一手】混合推理代理：LLM 代理在潜在空间中思考，通过文本行动",
+            "originalTitle": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+            "summary": "https://x.com/Jiaru_Zou/status/2110400256647340476 https://github.com/togethercomputer/HybridAgent https://huggingface.co/collections/togethercomputer/hybridag... 评估：https://arxiv.org/html/2610.18861v1#S5（来源：X (Twitter)·硅谷AI大佬）",
+            "source": {
+              "name": "X (Twitter)·硅谷AI大佬"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aae88c5d021523b6311f26392",
+              "original": "https://arxiv.org/abs/2610.18861"
+            },
+            "publishedAt": "2026-10-18T20:48:14.000Z",
+            "discoveredAt": "2026-10-18T21:42:42.179Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aae88c5d021523b6311f26392"
+            }
+          },
           {
             "id": "abb88d597597d9695ff06b7e1",
             "title": "【硅谷AI】迪士尼同意雇用 Character.AI 的大部分员工",
@@ -935,29 +958,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a9212b3454d0d5cdb3d16b7a0"
             }
-          },
-          {
-            "id": "a202c8fc6dc4301de07aa4b89",
-            "title": "Deepseek公布API网页搜索与抓取费用：每1000次成功请求5元",
-            "originalTitle": "Deepseek公布API网页搜索与抓取费用：每1000次成功请求5元",
-            "summary": "DeepSeek发布公告，DeepSeek API现已支持网页搜索与抓取，按请求次数计费，单价为每1000次成功请求5元。公告称，当前用户在DeepSeek Harness / Claude Code / Codex中使用DeepSeek API时，已经会通过Server端工具调用访问到Search / Fetch接口，这部分Search / Fetch接口调用目前未计费，并将于11月1日00:00起按次收取调用费用。",
-            "source": {
-              "name": "界面新闻·国内政经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a202c8fc6dc4301de07aa4b89",
-              "original": "https://www.jiemian.com/article/15204049.html"
-            },
-            "publishedAt": "2026-10-18T12:28:19.000Z",
-            "discoveredAt": "2026-10-18T13:29:57.745Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a202c8fc6dc4301de07aa4b89"
-            }
           }
         ]
       },
@@ -966,118 +966,118 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "a5eb445cc5f61535e7757386d",
-            "title": "【全球票房】A24 如何引发 Meme 热潮并吸引众多观看者：纪录片《你可以看到一切》票房突破 1500 万美元里程碑",
-            "originalTitle": "How A24 Spurred A Meme Craze & Got The Many To Watch ‘You Can See Everything’: Documentary Opens To $15M Milestone",
-            "summary": "不到两个月前，公众甚至不知道内森·菲尔德 (Nathan Fielder) 联合导演并主演的纪录片的存在，这部纪录片讲述了备受争议的希拉洛斯 (Theranos) 创始人伊丽莎白·霍姆斯 (Elizabeth Holmes)。我们在这里与 A24 一起...（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a5eb445cc5f61535e7757386d",
-              "original": "https://deadline.com/2026/10/you-can-see-everything-box-office-elizabeth-holmes-1237167129/"
-            },
-            "publishedAt": "2026-10-18T18:50:39.000Z",
-            "discoveredAt": "2026-10-18T19:18:14.037Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a5eb445cc5f61535e7757386d"
-            }
-          },
-          {
-            "id": "a8e0075b1c42edc4c62c61957",
-            "title": "【好莱坞一手】伍德斯托克电影节任命杰西卡·爱德华兹为执行总监",
-            "originalTitle": "Woodstock Film Festival Names Jessica Edwards as Executive Director",
-            "summary": "伍德斯托克电影节周日在第 27 届年度电影节闭幕之际宣布，杰西卡·爱德华兹被任命为伍德斯托克电影节新任执行董事。爱德华兹将接替梅拉·布劳斯蒂的角色……（来源：Variety·好莱坞影视）",
+            "id": "aafce82400b95d64be0011fa3",
+            "title": "【好莱坞一手】杰西·艾森伯格的音乐喜剧在伦敦电影节上高调闭幕，朱丽安·摩尔表示《首演》是“我读过的最好的剧本之一”",
+            "originalTitle": "Julianne Moore Says ‘The Debut’ Is ‘One of the Best Scripts I’ve Ever Read’ as Jesse Eisenberg’s Musical Comedy Closes London Film Festival on a High Note",
+            "summary": "周日晚上，《首演》在伦敦电影节上高调落幕，导演杰西·艾森伯格和主演朱丽安·摩尔在皇家节日音乐厅向挤满观众的观众滔滔不绝。 “我的意思是，这部电影由我的......（来源：Variety·好莱坞影视）",
             "source": {
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a8e0075b1c42edc4c62c61957",
-              "original": "https://variety.com/2026/film/news/woodstock-film-festival-jessica-edwards-executive-director-1236915828/"
+              "aihot": "https://zenglian-news.onrender.com/items/aafce82400b95d64be0011fa3",
+              "original": "https://variety.com/2026/film/festivals/julianne-moore-jesse-eisenberg-the-debut-london-premiere-1236915637/"
             },
-            "publishedAt": "2026-10-18T18:00:00.000Z",
-            "discoveredAt": "2026-10-18T19:18:10.070Z",
+            "publishedAt": "2026-10-18T20:40:12.000Z",
+            "discoveredAt": "2026-10-18T21:42:47.517Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a8e0075b1c42edc4c62c61957"
+              "url": "https://zenglian-news.onrender.com/items/aafce82400b95d64be0011fa3"
             }
           },
           {
-            "id": "af43fb1ea80e4d6626a04a36c",
-            "title": "【好莱坞一手】阿兰·墨菲谈在《青春》和《战争》中扮演愤怒的年轻人——以及他父亲希里安的影响",
-            "originalTitle": "Aran Murphy on Playing an Angry Young Man in ‘Youth’ and ‘War’ — and His Father Cillian’s Influence",
-            "summary": "阿兰·墨菲度过了相当愉快的一个月，因为他不仅在一部而是两部 HBO 电视剧《青春》和《战争》中联合主演，并在塔伊卡·维迪蒂的反乌托邦电影《克拉拉与太阳》中扮演主角之一，该电影将于 10 月 23 日上映。但是……（来源：Variety·好莱坞影视）",
+            "id": "a484dd1054d72f7f732e31a57",
+            "title": "【全球票房】彼得·赖斯制作的杰西·艾森伯格电视剧将由 A24 下架",
+            "originalTitle": "Jesse Eisenberg TV Series Produced By Peter Rice To Be Taken Out By A24",
+            "summary": "杰西·艾森伯格正在将注意力转向电视。艾森伯格作为编剧兼导演的最新电影《A24 首秀》（由朱丽安·摩尔主演）刚刚结束，他正在为《A24》准备一部电视剧。书面、执行计划...（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a484dd1054d72f7f732e31a57",
+              "original": "https://deadline.com/2026/10/jesse-eisenberg-tv-series-peter-rice-a24-1237167146/"
+            },
+            "publishedAt": "2026-10-18T20:28:32.000Z",
+            "discoveredAt": "2026-10-18T21:42:55.715Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a484dd1054d72f7f732e31a57"
+            }
+          },
+          {
+            "id": "a052d8d786831db316f74e726",
+            "title": "【好莱坞一手】乔·曼根尼罗表示，本·阿弗莱克被废弃的蝙蝠侠电影会看到丧钟“摧毁蝙蝠侠的整个生活”并杀死戈登专员",
+            "originalTitle": "Joe Manganiello Says Ben Affleck’s Scrapped Batman Film Would Have Seen Deathstroke ‘Dismantle Batman’s Entire Life’ and Kill Commissioner Gordon",
+            "summary": "乔·曼根尼罗原定在本·阿弗莱克废弃的蝙蝠侠电影中重新扮演丧钟一角，他讲述了如果这部超级英雄电影上映的话会发生什么。在他的新回忆录《血族》中...（来源：Variety·好莱坞影视）",
             "source": {
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af43fb1ea80e4d6626a04a36c",
-              "original": "https://variety.com/2026/tv/news/aran-murphy-youth-war-and-cillian-murphy-influence-1236909378/"
+              "aihot": "https://zenglian-news.onrender.com/items/a052d8d786831db316f74e726",
+              "original": "https://variety.com/2026/film/news/joe-manganiello-ben-afflecks-batman-film-deathstroke-1236915997/"
             },
-            "publishedAt": "2026-10-18T18:00:00.000Z",
-            "discoveredAt": "2026-10-18T19:18:08.956Z",
+            "publishedAt": "2026-10-18T20:12:37.000Z",
+            "discoveredAt": "2026-10-18T21:42:48.858Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af43fb1ea80e4d6626a04a36c"
+              "url": "https://zenglian-news.onrender.com/items/a052d8d786831db316f74e726"
             }
           },
           {
-            "id": "ac9d8020581dd764706da497b",
-            "title": "【全球票房】《街头霸王》夺得全球首映票房 5100 万美元以上，主要由粉丝推动——全球票房更新",
-            "originalTitle": "‘Street Fighter’ Rings Up No. 1 $51M+ WW Opening, Largely Driven By Fans – Global Box Office Update",
-            "summary": "随着内森·菲尔德 (Nathan Fielder) 和伊丽莎白·霍尔姆斯 (Elizabeth Holmes) 的纪录片热潮席卷美国，派拉蒙 / 传奇 / 卡普空 (Capcom) 的《街头霸王》 (Street Fighter) 成为全球周末 B.O. 的主角。全球首映票房为 5110 万美元。其中...（来源：Deadline·全球票房与新片）",
+            "id": "a7f1bae1f285cb1e70d721b33",
+            "title": "【全球票房】TikTok 在“错误”导致暂停后恢复了“Musk”Doc 帐户",
+            "originalTitle": "TikTok Restores ‘Musk’ Doc Account “After An Error” Resulted In Suspension",
+            "summary": "随着亚历克斯·吉布尼（Alex Gibney）用他的最新纪录片与埃隆·马斯克（Elon Musk）较量，布利克/环球项目正在继续抵制社交平台上的审查制度。据报道，穆博士被“永久停职”……（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac9d8020581dd764706da497b",
-              "original": "https://deadline.com/2026/10/box-office-global-street-fighter-1237167021/"
+              "aihot": "https://zenglian-news.onrender.com/items/a7f1bae1f285cb1e70d721b33",
+              "original": "https://deadline.com/2026/10/tiktok-restores-musk-doc-account-after-error-1237167167/"
             },
-            "publishedAt": "2026-10-18T16:59:27.000Z",
-            "discoveredAt": "2026-10-18T19:18:20.428Z",
+            "publishedAt": "2026-10-18T20:04:51.000Z",
+            "discoveredAt": "2026-10-18T21:42:56.793Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac9d8020581dd764706da497b"
+              "url": "https://zenglian-news.onrender.com/items/a7f1bae1f285cb1e70d721b33"
             }
           },
           {
-            "id": "a23f676b049ff9b65a37c0ca5",
-            "title": "【全球票房】帷幕拉开：《La Bola Negra》大放异彩，Netflix 创下历史性票房第一 — 专业票房",
-            "originalTitle": "Curtain Up: ‘La Bola Negra’ Shines As Netflix Shares Grosses In Historic First — Specialty Box Office",
-            "summary": "Netflix 的西班牙电视剧《La Bola Negra》在四块银幕上首映，票房收入达 27.75 万美元——这些数字直接来自这家大型流媒体周日的首个官方票房收入。 TIFF 观众奖得主获得 1 美元...（来源：Deadline·全球票房与新片）",
+            "id": "a769f70b5f4f36931a0d7776c",
+            "title": "【全球票房】辛迪·克劳馥 (Cindy Crawford) 和凯亚·格伯 (Kaia Gerber) 向普雷斯利 (Presley) 致敬：“直到我们再次相见，我们可爱的男孩”",
+            "originalTitle": "Cindy Crawford & Kaia Gerber Pay Tribute To Presley: “‘Til We Meet Again, Our Sweet Boy”",
+            "summary": "上个月，27 岁的普雷斯利·格伯 (Presley Gerber) 去世后，他的家人发表了一份声明，表达哀悼并感谢粉丝的支持。周日，辛迪·克劳馥 (Cindy Crawford) 哀悼失去第一个孩子，她形容为……（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a23f676b049ff9b65a37c0ca5",
-              "original": "https://deadline.com/2026/10/indie-film-box-office-la-bola-negra-shines-netflix-shares-grosses-1237167026/"
+              "aihot": "https://zenglian-news.onrender.com/items/a769f70b5f4f36931a0d7776c",
+              "original": "https://deadline.com/2026/10/cindy-crawford-family-pay-tribute-presley-gerber-1237167162/"
             },
-            "publishedAt": "2026-10-18T16:46:26.000Z",
-            "discoveredAt": "2026-10-18T16:49:23.624Z",
+            "publishedAt": "2026-10-18T19:29:20.000Z",
+            "discoveredAt": "2026-10-18T21:42:57.856Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a23f676b049ff9b65a37c0ca5"
+              "url": "https://zenglian-news.onrender.com/items/a769f70b5f4f36931a0d7776c"
             }
           }
         ]
@@ -1086,6 +1086,29 @@
         "category": "business",
         "label": "🏆 体育实时Top20",
         "items": [
+          {
+            "id": "a137c5a255419cf87ecfab893",
+            "title": "【NBA一手】[奎因]布朗尼已经两年没有达到进攻可行性的地步了，而且以他的身材来说，防守门槛实在是太高了。如果他永远不会投篮，他就必须是贾马尔·谢德级别的害虫才能证明自己在名单上的位置是合理的，但他不是。拉尔应该把他交易给一些想卖球衣的老板",
+            "originalTitle": "[Quinn] Bronny hasn't reached the point of offensive viability in 2 years and the defensive threshold is so damn high at his size. If he's never gonna make shots, he has to be a Jamal Shead-level pest to justify a roster spot and he isn't. LAL should trade him to some owner who wants to sell jerseys",
+            "summary": "然而，哥伦比亚广播公司体育频道的NBA记者萨姆·奎因建议湖人队应该交易布朗尼·詹姆斯，而不是放弃克内克特。 “如果我是湖人队，我现在就会尝试将布朗尼交易给某个......（来源：NBA·北美篮球实时热榜）",
+            "source": {
+              "name": "NBA·北美篮球实时热榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a137c5a255419cf87ecfab893",
+              "original": "https://www.reddit.com/r/nba/comments/1x9a4bf/quinn_bronny_hasnt_reached_the_point_of_offensive/"
+            },
+            "publishedAt": "2026-10-18T18:13:47.000Z",
+            "discoveredAt": "2026-10-18T21:43:09.155Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a137c5a255419cf87ecfab893"
+            }
+          },
           {
             "id": "af787ec9f41261989b02ff86d",
             "title": "【欧洲足坛】诺丁汉森林 v 阿森纳：英超联赛 - 直播",
@@ -1156,49 +1179,26 @@
             }
           },
           {
-            "id": "a3fe377c4d21d97f1066568d3",
-            "title": "【体坛快讯】上海网球大师赛收官 弗基纳首夺大师赛冠军",
-            "originalTitle": "上海网球大师赛收官 弗基纳首夺大师赛冠军",
-            "summary": "中新社上海10月18日电 (记者 缪璐)2026上海网球大师赛18日晚收官。男子单打项目中，西班牙球员亚历杭德罗·达维多维奇·弗基纳以大比分2:1(1:6、7:6、6:4)逆转战胜同胞拉斐尔·霍达尔夺冠。这是他职业生涯第一个大师赛冠军，他也因此成为上海网球大师赛历史上首位西班牙男单冠军。",
-            "source": {
-              "name": "中新网·体育焦点"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a3fe377c4d21d97f1066568d3",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-18/10716888.shtml"
-            },
-            "publishedAt": "2026-10-18T14:43:37.000Z",
-            "discoveredAt": "2026-10-18T15:43:20.818Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a3fe377c4d21d97f1066568d3"
-            }
-          },
-          {
-            "id": "a1fa2ec1e5c1ba035035414a5",
-            "title": "【欧洲足坛】欧洲足球：摩纳哥错失登顶机会；勒沃库森找到状态",
-            "originalTitle": "European football: Monaco miss chance to go top; Bayer Leverkusen find form",
-            "summary": "摩纳哥在法甲联赛中0-1不敌洛里昂 勒沃库森后来居上击败弗莱堡 诺阿·卡迪乌下半场为洛里昂队制造的点球让摩纳哥队在法甲联赛中0-1失利，阻止摩纳哥重返法甲榜首。（来源：卫报体育·欧冠与五大联赛）",
+            "id": "a23e2717511603cd3a899ba1b",
+            "title": "【欧洲足坛】精英级别的无能是曼联的问题，而不是迈克尔·卡里克 |巴尼·罗奈",
+            "originalTitle": "Elite-level incompetence is Manchester United’s problem – not Michael Carrick | Barney Ronay",
+            "summary": "解雇主教练并不能解决导致他被任命的问题。也许值得，这一次，做一些不同的事情在埃兰路的终场哨声响起时，电视摄像机切换到一个挥之不去的镜头......（来源：卫报体育·欧冠与五大联赛）",
             "source": {
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a1fa2ec1e5c1ba035035414a5",
-              "original": "https://www.theguardian.com/football/2026/oct/18/european-football-monaco-rennes-ligue-1-bayer-leverkusen-freiburg-bundesliga-como-fiorentina-seria-a-real-madrid-sevilla-la-liga"
+              "aihot": "https://zenglian-news.onrender.com/items/a23e2717511603cd3a899ba1b",
+              "original": "https://www.theguardian.com/football/2026/oct/18/manchester-united-michael-carrick-omar-berrada-leeds-premier-league"
             },
-            "publishedAt": "2026-10-18T18:36:15.000Z",
-            "discoveredAt": "2026-10-18T19:18:28.737Z",
+            "publishedAt": "2026-10-18T19:56:30.000Z",
+            "discoveredAt": "2026-10-18T21:43:03.339Z",
             "category": "business",
             "score": 98,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a1fa2ec1e5c1ba035035414a5"
+              "url": "https://zenglian-news.onrender.com/items/a23e2717511603cd3a899ba1b"
             }
           }
         ]
@@ -1210,7 +1210,7 @@
     "key": "2026-10",
     "title": "曾练全球一手简报 · 月度产业全景报告 (2026年10月)",
     "subtitle": "30天六大实时Top20赛道全景洞察与高价值搞钱机会总结",
-    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：租用了其他人的 SaaS 并扩展到 3900 美元 MRR 😅；Show HN：《时之笛》重制版之前的《塞尔达传说》时间表；如何从离开您的 SaaS 的人那里获得反馈。",
+    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：两年后我将关闭 Adultdatalink.com（成人内容 API）并在 GIthub 上开源代码；租用了其他人的 SaaS 并扩展到 3900 美元 MRR 😅；显示 HN：Ranet3 – 高性能策略路由 IPsec 网状 SD-WAN。",
     "metrics": {
       "totalEvents": 36,
       "sourcesCount": 30,
@@ -1221,6 +1221,29 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
+          {
+            "id": "a133b876cc5bb5029719f00c8",
+            "title": "【BBC全球】芝加哥与泛滥美国的合成毒品的斗争",
+            "originalTitle": "Inside Chicago's battle against the synthetic drugs flooding the US",
+            "summary": "新一波合成毒品正在席卷美国，引发人们对毒品危机恶化的担忧。英国广播公司 (BBC) 的昆汀·萨默维尔 (Quentin Sommerville) 从芝加哥南区前线报道，那里的社区正在奋战……（来源：BBC News·全球要闻）",
+            "source": {
+              "name": "BBC News·全球要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a133b876cc5bb5029719f00c8",
+              "original": "https://www.bbc.co.uk/news/videos/c84g166kz003o?at_medium=RSS&at_campaign=rss"
+            },
+            "publishedAt": "2026-10-18T21:00:22.000Z",
+            "discoveredAt": "2026-10-18T21:42:19.275Z",
+            "category": "global",
+            "score": 98,
+            "selected": true,
+            "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a133b876cc5bb5029719f00c8"
+            }
+          },
           {
             "id": "a137c977a468da25d5c9052a3",
             "title": "【全球热榜】Namecheap 刚刚查封并禁用了我的所有域名",
@@ -1242,6 +1265,29 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a137c977a468da25d5c9052a3"
+            }
+          },
+          {
+            "id": "a216b8b696325506cf7fdd942",
+            "title": "【全球热榜】佛罗里达州的 HOA 和公寓协会正在加剧住房危机",
+            "originalTitle": "Florida's HOAs and condo associations are making the housing crisis worse",
+            "summary": "X/HN·全球热榜Top实时快讯：Florida's HOAs and condo associations are making the housing crisis worse。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a216b8b696325506cf7fdd942",
+              "original": "https://hoaspy.com/hoa/fl/florida-hoa-housing-crisis.html"
+            },
+            "publishedAt": "2026-10-18T18:40:16.000Z",
+            "discoveredAt": "2026-10-18T21:42:20.993Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a216b8b696325506cf7fdd942"
             }
           },
           {
@@ -1291,72 +1337,26 @@
             }
           },
           {
-            "id": "ab504f9d2f0aacc0bd911797d",
-            "title": "【国际巨头】一名女子因阻挡送货机器人而在费城被捕",
-            "originalTitle": "A woman was arrested in Philly for blocking a delivery robot",
-            "summary": "卡罗琳·马文 (Carolyn Marvin) 因挡住 Uber 送货机器人的道路并拒绝让路而被捕并被指控行为不检。马文告诉费城的 ABC13 频道：“我知道他们正在抢走我们的工作......（来源：The Verge·国际巨头）",
+            "id": "a945c7795594f30906d41df7b",
+            "title": "【全球热榜】Java 密封类和详尽的模式匹配",
+            "originalTitle": "Java sealed classes and exhaustive pattern matching",
+            "summary": "X/HN·全球热榜Top实时快讯：Java sealed classes and exhaustive pattern matching。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
             "source": {
-              "name": "The Verge·国际巨头"
+              "name": "X/HN·全球热榜Top"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab504f9d2f0aacc0bd911797d",
-              "original": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot"
+              "aihot": "https://zenglian-news.onrender.com/items/a945c7795594f30906d41df7b",
+              "original": "https://neilmadden.blog/2026/04/24/java-sealed-classes-and-exhaustive-pattern-matching/"
             },
-            "publishedAt": "2026-10-18T18:28:10.000Z",
-            "discoveredAt": "2026-10-18T19:17:42.634Z",
+            "publishedAt": "2026-10-18T14:47:37.000Z",
+            "discoveredAt": "2026-10-18T21:42:21.616Z",
             "category": "global",
-            "score": 96,
+            "score": 97,
             "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab504f9d2f0aacc0bd911797d"
-            }
-          },
-          {
-            "id": "a2b7d362f7f3f33b59fe5865d",
-            "title": "【BBC全球】抗议演变成骚乱和抢劫后，巴黎街道上的汽车被烧毁，玻璃被打碎",
-            "originalTitle": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
-            "summary": "全国抗议活动爆发暴力和破坏行为后，约 1,800 人被捕。（来源：BBC News·全球要闻）",
-            "source": {
-              "name": "BBC News·全球要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a2b7d362f7f3f33b59fe5865d",
-              "original": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss"
-            },
-            "publishedAt": "2026-10-18T12:07:31.000Z",
-            "discoveredAt": "2026-10-18T13:29:41.640Z",
-            "category": "global",
-            "score": 96,
-            "selected": true,
-            "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a2b7d362f7f3f33b59fe5865d"
-            }
-          },
-          {
-            "id": "a7202b68f553f51d82b1bf07f",
-            "title": "【BBC全球】圣彼得堡石油设施在夜间遭遇致命袭击",
-            "originalTitle": "Oil facilities hit in deadly overnight attack on St Petersburg",
-            "summary": "袭击造成至少一人死亡，俄罗斯 Facebook 等公司使用的数据中心也遭到袭击。（来源：BBC News·全球要闻）",
-            "source": {
-              "name": "BBC News·全球要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7202b68f553f51d82b1bf07f",
-              "original": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
-            },
-            "publishedAt": "2026-10-18T11:57:49.000Z",
-            "discoveredAt": "2026-10-18T13:29:42.473Z",
-            "category": "global",
-            "score": 96,
-            "selected": true,
-            "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7202b68f553f51d82b1bf07f"
+              "url": "https://zenglian-news.onrender.com/items/a945c7795594f30906d41df7b"
             }
           }
         ]
@@ -1510,6 +1510,29 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
+            "id": "a7d21277dc14a5605134461cc",
+            "title": "【出海实战】两年后我将关闭 Adultdatalink.com（成人内容 API）并在 GIthub 上开源代码",
+            "originalTitle": "I Am Shutting Down adultdatalink.com (Adult Content API) After 2 Years & Open Sourcing The Code on GIthub",
+            "summary": "大家下午好，你们中的一些人可能还记得我不久前在这里发布的色情明星股票市场指数帖子中的adultdatalink.com。这个项目的爆炸性远远超出了我的预期，并且该项目从那里开始不断发展......（来源：X/Reddit·出海SaaS搞钱）",
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a7d21277dc14a5605134461cc",
+              "original": "https://www.reddit.com/r/SaaS/comments/1x9cehp/i_am_shutting_down_adultdatalinkcom_adult_content/"
+            },
+            "publishedAt": "2026-10-18T19:44:21.000Z",
+            "discoveredAt": "2026-10-18T21:42:33.601Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a7d21277dc14a5605134461cc"
+            }
+          },
+          {
             "id": "ab5d0071aed03c8afbbea284d",
             "title": "【出海实战】租用了其他人的 SaaS 并扩展到 3900 美元 MRR 😅",
             "originalTitle": "Rented someone else SaaS and scaled to $3.9k MRR 😅",
@@ -1530,6 +1553,29 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ab5d0071aed03c8afbbea284d"
+            }
+          },
+          {
+            "id": "a2b4de1d2a57eceaf3317093f",
+            "title": "【独立变现】显示 HN：Ranet3 – 高性能策略路由 IPsec 网状 SD-WAN",
+            "originalTitle": "Show HN: Ranet3 – High performance policy routed IPsec mesh SD-WAN",
+            "summary": "顺便说一句，这已经在我所有的机器（包括 MacBook）上运行，并且我已将所有机器配置为具有可路由的公共 IP 地址；）特别是对于 mac，我的 ISP 是 SFR（通过同轴连接），仅动态...（来源：Show HN·独立变现榜）",
+            "source": {
+              "name": "Show HN·独立变现榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a2b4de1d2a57eceaf3317093f",
+              "original": "https://ranet3.com/"
+            },
+            "publishedAt": "2026-10-18T14:31:52.000Z",
+            "discoveredAt": "2026-10-18T21:42:30.450Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a2b4de1d2a57eceaf3317093f"
             }
           },
           {
@@ -1600,52 +1646,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a219154506a423ce359aba098"
             }
-          },
-          {
-            "id": "abd47da22c645f3a237859f53",
-            "title": "中美AI竞争的新变量：开源、算力与产业生态",
-            "originalTitle": "中美AI竞争的新变量：开源、算力与产业生态",
-            "summary": "（本文作者为 Barrons巴伦，钛媒体经授权发布） 过去几年，中美人工智能竞争最容易被看见的是模型排行榜、GPU数量和参数规模。但到了2026年，竞争的重心正在发生变化：模型能力仍然重要，真正决定一套技术路线能否持续扩张的，越来越包括推理成本、开发者生态、云服务、企业部署、真实场景数据以及规则制定能力。 开源与闭源因此不再只是工程师之间的技术路线之争。对企业而言，它关系到商业模式和客户控制权；对产业而言，它决定模型能以多低的成本进入制...",
-            "source": {
-              "name": "钛媒体·资本与风口"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/abd47da22c645f3a237859f53",
-              "original": "https://www.tmtpost.com/8172534.html"
-            },
-            "publishedAt": "2026-10-18T14:37:59.000Z",
-            "discoveredAt": "2026-10-18T15:42:53.377Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/abd47da22c645f3a237859f53"
-            }
-          },
-          {
-            "id": "aeeb74fd0f864f23438641009",
-            "title": "DeepSeek成立产品部！1.3亿人免费用的AI，变现模式会参考ChatGPT订阅吗？",
-            "originalTitle": "DeepSeek成立产品部！1.3亿人免费用的AI，变现模式会参考ChatGPT订阅吗？",
-            "summary": "（本文作者为 财能圈，钛媒体经授权发布） 文 | 财能圈 DeepSeek成立产品部，是想要把1.30亿免费用户变成一份招股书里讲得清楚的变现路线图。而学ChatGPT上订阅这个最直觉的答案，恰恰可能是最危险的那一个。 10月16日，DeepSeek将Harness团队以及Web、App、Platform三个团队整合为产品部，原Harness负责人崔添翼出任产品部负责人，统筹公司全部产品、设计和研发工作，产品部同期开始对外招聘产品设计师...",
-            "source": {
-              "name": "钛媒体·资本与风口"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aeeb74fd0f864f23438641009",
-              "original": "https://www.tmtpost.com/8172203.html"
-            },
-            "publishedAt": "2026-10-18T13:59:34.000Z",
-            "discoveredAt": "2026-10-18T14:26:08.609Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aeeb74fd0f864f23438641009"
-            }
           }
         ]
       },
@@ -1653,6 +1653,29 @@
         "category": "tech",
         "label": "🤖 AI实时Top20",
         "items": [
+          {
+            "id": "aae88c5d021523b6311f26392",
+            "title": "【X·AI一手】混合推理代理：LLM 代理在潜在空间中思考，通过文本行动",
+            "originalTitle": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+            "summary": "https://x.com/Jiaru_Zou/status/2110400256647340476 https://github.com/togethercomputer/HybridAgent https://huggingface.co/collections/togethercomputer/hybridag... 评估：https://arxiv.org/html/2610.18861v1#S5（来源：X (Twitter)·硅谷AI大佬）",
+            "source": {
+              "name": "X (Twitter)·硅谷AI大佬"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aae88c5d021523b6311f26392",
+              "original": "https://arxiv.org/abs/2610.18861"
+            },
+            "publishedAt": "2026-10-18T20:48:14.000Z",
+            "discoveredAt": "2026-10-18T21:42:42.179Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aae88c5d021523b6311f26392"
+            }
+          },
           {
             "id": "abb88d597597d9695ff06b7e1",
             "title": "【硅谷AI】迪士尼同意雇用 Character.AI 的大部分员工",
@@ -1767,29 +1790,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a202c8fc6dc4301de07aa4b89"
             }
-          },
-          {
-            "id": "a1e630aaaa12a44e4554c78a6",
-            "title": "【国内财经】（经济观察）中国民企AI大模型在全球“圈粉”",
-            "originalTitle": "（经济观察）中国民企AI大模型在全球“圈粉”",
-            "summary": "中新社北京10月18日电 (记者 刘亮)从深度求索(DeepSeek)到阿里巴巴通义千问；从月之暗面的Kimi K3到MiniMax的M3；从智谱的GLM到阶跃星辰的Step5 Preview，再到字节跳动的豆包、百度文心一言……一段时间以来，中国民营企业人工智能(AI)大模型集群式崛起，在全球“圈粉”。",
-            "source": {
-              "name": "中新网·国内财经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a1e630aaaa12a44e4554c78a6",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-18/10716821.shtml"
-            },
-            "publishedAt": "2026-10-18T12:24:11.000Z",
-            "discoveredAt": "2026-10-18T13:29:55.588Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a1e630aaaa12a44e4554c78a6"
-            }
           }
         ]
       },
@@ -1798,141 +1798,141 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "a5eb445cc5f61535e7757386d",
-            "title": "【全球票房】A24 如何引发 Meme 热潮并吸引众多观看者：纪录片《你可以看到一切》票房突破 1500 万美元里程碑",
-            "originalTitle": "How A24 Spurred A Meme Craze & Got The Many To Watch ‘You Can See Everything’: Documentary Opens To $15M Milestone",
-            "summary": "不到两个月前，公众甚至不知道内森·菲尔德 (Nathan Fielder) 联合导演并主演的纪录片的存在，这部纪录片讲述了备受争议的希拉洛斯 (Theranos) 创始人伊丽莎白·霍姆斯 (Elizabeth Holmes)。我们在这里与 A24 一起...（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a5eb445cc5f61535e7757386d",
-              "original": "https://deadline.com/2026/10/you-can-see-everything-box-office-elizabeth-holmes-1237167129/"
-            },
-            "publishedAt": "2026-10-18T18:50:39.000Z",
-            "discoveredAt": "2026-10-18T19:18:14.037Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a5eb445cc5f61535e7757386d"
-            }
-          },
-          {
-            "id": "a8e0075b1c42edc4c62c61957",
-            "title": "【好莱坞一手】伍德斯托克电影节任命杰西卡·爱德华兹为执行总监",
-            "originalTitle": "Woodstock Film Festival Names Jessica Edwards as Executive Director",
-            "summary": "伍德斯托克电影节周日在第 27 届年度电影节闭幕之际宣布，杰西卡·爱德华兹被任命为伍德斯托克电影节新任执行董事。爱德华兹将接替梅拉·布劳斯蒂的角色……（来源：Variety·好莱坞影视）",
+            "id": "aafce82400b95d64be0011fa3",
+            "title": "【好莱坞一手】杰西·艾森伯格的音乐喜剧在伦敦电影节上高调闭幕，朱丽安·摩尔表示《首演》是“我读过的最好的剧本之一”",
+            "originalTitle": "Julianne Moore Says ‘The Debut’ Is ‘One of the Best Scripts I’ve Ever Read’ as Jesse Eisenberg’s Musical Comedy Closes London Film Festival on a High Note",
+            "summary": "周日晚上，《首演》在伦敦电影节上高调落幕，导演杰西·艾森伯格和主演朱丽安·摩尔在皇家节日音乐厅向挤满观众的观众滔滔不绝。 “我的意思是，这部电影由我的......（来源：Variety·好莱坞影视）",
             "source": {
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a8e0075b1c42edc4c62c61957",
-              "original": "https://variety.com/2026/film/news/woodstock-film-festival-jessica-edwards-executive-director-1236915828/"
+              "aihot": "https://zenglian-news.onrender.com/items/aafce82400b95d64be0011fa3",
+              "original": "https://variety.com/2026/film/festivals/julianne-moore-jesse-eisenberg-the-debut-london-premiere-1236915637/"
             },
-            "publishedAt": "2026-10-18T18:00:00.000Z",
-            "discoveredAt": "2026-10-18T19:18:10.070Z",
+            "publishedAt": "2026-10-18T20:40:12.000Z",
+            "discoveredAt": "2026-10-18T21:42:47.517Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a8e0075b1c42edc4c62c61957"
+              "url": "https://zenglian-news.onrender.com/items/aafce82400b95d64be0011fa3"
             }
           },
           {
-            "id": "af43fb1ea80e4d6626a04a36c",
-            "title": "【好莱坞一手】阿兰·墨菲谈在《青春》和《战争》中扮演愤怒的年轻人——以及他父亲希里安的影响",
-            "originalTitle": "Aran Murphy on Playing an Angry Young Man in ‘Youth’ and ‘War’ — and His Father Cillian’s Influence",
-            "summary": "阿兰·墨菲度过了相当愉快的一个月，因为他不仅在一部而是两部 HBO 电视剧《青春》和《战争》中联合主演，并在塔伊卡·维迪蒂的反乌托邦电影《克拉拉与太阳》中扮演主角之一，该电影将于 10 月 23 日上映。但是……（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af43fb1ea80e4d6626a04a36c",
-              "original": "https://variety.com/2026/tv/news/aran-murphy-youth-war-and-cillian-murphy-influence-1236909378/"
-            },
-            "publishedAt": "2026-10-18T18:00:00.000Z",
-            "discoveredAt": "2026-10-18T19:18:08.956Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af43fb1ea80e4d6626a04a36c"
-            }
-          },
-          {
-            "id": "ac9d8020581dd764706da497b",
-            "title": "【全球票房】《街头霸王》夺得全球首映票房 5100 万美元以上，主要由粉丝推动——全球票房更新",
-            "originalTitle": "‘Street Fighter’ Rings Up No. 1 $51M+ WW Opening, Largely Driven By Fans – Global Box Office Update",
-            "summary": "随着内森·菲尔德 (Nathan Fielder) 和伊丽莎白·霍尔姆斯 (Elizabeth Holmes) 的纪录片热潮席卷美国，派拉蒙 / 传奇 / 卡普空 (Capcom) 的《街头霸王》 (Street Fighter) 成为全球周末 B.O. 的主角。全球首映票房为 5110 万美元。其中...（来源：Deadline·全球票房与新片）",
+            "id": "a484dd1054d72f7f732e31a57",
+            "title": "【全球票房】彼得·赖斯制作的杰西·艾森伯格电视剧将由 A24 下架",
+            "originalTitle": "Jesse Eisenberg TV Series Produced By Peter Rice To Be Taken Out By A24",
+            "summary": "杰西·艾森伯格正在将注意力转向电视。艾森伯格作为编剧兼导演的最新电影《A24 首秀》（由朱丽安·摩尔主演）刚刚结束，他正在为《A24》准备一部电视剧。书面、执行计划...（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac9d8020581dd764706da497b",
-              "original": "https://deadline.com/2026/10/box-office-global-street-fighter-1237167021/"
+              "aihot": "https://zenglian-news.onrender.com/items/a484dd1054d72f7f732e31a57",
+              "original": "https://deadline.com/2026/10/jesse-eisenberg-tv-series-peter-rice-a24-1237167146/"
             },
-            "publishedAt": "2026-10-18T16:59:27.000Z",
-            "discoveredAt": "2026-10-18T19:18:20.428Z",
+            "publishedAt": "2026-10-18T20:28:32.000Z",
+            "discoveredAt": "2026-10-18T21:42:55.715Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac9d8020581dd764706da497b"
+              "url": "https://zenglian-news.onrender.com/items/a484dd1054d72f7f732e31a57"
             }
           },
           {
-            "id": "a23f676b049ff9b65a37c0ca5",
-            "title": "【全球票房】帷幕拉开：《La Bola Negra》大放异彩，Netflix 创下历史性票房第一 — 专业票房",
-            "originalTitle": "Curtain Up: ‘La Bola Negra’ Shines As Netflix Shares Grosses In Historic First — Specialty Box Office",
-            "summary": "Netflix 的西班牙电视剧《La Bola Negra》在四块银幕上首映，票房收入达 27.75 万美元——这些数字直接来自这家大型流媒体周日的首个官方票房收入。 TIFF 观众奖得主获得 1 美元...（来源：Deadline·全球票房与新片）",
+            "id": "a052d8d786831db316f74e726",
+            "title": "【好莱坞一手】乔·曼根尼罗表示，本·阿弗莱克被废弃的蝙蝠侠电影会看到丧钟“摧毁蝙蝠侠的整个生活”并杀死戈登专员",
+            "originalTitle": "Joe Manganiello Says Ben Affleck’s Scrapped Batman Film Would Have Seen Deathstroke ‘Dismantle Batman’s Entire Life’ and Kill Commissioner Gordon",
+            "summary": "乔·曼根尼罗原定在本·阿弗莱克废弃的蝙蝠侠电影中重新扮演丧钟一角，他讲述了如果这部超级英雄电影上映的话会发生什么。在他的新回忆录《血族》中...（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a052d8d786831db316f74e726",
+              "original": "https://variety.com/2026/film/news/joe-manganiello-ben-afflecks-batman-film-deathstroke-1236915997/"
+            },
+            "publishedAt": "2026-10-18T20:12:37.000Z",
+            "discoveredAt": "2026-10-18T21:42:48.858Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a052d8d786831db316f74e726"
+            }
+          },
+          {
+            "id": "a7f1bae1f285cb1e70d721b33",
+            "title": "【全球票房】TikTok 在“错误”导致暂停后恢复了“Musk”Doc 帐户",
+            "originalTitle": "TikTok Restores ‘Musk’ Doc Account “After An Error” Resulted In Suspension",
+            "summary": "随着亚历克斯·吉布尼（Alex Gibney）用他的最新纪录片与埃隆·马斯克（Elon Musk）较量，布利克/环球项目正在继续抵制社交平台上的审查制度。据报道，穆博士被“永久停职”……（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a23f676b049ff9b65a37c0ca5",
-              "original": "https://deadline.com/2026/10/indie-film-box-office-la-bola-negra-shines-netflix-shares-grosses-1237167026/"
+              "aihot": "https://zenglian-news.onrender.com/items/a7f1bae1f285cb1e70d721b33",
+              "original": "https://deadline.com/2026/10/tiktok-restores-musk-doc-account-after-error-1237167167/"
             },
-            "publishedAt": "2026-10-18T16:46:26.000Z",
-            "discoveredAt": "2026-10-18T16:49:23.624Z",
+            "publishedAt": "2026-10-18T20:04:51.000Z",
+            "discoveredAt": "2026-10-18T21:42:56.793Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a23f676b049ff9b65a37c0ca5"
+              "url": "https://zenglian-news.onrender.com/items/a7f1bae1f285cb1e70d721b33"
             }
           },
           {
-            "id": "a10c2acd12ebe5c17c6c3cd90",
-            "title": "【好莱坞一手】《捕捉大脚怪》评论：一部令人震惊的纪录片揭示了真相",
-            "originalTitle": "‘Capturing Bigfoot’ Review: An Astounding Documentary Uncovers the Truth",
-            "summary": "《捕捉大脚怪》是一部精彩的纪录片，讲述了大脚怪的传奇故事——它是如何诞生的，它是如何发展起来的，以及那段标志性的电影片段是如何形成的。这是一部回答所有问题的纪录片......（来源：Variety·好莱坞影视）",
+            "id": "a769f70b5f4f36931a0d7776c",
+            "title": "【全球票房】辛迪·克劳馥 (Cindy Crawford) 和凯亚·格伯 (Kaia Gerber) 向普雷斯利 (Presley) 致敬：“直到我们再次相见，我们可爱的男孩”",
+            "originalTitle": "Cindy Crawford & Kaia Gerber Pay Tribute To Presley: “‘Til We Meet Again, Our Sweet Boy”",
+            "summary": "上个月，27 岁的普雷斯利·格伯 (Presley Gerber) 去世后，他的家人发表了一份声明，表达哀悼并感谢粉丝的支持。周日，辛迪·克劳馥 (Cindy Crawford) 哀悼失去第一个孩子，她形容为……（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a769f70b5f4f36931a0d7776c",
+              "original": "https://deadline.com/2026/10/cindy-crawford-family-pay-tribute-presley-gerber-1237167162/"
+            },
+            "publishedAt": "2026-10-18T19:29:20.000Z",
+            "discoveredAt": "2026-10-18T21:42:57.856Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a769f70b5f4f36931a0d7776c"
+            }
+          },
+          {
+            "id": "a5b1c03a937d095fc7b797160",
+            "title": "【好莱坞一手】杰西·艾森伯格表示，在凭借《蝙蝠侠大战超人》赢得金酸莓奖后，他“再也无法获得电影制片厂的零件”：“业界不希望我出演超级英雄电影”",
+            "originalTitle": "Jesse Eisenberg Says He ‘Couldn’t Get Movie Studio Parts Anymore’ After Winning a Razzie for ‘Batman v Superman’: ‘The Industry Did Not Want Me to Be in a Superhero Movie’",
+            "summary": "杰西·艾森伯格表示，在凭借扎克·施奈德的《蝙蝠侠大战超人：正义黎明》赢得金酸莓奖后，他被排除在电影制片厂之外。金酸莓奖——金酸莓奖的缩写——是一个幽默的......（来源：Variety·好莱坞影视）",
             "source": {
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a10c2acd12ebe5c17c6c3cd90",
-              "original": "https://variety.com/2026/film/reviews/capturing-bigfoot-review-an-amazing-doc-uncovers-the-truth-1236915797/"
+              "aihot": "https://zenglian-news.onrender.com/items/a5b1c03a937d095fc7b797160",
+              "original": "https://variety.com/2026/film/global/jesse-eisenberg-razzie-batman-v-superman-1236915876/"
             },
-            "publishedAt": "2026-10-18T19:05:42.000Z",
-            "discoveredAt": "2026-10-18T19:18:05.646Z",
+            "publishedAt": "2026-10-18T19:27:18.000Z",
+            "discoveredAt": "2026-10-18T21:42:52.361Z",
             "category": "culture",
-            "score": 98,
+            "score": 99,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a10c2acd12ebe5c17c6c3cd90"
+              "url": "https://zenglian-news.onrender.com/items/a5b1c03a937d095fc7b797160"
             }
           }
         ]
@@ -1941,6 +1941,29 @@
         "category": "business",
         "label": "🏆 体育实时Top20",
         "items": [
+          {
+            "id": "a137c5a255419cf87ecfab893",
+            "title": "【NBA一手】[奎因]布朗尼已经两年没有达到进攻可行性的地步了，而且以他的身材来说，防守门槛实在是太高了。如果他永远不会投篮，他就必须是贾马尔·谢德级别的害虫才能证明自己在名单上的位置是合理的，但他不是。拉尔应该把他交易给一些想卖球衣的老板",
+            "originalTitle": "[Quinn] Bronny hasn't reached the point of offensive viability in 2 years and the defensive threshold is so damn high at his size. If he's never gonna make shots, he has to be a Jamal Shead-level pest to justify a roster spot and he isn't. LAL should trade him to some owner who wants to sell jerseys",
+            "summary": "然而，哥伦比亚广播公司体育频道的NBA记者萨姆·奎因建议湖人队应该交易布朗尼·詹姆斯，而不是放弃克内克特。 “如果我是湖人队，我现在就会尝试将布朗尼交易给某个......（来源：NBA·北美篮球实时热榜）",
+            "source": {
+              "name": "NBA·北美篮球实时热榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a137c5a255419cf87ecfab893",
+              "original": "https://www.reddit.com/r/nba/comments/1x9a4bf/quinn_bronny_hasnt_reached_the_point_of_offensive/"
+            },
+            "publishedAt": "2026-10-18T18:13:47.000Z",
+            "discoveredAt": "2026-10-18T21:43:09.155Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a137c5a255419cf87ecfab893"
+            }
+          },
           {
             "id": "af787ec9f41261989b02ff86d",
             "title": "【欧洲足坛】诺丁汉森林 v 阿森纳：英超联赛 - 直播",
@@ -2011,72 +2034,49 @@
             }
           },
           {
-            "id": "a3fe377c4d21d97f1066568d3",
-            "title": "【体坛快讯】上海网球大师赛收官 弗基纳首夺大师赛冠军",
-            "originalTitle": "上海网球大师赛收官 弗基纳首夺大师赛冠军",
-            "summary": "中新社上海10月18日电 (记者 缪璐)2026上海网球大师赛18日晚收官。男子单打项目中，西班牙球员亚历杭德罗·达维多维奇·弗基纳以大比分2:1(1:6、7:6、6:4)逆转战胜同胞拉斐尔·霍达尔夺冠。这是他职业生涯第一个大师赛冠军，他也因此成为上海网球大师赛历史上首位西班牙男单冠军。",
-            "source": {
-              "name": "中新网·体育焦点"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a3fe377c4d21d97f1066568d3",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-18/10716888.shtml"
-            },
-            "publishedAt": "2026-10-18T14:43:37.000Z",
-            "discoveredAt": "2026-10-18T15:43:20.818Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a3fe377c4d21d97f1066568d3"
-            }
-          },
-          {
-            "id": "a1fa2ec1e5c1ba035035414a5",
-            "title": "【欧洲足坛】欧洲足球：摩纳哥错失登顶机会；勒沃库森找到状态",
-            "originalTitle": "European football: Monaco miss chance to go top; Bayer Leverkusen find form",
-            "summary": "摩纳哥在法甲联赛中0-1不敌洛里昂 勒沃库森后来居上击败弗莱堡 诺阿·卡迪乌下半场为洛里昂队制造的点球让摩纳哥队在法甲联赛中0-1失利，阻止摩纳哥重返法甲榜首。（来源：卫报体育·欧冠与五大联赛）",
+            "id": "a23e2717511603cd3a899ba1b",
+            "title": "【欧洲足坛】精英级别的无能是曼联的问题，而不是迈克尔·卡里克 |巴尼·罗奈",
+            "originalTitle": "Elite-level incompetence is Manchester United’s problem – not Michael Carrick | Barney Ronay",
+            "summary": "解雇主教练并不能解决导致他被任命的问题。也许值得，这一次，做一些不同的事情在埃兰路的终场哨声响起时，电视摄像机切换到一个挥之不去的镜头......（来源：卫报体育·欧冠与五大联赛）",
             "source": {
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a1fa2ec1e5c1ba035035414a5",
-              "original": "https://www.theguardian.com/football/2026/oct/18/european-football-monaco-rennes-ligue-1-bayer-leverkusen-freiburg-bundesliga-como-fiorentina-seria-a-real-madrid-sevilla-la-liga"
+              "aihot": "https://zenglian-news.onrender.com/items/a23e2717511603cd3a899ba1b",
+              "original": "https://www.theguardian.com/football/2026/oct/18/manchester-united-michael-carrick-omar-berrada-leeds-premier-league"
             },
-            "publishedAt": "2026-10-18T18:36:15.000Z",
-            "discoveredAt": "2026-10-18T19:18:28.737Z",
+            "publishedAt": "2026-10-18T19:56:30.000Z",
+            "discoveredAt": "2026-10-18T21:43:03.339Z",
             "category": "business",
             "score": 98,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a1fa2ec1e5c1ba035035414a5"
+              "url": "https://zenglian-news.onrender.com/items/a23e2717511603cd3a899ba1b"
             }
           },
           {
-            "id": "a3813d7811a0034a808354541",
-            "title": "【欧洲足坛】马杜克打破诺丁汉森林的抵抗，顽强的阿森纳取得了胜利",
-            "originalTitle": "Madueke breaks Nottingham Forest’s resistance as dogged Arsenal edge to victory",
-            "summary": "开场前的主题是空白。或者，更准确地说，是否任何一支球队都可以停止向城市球场射击。这个细节让奥利弗·格拉斯纳感到非常不舒服，因为他的诺丁汉森林队......（来源：卫报体育·欧冠与五大联赛）",
+            "id": "a02ff442e828f4ed01aea0949",
+            "title": "【BBC足坛】马杜克的“愤怒和信念”表明他不仅仅是一个“终结者”",
+            "originalTitle": "Madueke's 'anger and conviction' shows he's more than a 'finisher'",
+            "summary": "诺尼·马杜克在阿森纳可能无法扮演他想要的角色，但他对阵诺丁汉森林队的制胜进球表明了为什么他是米克尔·阿尔特塔的重要球员之一。（来源：BBC Sport·欧洲足坛）",
             "source": {
-              "name": "卫报体育·欧冠与五大联赛"
+              "name": "BBC Sport·欧洲足坛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a3813d7811a0034a808354541",
-              "original": "https://www.theguardian.com/football/2026/oct/18/nottingham-forest-arsenal-premier-league-match-report"
+              "aihot": "https://zenglian-news.onrender.com/items/a02ff442e828f4ed01aea0949",
+              "original": "https://www.bbc.co.uk/sport/football/articles/c3qjnyw8qe4do?at_medium=RSS&at_campaign=rss"
             },
-            "publishedAt": "2026-10-18T17:39:57.000Z",
-            "discoveredAt": "2026-10-18T19:18:27.909Z",
+            "publishedAt": "2026-10-18T19:55:41.000Z",
+            "discoveredAt": "2026-10-18T21:43:02.222Z",
             "category": "business",
             "score": 98,
             "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a3813d7811a0034a808354541"
+              "url": "https://zenglian-news.onrender.com/items/a02ff442e828f4ed01aea0949"
             }
           }
         ]
