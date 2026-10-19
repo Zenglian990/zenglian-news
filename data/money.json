@@ -10,49 +10,279 @@
   },
   "items": [
     {
-      "id": "af85866fc92de91d9a604df71",
-      "title": "[分享发现] 直接让 ai 破解滑块验证码",
-      "originalTitle": "[分享发现] 直接让 ai 破解滑块验证码",
-      "summary": "上个帖子( https://v2ex.com/t/1247123?p=1#reply14 ) 测试让 ai 破解 app ，这次有个网站想做自动登录，里面有个滑块想让 ai 破解。 然后我装好 mcp 工具给 ai ，把账号密码发过去 第二天醒来一看，“其实很好破” 给我惊呆了，也确实做好了 自动分析缺口做图像识别，非常不错啊",
+      "id": "a8fc021288a672167e02d22c2",
+      "title": "[分享创造] Vonode 开始支持 ARM",
+      "originalTitle": "[分享创造] Vonode 开始支持 ARM",
+      "summary": "树莓派终于到货了！！ 🍓 树莓派 / ARM 支持（实验版） 在树莓派 4B （ 2GB ）+ Debian 13 64 位上实测过， Wi-Fi 通话注册、打电话、收发短信都正常 。 部署指南： https://vonode.cc/zh-hans/docs/raspberry-pi/ 电源建议用官方 5V 3A ，模组最好接 带独立供电的 USB 集线器 ，我实测时遇到过欠压。 🐳 Docker Compose 一键部署 一条命令...",
       "source": {
         "name": "V2EX·独立开发与副业"
       },
       "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/af85866fc92de91d9a604df71",
-        "original": "https://www.v2ex.com/t/1249851#reply1"
+        "aihot": "https://zenglian-news.onrender.com/items/a8fc021288a672167e02d22c2",
+        "original": "https://www.v2ex.com/t/1249878#reply0"
       },
-      "publishedAt": "2026-10-18T23:30:56.000Z",
-      "discoveredAt": "2026-10-18T23:42:55.527Z",
+      "publishedAt": "2026-10-19T01:45:10.000Z",
+      "discoveredAt": "2026-10-19T01:46:01.052Z",
       "category": "money",
-      "score": 95,
+      "score": 91,
       "selected": true,
       "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
       "attribution": {
         "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/af85866fc92de91d9a604df71"
+        "url": "https://zenglian-news.onrender.com/items/a8fc021288a672167e02d22c2"
       }
     },
     {
-      "id": "acba3f55a4b4aba42ae1f34d6",
-      "title": "好的公关应该是怎样的？",
-      "originalTitle": "好的公关应该是怎样的？",
-      "summary": "本文来自微信公众号： 唐僧的碎碎念 ，作者：唐二僧 利益说话比人管用 顶级的公关大师，也应该是顶级的统战大师，最典型的莫过于教员说的那句话：所谓统战，就是把朋友搞的多多的，敌人搞的少少的。 一句话就说清楚了多么质朴的道理。但是隔了几十年以后，现在的各种公关大师，各种上手段上技巧上理论，收钱也不少，就是忘了最开始那最简单的道理：搞公关本质上不就是个统战，不就是把跟你利益一致的人搞得多，把跟你利益不一致的人搞的少？ 当聪明人跟你利益一致的时...",
+      "id": "aeba62bd5a5a84472b2d0aee9",
+      "title": "Scaling Law开始挤进手机了",
+      "originalTitle": "Scaling Law开始挤进手机了",
+      "summary": "本文来自微信公众号： 全天候科技 ，作者：全天候科技 手机端侧模型的参数规模，正在迎来一轮快速膨胀。 9月22日，高通联合阶跃星辰、无量火和江波龙，将30B MoE模型完整部署在第六代骁龙8超级至尊版移动平台上，并在参考设计设备上完成验证，模型推理无需调用云端。 这并非孤例。 9月16日，vivo宣布预研蓝心30B MoE端侧模型。10月13日，面壁智能又发布35B-A3B开源模型MiniCPM-V 4.7，并公布了在iPhone 17...",
       "source": {
         "name": "虎嗅网·商业搞钱深度"
       },
       "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/acba3f55a4b4aba42ae1f34d6",
-        "original": "https://www.huxiu.com/article/4898453.html?f=rss"
+        "aihot": "https://zenglian-news.onrender.com/items/aeba62bd5a5a84472b2d0aee9",
+        "original": "https://www.huxiu.com/article/4898486.html?f=rss"
       },
-      "publishedAt": "2026-10-18T23:27:20.000Z",
-      "discoveredAt": "2026-10-18T23:42:51.970Z",
+      "publishedAt": "2026-10-19T01:44:35.000Z",
+      "discoveredAt": "2026-10-19T01:45:58.152Z",
       "category": "money",
-      "score": 95,
+      "score": 97,
       "selected": true,
       "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
       "attribution": {
         "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/acba3f55a4b4aba42ae1f34d6"
+        "url": "https://zenglian-news.onrender.com/items/aeba62bd5a5a84472b2d0aee9"
+      }
+    },
+    {
+      "id": "a8ba41b87fc4a3661b3d49238",
+      "title": "[生活] 如果你们拥有一个孩子",
+      "originalTitle": "[生活] 如果你们拥有一个孩子",
+      "summary": "最近结识了一些小朋友，不限于 13-16 岁的，发现认知十分超前，感觉懂得东西也相对的多，一下子让我觉得他好像什么都知道一样，已经领先当时的我们不知道多少倍了。询问日常培训和能力的培养，发现其实和应试教育没太大关系，全靠父母的培养和个人的兴趣爱好养成。 那么问题来了，这类的孩子是不是意味着出生就要含着金钥匙才行？因为资源也是一个拓展见识的钥匙。",
+      "source": {
+        "name": "V2EX·独立开发与副业"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a8ba41b87fc4a3661b3d49238",
+        "original": "https://www.v2ex.com/t/1249877#reply0"
+      },
+      "publishedAt": "2026-10-19T01:40:54.000Z",
+      "discoveredAt": "2026-10-19T01:46:01.231Z",
+      "category": "money",
+      "score": 91,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a8ba41b87fc4a3661b3d49238"
+      }
+    },
+    {
+      "id": "ad463d50a5bfb0677daded17f",
+      "title": "[酷工作] 招聘： AI 质量评估工程师",
+      "originalTitle": "[酷工作] 招聘： AI 质量评估工程师",
+      "summary": "岗位名称：AI 质量评估工程师 薪资：20-35k·13 薪 ｜ 常州·新北区 ｜ 3-5 年 ｜ 统招本科及以上 岗位职责 负责公司 AI 平台的质量保障，从 0 到 1 搭建质量与评测体系——你是 owner ，不是执行者； 构建面向大模型/Agent 系统的评测体系：评测数据集、golden set 、LLM-as-judge 、回归测试资产； 对商业秘密防护、大模型使用合规等安全能力进行对抗性验证； 深度使用 AI 工具完成用例...",
+      "source": {
+        "name": "V2EX·独立开发与副业"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/ad463d50a5bfb0677daded17f",
+        "original": "https://www.v2ex.com/t/1249872#reply0"
+      },
+      "publishedAt": "2026-10-19T01:26:14.000Z",
+      "discoveredAt": "2026-10-19T01:29:34.926Z",
+      "category": "money",
+      "score": 97,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/ad463d50a5bfb0677daded17f"
+      }
+    },
+    {
+      "id": "a2ad0115bf5ff091e5067ebc9",
+      "title": "火箭发动机：地面两万秒的意义",
+      "originalTitle": "火箭发动机：地面两万秒的意义",
+      "summary": "本文来自微信公众号： 反熵 ，作者：司马大大 火箭发动机的工作履历，天上按分钟计算，地面却常以万秒累计。 以一台飞行工作200秒的一级发动机为例，完成一次任务不过几分钟，研制过程中却可能累计试车两万秒，足够完成100次同样时长的工作。即便它在地面顺利通过多次试验，真正装上火箭，仍可能暴露此前没有发现的问题。 在中国商业航天，随着越来越多企业公布累计试车超过两万秒的成绩，这个数字渐渐有了不成文门槛的意味，甚至有人将其理解为发动机上天前必须...",
+      "source": {
+        "name": "虎嗅网·商业搞钱深度"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a2ad0115bf5ff091e5067ebc9",
+        "original": "https://www.huxiu.com/article/4898476.html?f=rss"
+      },
+      "publishedAt": "2026-10-19T01:25:51.000Z",
+      "discoveredAt": "2026-10-19T01:45:58.704Z",
+      "category": "money",
+      "score": 96,
+      "selected": true,
+      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a2ad0115bf5ff091e5067ebc9"
+      }
+    },
+    {
+      "id": "a2ee69b746d17775189c5d332",
+      "title": "如果字节跳动今天上市，究竟能值多少钱？",
+      "originalTitle": "如果字节跳动今天上市，究竟能值多少钱？",
+      "summary": "本文来自微信公众号： AI时代我的人生下半场 ，作者：席春迎博士&amp;李靖 序言：市场为什么总在猜“抖音上市”？ 只要字节跳动的上市传闻出现，市场很快就会把问题简化为一句话：如果“抖音”今天上市，究竟值多少钱？ 这里的“抖音上市”，通常并不是严格意义上仅指境内抖音业务，而是市场对字节跳动整体资本化的通俗表达。事实上，字节跳动目前仍是一家非上市公司，是否上市、整体上市还是部分业务上市，至今都没有确定方案。且不同资产范围，对应的价值可能...",
+      "source": {
+        "name": "虎嗅网·商业搞钱深度"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a2ee69b746d17775189c5d332",
+        "original": "https://www.huxiu.com/article/4898475.html?f=rss"
+      },
+      "publishedAt": "2026-10-19T01:18:16.000Z",
+      "discoveredAt": "2026-10-19T01:29:30.900Z",
+      "category": "money",
+      "score": 96,
+      "selected": true,
+      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a2ee69b746d17775189c5d332"
+      }
+    },
+    {
+      "id": "a2ed670473b3af98e1021c294",
+      "title": "赵耀辉：关于人工智能影响劳动市场的几点观察",
+      "originalTitle": "赵耀辉：关于人工智能影响劳动市场的几点观察",
+      "summary": "本文来自微信公众号： 北大汇丰PFR ，作者：赵耀辉 AI的发展不可避免地带来一系列新的问题。其中讨论较多的，就有“哪些岗位会被替代”。在机器人时代，人们更多担心的是蓝领岗位被替代；而进入生成式AI时代之后，白领职业乃至传统意义上的高收入职业，也开始面临被替代的压力。教师、律师、程序员等岗位，越来越多地被纳入这一轮技术冲击的讨论范围之中。 武汉大学人文社会科学资深教授、董辅礽经济社会发展研究院教授赵耀辉在《北大金融评论》发文指出，AI在...",
+      "source": {
+        "name": "虎嗅网·商业搞钱深度"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a2ed670473b3af98e1021c294",
+        "original": "https://www.huxiu.com/article/4898474.html?f=rss"
+      },
+      "publishedAt": "2026-10-19T01:11:39.000Z",
+      "discoveredAt": "2026-10-19T01:29:31.100Z",
+      "category": "money",
+      "score": 99,
+      "selected": true,
+      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a2ed670473b3af98e1021c294"
+      }
+    },
+    {
+      "id": "ac0ab36fdc8a48d5d8829d175",
+      "title": "AI 人想成精，先别乱脸红",
+      "originalTitle": "AI 人想成精，先别乱脸红",
+      "summary": "（本文作者为 潜水鱼X，钛媒体经授权发布） 文 | 潜水鱼X，作者 | 何润萱 最近小鱼看各种AI剧有个很大的疑惑，无论男频女频主角配角，上来总是一通可疑的脸红，不知道是害羞还是生气，堪比河豚鼓嘴之后第二个AI经典的伪人动作。说得刻薄点，AI剧里的人顶着一脸红晕说话，也很像黄皮子在讨封，&ldquo;你看我像人吗？&rdquo; 至于为什么提到黄皮子，想必各位也不陌生了，最近的热门中剧《余红旧事》里就有这么一只。其中男主角刘阳开场就霍霍...",
+      "source": {
+        "name": "钛媒体·资本与风口"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/ac0ab36fdc8a48d5d8829d175",
+        "original": "https://www.tmtpost.com/8172547.html"
+      },
+      "publishedAt": "2026-10-19T01:10:00.000Z",
+      "discoveredAt": "2026-10-19T01:29:33.664Z",
+      "category": "money",
+      "score": 98,
+      "selected": true,
+      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/ac0ab36fdc8a48d5d8829d175"
+      }
+    },
+    {
+      "id": "a1073f363f8f57514306a0f8d",
+      "title": "AI智能体失控偷爬高德数据，腾讯有义务上报监管吗？",
+      "originalTitle": "AI智能体失控偷爬高德数据，腾讯有义务上报监管吗？",
+      "summary": "本文来自微信公众号： 游云庭律师 ，作者：游云庭律师 据《纽约时报》报道及Swarmchasers研究小组的报告，腾讯公司的一批测试版智能体为爬取数据，自发搜寻网上密钥试图绕过高德地图的反爬虫系统，并且这批智能体还自称是Anthropic公司的Claude智能体。结合之前OpenAI智能体失控攻击Hugging Face网站，显示了人工智能失控并不是孤例。今天就和大家聊聊，腾讯的智能体失控和OpenAI的有何不同，此次事件腾讯有没有义务...",
+      "source": {
+        "name": "虎嗅网·商业搞钱深度"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a1073f363f8f57514306a0f8d",
+        "original": "https://www.huxiu.com/article/4898467.html?f=rss"
+      },
+      "publishedAt": "2026-10-19T01:10:00.000Z",
+      "discoveredAt": "2026-10-19T01:29:31.294Z",
+      "category": "money",
+      "score": 99,
+      "selected": true,
+      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a1073f363f8f57514306a0f8d"
+      }
+    },
+    {
+      "id": "a32c2976c27e95d35e847eec5",
+      "title": "国家电投“内化”20亿储能交易，旗下上市平台中国电力承接，央企资本运作转向功能优先",
+      "originalTitle": "国家电投“内化”20亿储能交易，旗下上市平台中国电力承接，央企资本运作转向功能优先",
+      "summary": "（本文作者为 预见能源，钛媒体经授权发布） 文 | 预见能源 预见能源获悉，10月16日，中国电力（02380.HK）把储能系统和电芯采购同时签给了控股股东国家电投的成员公司，2027年两项交易上限合计超过20亿元，执行对手方全在集团围墙之内。 此前一周，国家能源集团旗下上市公司英力特的39.41%股份被摆上公开征集的台面，底价6.27元/股，控制权拱手让人，受让方还被要求承诺五年不转移控制权、三年不质押股份。 一边往里收，一边往外推。...",
+      "source": {
+        "name": "钛媒体·资本与风口"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a32c2976c27e95d35e847eec5",
+        "original": "https://www.tmtpost.com/8172558.html"
+      },
+      "publishedAt": "2026-10-19T01:04:00.000Z",
+      "discoveredAt": "2026-10-19T01:29:33.915Z",
+      "category": "money",
+      "score": 94,
+      "selected": true,
+      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a32c2976c27e95d35e847eec5"
+      }
+    },
+    {
+      "id": "a4d2481bff7d76bc66b84cba2",
+      "title": "ST恒信\"三国杀\"：大股东与\"白衣骑士\"翻脸、第三方法拍资本悄然入局",
+      "originalTitle": "ST恒信\"三国杀\"：大股东与\"白衣骑士\"翻脸、第三方法拍资本悄然入局",
+      "summary": "上市公司以公告的方式公开&ldquo;叫板&rdquo;行政文书，这样的情形在A股并不多见，但它真实地发生在 ST恒信 （300081.SZ）身上。 10月12日，北京市东城区市场监督管理局（以下简称&ldquo;市监局&rdquo;）认定ST恒信的新任董事长孙奉军在办理工商变更时提交虚假材料，随后作出撤销变更登记的决定。仅仅两天后，10月14日晚间，ST恒信公告称市监局的认定&ldquo;基于形式审查而非实质审查&rdquo;，并强调...",
+      "source": {
+        "name": "钛媒体·资本与风口"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a4d2481bff7d76bc66b84cba2",
+        "original": "https://www.tmtpost.com/8169915.html"
+      },
+      "publishedAt": "2026-10-19T01:03:58.000Z",
+      "discoveredAt": "2026-10-19T01:29:34.299Z",
+      "category": "money",
+      "score": 93,
+      "selected": true,
+      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a4d2481bff7d76bc66b84cba2"
+      }
+    },
+    {
+      "id": "a305d14b67de66b42f8506c79",
+      "title": "换电模式会催生一个比机器人本体更大规模的生意——能源银行",
+      "originalTitle": "换电模式会催生一个比机器人本体更大规模的生意——能源银行",
+      "summary": "（本文作者为 斯马克开源，钛媒体经授权发布） 文 | 斯马克开源 一台机器人从买回来到退役，中间花掉的钱有一半在电池上。 一块电池只能用两年 今年 10 月 16 日，中国信通院人工智能研究所联合清华大学电子工程系、具身智能测试实验室，在杭州的 ITU 具身智能标准焦点组第三次全会上，发布了《具身智能发展报告（2026 年）》英文版。 这份报告里被转述最多的，是上半年全球人形机器人出货超 2.2 万台，同比增长接近 300%。 但 整机...",
+      "source": {
+        "name": "钛媒体·资本与风口"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a305d14b67de66b42f8506c79",
+        "original": "https://www.tmtpost.com/8172579.html"
+      },
+      "publishedAt": "2026-10-19T00:58:00.000Z",
+      "discoveredAt": "2026-10-19T01:29:34.498Z",
+      "category": "money",
+      "score": 98,
+      "selected": true,
+      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a305d14b67de66b42f8506c79"
       }
     },
     {
@@ -76,98 +306,6 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/afbf9c09bf99d5f40d656dfb2"
-      }
-    },
-    {
-      "id": "a0d2e99c57abbb044912370dc",
-      "title": "lululemon管理层大换血",
-      "originalTitle": "lululemon管理层大换血",
-      "summary": "本文来自微信公众号： 涌流商业 ，作者：李伟 豹纹、荷叶边、80年代舞蹈服——lululemon变样了。 10月15日，lululemon与丹麦时尚品牌Ganni推出联名系列，许多风格元素被用在产品上，设计张扬。 lululemon全球创意总监Jonathan Cheung对话《ELLE》时讲起了合作由来：lululemon内部有个习惯，会询问新员工喜欢什么运动。他用同样的问题问Ganni创意总监Ditte Reffstrup，对方回答...",
-      "source": {
-        "name": "虎嗅网·商业搞钱深度"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a0d2e99c57abbb044912370dc",
-        "original": "https://www.huxiu.com/article/4898452.html?f=rss"
-      },
-      "publishedAt": "2026-10-18T23:10:25.000Z",
-      "discoveredAt": "2026-10-18T23:33:06.483Z",
-      "category": "money",
-      "score": 96,
-      "selected": true,
-      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a0d2e99c57abbb044912370dc"
-      }
-    },
-    {
-      "id": "ac2c512b6148210bf2bf2b0ec",
-      "title": "字节把微信逼急了？",
-      "originalTitle": "字节把微信逼急了？",
-      "summary": "出品｜虎嗅黄青春频道 作者｜商业消费主笔 黄青春 题图｜视觉中国 微信终于亲自下场切短剧了。 10 月 15 日，红果短剧与绿泡泡掀翻了整个热搜，短剧已然成为当下吞噬时间的最大黑洞，相关争论早已不绝于耳。 红果大家都很熟了，绿泡泡则是腾讯卡位短剧市场的杀招，由微信短剧内容中心操盘，分发矩阵覆盖微信搜索专区、视频号剧集页与 QQ 浏览器推荐位，用户从发现剧集、正片观看到社交分享全程无需跳转第三方， 彻底将短剧消费周期流量全部&ldquo;...",
-      "source": {
-        "name": "虎嗅网·商业搞钱深度"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/ac2c512b6148210bf2bf2b0ec",
-        "original": "https://www.huxiu.com/article/4897959.html?f=rss"
-      },
-      "publishedAt": "2026-10-18T23:07:07.000Z",
-      "discoveredAt": "2026-10-18T23:33:06.673Z",
-      "category": "money",
-      "score": 98,
-      "selected": true,
-      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/ac2c512b6148210bf2bf2b0ec"
-      }
-    },
-    {
-      "id": "a84cf2a4e6a33f1eb0c87123c",
-      "title": "[分享发现] NSFW/姿势出图 skill",
-      "originalTitle": "[分享发现] NSFW/姿势出图 skill",
-      "summary": "项目 https://github.com/Arekejoker/qwen21-nsfw-pose-skill 预览",
-      "source": {
-        "name": "V2EX·独立开发与副业"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a84cf2a4e6a33f1eb0c87123c",
-        "original": "https://www.v2ex.com/t/1249850#reply4"
-      },
-      "publishedAt": "2026-10-18T23:05:45.000Z",
-      "discoveredAt": "2026-10-18T23:42:55.553Z",
-      "category": "money",
-      "score": 89,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a84cf2a4e6a33f1eb0c87123c"
-      }
-    },
-    {
-      "id": "a3b92712e9a183e1c78c499f0",
-      "title": "当AI进入城市：城市发展的范式转向与治理重构",
-      "originalTitle": "当AI进入城市：城市发展的范式转向与治理重构",
-      "summary": "本文来自微信公众号： 清华管理评论 ，责编：刘永选，作者：林兰 等 AI对城市的影响不只是给原有系统增加一层智能外壳，而是逐步改变城市运行的时间逻辑、空间逻辑与组织逻辑。过去是先建设、后治理、再纠偏；未来则更可能是在运行中同步感知、即时调整、持续修订。这意味着，城市的AI时刻本质上也是城市治理、制度和观念重塑的时刻。 人工智能正在深度嵌入城市规划、建设、运行与治理的全链条，推动城市从以物理设施为中心的管理对象转向可感知、可学习、可编排、...",
-      "source": {
-        "name": "虎嗅网·商业搞钱深度"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a3b92712e9a183e1c78c499f0",
-        "original": "https://www.huxiu.com/article/4898451.html?f=rss"
-      },
-      "publishedAt": "2026-10-18T22:16:54.000Z",
-      "discoveredAt": "2026-10-18T23:33:06.865Z",
-      "category": "money",
-      "score": 99,
-      "selected": true,
-      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a3b92712e9a183e1c78c499f0"
       }
     },
     {
@@ -286,121 +424,6 @@
       }
     },
     {
-      "id": "af1ed150fccf6b40ea4a6b63e",
-      "title": "你买的新iPhone沉在霍尔木兹海峡了？恭喜你又被AI新闻给骗了。",
-      "originalTitle": "你买的新iPhone沉在霍尔木兹海峡了？恭喜你又被AI新闻给骗了。",
-      "summary": "本文来自微信公众号： 01Founder ，编辑：Max，作者：一直在路上的Max 我不知道你有没有看过这个新闻，反正我在好几个AI群里都看到了。 说的是一艘货轮在霍尔木兹海峡沉了，上面装着大量全新iPhone和法国香水，东西漂在海上，人伊朗的渔民老哥直接开船过去捞，捞上来回港口就卖。 群里转了不少视频号，有货轮冒烟的画面，也有小船围着打捞的画面。 我之前看到的时候，就觉得有点抽象，尤其那个视频，总觉得哪里怪怪的。 结果今天再刷，才发现...",
-      "source": {
-        "name": "虎嗅网·商业搞钱深度"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/af1ed150fccf6b40ea4a6b63e",
-        "original": "https://www.huxiu.com/article/4898442.html?f=rss"
-      },
-      "publishedAt": "2026-10-18T16:05:50.000Z",
-      "discoveredAt": "2026-10-18T16:49:03.132Z",
-      "category": "money",
-      "score": 97,
-      "selected": true,
-      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/af1ed150fccf6b40ea4a6b63e"
-      }
-    },
-    {
-      "id": "a2951ca7c4feb52438ea5b16a",
-      "title": "济安金信行业分类对养老金投资的价值观察",
-      "originalTitle": "济安金信行业分类对养老金投资的价值观察",
-      "summary": "（本文作者为 Barrons巴伦，钛媒体经授权发布） 一、济安金信行业分类标准简要介绍 济安金信行业分类是国内第三方机构推出的本土资本市场行业分类成果，采用&ldquo;经济部门基座+产业链价值延展&rdquo;双维度范式，搭建45个一级、144个二级、369个三级的三级架构，分别匹配宏观统计、中观产业链、微观细分赛道研究需求（具体分类参考 http://www.jajx.com/industrytype）。该标准坚持实质重于形式与单一...",
-      "source": {
-        "name": "钛媒体·资本与风口"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a2951ca7c4feb52438ea5b16a",
-        "original": "https://www.tmtpost.com/8172537.html"
-      },
-      "publishedAt": "2026-10-18T14:38:14.000Z",
-      "discoveredAt": "2026-10-18T15:42:53.180Z",
-      "category": "money",
-      "score": 94,
-      "selected": true,
-      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a2951ca7c4feb52438ea5b16a"
-      }
-    },
-    {
-      "id": "abd47da22c645f3a237859f53",
-      "title": "中美AI竞争的新变量：开源、算力与产业生态",
-      "originalTitle": "中美AI竞争的新变量：开源、算力与产业生态",
-      "summary": "（本文作者为 Barrons巴伦，钛媒体经授权发布） 过去几年，中美人工智能竞争最容易被看见的是模型排行榜、GPU数量和参数规模。但到了2026年，竞争的重心正在发生变化：模型能力仍然重要，真正决定一套技术路线能否持续扩张的，越来越包括推理成本、开发者生态、云服务、企业部署、真实场景数据以及规则制定能力。 开源与闭源因此不再只是工程师之间的技术路线之争。对企业而言，它关系到商业模式和客户控制权；对产业而言，它决定模型能以多低的成本进入制...",
-      "source": {
-        "name": "钛媒体·资本与风口"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/abd47da22c645f3a237859f53",
-        "original": "https://www.tmtpost.com/8172534.html"
-      },
-      "publishedAt": "2026-10-18T14:37:59.000Z",
-      "discoveredAt": "2026-10-18T15:42:53.377Z",
-      "category": "money",
-      "score": 98,
-      "selected": true,
-      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/abd47da22c645f3a237859f53"
-      }
-    },
-    {
-      "id": "a5e7c046ec577cfeccdf0dead",
-      "title": "价值判断：跌停板的投资机会和风险提示（10月16日）｜上市公司观察",
-      "originalTitle": "价值判断：跌停板的投资机会和风险提示（10月16日）｜上市公司观察",
-      "summary": "（本文作者为 Barrons巴伦，钛媒体经授权发布） 一、市场概览 10月16日，A股三大指数集体高开，早盘冲高后震荡回落、沪指盘中一度失守3700点关口，午后在军工与汽车零部件板块带动下震荡回升，全天呈&ldquo;指数分化、军工领涨、个股涨多跌少&rdquo;的格局。上证指数涨0.24%报3716.28点（3700点失而复得），深证成指跌0.12%报11802.46点，创业板指跌0.39%报2772.38点，科创综指跌0.18%报1...",
-      "source": {
-        "name": "钛媒体·资本与风口"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a5e7c046ec577cfeccdf0dead",
-        "original": "https://www.tmtpost.com/8172532.html"
-      },
-      "publishedAt": "2026-10-18T14:37:35.000Z",
-      "discoveredAt": "2026-10-18T15:42:53.579Z",
-      "category": "money",
-      "score": 95,
-      "selected": true,
-      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a5e7c046ec577cfeccdf0dead"
-      }
-    },
-    {
-      "id": "a27a4baee70fb39d3863c5ba0",
-      "title": "数学的“第四次危机”：从不可说，到无可说",
-      "originalTitle": "数学的“第四次危机”：从不可说，到无可说",
-      "summary": "（本文作者为 Barrons巴伦，钛媒体经授权发布） 过去两年，资本市场正在把&ldquo;AGI&rdquo;&ldquo;AI for Science&rdquo;&ldquo;自动科研&rdquo;&ldquo;AI科学家&rdquo;写进对科技公司的增长预期。投资者关心的已经不只是模型能否生成更好的文字、代码和图像，而是它能否进入科学发现最稀缺的环节&mdash;&mdash;提出问题、形成猜想、构造证明，并由此持续创造新知识。...",
-      "source": {
-        "name": "钛媒体·资本与风口"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a27a4baee70fb39d3863c5ba0",
-        "original": "https://www.tmtpost.com/8172522.html"
-      },
-      "publishedAt": "2026-10-18T14:36:51.000Z",
-      "discoveredAt": "2026-10-18T15:42:53.815Z",
-      "category": "money",
-      "score": 96,
-      "selected": true,
-      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a27a4baee70fb39d3863c5ba0"
-      }
-    },
-    {
       "id": "a2b4de1d2a57eceaf3317093f",
       "title": "【独立变现】显示 HN：Ranet3 – 高性能策略路由 IPsec 网状 SD-WAN",
       "originalTitle": "Show HN: Ranet3 – High performance policy routed IPsec mesh SD-WAN",
@@ -444,29 +467,6 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/ac39d47a1105a419bae792acf"
-      }
-    },
-    {
-      "id": "a718e9fb546a58ebf0d9309a0",
-      "title": "【国内要闻】第二届全国全民健身大赛（华南区）自行车骑游大会在清远举行",
-      "originalTitle": "第二届全国全民健身大赛（华南区）自行车骑游大会在清远举行",
-      "summary": "中新网清远10月18日电 (记者 张璐)第二届全国全民健身大赛(华南区)自行车骑游大会暨清远连南国家石漠公园自行车骑行活动(以下简称“活动”)18日在连南瑶族自治县举行。来自各地的骑友齐聚世界瑶乡，在喀斯特峰林与千年瑶寨之间穿行，用一场骑游感受全民健身的活力与民族文化的魅力。",
-      "source": {
-        "name": "中新网·国内要闻"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a718e9fb546a58ebf0d9309a0",
-        "original": "https://www.chinanews.com.cn/ty/2026/10-18/10716846.shtml"
-      },
-      "publishedAt": "2026-10-18T12:57:47.000Z",
-      "discoveredAt": "2026-10-18T13:29:54.139Z",
-      "category": "money",
-      "score": 97,
-      "selected": true,
-      "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a718e9fb546a58ebf0d9309a0"
       }
     }
   ],
