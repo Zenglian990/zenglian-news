@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T20:27:09.480Z",
+  "generatedAt": "2026-10-19T23:54:39.829Z",
   "daily": {
     "kind": "daily",
     "key": "2026-10-20",
     "title": "曾练全球一手简报 · 今日日报 (2026-10-20)",
     "subtitle": "全球·国内·商业搞钱·AI·影视娱乐·体育 六大实时Top20精选",
-    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：苹果预告下周 MacBook Pro 发布会；高速光模块组件订单排到2027年底，一片玻璃价值提升超60倍；当电影遇上AI：影视工业重塑“新质生产力”。",
+    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：高速光模块组件订单排到2027年底，一片玻璃价值提升超60倍；当电影遇上AI：影视工业重塑“新质生产力”；如果整个产品可以用 Claude 的一个周末来代替，我不会在 2026 年创办一家 SaaS 公司。。",
     "metrics": {
       "totalEvents": 18,
       "sourcesCount": 30,
@@ -17,29 +17,6 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
-          {
-            "id": "aac63779338b5da4e87f2035e",
-            "title": "【国际巨头】苹果预告下周 MacBook Pro 发布会",
-            "originalTitle": "Apple teases MacBook Pro event next week",
-            "summary": "Apple 已发出本月第二次产品发布会的邀请，发布会定于美国东部时间 10 月 28 日下午 1 点在洛杉矶举行。据彭博社报道，苹果将在此次活动中发布新款 Mac 和更新的 iPad Mini...（来源：The Verge·国际巨头）",
-            "source": {
-              "name": "The Verge·国际巨头"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aac63779338b5da4e87f2035e",
-              "original": "https://www.theverge.com/tech/1013028/apple-second-october-product-launch-announcement"
-            },
-            "publishedAt": "2026-10-19T16:04:29.000Z",
-            "discoveredAt": "2026-10-19T20:26:14.352Z",
-            "category": "global",
-            "score": 99,
-            "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aac63779338b5da4e87f2035e"
-            }
-          },
           {
             "id": "a8b27421bf41c8475a5f34159",
             "title": "【BBC全球】泽连斯基顾问告诉 BBC，乌克兰人因美国限制情报共享而死亡",
@@ -64,26 +41,49 @@
             }
           },
           {
-            "id": "afe3e1babd0bdb5cfeb425ac9",
-            "title": "【BBC全球】法院裁定加泰罗尼亚前叛乱总统可以返回西班牙",
-            "originalTitle": "Catalonia's former rebel president can return to Spain, court rules",
-            "summary": "法院维持了解除对卡尔斯·普伊格德蒙特 (Carles Puigdemont) 的逮捕令的决定，该逮捕令与他在 2017 年领导的独立运动有关。（来源：BBC News·全球要闻）",
+            "id": "ae14f9bc917bbbf98082e26fc",
+            "title": "【国际巨头】埃隆·马斯克提议的 SpaceX 股票赠品将进入“特朗普账户”",
+            "originalTitle": "Elon Musk’s proposed SpaceX stock giveaway would go into &#8216;Trump Accounts'",
+            "summary": "唐纳德·特朗普总统今天下午宣布，埃隆·马斯克 (Elon Musk) 的 SpaceX 儿童股份将通过特朗普账户发放。马斯克今天早些时候表示，他将把他的 SpaceX 股票之一捐赠给“美国的每个孩子……”（来源：The Verge·国际巨头）",
             "source": {
-              "name": "BBC News·全球要闻"
+              "name": "The Verge·国际巨头"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/afe3e1babd0bdb5cfeb425ac9",
-              "original": "https://www.bbc.co.uk/news/articles/cvp8gzg4e143o?at_medium=RSS&at_campaign=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/ae14f9bc917bbbf98082e26fc",
+              "original": "https://www.theverge.com/tech/1014115/elon-musk-spacex-trump-account"
             },
-            "publishedAt": "2026-10-19T14:06:53.000Z",
-            "discoveredAt": "2026-10-19T14:55:12.762Z",
+            "publishedAt": "2026-10-19T22:30:42.000Z",
+            "discoveredAt": "2026-10-19T23:53:53.305Z",
             "category": "global",
-            "score": 98,
+            "score": 97,
             "selected": true,
-            "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
+            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/afe3e1babd0bdb5cfeb425ac9"
+              "url": "https://zenglian-news.onrender.com/items/ae14f9bc917bbbf98082e26fc"
+            }
+          },
+          {
+            "id": "a2ed273ba1fc1530dbd3dc5d0",
+            "title": "【全球热榜】由于我没有 Microsoft 帐户，因此将 Linux 安装在我的 RTX Spark 笔记本电脑上",
+            "originalTitle": "Putting Linux on my RTX Spark laptop because I don't have a Microsoft account",
+            "summary": "X/HN·全球热榜Top实时快讯：Putting Linux on my RTX Spark laptop because I don't have a Microsoft account。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a2ed273ba1fc1530dbd3dc5d0",
+              "original": "https://josie.lol/blog/linux-rtx-spark"
+            },
+            "publishedAt": "2026-10-19T21:08:18.000Z",
+            "discoveredAt": "2026-10-19T23:53:51.552Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a2ed273ba1fc1530dbd3dc5d0"
             }
           }
         ]
@@ -139,26 +139,26 @@
             }
           },
           {
-            "id": "ac73bf4555a8587993410afe9",
-            "title": "苹果 watchOS 27.2 RC 发布",
-            "originalTitle": "苹果 watchOS 27.2 RC 发布",
-            "summary": "【 点此直达升级教程 】 IT之家 10 月 20 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.2 RC 更新（内部版本号：24S116），本次更新距离上次发布 Beta/RC 间隔 6 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？ • 公开测试版 ：需注册 Apple Beta 版软件计划 ，之后通过【设置】【通用】【软件更新】【Beta 版更新】来升...",
+            "id": "a67109774b3f29233bd407e25",
+            "title": "苹果首款折叠 iPhone Duo 供货现缓解信号：部分订单从 12 月提前至 10 月",
+            "originalTitle": "苹果首款折叠 iPhone Duo 供货现缓解信号：部分订单从 12 月提前至 10 月",
+            "summary": "IT之家 10 月 20 日消息，科技媒体 MacRumors 今天（10 月 20 日）发布博文， 报道称从部分用户晒出的订单交付日期来看，苹果已缓解首款折叠 iPhone Duo 供货压力。 IT之家此前报道，苹果首款折叠 iPhone Duo 首销火爆，10 月 16 日开启预购仅数小时，苹果官网年内可交付的货源便被抢购一空。苹果原本承诺在 10 月 23 日交付 iPhone Duo，但开放订购仅数小时， 官网预计交货时间便推迟...",
             "source": {
               "name": "IT之家·国内产业"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac73bf4555a8587993410afe9",
-              "original": "https://www.ithome.com/1/015/065.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a67109774b3f29233bd407e25",
+              "original": "https://www.ithome.com/1/015/076.htm"
             },
-            "publishedAt": "2026-10-19T18:35:06.000Z",
-            "discoveredAt": "2026-10-19T19:49:05.553Z",
+            "publishedAt": "2026-10-19T23:41:43.000Z",
+            "discoveredAt": "2026-10-19T23:54:02.106Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac73bf4555a8587993410afe9"
+              "url": "https://zenglian-news.onrender.com/items/a67109774b3f29233bd407e25"
             }
           }
         ]
@@ -191,49 +191,49 @@
             }
           },
           {
-            "id": "ae4303634ac14cd5dd66345f5",
-            "title": "一分钟卖光的 iPhone Duo，把苹果产能短板摆上台面",
-            "originalTitle": "一分钟卖光的 iPhone Duo，把苹果产能短板摆上台面",
-            "summary": "本文来自微信公众号： 旧叔笔谈 ，作者：旧叔，原文标题：《一分钟卖光的 iPhone Duo，把苹果产能短板摆上台面》 10月16日晚8点，苹果在国内准时开启首款折叠屏手机iPhone Duo的预购。然而就在一分钟之后，这台新机就把苹果自己推到了一个不太好解释的位置。 从京东和天猫上的全型号库存一分钟内清空，到苹果官网和Apple Store的购买页面因瞬时访问量过大一度打不开，谁能正常买到iPhone Duo这件事，瞬间成为众多果粉十...",
+            "id": "a4a42fe3554aba26b8ef1679b",
+            "title": "【独立变现】Show HN：具有语音帮助的开源早期阅读阅读器",
+            "originalTitle": "Show HN: Open-source early-reading reader with phonics help",
+            "summary": "我的孩子六岁了，她正在学习阅读。她通过《教你的怪物阅读》学习了基本的自然拼读法，但一直在为它的重复性而苦苦挣扎。我想给她一些故事读，但她还是不...（来源：Show HN·独立变现榜）",
             "source": {
-              "name": "虎嗅网·商业搞钱深度"
+              "name": "Show HN·独立变现榜"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae4303634ac14cd5dd66345f5",
-              "original": "https://www.huxiu.com/article/4898756.html?f=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/a4a42fe3554aba26b8ef1679b",
+              "original": "https://github.com/finereli/yarareads"
             },
-            "publishedAt": "2026-10-19T14:40:38.000Z",
-            "discoveredAt": "2026-10-19T14:55:38.392Z",
+            "publishedAt": "2026-10-19T17:58:54.000Z",
+            "discoveredAt": "2026-10-19T23:54:03.651Z",
             "category": "money",
             "score": 99,
             "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae4303634ac14cd5dd66345f5"
+              "url": "https://zenglian-news.onrender.com/items/a4a42fe3554aba26b8ef1679b"
             }
           },
           {
-            "id": "a92574e1bdd236d8c314034bf",
-            "title": "【出海实战】我花了一年的时间终于突破了 100 万次展示",
-            "originalTitle": "It took me a year but I have crossed 1M+ impressions finally",
-            "summary": "去年每个人都在建立一个目录，所以我想建立一个，但增长它很困难，因为我在社交媒体上没有任何观众。所以我学习了 pSEO 并修改了网站几次，现在它&#...（来源：X/Reddit·出海SaaS搞钱）",
+            "id": "a214dd3328bc315d91a52216f",
+            "title": "【独立变现】Show HN：KiviDB，更快的 Redis 兼容内存数据库和向量缓存",
+            "originalTitle": "Show HN: KiviDB, a faster Redis-compatible memory database and vector cache",
+            "summary": "大家好，我从 2026 年 2 月开始致力于这个项目 KiviDB。它最初是一个让我了解 rust 的项目，拥有一个没有 GC 暂停、快照后内存爆炸以及运行时 OOM 的产品...（来源：Show HN·独立变现榜）",
             "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
+              "name": "Show HN·独立变现榜"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a92574e1bdd236d8c314034bf",
-              "original": "https://www.reddit.com/r/SaaS/comments/1x9w2h5/it_took_me_a_year_but_i_have_crossed_1m/"
+              "aihot": "https://zenglian-news.onrender.com/items/a214dd3328bc315d91a52216f",
+              "original": "https://github.com/kividbio/kividb"
             },
-            "publishedAt": "2026-10-19T12:52:10.000Z",
-            "discoveredAt": "2026-10-19T14:55:35.019Z",
+            "publishedAt": "2026-10-19T13:53:52.000Z",
+            "discoveredAt": "2026-10-19T23:54:04.356Z",
             "category": "money",
             "score": 99,
             "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a92574e1bdd236d8c314034bf"
+              "url": "https://zenglian-news.onrender.com/items/a214dd3328bc315d91a52216f"
             }
           }
         ]
@@ -243,72 +243,72 @@
         "label": "🤖 AI实时Top20",
         "items": [
           {
-            "id": "a20759ad1465b9cc9c7b419bc",
-            "title": "【硅谷AI】亚马逊通过新的 TorchNeuron 开发工具向 Nvidia 发起了迄今为止最大的攻击",
-            "originalTitle": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
-            "summary": "亚马逊希望打破 Nvidia 对 PyTorch（用于构建大多数人工智能应用程序的免费工具包）的控制，以便更多开发人员在像自己的芯片一样的替代芯片上运行他们的应用程序。（来源：TechCrunch·硅谷AI）",
+            "id": "a9f2792373a4f471e3833848f",
+            "title": "OpenAI拟融资300亿美元，估值或超1.4万亿美元",
+            "originalTitle": "OpenAI拟融资300亿美元，估值或超1.4万亿美元",
+            "summary": "10月20日，据报道，OpenAI正加快推进一轮约300亿美元的融资，目标估值可能超过1.4万亿美元，并希望赶在竞争对手Anthropic预计于11月中旬上市前获得投资者承诺。软银集团、阿布扎比投资机构MGX及其他现有投资者正洽谈参与本轮融资。OpenAI向投资者表示，其年化营收在推出GPT-6 Astra模型后加速增长，目前已达500亿美元，预计年底升至700亿美元。公司希望在Anthropic披露更多财务信息、引发投资者进一步比较之...",
             "source": {
-              "name": "TechCrunch·硅谷AI"
+              "name": "界面新闻·国内政经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a20759ad1465b9cc9c7b419bc",
-              "original": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
+              "aihot": "https://zenglian-news.onrender.com/items/a9f2792373a4f471e3833848f",
+              "original": "https://www.jiemian.com/article/15209548.html"
             },
-            "publishedAt": "2026-10-19T20:09:24.000Z",
-            "discoveredAt": "2026-10-19T20:26:35.194Z",
+            "publishedAt": "2026-10-19T23:42:14.000Z",
+            "discoveredAt": "2026-10-19T23:53:58.970Z",
             "category": "tech",
             "score": 99,
             "selected": true,
-            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a20759ad1465b9cc9c7b419bc"
+              "url": "https://zenglian-news.onrender.com/items/a9f2792373a4f471e3833848f"
             }
           },
           {
-            "id": "aa69da9e3766caee01d4f9b68",
-            "title": "【硅谷AI】黑客攻击人工智能编码工具 OpenCode，对用户的人工智能账户收取费用",
-            "originalTitle": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
-            "summary": "OpenCode 是一种开源 AI 编码代理，已成为 Claude Code 和 Cursor 的流行替代品。但黑客侵入了其在线平台的一部分，窃取了一些用户的 API 密钥，以及它所使用的人工智能工具……（来源：TechCrunch·硅谷AI）",
+            "id": "a2d0ed2f1f25c83cb8d614f2a",
+            "title": "【硅谷AI】Hugging Face 的政策负责人表示，嵌入式人工智能评估器不会是一个简单的解决方案",
+            "originalTitle": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+            "summary": "人工智能实验室将自己的声誉押在模型基准测试上，这是一种中立且准确的评估系统，旨在衡量一种人工智能产品是否比另一种更好。然而，这些方法...（来源：TechCrunch·硅谷AI）",
             "source": {
               "name": "TechCrunch·硅谷AI"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa69da9e3766caee01d4f9b68",
-              "original": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/"
+              "aihot": "https://zenglian-news.onrender.com/items/a2d0ed2f1f25c83cb8d614f2a",
+              "original": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/"
             },
-            "publishedAt": "2026-10-19T19:28:34.000Z",
-            "discoveredAt": "2026-10-19T20:26:35.804Z",
+            "publishedAt": "2026-10-19T22:49:27.000Z",
+            "discoveredAt": "2026-10-19T23:54:18.437Z",
             "category": "tech",
             "score": 99,
             "selected": true,
             "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa69da9e3766caee01d4f9b68"
+              "url": "https://zenglian-news.onrender.com/items/a2d0ed2f1f25c83cb8d614f2a"
             }
           },
           {
-            "id": "a53fa9dc6d17611fc72dd644c",
-            "title": "【硅谷AI】Replika 的创始人开发了她 12 年前在 Disrupt 上推销的人工智能助手",
-            "originalTitle": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
-            "summary": "Eugenia Kuyda 最新的初创公司 Wabi 定位于利用她十多年前的想法。 Wabi 提供了一款独特的个人人工智能助手，现在任何人都可以免费下载。（来源：TechCrunch·硅谷AI）",
+            "id": "a02117e0abd69f6acd2fa5856",
+            "title": "【硅谷AI】微软表示人工智能代理就像内部威胁，因为“前沿模型不可信”",
+            "originalTitle": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+            "summary": "微软希望企业密切关注员工在不受 OpenAI 和 Anthropic 等人工智能实验室控制的系统中使用的代理。（来源：TechCrunch·硅谷AI）",
             "source": {
               "name": "TechCrunch·硅谷AI"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a53fa9dc6d17611fc72dd644c",
-              "original": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/"
+              "aihot": "https://zenglian-news.onrender.com/items/a02117e0abd69f6acd2fa5856",
+              "original": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/"
             },
-            "publishedAt": "2026-10-19T18:49:04.000Z",
-            "discoveredAt": "2026-10-19T20:26:36.813Z",
+            "publishedAt": "2026-10-19T22:04:28.000Z",
+            "discoveredAt": "2026-10-19T23:54:18.922Z",
             "category": "tech",
             "score": 99,
             "selected": true,
             "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a53fa9dc6d17611fc72dd644c"
+              "url": "https://zenglian-news.onrender.com/items/a02117e0abd69f6acd2fa5856"
             }
           }
         ]
@@ -318,72 +318,72 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "a30141a65c76bd8b4065c9c80",
-            "title": "【全球票房】切尔西·萨梅 (Chelsey Summey) 辞去华纳兄弟传播主管一职",
-            "originalTitle": "Chelsey Summey Departs As Warner Bros Head of Communications",
-            "summary": "独家报道：随着派拉蒙收购华纳兄弟，预计本周晚些时候会有更多人退出，我们听说后者的传播主管切尔西·萨梅 (Chelsey Summey) 已离开加利福尼亚州伯班克的地段。 Summey 最初加入华纳兄弟时担任...（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a30141a65c76bd8b4065c9c80",
-              "original": "https://deadline.com/2026/10/warner-bros-chelsey-summey-exits-1237167937/"
-            },
-            "publishedAt": "2026-10-19T20:03:25.000Z",
-            "discoveredAt": "2026-10-19T20:26:44.916Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a30141a65c76bd8b4065c9c80"
-            }
-          },
-          {
-            "id": "a7e73ae5bbf24936c82fcdec0",
-            "title": "【好莱坞一手】克里斯·鲍尔斯 (Kris Bowers) 将为迪士尼动画电影《Hexed》创作原创配乐（独家）",
-            "originalTitle": "Kris Bowers Set to Compose Original Score For Disney’s Animated Feature ‘Hexed’ (EXCLUSIVE)",
-            "summary": "奥斯卡金像奖获奖作曲家克里斯·鲍尔斯将为即将上映的迪士尼动画长片《Hexed》创作音乐。这部电影由海莉·斯坦菲尔德、拉什达·琼斯、朱迪·福斯特和沃尔顿·戈金斯主演，以神奇的方式登场……（来源：Variety·好莱坞影视）",
+            "id": "af8678565950c0ad04f505bef",
+            "title": "【好莱坞一手】《你可以看到一切》为奥斯卡最佳影片、女配角和更多类别的竞选奠定了基础",
+            "originalTitle": "‘You Can See Everything’ Sets Oscar Campaigns for Best Picture, Supporting Actress and More Categories",
+            "summary": "剧透警告：本文包含正在影院上映的《你可以看到一切》的主要剧透。 《你可以看到一切》可能会改写奥斯卡季的规则。内森·菲尔德 (Nathan Fielder) 和兰斯·奥本海姆 (Lance Oppenheim) 的 A24 纪录片...（来源：Variety·好莱坞影视）",
             "source": {
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7e73ae5bbf24936c82fcdec0",
-              "original": "https://variety.com/2026/artisans/news/kris-bowers-composer-original-score-hexed-disney-1236916751/"
+              "aihot": "https://zenglian-news.onrender.com/items/af8678565950c0ad04f505bef",
+              "original": "https://variety.com/2026/film/awards/you-can-see-everything-oscars-eligibility-awards-1236916699/"
             },
-            "publishedAt": "2026-10-19T19:48:06.000Z",
-            "discoveredAt": "2026-10-19T20:26:38.661Z",
+            "publishedAt": "2026-10-19T23:20:05.000Z",
+            "discoveredAt": "2026-10-19T23:54:20.522Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7e73ae5bbf24936c82fcdec0"
+              "url": "https://zenglian-news.onrender.com/items/af8678565950c0ad04f505bef"
             }
           },
           {
-            "id": "aab092e251988c04a7eae4880",
-            "title": "【全球票房】我们可以看到 A24 的热门纪录片《你可以看到一切》获得奥斯卡的可能性——其中包括表演类别",
-            "originalTitle": "We Can See Oscar Possibilities For A24’s Hit Documentary ‘You Can See Everything’ – And That Includes An Acting Category",
-            "summary": "剧透警告：以下文章包含有关 A24 纪录片《你可以看到一切》中的故事情节和角色/演员的详细信息。自从它在特柳赖德电影节上进行一次超级秘密的放映以来......（来源：Deadline·全球票房与新片）",
+            "id": "a16769c114cc479323fe691ca",
+            "title": "【全球票房】财报季拉开帷幕 Netflix 面临焦虑的华尔街",
+            "originalTitle": "Netflix Faces Anxious Wall Street As Earnings Season Kicks Off",
+            "summary": "Netflix 高管层的一系列变动（彼得·赖斯 (Peter Rice) 上任、贝拉·巴贾里亚 (Bela Bajaria) 等人离职）以及 2022 年以来最大规模的裁员，正在让该公司走上一条新道路 — — 但走向何方？这就是华尔街的问题……（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aab092e251988c04a7eae4880",
-              "original": "https://deadline.com/2026/10/you-can-see-everything-oscar-chances-1237167671/"
+              "aihot": "https://zenglian-news.onrender.com/items/a16769c114cc479323fe691ca",
+              "original": "https://deadline.com/2026/10/netflix-earnings-layoffs-future-1237167505/"
             },
-            "publishedAt": "2026-10-19T19:31:36.000Z",
-            "discoveredAt": "2026-10-19T20:26:46.162Z",
+            "publishedAt": "2026-10-19T22:45:00.000Z",
+            "discoveredAt": "2026-10-19T23:54:29.559Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aab092e251988c04a7eae4880"
+              "url": "https://zenglian-news.onrender.com/items/a16769c114cc479323fe691ca"
+            }
+          },
+          {
+            "id": "aa3a8557b740f1d9ba72af55d",
+            "title": "【好莱坞一手】迈克尔·道格拉斯表示漫威在要求工作室杀死“蚁人”角色后“不会让我”退出",
+            "originalTitle": "Michael Douglas Says Marvel ‘Wouldn’t Let Me’ Quit After Asking Studio for ‘Ant-Man’ Character to Be Killed Off",
+            "summary": "在两部漫威电影之后，迈克尔·道格拉斯扮演汉克·皮姆（原蚁人）的角色达到了极限，但当他要求杀死这个角色时，工作室拒绝满足他的愿望。奥斯卡奖得主被问到...（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aa3a8557b740f1d9ba72af55d",
+              "original": "https://variety.com/2026/film/news/michael-douglas-marvel-quit-killed-off-1236916599/"
+            },
+            "publishedAt": "2026-10-19T21:10:07.000Z",
+            "discoveredAt": "2026-10-19T23:54:23.990Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aa3a8557b740f1d9ba72af55d"
             }
           }
         ]
@@ -393,26 +393,49 @@
         "label": "🏆 体育实时Top20",
         "items": [
           {
-            "id": "a74750463637df085a1a080eb",
-            "title": "【欧洲足坛】托特纳姆热刺队对阵考文垂队：英超联赛——直播",
-            "originalTitle": "Tottenham v Coventry: Premier League – live",
-            "summary": "⚽ 英国夏令时晚上 8 点开球的实时更新 ⚽ 联系我们！与 Daniel 分享您的想法 游戏在哪里？马刺队将寻求主导控球权，由格雷和托纳利主导比赛，因此麦迪逊、库杜斯和马穆什可以……（来源：卫报体育·欧冠与五大联赛）",
+            "id": "a8069496715e06eae06c2d7ab",
+            "title": "【BBC足坛】麦迪逊为热刺创造的神奇时刻——酝酿 18 个月",
+            "originalTitle": "Maddison's magic moment for Spurs - 18 months in the making",
+            "summary": "菲尔·麦克纳尔蒂写道，詹姆斯·麦迪森自 2025 年 5 月以来首次首发，为热刺 3-1 战胜考文垂提供了他们等待的神奇时刻。（来源：BBC Sport·欧洲足坛）",
+            "source": {
+              "name": "BBC Sport·欧洲足坛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a8069496715e06eae06c2d7ab",
+              "original": "https://www.bbc.co.uk/sport/football/articles/cwz0v8le7y3eo?at_medium=RSS&at_campaign=rss"
+            },
+            "publishedAt": "2026-10-19T22:35:55.000Z",
+            "discoveredAt": "2026-10-19T23:54:32.969Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a8069496715e06eae06c2d7ab"
+            }
+          },
+          {
+            "id": "a8562b2b0023320bee8361c5d",
+            "title": "【欧洲足坛】戴维斯确保热刺在赛季首场战胜考文垂后摆脱垫底",
+            "originalTitle": "Davies ensures Spurs off the bottom after first win of season against Coventry",
+            "summary": "托特纳姆热刺队终于与碧昂斯持平。罗伯托·德泽尔比的球队取得了进步，自 2024 年 11 月以来，他们在英超联赛中仅获得了第六场主场胜利。愤世嫉俗者会指出，这座壮观的体育场......（来源：卫报体育·欧冠与五大联赛）",
             "source": {
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a74750463637df085a1a080eb",
-              "original": "https://www.theguardian.com/football/live/2026/oct/19/tottenham-v-coventry-premier-league-live"
+              "aihot": "https://zenglian-news.onrender.com/items/a8562b2b0023320bee8361c5d",
+              "original": "https://www.theguardian.com/football/2026/oct/19/tottenham-coventry-premier-league-match-report"
             },
-            "publishedAt": "2026-10-19T20:19:44.000Z",
-            "discoveredAt": "2026-10-19T20:27:01.476Z",
+            "publishedAt": "2026-10-19T21:05:46.000Z",
+            "discoveredAt": "2026-10-19T23:54:37.167Z",
             "category": "business",
             "score": 99,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a74750463637df085a1a080eb"
+              "url": "https://zenglian-news.onrender.com/items/a8562b2b0023320bee8361c5d"
             }
           },
           {
@@ -437,29 +460,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a227b961c472ae2ba119e441d"
             }
-          },
-          {
-            "id": "a677159b747124bca37629c25",
-            "title": "【体坛快讯】2026世界网联世界网球巡回赛青少年年终总决赛抽签仪式举行",
-            "originalTitle": "2026世界网联世界网球巡回赛青少年年终总决赛抽签仪式举行",
-            "summary": "中新网成都10月19日电 (祝欢)19日，2026世界网联世界网球巡回赛青少年年终总决赛抽签仪式在成都举行。随着签位正式落定，男女单打小组赛对阵形势悉数揭晓。此次赛事是青少年网坛年终收官之战，来自全球的16名顶尖青少年网球选手齐聚蓉城，为冠军头衔展开激烈争夺。",
-            "source": {
-              "name": "中新网·体育焦点"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a677159b747124bca37629c25",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-19/10717479.shtml"
-            },
-            "publishedAt": "2026-10-19T14:01:42.000Z",
-            "discoveredAt": "2026-10-19T14:56:14.918Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a677159b747124bca37629c25"
-            }
           }
         ]
       }
@@ -470,7 +470,7 @@
     "key": "2026-W41",
     "title": "曾练全球一手简报 · 本周核心周报 (2026年第41周)",
     "subtitle": "7天全球政经、国内大事、商业搞钱、AI突破与文体焦点深度复盘",
-    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：苹果预告下周 MacBook Pro 发布会；高速光模块组件订单排到2027年底，一片玻璃价值提升超60倍；当电影遇上AI：影视工业重塑“新质生产力”。",
+    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：高速光模块组件订单排到2027年底，一片玻璃价值提升超60倍；当电影遇上AI：影视工业重塑“新质生产力”；如果整个产品可以用 Claude 的一个周末来代替，我不会在 2026 年创办一家 SaaS 公司。。",
     "metrics": {
       "totalEvents": 30,
       "sourcesCount": 30,
@@ -481,29 +481,6 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
-          {
-            "id": "aac63779338b5da4e87f2035e",
-            "title": "【国际巨头】苹果预告下周 MacBook Pro 发布会",
-            "originalTitle": "Apple teases MacBook Pro event next week",
-            "summary": "Apple 已发出本月第二次产品发布会的邀请，发布会定于美国东部时间 10 月 28 日下午 1 点在洛杉矶举行。据彭博社报道，苹果将在此次活动中发布新款 Mac 和更新的 iPad Mini...（来源：The Verge·国际巨头）",
-            "source": {
-              "name": "The Verge·国际巨头"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aac63779338b5da4e87f2035e",
-              "original": "https://www.theverge.com/tech/1013028/apple-second-october-product-launch-announcement"
-            },
-            "publishedAt": "2026-10-19T16:04:29.000Z",
-            "discoveredAt": "2026-10-19T20:26:14.352Z",
-            "category": "global",
-            "score": 99,
-            "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aac63779338b5da4e87f2035e"
-            }
-          },
           {
             "id": "a8b27421bf41c8475a5f34159",
             "title": "【BBC全球】泽连斯基顾问告诉 BBC，乌克兰人因美国限制情报共享而死亡",
@@ -528,26 +505,72 @@
             }
           },
           {
-            "id": "afe3e1babd0bdb5cfeb425ac9",
-            "title": "【BBC全球】法院裁定加泰罗尼亚前叛乱总统可以返回西班牙",
-            "originalTitle": "Catalonia's former rebel president can return to Spain, court rules",
-            "summary": "法院维持了解除对卡尔斯·普伊格德蒙特 (Carles Puigdemont) 的逮捕令的决定，该逮捕令与他在 2017 年领导的独立运动有关。（来源：BBC News·全球要闻）",
+            "id": "ae14f9bc917bbbf98082e26fc",
+            "title": "【国际巨头】埃隆·马斯克提议的 SpaceX 股票赠品将进入“特朗普账户”",
+            "originalTitle": "Elon Musk’s proposed SpaceX stock giveaway would go into &#8216;Trump Accounts'",
+            "summary": "唐纳德·特朗普总统今天下午宣布，埃隆·马斯克 (Elon Musk) 的 SpaceX 儿童股份将通过特朗普账户发放。马斯克今天早些时候表示，他将把他的 SpaceX 股票之一捐赠给“美国的每个孩子……”（来源：The Verge·国际巨头）",
             "source": {
-              "name": "BBC News·全球要闻"
+              "name": "The Verge·国际巨头"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/afe3e1babd0bdb5cfeb425ac9",
-              "original": "https://www.bbc.co.uk/news/articles/cvp8gzg4e143o?at_medium=RSS&at_campaign=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/ae14f9bc917bbbf98082e26fc",
+              "original": "https://www.theverge.com/tech/1014115/elon-musk-spacex-trump-account"
             },
-            "publishedAt": "2026-10-19T14:06:53.000Z",
-            "discoveredAt": "2026-10-19T14:55:12.762Z",
+            "publishedAt": "2026-10-19T22:30:42.000Z",
+            "discoveredAt": "2026-10-19T23:53:53.305Z",
             "category": "global",
-            "score": 98,
+            "score": 97,
             "selected": true,
-            "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
+            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/afe3e1babd0bdb5cfeb425ac9"
+              "url": "https://zenglian-news.onrender.com/items/ae14f9bc917bbbf98082e26fc"
+            }
+          },
+          {
+            "id": "a2ed273ba1fc1530dbd3dc5d0",
+            "title": "【全球热榜】由于我没有 Microsoft 帐户，因此将 Linux 安装在我的 RTX Spark 笔记本电脑上",
+            "originalTitle": "Putting Linux on my RTX Spark laptop because I don't have a Microsoft account",
+            "summary": "X/HN·全球热榜Top实时快讯：Putting Linux on my RTX Spark laptop because I don't have a Microsoft account。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a2ed273ba1fc1530dbd3dc5d0",
+              "original": "https://josie.lol/blog/linux-rtx-spark"
+            },
+            "publishedAt": "2026-10-19T21:08:18.000Z",
+            "discoveredAt": "2026-10-19T23:53:51.552Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a2ed273ba1fc1530dbd3dc5d0"
+            }
+          },
+          {
+            "id": "a1fce8bb886de274a815df510",
+            "title": "【全球热榜】恢复工作将继续进行，直到士气提高为止",
+            "originalTitle": "The reverts will continue until morale improves",
+            "summary": "X/HN·全球热榜Top实时快讯：The reverts will continue until morale improves。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a1fce8bb886de274a815df510",
+              "original": "http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves"
+            },
+            "publishedAt": "2026-10-19T18:42:32.000Z",
+            "discoveredAt": "2026-10-19T23:53:52.048Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a1fce8bb886de274a815df510"
             }
           },
           {
@@ -572,29 +595,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ae86c0872e2d557b9e8bde414"
             }
-          },
-          {
-            "id": "ac555f00ccd056b4c27caf34a",
-            "title": "【全球热榜】在 macOS 上本机运行的 Android 应用",
-            "originalTitle": "Android apps running native on macOS",
-            "summary": "X/HN·全球热榜Top实时快讯：Android apps running native on macOS。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac555f00ccd056b4c27caf34a",
-              "original": "https://github.com/kksimp/Mac.apk"
-            },
-            "publishedAt": "2026-10-19T16:45:30.000Z",
-            "discoveredAt": "2026-10-19T20:26:11.301Z",
-            "category": "global",
-            "score": 97,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac555f00ccd056b4c27caf34a"
-            }
           }
         ]
       },
@@ -649,72 +649,72 @@
             }
           },
           {
-            "id": "ac73bf4555a8587993410afe9",
-            "title": "苹果 watchOS 27.2 RC 发布",
-            "originalTitle": "苹果 watchOS 27.2 RC 发布",
-            "summary": "【 点此直达升级教程 】 IT之家 10 月 20 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.2 RC 更新（内部版本号：24S116），本次更新距离上次发布 Beta/RC 间隔 6 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？ • 公开测试版 ：需注册 Apple Beta 版软件计划 ，之后通过【设置】【通用】【软件更新】【Beta 版更新】来升...",
+            "id": "a67109774b3f29233bd407e25",
+            "title": "苹果首款折叠 iPhone Duo 供货现缓解信号：部分订单从 12 月提前至 10 月",
+            "originalTitle": "苹果首款折叠 iPhone Duo 供货现缓解信号：部分订单从 12 月提前至 10 月",
+            "summary": "IT之家 10 月 20 日消息，科技媒体 MacRumors 今天（10 月 20 日）发布博文， 报道称从部分用户晒出的订单交付日期来看，苹果已缓解首款折叠 iPhone Duo 供货压力。 IT之家此前报道，苹果首款折叠 iPhone Duo 首销火爆，10 月 16 日开启预购仅数小时，苹果官网年内可交付的货源便被抢购一空。苹果原本承诺在 10 月 23 日交付 iPhone Duo，但开放订购仅数小时， 官网预计交货时间便推迟...",
             "source": {
               "name": "IT之家·国内产业"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac73bf4555a8587993410afe9",
-              "original": "https://www.ithome.com/1/015/065.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a67109774b3f29233bd407e25",
+              "original": "https://www.ithome.com/1/015/076.htm"
             },
-            "publishedAt": "2026-10-19T18:35:06.000Z",
-            "discoveredAt": "2026-10-19T19:49:05.553Z",
+            "publishedAt": "2026-10-19T23:41:43.000Z",
+            "discoveredAt": "2026-10-19T23:54:02.106Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac73bf4555a8587993410afe9"
+              "url": "https://zenglian-news.onrender.com/items/a67109774b3f29233bd407e25"
             }
           },
           {
-            "id": "ae5ff13448f96c1ec91fa1bc9",
-            "title": "【国内要闻】泰国拟追加105.08亿泰铢洪灾救助资金",
-            "originalTitle": "泰国拟追加105.08亿泰铢洪灾救助资金",
-            "summary": "中新社曼谷10月20日电 (王茜 李映民)泰国防灾减灾厅19日表示，该厅计划20日提请内阁批准追加105.08亿泰铢洪灾救助资金，拟使用2027财年中央预算，预计惠及约148.14万户家庭。",
+            "id": "a6a1d4bb0947d36223cc461bf",
+            "title": "日本演员工会发布 AI 语音使用准则，龙珠悟空配音演员怒批 AI 盗用其声音",
+            "originalTitle": "日本演员工会发布 AI 语音使用准则，龙珠悟空配音演员怒批 AI 盗用其声音",
+            "summary": "IT之家 10 月 20 日消息，随着生成式 AI 给各行各业创作者带来越来越多的困扰，日本配音演员正在寻找属于自己的方式，抵制他人未经授权使用他们的声音。上周，代表日本配音演员的工会发布了一份 AI 使用相关准则，不少配音演员也讲述了这项技术给他们个人与职业带来的困境。 IT之家注意到，多年来，日本配音演员一直在抵制未经许可盗用自身声音的行为。2024 年，一批配音演员联合成立组织，抗议 AI 声音的滥用，他们特别指出，相关领域缺少版...",
+            "source": {
+              "name": "IT之家·国内产业"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a6a1d4bb0947d36223cc461bf",
+              "original": "https://www.ithome.com/1/015/074.htm"
+            },
+            "publishedAt": "2026-10-19T23:39:30.000Z",
+            "discoveredAt": "2026-10-19T23:54:02.303Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a6a1d4bb0947d36223cc461bf"
+            }
+          },
+          {
+            "id": "abfdeb611f4f3c5be01231e11",
+            "title": "【国内要闻】“双11”购物节上新 服务消费成亮点",
+            "originalTitle": "“双11”购物节上新 服务消费成亮点",
+            "summary": "“双11”购物节是观察消费市场变化的重要窗口。十月中旬以来，多家电商平台启动“双11”购物节的相关活动。中青报·中青网记者注意到，今年多家电商平台在规则上做减法，取消跨店满减和凑单机制，扩容服务消费品类、提升购物体验成为购物节亮点。",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae5ff13448f96c1ec91fa1bc9",
-              "original": "https://www.chinanews.com.cn/gj/2026/10-20/10717543.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/abfdeb611f4f3c5be01231e11",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-20/10717561.shtml"
             },
-            "publishedAt": "2026-10-19T17:37:54.000Z",
-            "discoveredAt": "2026-10-19T18:12:33.961Z",
+            "publishedAt": "2026-10-19T23:36:53.000Z",
+            "discoveredAt": "2026-10-19T23:53:57.378Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae5ff13448f96c1ec91fa1bc9"
-            }
-          },
-          {
-            "id": "acf2a7e83fb9d834915a80f04",
-            "title": "苹果官宣北京时间 10 月 29 日举行特别活动，有望推出 OLED MacBook Pro / iPad mini 8 等机型",
-            "originalTitle": "苹果官宣北京时间 10 月 29 日举行特别活动，有望推出 OLED MacBook Pro / iPad mini 8 等机型",
-            "summary": "【00:15 更新】苹果已确认发布会时间，官方将于美国当地东部时间 10 月 28 日下午 1 时（北京时间 10 月 29 日凌晨 1:00）在美国洛杉矶举办本月第二场新品发布活动。 IT之家 10 月 20 日消息，苹果官方账号在小红书发文，透露“好多好消息，下周和你说”，暗示将于下周举行特别活动，届时将推出一系列新品，不过官方尚未公布具体时间信息。 IT之家注意到，此前有消息称苹果 大概率下周三正式发布一批新品 ，包含搭载 OLE...",
-            "source": {
-              "name": "IT之家·国内产业"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/acf2a7e83fb9d834915a80f04",
-              "original": "https://www.ithome.com/1/015/054.htm"
-            },
-            "publishedAt": "2026-10-19T16:14:13.000Z",
-            "discoveredAt": "2026-10-19T17:06:14.748Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/acf2a7e83fb9d834915a80f04"
+              "url": "https://zenglian-news.onrender.com/items/abfdeb611f4f3c5be01231e11"
             }
           }
         ]
@@ -747,95 +747,95 @@
             }
           },
           {
-            "id": "ae4303634ac14cd5dd66345f5",
-            "title": "一分钟卖光的 iPhone Duo，把苹果产能短板摆上台面",
-            "originalTitle": "一分钟卖光的 iPhone Duo，把苹果产能短板摆上台面",
-            "summary": "本文来自微信公众号： 旧叔笔谈 ，作者：旧叔，原文标题：《一分钟卖光的 iPhone Duo，把苹果产能短板摆上台面》 10月16日晚8点，苹果在国内准时开启首款折叠屏手机iPhone Duo的预购。然而就在一分钟之后，这台新机就把苹果自己推到了一个不太好解释的位置。 从京东和天猫上的全型号库存一分钟内清空，到苹果官网和Apple Store的购买页面因瞬时访问量过大一度打不开，谁能正常买到iPhone Duo这件事，瞬间成为众多果粉十...",
+            "id": "a4a42fe3554aba26b8ef1679b",
+            "title": "【独立变现】Show HN：具有语音帮助的开源早期阅读阅读器",
+            "originalTitle": "Show HN: Open-source early-reading reader with phonics help",
+            "summary": "我的孩子六岁了，她正在学习阅读。她通过《教你的怪物阅读》学习了基本的自然拼读法，但一直在为它的重复性而苦苦挣扎。我想给她一些故事读，但她还是不...（来源：Show HN·独立变现榜）",
             "source": {
-              "name": "虎嗅网·商业搞钱深度"
+              "name": "Show HN·独立变现榜"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae4303634ac14cd5dd66345f5",
-              "original": "https://www.huxiu.com/article/4898756.html?f=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/a4a42fe3554aba26b8ef1679b",
+              "original": "https://github.com/finereli/yarareads"
             },
-            "publishedAt": "2026-10-19T14:40:38.000Z",
-            "discoveredAt": "2026-10-19T14:55:38.392Z",
+            "publishedAt": "2026-10-19T17:58:54.000Z",
+            "discoveredAt": "2026-10-19T23:54:03.651Z",
             "category": "money",
             "score": 99,
             "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae4303634ac14cd5dd66345f5"
+              "url": "https://zenglian-news.onrender.com/items/a4a42fe3554aba26b8ef1679b"
             }
           },
           {
-            "id": "a92574e1bdd236d8c314034bf",
-            "title": "【出海实战】我花了一年的时间终于突破了 100 万次展示",
-            "originalTitle": "It took me a year but I have crossed 1M+ impressions finally",
-            "summary": "去年每个人都在建立一个目录，所以我想建立一个，但增长它很困难，因为我在社交媒体上没有任何观众。所以我学习了 pSEO 并修改了网站几次，现在它&#...（来源：X/Reddit·出海SaaS搞钱）",
+            "id": "a214dd3328bc315d91a52216f",
+            "title": "【独立变现】Show HN：KiviDB，更快的 Redis 兼容内存数据库和向量缓存",
+            "originalTitle": "Show HN: KiviDB, a faster Redis-compatible memory database and vector cache",
+            "summary": "大家好，我从 2026 年 2 月开始致力于这个项目 KiviDB。它最初是一个让我了解 rust 的项目，拥有一个没有 GC 暂停、快照后内存爆炸以及运行时 OOM 的产品...（来源：Show HN·独立变现榜）",
             "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
+              "name": "Show HN·独立变现榜"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a92574e1bdd236d8c314034bf",
-              "original": "https://www.reddit.com/r/SaaS/comments/1x9w2h5/it_took_me_a_year_but_i_have_crossed_1m/"
+              "aihot": "https://zenglian-news.onrender.com/items/a214dd3328bc315d91a52216f",
+              "original": "https://github.com/kividbio/kividb"
             },
-            "publishedAt": "2026-10-19T12:52:10.000Z",
-            "discoveredAt": "2026-10-19T14:55:35.019Z",
+            "publishedAt": "2026-10-19T13:53:52.000Z",
+            "discoveredAt": "2026-10-19T23:54:04.356Z",
             "category": "money",
             "score": 99,
             "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a92574e1bdd236d8c314034bf"
+              "url": "https://zenglian-news.onrender.com/items/a214dd3328bc315d91a52216f"
             }
           },
           {
-            "id": "acb56d16c9541ef395de96bfc",
-            "title": "【出海实战】Anthropic 的估值为 2 万亿美元，而 35 家 SaaS 公司的估值为 9,480 亿美元，人工智能估值是否已失控？",
-            "originalTitle": "Anthropic at $2 Trillion vs. 35 SaaS Companies at $948 Billion Are AI Valuations Getting Out of Control?",
-            "summary": "生存一天比一天艰难。   由 /u/Ok_Force4354 提交 [链接] [评论]（来源：X/Reddit·出海SaaS搞钱）",
+            "id": "ae5a9814ac107a4f31863e436",
+            "title": "【独立变现】Show HN：我建立了一个任务系统来处理苦差事，这样我就可以专注于任务",
+            "originalTitle": "Show HN: I built a task system to handle the drudgery so I could focus on tasks",
+            "summary": "我是一名来自东海岸的软件工程师（曾住在纽约州波士顿、湾区、英国、法国），我构建了一个名为 3 & Done 的任务系统。这是您信任的存储您需要做的一切的地方。它接受语音...（来源：Show HN·独立变现榜）",
             "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
+              "name": "Show HN·独立变现榜"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/acb56d16c9541ef395de96bfc",
-              "original": "https://www.reddit.com/r/SaaS/comments/1x9r326/anthropic_at_2_trillion_vs_35_saas_companies_at/"
+              "aihot": "https://zenglian-news.onrender.com/items/ae5a9814ac107a4f31863e436",
+              "original": "https://3anddoneapp.com/try"
             },
-            "publishedAt": "2026-10-19T08:14:03.000Z",
-            "discoveredAt": "2026-10-19T14:55:33.135Z",
+            "publishedAt": "2026-10-19T13:07:07.000Z",
+            "discoveredAt": "2026-10-19T23:54:05.048Z",
             "category": "money",
             "score": 99,
             "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/acb56d16c9541ef395de96bfc"
+              "url": "https://zenglian-news.onrender.com/items/ae5a9814ac107a4f31863e436"
             }
           },
           {
-            "id": "ae05df80565b1d1dda7d613a9",
-            "title": "种草在内、成交在外，开环电商是配菜还是新路？｜ 出海参考",
-            "originalTitle": "种草在内、成交在外，开环电商是配菜还是新路？｜ 出海参考",
-            "summary": "（本文作者为 出海参考，钛媒体经授权发布） AI生成图片 亚马逊黑五网一的促销提报窗口即将在10月20日关闭。 对跨境卖家来说，这个日期很具体：旺季的促销方案和营销预算，必须赶在它之前定下来。关闭前两周，10月6日到7日，亚马逊秋季Prime大促在22个国家打了一场前哨战，是旺季前最后一次实战检验。 只是今年的钟拨得比往年更早。联盟营销平台PartnerBoost对出海参考表示，旺季还没真正开战，黑五的达人档期、种草内容、备货沟通，两三...",
+            "id": "ae6f4b43ec8e12f0a458f56c4",
+            "title": "【独立变现】显示 HN：Qwen3-4B，AI 书写抽动训练完成",
+            "originalTitle": "Show HN: Qwen3-4B with the AI writing tics trained out",
+            "summary": "Show HN·独立变现榜实时快讯：Show HN: Qwen3-4B with the AI writing tics trained out。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
             "source": {
-              "name": "钛媒体·资本与风口"
+              "name": "Show HN·独立变现榜"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae05df80565b1d1dda7d613a9",
-              "original": "https://www.tmtpost.com/8173893.html"
+              "aihot": "https://zenglian-news.onrender.com/items/ae6f4b43ec8e12f0a458f56c4",
+              "original": "https://100toolkit.com/blog/deslop-model/"
             },
-            "publishedAt": "2026-10-19T13:01:04.000Z",
-            "discoveredAt": "2026-10-19T13:48:47.348Z",
+            "publishedAt": "2026-10-19T13:00:47.000Z",
+            "discoveredAt": "2026-10-19T23:54:05.562Z",
             "category": "money",
-            "score": 98,
+            "score": 99,
             "selected": true,
-            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae05df80565b1d1dda7d613a9"
+              "url": "https://zenglian-news.onrender.com/items/ae6f4b43ec8e12f0a458f56c4"
             }
           }
         ]
@@ -844,6 +844,75 @@
         "category": "tech",
         "label": "🤖 AI实时Top20",
         "items": [
+          {
+            "id": "a9f2792373a4f471e3833848f",
+            "title": "OpenAI拟融资300亿美元，估值或超1.4万亿美元",
+            "originalTitle": "OpenAI拟融资300亿美元，估值或超1.4万亿美元",
+            "summary": "10月20日，据报道，OpenAI正加快推进一轮约300亿美元的融资，目标估值可能超过1.4万亿美元，并希望赶在竞争对手Anthropic预计于11月中旬上市前获得投资者承诺。软银集团、阿布扎比投资机构MGX及其他现有投资者正洽谈参与本轮融资。OpenAI向投资者表示，其年化营收在推出GPT-6 Astra模型后加速增长，目前已达500亿美元，预计年底升至700亿美元。公司希望在Anthropic披露更多财务信息、引发投资者进一步比较之...",
+            "source": {
+              "name": "界面新闻·国内政经"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a9f2792373a4f471e3833848f",
+              "original": "https://www.jiemian.com/article/15209548.html"
+            },
+            "publishedAt": "2026-10-19T23:42:14.000Z",
+            "discoveredAt": "2026-10-19T23:53:58.970Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a9f2792373a4f471e3833848f"
+            }
+          },
+          {
+            "id": "a2d0ed2f1f25c83cb8d614f2a",
+            "title": "【硅谷AI】Hugging Face 的政策负责人表示，嵌入式人工智能评估器不会是一个简单的解决方案",
+            "originalTitle": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+            "summary": "人工智能实验室将自己的声誉押在模型基准测试上，这是一种中立且准确的评估系统，旨在衡量一种人工智能产品是否比另一种更好。然而，这些方法...（来源：TechCrunch·硅谷AI）",
+            "source": {
+              "name": "TechCrunch·硅谷AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a2d0ed2f1f25c83cb8d614f2a",
+              "original": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/"
+            },
+            "publishedAt": "2026-10-19T22:49:27.000Z",
+            "discoveredAt": "2026-10-19T23:54:18.437Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a2d0ed2f1f25c83cb8d614f2a"
+            }
+          },
+          {
+            "id": "a02117e0abd69f6acd2fa5856",
+            "title": "【硅谷AI】微软表示人工智能代理就像内部威胁，因为“前沿模型不可信”",
+            "originalTitle": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+            "summary": "微软希望企业密切关注员工在不受 OpenAI 和 Anthropic 等人工智能实验室控制的系统中使用的代理。（来源：TechCrunch·硅谷AI）",
+            "source": {
+              "name": "TechCrunch·硅谷AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a02117e0abd69f6acd2fa5856",
+              "original": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/"
+            },
+            "publishedAt": "2026-10-19T22:04:28.000Z",
+            "discoveredAt": "2026-10-19T23:54:18.922Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a02117e0abd69f6acd2fa5856"
+            }
+          },
           {
             "id": "a20759ad1465b9cc9c7b419bc",
             "title": "【硅谷AI】亚马逊通过新的 TorchNeuron 开发工具向 Nvidia 发起了迄今为止最大的攻击",
@@ -889,75 +958,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/aa69da9e3766caee01d4f9b68"
             }
-          },
-          {
-            "id": "a53fa9dc6d17611fc72dd644c",
-            "title": "【硅谷AI】Replika 的创始人开发了她 12 年前在 Disrupt 上推销的人工智能助手",
-            "originalTitle": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
-            "summary": "Eugenia Kuyda 最新的初创公司 Wabi 定位于利用她十多年前的想法。 Wabi 提供了一款独特的个人人工智能助手，现在任何人都可以免费下载。（来源：TechCrunch·硅谷AI）",
-            "source": {
-              "name": "TechCrunch·硅谷AI"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a53fa9dc6d17611fc72dd644c",
-              "original": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/"
-            },
-            "publishedAt": "2026-10-19T18:49:04.000Z",
-            "discoveredAt": "2026-10-19T20:26:36.813Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a53fa9dc6d17611fc72dd644c"
-            }
-          },
-          {
-            "id": "a5559b231bd95e518465ef56a",
-            "title": "【MIT·AI】为人工智能代理提供更好的互联网可能会让其他人的情况变得更糟",
-            "originalTitle": "Making the internet better for AI agents might make it worse for everyone else",
-            "summary": "直到最近，您还可以将互联网用户分为两类：机器人和人。网站长期以来一直允许机器人执行自动化任务，例如捕获网页内容，但规则控制着它们可以访问的内容以及它们的行为方式。网络，（来源：MIT科技评论·AI突破）",
-            "source": {
-              "name": "MIT科技评论·AI突破"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a5559b231bd95e518465ef56a",
-              "original": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/"
-            },
-            "publishedAt": "2026-10-19T18:22:47.000Z",
-            "discoveredAt": "2026-10-19T20:26:33.267Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "麻省理工科技评论权威AI报道，洞察下一代人工智能底层突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a5559b231bd95e518465ef56a"
-            }
-          },
-          {
-            "id": "ad9883fe2f467b5009e17d004",
-            "title": "【MIT·AI】“我们的看法是错误的”：颠覆人工智能世界的爆炸性主张",
-            "originalTitle": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
-            "summary": "“我想我有关于神经网络本质的好消息。”人工智能初创公司 Goodfire 的研究员尼克·卡马拉塔 (Nick Cammarata) 凭借这些简单的乐观话语，开始了一篇 26,000 字的博文，震惊了人工智能世界……（来源：MIT科技评论·AI突破）",
-            "source": {
-              "name": "MIT科技评论·AI突破"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad9883fe2f467b5009e17d004",
-              "original": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/"
-            },
-            "publishedAt": "2026-10-19T17:45:55.000Z",
-            "discoveredAt": "2026-10-19T20:26:34.020Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "麻省理工科技评论权威AI报道，洞察下一代人工智能底层突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad9883fe2f467b5009e17d004"
-            }
           }
         ]
       },
@@ -966,118 +966,118 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "a30141a65c76bd8b4065c9c80",
-            "title": "【全球票房】切尔西·萨梅 (Chelsey Summey) 辞去华纳兄弟传播主管一职",
-            "originalTitle": "Chelsey Summey Departs As Warner Bros Head of Communications",
-            "summary": "独家报道：随着派拉蒙收购华纳兄弟，预计本周晚些时候会有更多人退出，我们听说后者的传播主管切尔西·萨梅 (Chelsey Summey) 已离开加利福尼亚州伯班克的地段。 Summey 最初加入华纳兄弟时担任...（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a30141a65c76bd8b4065c9c80",
-              "original": "https://deadline.com/2026/10/warner-bros-chelsey-summey-exits-1237167937/"
-            },
-            "publishedAt": "2026-10-19T20:03:25.000Z",
-            "discoveredAt": "2026-10-19T20:26:44.916Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a30141a65c76bd8b4065c9c80"
-            }
-          },
-          {
-            "id": "a7e73ae5bbf24936c82fcdec0",
-            "title": "【好莱坞一手】克里斯·鲍尔斯 (Kris Bowers) 将为迪士尼动画电影《Hexed》创作原创配乐（独家）",
-            "originalTitle": "Kris Bowers Set to Compose Original Score For Disney’s Animated Feature ‘Hexed’ (EXCLUSIVE)",
-            "summary": "奥斯卡金像奖获奖作曲家克里斯·鲍尔斯将为即将上映的迪士尼动画长片《Hexed》创作音乐。这部电影由海莉·斯坦菲尔德、拉什达·琼斯、朱迪·福斯特和沃尔顿·戈金斯主演，以神奇的方式登场……（来源：Variety·好莱坞影视）",
+            "id": "af8678565950c0ad04f505bef",
+            "title": "【好莱坞一手】《你可以看到一切》为奥斯卡最佳影片、女配角和更多类别的竞选奠定了基础",
+            "originalTitle": "‘You Can See Everything’ Sets Oscar Campaigns for Best Picture, Supporting Actress and More Categories",
+            "summary": "剧透警告：本文包含正在影院上映的《你可以看到一切》的主要剧透。 《你可以看到一切》可能会改写奥斯卡季的规则。内森·菲尔德 (Nathan Fielder) 和兰斯·奥本海姆 (Lance Oppenheim) 的 A24 纪录片...（来源：Variety·好莱坞影视）",
             "source": {
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7e73ae5bbf24936c82fcdec0",
-              "original": "https://variety.com/2026/artisans/news/kris-bowers-composer-original-score-hexed-disney-1236916751/"
+              "aihot": "https://zenglian-news.onrender.com/items/af8678565950c0ad04f505bef",
+              "original": "https://variety.com/2026/film/awards/you-can-see-everything-oscars-eligibility-awards-1236916699/"
             },
-            "publishedAt": "2026-10-19T19:48:06.000Z",
-            "discoveredAt": "2026-10-19T20:26:38.661Z",
+            "publishedAt": "2026-10-19T23:20:05.000Z",
+            "discoveredAt": "2026-10-19T23:54:20.522Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7e73ae5bbf24936c82fcdec0"
+              "url": "https://zenglian-news.onrender.com/items/af8678565950c0ad04f505bef"
             }
           },
           {
-            "id": "aab092e251988c04a7eae4880",
-            "title": "【全球票房】我们可以看到 A24 的热门纪录片《你可以看到一切》获得奥斯卡的可能性——其中包括表演类别",
-            "originalTitle": "We Can See Oscar Possibilities For A24’s Hit Documentary ‘You Can See Everything’ – And That Includes An Acting Category",
-            "summary": "剧透警告：以下文章包含有关 A24 纪录片《你可以看到一切》中的故事情节和角色/演员的详细信息。自从它在特柳赖德电影节上进行一次超级秘密的放映以来......（来源：Deadline·全球票房与新片）",
+            "id": "a16769c114cc479323fe691ca",
+            "title": "【全球票房】财报季拉开帷幕 Netflix 面临焦虑的华尔街",
+            "originalTitle": "Netflix Faces Anxious Wall Street As Earnings Season Kicks Off",
+            "summary": "Netflix 高管层的一系列变动（彼得·赖斯 (Peter Rice) 上任、贝拉·巴贾里亚 (Bela Bajaria) 等人离职）以及 2022 年以来最大规模的裁员，正在让该公司走上一条新道路 — — 但走向何方？这就是华尔街的问题……（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aab092e251988c04a7eae4880",
-              "original": "https://deadline.com/2026/10/you-can-see-everything-oscar-chances-1237167671/"
+              "aihot": "https://zenglian-news.onrender.com/items/a16769c114cc479323fe691ca",
+              "original": "https://deadline.com/2026/10/netflix-earnings-layoffs-future-1237167505/"
             },
-            "publishedAt": "2026-10-19T19:31:36.000Z",
-            "discoveredAt": "2026-10-19T20:26:46.162Z",
+            "publishedAt": "2026-10-19T22:45:00.000Z",
+            "discoveredAt": "2026-10-19T23:54:29.559Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aab092e251988c04a7eae4880"
+              "url": "https://zenglian-news.onrender.com/items/a16769c114cc479323fe691ca"
             }
           },
           {
-            "id": "aa09c4b5e716a1ed1224b9240",
-            "title": "【好莱坞一手】格温妮丝·帕特洛 (Gwyneth Paltrow) 在 Netflix 的 A24 剧集《道歉》中首次担任主角",
-            "originalTitle": "Gwyneth Paltrow Sets First Lead TV Role in A24 Drama ‘The Apology’ at Netflix",
-            "summary": "格温妮丝·帕特洛 (Gwyneth Paltrow) 在即将上映的 A24 剧集《道歉》中首次担任主角，该剧已在 Netflix 获得了两季的订单。这位奥斯卡奖得主将饰演伊芙琳·安斯佩克 (Evelyn Amspoker)，她的儿子是...（来源：Variety·好莱坞影视）",
+            "id": "aa3a8557b740f1d9ba72af55d",
+            "title": "【好莱坞一手】迈克尔·道格拉斯表示漫威在要求工作室杀死“蚁人”角色后“不会让我”退出",
+            "originalTitle": "Michael Douglas Says Marvel ‘Wouldn’t Let Me’ Quit After Asking Studio for ‘Ant-Man’ Character to Be Killed Off",
+            "summary": "在两部漫威电影之后，迈克尔·道格拉斯扮演汉克·皮姆（原蚁人）的角色达到了极限，但当他要求杀死这个角色时，工作室拒绝满足他的愿望。奥斯卡奖得主被问到...（来源：Variety·好莱坞影视）",
             "source": {
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa09c4b5e716a1ed1224b9240",
-              "original": "https://variety.com/2026/tv/news/gwyneth-paltrow-a24-the-apology-first-lead-tv-role-1236916711/"
+              "aihot": "https://zenglian-news.onrender.com/items/aa3a8557b740f1d9ba72af55d",
+              "original": "https://variety.com/2026/film/news/michael-douglas-marvel-quit-killed-off-1236916599/"
             },
-            "publishedAt": "2026-10-19T18:46:48.000Z",
-            "discoveredAt": "2026-10-19T20:26:43.690Z",
+            "publishedAt": "2026-10-19T21:10:07.000Z",
+            "discoveredAt": "2026-10-19T23:54:23.990Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa09c4b5e716a1ed1224b9240"
+              "url": "https://zenglian-news.onrender.com/items/aa3a8557b740f1d9ba72af55d"
             }
           },
           {
-            "id": "a2afcdc45ae90b118feb67fa1",
-            "title": "【好莱坞一手】《理智与情感》编剧谈从书到银幕的变化以及简·奥斯汀为何如此适应：“她几乎就像莎士比亚”",
-            "originalTitle": "‘Sense and Sensibility’ Screenwriter on Book-to-Screen Changes and Why Jane Austen Is So Adaptable: ‘She’s Almost Like Shakespeare’",
-            "summary": "戴安娜·里德对《理智与情感》有更多话要说。乔治亚·奥克利 (Georgia Oakley) 的 2026 年改编版由黛西·埃德加·琼斯 (Daisy Edgar-Jones) 和埃斯梅·克里德·迈尔斯 (Esmé Creed-Miles) 主演，编剧是看着 1995 年版本长大的，从编剧和工作人员都...（来源：Variety·好莱坞影视）",
+            "id": "a4a82c80b395e0f17cf327649",
+            "title": "【全球票房】“周五之光”明星们为詹姆斯·塔拉里科的大嘴尝试赢得德克萨斯州参议院竞选胜利而上场",
+            "originalTitle": "‘Friday Night Lights’ Stars Hit The Field For James Talarico’s Smashmouth Attempt To Score Texas Senate Race Win",
+            "summary": "“是时候把一切都留在球场上了。”这就是《星期五之光》明星康妮·布里顿、杰西·普莱蒙和阿德琳妮·帕里奇向德克萨斯人传达的信息，为美国参议院候选人詹姆斯·塔拉里科做最后的努力……（来源：Deadline·全球票房与新片）",
             "source": {
-              "name": "Variety·好莱坞影视"
+              "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a2afcdc45ae90b118feb67fa1",
-              "original": "https://variety.com/2026/film/features/sense-and-sensibility-screenwriter-book-screen-jane-austen-1236916568/"
+              "aihot": "https://zenglian-news.onrender.com/items/a4a82c80b395e0f17cf327649",
+              "original": "https://deadline.com/2026/10/james-talaricos-friday-night-lights-ad-midterms-1237168179/"
             },
-            "publishedAt": "2026-10-19T19:34:29.000Z",
-            "discoveredAt": "2026-10-19T20:26:40.471Z",
+            "publishedAt": "2026-10-19T23:37:40.000Z",
+            "discoveredAt": "2026-10-19T23:54:25.243Z",
             "category": "culture",
             "score": 98,
             "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a2afcdc45ae90b118feb67fa1"
+              "url": "https://zenglian-news.onrender.com/items/a4a82c80b395e0f17cf327649"
+            }
+          },
+          {
+            "id": "a1d392426166fa1b4ed0fc105",
+            "title": "【全球票房】《镀金时代》：第四季 2 位配角未回归",
+            "originalTitle": "‘The Gilded Age’: 2 Supporting Characters Not Returning For Season 4",
+            "summary": "HBO 的古装剧《镀金时代》的演员阵容每一季都在扩大。由于需要服务的角色如此之多，有些角色将不再轮换。在第四季中，其中将包括乔治·拉塞尔（摩根·斯佩克特饰）的……（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a1d392426166fa1b4ed0fc105",
+              "original": "https://deadline.com/2026/10/the-gilded-age-characters-not-returning-season-4-1237168161/"
+            },
+            "publishedAt": "2026-10-19T23:36:29.000Z",
+            "discoveredAt": "2026-10-19T23:54:26.138Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a1d392426166fa1b4ed0fc105"
             }
           }
         ]
@@ -1087,26 +1087,49 @@
         "label": "🏆 体育实时Top20",
         "items": [
           {
-            "id": "a74750463637df085a1a080eb",
-            "title": "【欧洲足坛】托特纳姆热刺队对阵考文垂队：英超联赛——直播",
-            "originalTitle": "Tottenham v Coventry: Premier League – live",
-            "summary": "⚽ 英国夏令时晚上 8 点开球的实时更新 ⚽ 联系我们！与 Daniel 分享您的想法 游戏在哪里？马刺队将寻求主导控球权，由格雷和托纳利主导比赛，因此麦迪逊、库杜斯和马穆什可以……（来源：卫报体育·欧冠与五大联赛）",
+            "id": "a8069496715e06eae06c2d7ab",
+            "title": "【BBC足坛】麦迪逊为热刺创造的神奇时刻——酝酿 18 个月",
+            "originalTitle": "Maddison's magic moment for Spurs - 18 months in the making",
+            "summary": "菲尔·麦克纳尔蒂写道，詹姆斯·麦迪森自 2025 年 5 月以来首次首发，为热刺 3-1 战胜考文垂提供了他们等待的神奇时刻。（来源：BBC Sport·欧洲足坛）",
+            "source": {
+              "name": "BBC Sport·欧洲足坛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a8069496715e06eae06c2d7ab",
+              "original": "https://www.bbc.co.uk/sport/football/articles/cwz0v8le7y3eo?at_medium=RSS&at_campaign=rss"
+            },
+            "publishedAt": "2026-10-19T22:35:55.000Z",
+            "discoveredAt": "2026-10-19T23:54:32.969Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a8069496715e06eae06c2d7ab"
+            }
+          },
+          {
+            "id": "a8562b2b0023320bee8361c5d",
+            "title": "【欧洲足坛】戴维斯确保热刺在赛季首场战胜考文垂后摆脱垫底",
+            "originalTitle": "Davies ensures Spurs off the bottom after first win of season against Coventry",
+            "summary": "托特纳姆热刺队终于与碧昂斯持平。罗伯托·德泽尔比的球队取得了进步，自 2024 年 11 月以来，他们在英超联赛中仅获得了第六场主场胜利。愤世嫉俗者会指出，这座壮观的体育场......（来源：卫报体育·欧冠与五大联赛）",
             "source": {
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a74750463637df085a1a080eb",
-              "original": "https://www.theguardian.com/football/live/2026/oct/19/tottenham-v-coventry-premier-league-live"
+              "aihot": "https://zenglian-news.onrender.com/items/a8562b2b0023320bee8361c5d",
+              "original": "https://www.theguardian.com/football/2026/oct/19/tottenham-coventry-premier-league-match-report"
             },
-            "publishedAt": "2026-10-19T20:19:44.000Z",
-            "discoveredAt": "2026-10-19T20:27:01.476Z",
+            "publishedAt": "2026-10-19T21:05:46.000Z",
+            "discoveredAt": "2026-10-19T23:54:37.167Z",
             "category": "business",
             "score": 99,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a74750463637df085a1a080eb"
+              "url": "https://zenglian-news.onrender.com/items/a8562b2b0023320bee8361c5d"
             }
           },
           {
@@ -1133,49 +1156,26 @@
             }
           },
           {
-            "id": "a677159b747124bca37629c25",
-            "title": "【体坛快讯】2026世界网联世界网球巡回赛青少年年终总决赛抽签仪式举行",
-            "originalTitle": "2026世界网联世界网球巡回赛青少年年终总决赛抽签仪式举行",
-            "summary": "中新网成都10月19日电 (祝欢)19日，2026世界网联世界网球巡回赛青少年年终总决赛抽签仪式在成都举行。随着签位正式落定，男女单打小组赛对阵形势悉数揭晓。此次赛事是青少年网坛年终收官之战，来自全球的16名顶尖青少年网球选手齐聚蓉城，为冠军头衔展开激烈争夺。",
+            "id": "a700e2e71b39fe5fe7275484f",
+            "title": "【BBC足坛】谁入选了特洛伊本周英超最佳球队？",
+            "originalTitle": "Who has made Troy's Premier League team of the week?",
+            "summary": "本赛季每轮英超比赛结束后，特洛伊·迪尼都会向我们推荐他的本周最佳球队。你同意他的选择吗？（来源：BBC Sport·欧洲足坛）",
             "source": {
-              "name": "中新网·体育焦点"
+              "name": "BBC Sport·欧洲足坛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a677159b747124bca37629c25",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-19/10717479.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a700e2e71b39fe5fe7275484f",
+              "original": "https://www.bbc.co.uk/sport/football/articles/cqgm0zy4d23po?at_medium=RSS&at_campaign=rss"
             },
-            "publishedAt": "2026-10-19T14:01:42.000Z",
-            "discoveredAt": "2026-10-19T14:56:14.918Z",
+            "publishedAt": "2026-10-19T23:22:24.000Z",
+            "discoveredAt": "2026-10-19T23:54:34.335Z",
             "category": "business",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
+            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a677159b747124bca37629c25"
-            }
-          },
-          {
-            "id": "abb7c0af6241410b969fb867b",
-            "title": "【欧洲足坛】拜仁冲突迫在眉睫，孔萨看好阿森纳的欧冠希望",
-            "originalTitle": "Konsa bullish about Arsenal’s Champions League hopes as Bayern clash looms",
-            "summary": "中后卫已经在阿森纳安顿下来，并希望“赢得一切”，从他与哈里·凯恩的对决开始，对于埃兹里·孔萨来说，这只是一个非常令人满意的挑战。诺丁汉森林队前锋利亚姆...（来源：卫报体育·欧冠与五大联赛）",
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/abb7c0af6241410b969fb867b",
-              "original": "https://www.theguardian.com/football/2026/oct/19/ezri-konsa-arsenal-champions-league-bayern-munich"
-            },
-            "publishedAt": "2026-10-19T14:00:59.000Z",
-            "discoveredAt": "2026-10-19T14:56:24.550Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/abb7c0af6241410b969fb867b"
+              "url": "https://zenglian-news.onrender.com/items/a700e2e71b39fe5fe7275484f"
             }
           },
           {
@@ -1210,7 +1210,7 @@
     "key": "2026-10",
     "title": "曾练全球一手简报 · 月度产业全景报告 (2026年10月)",
     "subtitle": "30天六大实时Top20赛道全景洞察与高价值搞钱机会总结",
-    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：苹果预告下周 MacBook Pro 发布会；高速光模块组件订单排到2027年底，一片玻璃价值提升超60倍；当电影遇上AI：影视工业重塑“新质生产力”。",
+    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：高速光模块组件订单排到2027年底，一片玻璃价值提升超60倍；当电影遇上AI：影视工业重塑“新质生产力”；如果整个产品可以用 Claude 的一个周末来代替，我不会在 2026 年创办一家 SaaS 公司。。",
     "metrics": {
       "totalEvents": 36,
       "sourcesCount": 30,
@@ -1221,29 +1221,6 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
-          {
-            "id": "aac63779338b5da4e87f2035e",
-            "title": "【国际巨头】苹果预告下周 MacBook Pro 发布会",
-            "originalTitle": "Apple teases MacBook Pro event next week",
-            "summary": "Apple 已发出本月第二次产品发布会的邀请，发布会定于美国东部时间 10 月 28 日下午 1 点在洛杉矶举行。据彭博社报道，苹果将在此次活动中发布新款 Mac 和更新的 iPad Mini...（来源：The Verge·国际巨头）",
-            "source": {
-              "name": "The Verge·国际巨头"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aac63779338b5da4e87f2035e",
-              "original": "https://www.theverge.com/tech/1013028/apple-second-october-product-launch-announcement"
-            },
-            "publishedAt": "2026-10-19T16:04:29.000Z",
-            "discoveredAt": "2026-10-19T20:26:14.352Z",
-            "category": "global",
-            "score": 99,
-            "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aac63779338b5da4e87f2035e"
-            }
-          },
           {
             "id": "a8b27421bf41c8475a5f34159",
             "title": "【BBC全球】泽连斯基顾问告诉 BBC，乌克兰人因美国限制情报共享而死亡",
@@ -1268,26 +1245,72 @@
             }
           },
           {
-            "id": "afe3e1babd0bdb5cfeb425ac9",
-            "title": "【BBC全球】法院裁定加泰罗尼亚前叛乱总统可以返回西班牙",
-            "originalTitle": "Catalonia's former rebel president can return to Spain, court rules",
-            "summary": "法院维持了解除对卡尔斯·普伊格德蒙特 (Carles Puigdemont) 的逮捕令的决定，该逮捕令与他在 2017 年领导的独立运动有关。（来源：BBC News·全球要闻）",
+            "id": "ae14f9bc917bbbf98082e26fc",
+            "title": "【国际巨头】埃隆·马斯克提议的 SpaceX 股票赠品将进入“特朗普账户”",
+            "originalTitle": "Elon Musk’s proposed SpaceX stock giveaway would go into &#8216;Trump Accounts'",
+            "summary": "唐纳德·特朗普总统今天下午宣布，埃隆·马斯克 (Elon Musk) 的 SpaceX 儿童股份将通过特朗普账户发放。马斯克今天早些时候表示，他将把他的 SpaceX 股票之一捐赠给“美国的每个孩子……”（来源：The Verge·国际巨头）",
             "source": {
-              "name": "BBC News·全球要闻"
+              "name": "The Verge·国际巨头"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/afe3e1babd0bdb5cfeb425ac9",
-              "original": "https://www.bbc.co.uk/news/articles/cvp8gzg4e143o?at_medium=RSS&at_campaign=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/ae14f9bc917bbbf98082e26fc",
+              "original": "https://www.theverge.com/tech/1014115/elon-musk-spacex-trump-account"
             },
-            "publishedAt": "2026-10-19T14:06:53.000Z",
-            "discoveredAt": "2026-10-19T14:55:12.762Z",
+            "publishedAt": "2026-10-19T22:30:42.000Z",
+            "discoveredAt": "2026-10-19T23:53:53.305Z",
             "category": "global",
-            "score": 98,
+            "score": 97,
             "selected": true,
-            "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
+            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/afe3e1babd0bdb5cfeb425ac9"
+              "url": "https://zenglian-news.onrender.com/items/ae14f9bc917bbbf98082e26fc"
+            }
+          },
+          {
+            "id": "a2ed273ba1fc1530dbd3dc5d0",
+            "title": "【全球热榜】由于我没有 Microsoft 帐户，因此将 Linux 安装在我的 RTX Spark 笔记本电脑上",
+            "originalTitle": "Putting Linux on my RTX Spark laptop because I don't have a Microsoft account",
+            "summary": "X/HN·全球热榜Top实时快讯：Putting Linux on my RTX Spark laptop because I don't have a Microsoft account。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a2ed273ba1fc1530dbd3dc5d0",
+              "original": "https://josie.lol/blog/linux-rtx-spark"
+            },
+            "publishedAt": "2026-10-19T21:08:18.000Z",
+            "discoveredAt": "2026-10-19T23:53:51.552Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a2ed273ba1fc1530dbd3dc5d0"
+            }
+          },
+          {
+            "id": "a1fce8bb886de274a815df510",
+            "title": "【全球热榜】恢复工作将继续进行，直到士气提高为止",
+            "originalTitle": "The reverts will continue until morale improves",
+            "summary": "X/HN·全球热榜Top实时快讯：The reverts will continue until morale improves。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a1fce8bb886de274a815df510",
+              "original": "http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves"
+            },
+            "publishedAt": "2026-10-19T18:42:32.000Z",
+            "discoveredAt": "2026-10-19T23:53:52.048Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a1fce8bb886de274a815df510"
             }
           },
           {
@@ -1334,29 +1357,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ac555f00ccd056b4c27caf34a"
-            }
-          },
-          {
-            "id": "a9b3383789af2caecdd509f71",
-            "title": "【全球热榜】我不再关心任何 Ruby gems，所以我已经归档了我的所有存储库",
-            "originalTitle": "I no longer care to work on any Ruby gems so I've archived all my repositories",
-            "summary": "X/HN·全球热榜Top实时快讯：I no longer care to work on any Ruby gems so I've archived all my repositories。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9b3383789af2caecdd509f71",
-              "original": "https://po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository"
-            },
-            "publishedAt": "2026-10-19T16:37:10.000Z",
-            "discoveredAt": "2026-10-19T20:26:12.294Z",
-            "category": "global",
-            "score": 97,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9b3383789af2caecdd509f71"
             }
           }
         ]
@@ -1412,95 +1412,95 @@
             }
           },
           {
-            "id": "ac73bf4555a8587993410afe9",
-            "title": "苹果 watchOS 27.2 RC 发布",
-            "originalTitle": "苹果 watchOS 27.2 RC 发布",
-            "summary": "【 点此直达升级教程 】 IT之家 10 月 20 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.2 RC 更新（内部版本号：24S116），本次更新距离上次发布 Beta/RC 间隔 6 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？ • 公开测试版 ：需注册 Apple Beta 版软件计划 ，之后通过【设置】【通用】【软件更新】【Beta 版更新】来升...",
+            "id": "a67109774b3f29233bd407e25",
+            "title": "苹果首款折叠 iPhone Duo 供货现缓解信号：部分订单从 12 月提前至 10 月",
+            "originalTitle": "苹果首款折叠 iPhone Duo 供货现缓解信号：部分订单从 12 月提前至 10 月",
+            "summary": "IT之家 10 月 20 日消息，科技媒体 MacRumors 今天（10 月 20 日）发布博文， 报道称从部分用户晒出的订单交付日期来看，苹果已缓解首款折叠 iPhone Duo 供货压力。 IT之家此前报道，苹果首款折叠 iPhone Duo 首销火爆，10 月 16 日开启预购仅数小时，苹果官网年内可交付的货源便被抢购一空。苹果原本承诺在 10 月 23 日交付 iPhone Duo，但开放订购仅数小时， 官网预计交货时间便推迟...",
             "source": {
               "name": "IT之家·国内产业"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac73bf4555a8587993410afe9",
-              "original": "https://www.ithome.com/1/015/065.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a67109774b3f29233bd407e25",
+              "original": "https://www.ithome.com/1/015/076.htm"
             },
-            "publishedAt": "2026-10-19T18:35:06.000Z",
-            "discoveredAt": "2026-10-19T19:49:05.553Z",
+            "publishedAt": "2026-10-19T23:41:43.000Z",
+            "discoveredAt": "2026-10-19T23:54:02.106Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac73bf4555a8587993410afe9"
+              "url": "https://zenglian-news.onrender.com/items/a67109774b3f29233bd407e25"
             }
           },
           {
-            "id": "ae5ff13448f96c1ec91fa1bc9",
-            "title": "【国内要闻】泰国拟追加105.08亿泰铢洪灾救助资金",
-            "originalTitle": "泰国拟追加105.08亿泰铢洪灾救助资金",
-            "summary": "中新社曼谷10月20日电 (王茜 李映民)泰国防灾减灾厅19日表示，该厅计划20日提请内阁批准追加105.08亿泰铢洪灾救助资金，拟使用2027财年中央预算，预计惠及约148.14万户家庭。",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae5ff13448f96c1ec91fa1bc9",
-              "original": "https://www.chinanews.com.cn/gj/2026/10-20/10717543.shtml"
-            },
-            "publishedAt": "2026-10-19T17:37:54.000Z",
-            "discoveredAt": "2026-10-19T18:12:33.961Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae5ff13448f96c1ec91fa1bc9"
-            }
-          },
-          {
-            "id": "acf2a7e83fb9d834915a80f04",
-            "title": "苹果官宣北京时间 10 月 29 日举行特别活动，有望推出 OLED MacBook Pro / iPad mini 8 等机型",
-            "originalTitle": "苹果官宣北京时间 10 月 29 日举行特别活动，有望推出 OLED MacBook Pro / iPad mini 8 等机型",
-            "summary": "【00:15 更新】苹果已确认发布会时间，官方将于美国当地东部时间 10 月 28 日下午 1 时（北京时间 10 月 29 日凌晨 1:00）在美国洛杉矶举办本月第二场新品发布活动。 IT之家 10 月 20 日消息，苹果官方账号在小红书发文，透露“好多好消息，下周和你说”，暗示将于下周举行特别活动，届时将推出一系列新品，不过官方尚未公布具体时间信息。 IT之家注意到，此前有消息称苹果 大概率下周三正式发布一批新品 ，包含搭载 OLE...",
+            "id": "a6a1d4bb0947d36223cc461bf",
+            "title": "日本演员工会发布 AI 语音使用准则，龙珠悟空配音演员怒批 AI 盗用其声音",
+            "originalTitle": "日本演员工会发布 AI 语音使用准则，龙珠悟空配音演员怒批 AI 盗用其声音",
+            "summary": "IT之家 10 月 20 日消息，随着生成式 AI 给各行各业创作者带来越来越多的困扰，日本配音演员正在寻找属于自己的方式，抵制他人未经授权使用他们的声音。上周，代表日本配音演员的工会发布了一份 AI 使用相关准则，不少配音演员也讲述了这项技术给他们个人与职业带来的困境。 IT之家注意到，多年来，日本配音演员一直在抵制未经许可盗用自身声音的行为。2024 年，一批配音演员联合成立组织，抗议 AI 声音的滥用，他们特别指出，相关领域缺少版...",
             "source": {
               "name": "IT之家·国内产业"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/acf2a7e83fb9d834915a80f04",
-              "original": "https://www.ithome.com/1/015/054.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a6a1d4bb0947d36223cc461bf",
+              "original": "https://www.ithome.com/1/015/074.htm"
             },
-            "publishedAt": "2026-10-19T16:14:13.000Z",
-            "discoveredAt": "2026-10-19T17:06:14.748Z",
+            "publishedAt": "2026-10-19T23:39:30.000Z",
+            "discoveredAt": "2026-10-19T23:54:02.303Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/acf2a7e83fb9d834915a80f04"
+              "url": "https://zenglian-news.onrender.com/items/a6a1d4bb0947d36223cc461bf"
             }
           },
           {
-            "id": "a345d8a1f3d9f4e9e7d3b19d8",
-            "title": "【国内要闻】欧盟今年前9个月非法入境人次同比下降近三分之一",
-            "originalTitle": "欧盟今年前9个月非法入境人次同比下降近三分之一",
-            "summary": "中新社布鲁塞尔10月19日电 (记者 德永健)欧盟边境与海岸警卫局19日通报，由于中地中海一线、东地中海一线、西非一线等非法入境人次明显回落，今年前9个月欧盟非法入境人次较去年同期下降近三分之一。",
+            "id": "abfdeb611f4f3c5be01231e11",
+            "title": "【国内要闻】“双11”购物节上新 服务消费成亮点",
+            "originalTitle": "“双11”购物节上新 服务消费成亮点",
+            "summary": "“双11”购物节是观察消费市场变化的重要窗口。十月中旬以来，多家电商平台启动“双11”购物节的相关活动。中青报·中青网记者注意到，今年多家电商平台在规则上做减法，取消跨店满减和凑单机制，扩容服务消费品类、提升购物体验成为购物节亮点。",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a345d8a1f3d9f4e9e7d3b19d8",
-              "original": "https://www.chinanews.com.cn/gj/2026/10-19/10717538.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/abfdeb611f4f3c5be01231e11",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-20/10717561.shtml"
             },
-            "publishedAt": "2026-10-19T15:25:12.000Z",
-            "discoveredAt": "2026-10-19T17:06:07.490Z",
+            "publishedAt": "2026-10-19T23:36:53.000Z",
+            "discoveredAt": "2026-10-19T23:53:57.378Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a345d8a1f3d9f4e9e7d3b19d8"
+              "url": "https://zenglian-news.onrender.com/items/abfdeb611f4f3c5be01231e11"
+            }
+          },
+          {
+            "id": "a452dd172eda31ccd7954cf6c",
+            "title": "【国内要闻】点外卖、拍Vlog、喝咖啡……“新老人”的需求值得被看见",
+            "originalTitle": "点外卖、拍Vlog、喝咖啡……“新老人”的需求值得被看见",
+            "summary": "近几年，一群“很新的老人”正在刷新大众对老年人的固有印象：有人爱上点外卖、打卡“网红”奶茶店；有人一心扑在健身上，撸铁、跑步、练单杠，体能不输年轻人；还有人开始拍Vlog，在短视频平台圈粉无数，成为不少年轻人的“电子爷爷奶奶”……",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a452dd172eda31ccd7954cf6c",
+              "original": "https://www.chinanews.com.cn/sh/2026/10-20/10717562.shtml"
+            },
+            "publishedAt": "2026-10-19T23:36:53.000Z",
+            "discoveredAt": "2026-10-19T23:53:57.284Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a452dd172eda31ccd7954cf6c"
             }
           }
         ]
@@ -1533,26 +1533,95 @@
             }
           },
           {
-            "id": "ae4303634ac14cd5dd66345f5",
-            "title": "一分钟卖光的 iPhone Duo，把苹果产能短板摆上台面",
-            "originalTitle": "一分钟卖光的 iPhone Duo，把苹果产能短板摆上台面",
-            "summary": "本文来自微信公众号： 旧叔笔谈 ，作者：旧叔，原文标题：《一分钟卖光的 iPhone Duo，把苹果产能短板摆上台面》 10月16日晚8点，苹果在国内准时开启首款折叠屏手机iPhone Duo的预购。然而就在一分钟之后，这台新机就把苹果自己推到了一个不太好解释的位置。 从京东和天猫上的全型号库存一分钟内清空，到苹果官网和Apple Store的购买页面因瞬时访问量过大一度打不开，谁能正常买到iPhone Duo这件事，瞬间成为众多果粉十...",
+            "id": "a4a42fe3554aba26b8ef1679b",
+            "title": "【独立变现】Show HN：具有语音帮助的开源早期阅读阅读器",
+            "originalTitle": "Show HN: Open-source early-reading reader with phonics help",
+            "summary": "我的孩子六岁了，她正在学习阅读。她通过《教你的怪物阅读》学习了基本的自然拼读法，但一直在为它的重复性而苦苦挣扎。我想给她一些故事读，但她还是不...（来源：Show HN·独立变现榜）",
             "source": {
-              "name": "虎嗅网·商业搞钱深度"
+              "name": "Show HN·独立变现榜"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae4303634ac14cd5dd66345f5",
-              "original": "https://www.huxiu.com/article/4898756.html?f=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/a4a42fe3554aba26b8ef1679b",
+              "original": "https://github.com/finereli/yarareads"
             },
-            "publishedAt": "2026-10-19T14:40:38.000Z",
-            "discoveredAt": "2026-10-19T14:55:38.392Z",
+            "publishedAt": "2026-10-19T17:58:54.000Z",
+            "discoveredAt": "2026-10-19T23:54:03.651Z",
             "category": "money",
             "score": 99,
             "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae4303634ac14cd5dd66345f5"
+              "url": "https://zenglian-news.onrender.com/items/a4a42fe3554aba26b8ef1679b"
+            }
+          },
+          {
+            "id": "a214dd3328bc315d91a52216f",
+            "title": "【独立变现】Show HN：KiviDB，更快的 Redis 兼容内存数据库和向量缓存",
+            "originalTitle": "Show HN: KiviDB, a faster Redis-compatible memory database and vector cache",
+            "summary": "大家好，我从 2026 年 2 月开始致力于这个项目 KiviDB。它最初是一个让我了解 rust 的项目，拥有一个没有 GC 暂停、快照后内存爆炸以及运行时 OOM 的产品...（来源：Show HN·独立变现榜）",
+            "source": {
+              "name": "Show HN·独立变现榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a214dd3328bc315d91a52216f",
+              "original": "https://github.com/kividbio/kividb"
+            },
+            "publishedAt": "2026-10-19T13:53:52.000Z",
+            "discoveredAt": "2026-10-19T23:54:04.356Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a214dd3328bc315d91a52216f"
+            }
+          },
+          {
+            "id": "ae5a9814ac107a4f31863e436",
+            "title": "【独立变现】Show HN：我建立了一个任务系统来处理苦差事，这样我就可以专注于任务",
+            "originalTitle": "Show HN: I built a task system to handle the drudgery so I could focus on tasks",
+            "summary": "我是一名来自东海岸的软件工程师（曾住在纽约州波士顿、湾区、英国、法国），我构建了一个名为 3 & Done 的任务系统。这是您信任的存储您需要做的一切的地方。它接受语音...（来源：Show HN·独立变现榜）",
+            "source": {
+              "name": "Show HN·独立变现榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ae5a9814ac107a4f31863e436",
+              "original": "https://3anddoneapp.com/try"
+            },
+            "publishedAt": "2026-10-19T13:07:07.000Z",
+            "discoveredAt": "2026-10-19T23:54:05.048Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ae5a9814ac107a4f31863e436"
+            }
+          },
+          {
+            "id": "ae6f4b43ec8e12f0a458f56c4",
+            "title": "【独立变现】显示 HN：Qwen3-4B，AI 书写抽动训练完成",
+            "originalTitle": "Show HN: Qwen3-4B with the AI writing tics trained out",
+            "summary": "Show HN·独立变现榜实时快讯：Show HN: Qwen3-4B with the AI writing tics trained out。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
+            "source": {
+              "name": "Show HN·独立变现榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ae6f4b43ec8e12f0a458f56c4",
+              "original": "https://100toolkit.com/blog/deslop-model/"
+            },
+            "publishedAt": "2026-10-19T13:00:47.000Z",
+            "discoveredAt": "2026-10-19T23:54:05.562Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ae6f4b43ec8e12f0a458f56c4"
             }
           },
           {
@@ -1577,75 +1646,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a92574e1bdd236d8c314034bf"
             }
-          },
-          {
-            "id": "acb56d16c9541ef395de96bfc",
-            "title": "【出海实战】Anthropic 的估值为 2 万亿美元，而 35 家 SaaS 公司的估值为 9,480 亿美元，人工智能估值是否已失控？",
-            "originalTitle": "Anthropic at $2 Trillion vs. 35 SaaS Companies at $948 Billion Are AI Valuations Getting Out of Control?",
-            "summary": "生存一天比一天艰难。   由 /u/Ok_Force4354 提交 [链接] [评论]（来源：X/Reddit·出海SaaS搞钱）",
-            "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/acb56d16c9541ef395de96bfc",
-              "original": "https://www.reddit.com/r/SaaS/comments/1x9r326/anthropic_at_2_trillion_vs_35_saas_companies_at/"
-            },
-            "publishedAt": "2026-10-19T08:14:03.000Z",
-            "discoveredAt": "2026-10-19T14:55:33.135Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/acb56d16c9541ef395de96bfc"
-            }
-          },
-          {
-            "id": "ae05df80565b1d1dda7d613a9",
-            "title": "种草在内、成交在外，开环电商是配菜还是新路？｜ 出海参考",
-            "originalTitle": "种草在内、成交在外，开环电商是配菜还是新路？｜ 出海参考",
-            "summary": "（本文作者为 出海参考，钛媒体经授权发布） AI生成图片 亚马逊黑五网一的促销提报窗口即将在10月20日关闭。 对跨境卖家来说，这个日期很具体：旺季的促销方案和营销预算，必须赶在它之前定下来。关闭前两周，10月6日到7日，亚马逊秋季Prime大促在22个国家打了一场前哨战，是旺季前最后一次实战检验。 只是今年的钟拨得比往年更早。联盟营销平台PartnerBoost对出海参考表示，旺季还没真正开战，黑五的达人档期、种草内容、备货沟通，两三...",
-            "source": {
-              "name": "钛媒体·资本与风口"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae05df80565b1d1dda7d613a9",
-              "original": "https://www.tmtpost.com/8173893.html"
-            },
-            "publishedAt": "2026-10-19T13:01:04.000Z",
-            "discoveredAt": "2026-10-19T13:48:47.348Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae05df80565b1d1dda7d613a9"
-            }
-          },
-          {
-            "id": "adaecfbc2fd3164d8d9199a87",
-            "title": "【国内要闻】500余名骑手齐聚山西榆社 第十五届环云竹湖自行车公开赛开赛",
-            "originalTitle": "500余名骑手齐聚山西榆社 第十五届环云竹湖自行车公开赛开赛",
-            "summary": "中新网晋中10月19日电 (高雨晴 程煜媛)10月18日，2026穿越太行·生态榆社第十五届“易储杯”环云竹湖自行车公开赛(环三晋自行车联赛总决赛)在山西省榆社县云竹湖鸣枪开赛，500余名自行车运动爱好者齐聚湖畔竞速。",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/adaecfbc2fd3164d8d9199a87",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-19/10717181.shtml"
-            },
-            "publishedAt": "2026-10-19T07:17:08.000Z",
-            "discoveredAt": "2026-10-19T07:27:28.320Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/adaecfbc2fd3164d8d9199a87"
-            }
           }
         ]
       },
@@ -1653,6 +1653,75 @@
         "category": "tech",
         "label": "🤖 AI实时Top20",
         "items": [
+          {
+            "id": "a9f2792373a4f471e3833848f",
+            "title": "OpenAI拟融资300亿美元，估值或超1.4万亿美元",
+            "originalTitle": "OpenAI拟融资300亿美元，估值或超1.4万亿美元",
+            "summary": "10月20日，据报道，OpenAI正加快推进一轮约300亿美元的融资，目标估值可能超过1.4万亿美元，并希望赶在竞争对手Anthropic预计于11月中旬上市前获得投资者承诺。软银集团、阿布扎比投资机构MGX及其他现有投资者正洽谈参与本轮融资。OpenAI向投资者表示，其年化营收在推出GPT-6 Astra模型后加速增长，目前已达500亿美元，预计年底升至700亿美元。公司希望在Anthropic披露更多财务信息、引发投资者进一步比较之...",
+            "source": {
+              "name": "界面新闻·国内政经"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a9f2792373a4f471e3833848f",
+              "original": "https://www.jiemian.com/article/15209548.html"
+            },
+            "publishedAt": "2026-10-19T23:42:14.000Z",
+            "discoveredAt": "2026-10-19T23:53:58.970Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a9f2792373a4f471e3833848f"
+            }
+          },
+          {
+            "id": "a2d0ed2f1f25c83cb8d614f2a",
+            "title": "【硅谷AI】Hugging Face 的政策负责人表示，嵌入式人工智能评估器不会是一个简单的解决方案",
+            "originalTitle": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+            "summary": "人工智能实验室将自己的声誉押在模型基准测试上，这是一种中立且准确的评估系统，旨在衡量一种人工智能产品是否比另一种更好。然而，这些方法...（来源：TechCrunch·硅谷AI）",
+            "source": {
+              "name": "TechCrunch·硅谷AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a2d0ed2f1f25c83cb8d614f2a",
+              "original": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/"
+            },
+            "publishedAt": "2026-10-19T22:49:27.000Z",
+            "discoveredAt": "2026-10-19T23:54:18.437Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a2d0ed2f1f25c83cb8d614f2a"
+            }
+          },
+          {
+            "id": "a02117e0abd69f6acd2fa5856",
+            "title": "【硅谷AI】微软表示人工智能代理就像内部威胁，因为“前沿模型不可信”",
+            "originalTitle": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+            "summary": "微软希望企业密切关注员工在不受 OpenAI 和 Anthropic 等人工智能实验室控制的系统中使用的代理。（来源：TechCrunch·硅谷AI）",
+            "source": {
+              "name": "TechCrunch·硅谷AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a02117e0abd69f6acd2fa5856",
+              "original": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/"
+            },
+            "publishedAt": "2026-10-19T22:04:28.000Z",
+            "discoveredAt": "2026-10-19T23:54:18.922Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a02117e0abd69f6acd2fa5856"
+            }
+          },
           {
             "id": "a20759ad1465b9cc9c7b419bc",
             "title": "【硅谷AI】亚马逊通过新的 TorchNeuron 开发工具向 Nvidia 发起了迄今为止最大的攻击",
@@ -1700,29 +1769,6 @@
             }
           },
           {
-            "id": "a53fa9dc6d17611fc72dd644c",
-            "title": "【硅谷AI】Replika 的创始人开发了她 12 年前在 Disrupt 上推销的人工智能助手",
-            "originalTitle": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
-            "summary": "Eugenia Kuyda 最新的初创公司 Wabi 定位于利用她十多年前的想法。 Wabi 提供了一款独特的个人人工智能助手，现在任何人都可以免费下载。（来源：TechCrunch·硅谷AI）",
-            "source": {
-              "name": "TechCrunch·硅谷AI"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a53fa9dc6d17611fc72dd644c",
-              "original": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/"
-            },
-            "publishedAt": "2026-10-19T18:49:04.000Z",
-            "discoveredAt": "2026-10-19T20:26:36.813Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a53fa9dc6d17611fc72dd644c"
-            }
-          },
-          {
             "id": "a5559b231bd95e518465ef56a",
             "title": "【MIT·AI】为人工智能代理提供更好的互联网可能会让其他人的情况变得更糟",
             "originalTitle": "Making the internet better for AI agents might make it worse for everyone else",
@@ -1744,52 +1790,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a5559b231bd95e518465ef56a"
             }
-          },
-          {
-            "id": "ad9883fe2f467b5009e17d004",
-            "title": "【MIT·AI】“我们的看法是错误的”：颠覆人工智能世界的爆炸性主张",
-            "originalTitle": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
-            "summary": "“我想我有关于神经网络本质的好消息。”人工智能初创公司 Goodfire 的研究员尼克·卡马拉塔 (Nick Cammarata) 凭借这些简单的乐观话语，开始了一篇 26,000 字的博文，震惊了人工智能世界……（来源：MIT科技评论·AI突破）",
-            "source": {
-              "name": "MIT科技评论·AI突破"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad9883fe2f467b5009e17d004",
-              "original": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/"
-            },
-            "publishedAt": "2026-10-19T17:45:55.000Z",
-            "discoveredAt": "2026-10-19T20:26:34.020Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "麻省理工科技评论权威AI报道，洞察下一代人工智能底层突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad9883fe2f467b5009e17d004"
-            }
-          },
-          {
-            "id": "a53132103e69caa6ad0892514",
-            "title": "纽交所正式延长部分期权交易时段，涉及英伟达、苹果等",
-            "originalTitle": "纽交所正式延长部分期权交易时段，涉及英伟达、苹果等",
-            "summary": "当地时间10月19日，纽约证券交易所（NYSE）正式推出NYSE American Options延长交易时段，使市场参与者能够更便捷地交易在NYSE American上市的期权。首批纳入的标的包括挂钩SPY、IWM、GLD等宏观主题ETF的期权，以及覆盖苹果、微软、英伟达、Alphabet、亚马逊、甲骨文等大盘科技股的期权。新的早盘交易时段为美国东部时间上午7:30至9:25，新的晚盘交易时段为美国东部时间下午4:00至4:15。",
-            "source": {
-              "name": "界面新闻·国内政经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a53132103e69caa6ad0892514",
-              "original": "https://www.jiemian.com/article/15209026.html"
-            },
-            "publishedAt": "2026-10-19T14:33:29.000Z",
-            "discoveredAt": "2026-10-19T14:58:08.155Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a53132103e69caa6ad0892514"
-            }
           }
         ]
       },
@@ -1798,141 +1798,141 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "a30141a65c76bd8b4065c9c80",
-            "title": "【全球票房】切尔西·萨梅 (Chelsey Summey) 辞去华纳兄弟传播主管一职",
-            "originalTitle": "Chelsey Summey Departs As Warner Bros Head of Communications",
-            "summary": "独家报道：随着派拉蒙收购华纳兄弟，预计本周晚些时候会有更多人退出，我们听说后者的传播主管切尔西·萨梅 (Chelsey Summey) 已离开加利福尼亚州伯班克的地段。 Summey 最初加入华纳兄弟时担任...（来源：Deadline·全球票房与新片）",
+            "id": "af8678565950c0ad04f505bef",
+            "title": "【好莱坞一手】《你可以看到一切》为奥斯卡最佳影片、女配角和更多类别的竞选奠定了基础",
+            "originalTitle": "‘You Can See Everything’ Sets Oscar Campaigns for Best Picture, Supporting Actress and More Categories",
+            "summary": "剧透警告：本文包含正在影院上映的《你可以看到一切》的主要剧透。 《你可以看到一切》可能会改写奥斯卡季的规则。内森·菲尔德 (Nathan Fielder) 和兰斯·奥本海姆 (Lance Oppenheim) 的 A24 纪录片...（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/af8678565950c0ad04f505bef",
+              "original": "https://variety.com/2026/film/awards/you-can-see-everything-oscars-eligibility-awards-1236916699/"
+            },
+            "publishedAt": "2026-10-19T23:20:05.000Z",
+            "discoveredAt": "2026-10-19T23:54:20.522Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/af8678565950c0ad04f505bef"
+            }
+          },
+          {
+            "id": "a16769c114cc479323fe691ca",
+            "title": "【全球票房】财报季拉开帷幕 Netflix 面临焦虑的华尔街",
+            "originalTitle": "Netflix Faces Anxious Wall Street As Earnings Season Kicks Off",
+            "summary": "Netflix 高管层的一系列变动（彼得·赖斯 (Peter Rice) 上任、贝拉·巴贾里亚 (Bela Bajaria) 等人离职）以及 2022 年以来最大规模的裁员，正在让该公司走上一条新道路 — — 但走向何方？这就是华尔街的问题……（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a30141a65c76bd8b4065c9c80",
-              "original": "https://deadline.com/2026/10/warner-bros-chelsey-summey-exits-1237167937/"
+              "aihot": "https://zenglian-news.onrender.com/items/a16769c114cc479323fe691ca",
+              "original": "https://deadline.com/2026/10/netflix-earnings-layoffs-future-1237167505/"
             },
-            "publishedAt": "2026-10-19T20:03:25.000Z",
-            "discoveredAt": "2026-10-19T20:26:44.916Z",
+            "publishedAt": "2026-10-19T22:45:00.000Z",
+            "discoveredAt": "2026-10-19T23:54:29.559Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a30141a65c76bd8b4065c9c80"
+              "url": "https://zenglian-news.onrender.com/items/a16769c114cc479323fe691ca"
             }
           },
           {
-            "id": "a7e73ae5bbf24936c82fcdec0",
-            "title": "【好莱坞一手】克里斯·鲍尔斯 (Kris Bowers) 将为迪士尼动画电影《Hexed》创作原创配乐（独家）",
-            "originalTitle": "Kris Bowers Set to Compose Original Score For Disney’s Animated Feature ‘Hexed’ (EXCLUSIVE)",
-            "summary": "奥斯卡金像奖获奖作曲家克里斯·鲍尔斯将为即将上映的迪士尼动画长片《Hexed》创作音乐。这部电影由海莉·斯坦菲尔德、拉什达·琼斯、朱迪·福斯特和沃尔顿·戈金斯主演，以神奇的方式登场……（来源：Variety·好莱坞影视）",
+            "id": "aa3a8557b740f1d9ba72af55d",
+            "title": "【好莱坞一手】迈克尔·道格拉斯表示漫威在要求工作室杀死“蚁人”角色后“不会让我”退出",
+            "originalTitle": "Michael Douglas Says Marvel ‘Wouldn’t Let Me’ Quit After Asking Studio for ‘Ant-Man’ Character to Be Killed Off",
+            "summary": "在两部漫威电影之后，迈克尔·道格拉斯扮演汉克·皮姆（原蚁人）的角色达到了极限，但当他要求杀死这个角色时，工作室拒绝满足他的愿望。奥斯卡奖得主被问到...（来源：Variety·好莱坞影视）",
             "source": {
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7e73ae5bbf24936c82fcdec0",
-              "original": "https://variety.com/2026/artisans/news/kris-bowers-composer-original-score-hexed-disney-1236916751/"
+              "aihot": "https://zenglian-news.onrender.com/items/aa3a8557b740f1d9ba72af55d",
+              "original": "https://variety.com/2026/film/news/michael-douglas-marvel-quit-killed-off-1236916599/"
             },
-            "publishedAt": "2026-10-19T19:48:06.000Z",
-            "discoveredAt": "2026-10-19T20:26:38.661Z",
+            "publishedAt": "2026-10-19T21:10:07.000Z",
+            "discoveredAt": "2026-10-19T23:54:23.990Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7e73ae5bbf24936c82fcdec0"
+              "url": "https://zenglian-news.onrender.com/items/aa3a8557b740f1d9ba72af55d"
             }
           },
           {
-            "id": "aab092e251988c04a7eae4880",
-            "title": "【全球票房】我们可以看到 A24 的热门纪录片《你可以看到一切》获得奥斯卡的可能性——其中包括表演类别",
-            "originalTitle": "We Can See Oscar Possibilities For A24’s Hit Documentary ‘You Can See Everything’ – And That Includes An Acting Category",
-            "summary": "剧透警告：以下文章包含有关 A24 纪录片《你可以看到一切》中的故事情节和角色/演员的详细信息。自从它在特柳赖德电影节上进行一次超级秘密的放映以来......（来源：Deadline·全球票房与新片）",
+            "id": "a4a82c80b395e0f17cf327649",
+            "title": "【全球票房】“周五之光”明星们为詹姆斯·塔拉里科的大嘴尝试赢得德克萨斯州参议院竞选胜利而上场",
+            "originalTitle": "‘Friday Night Lights’ Stars Hit The Field For James Talarico’s Smashmouth Attempt To Score Texas Senate Race Win",
+            "summary": "“是时候把一切都留在球场上了。”这就是《星期五之光》明星康妮·布里顿、杰西·普莱蒙和阿德琳妮·帕里奇向德克萨斯人传达的信息，为美国参议院候选人詹姆斯·塔拉里科做最后的努力……（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aab092e251988c04a7eae4880",
-              "original": "https://deadline.com/2026/10/you-can-see-everything-oscar-chances-1237167671/"
+              "aihot": "https://zenglian-news.onrender.com/items/a4a82c80b395e0f17cf327649",
+              "original": "https://deadline.com/2026/10/james-talaricos-friday-night-lights-ad-midterms-1237168179/"
             },
-            "publishedAt": "2026-10-19T19:31:36.000Z",
-            "discoveredAt": "2026-10-19T20:26:46.162Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aab092e251988c04a7eae4880"
-            }
-          },
-          {
-            "id": "aa09c4b5e716a1ed1224b9240",
-            "title": "【好莱坞一手】格温妮丝·帕特洛 (Gwyneth Paltrow) 在 Netflix 的 A24 剧集《道歉》中首次担任主角",
-            "originalTitle": "Gwyneth Paltrow Sets First Lead TV Role in A24 Drama ‘The Apology’ at Netflix",
-            "summary": "格温妮丝·帕特洛 (Gwyneth Paltrow) 在即将上映的 A24 剧集《道歉》中首次担任主角，该剧已在 Netflix 获得了两季的订单。这位奥斯卡奖得主将饰演伊芙琳·安斯佩克 (Evelyn Amspoker)，她的儿子是...（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa09c4b5e716a1ed1224b9240",
-              "original": "https://variety.com/2026/tv/news/gwyneth-paltrow-a24-the-apology-first-lead-tv-role-1236916711/"
-            },
-            "publishedAt": "2026-10-19T18:46:48.000Z",
-            "discoveredAt": "2026-10-19T20:26:43.690Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa09c4b5e716a1ed1224b9240"
-            }
-          },
-          {
-            "id": "a2afcdc45ae90b118feb67fa1",
-            "title": "【好莱坞一手】《理智与情感》编剧谈从书到银幕的变化以及简·奥斯汀为何如此适应：“她几乎就像莎士比亚”",
-            "originalTitle": "‘Sense and Sensibility’ Screenwriter on Book-to-Screen Changes and Why Jane Austen Is So Adaptable: ‘She’s Almost Like Shakespeare’",
-            "summary": "戴安娜·里德对《理智与情感》有更多话要说。乔治亚·奥克利 (Georgia Oakley) 的 2026 年改编版由黛西·埃德加·琼斯 (Daisy Edgar-Jones) 和埃斯梅·克里德·迈尔斯 (Esmé Creed-Miles) 主演，编剧是看着 1995 年版本长大的，从编剧和工作人员都...（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a2afcdc45ae90b118feb67fa1",
-              "original": "https://variety.com/2026/film/features/sense-and-sensibility-screenwriter-book-screen-jane-austen-1236916568/"
-            },
-            "publishedAt": "2026-10-19T19:34:29.000Z",
-            "discoveredAt": "2026-10-19T20:26:40.471Z",
-            "category": "culture",
-            "score": 98,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a2afcdc45ae90b118feb67fa1"
-            }
-          },
-          {
-            "id": "a0d17e75ed0aeed3407b74fcb",
-            "title": "【全球票房】哈里森·哈维晋升为 IAG 经纪人",
-            "originalTitle": "Harrison Harvey Promoted To Agent At IAG",
-            "summary": "独家报道：独立艺术家集团已将哈里森·哈维提升为人才经纪人。哈里森已经在首席执行官吉姆·奥斯本 (Jim Osborne) 的办公桌上工作了两年，为他的客户名单做出了宝贵的贡献，并发挥了越来越大的作用……（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a0d17e75ed0aeed3407b74fcb",
-              "original": "https://deadline.com/2026/10/harrison-harvey-promoted-iag-1237167971/"
-            },
-            "publishedAt": "2026-10-19T19:22:45.000Z",
-            "discoveredAt": "2026-10-19T20:26:47.685Z",
+            "publishedAt": "2026-10-19T23:37:40.000Z",
+            "discoveredAt": "2026-10-19T23:54:25.243Z",
             "category": "culture",
             "score": 98,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a0d17e75ed0aeed3407b74fcb"
+              "url": "https://zenglian-news.onrender.com/items/a4a82c80b395e0f17cf327649"
+            }
+          },
+          {
+            "id": "a1d392426166fa1b4ed0fc105",
+            "title": "【全球票房】《镀金时代》：第四季 2 位配角未回归",
+            "originalTitle": "‘The Gilded Age’: 2 Supporting Characters Not Returning For Season 4",
+            "summary": "HBO 的古装剧《镀金时代》的演员阵容每一季都在扩大。由于需要服务的角色如此之多，有些角色将不再轮换。在第四季中，其中将包括乔治·拉塞尔（摩根·斯佩克特饰）的……（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a1d392426166fa1b4ed0fc105",
+              "original": "https://deadline.com/2026/10/the-gilded-age-characters-not-returning-season-4-1237168161/"
+            },
+            "publishedAt": "2026-10-19T23:36:29.000Z",
+            "discoveredAt": "2026-10-19T23:54:26.138Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a1d392426166fa1b4ed0fc105"
+            }
+          },
+          {
+            "id": "ae0b75faf047241459609c85b",
+            "title": "【全球票房】福克斯公司 (Fox Corp.) 提拔尼古拉斯·特鲁塔尼奇 (Nicholas Trutanich) 担任总法律顾问，亚当·奇翁戈利 (Adam Ciongoli) 退出最高法律职位",
+            "originalTitle": "Fox Corp. Promotes Nicholas Trutanich To General Counsel As Adam Ciongoli Sets Exit From Top Legal Role",
+            "summary": "在法律部门高层离职三年后，福克斯公司将高级管理人员尼古拉斯·特鲁塔尼奇 (Nicholas Trutanich) 提升为总法律顾问。 Adam Ciongoli，前金宝汤公司高管，加入福克斯担任首席法律和政治...（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ae0b75faf047241459609c85b",
+              "original": "https://deadline.com/2026/10/fox-corp-promotes-nicholas-trutanich-to-chief-counsel-1237168198/"
+            },
+            "publishedAt": "2026-10-19T23:13:08.000Z",
+            "discoveredAt": "2026-10-19T23:54:26.951Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ae0b75faf047241459609c85b"
             }
           }
         ]
@@ -1942,26 +1942,49 @@
         "label": "🏆 体育实时Top20",
         "items": [
           {
-            "id": "a74750463637df085a1a080eb",
-            "title": "【欧洲足坛】托特纳姆热刺队对阵考文垂队：英超联赛——直播",
-            "originalTitle": "Tottenham v Coventry: Premier League – live",
-            "summary": "⚽ 英国夏令时晚上 8 点开球的实时更新 ⚽ 联系我们！与 Daniel 分享您的想法 游戏在哪里？马刺队将寻求主导控球权，由格雷和托纳利主导比赛，因此麦迪逊、库杜斯和马穆什可以……（来源：卫报体育·欧冠与五大联赛）",
+            "id": "a8069496715e06eae06c2d7ab",
+            "title": "【BBC足坛】麦迪逊为热刺创造的神奇时刻——酝酿 18 个月",
+            "originalTitle": "Maddison's magic moment for Spurs - 18 months in the making",
+            "summary": "菲尔·麦克纳尔蒂写道，詹姆斯·麦迪森自 2025 年 5 月以来首次首发，为热刺 3-1 战胜考文垂提供了他们等待的神奇时刻。（来源：BBC Sport·欧洲足坛）",
+            "source": {
+              "name": "BBC Sport·欧洲足坛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a8069496715e06eae06c2d7ab",
+              "original": "https://www.bbc.co.uk/sport/football/articles/cwz0v8le7y3eo?at_medium=RSS&at_campaign=rss"
+            },
+            "publishedAt": "2026-10-19T22:35:55.000Z",
+            "discoveredAt": "2026-10-19T23:54:32.969Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a8069496715e06eae06c2d7ab"
+            }
+          },
+          {
+            "id": "a8562b2b0023320bee8361c5d",
+            "title": "【欧洲足坛】戴维斯确保热刺在赛季首场战胜考文垂后摆脱垫底",
+            "originalTitle": "Davies ensures Spurs off the bottom after first win of season against Coventry",
+            "summary": "托特纳姆热刺队终于与碧昂斯持平。罗伯托·德泽尔比的球队取得了进步，自 2024 年 11 月以来，他们在英超联赛中仅获得了第六场主场胜利。愤世嫉俗者会指出，这座壮观的体育场......（来源：卫报体育·欧冠与五大联赛）",
             "source": {
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a74750463637df085a1a080eb",
-              "original": "https://www.theguardian.com/football/live/2026/oct/19/tottenham-v-coventry-premier-league-live"
+              "aihot": "https://zenglian-news.onrender.com/items/a8562b2b0023320bee8361c5d",
+              "original": "https://www.theguardian.com/football/2026/oct/19/tottenham-coventry-premier-league-match-report"
             },
-            "publishedAt": "2026-10-19T20:19:44.000Z",
-            "discoveredAt": "2026-10-19T20:27:01.476Z",
+            "publishedAt": "2026-10-19T21:05:46.000Z",
+            "discoveredAt": "2026-10-19T23:54:37.167Z",
             "category": "business",
             "score": 99,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a74750463637df085a1a080eb"
+              "url": "https://zenglian-news.onrender.com/items/a8562b2b0023320bee8361c5d"
             }
           },
           {
@@ -1988,49 +2011,26 @@
             }
           },
           {
-            "id": "a677159b747124bca37629c25",
-            "title": "【体坛快讯】2026世界网联世界网球巡回赛青少年年终总决赛抽签仪式举行",
-            "originalTitle": "2026世界网联世界网球巡回赛青少年年终总决赛抽签仪式举行",
-            "summary": "中新网成都10月19日电 (祝欢)19日，2026世界网联世界网球巡回赛青少年年终总决赛抽签仪式在成都举行。随着签位正式落定，男女单打小组赛对阵形势悉数揭晓。此次赛事是青少年网坛年终收官之战，来自全球的16名顶尖青少年网球选手齐聚蓉城，为冠军头衔展开激烈争夺。",
+            "id": "a700e2e71b39fe5fe7275484f",
+            "title": "【BBC足坛】谁入选了特洛伊本周英超最佳球队？",
+            "originalTitle": "Who has made Troy's Premier League team of the week?",
+            "summary": "本赛季每轮英超比赛结束后，特洛伊·迪尼都会向我们推荐他的本周最佳球队。你同意他的选择吗？（来源：BBC Sport·欧洲足坛）",
             "source": {
-              "name": "中新网·体育焦点"
+              "name": "BBC Sport·欧洲足坛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a677159b747124bca37629c25",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-19/10717479.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a700e2e71b39fe5fe7275484f",
+              "original": "https://www.bbc.co.uk/sport/football/articles/cqgm0zy4d23po?at_medium=RSS&at_campaign=rss"
             },
-            "publishedAt": "2026-10-19T14:01:42.000Z",
-            "discoveredAt": "2026-10-19T14:56:14.918Z",
+            "publishedAt": "2026-10-19T23:22:24.000Z",
+            "discoveredAt": "2026-10-19T23:54:34.335Z",
             "category": "business",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
+            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a677159b747124bca37629c25"
-            }
-          },
-          {
-            "id": "abb7c0af6241410b969fb867b",
-            "title": "【欧洲足坛】拜仁冲突迫在眉睫，孔萨看好阿森纳的欧冠希望",
-            "originalTitle": "Konsa bullish about Arsenal’s Champions League hopes as Bayern clash looms",
-            "summary": "中后卫已经在阿森纳安顿下来，并希望“赢得一切”，从他与哈里·凯恩的对决开始，对于埃兹里·孔萨来说，这只是一个非常令人满意的挑战。诺丁汉森林队前锋利亚姆...（来源：卫报体育·欧冠与五大联赛）",
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/abb7c0af6241410b969fb867b",
-              "original": "https://www.theguardian.com/football/2026/oct/19/ezri-konsa-arsenal-champions-league-bayern-munich"
-            },
-            "publishedAt": "2026-10-19T14:00:59.000Z",
-            "discoveredAt": "2026-10-19T14:56:24.550Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/abb7c0af6241410b969fb867b"
+              "url": "https://zenglian-news.onrender.com/items/a700e2e71b39fe5fe7275484f"
             }
           },
           {
