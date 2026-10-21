@@ -10,6 +10,305 @@
   },
   "items": [
     {
+      "id": "abcd480024138b4063ee1f00e",
+      "title": "[分享创造] RUST+ GPUI 海量图片管理",
+      "originalTitle": "[分享创造] RUST+ GPUI 海量图片管理",
+      "summary": "失业在家 做了一个图片管理的 以前旅游和朋友照片 4W+一直没好用的工具整理.自己做了一个工具整理 2 个主要功能 高性能本地管理 正常 API 生图 RUST+ GPUI 海量图片滚动流畅，浏览和整理都不改动原图。 本地大模型索引查找 自己测试了 50w 图片浏览很丝滑流畅 一句话找图、识别图中文字、按人脸找人、相近图片自动归组，还能并排精细对比。模型都在本机运行，图片不上传。 正常 API 生图 做了一下电商场景 推荐：大龄失业!!...",
+      "source": {
+        "name": "V2EX·独立开发与副业"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/abcd480024138b4063ee1f00e",
+        "original": "https://www.v2ex.com/t/1250762#reply0"
+      },
+      "publishedAt": "2026-10-21T15:04:09.000Z",
+      "discoveredAt": "2026-10-21T15:18:20.564Z",
+      "category": "money",
+      "score": 92,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/abcd480024138b4063ee1f00e"
+      }
+    },
+    {
+      "id": "a7da1e6d3ed1e3ba6ca97b437",
+      "title": "[分享创造] 做了个美国混凝土用量与造价计算器，想请教下这类工具的数据可信度怎么做",
+      "originalTitle": "[分享创造] 做了个美国混凝土用量与造价计算器，想请教下这类工具的数据可信度怎么做",
+      "summary": "先说清楚：这是我自己的站，来求反馈的，不是来搬链接的。 背景：美国那边业主弄车库地面、门廊、车道，最常搜的是 \"concrete cost per yard\" 这类词。但搜出来基本两种——大站给一个全国区间，或者本地搅拌 站的营销页。真正让人卡住的其实不是单价，是短量费、运距加价，以及\"到底 要几方\"。 所以我做了个工具，分两块： - 用量计算：按尺寸厚度算方量，支持多块区域 - 造价估算：按都会区给单价区间，把短量费、运距、人工拆开算...",
+      "source": {
+        "name": "V2EX·独立开发与副业"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a7da1e6d3ed1e3ba6ca97b437",
+        "original": "https://www.v2ex.com/t/1250761#reply0"
+      },
+      "publishedAt": "2026-10-21T15:03:17.000Z",
+      "discoveredAt": "2026-10-21T15:18:20.778Z",
+      "category": "money",
+      "score": 91,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a7da1e6d3ed1e3ba6ca97b437"
+      }
+    },
+    {
+      "id": "a5c9421b5f66fc557224d446c",
+      "title": "印度劳动力全球外溢，究竟是红利还是祸害？",
+      "originalTitle": "印度劳动力全球外溢，究竟是红利还是祸害？",
+      "summary": "本文来自微信公众号： 南亚研究通讯 ，作者：特杰·帕里克，编译：李一鸣，原文标题：《编译｜印度劳动力全球外溢，究竟是红利还是祸害？》 编者按 近年来，大量印度人赴海外就业，莫迪政府也将劳动力流动安排纳入双边贸易谈判，推动印度人进入“全球职场”。在国内优质岗位不足、劳动力持续增长的背景下，向海外输出劳动力，能否帮助印度兑现人口红利？《金融时报》作者特杰·帕里克指出，海外就业能够缓解印度的就业压力，却难以从根本上解决国内岗位不足的问题。发达...",
+      "source": {
+        "name": "虎嗅网·商业搞钱深度"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a5c9421b5f66fc557224d446c",
+        "original": "https://www.huxiu.com/article/4899394.html?f=rss"
+      },
+      "publishedAt": "2026-10-21T14:52:12.000Z",
+      "discoveredAt": "2026-10-21T15:18:15.805Z",
+      "category": "money",
+      "score": 95,
+      "selected": true,
+      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a5c9421b5f66fc557224d446c"
+      }
+    },
+    {
+      "id": "ae0a9d49b03e9410946980ffc",
+      "title": "[PHP] 截止到发帖时, Docker hub 的 PHP 官方镜像还未发布 PHP 8.5.12 😂",
+      "originalTitle": "[PHP] 截止到发帖时, Docker hub 的 PHP 官方镜像还未发布 PHP 8.5.12 😂",
+      "summary": "V2EX·独立开发与副业实时快讯：[PHP] 截止到发帖时, Docker hub 的 PHP 官方镜像还未发布 PHP 8.5.12 😂。经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "source": {
+        "name": "V2EX·独立开发与副业"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/ae0a9d49b03e9410946980ffc",
+        "original": "https://www.v2ex.com/t/1250759#reply4"
+      },
+      "publishedAt": "2026-10-21T14:51:18.000Z",
+      "discoveredAt": "2026-10-21T15:18:20.995Z",
+      "category": "money",
+      "score": 97,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/ae0a9d49b03e9410946980ffc"
+      }
+    },
+    {
+      "id": "aa2b785e4bd7264058092c670",
+      "title": "旺季无战事，快递巨头开始各走各的路",
+      "originalTitle": "旺季无战事，快递巨头开始各走各的路",
+      "summary": "本文来自微信公众号： 驿站 ，作者：驿站老鬼 旺季的“旺”，不需要靠几次大促带来的“大力出奇迹”，平常心对待，才是真本事。 2026.10.21 一年一度的双11大战，又全面打响了。 还是熟悉的配方，各大电商平台纷纷开启预售，或者直接现货销售，一波接着一波，谁都想先下手为强，不可谓不热闹。但整体来看，尽管各大电商平台很卖力的促销，不仅弱化“预售”，简化玩法，还强调“立减”，与往年比，今年双11的惊喜依旧不多，没有太多好消息。 还有熟悉的...",
+      "source": {
+        "name": "虎嗅网·商业搞钱深度"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/aa2b785e4bd7264058092c670",
+        "original": "https://www.huxiu.com/article/4899390.html?f=rss"
+      },
+      "publishedAt": "2026-10-21T14:29:03.000Z",
+      "discoveredAt": "2026-10-21T15:18:16.021Z",
+      "category": "money",
+      "score": 95,
+      "selected": true,
+      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/aa2b785e4bd7264058092c670"
+      }
+    },
+    {
+      "id": "afe3c0ea814ac0c8be696a0c6",
+      "title": "航空第十城易主，这次在西北",
+      "originalTitle": "航空第十城易主，这次在西北",
+      "summary": "本文来自微信公众号： 城市进化论 ，作者：程晓玲 中国航空第十城，再次易主。 据CADAS交通大数据，2026年前三季度，乌鲁木齐机场完成旅客吞吐量2423.2万人次，同比增长7.7%，一举反超南京机场，跻身全国城市前十。 此前多年，这一席位曾长期在南京、武汉、长沙等东部和中部城市间轮流切换。这一次，为什么是乌鲁木齐？ 回看2025年，南京凭借3137.8万人次吞吐量拿下“第十城”，乌鲁木齐则位列全国城市第15位，与南京相差近220万人...",
+      "source": {
+        "name": "虎嗅网·商业搞钱深度"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/afe3c0ea814ac0c8be696a0c6",
+        "original": "https://www.huxiu.com/article/4899389.html?f=rss"
+      },
+      "publishedAt": "2026-10-21T14:22:50.000Z",
+      "discoveredAt": "2026-10-21T15:18:16.240Z",
+      "category": "money",
+      "score": 95,
+      "selected": true,
+      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/afe3c0ea814ac0c8be696a0c6"
+      }
+    },
+    {
+      "id": "aca2d06a6e603df63c4f50fa6",
+      "title": "法国80万人上街，导火索竟是高中凑不齐法语老师？",
+      "originalTitle": "法国80万人上街，导火索竟是高中凑不齐法语老师？",
+      "summary": "本文来自微信公众号： 酷玩实验室 ，作者：酷玩实验室 1789年7月14日，法国国王路易十六翻开日记本，写下了简短的几个字，“今日无事”。 也是在那一天，巴黎市民揭竿而起，攻占了巴士底狱，改变这个国家乃至全世界的法国大革命爆发了。 2026年10月16日夜，法国总统马克龙带着夫人，在私人包厢看席琳·迪翁的演唱会，夫妇俩非常开心，随着歌声轻轻摇摆。 而场馆之外，全国性的示威抗议已经持续了十几天，就在演唱会次日，抗议演变成了近年来最严重的骚...",
+      "source": {
+        "name": "虎嗅网·商业搞钱深度"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/aca2d06a6e603df63c4f50fa6",
+        "original": "https://www.huxiu.com/article/4899388.html?f=rss"
+      },
+      "publishedAt": "2026-10-21T14:11:28.000Z",
+      "discoveredAt": "2026-10-21T15:18:16.456Z",
+      "category": "money",
+      "score": 95,
+      "selected": true,
+      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/aca2d06a6e603df63c4f50fa6"
+      }
+    },
+    {
+      "id": "a8bf92da1dd606fff8cb0c579",
+      "title": "首都在线：账面扭亏，AI算力持续投入｜看财报",
+      "originalTitle": "首都在线：账面扭亏，AI算力持续投入｜看财报",
+      "summary": "10月21日，首都在线（300846.SZ）披露2026年三季报，前三季度实现营业收入9.56亿元，同比增长3.14%；归母净利润879.62万元，同比增长108.85%，实现账面扭亏为盈；经营活动产生的现金流量净额2.17亿元，同比大增148.37%。 这是一份\"喜忧参半\"的成绩单：归母净利润首度转正、经营现金流创近年同期最好水平，但扣非净利润仍亏损5618.03万元；Q3单季毛利率环比跳升近9个百分点的同时，单季营收却同比下滑2.3...",
+      "source": {
+        "name": "钛媒体·资本与风口"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a8bf92da1dd606fff8cb0c579",
+        "original": "https://www.tmtpost.com/8176619.html"
+      },
+      "publishedAt": "2026-10-21T13:11:59.000Z",
+      "discoveredAt": "2026-10-21T15:18:18.848Z",
+      "category": "money",
+      "score": 97,
+      "selected": true,
+      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a8bf92da1dd606fff8cb0c579"
+      }
+    },
+    {
+      "id": "a339de572cba680d058842d0a",
+      "title": "昔日4倍妖股三季报又大亏，QFII和北上资金逆市加仓｜看财报",
+      "originalTitle": "昔日4倍妖股三季报又大亏，QFII和北上资金逆市加仓｜看财报",
+      "summary": "2025年的妖股 长城军工 （601606.SH），短暂扭亏后，今又入亏损通道。 10月21日，公司发布三季报，前三季度实现营收8.94亿元，同比减少16.98%；归母净利润-1.18亿元，同比降幅566.21%；扣非净利润-1.32亿元，同比降幅317.45%。亏损的原因，指向订单交付节奏和产品结构变化。 值得注意的是，就在公司业绩和股价双双大幅下行后，多路资金却在逆市加仓，UBS AG（ 瑞银集团 ）和北上资金甚至连续增持。 连亏三...",
+      "source": {
+        "name": "钛媒体·资本与风口"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a339de572cba680d058842d0a",
+        "original": "https://www.tmtpost.com/8176769.html"
+      },
+      "publishedAt": "2026-10-21T13:09:01.000Z",
+      "discoveredAt": "2026-10-21T15:18:19.066Z",
+      "category": "money",
+      "score": 96,
+      "selected": true,
+      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a339de572cba680d058842d0a"
+      }
+    },
+    {
+      "id": "a41ae89b7437f33e9511637ff",
+      "title": "【全球一手】中国卖家艰难地了解拉丁美洲",
+      "originalTitle": "Chinese Sellers Learn Latin America the Hard Way",
+      "summary": "NextFin News — 拉丁美洲一直被描述为全球电子商务最后的开放领域。人口统计数据有助于解决这个问题：上网的年轻人、已经密集的城市、不断扩大的中产阶级、数字零售……（来源：钛媒体·资本与风口）",
+      "source": {
+        "name": "钛媒体·资本与风口"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a41ae89b7437f33e9511637ff",
+        "original": "https://www.tmtpost.com/8176844.html"
+      },
+      "publishedAt": "2026-10-21T12:38:04.000Z",
+      "discoveredAt": "2026-10-21T15:18:20.018Z",
+      "category": "money",
+      "score": 93,
+      "selected": true,
+      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a41ae89b7437f33e9511637ff"
+      }
+    },
+    {
+      "id": "ab38aadf29f4fbb3f8360e6b6",
+      "title": "【出海实战】营销 SAAS 过程中最困难的部分是什么？获得首批用户还是留住用户？",
+      "originalTitle": "What has been the hardest part of marketing your SAAS? Getting the first few users or retaining users?",
+      "summary": "最近，随着我的产品和网站的启动和运行，我真的在考虑这个问题。从流量来看，当我推销它时，总是会出现高峰，但很少有人返回再次使用它，我得到了很多...（来源：X/Reddit·出海SaaS搞钱）",
+      "source": {
+        "name": "X/Reddit·出海SaaS搞钱"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/ab38aadf29f4fbb3f8360e6b6",
+        "original": "https://www.reddit.com/r/SaaS/comments/1xblyu0/what_has_been_the_hardest_part_of_marketing_your/"
+      },
+      "publishedAt": "2026-10-21T12:35:52.000Z",
+      "discoveredAt": "2026-10-21T15:18:13.499Z",
+      "category": "money",
+      "score": 99,
+      "selected": true,
+      "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/ab38aadf29f4fbb3f8360e6b6"
+      }
+    },
+    {
+      "id": "a91fbaf9d5dadab09daaf1581",
+      "title": "电竞手机比拼逻辑变了，荣耀WIN2选择“用价换量”",
+      "originalTitle": "电竞手机比拼逻辑变了，荣耀WIN2选择“用价换量”",
+      "summary": "今年的手机市场，只能用一个&ldquo;难&rdquo;字形容。伴随着存储、芯片等供应链成本高企，终端手机市场也进行了多轮的涨价，整个行业进入到存量竞争深化阶段，品牌面临着市场策略调整以及行业争议的双重考验。 但这并没有影响到手机厂商的出牌节奏。从9月底到现在，基本上所有的主流品牌都发布了新款旗舰机。只是，高涨的价格，让销量相比较去年同期大打折扣。 其中，电竞手机作为一个相对的小众品类，凭借精准的玩家定位和差异化的性能体验，在大盘下行的...",
+      "source": {
+        "name": "钛媒体·资本与风口"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a91fbaf9d5dadab09daaf1581",
+        "original": "https://www.tmtpost.com/8176772.html"
+      },
+      "publishedAt": "2026-10-21T11:34:51.000Z",
+      "discoveredAt": "2026-10-21T15:18:20.234Z",
+      "category": "money",
+      "score": 95,
+      "selected": true,
+      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a91fbaf9d5dadab09daaf1581"
+      }
+    },
+    {
+      "id": "af408e2c61a01a12763a492ba",
+      "title": "【出海实战】过去几年SaaS死了多少次？",
+      "originalTitle": "How many times had SaaS died in the last few years?",
+      "summary": "我厌倦了看到末日海报，尤其是在 X 上声称 SaaS 已死，而对软件工程师的需求一直很高，而 SaaS 公司仍在赚取大量收入。当然，您现在可以振动代码应用程序，...（来源：X/Reddit·出海SaaS搞钱）",
+      "source": {
+        "name": "X/Reddit·出海SaaS搞钱"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/af408e2c61a01a12763a492ba",
+        "original": "https://www.reddit.com/r/SaaS/comments/1xbkfme/how_many_times_had_saas_died_in_the_last_few_years/"
+      },
+      "publishedAt": "2026-10-21T11:19:45.000Z",
+      "discoveredAt": "2026-10-21T15:18:12.580Z",
+      "category": "money",
+      "score": 99,
+      "selected": true,
+      "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/af408e2c61a01a12763a492ba"
+      }
+    },
+    {
       "id": "afcfcddc1e91c0cdd9bbe28da",
       "title": "[微信] 做了个提取视频文案的微信小程序",
       "originalTitle": "[微信] 做了个提取视频文案的微信小程序",
@@ -56,52 +355,6 @@
       }
     },
     {
-      "id": "a071ec666490b2b0c0c3dad59",
-      "title": "行业增量放缓、企业利润修复，快递行业竞争逻辑变了",
-      "originalTitle": "行业增量放缓、企业利润修复，快递行业竞争逻辑变了",
-      "summary": "本文来自微信公众号： 银莕财经 ，作者：银莕财经 国家邮政局最新数据显示，1-9月，全国快递业务量完成1513亿件，同比增长4.3%；快递业务收入完成11634.4亿元，同比增长7.2%。其中，9月快递业务量同比增长2.1%，快递业务收入同比增长5.6%，收入增速仍高于业务量。对比往年动辄两位数的高增长，快递大盘正式进入了低速区间。 （全国邮政行业发展去情况表，来源：国家邮政局） 但低速并不意味着低质。各家A股上市快递企业披露的经营简报...",
-      "source": {
-        "name": "虎嗅网·商业搞钱深度"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a071ec666490b2b0c0c3dad59",
-        "original": "https://www.huxiu.com/article/4899303.html?f=rss"
-      },
-      "publishedAt": "2026-10-21T10:05:09.000Z",
-      "discoveredAt": "2026-10-21T10:11:14.726Z",
-      "category": "money",
-      "score": 95,
-      "selected": true,
-      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a071ec666490b2b0c0c3dad59"
-      }
-    },
-    {
-      "id": "a616dae85375622d23a3c512b",
-      "title": "读个研要十几万，还值得吗？",
-      "originalTitle": "读个研要十几万，还值得吗？",
-      "summary": "本文来自微信公众号： 橡树实验室 ，作者：橡树作者 “第一年研究生学费刚缴存好了，还有两年学费，一共13万5。”一位网友在社交平台晒出了自己支付的学费截图，显示成功支付45000元。 评论区不少网友跟帖：“刚付完63200，还有两年”“刚付完50000学费，还有一年”…… 全日制专硕学费，正全面迈入“10万元+”时代！ 武汉大学应用统计专硕2年12万、人工智能专硕2年16万；上海交通大学新闻与传播专硕2.5年18万；厦门大学旅游管理2....",
-      "source": {
-        "name": "虎嗅网·商业搞钱深度"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a616dae85375622d23a3c512b",
-        "original": "https://www.huxiu.com/article/4899302.html?f=rss"
-      },
-      "publishedAt": "2026-10-21T10:02:09.000Z",
-      "discoveredAt": "2026-10-21T10:11:14.850Z",
-      "category": "money",
-      "score": 96,
-      "selected": true,
-      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a616dae85375622d23a3c512b"
-      }
-    },
-    {
       "id": "a6e534a508dc04cefd3c9d160",
       "title": "腾讯跌回8年前了",
       "originalTitle": "腾讯跌回8年前了",
@@ -122,29 +375,6 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/a6e534a508dc04cefd3c9d160"
-      }
-    },
-    {
-      "id": "a497f7ee155300073078ae301",
-      "title": "土豪的钱、美国的装备，为什么换不来对胡塞的胜利？",
-      "originalTitle": "土豪的钱、美国的装备，为什么换不来对胡塞的胜利？",
-      "summary": "胡塞武装短短数小时拿下摩卡港，一举卡住曼德海峡，把红海出海口握在手里，让沙特的石油出路直接断掉。这个世界，终究是那些有理想、有组织、敢拼命的一方能赢。",
-      "source": {
-        "name": "虎嗅网·商业搞钱深度"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a497f7ee155300073078ae301",
-        "original": "https://www.huxiu.com/article/4896599.html?f=rss"
-      },
-      "publishedAt": "2026-10-21T10:00:00.000Z",
-      "discoveredAt": "2026-10-21T10:11:15.072Z",
-      "category": "money",
-      "score": 94,
-      "selected": true,
-      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a497f7ee155300073078ae301"
       }
     },
     {
@@ -171,118 +401,26 @@
       }
     },
     {
-      "id": "accaf03930513c97924ce1dd3",
-      "title": "星巴克的沙发不养闲人",
-      "originalTitle": "星巴克的沙发不养闲人",
-      "summary": "（本文作者为 超聚焦，钛媒体经授权发布） 文 | 超聚焦 星巴克，开始明着&ldquo;嫌弃&rdquo;不花钱的人了。 10月21日，据多家媒体报道，星巴克中国确认，将从10月22日起在全国门店推行&ldquo;消费入座&rdquo;政策。今后，想在星巴克坐下来休息、办公或者等人，原则上得先买上一杯咖啡。 消息一出，不少网友感叹，那个曾经以&ldquo;第三空间&rdquo;为傲的星巴克，怎么越来越没有人情味了？ 有人把原因归结到了博...",
+      "id": "ae57f806ab0837994c0a16097",
+      "title": "【国内要闻】樊振东发文抵制偷拍！以爱为名，岂能成为僭越隐私的托词？",
+      "originalTitle": "樊振东发文抵制偷拍！以爱为名，岂能成为僭越隐私的托词？",
+      "summary": "10月21日，樊振东在个人微博发文抵制偷拍。他明确指出，不管偷拍者是什么身份什么心态什么目的，都无法改变这类行为不尊重他人、侵犯他人隐私的本质，即使以爱为名，即使延迟发布扩散。",
       "source": {
-        "name": "钛媒体·资本与风口"
+        "name": "中新网·国内要闻"
       },
       "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/accaf03930513c97924ce1dd3",
-        "original": "https://www.tmtpost.com/8176482.html"
+        "aihot": "https://zenglian-news.onrender.com/items/ae57f806ab0837994c0a16097",
+        "original": "https://www.chinanews.com.cn/ty/2026/10-21/10718390.shtml"
       },
-      "publishedAt": "2026-10-21T09:49:41.000Z",
-      "discoveredAt": "2026-10-21T10:11:17.684Z",
-      "category": "money",
-      "score": 94,
-      "selected": true,
-      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/accaf03930513c97924ce1dd3"
-      }
-    },
-    {
-      "id": "aa8cad00a94259666002ab651",
-      "title": "AI 泡沫监测·之一：债务层已经先动了",
-      "originalTitle": "AI 泡沫监测·之一：债务层已经先动了",
-      "summary": "（本文作者为 穷奇观察，钛媒体经授权发布） 文 | 穷奇观察 10 月初，彭博报道：OpenAI 正以约 1.4 万亿美元投前估值寻求至少 300 亿美元融资，性质是\"IPO 的过桥\"。路透、TechCrunch 等转述，OpenAI 官方拒绝置评。（报道日期有 10 月 5 日与 9 日两说，待核。）新轮接洽的名单里，出现了阿联酋 MGX 和贝莱德&mdash;&mdash;钱追着公司投。 注意这笔钱的三个定语。一，投资人驱动&mda...",
-      "source": {
-        "name": "钛媒体·资本与风口"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/aa8cad00a94259666002ab651",
-        "original": "https://www.tmtpost.com/8175985.html"
-      },
-      "publishedAt": "2026-10-21T09:49:23.000Z",
-      "discoveredAt": "2026-10-21T10:11:17.809Z",
+      "publishedAt": "2026-10-21T04:44:37.000Z",
+      "discoveredAt": "2026-10-21T05:10:39.913Z",
       "category": "money",
       "score": 98,
       "selected": true,
-      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+      "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
       "attribution": {
         "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/aa8cad00a94259666002ab651"
-      }
-    },
-    {
-      "id": "a90f2825e2cc81a44858b3b42",
-      "title": "数字造星时代来临，流水线式AI艺人能挣到谁的钱？",
-      "originalTitle": "数字造星时代来临，流水线式AI艺人能挣到谁的钱？",
-      "summary": "（本文作者为 锌刻度，钛媒体经授权发布） 文 | 锌刻度，作者 | 李觐麟，编辑 | 李季 AI爱豆怀孕的闹剧已经没人再提，但它留下的问题比那场闹剧本身更有嚼头：一个不存在的人，凭什么能像真人明星一样制造话题、承接商单、完成变现？答案可能不在那张脸上，在账本里。 2026年的AI艺人行业渐渐跑出了一条完整的盈利链条，一部爆剧便走红的AI艺人方桃子一条广告报价25万元，但很快因为&ldquo;有眼无珠&rdquo;而翻车；耀客传媒与芒果T...",
-      "source": {
-        "name": "钛媒体·资本与风口"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a90f2825e2cc81a44858b3b42",
-        "original": "https://www.tmtpost.com/8176501.html"
-      },
-      "publishedAt": "2026-10-21T09:36:33.000Z",
-      "discoveredAt": "2026-10-21T10:11:17.921Z",
-      "category": "money",
-      "score": 98,
-      "selected": true,
-      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a90f2825e2cc81a44858b3b42"
-      }
-    },
-    {
-      "id": "a148693ac2b8f9e5fcccf54ff",
-      "title": "每3个破三跑者就有1个穿特步，为什么财报上看不出来？",
-      "originalTitle": "每3个破三跑者就有1个穿特步，为什么财报上看不出来？",
-      "summary": "本文来自微信公众号： 剁椒Spicy ，作者：剁椒团队 10月18日，2026年北京马拉松（下文简称“北马”）在天安门广场鸣枪。 一直以来，北马都是中国所有跑步爱好者的一场年度盛宴。作为国内历史最悠久、参与人数最庞大的马拉松赛事之一，所有品牌都想在北马活动一席之地。而今年北马领奖台上，赛事顶级合作伙伴阿迪达斯似乎成了最亮眼的赢家，男子组前三名和女子组冠军，脚上穿的都是ADIOS PRO EVO 3。 但领奖台只代表少数人。北马还有一个更...",
-      "source": {
-        "name": "虎嗅网·商业搞钱深度"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a148693ac2b8f9e5fcccf54ff",
-        "original": "https://www.huxiu.com/article/4899195.html?f=rss"
-      },
-      "publishedAt": "2026-10-21T05:03:04.000Z",
-      "discoveredAt": "2026-10-21T05:11:02.746Z",
-      "category": "money",
-      "score": 96,
-      "selected": true,
-      "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a148693ac2b8f9e5fcccf54ff"
-      }
-    },
-    {
-      "id": "ae5443d377f30b1196cb5e6d8",
-      "title": "[Apple] 淘宝授权店 Apple Watch s12 46 毫米，到手 2300",
-      "originalTitle": "[Apple] 淘宝授权店 Apple Watch s12 46 毫米，到手 2300",
-      "summary": "发个作业，3399-300 教育优惠-97 金币-300 数码红包 已上再*0.85 到手就是大概这么多。 因为上海不支持凑单后使用国补，所以需要注意金币用完后不要低于 3000 ，不然用不了 300 的数码红包。可以先用其他商品下单占用一部分，使金币余额刚好不超 如果收货地区支持凑单国补，理论上可以拉满淘金币，再便宜 100 以上",
-      "source": {
-        "name": "V2EX·独立开发与副业"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/ae5443d377f30b1196cb5e6d8",
-        "original": "https://www.v2ex.com/t/1250597#reply0"
-      },
-      "publishedAt": "2026-10-21T05:02:31.000Z",
-      "discoveredAt": "2026-10-21T05:11:09.026Z",
-      "category": "money",
-      "score": 93,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/ae5443d377f30b1196cb5e6d8"
+        "url": "https://zenglian-news.onrender.com/items/ae57f806ab0837994c0a16097"
       }
     },
     {
@@ -309,29 +447,6 @@
       }
     },
     {
-      "id": "a0ee6821029f821f321eeb573",
-      "title": "看面相断生死，AI居然真做到了？",
-      "originalTitle": "看面相断生死，AI居然真做到了？",
-      "summary": "（本文作者为 字母AI，钛媒体经授权发布） 文 | 字母AI 10月20日，国际医学期刊《柳叶刀&middot;数字健康》发表了一项研究：AI仅凭一张普通的脸部照片，就能识别出癌症患者的死亡风险差异。 美国麻省总医院布莱根医疗集团开发了一款名为FAHR-Face的AI模型，让它从人脸照片中寻找与患者生存情况有关的线索。 研究人员找来3820名没参与过模型训练的癌症患者进行测试， 其中，122人被AI评为极高风险，而在拍照后的90天里，这...",
-      "source": {
-        "name": "钛媒体·资本与风口"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a0ee6821029f821f321eeb573",
-        "original": "https://www.tmtpost.com/8175722.html"
-      },
-      "publishedAt": "2026-10-21T03:45:00.000Z",
-      "discoveredAt": "2026-10-21T05:11:08.108Z",
-      "category": "money",
-      "score": 98,
-      "selected": true,
-      "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a0ee6821029f821f321eeb573"
-      }
-    },
-    {
       "id": "ad8b1c279643ee52f719b5397",
       "title": "【国内要闻】手搓“微缩博物馆” 解锁文创新体验",
       "originalTitle": "手搓“微缩博物馆” 解锁文创新体验",
@@ -352,121 +467,6 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/ad8b1c279643ee52f719b5397"
-      }
-    },
-    {
-      "id": "ab16b3eb64d96ec7536268c1c",
-      "title": "【PH搞钱神器】Chodeberg 分类",
-      "originalTitle": "Triage by Chodeberg",
-      "summary": "在干净的沙箱环境中重现用户描述的错误关联（来源：Product Hunt·搞钱神器）",
-      "source": {
-        "name": "Product Hunt·搞钱神器"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/ab16b3eb64d96ec7536268c1c",
-        "original": "https://www.producthunt.com/products/triage-by-chodeberg"
-      },
-      "publishedAt": "2026-10-20T22:59:42.000Z",
-      "discoveredAt": "2026-10-21T10:11:10.743Z",
-      "category": "money",
-      "score": 94,
-      "selected": true,
-      "reason": "全球每日最新上线的 AI 变现产品与效率工具，独立开发与出海赚钱灵感宝库。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/ab16b3eb64d96ec7536268c1c"
-      }
-    },
-    {
-      "id": "a450cc542c9c3a28774497565",
-      "title": "【国内要闻】CBA常规赛次轮：北京队主场轻取广东队 斩获两连胜",
-      "originalTitle": "CBA常规赛次轮：北京队主场轻取广东队 斩获两连胜",
-      "summary": "中新社北京10月20日电 (刘梦青 国璇)在2026-2027赛季中国男子篮球职业联赛(CBA)常规赛次轮较量中，北京队20日晚在北京以96:78战胜广东队，斩获两连胜，广东队则遭遇两连败。",
-      "source": {
-        "name": "中新网·国内要闻"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a450cc542c9c3a28774497565",
-        "original": "https://www.chinanews.com.cn/ty/2026/10-21/10718218.shtml"
-      },
-      "publishedAt": "2026-10-20T18:16:27.000Z",
-      "discoveredAt": "2026-10-20T18:38:47.224Z",
-      "category": "money",
-      "score": 97,
-      "selected": true,
-      "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a450cc542c9c3a28774497565"
-      }
-    },
-    {
-      "id": "a5c47ad36a3615b65ad532b42",
-      "title": "【PH搞钱神器】概念汽车",
-      "originalTitle": "Notion Auto",
-      "summary": "Notion 重建的代理可以运行数小时且成本低得多关联（来源：Product Hunt·搞钱神器）",
-      "source": {
-        "name": "Product Hunt·搞钱神器"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a5c47ad36a3615b65ad532b42",
-        "original": "https://www.producthunt.com/products/notion-99"
-      },
-      "publishedAt": "2026-10-20T18:01:39.000Z",
-      "discoveredAt": "2026-10-21T10:11:10.052Z",
-      "category": "money",
-      "score": 94,
-      "selected": true,
-      "reason": "全球每日最新上线的 AI 变现产品与效率工具，独立开发与出海赚钱灵感宝库。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a5c47ad36a3615b65ad532b42"
-      }
-    },
-    {
-      "id": "ad5af47e96352630ed49833c0",
-      "title": "【独立变现】Show HN：Clerkenwell – 手写 Clojure 笔记本",
-      "originalTitle": "Show HN: Clerkenwell – A Handwritten Clojure Notebook",
-      "summary": "Show HN·独立变现榜实时快讯：Show HN: Clerkenwell – A Handwritten Clojure Notebook。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
-      "source": {
-        "name": "Show HN·独立变现榜"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/ad5af47e96352630ed49833c0",
-        "original": "https://handwritten.danieljanus.pl/2026-10-20-clerkenwell.html"
-      },
-      "publishedAt": "2026-10-20T15:14:14.000Z",
-      "discoveredAt": "2026-10-20T21:54:40.502Z",
-      "category": "money",
-      "score": 99,
-      "selected": true,
-      "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/ad5af47e96352630ed49833c0"
-      }
-    },
-    {
-      "id": "aa8c244020730393ee9404360",
-      "title": "【独立变现】Show HN：Jev Cards，你能在图片测验中击败视觉模型吗？",
-      "originalTitle": "Show HN: Jev Cards, Can you beat a vision model at a picture quiz?",
-      "summary": "我围绕 TypeSafe 的新 Jev 模型构建了一个问答游戏，该模型具有视觉功能。杰夫看着一张图片和一个问题，然后在大约四分之一秒内选择一个答案（或点击一个地方）。我一直很喜欢问答游戏...（来源：Show HN·独立变现榜）",
-      "source": {
-        "name": "Show HN·独立变现榜"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/aa8c244020730393ee9404360",
-        "original": "https://jevcards.com"
-      },
-      "publishedAt": "2026-10-20T15:11:56.000Z",
-      "discoveredAt": "2026-10-20T18:38:53.588Z",
-      "category": "money",
-      "score": 99,
-      "selected": true,
-      "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/aa8c244020730393ee9404360"
       }
     }
   ],
