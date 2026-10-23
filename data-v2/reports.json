@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T01:35:45.885Z",
+  "generatedAt": "2026-10-23T06:32:00.466Z",
   "daily": {
     "kind": "daily",
     "key": "2026-10-23",
     "title": "曾练全球一手简报 · 今日日报 (2026-10-23)",
     "subtitle": "全球·国内·商业搞钱·AI·影视娱乐·体育 六大实时Top20精选",
-    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：埃隆·马斯克 (Elon Musk) 投入 3.66 亿美元竞选活动，SpaceX 和特斯拉在选举中的风险很高；Canva 的第一个 AI 图像模型在生成之前规划设计；人工智能和科学共享的圈地。",
+    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：Canva 的第一个 AI 图像模型在生成之前规划设计；上海：降低智能要素使用成本；您认为 SaaS 已经过度饱和了吗？想想这个。。",
     "metrics": {
       "totalEvents": 18,
-      "sourcesCount": 31,
+      "sourcesCount": 30,
       "selectedCount": 18
     },
     "sections": [
@@ -18,29 +18,6 @@
         "label": "🌍 全球实时Top20",
         "items": [
           {
-            "id": "a7039d41c9ed5956a7305a65d",
-            "title": "【CNBC全球】埃隆·马斯克 (Elon Musk) 投入 3.66 亿美元竞选活动，SpaceX 和特斯拉在选举中的风险很高",
-            "originalTitle": "SpaceX and Tesla have high election stakes as Elon Musk pours $366 million into campaigns",
-            "summary": "马斯克最大的政治赌注是参议院，参议院的控制权可能会影响未来的调查、联邦支出以及影响 SpaceX 和特斯拉的法规。（来源：CNBC·全球政经）",
-            "source": {
-              "name": "CNBC·全球政经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7039d41c9ed5956a7305a65d",
-              "original": "https://www.cnbc.com/2026/10/22/elon-musk-midterm-election-spacex-tesla.html"
-            },
-            "publishedAt": "2026-10-22T21:58:42.000Z",
-            "discoveredAt": "2026-10-22T23:12:38.299Z",
-            "category": "global",
-            "score": 99,
-            "selected": true,
-            "reason": "CNBC 国际财经与地缘政治实时快讯，把握全球资本与央行风向。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7039d41c9ed5956a7305a65d"
-            }
-          },
-          {
             "id": "ab1c3ae1a007710f4f7f75381",
             "title": "【国际巨头】Canva 的第一个 AI 图像模型在生成之前规划设计",
             "originalTitle": "Canva’s first AI image model plans designs before generating them",
@@ -61,493 +38,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ab1c3ae1a007710f4f7f75381"
-            }
-          },
-          {
-            "id": "a86b2f9d8cbed8528c18455ae",
-            "title": "【全球热榜】人工智能和科学共享的圈地",
-            "originalTitle": "AI and the Enclosure of the Scientific Commons",
-            "summary": "X/HN·全球热榜Top实时快讯：AI and the Enclosure of the Scientific Commons。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a86b2f9d8cbed8528c18455ae",
-              "original": "https://arxiv.org/abs/2610.27251"
-            },
-            "publishedAt": "2026-10-22T18:28:16.000Z",
-            "discoveredAt": "2026-10-23T01:34:42.862Z",
-            "category": "global",
-            "score": 99,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a86b2f9d8cbed8528c18455ae"
-            }
-          }
-        ]
-      },
-      {
-        "category": "domestic",
-        "label": "🇨🇳 国内实时Top20",
-        "items": [
-          {
-            "id": "a1c6a4be21ed65765b63455b0",
-            "title": "特朗普被曝对马斯克表示不满",
-            "originalTitle": "特朗普被曝对马斯克表示不满",
-            "summary": "当地时间10月22日下午，美国总统特朗普在白宫被媒体问及“是否致电美国太空探索技术公司首席执行官马斯克，要求其解除对乌克兰军用版‘星链’卫星通信服务的限速”。特朗普对此表示“不予置评”，但“重要的是马斯克已经恢复了相关服务”。不过，乌克兰总统泽连斯基当天早些时候对媒体称，限速尚未彻底解除。而另据乌克兰军方人士消息，“星链”服务的运行速度似乎正在恢复，已高于此前水平。据美国《华尔街日报》当天报道，特朗普已致电马斯克，要求他解除对乌克兰境内...",
-            "source": {
-              "name": "界面新闻·国内政经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a1c6a4be21ed65765b63455b0",
-              "original": "https://www.jiemian.com/article/15227452.html"
-            },
-            "publishedAt": "2026-10-23T01:20:00.000Z",
-            "discoveredAt": "2026-10-23T01:34:49.290Z",
-            "category": "domestic",
-            "score": 98,
-            "selected": true,
-            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a1c6a4be21ed65765b63455b0"
-            }
-          },
-          {
-            "id": "af8d17637a0e58ea5de1ce686",
-            "title": "【国内要闻】香港举办“优专大讲堂”首场论坛 聚焦文化赋能湾区人才融合",
-            "originalTitle": "香港举办“优专大讲堂”首场论坛 聚焦文化赋能湾区人才融合",
-            "summary": "中新网香港10月23日电 (记者 戴小橦)由香港优才及专才协会联同香港理工大学内地发展处主办的“优专大讲堂”首场论坛22日在香港举行，主题为“从‘中国人’的文化基因看国际人才融入香港与大湾区”。",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af8d17637a0e58ea5de1ce686",
-              "original": "https://www.chinanews.com.cn/dwq/2026/10-23/10719520.shtml"
-            },
-            "publishedAt": "2026-10-23T01:27:53.000Z",
-            "discoveredAt": "2026-10-23T01:34:45.884Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af8d17637a0e58ea5de1ce686"
-            }
-          },
-          {
-            "id": "a9d15393edf80481078107aff",
-            "title": "【国内要闻】青春在“火焰蓝”中淬炼",
-            "originalTitle": "青春在“火焰蓝”中淬炼",
-            "summary": "中新网兰州10月23日电 (刘薛梅)青春的价值，不只是在危急时刻挺身而出，也体现在日复一日的刻苦训练中，体现在主动走进群众、做好消防宣传和隐患排查的实际行动中。22日，甘肃兰州市安宁区刘家堡消防救援站政治指导员高睿说，“对一支青年队伍来说，也意味着要用过硬的本领扛起更重的责任。”",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9d15393edf80481078107aff",
-              "original": "https://www.chinanews.com.cn/sh/2026/10-23/10719521.shtml"
-            },
-            "publishedAt": "2026-10-23T01:26:19.000Z",
-            "discoveredAt": "2026-10-23T01:34:46.087Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9d15393edf80481078107aff"
-            }
-          }
-        ]
-      },
-      {
-        "category": "money",
-        "label": "💰 商业搞钱Top20",
-        "items": [
-          {
-            "id": "a8388d35b13f4e065675f99ac",
-            "title": "【出海实战】您认为 SaaS 已经过度饱和了吗？想想这个。",
-            "originalTitle": "You think SaaS is oversaturated? Think about this.",
-            "summary": "想象一下，100 个人决定构建 SaaS。 50 从未真正发射。剩下的 50 家公司中，有 25 家在几个月后就放弃了，因为他们没有吸引到用户。 15 停止改进他们的产品或持续营销它。那...（来源：X/Reddit·出海SaaS搞钱）",
-            "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a8388d35b13f4e065675f99ac",
-              "original": "https://www.reddit.com/r/SaaS/comments/1xcwe75/you_think_saas_is_oversaturated_think_about_this/"
-            },
-            "publishedAt": "2026-10-22T22:10:00.000Z",
-            "discoveredAt": "2026-10-23T01:34:57.878Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a8388d35b13f4e065675f99ac"
-            }
-          },
-          {
-            "id": "a41c05a6e07688cd10e778035",
-            "title": "【出海实战】Whop 以 5.1B 估值筹集 2 亿美元，向支付和商业基础设施领域扩张",
-            "originalTitle": "Whop raises $200M at a $5.1B valuation as it expands into payments and business infrastructure",
-            "summary": "没想到Whop已经这么大了。他们刚刚筹集了 2 亿美元资金，红杉资本领投，Shopify Ventures 加入。更令我惊讶的是，看到付款和支出成为他们业务的更大组成部分......（来源：X/Reddit·出海SaaS搞钱）",
-            "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a41c05a6e07688cd10e778035",
-              "original": "https://www.reddit.com/r/SaaS/comments/1xcvte5/whop_raises_200m_at_a_51b_valuation_as_it_expands/"
-            },
-            "publishedAt": "2026-10-22T21:46:10.000Z",
-            "discoveredAt": "2026-10-22T23:13:03.435Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a41c05a6e07688cd10e778035"
-            }
-          },
-          {
-            "id": "aeeba16bb3aacd01087c84de5",
-            "title": "【独立变现】Show HN：UI微交互提示AI",
-            "originalTitle": "Show HN: UI micro interactions prompts for AI",
-            "summary": "Show HN·独立变现榜实时快讯：Show HN: UI micro interactions prompts for AI。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
-            "source": {
-              "name": "Show HN·独立变现榜"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aeeba16bb3aacd01087c84de5",
-              "original": "https://www.typeui.sh/micro-interactions"
-            },
-            "publishedAt": "2026-10-22T18:32:57.000Z",
-            "discoveredAt": "2026-10-22T19:58:14.832Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aeeba16bb3aacd01087c84de5"
-            }
-          }
-        ]
-      },
-      {
-        "category": "tech",
-        "label": "🤖 AI实时Top20",
-        "items": [
-          {
-            "id": "a1b2a46920519f29dc124a6a4",
-            "title": "【硅谷AI】独自无事可做，人工智能代理开始玩",
-            "originalTitle": "Left alone with nothing to do, AI agents started playing",
-            "summary": "麻省理工学院的研究人员将 13 名人工智能困在一个虚拟岛上，他们的反应是发明游戏、哀悼丢失的戒指，并最终在工作中取得更好的成绩。（来源：TechCrunch·硅谷AI）",
-            "source": {
-              "name": "TechCrunch·硅谷AI"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a1b2a46920519f29dc124a6a4",
-              "original": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/"
-            },
-            "publishedAt": "2026-10-23T00:45:37.000Z",
-            "discoveredAt": "2026-10-23T01:35:22.500Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a1b2a46920519f29dc124a6a4"
-            }
-          },
-          {
-            "id": "acbb271f8da0039ac15a381c4",
-            "title": "【X·AI一手】谷歌 DeepMind 创始人哈萨比斯将 AGI 时间表从五年缩短到两三年",
-            "originalTitle": "Google DeepMind founder Hassabis shortens AGI timeline from five to two to three years",
-            "summary": "由 /u/Malor777 提交 [链接] [评论]（来源：X (Twitter)·硅谷AI大佬）",
-            "source": {
-              "name": "X (Twitter)·硅谷AI大佬"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/acbb271f8da0039ac15a381c4",
-              "original": "https://www.reddit.com/r/OpenAI/comments/1xcz4o0/google_deepmind_founder_hassabis_shortens_agi/"
-            },
-            "publishedAt": "2026-10-23T00:11:09.000Z",
-            "discoveredAt": "2026-10-23T01:35:18.876Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/acbb271f8da0039ac15a381c4"
-            }
-          },
-          {
-            "id": "a903648e8bef61fbf3e44872b",
-            "title": "【硅谷AI】OpenAI 致力于在 IPO 前以 1.25T 美元的估值进行新的 30B 美元融资",
-            "originalTitle": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-            "summary": "如果 OpenAI 在这一轮融资中获得超过 1 万亿美元的估值，它将打破有史以来估值最高的私营公司的记录。（来源：TechCrunch·硅谷AI）",
-            "source": {
-              "name": "TechCrunch·硅谷AI"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a903648e8bef61fbf3e44872b",
-              "original": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
-            },
-            "publishedAt": "2026-10-22T22:08:24.000Z",
-            "discoveredAt": "2026-10-22T23:13:17.459Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a903648e8bef61fbf3e44872b"
-            }
-          }
-        ]
-      },
-      {
-        "category": "culture",
-        "label": "🎬 影视娱乐Top20",
-        "items": [
-          {
-            "id": "a45467b5e2ef414779360e583",
-            "title": "【全球票房】乔·佩里退出今晚的好莱坞吸血鬼电影西海岸首映，史密斯飞船为好莱坞碗演出做好准备",
-            "originalTitle": "Joe Perry Bows Out Of Tonight’s Hollywood Vampires’ Flick West Coast Debut As Aerosmith Ramps Up For Hollywood Bowl Gigs",
-            "summary": "如果您计划今晚在纽波特海滩电影节上观看好莱坞吸血鬼纪录片的西海岸首映，请注意乔·佩里 (Joe Perry) 不会出现在售完的丽都剧院 (Lido Theater)。虽然 8 的信息...（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a45467b5e2ef414779360e583",
-              "original": "https://deadline.com/2026/10/joe-perry-hollywood-vampires-movie-aerosmith-1237171377/"
-            },
-            "publishedAt": "2026-10-23T00:35:00.000Z",
-            "discoveredAt": "2026-10-23T01:35:31.523Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a45467b5e2ef414779360e583"
-            }
-          },
-          {
-            "id": "a8de5bd910b53bc70a7bef5a6",
-            "title": "【好莱坞一手】陈可辛排除人工智能生成的内容，称故事片将在垂直剧情片的崛起中幸存下来",
-            "originalTitle": "Peter Chan Rules Out AI-Generated Content, Says Feature Films Will Survive the Rise of Vertical Dramas",
-            "summary": "著名亚洲电影制片人、《战友：差不多是爱情故事》和《投名状》的导演陈可辛表示，他可能会在电影制作中使用人工智能，但“绝对不会 AIGC”或人工智能生成的内容，而且……（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a8de5bd910b53bc70a7bef5a6",
-              "original": "https://variety.com/2026/film/festivals/peter-chan-rules-out-ai-generated-content-feature-films-survival-1236922012/"
-            },
-            "publishedAt": "2026-10-23T00:27:55.000Z",
-            "discoveredAt": "2026-10-23T01:35:25.222Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a8de5bd910b53bc70a7bef5a6"
-            }
-          },
-          {
-            "id": "a3f9ed55ee41a102f0025650d",
-            "title": "【全球票房】萨莎·拜伦·科恩表示漫威《钢铁之心》制片人​​希望确保他在饰演犹太演员时“没有受到侮辱”",
-            "originalTitle": "Sacha Baron Cohen Says Marvel’s ‘Ironheart’ Producers Wanted To Ensure He Was “Not Insulted” Playing Devil As Jewish Actor",
-            "summary": "萨莎·拜伦·科恩 (Sacha Baron Cohen) 最近加入漫威宇宙，他称赞《钢铁之心》的制作团队考虑到了他的犹太身份。这位三届奥斯卡提名者最近回忆道，制片人和导演...（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a3f9ed55ee41a102f0025650d",
-              "original": "https://deadline.com/2026/10/sacha-baron-cohen-marvel-ironheart-not-insulted-devil-jewish-1237171378/"
-            },
-            "publishedAt": "2026-10-23T00:13:29.000Z",
-            "discoveredAt": "2026-10-23T01:35:32.552Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a3f9ed55ee41a102f0025650d"
-            }
-          }
-        ]
-      },
-      {
-        "category": "business",
-        "label": "🏆 体育实时Top20",
-        "items": [
-          {
-            "id": "a441e7475f30464c09f7812c9",
-            "title": "【欧洲足坛】英超联赛：本周末需要注意的 10 件事",
-            "originalTitle": "Premier League: 10 things to look out for this weekend",
-            "summary": "马克斯·道曼可能会得到机会，热刺需要在斯坦福桥找到平衡，而阿克塞尔·迪萨西必须弥补英超最佳射手在七场比赛之后，诺丁汉森林队的战绩与上赛季惊人地相似：五场......（来源：卫报体育·欧冠与五大联赛）",
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a441e7475f30464c09f7812c9",
-              "original": "https://www.theguardian.com/football/2026/oct/23/premier-league-10-things-to-look-out-for-this-weekend"
-            },
-            "publishedAt": "2026-10-22T23:01:52.000Z",
-            "discoveredAt": "2026-10-23T01:35:42.347Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a441e7475f30464c09f7812c9"
-            }
-          },
-          {
-            "id": "a0430fa940f18c308a989118d",
-            "title": "【BBC足坛】萨顿的预测 v 神奇狗华夫饼和他的主人西蒙",
-            "originalTitle": "Sutton's predictions v Waffle the Wonder Dog and his owner, Simon",
-            "summary": "BBC 体育足球专家克里斯·萨顿 (Chris Sutton) 与神奇狗华夫饼 (Waffle the Wonder Dog) 及其主人西蒙 (Simon) 以及 BBC 读者和 AI 进行了对本周末英超联赛比赛的预测。（来源：BBC Sport·欧洲足坛）",
-            "source": {
-              "name": "BBC Sport·欧洲足坛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a0430fa940f18c308a989118d",
-              "original": "https://www.bbc.co.uk/sport/football/articles/c3y0eqkneze4o?at_medium=RSS&at_campaign=rss"
-            },
-            "publishedAt": "2026-10-22T16:30:41.000Z",
-            "discoveredAt": "2026-10-22T19:59:04.987Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a0430fa940f18c308a989118d"
-            }
-          },
-          {
-            "id": "a30255cfce891f15297e74e37",
-            "title": "【BBC足坛】伯恩茅斯的梦想之夜——战胜米兰是英超实力的标志",
-            "originalTitle": "Dream night for Bournemouth - win over Milan a sign of Premier League power",
-            "summary": "伯恩茅斯3-0战胜AC米兰，进一步证明了英超球队对欧洲球队的统治力。（来源：BBC Sport·欧洲足坛）",
-            "source": {
-              "name": "BBC Sport·欧洲足坛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a30255cfce891f15297e74e37",
-              "original": "https://www.bbc.co.uk/sport/football/articles/c6z981p24q1eo?at_medium=RSS&at_campaign=rss"
-            },
-            "publishedAt": "2026-10-22T21:30:31.000Z",
-            "discoveredAt": "2026-10-22T23:13:44.763Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a30255cfce891f15297e74e37"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  "weekly": {
-    "kind": "weekly",
-    "key": "2026-W41",
-    "title": "曾练全球一手简报 · 本周核心周报 (2026年第41周)",
-    "subtitle": "7天全球政经、国内大事、商业搞钱、AI突破与文体焦点深度复盘",
-    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：埃隆·马斯克 (Elon Musk) 投入 3.66 亿美元竞选活动，SpaceX 和特斯拉在选举中的风险很高；Canva 的第一个 AI 图像模型在生成之前规划设计；人工智能和科学共享的圈地。",
-    "metrics": {
-      "totalEvents": 30,
-      "sourcesCount": 31,
-      "selectedCount": 30
-    },
-    "sections": [
-      {
-        "category": "global",
-        "label": "🌍 全球实时Top20",
-        "items": [
-          {
-            "id": "a7039d41c9ed5956a7305a65d",
-            "title": "【CNBC全球】埃隆·马斯克 (Elon Musk) 投入 3.66 亿美元竞选活动，SpaceX 和特斯拉在选举中的风险很高",
-            "originalTitle": "SpaceX and Tesla have high election stakes as Elon Musk pours $366 million into campaigns",
-            "summary": "马斯克最大的政治赌注是参议院，参议院的控制权可能会影响未来的调查、联邦支出以及影响 SpaceX 和特斯拉的法规。（来源：CNBC·全球政经）",
-            "source": {
-              "name": "CNBC·全球政经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7039d41c9ed5956a7305a65d",
-              "original": "https://www.cnbc.com/2026/10/22/elon-musk-midterm-election-spacex-tesla.html"
-            },
-            "publishedAt": "2026-10-22T21:58:42.000Z",
-            "discoveredAt": "2026-10-22T23:12:38.299Z",
-            "category": "global",
-            "score": 99,
-            "selected": true,
-            "reason": "CNBC 国际财经与地缘政治实时快讯，把握全球资本与央行风向。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7039d41c9ed5956a7305a65d"
-            }
-          },
-          {
-            "id": "ab1c3ae1a007710f4f7f75381",
-            "title": "【国际巨头】Canva 的第一个 AI 图像模型在生成之前规划设计",
-            "originalTitle": "Canva’s first AI image model plans designs before generating them",
-            "summary": "Canva 进一步深入人工智能领域，推出了图像生成模型，与 OpenAI、微软和谷歌的图像生成模型直接竞争。该模型称为 Canva Craft ，采用两阶段架构，...（来源：The Verge·国际巨头）",
-            "source": {
-              "name": "The Verge·国际巨头"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab1c3ae1a007710f4f7f75381",
-              "original": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model"
-            },
-            "publishedAt": "2026-10-22T21:51:25.000Z",
-            "discoveredAt": "2026-10-22T23:12:43.706Z",
-            "category": "global",
-            "score": 99,
-            "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab1c3ae1a007710f4f7f75381"
-            }
-          },
-          {
-            "id": "a86b2f9d8cbed8528c18455ae",
-            "title": "【全球热榜】人工智能和科学共享的圈地",
-            "originalTitle": "AI and the Enclosure of the Scientific Commons",
-            "summary": "X/HN·全球热榜Top实时快讯：AI and the Enclosure of the Scientific Commons。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a86b2f9d8cbed8528c18455ae",
-              "original": "https://arxiv.org/abs/2610.27251"
-            },
-            "publishedAt": "2026-10-22T18:28:16.000Z",
-            "discoveredAt": "2026-10-23T01:34:42.862Z",
-            "category": "global",
-            "score": 99,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a86b2f9d8cbed8528c18455ae"
             }
           },
           {
@@ -603,6 +93,52 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
+            "id": "a56193fe33127887d31dc773f",
+            "title": "上海：降低智能要素使用成本",
+            "originalTitle": "上海：降低智能要素使用成本",
+            "summary": "上海市经济和信息化委员会印发《上海市加快推动人工智能赋能工业服务业高质量发展行动方案（2027-2028年）》提出，降低智能要素使用成本。支持企业调用云平台部署的第三方大模型API，或采用第三方大模型私有化部署方式，推进大模型垂类应用，给予最高500万元补贴。鼓励工业智算云平台向工业服务业企业提供低代码智能体开发平台，推出算力惠企方案。支持企业租用非关联方智算资源开展大模型、智能体研发与应用，给予最高30%租用补贴。支持企业购买高质量语...",
+            "source": {
+              "name": "界面新闻·国内政经"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a56193fe33127887d31dc773f",
+              "original": "https://www.jiemian.com/article/15229942.html"
+            },
+            "publishedAt": "2026-10-23T06:20:12.000Z",
+            "discoveredAt": "2026-10-23T06:31:18.580Z",
+            "category": "domestic",
+            "score": 99,
+            "selected": true,
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a56193fe33127887d31dc773f"
+            }
+          },
+          {
+            "id": "ade1d6a014bc72c424d8d8b17",
+            "title": "【国内要闻】宜涪高铁高湾隧道贯通 系重庆段“首通”",
+            "originalTitle": "宜涪高铁高湾隧道贯通 系重庆段“首通”",
+            "summary": "中新网重庆10月23日电 (张旭 晁国辉)长江沿岸铁路集团重庆有限公司10月23日发布消息称，当日，随着最后一次爆破，宜涪高铁高湾隧道顺利贯通，系宜涪高铁重庆段首座实现贯通的隧道。",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ade1d6a014bc72c424d8d8b17",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-23/10719680.shtml"
+            },
+            "publishedAt": "2026-10-23T06:14:19.000Z",
+            "discoveredAt": "2026-10-23T06:31:16.081Z",
+            "category": "domestic",
+            "score": 98,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ade1d6a014bc72c424d8d8b17"
+            }
+          },
+          {
             "id": "a1c6a4be21ed65765b63455b0",
             "title": "特朗普被曝对马斯克表示不满",
             "originalTitle": "特朗普被曝对马斯克表示不满",
@@ -623,98 +159,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a1c6a4be21ed65765b63455b0"
-            }
-          },
-          {
-            "id": "af8d17637a0e58ea5de1ce686",
-            "title": "【国内要闻】香港举办“优专大讲堂”首场论坛 聚焦文化赋能湾区人才融合",
-            "originalTitle": "香港举办“优专大讲堂”首场论坛 聚焦文化赋能湾区人才融合",
-            "summary": "中新网香港10月23日电 (记者 戴小橦)由香港优才及专才协会联同香港理工大学内地发展处主办的“优专大讲堂”首场论坛22日在香港举行，主题为“从‘中国人’的文化基因看国际人才融入香港与大湾区”。",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af8d17637a0e58ea5de1ce686",
-              "original": "https://www.chinanews.com.cn/dwq/2026/10-23/10719520.shtml"
-            },
-            "publishedAt": "2026-10-23T01:27:53.000Z",
-            "discoveredAt": "2026-10-23T01:34:45.884Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af8d17637a0e58ea5de1ce686"
-            }
-          },
-          {
-            "id": "a9d15393edf80481078107aff",
-            "title": "【国内要闻】青春在“火焰蓝”中淬炼",
-            "originalTitle": "青春在“火焰蓝”中淬炼",
-            "summary": "中新网兰州10月23日电 (刘薛梅)青春的价值，不只是在危急时刻挺身而出，也体现在日复一日的刻苦训练中，体现在主动走进群众、做好消防宣传和隐患排查的实际行动中。22日，甘肃兰州市安宁区刘家堡消防救援站政治指导员高睿说，“对一支青年队伍来说，也意味着要用过硬的本领扛起更重的责任。”",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9d15393edf80481078107aff",
-              "original": "https://www.chinanews.com.cn/sh/2026/10-23/10719521.shtml"
-            },
-            "publishedAt": "2026-10-23T01:26:19.000Z",
-            "discoveredAt": "2026-10-23T01:34:46.087Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9d15393edf80481078107aff"
-            }
-          },
-          {
-            "id": "a6df394b443a5f6aace4a3068",
-            "title": "【国内要闻】临朐县工商联：轮值“动起来” 履职“活起来”",
-            "originalTitle": "临朐县工商联：轮值“动起来” 履职“活起来”",
-            "summary": "今年以来，临朐县工商联紧扣“两个健康”工作主题，积极探索企业家副主席、副会长轮值制度，以制度创新激活组织活力，以履职实践提升服务效能，走出了一条“企业家办会、企业家管事、企业家服务”的新路子。",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a6df394b443a5f6aace4a3068",
-              "original": "https://www.chinanews.com.cn/txy/2026/10-23/10719491.shtml"
-            },
-            "publishedAt": "2026-10-23T01:25:03.000Z",
-            "discoveredAt": "2026-10-23T01:34:46.290Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a6df394b443a5f6aace4a3068"
-            }
-          },
-          {
-            "id": "a65260cf1de9bca466c8db8f8",
-            "title": "【国内要闻】台风“蔷琵”将向西北方向移动 新疆北部仍有大风降温和雨雪天气",
-            "originalTitle": "台风“蔷琵”将向西北方向移动 新疆北部仍有大风降温和雨雪天气",
-            "summary": "中新网10月23日电 据中央气象台网站消息，23日至24日，新疆北部仍有持续雨雪和大风降温天气，局地累计降水量大，需加强对交通、旅游和农畜牧业等安全管理。关注台风“蔷琵”发展移动趋势及对我国东南部海域、华东沿海等地的风雨影响。另外，24日起，西北地区东部、内蒙古、华北等地部分地区有雨雪天气，关注对交通、城市运行等的影响。",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a65260cf1de9bca466c8db8f8",
-              "original": "https://www.chinanews.com.cn/sh/2026/10-23/10719480.shtml"
-            },
-            "publishedAt": "2026-10-23T01:23:13.000Z",
-            "discoveredAt": "2026-10-23T01:34:46.491Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a65260cf1de9bca466c8db8f8"
             }
           }
         ]
@@ -791,52 +235,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/aeeba16bb3aacd01087c84de5"
             }
-          },
-          {
-            "id": "a2f3ae66196d311ff6bdd159a",
-            "title": "【X·AI一手】Show HN：agent-usage-guard – 一个 Claude Code mod，用于保护您的使用窗口",
-            "originalTitle": "Show HN: agent-usage-guard – a Claude Code mod to protect your usage window",
-            "summary": "X (Twitter)·硅谷AI大佬实时快讯：Show HN: agent-usage-guard – a Claude Code mod to protect your usage window。Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。（来源：X (Twitter)·硅谷AI大佬）",
-            "source": {
-              "name": "X (Twitter)·硅谷AI大佬"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a2f3ae66196d311ff6bdd159a",
-              "original": "https://github.com/rbartoli/agent-usage-guard"
-            },
-            "publishedAt": "2026-10-22T18:02:38.000Z",
-            "discoveredAt": "2026-10-22T23:13:12.110Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a2f3ae66196d311ff6bdd159a"
-            }
-          },
-          {
-            "id": "a0f2e07ca1738d8bcf485b8fb",
-            "title": "【独立变现】Show HN：在 Android 设备上运行完整的 iOS 16.5 固件",
-            "originalTitle": "Show HN: Run full iOS 16.5 firmware on Android Devices",
-            "summary": "Show HN·独立变现榜实时快讯：Show HN: Run full iOS 16.5 firmware on Android Devices。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
-            "source": {
-              "name": "Show HN·独立变现榜"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a0f2e07ca1738d8bcf485b8fb",
-              "original": "https://github.com/oosexgang/hackios-xnu-kernel"
-            },
-            "publishedAt": "2026-10-22T15:26:22.000Z",
-            "discoveredAt": "2026-10-22T19:58:15.433Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a0f2e07ca1738d8bcf485b8fb"
-            }
           }
         ]
       },
@@ -845,118 +243,72 @@
         "label": "🤖 AI实时Top20",
         "items": [
           {
-            "id": "a1b2a46920519f29dc124a6a4",
-            "title": "【硅谷AI】独自无事可做，人工智能代理开始玩",
-            "originalTitle": "Left alone with nothing to do, AI agents started playing",
-            "summary": "麻省理工学院的研究人员将 13 名人工智能困在一个虚拟岛上，他们的反应是发明游戏、哀悼丢失的戒指，并最终在工作中取得更好的成绩。（来源：TechCrunch·硅谷AI）",
+            "id": "a0879d3bcc132bc822db6495e",
+            "title": "【国内要闻】宁夏出台电力专项举措护航“东数西算”算力发展",
+            "originalTitle": "宁夏出台电力专项举措护航“东数西算”算力发展",
+            "summary": "中新网银川10月23日电 (记者 于晶)10月23日，国网宁夏电力发布服务算力发展八项措施，以“八强化八满足”对接宁夏“东数西算”国家枢纽节点建设。宁夏成为全国首个推出电力服务算力一揽子专项保障举措的省份，依托坚强电网与创新机制，助力算力产业用电高效、绿色、安全发展。",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0879d3bcc132bc822db6495e",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-23/10719664.shtml"
+            },
+            "publishedAt": "2026-10-23T06:22:01.000Z",
+            "discoveredAt": "2026-10-23T06:31:15.188Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0879d3bcc132bc822db6495e"
+            }
+          },
+          {
+            "id": "abd562cb597f86d5fb5ef551a",
+            "title": "Kimi即将发布K3.1并发布相关预热视频",
+            "originalTitle": "Kimi即将发布K3.1并发布相关预热视频",
+            "summary": "10月23日，据多方信源消息，Kimi（月之暗面）即将发布最新大模型K3.1，并发布相关预热视频，目前AI行业不少开发者已经关注到相关更新，并引发热烈讨论。（澎湃新闻）",
+            "source": {
+              "name": "界面新闻·国内政经"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abd562cb597f86d5fb5ef551a",
+              "original": "https://www.jiemian.com/article/15229909.html"
+            },
+            "publishedAt": "2026-10-23T06:19:51.000Z",
+            "discoveredAt": "2026-10-23T06:31:18.799Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abd562cb597f86d5fb5ef551a"
+            }
+          },
+          {
+            "id": "aabea37f77149a45f8e598622",
+            "title": "【硅谷AI】Uber 竞争对手 inDrive 计划与 Pony.ai 和 Nvidia 合作，于 2027 年在中亚进行机器人出租车测试",
+            "originalTitle": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+            "summary": "inDrive计划于2027年上半年开始在哈萨克斯坦首都测试小马智行的机器人出租车。（来源：TechCrunch·硅谷AI）",
             "source": {
               "name": "TechCrunch·硅谷AI"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a1b2a46920519f29dc124a6a4",
-              "original": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/"
+              "aihot": "https://zenglian-news.onrender.com/items/aabea37f77149a45f8e598622",
+              "original": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/"
             },
-            "publishedAt": "2026-10-23T00:45:37.000Z",
-            "discoveredAt": "2026-10-23T01:35:22.500Z",
+            "publishedAt": "2026-10-23T04:00:00.000Z",
+            "discoveredAt": "2026-10-23T06:31:38.147Z",
             "category": "tech",
             "score": 99,
             "selected": true,
             "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a1b2a46920519f29dc124a6a4"
-            }
-          },
-          {
-            "id": "acbb271f8da0039ac15a381c4",
-            "title": "【X·AI一手】谷歌 DeepMind 创始人哈萨比斯将 AGI 时间表从五年缩短到两三年",
-            "originalTitle": "Google DeepMind founder Hassabis shortens AGI timeline from five to two to three years",
-            "summary": "由 /u/Malor777 提交 [链接] [评论]（来源：X (Twitter)·硅谷AI大佬）",
-            "source": {
-              "name": "X (Twitter)·硅谷AI大佬"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/acbb271f8da0039ac15a381c4",
-              "original": "https://www.reddit.com/r/OpenAI/comments/1xcz4o0/google_deepmind_founder_hassabis_shortens_agi/"
-            },
-            "publishedAt": "2026-10-23T00:11:09.000Z",
-            "discoveredAt": "2026-10-23T01:35:18.876Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/acbb271f8da0039ac15a381c4"
-            }
-          },
-          {
-            "id": "a903648e8bef61fbf3e44872b",
-            "title": "【硅谷AI】OpenAI 致力于在 IPO 前以 1.25T 美元的估值进行新的 30B 美元融资",
-            "originalTitle": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-            "summary": "如果 OpenAI 在这一轮融资中获得超过 1 万亿美元的估值，它将打破有史以来估值最高的私营公司的记录。（来源：TechCrunch·硅谷AI）",
-            "source": {
-              "name": "TechCrunch·硅谷AI"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a903648e8bef61fbf3e44872b",
-              "original": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
-            },
-            "publishedAt": "2026-10-22T22:08:24.000Z",
-            "discoveredAt": "2026-10-22T23:13:17.459Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a903648e8bef61fbf3e44872b"
-            }
-          },
-          {
-            "id": "a79d7fa89a5e5d4dc3a0df4ce",
-            "title": "【MIT·AI】设计持久耐用的人工智能服务线束",
-            "originalTitle": "Designing an AI serving harness built to last",
-            "summary": "企业人工智能的下一个竞争优势与您选择的模型无关，而与您围绕该模型构建的内容有关。这是一个重要的转变。在过去的几年里，人工智能的大部分对话都集中在……（来源：MIT科技评论·AI突破）",
-            "source": {
-              "name": "MIT科技评论·AI突破"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a79d7fa89a5e5d4dc3a0df4ce",
-              "original": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
-            },
-            "publishedAt": "2026-10-22T21:17:29.000Z",
-            "discoveredAt": "2026-10-22T23:13:16.535Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "麻省理工科技评论权威AI报道，洞察下一代人工智能底层突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a79d7fa89a5e5d4dc3a0df4ce"
-            }
-          },
-          {
-            "id": "a9e53416fabed7f32e811599e",
-            "title": "【X·AI一手】问 HN：如果模型这么好，OpenAI 为什么不直接创办 100 家公司呢？",
-            "originalTitle": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
-            "summary": "标题有点夸张，但问题更在于：如果前沿模型如此优秀，为什么还要将它们作为主要赚钱工具出售呢？ OpenAI 或 Anthropic 不能通过创办公司赚更多的钱吗？（来源：X (Twitter)·硅谷AI大佬）",
-            "source": {
-              "name": "X (Twitter)·硅谷AI大佬"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9e53416fabed7f32e811599e",
-              "original": "https://news.ycombinator.com/item?id=50200997"
-            },
-            "publishedAt": "2026-10-22T21:03:55.000Z",
-            "discoveredAt": "2026-10-22T23:13:11.498Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9e53416fabed7f32e811599e"
+              "url": "https://zenglian-news.onrender.com/items/aabea37f77149a45f8e598622"
             }
           }
         ]
@@ -965,6 +317,52 @@
         "category": "culture",
         "label": "🎬 影视娱乐Top20",
         "items": [
+          {
+            "id": "a2e62f60f099876a91e500f52",
+            "title": "【全球票房】《Clayface》周四首映票房收入超过 350 万美元",
+            "originalTitle": "‘Clayface’ Cashing In $3.5M+ Thursday Previews – Box Office",
+            "summary": "独家报道：彼得·萨弗兰 (Peter Safran) 和詹姆斯·古恩 (James Gunn) 执导的 DC 电影《粘土脸》(Clayface) 在今晚的预映中取得了良好的开局，估计票房达到 350 万美元，甚至更多。国内周末预计价格在 2000 万美元至 2000 万美元之间...（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a2e62f60f099876a91e500f52",
+              "original": "https://deadline.com/2026/10/box-office-clayface-you-can-see-everything-1237171500/"
+            },
+            "publishedAt": "2026-10-23T03:19:40.000Z",
+            "discoveredAt": "2026-10-23T06:31:44.989Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a2e62f60f099876a91e500f52"
+            }
+          },
+          {
+            "id": "ab993f073d8c5dcbde42b4a5c",
+            "title": "【好莱坞一手】理查德·加德、比尔·坎普和雷·麦金农加盟迈克尔·基顿执导的西部片《毁灭之路》（独家）",
+            "originalTitle": "Richard Gadd, Bill Camp and Ray McKinnon Join Michael Keaton-Directed Western ‘Rode to Ruin’ (EXCLUSIVE)",
+            "summary": "艾美奖获奖演员兼作家理查德·加德、多次获得艾美奖和美国演员工会奖提名的演员比尔·坎普以及奥斯卡提名电影制片人兼演员雷·麦金农将加盟迈克尔·基托执导的西部惊悚片《毁灭之路》……（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ab993f073d8c5dcbde42b4a5c",
+              "original": "https://variety.com/2026/film/news/richard-gadd-bill-camp-ray-mckinnon-rode-to-ruin-1236922088/"
+            },
+            "publishedAt": "2026-10-23T02:22:45.000Z",
+            "discoveredAt": "2026-10-23T06:31:41.836Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ab993f073d8c5dcbde42b4a5c"
+            }
+          },
           {
             "id": "a45467b5e2ef414779360e583",
             "title": "【全球票房】乔·佩里退出今晚的好莱坞吸血鬼电影西海岸首映，史密斯飞船为好莱坞碗演出做好准备",
@@ -986,98 +384,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a45467b5e2ef414779360e583"
-            }
-          },
-          {
-            "id": "a8de5bd910b53bc70a7bef5a6",
-            "title": "【好莱坞一手】陈可辛排除人工智能生成的内容，称故事片将在垂直剧情片的崛起中幸存下来",
-            "originalTitle": "Peter Chan Rules Out AI-Generated Content, Says Feature Films Will Survive the Rise of Vertical Dramas",
-            "summary": "著名亚洲电影制片人、《战友：差不多是爱情故事》和《投名状》的导演陈可辛表示，他可能会在电影制作中使用人工智能，但“绝对不会 AIGC”或人工智能生成的内容，而且……（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a8de5bd910b53bc70a7bef5a6",
-              "original": "https://variety.com/2026/film/festivals/peter-chan-rules-out-ai-generated-content-feature-films-survival-1236922012/"
-            },
-            "publishedAt": "2026-10-23T00:27:55.000Z",
-            "discoveredAt": "2026-10-23T01:35:25.222Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a8de5bd910b53bc70a7bef5a6"
-            }
-          },
-          {
-            "id": "a3f9ed55ee41a102f0025650d",
-            "title": "【全球票房】萨莎·拜伦·科恩表示漫威《钢铁之心》制片人​​希望确保他在饰演犹太演员时“没有受到侮辱”",
-            "originalTitle": "Sacha Baron Cohen Says Marvel’s ‘Ironheart’ Producers Wanted To Ensure He Was “Not Insulted” Playing Devil As Jewish Actor",
-            "summary": "萨莎·拜伦·科恩 (Sacha Baron Cohen) 最近加入漫威宇宙，他称赞《钢铁之心》的制作团队考虑到了他的犹太身份。这位三届奥斯卡提名者最近回忆道，制片人和导演...（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a3f9ed55ee41a102f0025650d",
-              "original": "https://deadline.com/2026/10/sacha-baron-cohen-marvel-ironheart-not-insulted-devil-jewish-1237171378/"
-            },
-            "publishedAt": "2026-10-23T00:13:29.000Z",
-            "discoveredAt": "2026-10-23T01:35:32.552Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a3f9ed55ee41a102f0025650d"
-            }
-          },
-          {
-            "id": "a26cd21ff185e4918f2a9d7ff",
-            "title": "【好莱坞一手】2027 年奥斯卡预测：《你可以看到一切》能打败《奥德赛》吗？",
-            "originalTitle": "Oscars Predictions 2027: Is ‘You Can See Everything’ the Film That Can Take Down ‘The Odyssey’?",
-            "summary": "Variety Awards Circuit 部分是全年所有奖项新闻和相关内容的主页，其中包括以下内容：对即将举行的奥斯卡、艾美奖、格莱美奖和托尼奥奖的官方预测...（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a26cd21ff185e4918f2a9d7ff",
-              "original": "https://variety.com/lists/2027-oscars-predictions/"
-            },
-            "publishedAt": "2026-10-23T00:10:00.000Z",
-            "discoveredAt": "2026-10-23T01:35:27.567Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a26cd21ff185e4918f2a9d7ff"
-            }
-          },
-          {
-            "id": "aebb07fbf3785bf6465f7b479",
-            "title": "【全球票房】《没人想要这个》主创艾琳·福斯特回应亚当·布罗迪的“自由巴勒斯坦”评论：“这很复杂”",
-            "originalTitle": "‘Nobody Wants This’ Creator Erin Foster Responds To Adam Brody’s “Free Palestine” Comments: “It’s Complicated”",
-            "summary": "《无人想要》第三季回归 Netflix，艾琳·福斯特回应了亚当·布罗迪最近对以色列与哈马斯冲突的评论。该剧的创作者最近解释说，尽管她确实“不同意”......（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aebb07fbf3785bf6465f7b479",
-              "original": "https://deadline.com/2026/10/nobody-wants-this-creator-responds-adam-brody-free-palestine-1237171442/"
-            },
-            "publishedAt": "2026-10-23T01:14:32.000Z",
-            "discoveredAt": "2026-10-23T01:35:29.878Z",
-            "category": "culture",
-            "score": 98,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aebb07fbf3785bf6465f7b479"
             }
           }
         ]
@@ -1107,29 +413,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a441e7475f30464c09f7812c9"
-            }
-          },
-          {
-            "id": "a0430fa940f18c308a989118d",
-            "title": "【BBC足坛】萨顿的预测 v 神奇狗华夫饼和他的主人西蒙",
-            "originalTitle": "Sutton's predictions v Waffle the Wonder Dog and his owner, Simon",
-            "summary": "BBC 体育足球专家克里斯·萨顿 (Chris Sutton) 与神奇狗华夫饼 (Waffle the Wonder Dog) 及其主人西蒙 (Simon) 以及 BBC 读者和 AI 进行了对本周末英超联赛比赛的预测。（来源：BBC Sport·欧洲足坛）",
-            "source": {
-              "name": "BBC Sport·欧洲足坛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a0430fa940f18c308a989118d",
-              "original": "https://www.bbc.co.uk/sport/football/articles/c3y0eqkneze4o?at_medium=RSS&at_campaign=rss"
-            },
-            "publishedAt": "2026-10-22T16:30:41.000Z",
-            "discoveredAt": "2026-10-22T19:59:04.987Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a0430fa940f18c308a989118d"
             }
           },
           {
@@ -1177,73 +460,27 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/acdadb47d54edae672d2e4f55"
             }
-          },
-          {
-            "id": "ac5d2e0145f45fc74b43d03cc",
-            "title": "【欧洲足坛】欧罗巴联赛：桑德兰在波兹南举行，尤文图斯否认复出胜利",
-            "originalTitle": "Europa League: Sunderland held in Poznan as Juventus denied comeback win",
-            "summary": "桑德兰在1-1战平的比赛中丢分，但保持不败，VAR判定尤文图斯在与雷恩战平的比赛中获胜。桑德兰在欧罗巴联赛中的胜利开局最终以客场1-1战平波兹南莱赫而告终。重点是让桑德...（来源：卫报体育·欧冠与五大联赛）",
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac5d2e0145f45fc74b43d03cc",
-              "original": "https://www.theguardian.com/football/2026/oct/22/europa-league-sunderland-held-in-poznan-as-juventus-denied-comeback-win"
-            },
-            "publishedAt": "2026-10-22T19:14:48.000Z",
-            "discoveredAt": "2026-10-22T19:59:14.794Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac5d2e0145f45fc74b43d03cc"
-            }
           }
         ]
       }
     ]
   },
-  "monthly": {
-    "kind": "monthly",
-    "key": "2026-10",
-    "title": "曾练全球一手简报 · 月度产业全景报告 (2026年10月)",
-    "subtitle": "30天六大实时Top20赛道全景洞察与高价值搞钱机会总结",
-    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：埃隆·马斯克 (Elon Musk) 投入 3.66 亿美元竞选活动，SpaceX 和特斯拉在选举中的风险很高；Canva 的第一个 AI 图像模型在生成之前规划设计；人工智能和科学共享的圈地。",
+  "weekly": {
+    "kind": "weekly",
+    "key": "2026-W41",
+    "title": "曾练全球一手简报 · 本周核心周报 (2026年第41周)",
+    "subtitle": "7天全球政经、国内大事、商业搞钱、AI突破与文体焦点深度复盘",
+    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：Canva 的第一个 AI 图像模型在生成之前规划设计；上海：降低智能要素使用成本；您认为 SaaS 已经过度饱和了吗？想想这个。。",
     "metrics": {
-      "totalEvents": 36,
-      "sourcesCount": 31,
-      "selectedCount": 36
+      "totalEvents": 30,
+      "sourcesCount": 30,
+      "selectedCount": 30
     },
     "sections": [
       {
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
-          {
-            "id": "a7039d41c9ed5956a7305a65d",
-            "title": "【CNBC全球】埃隆·马斯克 (Elon Musk) 投入 3.66 亿美元竞选活动，SpaceX 和特斯拉在选举中的风险很高",
-            "originalTitle": "SpaceX and Tesla have high election stakes as Elon Musk pours $366 million into campaigns",
-            "summary": "马斯克最大的政治赌注是参议院，参议院的控制权可能会影响未来的调查、联邦支出以及影响 SpaceX 和特斯拉的法规。（来源：CNBC·全球政经）",
-            "source": {
-              "name": "CNBC·全球政经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7039d41c9ed5956a7305a65d",
-              "original": "https://www.cnbc.com/2026/10/22/elon-musk-midterm-election-spacex-tesla.html"
-            },
-            "publishedAt": "2026-10-22T21:58:42.000Z",
-            "discoveredAt": "2026-10-22T23:12:38.299Z",
-            "category": "global",
-            "score": 99,
-            "selected": true,
-            "reason": "CNBC 国际财经与地缘政治实时快讯，把握全球资本与央行风向。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7039d41c9ed5956a7305a65d"
-            }
-          },
           {
             "id": "ab1c3ae1a007710f4f7f75381",
             "title": "【国际巨头】Canva 的第一个 AI 图像模型在生成之前规划设计",
@@ -1265,29 +502,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ab1c3ae1a007710f4f7f75381"
-            }
-          },
-          {
-            "id": "a86b2f9d8cbed8528c18455ae",
-            "title": "【全球热榜】人工智能和科学共享的圈地",
-            "originalTitle": "AI and the Enclosure of the Scientific Commons",
-            "summary": "X/HN·全球热榜Top实时快讯：AI and the Enclosure of the Scientific Commons。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a86b2f9d8cbed8528c18455ae",
-              "original": "https://arxiv.org/abs/2610.27251"
-            },
-            "publishedAt": "2026-10-22T18:28:16.000Z",
-            "discoveredAt": "2026-10-23T01:34:42.862Z",
-            "category": "global",
-            "score": 99,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a86b2f9d8cbed8528c18455ae"
             }
           },
           {
@@ -1337,26 +551,49 @@
             }
           },
           {
-            "id": "ab94208c7474e83f452e9b3e6",
-            "title": "【全球热榜】英伟达 OpenShell",
-            "originalTitle": "Nvidia OpenShell",
-            "summary": "X/HN·全球热榜Top实时快讯：Nvidia OpenShell。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "id": "a7fbae321025ea022455e9d05",
+            "title": "【全球热榜】“自然语言编程”的愚蠢（1978）",
+            "originalTitle": "The foolishness of \"natural language programming\" (1978)",
+            "summary": "X/HN·全球热榜Top实时快讯：The foolishness of \"natural language programming\" (1978)。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
             "source": {
               "name": "X/HN·全球热榜Top"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab94208c7474e83f452e9b3e6",
-              "original": "https://github.com/NVIDIA/OpenShell"
+              "aihot": "https://zenglian-news.onrender.com/items/a7fbae321025ea022455e9d05",
+              "original": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html"
             },
-            "publishedAt": "2026-10-22T17:44:06.000Z",
-            "discoveredAt": "2026-10-22T19:58:00.120Z",
+            "publishedAt": "2026-10-23T00:52:01.000Z",
+            "discoveredAt": "2026-10-23T06:31:12.340Z",
             "category": "global",
-            "score": 98,
+            "score": 97,
             "selected": true,
             "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab94208c7474e83f452e9b3e6"
+              "url": "https://zenglian-news.onrender.com/items/a7fbae321025ea022455e9d05"
+            }
+          },
+          {
+            "id": "a589b6155f40e16426f4e7c81",
+            "title": "【全球热榜】法学硕士正在使正式软件验证在更大范围内变得可行",
+            "originalTitle": "LLMs are making formal software verification feasible at a much larger scale",
+            "summary": "X/HN·全球热榜Top实时快讯：LLMs are making formal software verification feasible at a much larger scale。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a589b6155f40e16426f4e7c81",
+              "original": "https://www.anthropic.com/research/formal-verification"
+            },
+            "publishedAt": "2026-10-22T22:54:43.000Z",
+            "discoveredAt": "2026-10-23T06:31:13.645Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a589b6155f40e16426f4e7c81"
             }
           }
         ]
@@ -1365,6 +602,52 @@
         "category": "domestic",
         "label": "🇨🇳 国内实时Top20",
         "items": [
+          {
+            "id": "a56193fe33127887d31dc773f",
+            "title": "上海：降低智能要素使用成本",
+            "originalTitle": "上海：降低智能要素使用成本",
+            "summary": "上海市经济和信息化委员会印发《上海市加快推动人工智能赋能工业服务业高质量发展行动方案（2027-2028年）》提出，降低智能要素使用成本。支持企业调用云平台部署的第三方大模型API，或采用第三方大模型私有化部署方式，推进大模型垂类应用，给予最高500万元补贴。鼓励工业智算云平台向工业服务业企业提供低代码智能体开发平台，推出算力惠企方案。支持企业租用非关联方智算资源开展大模型、智能体研发与应用，给予最高30%租用补贴。支持企业购买高质量语...",
+            "source": {
+              "name": "界面新闻·国内政经"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a56193fe33127887d31dc773f",
+              "original": "https://www.jiemian.com/article/15229942.html"
+            },
+            "publishedAt": "2026-10-23T06:20:12.000Z",
+            "discoveredAt": "2026-10-23T06:31:18.580Z",
+            "category": "domestic",
+            "score": 99,
+            "selected": true,
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a56193fe33127887d31dc773f"
+            }
+          },
+          {
+            "id": "ade1d6a014bc72c424d8d8b17",
+            "title": "【国内要闻】宜涪高铁高湾隧道贯通 系重庆段“首通”",
+            "originalTitle": "宜涪高铁高湾隧道贯通 系重庆段“首通”",
+            "summary": "中新网重庆10月23日电 (张旭 晁国辉)长江沿岸铁路集团重庆有限公司10月23日发布消息称，当日，随着最后一次爆破，宜涪高铁高湾隧道顺利贯通，系宜涪高铁重庆段首座实现贯通的隧道。",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ade1d6a014bc72c424d8d8b17",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-23/10719680.shtml"
+            },
+            "publishedAt": "2026-10-23T06:14:19.000Z",
+            "discoveredAt": "2026-10-23T06:31:16.081Z",
+            "category": "domestic",
+            "score": 98,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ade1d6a014bc72c424d8d8b17"
+            }
+          },
           {
             "id": "a1c6a4be21ed65765b63455b0",
             "title": "特朗普被曝对马斯克表示不满",
@@ -1389,118 +672,49 @@
             }
           },
           {
-            "id": "af8d17637a0e58ea5de1ce686",
-            "title": "【国内要闻】香港举办“优专大讲堂”首场论坛 聚焦文化赋能湾区人才融合",
-            "originalTitle": "香港举办“优专大讲堂”首场论坛 聚焦文化赋能湾区人才融合",
-            "summary": "中新网香港10月23日电 (记者 戴小橦)由香港优才及专才协会联同香港理工大学内地发展处主办的“优专大讲堂”首场论坛22日在香港举行，主题为“从‘中国人’的文化基因看国际人才融入香港与大湾区”。",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af8d17637a0e58ea5de1ce686",
-              "original": "https://www.chinanews.com.cn/dwq/2026/10-23/10719520.shtml"
-            },
-            "publishedAt": "2026-10-23T01:27:53.000Z",
-            "discoveredAt": "2026-10-23T01:34:45.884Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af8d17637a0e58ea5de1ce686"
-            }
-          },
-          {
-            "id": "a9d15393edf80481078107aff",
-            "title": "【国内要闻】青春在“火焰蓝”中淬炼",
-            "originalTitle": "青春在“火焰蓝”中淬炼",
-            "summary": "中新网兰州10月23日电 (刘薛梅)青春的价值，不只是在危急时刻挺身而出，也体现在日复一日的刻苦训练中，体现在主动走进群众、做好消防宣传和隐患排查的实际行动中。22日，甘肃兰州市安宁区刘家堡消防救援站政治指导员高睿说，“对一支青年队伍来说，也意味着要用过硬的本领扛起更重的责任。”",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9d15393edf80481078107aff",
-              "original": "https://www.chinanews.com.cn/sh/2026/10-23/10719521.shtml"
-            },
-            "publishedAt": "2026-10-23T01:26:19.000Z",
-            "discoveredAt": "2026-10-23T01:34:46.087Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9d15393edf80481078107aff"
-            }
-          },
-          {
-            "id": "a6df394b443a5f6aace4a3068",
-            "title": "【国内要闻】临朐县工商联：轮值“动起来” 履职“活起来”",
-            "originalTitle": "临朐县工商联：轮值“动起来” 履职“活起来”",
-            "summary": "今年以来，临朐县工商联紧扣“两个健康”工作主题，积极探索企业家副主席、副会长轮值制度，以制度创新激活组织活力，以履职实践提升服务效能，走出了一条“企业家办会、企业家管事、企业家服务”的新路子。",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a6df394b443a5f6aace4a3068",
-              "original": "https://www.chinanews.com.cn/txy/2026/10-23/10719491.shtml"
-            },
-            "publishedAt": "2026-10-23T01:25:03.000Z",
-            "discoveredAt": "2026-10-23T01:34:46.290Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a6df394b443a5f6aace4a3068"
-            }
-          },
-          {
-            "id": "a65260cf1de9bca466c8db8f8",
-            "title": "【国内要闻】台风“蔷琵”将向西北方向移动 新疆北部仍有大风降温和雨雪天气",
-            "originalTitle": "台风“蔷琵”将向西北方向移动 新疆北部仍有大风降温和雨雪天气",
-            "summary": "中新网10月23日电 据中央气象台网站消息，23日至24日，新疆北部仍有持续雨雪和大风降温天气，局地累计降水量大，需加强对交通、旅游和农畜牧业等安全管理。关注台风“蔷琵”发展移动趋势及对我国东南部海域、华东沿海等地的风雨影响。另外，24日起，西北地区东部、内蒙古、华北等地部分地区有雨雪天气，关注对交通、城市运行等的影响。",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a65260cf1de9bca466c8db8f8",
-              "original": "https://www.chinanews.com.cn/sh/2026/10-23/10719480.shtml"
-            },
-            "publishedAt": "2026-10-23T01:23:13.000Z",
-            "discoveredAt": "2026-10-23T01:34:46.491Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a65260cf1de9bca466c8db8f8"
-            }
-          },
-          {
-            "id": "a62f36248f28ebaf1c60e1149",
-            "title": "马斯克大胆预测：只要不受监管限制，特斯拉终将主导全球客运市场",
-            "originalTitle": "马斯克大胆预测：只要不受监管限制，特斯拉终将主导全球客运市场",
-            "summary": "IT之家 10 月 23 日消息，据《商业内幕》报道，特斯拉 CEO 埃隆 · 马斯克长期相信，自动驾驶汽车将取代人类司机，承担载客出行任务。 当地时间 21 日的特斯拉财报电话会议上，马斯克提出了更加大胆的预测： 只要不受监管限制，特斯拉最终将主导全球客运市场 。“我认为，凡是允许特斯拉自由运营的国家，特斯拉最终都将 承担当地超过一半的乘客出行里程 。大家以后可以检验这个预测，我对此很有信心。” 他同时认为，特斯拉实现这一目标的最大障...",
+            "id": "a9620d989530579a2bc3eaf3b",
+            "title": "“AI 教父”辛顿再抛悲观论：AI 已经拥有意识，人类必须与其友好相处",
+            "originalTitle": "“AI 教父”辛顿再抛悲观论：AI 已经拥有意识，人类必须与其友好相处",
+            "summary": "IT之家 10 月 23 日消息，被誉为“AI 教父”之一的英国计算机科学家杰弗里 · 辛顿，再次对人类的未来发出悲观警告。 辛顿接受英国《每日电讯报》采访时坚称，AI 已经具备意识，人类必须与 AI 友好相处， 否则“我们就完了” 。 在他看来，即便是当下的 AI 模型，也拥有自己的意识。“AI 拥有与人类同等程度的主观体验。最近有篇论文发现， AI 如果认为自己在接受测试，就会改变行为。它知道自己在接受测试 。通常来说，如果一个事物...",
             "source": {
               "name": "IT之家·国内产业"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a62f36248f28ebaf1c60e1149",
-              "original": "https://www.ithome.com/1/016/763.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a9620d989530579a2bc3eaf3b",
+              "original": "https://www.ithome.com/1/016/998.htm"
             },
-            "publishedAt": "2026-10-22T23:12:30.000Z",
-            "discoveredAt": "2026-10-22T23:12:50.017Z",
+            "publishedAt": "2026-10-23T06:18:33.000Z",
+            "discoveredAt": "2026-10-23T06:31:23.513Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a62f36248f28ebaf1c60e1149"
+              "url": "https://zenglian-news.onrender.com/items/a9620d989530579a2bc3eaf3b"
+            }
+          },
+          {
+            "id": "a656e2a8848a6c51cb85dee97",
+            "title": "【国内要闻】一港联通内外 自贸港“样板间”激发新活力",
+            "originalTitle": "一港联通内外 自贸港“样板间”激发新活力",
+            "summary": "自去年12月18日封关运作以来，海南自贸港开放政策红利持续释放，一系列“首票”“首单”在众多产业里诞生，市场活力不断激发。位于海南自贸港西北部的洋浦，是自贸港的“样板间”。封关后的洋浦有哪些新变化？激发出哪些新活力？",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a656e2a8848a6c51cb85dee97",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-23/10719698.shtml"
+            },
+            "publishedAt": "2026-10-23T06:17:35.000Z",
+            "discoveredAt": "2026-10-23T06:31:15.412Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a656e2a8848a6c51cb85dee97"
             }
           }
         ]
@@ -1623,29 +837,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a0f2e07ca1738d8bcf485b8fb"
             }
-          },
-          {
-            "id": "a15bd7e7ed1fca7cad4f215ba",
-            "title": "【出海实战】我要求免费试用卡，这几乎使我的销售额翻了一番",
-            "originalTitle": "I made my free trial card-required and it almost doubled my sales",
-            "summary": "直到 2025 年 8 月，我的 SaaS 都有免费试用，无需任何卡 大约 98% 的注册者开始试用，但只有 5% 转换为付费计划 每次试用都会花费我 AI 和 API 资金 最重要的是，我的大部分交易...（来源：X/Reddit·出海SaaS搞钱）",
-            "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a15bd7e7ed1fca7cad4f215ba",
-              "original": "https://www.reddit.com/r/SaaS/comments/1xcimzs/i_made_my_free_trial_cardrequired_and_it_almost/"
-            },
-            "publishedAt": "2026-10-22T13:30:45.000Z",
-            "discoveredAt": "2026-10-22T15:59:07.972Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a15bd7e7ed1fca7cad4f215ba"
-            }
           }
         ]
       },
@@ -1653,6 +844,75 @@
         "category": "tech",
         "label": "🤖 AI实时Top20",
         "items": [
+          {
+            "id": "a0879d3bcc132bc822db6495e",
+            "title": "【国内要闻】宁夏出台电力专项举措护航“东数西算”算力发展",
+            "originalTitle": "宁夏出台电力专项举措护航“东数西算”算力发展",
+            "summary": "中新网银川10月23日电 (记者 于晶)10月23日，国网宁夏电力发布服务算力发展八项措施，以“八强化八满足”对接宁夏“东数西算”国家枢纽节点建设。宁夏成为全国首个推出电力服务算力一揽子专项保障举措的省份，依托坚强电网与创新机制，助力算力产业用电高效、绿色、安全发展。",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0879d3bcc132bc822db6495e",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-23/10719664.shtml"
+            },
+            "publishedAt": "2026-10-23T06:22:01.000Z",
+            "discoveredAt": "2026-10-23T06:31:15.188Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0879d3bcc132bc822db6495e"
+            }
+          },
+          {
+            "id": "abd562cb597f86d5fb5ef551a",
+            "title": "Kimi即将发布K3.1并发布相关预热视频",
+            "originalTitle": "Kimi即将发布K3.1并发布相关预热视频",
+            "summary": "10月23日，据多方信源消息，Kimi（月之暗面）即将发布最新大模型K3.1，并发布相关预热视频，目前AI行业不少开发者已经关注到相关更新，并引发热烈讨论。（澎湃新闻）",
+            "source": {
+              "name": "界面新闻·国内政经"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abd562cb597f86d5fb5ef551a",
+              "original": "https://www.jiemian.com/article/15229909.html"
+            },
+            "publishedAt": "2026-10-23T06:19:51.000Z",
+            "discoveredAt": "2026-10-23T06:31:18.799Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abd562cb597f86d5fb5ef551a"
+            }
+          },
+          {
+            "id": "aabea37f77149a45f8e598622",
+            "title": "【硅谷AI】Uber 竞争对手 inDrive 计划与 Pony.ai 和 Nvidia 合作，于 2027 年在中亚进行机器人出租车测试",
+            "originalTitle": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+            "summary": "inDrive计划于2027年上半年开始在哈萨克斯坦首都测试小马智行的机器人出租车。（来源：TechCrunch·硅谷AI）",
+            "source": {
+              "name": "TechCrunch·硅谷AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aabea37f77149a45f8e598622",
+              "original": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/"
+            },
+            "publishedAt": "2026-10-23T04:00:00.000Z",
+            "discoveredAt": "2026-10-23T06:31:38.147Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aabea37f77149a45f8e598622"
+            }
+          },
           {
             "id": "a1b2a46920519f29dc124a6a4",
             "title": "【硅谷AI】独自无事可做，人工智能代理开始玩",
@@ -1698,98 +958,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/acbb271f8da0039ac15a381c4"
             }
-          },
-          {
-            "id": "a903648e8bef61fbf3e44872b",
-            "title": "【硅谷AI】OpenAI 致力于在 IPO 前以 1.25T 美元的估值进行新的 30B 美元融资",
-            "originalTitle": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-            "summary": "如果 OpenAI 在这一轮融资中获得超过 1 万亿美元的估值，它将打破有史以来估值最高的私营公司的记录。（来源：TechCrunch·硅谷AI）",
-            "source": {
-              "name": "TechCrunch·硅谷AI"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a903648e8bef61fbf3e44872b",
-              "original": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
-            },
-            "publishedAt": "2026-10-22T22:08:24.000Z",
-            "discoveredAt": "2026-10-22T23:13:17.459Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a903648e8bef61fbf3e44872b"
-            }
-          },
-          {
-            "id": "a79d7fa89a5e5d4dc3a0df4ce",
-            "title": "【MIT·AI】设计持久耐用的人工智能服务线束",
-            "originalTitle": "Designing an AI serving harness built to last",
-            "summary": "企业人工智能的下一个竞争优势与您选择的模型无关，而与您围绕该模型构建的内容有关。这是一个重要的转变。在过去的几年里，人工智能的大部分对话都集中在……（来源：MIT科技评论·AI突破）",
-            "source": {
-              "name": "MIT科技评论·AI突破"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a79d7fa89a5e5d4dc3a0df4ce",
-              "original": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
-            },
-            "publishedAt": "2026-10-22T21:17:29.000Z",
-            "discoveredAt": "2026-10-22T23:13:16.535Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "麻省理工科技评论权威AI报道，洞察下一代人工智能底层突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a79d7fa89a5e5d4dc3a0df4ce"
-            }
-          },
-          {
-            "id": "a9e53416fabed7f32e811599e",
-            "title": "【X·AI一手】问 HN：如果模型这么好，OpenAI 为什么不直接创办 100 家公司呢？",
-            "originalTitle": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
-            "summary": "标题有点夸张，但问题更在于：如果前沿模型如此优秀，为什么还要将它们作为主要赚钱工具出售呢？ OpenAI 或 Anthropic 不能通过创办公司赚更多的钱吗？（来源：X (Twitter)·硅谷AI大佬）",
-            "source": {
-              "name": "X (Twitter)·硅谷AI大佬"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9e53416fabed7f32e811599e",
-              "original": "https://news.ycombinator.com/item?id=50200997"
-            },
-            "publishedAt": "2026-10-22T21:03:55.000Z",
-            "discoveredAt": "2026-10-22T23:13:11.498Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9e53416fabed7f32e811599e"
-            }
-          },
-          {
-            "id": "a934fef93485d42368da8052a",
-            "title": "【OpenAI官宣】使用 Decisions API 构建响应速度更快的应用程序",
-            "originalTitle": "Build more responsive apps with the Decisions API",
-            "summary": "为任何应用做出快速、集中、低成本的决策。（来源：OpenAI·官方一手）",
-            "source": {
-              "name": "OpenAI·官方一手"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a934fef93485d42368da8052a",
-              "original": "https://openai.com/index/decisions-api"
-            },
-            "publishedAt": "2026-10-22T19:00:00.000Z",
-            "discoveredAt": "2026-10-22T19:58:25.684Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "OpenAI 官方博客与研究产品一手公告，全球人工智能行业最高风向标。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a934fef93485d42368da8052a"
-            }
           }
         ]
       },
@@ -1797,6 +965,52 @@
         "category": "culture",
         "label": "🎬 影视娱乐Top20",
         "items": [
+          {
+            "id": "a2e62f60f099876a91e500f52",
+            "title": "【全球票房】《Clayface》周四首映票房收入超过 350 万美元",
+            "originalTitle": "‘Clayface’ Cashing In $3.5M+ Thursday Previews – Box Office",
+            "summary": "独家报道：彼得·萨弗兰 (Peter Safran) 和詹姆斯·古恩 (James Gunn) 执导的 DC 电影《粘土脸》(Clayface) 在今晚的预映中取得了良好的开局，估计票房达到 350 万美元，甚至更多。国内周末预计价格在 2000 万美元至 2000 万美元之间...（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a2e62f60f099876a91e500f52",
+              "original": "https://deadline.com/2026/10/box-office-clayface-you-can-see-everything-1237171500/"
+            },
+            "publishedAt": "2026-10-23T03:19:40.000Z",
+            "discoveredAt": "2026-10-23T06:31:44.989Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a2e62f60f099876a91e500f52"
+            }
+          },
+          {
+            "id": "ab993f073d8c5dcbde42b4a5c",
+            "title": "【好莱坞一手】理查德·加德、比尔·坎普和雷·麦金农加盟迈克尔·基顿执导的西部片《毁灭之路》（独家）",
+            "originalTitle": "Richard Gadd, Bill Camp and Ray McKinnon Join Michael Keaton-Directed Western ‘Rode to Ruin’ (EXCLUSIVE)",
+            "summary": "艾美奖获奖演员兼作家理查德·加德、多次获得艾美奖和美国演员工会奖提名的演员比尔·坎普以及奥斯卡提名电影制片人兼演员雷·麦金农将加盟迈克尔·基托执导的西部惊悚片《毁灭之路》……（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ab993f073d8c5dcbde42b4a5c",
+              "original": "https://variety.com/2026/film/news/richard-gadd-bill-camp-ray-mckinnon-rode-to-ruin-1236922088/"
+            },
+            "publishedAt": "2026-10-23T02:22:45.000Z",
+            "discoveredAt": "2026-10-23T06:31:41.836Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ab993f073d8c5dcbde42b4a5c"
+            }
+          },
           {
             "id": "a45467b5e2ef414779360e583",
             "title": "【全球票房】乔·佩里退出今晚的好莱坞吸血鬼电影西海岸首映，史密斯飞船为好莱坞碗演出做好准备",
@@ -1844,95 +1058,26 @@
             }
           },
           {
-            "id": "a3f9ed55ee41a102f0025650d",
-            "title": "【全球票房】萨莎·拜伦·科恩表示漫威《钢铁之心》制片人​​希望确保他在饰演犹太演员时“没有受到侮辱”",
-            "originalTitle": "Sacha Baron Cohen Says Marvel’s ‘Ironheart’ Producers Wanted To Ensure He Was “Not Insulted” Playing Devil As Jewish Actor",
-            "summary": "萨莎·拜伦·科恩 (Sacha Baron Cohen) 最近加入漫威宇宙，他称赞《钢铁之心》的制作团队考虑到了他的犹太身份。这位三届奥斯卡提名者最近回忆道，制片人和导演...（来源：Deadline·全球票房与新片）",
+            "id": "a60a1f99448f4f8e3d1ef8c98",
+            "title": "【全球票房】Zee Studios 确定 Omung Kumar 的《Silaa》的发行日期",
+            "originalTitle": "Zee Studios Sets Release Date For Omung Kumar’s ‘Silaa’",
+            "summary": "独家报道：由 Harshvardhan Rane 主演的 Omung Kumar 执导的《Silaa》将于明年初上映。 Zee Studios 已将这部影片的上映日期定为 2027 年 2 月 5 日，该片由 Rane Khateeb 和 Sadia Khateeb 主演，讲述了一个...（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a3f9ed55ee41a102f0025650d",
-              "original": "https://deadline.com/2026/10/sacha-baron-cohen-marvel-ironheart-not-insulted-devil-jewish-1237171378/"
+              "aihot": "https://zenglian-news.onrender.com/items/a60a1f99448f4f8e3d1ef8c98",
+              "original": "https://deadline.com/2026/10/silaa-release-date-zee-studios-omung-kumars-1237169645/"
             },
-            "publishedAt": "2026-10-23T00:13:29.000Z",
-            "discoveredAt": "2026-10-23T01:35:32.552Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a3f9ed55ee41a102f0025650d"
-            }
-          },
-          {
-            "id": "a26cd21ff185e4918f2a9d7ff",
-            "title": "【好莱坞一手】2027 年奥斯卡预测：《你可以看到一切》能打败《奥德赛》吗？",
-            "originalTitle": "Oscars Predictions 2027: Is ‘You Can See Everything’ the Film That Can Take Down ‘The Odyssey’?",
-            "summary": "Variety Awards Circuit 部分是全年所有奖项新闻和相关内容的主页，其中包括以下内容：对即将举行的奥斯卡、艾美奖、格莱美奖和托尼奥奖的官方预测...（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a26cd21ff185e4918f2a9d7ff",
-              "original": "https://variety.com/lists/2027-oscars-predictions/"
-            },
-            "publishedAt": "2026-10-23T00:10:00.000Z",
-            "discoveredAt": "2026-10-23T01:35:27.567Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a26cd21ff185e4918f2a9d7ff"
-            }
-          },
-          {
-            "id": "aebb07fbf3785bf6465f7b479",
-            "title": "【全球票房】《没人想要这个》主创艾琳·福斯特回应亚当·布罗迪的“自由巴勒斯坦”评论：“这很复杂”",
-            "originalTitle": "‘Nobody Wants This’ Creator Erin Foster Responds To Adam Brody’s “Free Palestine” Comments: “It’s Complicated”",
-            "summary": "《无人想要》第三季回归 Netflix，艾琳·福斯特回应了亚当·布罗迪最近对以色列与哈马斯冲突的评论。该剧的创作者最近解释说，尽管她确实“不同意”......（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aebb07fbf3785bf6465f7b479",
-              "original": "https://deadline.com/2026/10/nobody-wants-this-creator-responds-adam-brody-free-palestine-1237171442/"
-            },
-            "publishedAt": "2026-10-23T01:14:32.000Z",
-            "discoveredAt": "2026-10-23T01:35:29.878Z",
+            "publishedAt": "2026-10-23T05:45:00.000Z",
+            "discoveredAt": "2026-10-23T06:31:43.696Z",
             "category": "culture",
             "score": 98,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aebb07fbf3785bf6465f7b479"
-            }
-          },
-          {
-            "id": "a3bcefa4cac2fb96cf183f098",
-            "title": "【国内文娱】原创纪录电影《象行记》今起登陆院线 讲述中国亚洲象保护故事",
-            "originalTitle": "原创纪录电影《象行记》今起登陆院线 讲述中国亚洲象保护故事",
-            "summary": "首部亚洲象主题IMAX原创纪录电影《象行记》今天(23日)起登陆全国各大院线。这部影片首次将云南亚洲象“北上南归”与被救助象“阿宝”野化放归等真实事件搬上银幕，讲述中国亚洲象保护的故事。",
-            "source": {
-              "name": "中新网·影视文娱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a3bcefa4cac2fb96cf183f098",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-23/10719481.shtml"
-            },
-            "publishedAt": "2026-10-23T00:22:28.000Z",
-            "discoveredAt": "2026-10-23T01:35:23.405Z",
-            "category": "culture",
-            "score": 98,
-            "selected": true,
-            "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a3bcefa4cac2fb96cf183f098"
+              "url": "https://zenglian-news.onrender.com/items/a60a1f99448f4f8e3d1ef8c98"
             }
           }
         ]
@@ -1962,29 +1107,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a441e7475f30464c09f7812c9"
-            }
-          },
-          {
-            "id": "a0430fa940f18c308a989118d",
-            "title": "【BBC足坛】萨顿的预测 v 神奇狗华夫饼和他的主人西蒙",
-            "originalTitle": "Sutton's predictions v Waffle the Wonder Dog and his owner, Simon",
-            "summary": "BBC 体育足球专家克里斯·萨顿 (Chris Sutton) 与神奇狗华夫饼 (Waffle the Wonder Dog) 及其主人西蒙 (Simon) 以及 BBC 读者和 AI 进行了对本周末英超联赛比赛的预测。（来源：BBC Sport·欧洲足坛）",
-            "source": {
-              "name": "BBC Sport·欧洲足坛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a0430fa940f18c308a989118d",
-              "original": "https://www.bbc.co.uk/sport/football/articles/c3y0eqkneze4o?at_medium=RSS&at_campaign=rss"
-            },
-            "publishedAt": "2026-10-22T16:30:41.000Z",
-            "discoveredAt": "2026-10-22T19:59:04.987Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a0430fa940f18c308a989118d"
             }
           },
           {
@@ -2077,6 +1199,884 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/aa38dc50d065c3328e9a44d23"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "monthly": {
+    "kind": "monthly",
+    "key": "2026-10",
+    "title": "曾练全球一手简报 · 月度产业全景报告 (2026年10月)",
+    "subtitle": "30天六大实时Top20赛道全景洞察与高价值搞钱机会总结",
+    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：Canva 的第一个 AI 图像模型在生成之前规划设计；上海：降低智能要素使用成本；您认为 SaaS 已经过度饱和了吗？想想这个。。",
+    "metrics": {
+      "totalEvents": 36,
+      "sourcesCount": 30,
+      "selectedCount": 36
+    },
+    "sections": [
+      {
+        "category": "global",
+        "label": "🌍 全球实时Top20",
+        "items": [
+          {
+            "id": "ab1c3ae1a007710f4f7f75381",
+            "title": "【国际巨头】Canva 的第一个 AI 图像模型在生成之前规划设计",
+            "originalTitle": "Canva’s first AI image model plans designs before generating them",
+            "summary": "Canva 进一步深入人工智能领域，推出了图像生成模型，与 OpenAI、微软和谷歌的图像生成模型直接竞争。该模型称为 Canva Craft ，采用两阶段架构，...（来源：The Verge·国际巨头）",
+            "source": {
+              "name": "The Verge·国际巨头"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ab1c3ae1a007710f4f7f75381",
+              "original": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model"
+            },
+            "publishedAt": "2026-10-22T21:51:25.000Z",
+            "discoveredAt": "2026-10-22T23:12:43.706Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ab1c3ae1a007710f4f7f75381"
+            }
+          },
+          {
+            "id": "a7024abfb98768dbb3e7cd569",
+            "title": "【国际巨头】Etsy 正在打击 AI 垃圾清单",
+            "originalTitle": "Etsy is cracking down on AI slop listings",
+            "summary": "Etsy 宣布了关于如何在列表中使用人工智能的更严格规则，以减少平台上的人工智能溢出量。该公司在一篇帖子中表示，“许多活跃买家表示，他们无法辨别哪些商品涉及人工智能基因......（来源：The Verge·国际巨头）",
+            "source": {
+              "name": "The Verge·国际巨头"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a7024abfb98768dbb3e7cd569",
+              "original": "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing"
+            },
+            "publishedAt": "2026-10-23T00:09:58.000Z",
+            "discoveredAt": "2026-10-23T01:34:43.987Z",
+            "category": "global",
+            "score": 98,
+            "selected": true,
+            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a7024abfb98768dbb3e7cd569"
+            }
+          },
+          {
+            "id": "a51f19f3e503e23a769703a36",
+            "title": "【BBC全球】特朗普表示马斯克已恢复对乌克兰星链网络的访问",
+            "originalTitle": "Trump says Musk has restored access to Ukraine's Starlink network",
+            "summary": "乌克兰依靠星链进行一系列军事用途——其所有者埃隆·马斯克一再否认限制访问。（来源：BBC News·全球要闻）",
+            "source": {
+              "name": "BBC News·全球要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a51f19f3e503e23a769703a36",
+              "original": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss"
+            },
+            "publishedAt": "2026-10-22T21:42:39.000Z",
+            "discoveredAt": "2026-10-22T23:12:33.072Z",
+            "category": "global",
+            "score": 98,
+            "selected": true,
+            "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a51f19f3e503e23a769703a36"
+            }
+          },
+          {
+            "id": "a7fbae321025ea022455e9d05",
+            "title": "【全球热榜】“自然语言编程”的愚蠢（1978）",
+            "originalTitle": "The foolishness of \"natural language programming\" (1978)",
+            "summary": "X/HN·全球热榜Top实时快讯：The foolishness of \"natural language programming\" (1978)。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a7fbae321025ea022455e9d05",
+              "original": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html"
+            },
+            "publishedAt": "2026-10-23T00:52:01.000Z",
+            "discoveredAt": "2026-10-23T06:31:12.340Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a7fbae321025ea022455e9d05"
+            }
+          },
+          {
+            "id": "a589b6155f40e16426f4e7c81",
+            "title": "【全球热榜】法学硕士正在使正式软件验证在更大范围内变得可行",
+            "originalTitle": "LLMs are making formal software verification feasible at a much larger scale",
+            "summary": "X/HN·全球热榜Top实时快讯：LLMs are making formal software verification feasible at a much larger scale。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a589b6155f40e16426f4e7c81",
+              "original": "https://www.anthropic.com/research/formal-verification"
+            },
+            "publishedAt": "2026-10-22T22:54:43.000Z",
+            "discoveredAt": "2026-10-23T06:31:13.645Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a589b6155f40e16426f4e7c81"
+            }
+          },
+          {
+            "id": "afab56998213d7762645778d3",
+            "title": "【全球热榜】贾里德·库什纳 (Jared Kushner) 手机被黑，揭露秘密谈判和数百万笔交易",
+            "originalTitle": "Jared Kushner Hacked Phone Reveals Secret Negotiations, Millions in Transactions",
+            "summary": "X/HN·全球热榜Top实时快讯：Jared Kushner Hacked Phone Reveals Secret Negotiations, Millions in Transactions。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/afab56998213d7762645778d3",
+              "original": "https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations"
+            },
+            "publishedAt": "2026-10-22T21:24:41.000Z",
+            "discoveredAt": "2026-10-22T23:12:39.504Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/afab56998213d7762645778d3"
+            }
+          }
+        ]
+      },
+      {
+        "category": "domestic",
+        "label": "🇨🇳 国内实时Top20",
+        "items": [
+          {
+            "id": "a56193fe33127887d31dc773f",
+            "title": "上海：降低智能要素使用成本",
+            "originalTitle": "上海：降低智能要素使用成本",
+            "summary": "上海市经济和信息化委员会印发《上海市加快推动人工智能赋能工业服务业高质量发展行动方案（2027-2028年）》提出，降低智能要素使用成本。支持企业调用云平台部署的第三方大模型API，或采用第三方大模型私有化部署方式，推进大模型垂类应用，给予最高500万元补贴。鼓励工业智算云平台向工业服务业企业提供低代码智能体开发平台，推出算力惠企方案。支持企业租用非关联方智算资源开展大模型、智能体研发与应用，给予最高30%租用补贴。支持企业购买高质量语...",
+            "source": {
+              "name": "界面新闻·国内政经"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a56193fe33127887d31dc773f",
+              "original": "https://www.jiemian.com/article/15229942.html"
+            },
+            "publishedAt": "2026-10-23T06:20:12.000Z",
+            "discoveredAt": "2026-10-23T06:31:18.580Z",
+            "category": "domestic",
+            "score": 99,
+            "selected": true,
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a56193fe33127887d31dc773f"
+            }
+          },
+          {
+            "id": "ade1d6a014bc72c424d8d8b17",
+            "title": "【国内要闻】宜涪高铁高湾隧道贯通 系重庆段“首通”",
+            "originalTitle": "宜涪高铁高湾隧道贯通 系重庆段“首通”",
+            "summary": "中新网重庆10月23日电 (张旭 晁国辉)长江沿岸铁路集团重庆有限公司10月23日发布消息称，当日，随着最后一次爆破，宜涪高铁高湾隧道顺利贯通，系宜涪高铁重庆段首座实现贯通的隧道。",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ade1d6a014bc72c424d8d8b17",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-23/10719680.shtml"
+            },
+            "publishedAt": "2026-10-23T06:14:19.000Z",
+            "discoveredAt": "2026-10-23T06:31:16.081Z",
+            "category": "domestic",
+            "score": 98,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ade1d6a014bc72c424d8d8b17"
+            }
+          },
+          {
+            "id": "a1c6a4be21ed65765b63455b0",
+            "title": "特朗普被曝对马斯克表示不满",
+            "originalTitle": "特朗普被曝对马斯克表示不满",
+            "summary": "当地时间10月22日下午，美国总统特朗普在白宫被媒体问及“是否致电美国太空探索技术公司首席执行官马斯克，要求其解除对乌克兰军用版‘星链’卫星通信服务的限速”。特朗普对此表示“不予置评”，但“重要的是马斯克已经恢复了相关服务”。不过，乌克兰总统泽连斯基当天早些时候对媒体称，限速尚未彻底解除。而另据乌克兰军方人士消息，“星链”服务的运行速度似乎正在恢复，已高于此前水平。据美国《华尔街日报》当天报道，特朗普已致电马斯克，要求他解除对乌克兰境内...",
+            "source": {
+              "name": "界面新闻·国内政经"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a1c6a4be21ed65765b63455b0",
+              "original": "https://www.jiemian.com/article/15227452.html"
+            },
+            "publishedAt": "2026-10-23T01:20:00.000Z",
+            "discoveredAt": "2026-10-23T01:34:49.290Z",
+            "category": "domestic",
+            "score": 98,
+            "selected": true,
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a1c6a4be21ed65765b63455b0"
+            }
+          },
+          {
+            "id": "a9620d989530579a2bc3eaf3b",
+            "title": "“AI 教父”辛顿再抛悲观论：AI 已经拥有意识，人类必须与其友好相处",
+            "originalTitle": "“AI 教父”辛顿再抛悲观论：AI 已经拥有意识，人类必须与其友好相处",
+            "summary": "IT之家 10 月 23 日消息，被誉为“AI 教父”之一的英国计算机科学家杰弗里 · 辛顿，再次对人类的未来发出悲观警告。 辛顿接受英国《每日电讯报》采访时坚称，AI 已经具备意识，人类必须与 AI 友好相处， 否则“我们就完了” 。 在他看来，即便是当下的 AI 模型，也拥有自己的意识。“AI 拥有与人类同等程度的主观体验。最近有篇论文发现， AI 如果认为自己在接受测试，就会改变行为。它知道自己在接受测试 。通常来说，如果一个事物...",
+            "source": {
+              "name": "IT之家·国内产业"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a9620d989530579a2bc3eaf3b",
+              "original": "https://www.ithome.com/1/016/998.htm"
+            },
+            "publishedAt": "2026-10-23T06:18:33.000Z",
+            "discoveredAt": "2026-10-23T06:31:23.513Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a9620d989530579a2bc3eaf3b"
+            }
+          },
+          {
+            "id": "a656e2a8848a6c51cb85dee97",
+            "title": "【国内要闻】一港联通内外 自贸港“样板间”激发新活力",
+            "originalTitle": "一港联通内外 自贸港“样板间”激发新活力",
+            "summary": "自去年12月18日封关运作以来，海南自贸港开放政策红利持续释放，一系列“首票”“首单”在众多产业里诞生，市场活力不断激发。位于海南自贸港西北部的洋浦，是自贸港的“样板间”。封关后的洋浦有哪些新变化？激发出哪些新活力？",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a656e2a8848a6c51cb85dee97",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-23/10719698.shtml"
+            },
+            "publishedAt": "2026-10-23T06:17:35.000Z",
+            "discoveredAt": "2026-10-23T06:31:15.412Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a656e2a8848a6c51cb85dee97"
+            }
+          },
+          {
+            "id": "ae439589dff48027763edecd0",
+            "title": "【国内要闻】长征路上学党史丨古镇哈达铺迎红色旅游热",
+            "originalTitle": "长征路上学党史丨古镇哈达铺迎红色旅游热",
+            "summary": "中新网兰州10月23日电 (闫姣 田鹏鹤)古镇哈达铺，是红军长征抵达甘肃后的关键休整地与决策节点，被称作长征路上的“加油站”。九十载岁月流转，红色旧址静静伫立，迎来天南海北的游客。",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ae439589dff48027763edecd0",
+              "original": "https://www.chinanews.com.cn/sh/2026/10-23/10719694.shtml"
+            },
+            "publishedAt": "2026-10-23T06:16:05.000Z",
+            "discoveredAt": "2026-10-23T06:31:15.637Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ae439589dff48027763edecd0"
+            }
+          }
+        ]
+      },
+      {
+        "category": "money",
+        "label": "💰 商业搞钱Top20",
+        "items": [
+          {
+            "id": "a8388d35b13f4e065675f99ac",
+            "title": "【出海实战】您认为 SaaS 已经过度饱和了吗？想想这个。",
+            "originalTitle": "You think SaaS is oversaturated? Think about this.",
+            "summary": "想象一下，100 个人决定构建 SaaS。 50 从未真正发射。剩下的 50 家公司中，有 25 家在几个月后就放弃了，因为他们没有吸引到用户。 15 停止改进他们的产品或持续营销它。那...（来源：X/Reddit·出海SaaS搞钱）",
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a8388d35b13f4e065675f99ac",
+              "original": "https://www.reddit.com/r/SaaS/comments/1xcwe75/you_think_saas_is_oversaturated_think_about_this/"
+            },
+            "publishedAt": "2026-10-22T22:10:00.000Z",
+            "discoveredAt": "2026-10-23T01:34:57.878Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a8388d35b13f4e065675f99ac"
+            }
+          },
+          {
+            "id": "a41c05a6e07688cd10e778035",
+            "title": "【出海实战】Whop 以 5.1B 估值筹集 2 亿美元，向支付和商业基础设施领域扩张",
+            "originalTitle": "Whop raises $200M at a $5.1B valuation as it expands into payments and business infrastructure",
+            "summary": "没想到Whop已经这么大了。他们刚刚筹集了 2 亿美元资金，红杉资本领投，Shopify Ventures 加入。更令我惊讶的是，看到付款和支出成为他们业务的更大组成部分......（来源：X/Reddit·出海SaaS搞钱）",
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a41c05a6e07688cd10e778035",
+              "original": "https://www.reddit.com/r/SaaS/comments/1xcvte5/whop_raises_200m_at_a_51b_valuation_as_it_expands/"
+            },
+            "publishedAt": "2026-10-22T21:46:10.000Z",
+            "discoveredAt": "2026-10-22T23:13:03.435Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a41c05a6e07688cd10e778035"
+            }
+          },
+          {
+            "id": "aeeba16bb3aacd01087c84de5",
+            "title": "【独立变现】Show HN：UI微交互提示AI",
+            "originalTitle": "Show HN: UI micro interactions prompts for AI",
+            "summary": "Show HN·独立变现榜实时快讯：Show HN: UI micro interactions prompts for AI。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
+            "source": {
+              "name": "Show HN·独立变现榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aeeba16bb3aacd01087c84de5",
+              "original": "https://www.typeui.sh/micro-interactions"
+            },
+            "publishedAt": "2026-10-22T18:32:57.000Z",
+            "discoveredAt": "2026-10-22T19:58:14.832Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aeeba16bb3aacd01087c84de5"
+            }
+          },
+          {
+            "id": "a2f3ae66196d311ff6bdd159a",
+            "title": "【X·AI一手】Show HN：agent-usage-guard – 一个 Claude Code mod，用于保护您的使用窗口",
+            "originalTitle": "Show HN: agent-usage-guard – a Claude Code mod to protect your usage window",
+            "summary": "X (Twitter)·硅谷AI大佬实时快讯：Show HN: agent-usage-guard – a Claude Code mod to protect your usage window。Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。（来源：X (Twitter)·硅谷AI大佬）",
+            "source": {
+              "name": "X (Twitter)·硅谷AI大佬"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a2f3ae66196d311ff6bdd159a",
+              "original": "https://github.com/rbartoli/agent-usage-guard"
+            },
+            "publishedAt": "2026-10-22T18:02:38.000Z",
+            "discoveredAt": "2026-10-22T23:13:12.110Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a2f3ae66196d311ff6bdd159a"
+            }
+          },
+          {
+            "id": "a0f2e07ca1738d8bcf485b8fb",
+            "title": "【独立变现】Show HN：在 Android 设备上运行完整的 iOS 16.5 固件",
+            "originalTitle": "Show HN: Run full iOS 16.5 firmware on Android Devices",
+            "summary": "Show HN·独立变现榜实时快讯：Show HN: Run full iOS 16.5 firmware on Android Devices。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
+            "source": {
+              "name": "Show HN·独立变现榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0f2e07ca1738d8bcf485b8fb",
+              "original": "https://github.com/oosexgang/hackios-xnu-kernel"
+            },
+            "publishedAt": "2026-10-22T15:26:22.000Z",
+            "discoveredAt": "2026-10-22T19:58:15.433Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0f2e07ca1738d8bcf485b8fb"
+            }
+          },
+          {
+            "id": "a405434a5b386bf7f6fd112af",
+            "title": "网络攻击愈发猖獗，防御方能否用AI扳回一城？",
+            "originalTitle": "网络攻击愈发猖獗，防御方能否用AI扳回一城？",
+            "summary": "截图来自Anthropic官网 AI正在颠覆软件行业的方方面面，但在安全领域，表现却一直不尽如人意。尤其在AI生成代码带来更多隐患，而黑客又得以利用AI大规模、低成本地寻找并攻击安全漏洞时，防御一方往往疲于奔命，甚至难以招架。 仅10月中旬以来，重大网络安全事件就频频发生，先是编程智能体OpenCode被攻击泄露用户第三方模型密钥，随后全球近七成网站使用的PHP开源编程语言又被爆出发现重大漏洞，不少网站因此关停。Axios最新报道还爆料...",
+            "source": {
+              "name": "钛媒体·资本与风口"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a405434a5b386bf7f6fd112af",
+              "original": "https://www.tmtpost.com/8178797.html"
+            },
+            "publishedAt": "2026-10-23T05:35:10.000Z",
+            "discoveredAt": "2026-10-23T06:31:31.403Z",
+            "category": "money",
+            "score": 98,
+            "selected": true,
+            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a405434a5b386bf7f6fd112af"
+            }
+          }
+        ]
+      },
+      {
+        "category": "tech",
+        "label": "🤖 AI实时Top20",
+        "items": [
+          {
+            "id": "a0879d3bcc132bc822db6495e",
+            "title": "【国内要闻】宁夏出台电力专项举措护航“东数西算”算力发展",
+            "originalTitle": "宁夏出台电力专项举措护航“东数西算”算力发展",
+            "summary": "中新网银川10月23日电 (记者 于晶)10月23日，国网宁夏电力发布服务算力发展八项措施，以“八强化八满足”对接宁夏“东数西算”国家枢纽节点建设。宁夏成为全国首个推出电力服务算力一揽子专项保障举措的省份，依托坚强电网与创新机制，助力算力产业用电高效、绿色、安全发展。",
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0879d3bcc132bc822db6495e",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-23/10719664.shtml"
+            },
+            "publishedAt": "2026-10-23T06:22:01.000Z",
+            "discoveredAt": "2026-10-23T06:31:15.188Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0879d3bcc132bc822db6495e"
+            }
+          },
+          {
+            "id": "abd562cb597f86d5fb5ef551a",
+            "title": "Kimi即将发布K3.1并发布相关预热视频",
+            "originalTitle": "Kimi即将发布K3.1并发布相关预热视频",
+            "summary": "10月23日，据多方信源消息，Kimi（月之暗面）即将发布最新大模型K3.1，并发布相关预热视频，目前AI行业不少开发者已经关注到相关更新，并引发热烈讨论。（澎湃新闻）",
+            "source": {
+              "name": "界面新闻·国内政经"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abd562cb597f86d5fb5ef551a",
+              "original": "https://www.jiemian.com/article/15229909.html"
+            },
+            "publishedAt": "2026-10-23T06:19:51.000Z",
+            "discoveredAt": "2026-10-23T06:31:18.799Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abd562cb597f86d5fb5ef551a"
+            }
+          },
+          {
+            "id": "aabea37f77149a45f8e598622",
+            "title": "【硅谷AI】Uber 竞争对手 inDrive 计划与 Pony.ai 和 Nvidia 合作，于 2027 年在中亚进行机器人出租车测试",
+            "originalTitle": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+            "summary": "inDrive计划于2027年上半年开始在哈萨克斯坦首都测试小马智行的机器人出租车。（来源：TechCrunch·硅谷AI）",
+            "source": {
+              "name": "TechCrunch·硅谷AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aabea37f77149a45f8e598622",
+              "original": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/"
+            },
+            "publishedAt": "2026-10-23T04:00:00.000Z",
+            "discoveredAt": "2026-10-23T06:31:38.147Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aabea37f77149a45f8e598622"
+            }
+          },
+          {
+            "id": "a1b2a46920519f29dc124a6a4",
+            "title": "【硅谷AI】独自无事可做，人工智能代理开始玩",
+            "originalTitle": "Left alone with nothing to do, AI agents started playing",
+            "summary": "麻省理工学院的研究人员将 13 名人工智能困在一个虚拟岛上，他们的反应是发明游戏、哀悼丢失的戒指，并最终在工作中取得更好的成绩。（来源：TechCrunch·硅谷AI）",
+            "source": {
+              "name": "TechCrunch·硅谷AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a1b2a46920519f29dc124a6a4",
+              "original": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/"
+            },
+            "publishedAt": "2026-10-23T00:45:37.000Z",
+            "discoveredAt": "2026-10-23T01:35:22.500Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a1b2a46920519f29dc124a6a4"
+            }
+          },
+          {
+            "id": "acbb271f8da0039ac15a381c4",
+            "title": "【X·AI一手】谷歌 DeepMind 创始人哈萨比斯将 AGI 时间表从五年缩短到两三年",
+            "originalTitle": "Google DeepMind founder Hassabis shortens AGI timeline from five to two to three years",
+            "summary": "由 /u/Malor777 提交 [链接] [评论]（来源：X (Twitter)·硅谷AI大佬）",
+            "source": {
+              "name": "X (Twitter)·硅谷AI大佬"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/acbb271f8da0039ac15a381c4",
+              "original": "https://www.reddit.com/r/OpenAI/comments/1xcz4o0/google_deepmind_founder_hassabis_shortens_agi/"
+            },
+            "publishedAt": "2026-10-23T00:11:09.000Z",
+            "discoveredAt": "2026-10-23T01:35:18.876Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/acbb271f8da0039ac15a381c4"
+            }
+          },
+          {
+            "id": "a184eb7c944be5cb829ed97be",
+            "title": "【OpenAI官宣】OpenAI 与波兰 NSK 合作推进人工智能安全",
+            "originalTitle": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+            "summary": "OpenAI 和波兰的 NASK 正在人工智能安全和技术研究方面开展合作，以加强保障措施并支持更具弹性的数字生态系统。（来源：OpenAI·官方一手）",
+            "source": {
+              "name": "OpenAI·官方一手"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a184eb7c944be5cb829ed97be",
+              "original": "https://openai.com/index/openai-nask-ai-safety-security-partnership"
+            },
+            "publishedAt": "2026-10-23T00:00:00.000Z",
+            "discoveredAt": "2026-10-23T06:31:33.205Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "OpenAI 官方博客与研究产品一手公告，全球人工智能行业最高风向标。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a184eb7c944be5cb829ed97be"
+            }
+          }
+        ]
+      },
+      {
+        "category": "culture",
+        "label": "🎬 影视娱乐Top20",
+        "items": [
+          {
+            "id": "a2e62f60f099876a91e500f52",
+            "title": "【全球票房】《Clayface》周四首映票房收入超过 350 万美元",
+            "originalTitle": "‘Clayface’ Cashing In $3.5M+ Thursday Previews – Box Office",
+            "summary": "独家报道：彼得·萨弗兰 (Peter Safran) 和詹姆斯·古恩 (James Gunn) 执导的 DC 电影《粘土脸》(Clayface) 在今晚的预映中取得了良好的开局，估计票房达到 350 万美元，甚至更多。国内周末预计价格在 2000 万美元至 2000 万美元之间...（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a2e62f60f099876a91e500f52",
+              "original": "https://deadline.com/2026/10/box-office-clayface-you-can-see-everything-1237171500/"
+            },
+            "publishedAt": "2026-10-23T03:19:40.000Z",
+            "discoveredAt": "2026-10-23T06:31:44.989Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a2e62f60f099876a91e500f52"
+            }
+          },
+          {
+            "id": "ab993f073d8c5dcbde42b4a5c",
+            "title": "【好莱坞一手】理查德·加德、比尔·坎普和雷·麦金农加盟迈克尔·基顿执导的西部片《毁灭之路》（独家）",
+            "originalTitle": "Richard Gadd, Bill Camp and Ray McKinnon Join Michael Keaton-Directed Western ‘Rode to Ruin’ (EXCLUSIVE)",
+            "summary": "艾美奖获奖演员兼作家理查德·加德、多次获得艾美奖和美国演员工会奖提名的演员比尔·坎普以及奥斯卡提名电影制片人兼演员雷·麦金农将加盟迈克尔·基托执导的西部惊悚片《毁灭之路》……（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ab993f073d8c5dcbde42b4a5c",
+              "original": "https://variety.com/2026/film/news/richard-gadd-bill-camp-ray-mckinnon-rode-to-ruin-1236922088/"
+            },
+            "publishedAt": "2026-10-23T02:22:45.000Z",
+            "discoveredAt": "2026-10-23T06:31:41.836Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ab993f073d8c5dcbde42b4a5c"
+            }
+          },
+          {
+            "id": "a45467b5e2ef414779360e583",
+            "title": "【全球票房】乔·佩里退出今晚的好莱坞吸血鬼电影西海岸首映，史密斯飞船为好莱坞碗演出做好准备",
+            "originalTitle": "Joe Perry Bows Out Of Tonight’s Hollywood Vampires’ Flick West Coast Debut As Aerosmith Ramps Up For Hollywood Bowl Gigs",
+            "summary": "如果您计划今晚在纽波特海滩电影节上观看好莱坞吸血鬼纪录片的西海岸首映，请注意乔·佩里 (Joe Perry) 不会出现在售完的丽都剧院 (Lido Theater)。虽然 8 的信息...（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a45467b5e2ef414779360e583",
+              "original": "https://deadline.com/2026/10/joe-perry-hollywood-vampires-movie-aerosmith-1237171377/"
+            },
+            "publishedAt": "2026-10-23T00:35:00.000Z",
+            "discoveredAt": "2026-10-23T01:35:31.523Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a45467b5e2ef414779360e583"
+            }
+          },
+          {
+            "id": "a8de5bd910b53bc70a7bef5a6",
+            "title": "【好莱坞一手】陈可辛排除人工智能生成的内容，称故事片将在垂直剧情片的崛起中幸存下来",
+            "originalTitle": "Peter Chan Rules Out AI-Generated Content, Says Feature Films Will Survive the Rise of Vertical Dramas",
+            "summary": "著名亚洲电影制片人、《战友：差不多是爱情故事》和《投名状》的导演陈可辛表示，他可能会在电影制作中使用人工智能，但“绝对不会 AIGC”或人工智能生成的内容，而且……（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a8de5bd910b53bc70a7bef5a6",
+              "original": "https://variety.com/2026/film/festivals/peter-chan-rules-out-ai-generated-content-feature-films-survival-1236922012/"
+            },
+            "publishedAt": "2026-10-23T00:27:55.000Z",
+            "discoveredAt": "2026-10-23T01:35:25.222Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a8de5bd910b53bc70a7bef5a6"
+            }
+          },
+          {
+            "id": "a60a1f99448f4f8e3d1ef8c98",
+            "title": "【全球票房】Zee Studios 确定 Omung Kumar 的《Silaa》的发行日期",
+            "originalTitle": "Zee Studios Sets Release Date For Omung Kumar’s ‘Silaa’",
+            "summary": "独家报道：由 Harshvardhan Rane 主演的 Omung Kumar 执导的《Silaa》将于明年初上映。 Zee Studios 已将这部影片的上映日期定为 2027 年 2 月 5 日，该片由 Rane Khateeb 和 Sadia Khateeb 主演，讲述了一个...（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a60a1f99448f4f8e3d1ef8c98",
+              "original": "https://deadline.com/2026/10/silaa-release-date-zee-studios-omung-kumars-1237169645/"
+            },
+            "publishedAt": "2026-10-23T05:45:00.000Z",
+            "discoveredAt": "2026-10-23T06:31:43.696Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a60a1f99448f4f8e3d1ef8c98"
+            }
+          },
+          {
+            "id": "ab3768be093de7ad1a6e02b7e",
+            "title": "【好莱坞一手】约翰·威廉姆斯 (John Williams) 和伯纳德·赫尔曼 (Bernard Herrmann) 的传记荣获 ASCAP 音乐创作和广播奖荣誉作品",
+            "originalTitle": "Biographies of John Williams and Bernard Herrmann Among Honored Works in ASCAP’s Awards for Music Writing and Broadcasts",
+            "summary": "ASCAP 颁发的年度最佳音乐创作和广播奖的获奖者包括电影作曲家约翰·威廉姆斯和伯纳德·赫尔曼的传记，以及一部关于邪教的纪录片……（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ab3768be093de7ad1a6e02b7e",
+              "original": "https://variety.com/2026/music/news/ascap-writing-awards-biographies-john-williams-bernard-herrmann-1236922092/"
+            },
+            "publishedAt": "2026-10-23T03:01:11.000Z",
+            "discoveredAt": "2026-10-23T06:31:40.623Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ab3768be093de7ad1a6e02b7e"
+            }
+          }
+        ]
+      },
+      {
+        "category": "business",
+        "label": "🏆 体育实时Top20",
+        "items": [
+          {
+            "id": "a441e7475f30464c09f7812c9",
+            "title": "【欧洲足坛】英超联赛：本周末需要注意的 10 件事",
+            "originalTitle": "Premier League: 10 things to look out for this weekend",
+            "summary": "马克斯·道曼可能会得到机会，热刺需要在斯坦福桥找到平衡，而阿克塞尔·迪萨西必须弥补英超最佳射手在七场比赛之后，诺丁汉森林队的战绩与上赛季惊人地相似：五场......（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a441e7475f30464c09f7812c9",
+              "original": "https://www.theguardian.com/football/2026/oct/23/premier-league-10-things-to-look-out-for-this-weekend"
+            },
+            "publishedAt": "2026-10-22T23:01:52.000Z",
+            "discoveredAt": "2026-10-23T01:35:42.347Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a441e7475f30464c09f7812c9"
+            }
+          },
+          {
+            "id": "a30255cfce891f15297e74e37",
+            "title": "【BBC足坛】伯恩茅斯的梦想之夜——战胜米兰是英超实力的标志",
+            "originalTitle": "Dream night for Bournemouth - win over Milan a sign of Premier League power",
+            "summary": "伯恩茅斯3-0战胜AC米兰，进一步证明了英超球队对欧洲球队的统治力。（来源：BBC Sport·欧洲足坛）",
+            "source": {
+              "name": "BBC Sport·欧洲足坛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a30255cfce891f15297e74e37",
+              "original": "https://www.bbc.co.uk/sport/football/articles/c6z981p24q1eo?at_medium=RSS&at_campaign=rss"
+            },
+            "publishedAt": "2026-10-22T21:30:31.000Z",
+            "discoveredAt": "2026-10-22T23:13:44.763Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a30255cfce891f15297e74e37"
+            }
+          },
+          {
+            "id": "acdadb47d54edae672d2e4f55",
+            "title": "【欧洲足坛】伯恩茅斯享受难忘的夜晚，十人米兰未能抵御风暴",
+            "originalTitle": "Bournemouth enjoy night to remember as 10-man Milan fail to weather storm",
+            "summary": "这是伯恩茅斯历史上一个重要的夜晚，尽管事实是他们会受到考文垂或赫尔的更严厉的考验。无论米兰队的这种腐烂模仿是什么，它都没有任何关系......（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/acdadb47d54edae672d2e4f55",
+              "original": "https://www.theguardian.com/football/2026/oct/22/bournemouth-milan-europa-league-match-report"
+            },
+            "publishedAt": "2026-10-22T21:00:49.000Z",
+            "discoveredAt": "2026-10-22T23:13:49.458Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/acdadb47d54edae672d2e4f55"
+            }
+          },
+          {
+            "id": "ac5d2e0145f45fc74b43d03cc",
+            "title": "【欧洲足坛】欧罗巴联赛：桑德兰在波兹南举行，尤文图斯否认复出胜利",
+            "originalTitle": "Europa League: Sunderland held in Poznan as Juventus denied comeback win",
+            "summary": "桑德兰在1-1战平的比赛中丢分，但保持不败，VAR判定尤文图斯在与雷恩战平的比赛中获胜。桑德兰在欧罗巴联赛中的胜利开局最终以客场1-1战平波兹南莱赫而告终。重点是让桑德...（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ac5d2e0145f45fc74b43d03cc",
+              "original": "https://www.theguardian.com/football/2026/oct/22/europa-league-sunderland-held-in-poznan-as-juventus-denied-comeback-win"
+            },
+            "publishedAt": "2026-10-22T19:14:48.000Z",
+            "discoveredAt": "2026-10-22T19:59:14.794Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ac5d2e0145f45fc74b43d03cc"
+            }
+          },
+          {
+            "id": "aa38dc50d065c3328e9a44d23",
+            "title": "【NBA一手】[Instagram] 卢卡的前队友、小牛前锋纳吉·马歇尔回应亚克塞尔·伦登堡：“下次他们比赛时打 80 个球，永远不要在 DON 上发言 😭😭😭😭😭😭”",
+            "originalTitle": "[Instagram] Luka’s former teammate and Mavs forward Naji Marshall responds to Yaxel Lendeborg: “80 ball next time they play never speak on the DON 😭😭😭😭😭😭😭”",
+            "summary": "资料来源：https://imgur.com/a/92Ofy5K 卢卡最喜欢的前队友之一纳吉·马歇尔回应了亚克塞尔在 Instagram 上由 /u/shreeharis 提交的对卢卡的“尊重”评论 [链接] [评论]（来源：NBA·北美篮球实时热榜）",
+            "source": {
+              "name": "NBA·北美篮球实时热榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aa38dc50d065c3328e9a44d23",
+              "original": "https://www.reddit.com/r/nba/comments/1xcr7nx/instagram_lukas_former_teammate_and_mavs_forward/"
+            },
+            "publishedAt": "2026-10-22T18:50:17.000Z",
+            "discoveredAt": "2026-10-22T19:59:23.621Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aa38dc50d065c3328e9a44d23"
+            }
+          },
+          {
+            "id": "a9649e427f4e1ef26479e9c91",
+            "title": "【欧洲足坛】下一个？曼联热门席位的主要竞争者",
+            "originalTitle": "Next in line? Main contenders for the Manchester United hot seat",
+            "summary": "由于迈克尔·卡里克在老特拉福德的未来存在一些争议，我们研究了那些可以接替他的人的资历。这位德国人对曼城很感兴趣，而奥马尔·贝拉达是等级制度的一部分......（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a9649e427f4e1ef26479e9c91",
+              "original": "https://www.theguardian.com/football/2026/oct/22/contenders-manchester-united-next-manager-michael-carrick"
+            },
+            "publishedAt": "2026-10-22T18:32:32.000Z",
+            "discoveredAt": "2026-10-22T19:59:13.260Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a9649e427f4e1ef26479e9c91"
             }
           }
         ]
