@@ -10,6 +10,98 @@
   },
   "items": [
     {
+      "id": "a55f7037ec199ee28ed28dc35",
+      "title": "【OpenAI官宣】快速扩展在线存储以服务超过 10 亿 ChatGPT 用户（第二部分）",
+      "originalTitle": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "summary": "了解 OpenAI 如何通过可靠的多租户、全局缓存和 Azure Cosmos DB 扩展 Habitat，为 ChatGPT 提供 12 倍的更快读取速度。（来源：OpenAI·官方一手）",
+      "source": {
+        "name": "OpenAI·官方一手"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a55f7037ec199ee28ed28dc35",
+        "original": "https://openai.com/index/scaling-storage-one-billion-users-part-two"
+      },
+      "publishedAt": "2026-10-23T17:00:00.000Z",
+      "discoveredAt": "2026-10-23T17:10:02.745Z",
+      "category": "tech",
+      "score": 99,
+      "selected": true,
+      "reason": "OpenAI 官方博客与研究产品一手公告，全球人工智能行业最高风向标。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a55f7037ec199ee28ed28dc35"
+      }
+    },
+    {
+      "id": "a0a68b3478ef3e792f74b1d78",
+      "title": "【开源大模型】他们说，对自己的推理引擎进行 Vibe 编码很容易",
+      "originalTitle": "Vibecoding your own inference engine is easy they said",
+      "summary": "伙计们，我发誓，你们最好克隆 llama.cpp。这个东西正在运行 gguf q4，通过 html 内部的 glsl 分页到 webgl2 嵌入式计算缓冲区中，而 tokenizer/vocab 只是无尽调试地狱的一部分。   提交...（来源：LocalLLaMA·开源大模型）",
+      "source": {
+        "name": "LocalLLaMA·开源大模型"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a0a68b3478ef3e792f74b1d78",
+        "original": "https://www.reddit.com/r/LocalLLaMA/comments/1xdh57e/vibecoding_your_own_inference_engine_is_easy_they/"
+      },
+      "publishedAt": "2026-10-23T15:26:47.000Z",
+      "discoveredAt": "2026-10-23T17:10:12.679Z",
+      "category": "tech",
+      "score": 98,
+      "selected": true,
+      "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a0a68b3478ef3e792f74b1d78"
+      }
+    },
+    {
+      "id": "a1e9d643a44731847c482c31c",
+      "title": "【开源大模型】关于 RTX 消费类 GPU 的解锁内容、哪些受到影响、哪些任务以及哪些任务可以解锁的小帖子。",
+      "originalTitle": "Small post about what are the unlocks for RTX consumer GPUs, which ones are affected, in which tasks and which ones are feasible to do an unlock.",
+      "summary": "大家好，希望你们一切都好！自从看到很多关于解锁等的帖子后，我想写一篇小帖子。简单来说解锁是什么？ NVIDIA 故意削弱了操作性能...（来源：LocalLLaMA·开源大模型）",
+      "source": {
+        "name": "LocalLLaMA·开源大模型"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a1e9d643a44731847c482c31c",
+        "original": "https://www.reddit.com/r/LocalLLaMA/comments/1xdg0v0/small_post_about_what_are_the_unlocks_for_rtx/"
+      },
+      "publishedAt": "2026-10-23T14:44:31.000Z",
+      "discoveredAt": "2026-10-23T17:10:13.717Z",
+      "category": "tech",
+      "score": 99,
+      "selected": true,
+      "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a1e9d643a44731847c482c31c"
+      }
+    },
+    {
+      "id": "aa30a1578c897d380a65e7f79",
+      "title": "【MIT·AI】下载：测试六项技术承诺和生物技术的盲点",
+      "originalTitle": "The Download: testing six tech promises and biotech’s blind spots",
+      "summary": "有些看似不可能的壮举实在是太好了，不容放弃。解码宠物的叫声和叫声？绝对地。擦洗永远化学物质的世界？是的，请。在很短的时间内火箭到达火星？听起来不错，但我们到底有多接近呢？在新的（来源：MIT科技评论·AI突破）",
+      "source": {
+        "name": "MIT科技评论·AI突破"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/aa30a1578c897d380a65e7f79",
+        "original": "https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/"
+      },
+      "publishedAt": "2026-10-23T12:10:00.000Z",
+      "discoveredAt": "2026-10-23T17:10:10.048Z",
+      "category": "tech",
+      "score": 99,
+      "selected": true,
+      "reason": "麻省理工科技评论权威AI报道，洞察下一代人工智能底层突破。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/aa30a1578c897d380a65e7f79"
+      }
+    },
+    {
       "id": "a394d4f1d43084fb0c559d854",
       "title": "【X·AI一手】瑞典政府办公室将禁止 ChatGPT 和 Claude",
       "originalTitle": "Swedish government offices to ban ChatGPT and Claude",
@@ -375,98 +467,6 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/a9e53416fabed7f32e811599e"
-      }
-    },
-    {
-      "id": "afc0505dcb56e92e0103d4a7a",
-      "title": "【硅谷AI】1Password 推出了一种让 AI 代理代表您登录而无需查看您的密码的方法",
-      "originalTitle": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
-      "summary": "新功能允许代理登录客户的个人帐户，同时仍然保护保护这些帐户的私人凭据。（来源：TechCrunch·硅谷AI）",
-      "source": {
-        "name": "TechCrunch·硅谷AI"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/afc0505dcb56e92e0103d4a7a",
-        "original": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/"
-      },
-      "publishedAt": "2026-10-22T19:07:09.000Z",
-      "discoveredAt": "2026-10-22T19:58:31.586Z",
-      "category": "tech",
-      "score": 97,
-      "selected": true,
-      "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/afc0505dcb56e92e0103d4a7a"
-      }
-    },
-    {
-      "id": "ade9be07da5c674f6ed4696a3",
-      "title": "【硅谷AI】随着决策模型竞争的升温，OpenAI 使其 Jev 竞争对手得到广泛应用",
-      "originalTitle": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-      "summary": "OpenAI 正在向全世界推出其决策模型。它能与原版Jev竞争吗？（来源：TechCrunch·硅谷AI）",
-      "source": {
-        "name": "TechCrunch·硅谷AI"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/ade9be07da5c674f6ed4696a3",
-        "original": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/"
-      },
-      "publishedAt": "2026-10-22T19:00:00.000Z",
-      "discoveredAt": "2026-10-22T19:58:32.802Z",
-      "category": "tech",
-      "score": 98,
-      "selected": true,
-      "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/ade9be07da5c674f6ed4696a3"
-      }
-    },
-    {
-      "id": "a934fef93485d42368da8052a",
-      "title": "【OpenAI官宣】使用 Decisions API 构建响应速度更快的应用程序",
-      "originalTitle": "Build more responsive apps with the Decisions API",
-      "summary": "为任何应用做出快速、集中、低成本的决策。（来源：OpenAI·官方一手）",
-      "source": {
-        "name": "OpenAI·官方一手"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a934fef93485d42368da8052a",
-        "original": "https://openai.com/index/decisions-api"
-      },
-      "publishedAt": "2026-10-22T19:00:00.000Z",
-      "discoveredAt": "2026-10-22T19:58:25.684Z",
-      "category": "tech",
-      "score": 99,
-      "selected": true,
-      "reason": "OpenAI 官方博客与研究产品一手公告，全球人工智能行业最高风向标。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a934fef93485d42368da8052a"
-      }
-    },
-    {
-      "id": "a10a2e2b49ec4de3424e841f2",
-      "title": "【MIT·AI】可扩展人工智能的基础",
-      "originalTitle": "The Foundations of Scalable AI",
-      "summary": "可扩展的人工智能系统需要坚实的基础。数据、工程、平台、运营模式和治理必须融合为一体。麻省理工学院技术评论 EmTech 未来会议的本次会议探讨了……（来源：MIT科技评论·AI突破）",
-      "source": {
-        "name": "MIT科技评论·AI突破"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a10a2e2b49ec4de3424e841f2",
-        "original": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/"
-      },
-      "publishedAt": "2026-10-22T18:48:04.000Z",
-      "discoveredAt": "2026-10-22T19:58:30.686Z",
-      "category": "tech",
-      "score": 99,
-      "selected": true,
-      "reason": "麻省理工科技评论权威AI报道，洞察下一代人工智能底层突破。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a10a2e2b49ec4de3424e841f2"
       }
     }
   ],
