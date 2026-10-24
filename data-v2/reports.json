@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T15:46:59.005Z",
+  "generatedAt": "2026-10-24T18:39:28.472Z",
   "daily": {
     "kind": "daily",
-    "key": "2026-10-24",
-    "title": "曾练全球一手简报 · 今日日报 (2026-10-24)",
+    "key": "2026-10-25",
+    "title": "曾练全球一手简报 · 今日日报 (2026-10-25)",
     "subtitle": "全球·国内·商业搞钱·AI·影视娱乐·体育 六大实时Top20精选",
-    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：谷歌在芬兰非法砍伐25万棵树用于数据中心；OpenAI 现在无需连接互联网即可训练其前沿人工智能模型；中国商务部回应美发布新版对外投资限制拟议规则。",
+    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：谷歌在芬兰非法砍伐25万棵树用于数据中心；GPU 解锁：Nvidia 3000 卡上的 FP/BF16 指令发出率；中国商务部回应美发布新版对外投资限制拟议规则。",
     "metrics": {
       "totalEvents": 18,
       "sourcesCount": 30,
@@ -41,49 +41,49 @@
             }
           },
           {
-            "id": "aff7235589ab142718e0f18f5",
-            "title": "【国际巨头】OpenAI 现在无需连接互联网即可训练其前沿人工智能模型",
-            "originalTitle": "OpenAI now trains its frontier AI models with no internet access",
-            "summary": "在发生一系列流氓黑客事件后，OpenAI 现在正在无需连接互联网的情况下训练其最先进的人工智能模型。在周五的一篇博文中，OpenAI 表示它构建了一个离线测试环境，人工智能模型可以...（来源：The Verge·国际巨头）",
+            "id": "aecab4b9c055a6b2819cb7646",
+            "title": "【全球热榜】GPU 解锁：Nvidia 3000 卡上的 FP/BF16 指令发出率",
+            "originalTitle": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+            "summary": "X/HN·全球热榜Top实时快讯：GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
             "source": {
-              "name": "The Verge·国际巨头"
+              "name": "X/HN·全球热榜Top"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aff7235589ab142718e0f18f5",
-              "original": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
+              "aihot": "https://zenglian-news.onrender.com/items/aecab4b9c055a6b2819cb7646",
+              "original": "https://github.com/Zagitta/gpu-unlock"
             },
-            "publishedAt": "2026-10-23T21:11:07.000Z",
-            "discoveredAt": "2026-10-23T23:24:37.186Z",
+            "publishedAt": "2026-10-24T09:58:27.000Z",
+            "discoveredAt": "2026-10-24T18:38:38.044Z",
             "category": "global",
             "score": 99,
             "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aff7235589ab142718e0f18f5"
+              "url": "https://zenglian-news.onrender.com/items/aecab4b9c055a6b2819cb7646"
             }
           },
           {
-            "id": "ae199b9c47dad2eda40fd7c50",
-            "title": "【国际巨头】Apple 的“Pro and Tell”活动有哪些值得期待的内容",
-            "originalTitle": "What to expect from Apple’s ‘Pro and tell’ event",
-            "summary": "感觉就像苹果的欢迎回家活动刚刚发生一样。 iPhone Duo 的发布也离我们不远了。然而，该公司又推出了另一款产品，重点是 MacBook Pro，看起来……（来源：The Verge·国际巨头）",
+            "id": "a430053a3018347da73e4bcc8",
+            "title": "【国际巨头】宾夕法尼亚州将要求在人工智能生成的广告上添加标签",
+            "originalTitle": "Pennsylvania will require labels on AI-generated ads",
+            "summary": "周四，宾夕法尼亚州州长乔什·夏皮罗 (Josh Shapiro) 将《人工智能欺骗性广告法案》签署为法律，要求披露人工智能生成的广告。法律要求任何广告 - 无论是静止图像、视频......（来源：The Verge·国际巨头）",
             "source": {
               "name": "The Verge·国际巨头"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae199b9c47dad2eda40fd7c50",
-              "original": "https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro"
+              "aihot": "https://zenglian-news.onrender.com/items/a430053a3018347da73e4bcc8",
+              "original": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
             },
-            "publishedAt": "2026-10-24T14:15:00.000Z",
-            "discoveredAt": "2026-10-24T15:45:41.821Z",
+            "publishedAt": "2026-10-24T18:32:21.000Z",
+            "discoveredAt": "2026-10-24T18:38:40.053Z",
             "category": "global",
             "score": 97,
             "selected": true,
             "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae199b9c47dad2eda40fd7c50"
+              "url": "https://zenglian-news.onrender.com/items/a430053a3018347da73e4bcc8"
             }
           }
         ]
@@ -191,6 +191,29 @@
             }
           },
           {
+            "id": "ab39eb2f0bd7298359177b73f",
+            "title": "【出海实战】铁路袭击事件后 SaaS 的未来是什么？",
+            "originalTitle": "What's the future of SaaS after the Railway attack?",
+            "summary": "几天前你们可能都听说过铁路黑客事件。官方报告的背景： 1. 他们如何进入黑客可以访问大量的计算资源并使用删减的模型。 \\ * 文集...（来源：X/Reddit·出海SaaS搞钱）",
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ab39eb2f0bd7298359177b73f",
+              "original": "https://www.reddit.com/r/SaaS/comments/1xe226a/whats_the_future_of_saas_after_the_railway_attack/"
+            },
+            "publishedAt": "2026-10-24T07:13:08.000Z",
+            "discoveredAt": "2026-10-24T18:38:50.065Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ab39eb2f0bd7298359177b73f"
+            }
+          },
+          {
             "id": "a60cbbe569ffe0a34b587629a",
             "title": "【出海实战】兄弟，是我一个人的问题，还是发布应用程序比实际制作应用程序困难 100 倍？",
             "originalTitle": "Bro, is it just me or is PUBLISHING the app 100x harder than actually making it?",
@@ -211,29 +234,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a60cbbe569ffe0a34b587629a"
-            }
-          },
-          {
-            "id": "a097295c002f838ac6010c0d2",
-            "title": "【出海实战】用户是否应该能够在不离开您的应用程序的情况下组建有限责任公司？",
-            "originalTitle": "Should users be able to form an LLC without leaving your app?",
-            "summary": "我围绕最终需要实际商业实体为客户开具发票、开设商业账户或作为公司获得报酬的用户进行构建。我一直认为这意味着将他们送到类似 Stripe Atlas 或......（来源：X/Reddit·出海SaaS搞钱）",
-            "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a097295c002f838ac6010c0d2",
-              "original": "https://www.reddit.com/r/SaaS/comments/1xduyf3/should_users_be_able_to_form_an_llc_without/"
-            },
-            "publishedAt": "2026-10-24T00:43:01.000Z",
-            "discoveredAt": "2026-10-24T01:51:16.747Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a097295c002f838ac6010c0d2"
             }
           }
         ]
@@ -318,6 +318,29 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
+            "id": "aa6839a38015e4f0ab660e8be",
+            "title": "【好莱坞一手】纽约 AMC Kips Bay 剧院将于 1 月 3 日关闭；首席执行官表示“AMC 希望留下来”，但纽约大学朗格尼分校“希望我们离开”",
+            "originalTitle": "New York’s AMC Kips Bay Theater Closes on Jan. 3; CEO Says ‘AMC Wants to Stay’ but NYU Langone ‘Wants Us Gone’",
+            "summary": "AMC 首席执行官 Adam Aron 就关闭纽约市颇受欢迎的 AMC Kips Bay 15 电影院发表了讲话，该电影院将于 1 月 3 日关闭。Aron 给 Kips Bay 社区写了一封信，并谈到了附近的医院如何...（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aa6839a38015e4f0ab660e8be",
+              "original": "https://variety.com/2026/film/news/amc-kips-bay-closing-date-ceo-adam-aron-1236930275/"
+            },
+            "publishedAt": "2026-10-24T16:41:51.000Z",
+            "discoveredAt": "2026-10-24T18:39:03.765Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aa6839a38015e4f0ab660e8be"
+            }
+          },
+          {
             "id": "a733dc1915395836a2fdbb82f",
             "title": "【好莱坞一手】票房：《粘土脸》首映票房 1,040 万美元登顶第一，《你可以看到一切》周五增加 614 万美元",
             "originalTitle": "Box Office: ‘Clayface’ Lands at No. 1 with $10.4 Million Debut, ‘You Can See Everything’ Adds $6.14 Million on Friday",
@@ -338,29 +361,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a733dc1915395836a2fdbb82f"
-            }
-          },
-          {
-            "id": "a56fc4ac9ccfe430a0c1ceae4",
-            "title": "【好莱坞一手】昆汀·塔伦蒂诺在 AFI 电影节上以 17 分钟的《悬崖布斯的进一步不幸冒险》给粉丝带来惊喜",
-            "originalTitle": "Quentin Tarantino Surprises Fans With 17 Minutes of ‘The Further Mis-Adventures of Cliff Booth’ at AFI Fest",
-            "summary": "周五晚上，昆汀·塔伦蒂诺在 AFI 电影节上分享了《克里夫·布斯的进一步不幸冒险》的前 17 分钟，令观众大吃一惊。塔伦蒂诺特别亮相霍尔 TCL 中国剧院...（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a56fc4ac9ccfe430a0c1ceae4",
-              "original": "https://variety.com/2026/film/news/quentin-tarantino-further-mis-adventures-of-cliff-booth-preview-1236930220/"
-            },
-            "publishedAt": "2026-10-24T14:47:44.000Z",
-            "discoveredAt": "2026-10-24T15:46:27.139Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a56fc4ac9ccfe430a0c1ceae4"
             }
           },
           {
@@ -393,6 +393,29 @@
         "label": "🏆 体育实时Top20",
         "items": [
           {
+            "id": "a6c7e7543c1e8e2ae62219393",
+            "title": "【欧洲足坛】奥斯卡·博布（Oscar Bobb）的晚场表演击沉考文垂后，富勒姆爬出了降级区",
+            "originalTitle": "Fulham climb out of drop zone after Oscar Bobb’s late show sinks Coventry",
+            "summary": "奥斯卡·博布为富勒姆打进的首个英超联赛进球帮助富勒姆战胜了考文垂，阿尔瓦罗·阿韦洛亚的球队脱离了降级区。博布在第 80 分钟发挥了出色的个人技巧，两次进球......（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a6c7e7543c1e8e2ae62219393",
+              "original": "https://www.theguardian.com/football/2026/oct/24/coventry-fulham-premier-league-match-report"
+            },
+            "publishedAt": "2026-10-24T16:11:49.000Z",
+            "discoveredAt": "2026-10-24T18:39:17.495Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a6c7e7543c1e8e2ae62219393"
+            }
+          },
+          {
             "id": "ada54e15f596b6d7c5221b429",
             "title": "【欧洲足坛】切尔西 VS 托特纳姆热刺：英超联赛 - 直播",
             "originalTitle": "Chelsea v Tottenham: Premier League – live",
@@ -416,49 +439,26 @@
             }
           },
           {
-            "id": "a36400573e0582732568c91fd",
-            "title": "【体坛快讯】第20届倡棋杯决赛落幕 辜梓豪夺冠",
-            "originalTitle": "第20届倡棋杯决赛落幕 辜梓豪夺冠",
-            "summary": "中新网上海10月24日电 (记者 缪璐)第20届倡棋杯中国职业围棋锦标赛决赛24日在上海长宁乐动虹桥结束决赛三番棋的争夺，辜梓豪九段直落两局战胜党毅飞九段夺冠。这也意味着辜梓豪将直接获得2028年第11届应氏杯世界职业围棋锦标赛的参赛资格。",
+            "id": "a8a6b6977a657bd149c088084",
+            "title": "【NBA一手】[查拉尼亚] 消息人士告诉 ESPN，奥兰多魔术队球星保罗·班切罗 (Paolo Banchero) 右脚高脚踝轻度扭伤。这种损伤诊断的时间表通常为 4 至 6 周。",
+            "originalTitle": "[Charania] Orlando Magic star Paolo Banchero has sustained a low-grade right high ankle sprain, sources tell ESPN. This injury diagnosis typically carries a timetable of 4-to-6 weeks.",
+            "summary": "消息人士告诉 ESPN，奥兰多魔术队球星保罗·班切罗右脚高脚踝轻度扭伤。这种损伤诊断的时间表通常为 4 至 6 周。来源：https://www.espn.com/contributor/shams-...（来源：NBA·北美篮球实时热榜）",
             "source": {
-              "name": "中新网·体育焦点"
+              "name": "NBA·北美篮球实时热榜"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a36400573e0582732568c91fd",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-24/10720502.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a8a6b6977a657bd149c088084",
+              "original": "https://www.reddit.com/r/nba/comments/1xeddt5/charania_orlando_magic_star_paolo_banchero_has/"
             },
-            "publishedAt": "2026-10-24T13:21:45.000Z",
-            "discoveredAt": "2026-10-24T15:46:40.537Z",
+            "publishedAt": "2026-10-24T16:42:15.000Z",
+            "discoveredAt": "2026-10-24T18:39:27.041Z",
             "category": "business",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
+            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a36400573e0582732568c91fd"
-            }
-          },
-          {
-            "id": "acc15320b9ecb1b269de77ce7",
-            "title": "【体坛快讯】2026“郑洁杯”青少年网球巡回赛总决赛开拍",
-            "originalTitle": "2026“郑洁杯”青少年网球巡回赛总决赛开拍",
-            "summary": "中新网深圳10月24日电 2026YONEX“郑洁杯”青少年网球巡回赛总决赛(CTJ-B800)24日在深圳福田区郑洁(深圳)国际网球俱乐部开幕。最终入围总决赛的120余名选手将展开为期两天的角逐，全部八个组别的年度总冠军将诞生，入围今年菁英训练营的选手名单也将产生。",
-            "source": {
-              "name": "中新网·体育焦点"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/acc15320b9ecb1b269de77ce7",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-24/10720499.shtml"
-            },
-            "publishedAt": "2026-10-24T13:16:36.000Z",
-            "discoveredAt": "2026-10-24T15:46:40.742Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/acc15320b9ecb1b269de77ce7"
+              "url": "https://zenglian-news.onrender.com/items/a8a6b6977a657bd149c088084"
             }
           }
         ]
@@ -470,7 +470,7 @@
     "key": "2026-W41",
     "title": "曾练全球一手简报 · 本周核心周报 (2026年第41周)",
     "subtitle": "7天全球政经、国内大事、商业搞钱、AI突破与文体焦点深度复盘",
-    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：谷歌在芬兰非法砍伐25万棵树用于数据中心；OpenAI 现在无需连接互联网即可训练其前沿人工智能模型；中国商务部回应美发布新版对外投资限制拟议规则。",
+    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：谷歌在芬兰非法砍伐25万棵树用于数据中心；GPU 解锁：Nvidia 3000 卡上的 FP/BF16 指令发出率；中国商务部回应美发布新版对外投资限制拟议规则。",
     "metrics": {
       "totalEvents": 30,
       "sourcesCount": 30,
@@ -505,26 +505,72 @@
             }
           },
           {
-            "id": "aff7235589ab142718e0f18f5",
-            "title": "【国际巨头】OpenAI 现在无需连接互联网即可训练其前沿人工智能模型",
-            "originalTitle": "OpenAI now trains its frontier AI models with no internet access",
-            "summary": "在发生一系列流氓黑客事件后，OpenAI 现在正在无需连接互联网的情况下训练其最先进的人工智能模型。在周五的一篇博文中，OpenAI 表示它构建了一个离线测试环境，人工智能模型可以...（来源：The Verge·国际巨头）",
+            "id": "aecab4b9c055a6b2819cb7646",
+            "title": "【全球热榜】GPU 解锁：Nvidia 3000 卡上的 FP/BF16 指令发出率",
+            "originalTitle": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+            "summary": "X/HN·全球热榜Top实时快讯：GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aecab4b9c055a6b2819cb7646",
+              "original": "https://github.com/Zagitta/gpu-unlock"
+            },
+            "publishedAt": "2026-10-24T09:58:27.000Z",
+            "discoveredAt": "2026-10-24T18:38:38.044Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aecab4b9c055a6b2819cb7646"
+            }
+          },
+          {
+            "id": "a430053a3018347da73e4bcc8",
+            "title": "【国际巨头】宾夕法尼亚州将要求在人工智能生成的广告上添加标签",
+            "originalTitle": "Pennsylvania will require labels on AI-generated ads",
+            "summary": "周四，宾夕法尼亚州州长乔什·夏皮罗 (Josh Shapiro) 将《人工智能欺骗性广告法案》签署为法律，要求披露人工智能生成的广告。法律要求任何广告 - 无论是静止图像、视频......（来源：The Verge·国际巨头）",
             "source": {
               "name": "The Verge·国际巨头"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aff7235589ab142718e0f18f5",
-              "original": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
+              "aihot": "https://zenglian-news.onrender.com/items/a430053a3018347da73e4bcc8",
+              "original": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
             },
-            "publishedAt": "2026-10-23T21:11:07.000Z",
-            "discoveredAt": "2026-10-23T23:24:37.186Z",
+            "publishedAt": "2026-10-24T18:32:21.000Z",
+            "discoveredAt": "2026-10-24T18:38:40.053Z",
             "category": "global",
-            "score": 99,
+            "score": 97,
             "selected": true,
             "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aff7235589ab142718e0f18f5"
+              "url": "https://zenglian-news.onrender.com/items/a430053a3018347da73e4bcc8"
+            }
+          },
+          {
+            "id": "a0d28ba5575ae42328c29eb02",
+            "title": "【全球热榜】Roku 开发人员存储库从 GitHub 迁移到 GitLab",
+            "originalTitle": "Roku developer repositories moved from GitHub to GitLab",
+            "summary": "X/HN·全球热榜Top实时快讯：Roku developer repositories moved from GitHub to GitLab。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0d28ba5575ae42328c29eb02",
+              "original": "https://blog.roku.com/developer/gitlab-move"
+            },
+            "publishedAt": "2026-10-24T16:06:26.000Z",
+            "discoveredAt": "2026-10-24T18:38:36.843Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0d28ba5575ae42328c29eb02"
             }
           },
           {
@@ -548,52 +594,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ae199b9c47dad2eda40fd7c50"
-            }
-          },
-          {
-            "id": "a46b6a8b0128f8d46ae657538",
-            "title": "【全球热榜】我不懂量子物理 (2018)",
-            "originalTitle": "I Don't Understand Quantum Physics (2018)",
-            "summary": "X/HN·全球热榜Top实时快讯：I Don't Understand Quantum Physics (2018)。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a46b6a8b0128f8d46ae657538",
-              "original": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html"
-            },
-            "publishedAt": "2026-10-24T09:53:26.000Z",
-            "discoveredAt": "2026-10-24T15:45:37.994Z",
-            "category": "global",
-            "score": 97,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a46b6a8b0128f8d46ae657538"
-            }
-          },
-          {
-            "id": "a0091ff72f387f77f83dd0d5c",
-            "title": "【全球热榜】Node2Shell 演变为 HTTP2Shell，爆炸半径影响许多 HTTP 库和应用程序",
-            "originalTitle": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
-            "summary": "X/HN·全球热榜Top实时快讯：Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a0091ff72f387f77f83dd0d5c",
-              "original": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497"
-            },
-            "publishedAt": "2026-10-24T08:06:39.000Z",
-            "discoveredAt": "2026-10-24T15:45:38.535Z",
-            "category": "global",
-            "score": 97,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a0091ff72f387f77f83dd0d5c"
             }
           }
         ]
@@ -747,6 +747,29 @@
             }
           },
           {
+            "id": "ab39eb2f0bd7298359177b73f",
+            "title": "【出海实战】铁路袭击事件后 SaaS 的未来是什么？",
+            "originalTitle": "What's the future of SaaS after the Railway attack?",
+            "summary": "几天前你们可能都听说过铁路黑客事件。官方报告的背景： 1. 他们如何进入黑客可以访问大量的计算资源并使用删减的模型。 \\ * 文集...（来源：X/Reddit·出海SaaS搞钱）",
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ab39eb2f0bd7298359177b73f",
+              "original": "https://www.reddit.com/r/SaaS/comments/1xe226a/whats_the_future_of_saas_after_the_railway_attack/"
+            },
+            "publishedAt": "2026-10-24T07:13:08.000Z",
+            "discoveredAt": "2026-10-24T18:38:50.065Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ab39eb2f0bd7298359177b73f"
+            }
+          },
+          {
             "id": "a60cbbe569ffe0a34b587629a",
             "title": "【出海实战】兄弟，是我一个人的问题，还是发布应用程序比实际制作应用程序困难 100 倍？",
             "originalTitle": "Bro, is it just me or is PUBLISHING the app 100x harder than actually making it?",
@@ -793,49 +816,26 @@
             }
           },
           {
-            "id": "a5f98dbccf5cff15353ce6520",
-            "title": "【出海实战】Google Play 上有 50 万次安装，但只有 20-30 名付费用户。我做错了什么？",
-            "originalTitle": "500k installs on Google Play but only 20-30 paid users. What am I doing wrong?",
-            "summary": "在 google play 中达到 50 万次 大家好 最近我的 VPN 应用程序在 Google Play 上的安装次数达到了 50 万次。我总共有大约 40 万用户，但只有 20-30 人拥有有效的付费订阅。老实说，我开始...（来源：X/Reddit·出海SaaS搞钱）",
+            "id": "a13c96d43c0a0664bc2059cbf",
+            "title": "长鑫的千亿利润里，藏着第一个拐点",
+            "originalTitle": "长鑫的千亿利润里，藏着第一个拐点",
+            "summary": "本文来自微信公众号： AD财经 ，作者：石友松 一 10月16日晚，长鑫科技发布前三季度业绩预告：营收约2650亿至2700亿元，归母净利润约1310亿至1325亿元。去年同期，这家公司还亏损52.8亿元。 这确实是个历史性的数字：一家三年前还在巨亏的国产DRAM厂商，九个月赚出了超过1300亿元。 但如果把三季度单独拿出来看，会发现一组不太对劲的数字：三季度营收比二季度多了约152亿至202亿元，归母净利润只多了约5.5亿至20.5亿...",
             "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
+              "name": "虎嗅网·商业搞钱深度"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a5f98dbccf5cff15353ce6520",
-              "original": "https://www.reddit.com/r/SaaS/comments/1xdkqfu/500k_installs_on_google_play_but_only_2030_paid/"
+              "aihot": "https://zenglian-news.onrender.com/items/a13c96d43c0a0664bc2059cbf",
+              "original": "https://www.huxiu.com/article/4900208.html?f=rss"
             },
-            "publishedAt": "2026-10-23T17:40:55.000Z",
-            "discoveredAt": "2026-10-23T20:28:34.162Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a5f98dbccf5cff15353ce6520"
-            }
-          },
-          {
-            "id": "af4f1aea6a2c88d089f272d74",
-            "title": "【出海实战】我审核了 300 个初创网站。这 5 个常见错误正在让他们失去客户。",
-            "originalTitle": "I audited 300 startup websites. These 5 common mistakes are costing them customers.",
-            "summary": "我最近一直在审查初创网站，并且不断看到同样的问题。有些看起来很小，但它们可以在某人注册您的产品和离开您的网站而不采取任何措施之间产生影响。（来源：X/Reddit·出海SaaS搞钱）",
-            "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af4f1aea6a2c88d089f272d74",
-              "original": "https://www.reddit.com/r/SaaS/comments/1xe99y2/i_audited_300_startup_websites_these_5_common/"
-            },
-            "publishedAt": "2026-10-24T13:54:21.000Z",
-            "discoveredAt": "2026-10-24T15:46:10.003Z",
+            "publishedAt": "2026-10-24T16:16:58.000Z",
+            "discoveredAt": "2026-10-24T18:38:51.762Z",
             "category": "money",
             "score": 98,
             "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af4f1aea6a2c88d089f272d74"
+              "url": "https://zenglian-news.onrender.com/items/a13c96d43c0a0664bc2059cbf"
             }
           }
         ]
@@ -966,6 +966,29 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
+            "id": "aa6839a38015e4f0ab660e8be",
+            "title": "【好莱坞一手】纽约 AMC Kips Bay 剧院将于 1 月 3 日关闭；首席执行官表示“AMC 希望留下来”，但纽约大学朗格尼分校“希望我们离开”",
+            "originalTitle": "New York’s AMC Kips Bay Theater Closes on Jan. 3; CEO Says ‘AMC Wants to Stay’ but NYU Langone ‘Wants Us Gone’",
+            "summary": "AMC 首席执行官 Adam Aron 就关闭纽约市颇受欢迎的 AMC Kips Bay 15 电影院发表了讲话，该电影院将于 1 月 3 日关闭。Aron 给 Kips Bay 社区写了一封信，并谈到了附近的医院如何...（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aa6839a38015e4f0ab660e8be",
+              "original": "https://variety.com/2026/film/news/amc-kips-bay-closing-date-ceo-adam-aron-1236930275/"
+            },
+            "publishedAt": "2026-10-24T16:41:51.000Z",
+            "discoveredAt": "2026-10-24T18:39:03.765Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aa6839a38015e4f0ab660e8be"
+            }
+          },
+          {
             "id": "a733dc1915395836a2fdbb82f",
             "title": "【好莱坞一手】票房：《粘土脸》首映票房 1,040 万美元登顶第一，《你可以看到一切》周五增加 614 万美元",
             "originalTitle": "Box Office: ‘Clayface’ Lands at No. 1 with $10.4 Million Debut, ‘You Can See Everything’ Adds $6.14 Million on Friday",
@@ -986,29 +1009,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a733dc1915395836a2fdbb82f"
-            }
-          },
-          {
-            "id": "a56fc4ac9ccfe430a0c1ceae4",
-            "title": "【好莱坞一手】昆汀·塔伦蒂诺在 AFI 电影节上以 17 分钟的《悬崖布斯的进一步不幸冒险》给粉丝带来惊喜",
-            "originalTitle": "Quentin Tarantino Surprises Fans With 17 Minutes of ‘The Further Mis-Adventures of Cliff Booth’ at AFI Fest",
-            "summary": "周五晚上，昆汀·塔伦蒂诺在 AFI 电影节上分享了《克里夫·布斯的进一步不幸冒险》的前 17 分钟，令观众大吃一惊。塔伦蒂诺特别亮相霍尔 TCL 中国剧院...（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a56fc4ac9ccfe430a0c1ceae4",
-              "original": "https://variety.com/2026/film/news/quentin-tarantino-further-mis-adventures-of-cliff-booth-preview-1236930220/"
-            },
-            "publishedAt": "2026-10-24T14:47:44.000Z",
-            "discoveredAt": "2026-10-24T15:46:27.139Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a56fc4ac9ccfe430a0c1ceae4"
             }
           },
           {
@@ -1035,49 +1035,49 @@
             }
           },
           {
-            "id": "a43ecb99b9fa27d38e85297cc",
-            "title": "【全球票房】BravoCon 2027 确定返回拉斯维加斯的日期",
-            "originalTitle": "BravoCon 2027 Sets Dates For Return To Las Vegas",
-            "summary": "Bravo 已经确定了 BravoCon 2027 的日期，粉丝活动将于 2027 年 10 月 22 日至 24 日返回拉斯维加斯。周末活动将在凯撒论坛举​​行，过去两届都在那里举行。这标志着...（来源：Deadline·全球票房与新片）",
+            "id": "abf479ae14db3b4d94b6fa4a3",
+            "title": "【全球票房】西尔维斯特·史泰龙谈在《塔尔萨之王》中选角女儿：“当然是裙带关系，你这个白痴”",
+            "originalTitle": "Sylvester Stallone On Casting Daughter In ‘Tulsa King’: “Of Course It’s Nepotism, You Idiot”",
+            "summary": "10 月 16 日，西尔维斯特·史泰龙 (Sylvester Stallone) 的采访在网上疯传，这位塔尔萨·金 (Tulsa King) 演员对他女儿斯嘉丽·罗丝·史泰龙 (Scarlet Rose Stallone) 的选角发表了一些坦诚的评论。史泰龙有一个直言不讳的信息要反对...（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a43ecb99b9fa27d38e85297cc",
-              "original": "https://deadline.com/2026/10/bravocon-2027-dates-las-vegas-1237172140/"
+              "aihot": "https://zenglian-news.onrender.com/items/abf479ae14db3b4d94b6fa4a3",
+              "original": "https://deadline.com/2026/10/sylvester-stallone-tulsa-king-nepotism-1237172381/"
             },
-            "publishedAt": "2026-10-24T15:45:00.000Z",
-            "discoveredAt": "2026-10-24T15:46:33.519Z",
+            "publishedAt": "2026-10-24T18:03:45.000Z",
+            "discoveredAt": "2026-10-24T18:39:05.808Z",
             "category": "culture",
             "score": 98,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a43ecb99b9fa27d38e85297cc"
+              "url": "https://zenglian-news.onrender.com/items/abf479ae14db3b4d94b6fa4a3"
             }
           },
           {
-            "id": "a89a1b78e383998ee445ce1f3",
-            "title": "【全球票房】阿尼卡·拉肖恩 (Anika Rashaun) 去世：《现实世界》、《挑战》演员 34 岁",
-            "originalTitle": "Anika Rashaun Dies: ‘Real World’, ‘The Challenge’ Alum Was 34",
-            "summary": "阿尼卡·拉肖恩 (Anika Rashaun) 是一位真人秀明星，曾在 MTV 的《真实世界》和《挑战》中亮相并参加比赛，后来成为一名专业媒人、咨询专栏作家和约会教练，于 10 月 1 日因乳腺癌去世。她与...（来源：Deadline·全球票房与新片）",
+            "id": "ab5591f46c5d9016c4c9df168",
+            "title": "【好莱坞一手】《你可以看到一切》中的惊喜嘉宾可能会赢得奥斯卡奖。他们应该吗？",
+            "originalTitle": "The Surprise Guest in ‘You Can See Everything’ Could Win an Oscar. Should They?",
+            "summary": "剧透警告：本文包含正在影院上映的《你可以看到一切》的剧透。自从上周《你可以看到一切》在影院上映以来，颁奖专家们一直在思考的问题是……（来源：Variety·好莱坞影视）",
             "source": {
-              "name": "Deadline·全球票房与新片"
+              "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a89a1b78e383998ee445ce1f3",
-              "original": "https://deadline.com/2026/10/anika-rashaun-dead-1237172312/"
+              "aihot": "https://zenglian-news.onrender.com/items/ab5591f46c5d9016c4c9df168",
+              "original": "https://variety.com/2026/film/columns/amanda-seyfried-you-can-see-everything-oscar-1236916757/"
             },
-            "publishedAt": "2026-10-24T13:08:57.000Z",
-            "discoveredAt": "2026-10-24T15:46:37.356Z",
+            "publishedAt": "2026-10-24T17:00:00.000Z",
+            "discoveredAt": "2026-10-24T18:39:01.712Z",
             "category": "culture",
             "score": 98,
             "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a89a1b78e383998ee445ce1f3"
+              "url": "https://zenglian-news.onrender.com/items/ab5591f46c5d9016c4c9df168"
             }
           }
         ]
@@ -1086,6 +1086,29 @@
         "category": "business",
         "label": "🏆 体育实时Top20",
         "items": [
+          {
+            "id": "a6c7e7543c1e8e2ae62219393",
+            "title": "【欧洲足坛】奥斯卡·博布（Oscar Bobb）的晚场表演击沉考文垂后，富勒姆爬出了降级区",
+            "originalTitle": "Fulham climb out of drop zone after Oscar Bobb’s late show sinks Coventry",
+            "summary": "奥斯卡·博布为富勒姆打进的首个英超联赛进球帮助富勒姆战胜了考文垂，阿尔瓦罗·阿韦洛亚的球队脱离了降级区。博布在第 80 分钟发挥了出色的个人技巧，两次进球......（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a6c7e7543c1e8e2ae62219393",
+              "original": "https://www.theguardian.com/football/2026/oct/24/coventry-fulham-premier-league-match-report"
+            },
+            "publishedAt": "2026-10-24T16:11:49.000Z",
+            "discoveredAt": "2026-10-24T18:39:17.495Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a6c7e7543c1e8e2ae62219393"
+            }
+          },
           {
             "id": "ada54e15f596b6d7c5221b429",
             "title": "【欧洲足坛】切尔西 VS 托特纳姆热刺：英超联赛 - 直播",
@@ -1110,95 +1133,72 @@
             }
           },
           {
-            "id": "a36400573e0582732568c91fd",
-            "title": "【体坛快讯】第20届倡棋杯决赛落幕 辜梓豪夺冠",
-            "originalTitle": "第20届倡棋杯决赛落幕 辜梓豪夺冠",
-            "summary": "中新网上海10月24日电 (记者 缪璐)第20届倡棋杯中国职业围棋锦标赛决赛24日在上海长宁乐动虹桥结束决赛三番棋的争夺，辜梓豪九段直落两局战胜党毅飞九段夺冠。这也意味着辜梓豪将直接获得2028年第11届应氏杯世界职业围棋锦标赛的参赛资格。",
+            "id": "a8a6b6977a657bd149c088084",
+            "title": "【NBA一手】[查拉尼亚] 消息人士告诉 ESPN，奥兰多魔术队球星保罗·班切罗 (Paolo Banchero) 右脚高脚踝轻度扭伤。这种损伤诊断的时间表通常为 4 至 6 周。",
+            "originalTitle": "[Charania] Orlando Magic star Paolo Banchero has sustained a low-grade right high ankle sprain, sources tell ESPN. This injury diagnosis typically carries a timetable of 4-to-6 weeks.",
+            "summary": "消息人士告诉 ESPN，奥兰多魔术队球星保罗·班切罗右脚高脚踝轻度扭伤。这种损伤诊断的时间表通常为 4 至 6 周。来源：https://www.espn.com/contributor/shams-...（来源：NBA·北美篮球实时热榜）",
             "source": {
-              "name": "中新网·体育焦点"
+              "name": "NBA·北美篮球实时热榜"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a36400573e0582732568c91fd",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-24/10720502.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a8a6b6977a657bd149c088084",
+              "original": "https://www.reddit.com/r/nba/comments/1xeddt5/charania_orlando_magic_star_paolo_banchero_has/"
             },
-            "publishedAt": "2026-10-24T13:21:45.000Z",
-            "discoveredAt": "2026-10-24T15:46:40.537Z",
+            "publishedAt": "2026-10-24T16:42:15.000Z",
+            "discoveredAt": "2026-10-24T18:39:27.041Z",
             "category": "business",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
+            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a36400573e0582732568c91fd"
+              "url": "https://zenglian-news.onrender.com/items/a8a6b6977a657bd149c088084"
             }
           },
           {
-            "id": "acc15320b9ecb1b269de77ce7",
-            "title": "【体坛快讯】2026“郑洁杯”青少年网球巡回赛总决赛开拍",
-            "originalTitle": "2026“郑洁杯”青少年网球巡回赛总决赛开拍",
-            "summary": "中新网深圳10月24日电 2026YONEX“郑洁杯”青少年网球巡回赛总决赛(CTJ-B800)24日在深圳福田区郑洁(深圳)国际网球俱乐部开幕。最终入围总决赛的120余名选手将展开为期两天的角逐，全部八个组别的年度总冠军将诞生，入围今年菁英训练营的选手名单也将产生。",
+            "id": "a5d8651c48e486af582257cc4",
+            "title": "【NBA一手】布莱克·格里芬 (Blake Griffin) 在 NBA 演播室节目中说道：“门槛有点低……很多人来找我们：‘你能谈论篮球真是太棒了。’这应该是你谈论的最明显的事情。”",
+            "originalTitle": "Blake Griffin on NBA studio shows: “The bar was kinda low... A lot of people have come up to us: ‘It’s so great that you talk basketball.’ That should be the most obvious thing you talk about.”",
+            "summary": "由/u/luka274提交 [链接] [评论]（来源：NBA·北美篮球实时热榜）",
             "source": {
-              "name": "中新网·体育焦点"
+              "name": "NBA·北美篮球实时热榜"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/acc15320b9ecb1b269de77ce7",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-24/10720499.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a5d8651c48e486af582257cc4",
+              "original": "https://www.reddit.com/r/nba/comments/1xed9g1/blake_griffin_on_nba_studio_shows_the_bar_was/"
             },
-            "publishedAt": "2026-10-24T13:16:36.000Z",
-            "discoveredAt": "2026-10-24T15:46:40.742Z",
+            "publishedAt": "2026-10-24T16:37:26.000Z",
+            "discoveredAt": "2026-10-24T18:39:26.004Z",
             "category": "business",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
+            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/acc15320b9ecb1b269de77ce7"
+              "url": "https://zenglian-news.onrender.com/items/a5d8651c48e486af582257cc4"
             }
           },
           {
-            "id": "af701d0e1e748e57a1a4b48a3",
-            "title": "【欧洲足坛】托特纳姆热刺队在 WSL、英超、EFL 等比赛中主场迎战阿森纳 – 足球时钟直播",
-            "originalTitle": "Tottenham host Arsenal in WSL, Premier League, EFL and more – football clockwatch live",
-            "summary": "⚽ 周六球场周围活动的最新动态 ⚽ 需要注意的十件事 |分数 |桌子| Mail Billy WSL：球队在托特纳姆热刺球场出局。屠宰场过后，今天的伦敦有点毛毛雨……（来源：卫报体育·欧冠与五大联赛）",
+            "id": "a72fb2441b7d3f86af8e86d95",
+            "title": "【欧洲足坛】得益于康萨和加布里埃尔，临床阿森纳在对阵埃弗顿的比赛中赢得了宝贵的胜利",
+            "originalTitle": "Clinical Arsenal earn precious win against Everton thanks to Konsa and Gabriel",
+            "summary": "大卫·莫耶斯的等待仍在继续。这位 63 岁的苏格兰人一定希望在他作为埃弗顿主教练第 14 次来到这座球场时，他的运气会改变。然而从埃兹里·孔萨打进他的第一个进球的那一刻起......（来源：卫报体育·欧冠与五大联赛）",
             "source": {
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af701d0e1e748e57a1a4b48a3",
-              "original": "https://www.theguardian.com/football/live/2026/oct/24/tottenham-arsenal-wsl-premier-league-efl-football-clockwatch-live"
+              "aihot": "https://zenglian-news.onrender.com/items/a72fb2441b7d3f86af8e86d95",
+              "original": "https://www.theguardian.com/football/2026/oct/24/arsenal-everton-premier-league-match-report"
             },
-            "publishedAt": "2026-10-24T11:44:32.000Z",
-            "discoveredAt": "2026-10-24T11:57:56.525Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af701d0e1e748e57a1a4b48a3"
-            }
-          },
-          {
-            "id": "ab8678481f3ebedb4591c21ab",
-            "title": "【欧洲足坛】冠军综述：朴茨茅斯运气好击败米尔沃尔；诺维奇重回胜利之路",
-            "originalTitle": "Championship roundup: Portsmouth ride luck to beat Millwall; Norwich back to winning ways",
-            "summary": "朴茨茅斯2-1米尔沃尔；查顿 1-3 诺维奇 沃丁汉姆为庞贝·托马斯·沃丁汉姆进球，为状态正佳的朴茨茅斯在弗拉顿公园球场以 2-1 逆转战胜米尔沃尔。杰克·库珀是...（来源：卫报体育·欧冠与五大联赛）",
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab8678481f3ebedb4591c21ab",
-              "original": "https://www.theguardian.com/football/2026/oct/24/championship-roundup-sheffield-united-derby-west-ham-swansea"
-            },
-            "publishedAt": "2026-10-24T14:30:54.000Z",
-            "discoveredAt": "2026-10-24T15:46:50.998Z",
+            "publishedAt": "2026-10-24T16:03:49.000Z",
+            "discoveredAt": "2026-10-24T18:39:16.375Z",
             "category": "business",
             "score": 98,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab8678481f3ebedb4591c21ab"
+              "url": "https://zenglian-news.onrender.com/items/a72fb2441b7d3f86af8e86d95"
             }
           }
         ]
@@ -1210,7 +1210,7 @@
     "key": "2026-10",
     "title": "曾练全球一手简报 · 月度产业全景报告 (2026年10月)",
     "subtitle": "30天六大实时Top20赛道全景洞察与高价值搞钱机会总结",
-    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：谷歌在芬兰非法砍伐25万棵树用于数据中心；OpenAI 现在无需连接互联网即可训练其前沿人工智能模型；中国商务部回应美发布新版对外投资限制拟议规则。",
+    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：谷歌在芬兰非法砍伐25万棵树用于数据中心；GPU 解锁：Nvidia 3000 卡上的 FP/BF16 指令发出率；中国商务部回应美发布新版对外投资限制拟议规则。",
     "metrics": {
       "totalEvents": 36,
       "sourcesCount": 30,
@@ -1245,26 +1245,72 @@
             }
           },
           {
-            "id": "aff7235589ab142718e0f18f5",
-            "title": "【国际巨头】OpenAI 现在无需连接互联网即可训练其前沿人工智能模型",
-            "originalTitle": "OpenAI now trains its frontier AI models with no internet access",
-            "summary": "在发生一系列流氓黑客事件后，OpenAI 现在正在无需连接互联网的情况下训练其最先进的人工智能模型。在周五的一篇博文中，OpenAI 表示它构建了一个离线测试环境，人工智能模型可以...（来源：The Verge·国际巨头）",
+            "id": "aecab4b9c055a6b2819cb7646",
+            "title": "【全球热榜】GPU 解锁：Nvidia 3000 卡上的 FP/BF16 指令发出率",
+            "originalTitle": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+            "summary": "X/HN·全球热榜Top实时快讯：GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aecab4b9c055a6b2819cb7646",
+              "original": "https://github.com/Zagitta/gpu-unlock"
+            },
+            "publishedAt": "2026-10-24T09:58:27.000Z",
+            "discoveredAt": "2026-10-24T18:38:38.044Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aecab4b9c055a6b2819cb7646"
+            }
+          },
+          {
+            "id": "a430053a3018347da73e4bcc8",
+            "title": "【国际巨头】宾夕法尼亚州将要求在人工智能生成的广告上添加标签",
+            "originalTitle": "Pennsylvania will require labels on AI-generated ads",
+            "summary": "周四，宾夕法尼亚州州长乔什·夏皮罗 (Josh Shapiro) 将《人工智能欺骗性广告法案》签署为法律，要求披露人工智能生成的广告。法律要求任何广告 - 无论是静止图像、视频......（来源：The Verge·国际巨头）",
             "source": {
               "name": "The Verge·国际巨头"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aff7235589ab142718e0f18f5",
-              "original": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
+              "aihot": "https://zenglian-news.onrender.com/items/a430053a3018347da73e4bcc8",
+              "original": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
             },
-            "publishedAt": "2026-10-23T21:11:07.000Z",
-            "discoveredAt": "2026-10-23T23:24:37.186Z",
+            "publishedAt": "2026-10-24T18:32:21.000Z",
+            "discoveredAt": "2026-10-24T18:38:40.053Z",
             "category": "global",
-            "score": 99,
+            "score": 97,
             "selected": true,
             "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aff7235589ab142718e0f18f5"
+              "url": "https://zenglian-news.onrender.com/items/a430053a3018347da73e4bcc8"
+            }
+          },
+          {
+            "id": "a0d28ba5575ae42328c29eb02",
+            "title": "【全球热榜】Roku 开发人员存储库从 GitHub 迁移到 GitLab",
+            "originalTitle": "Roku developer repositories moved from GitHub to GitLab",
+            "summary": "X/HN·全球热榜Top实时快讯：Roku developer repositories moved from GitHub to GitLab。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0d28ba5575ae42328c29eb02",
+              "original": "https://blog.roku.com/developer/gitlab-move"
+            },
+            "publishedAt": "2026-10-24T16:06:26.000Z",
+            "discoveredAt": "2026-10-24T18:38:36.843Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0d28ba5575ae42328c29eb02"
             }
           },
           {
@@ -1311,52 +1357,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a46b6a8b0128f8d46ae657538"
-            }
-          },
-          {
-            "id": "a0091ff72f387f77f83dd0d5c",
-            "title": "【全球热榜】Node2Shell 演变为 HTTP2Shell，爆炸半径影响许多 HTTP 库和应用程序",
-            "originalTitle": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
-            "summary": "X/HN·全球热榜Top实时快讯：Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a0091ff72f387f77f83dd0d5c",
-              "original": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497"
-            },
-            "publishedAt": "2026-10-24T08:06:39.000Z",
-            "discoveredAt": "2026-10-24T15:45:38.535Z",
-            "category": "global",
-            "score": 97,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a0091ff72f387f77f83dd0d5c"
-            }
-          },
-          {
-            "id": "ad12a68732931c7b589f378d8",
-            "title": "【全球热榜】纯函数式编程与 C 语言有多接近？",
-            "originalTitle": "How close can pure functional programming get to C?",
-            "summary": "X/HN·全球热榜Top实时快讯：How close can pure functional programming get to C?。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad12a68732931c7b589f378d8",
-              "original": "https://rtfeldman.com/fp-vs-c"
-            },
-            "publishedAt": "2026-10-24T03:43:54.000Z",
-            "discoveredAt": "2026-10-24T11:57:07.243Z",
-            "category": "global",
-            "score": 97,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad12a68732931c7b589f378d8"
             }
           }
         ]
@@ -1533,6 +1533,29 @@
             }
           },
           {
+            "id": "ab39eb2f0bd7298359177b73f",
+            "title": "【出海实战】铁路袭击事件后 SaaS 的未来是什么？",
+            "originalTitle": "What's the future of SaaS after the Railway attack?",
+            "summary": "几天前你们可能都听说过铁路黑客事件。官方报告的背景： 1. 他们如何进入黑客可以访问大量的计算资源并使用删减的模型。 \\ * 文集...（来源：X/Reddit·出海SaaS搞钱）",
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ab39eb2f0bd7298359177b73f",
+              "original": "https://www.reddit.com/r/SaaS/comments/1xe226a/whats_the_future_of_saas_after_the_railway_attack/"
+            },
+            "publishedAt": "2026-10-24T07:13:08.000Z",
+            "discoveredAt": "2026-10-24T18:38:50.065Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ab39eb2f0bd7298359177b73f"
+            }
+          },
+          {
             "id": "a60cbbe569ffe0a34b587629a",
             "title": "【出海实战】兄弟，是我一个人的问题，还是发布应用程序比实际制作应用程序困难 100 倍？",
             "originalTitle": "Bro, is it just me or is PUBLISHING the app 100x harder than actually making it?",
@@ -1579,26 +1602,26 @@
             }
           },
           {
-            "id": "a5f98dbccf5cff15353ce6520",
-            "title": "【出海实战】Google Play 上有 50 万次安装，但只有 20-30 名付费用户。我做错了什么？",
-            "originalTitle": "500k installs on Google Play but only 20-30 paid users. What am I doing wrong?",
-            "summary": "在 google play 中达到 50 万次 大家好 最近我的 VPN 应用程序在 Google Play 上的安装次数达到了 50 万次。我总共有大约 40 万用户，但只有 20-30 人拥有有效的付费订阅。老实说，我开始...（来源：X/Reddit·出海SaaS搞钱）",
+            "id": "a13c96d43c0a0664bc2059cbf",
+            "title": "长鑫的千亿利润里，藏着第一个拐点",
+            "originalTitle": "长鑫的千亿利润里，藏着第一个拐点",
+            "summary": "本文来自微信公众号： AD财经 ，作者：石友松 一 10月16日晚，长鑫科技发布前三季度业绩预告：营收约2650亿至2700亿元，归母净利润约1310亿至1325亿元。去年同期，这家公司还亏损52.8亿元。 这确实是个历史性的数字：一家三年前还在巨亏的国产DRAM厂商，九个月赚出了超过1300亿元。 但如果把三季度单独拿出来看，会发现一组不太对劲的数字：三季度营收比二季度多了约152亿至202亿元，归母净利润只多了约5.5亿至20.5亿...",
             "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
+              "name": "虎嗅网·商业搞钱深度"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a5f98dbccf5cff15353ce6520",
-              "original": "https://www.reddit.com/r/SaaS/comments/1xdkqfu/500k_installs_on_google_play_but_only_2030_paid/"
+              "aihot": "https://zenglian-news.onrender.com/items/a13c96d43c0a0664bc2059cbf",
+              "original": "https://www.huxiu.com/article/4900208.html?f=rss"
             },
-            "publishedAt": "2026-10-23T17:40:55.000Z",
-            "discoveredAt": "2026-10-23T20:28:34.162Z",
+            "publishedAt": "2026-10-24T16:16:58.000Z",
+            "discoveredAt": "2026-10-24T18:38:51.762Z",
             "category": "money",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a5f98dbccf5cff15353ce6520"
+              "url": "https://zenglian-news.onrender.com/items/a13c96d43c0a0664bc2059cbf"
             }
           },
           {
@@ -1622,29 +1645,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/af4f1aea6a2c88d089f272d74"
-            }
-          },
-          {
-            "id": "aa12a23de08032dbcf48f4fac",
-            "title": "百度搭子的阶段性大考来了",
-            "originalTitle": "百度搭子的阶段性大考来了",
-            "summary": "（本文作者为 唐辰同学，钛媒体经授权发布） 文 | 唐辰同学 谁说百度搭子不能打？ 10月20日，QuestMobile发布2026年三季度AI应用市场发展报告。数据显示，AI办公月活规模已经达到1.42亿，同比增长50.6%。 其中，百度搭子的表现让很多人眼前一亮。其合计月活977万，多端总使用次数8381万次，较 6 月增长 5810%。 这个规模位居AI办公Agent榜单第二位，它前面是腾讯WorkBuddy的3235.3万，第三...",
-            "source": {
-              "name": "钛媒体·资本与风口"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa12a23de08032dbcf48f4fac",
-              "original": "https://www.tmtpost.com/8179558.html"
-            },
-            "publishedAt": "2026-10-24T10:07:17.000Z",
-            "discoveredAt": "2026-10-24T11:57:27.344Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa12a23de08032dbcf48f4fac"
             }
           }
         ]
@@ -1769,26 +1769,26 @@
             }
           },
           {
-            "id": "a6d967fc5fc6e9fd6f3351e1c",
-            "title": "【独立变现】Show HN：Corgi，一个有用的{代理，终端}多路复用器",
-            "originalTitle": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
-            "summary": "大家好，受 Herdr 的启发，我构建了一个代理多路复用器，几周以来我一直将其用作我的日常驱动程序。我认为我在几个方面改进了这个概念，重点关注我一直希望的人体工程学......（来源：Show HN·独立变现榜）",
+            "id": "a55f7037ec199ee28ed28dc35",
+            "title": "【OpenAI官宣】快速扩展在线存储以服务超过 10 亿 ChatGPT 用户（第二部分）",
+            "originalTitle": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+            "summary": "了解 OpenAI 如何通过可靠的多租户、全局缓存和 Azure Cosmos DB 扩展 Habitat，为 ChatGPT 提供 12 倍的更快读取速度。（来源：OpenAI·官方一手）",
             "source": {
-              "name": "Show HN·独立变现榜"
+              "name": "OpenAI·官方一手"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a6d967fc5fc6e9fd6f3351e1c",
-              "original": "https://corgi.computer/"
+              "aihot": "https://zenglian-news.onrender.com/items/a55f7037ec199ee28ed28dc35",
+              "original": "https://openai.com/index/scaling-storage-one-billion-users-part-two"
             },
-            "publishedAt": "2026-10-23T19:46:38.000Z",
-            "discoveredAt": "2026-10-24T11:57:13.423Z",
+            "publishedAt": "2026-10-23T17:00:00.000Z",
+            "discoveredAt": "2026-10-23T17:10:02.745Z",
             "category": "tech",
             "score": 99,
             "selected": true,
-            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+            "reason": "OpenAI 官方博客与研究产品一手公告，全球人工智能行业最高风向标。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a6d967fc5fc6e9fd6f3351e1c"
+              "url": "https://zenglian-news.onrender.com/items/a55f7037ec199ee28ed28dc35"
             }
           }
         ]
@@ -1797,6 +1797,29 @@
         "category": "culture",
         "label": "🎬 影视娱乐Top20",
         "items": [
+          {
+            "id": "aa6839a38015e4f0ab660e8be",
+            "title": "【好莱坞一手】纽约 AMC Kips Bay 剧院将于 1 月 3 日关闭；首席执行官表示“AMC 希望留下来”，但纽约大学朗格尼分校“希望我们离开”",
+            "originalTitle": "New York’s AMC Kips Bay Theater Closes on Jan. 3; CEO Says ‘AMC Wants to Stay’ but NYU Langone ‘Wants Us Gone’",
+            "summary": "AMC 首席执行官 Adam Aron 就关闭纽约市颇受欢迎的 AMC Kips Bay 15 电影院发表了讲话，该电影院将于 1 月 3 日关闭。Aron 给 Kips Bay 社区写了一封信，并谈到了附近的医院如何...（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aa6839a38015e4f0ab660e8be",
+              "original": "https://variety.com/2026/film/news/amc-kips-bay-closing-date-ceo-adam-aron-1236930275/"
+            },
+            "publishedAt": "2026-10-24T16:41:51.000Z",
+            "discoveredAt": "2026-10-24T18:39:03.765Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aa6839a38015e4f0ab660e8be"
+            }
+          },
           {
             "id": "a733dc1915395836a2fdbb82f",
             "title": "【好莱坞一手】票房：《粘土脸》首映票房 1,040 万美元登顶第一，《你可以看到一切》周五增加 614 万美元",
@@ -1818,29 +1841,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a733dc1915395836a2fdbb82f"
-            }
-          },
-          {
-            "id": "a56fc4ac9ccfe430a0c1ceae4",
-            "title": "【好莱坞一手】昆汀·塔伦蒂诺在 AFI 电影节上以 17 分钟的《悬崖布斯的进一步不幸冒险》给粉丝带来惊喜",
-            "originalTitle": "Quentin Tarantino Surprises Fans With 17 Minutes of ‘The Further Mis-Adventures of Cliff Booth’ at AFI Fest",
-            "summary": "周五晚上，昆汀·塔伦蒂诺在 AFI 电影节上分享了《克里夫·布斯的进一步不幸冒险》的前 17 分钟，令观众大吃一惊。塔伦蒂诺特别亮相霍尔 TCL 中国剧院...（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a56fc4ac9ccfe430a0c1ceae4",
-              "original": "https://variety.com/2026/film/news/quentin-tarantino-further-mis-adventures-of-cliff-booth-preview-1236930220/"
-            },
-            "publishedAt": "2026-10-24T14:47:44.000Z",
-            "discoveredAt": "2026-10-24T15:46:27.139Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a56fc4ac9ccfe430a0c1ceae4"
             }
           },
           {
@@ -1867,72 +1867,72 @@
             }
           },
           {
-            "id": "a43ecb99b9fa27d38e85297cc",
-            "title": "【全球票房】BravoCon 2027 确定返回拉斯维加斯的日期",
-            "originalTitle": "BravoCon 2027 Sets Dates For Return To Las Vegas",
-            "summary": "Bravo 已经确定了 BravoCon 2027 的日期，粉丝活动将于 2027 年 10 月 22 日至 24 日返回拉斯维加斯。周末活动将在凯撒论坛举​​行，过去两届都在那里举行。这标志着...（来源：Deadline·全球票房与新片）",
+            "id": "abf479ae14db3b4d94b6fa4a3",
+            "title": "【全球票房】西尔维斯特·史泰龙谈在《塔尔萨之王》中选角女儿：“当然是裙带关系，你这个白痴”",
+            "originalTitle": "Sylvester Stallone On Casting Daughter In ‘Tulsa King’: “Of Course It’s Nepotism, You Idiot”",
+            "summary": "10 月 16 日，西尔维斯特·史泰龙 (Sylvester Stallone) 的采访在网上疯传，这位塔尔萨·金 (Tulsa King) 演员对他女儿斯嘉丽·罗丝·史泰龙 (Scarlet Rose Stallone) 的选角发表了一些坦诚的评论。史泰龙有一个直言不讳的信息要反对...（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a43ecb99b9fa27d38e85297cc",
-              "original": "https://deadline.com/2026/10/bravocon-2027-dates-las-vegas-1237172140/"
+              "aihot": "https://zenglian-news.onrender.com/items/abf479ae14db3b4d94b6fa4a3",
+              "original": "https://deadline.com/2026/10/sylvester-stallone-tulsa-king-nepotism-1237172381/"
             },
-            "publishedAt": "2026-10-24T15:45:00.000Z",
-            "discoveredAt": "2026-10-24T15:46:33.519Z",
+            "publishedAt": "2026-10-24T18:03:45.000Z",
+            "discoveredAt": "2026-10-24T18:39:05.808Z",
             "category": "culture",
             "score": 98,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a43ecb99b9fa27d38e85297cc"
+              "url": "https://zenglian-news.onrender.com/items/abf479ae14db3b4d94b6fa4a3"
             }
           },
           {
-            "id": "a89a1b78e383998ee445ce1f3",
-            "title": "【全球票房】阿尼卡·拉肖恩 (Anika Rashaun) 去世：《现实世界》、《挑战》演员 34 岁",
-            "originalTitle": "Anika Rashaun Dies: ‘Real World’, ‘The Challenge’ Alum Was 34",
-            "summary": "阿尼卡·拉肖恩 (Anika Rashaun) 是一位真人秀明星，曾在 MTV 的《真实世界》和《挑战》中亮相并参加比赛，后来成为一名专业媒人、咨询专栏作家和约会教练，于 10 月 1 日因乳腺癌去世。她与...（来源：Deadline·全球票房与新片）",
+            "id": "ab5591f46c5d9016c4c9df168",
+            "title": "【好莱坞一手】《你可以看到一切》中的惊喜嘉宾可能会赢得奥斯卡奖。他们应该吗？",
+            "originalTitle": "The Surprise Guest in ‘You Can See Everything’ Could Win an Oscar. Should They?",
+            "summary": "剧透警告：本文包含正在影院上映的《你可以看到一切》的剧透。自从上周《你可以看到一切》在影院上映以来，颁奖专家们一直在思考的问题是……（来源：Variety·好莱坞影视）",
             "source": {
-              "name": "Deadline·全球票房与新片"
+              "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a89a1b78e383998ee445ce1f3",
-              "original": "https://deadline.com/2026/10/anika-rashaun-dead-1237172312/"
+              "aihot": "https://zenglian-news.onrender.com/items/ab5591f46c5d9016c4c9df168",
+              "original": "https://variety.com/2026/film/columns/amanda-seyfried-you-can-see-everything-oscar-1236916757/"
             },
-            "publishedAt": "2026-10-24T13:08:57.000Z",
-            "discoveredAt": "2026-10-24T15:46:37.356Z",
+            "publishedAt": "2026-10-24T17:00:00.000Z",
+            "discoveredAt": "2026-10-24T18:39:01.712Z",
             "category": "culture",
             "score": 98,
             "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a89a1b78e383998ee445ce1f3"
+              "url": "https://zenglian-news.onrender.com/items/ab5591f46c5d9016c4c9df168"
             }
           },
           {
-            "id": "ad7094e478fc8d2650ecdde40",
-            "title": "【全球票房】BBC 削减内部：痛苦的服务关闭开始，但更糟糕的情况可能会到来",
-            "originalTitle": "Inside The BBC Cuts: Painful Service Closures Begin, But Worse Could Be To Come",
-            "summary": "“世界比以往任何时候都更需要 BBC。它的规模和形状可能会有所不同。它不会是马马虎虎的 Netflix 或效仿的 YouTube。它会是一个更好的 BBC。”这是马特·布里廷留下的信息……（来源：Deadline·全球票房与新片）",
+            "id": "a0d45538d4cdfbda635eb4b92",
+            "title": "【全球票房】AMC 影院希望纽约市濒临灭绝的基普斯湾影院得以保留，但这个决定“不是我们能做出的”；预定截止日期已公布",
+            "originalTitle": "AMC Theatres Wants NYC’s Endangered Kips Bay Multiplex To Remain But Decision “Not Ours To Make”; Scheduled Closing Date Announced",
+            "summary": "AMC 剧院首席执行官 Adam Aron 向纽约市居民发表了一封公开信，重申该公司希望继续运营其位于曼哈顿同名社区的长期运营的 Kips Bay 15 影院，但...（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad7094e478fc8d2650ecdde40",
-              "original": "https://deadline.com/2026/10/inside-bbc-cuts-painful-closures-begin-worse-to-come-1237169573/"
+              "aihot": "https://zenglian-news.onrender.com/items/a0d45538d4cdfbda635eb4b92",
+              "original": "https://deadline.com/2026/10/amc-theatres-kips-bay-multiplex-1237172359/"
             },
-            "publishedAt": "2026-10-24T09:02:09.000Z",
-            "discoveredAt": "2026-10-24T11:57:47.974Z",
+            "publishedAt": "2026-10-24T16:50:06.000Z",
+            "discoveredAt": "2026-10-24T18:39:08.069Z",
             "category": "culture",
             "score": 98,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad7094e478fc8d2650ecdde40"
+              "url": "https://zenglian-news.onrender.com/items/a0d45538d4cdfbda635eb4b92"
             }
           }
         ]
@@ -1941,6 +1941,29 @@
         "category": "business",
         "label": "🏆 体育实时Top20",
         "items": [
+          {
+            "id": "a6c7e7543c1e8e2ae62219393",
+            "title": "【欧洲足坛】奥斯卡·博布（Oscar Bobb）的晚场表演击沉考文垂后，富勒姆爬出了降级区",
+            "originalTitle": "Fulham climb out of drop zone after Oscar Bobb’s late show sinks Coventry",
+            "summary": "奥斯卡·博布为富勒姆打进的首个英超联赛进球帮助富勒姆战胜了考文垂，阿尔瓦罗·阿韦洛亚的球队脱离了降级区。博布在第 80 分钟发挥了出色的个人技巧，两次进球......（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a6c7e7543c1e8e2ae62219393",
+              "original": "https://www.theguardian.com/football/2026/oct/24/coventry-fulham-premier-league-match-report"
+            },
+            "publishedAt": "2026-10-24T16:11:49.000Z",
+            "discoveredAt": "2026-10-24T18:39:17.495Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a6c7e7543c1e8e2ae62219393"
+            }
+          },
           {
             "id": "ada54e15f596b6d7c5221b429",
             "title": "【欧洲足坛】切尔西 VS 托特纳姆热刺：英超联赛 - 直播",
@@ -1965,72 +1988,72 @@
             }
           },
           {
-            "id": "a36400573e0582732568c91fd",
-            "title": "【体坛快讯】第20届倡棋杯决赛落幕 辜梓豪夺冠",
-            "originalTitle": "第20届倡棋杯决赛落幕 辜梓豪夺冠",
-            "summary": "中新网上海10月24日电 (记者 缪璐)第20届倡棋杯中国职业围棋锦标赛决赛24日在上海长宁乐动虹桥结束决赛三番棋的争夺，辜梓豪九段直落两局战胜党毅飞九段夺冠。这也意味着辜梓豪将直接获得2028年第11届应氏杯世界职业围棋锦标赛的参赛资格。",
+            "id": "a8a6b6977a657bd149c088084",
+            "title": "【NBA一手】[查拉尼亚] 消息人士告诉 ESPN，奥兰多魔术队球星保罗·班切罗 (Paolo Banchero) 右脚高脚踝轻度扭伤。这种损伤诊断的时间表通常为 4 至 6 周。",
+            "originalTitle": "[Charania] Orlando Magic star Paolo Banchero has sustained a low-grade right high ankle sprain, sources tell ESPN. This injury diagnosis typically carries a timetable of 4-to-6 weeks.",
+            "summary": "消息人士告诉 ESPN，奥兰多魔术队球星保罗·班切罗右脚高脚踝轻度扭伤。这种损伤诊断的时间表通常为 4 至 6 周。来源：https://www.espn.com/contributor/shams-...（来源：NBA·北美篮球实时热榜）",
             "source": {
-              "name": "中新网·体育焦点"
+              "name": "NBA·北美篮球实时热榜"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a36400573e0582732568c91fd",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-24/10720502.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a8a6b6977a657bd149c088084",
+              "original": "https://www.reddit.com/r/nba/comments/1xeddt5/charania_orlando_magic_star_paolo_banchero_has/"
             },
-            "publishedAt": "2026-10-24T13:21:45.000Z",
-            "discoveredAt": "2026-10-24T15:46:40.537Z",
+            "publishedAt": "2026-10-24T16:42:15.000Z",
+            "discoveredAt": "2026-10-24T18:39:27.041Z",
             "category": "business",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
+            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a36400573e0582732568c91fd"
+              "url": "https://zenglian-news.onrender.com/items/a8a6b6977a657bd149c088084"
             }
           },
           {
-            "id": "acc15320b9ecb1b269de77ce7",
-            "title": "【体坛快讯】2026“郑洁杯”青少年网球巡回赛总决赛开拍",
-            "originalTitle": "2026“郑洁杯”青少年网球巡回赛总决赛开拍",
-            "summary": "中新网深圳10月24日电 2026YONEX“郑洁杯”青少年网球巡回赛总决赛(CTJ-B800)24日在深圳福田区郑洁(深圳)国际网球俱乐部开幕。最终入围总决赛的120余名选手将展开为期两天的角逐，全部八个组别的年度总冠军将诞生，入围今年菁英训练营的选手名单也将产生。",
+            "id": "a5d8651c48e486af582257cc4",
+            "title": "【NBA一手】布莱克·格里芬 (Blake Griffin) 在 NBA 演播室节目中说道：“门槛有点低……很多人来找我们：‘你能谈论篮球真是太棒了。’这应该是你谈论的最明显的事情。”",
+            "originalTitle": "Blake Griffin on NBA studio shows: “The bar was kinda low... A lot of people have come up to us: ‘It’s so great that you talk basketball.’ That should be the most obvious thing you talk about.”",
+            "summary": "由/u/luka274提交 [链接] [评论]（来源：NBA·北美篮球实时热榜）",
             "source": {
-              "name": "中新网·体育焦点"
+              "name": "NBA·北美篮球实时热榜"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/acc15320b9ecb1b269de77ce7",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-24/10720499.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a5d8651c48e486af582257cc4",
+              "original": "https://www.reddit.com/r/nba/comments/1xed9g1/blake_griffin_on_nba_studio_shows_the_bar_was/"
             },
-            "publishedAt": "2026-10-24T13:16:36.000Z",
-            "discoveredAt": "2026-10-24T15:46:40.742Z",
+            "publishedAt": "2026-10-24T16:37:26.000Z",
+            "discoveredAt": "2026-10-24T18:39:26.004Z",
             "category": "business",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
+            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/acc15320b9ecb1b269de77ce7"
+              "url": "https://zenglian-news.onrender.com/items/a5d8651c48e486af582257cc4"
             }
           },
           {
-            "id": "af701d0e1e748e57a1a4b48a3",
-            "title": "【欧洲足坛】托特纳姆热刺队在 WSL、英超、EFL 等比赛中主场迎战阿森纳 – 足球时钟直播",
-            "originalTitle": "Tottenham host Arsenal in WSL, Premier League, EFL and more – football clockwatch live",
-            "summary": "⚽ 周六球场周围活动的最新动态 ⚽ 需要注意的十件事 |分数 |桌子| Mail Billy WSL：球队在托特纳姆热刺球场出局。屠宰场过后，今天的伦敦有点毛毛雨……（来源：卫报体育·欧冠与五大联赛）",
+            "id": "a72fb2441b7d3f86af8e86d95",
+            "title": "【欧洲足坛】得益于康萨和加布里埃尔，临床阿森纳在对阵埃弗顿的比赛中赢得了宝贵的胜利",
+            "originalTitle": "Clinical Arsenal earn precious win against Everton thanks to Konsa and Gabriel",
+            "summary": "大卫·莫耶斯的等待仍在继续。这位 63 岁的苏格兰人一定希望在他作为埃弗顿主教练第 14 次来到这座球场时，他的运气会改变。然而从埃兹里·孔萨打进他的第一个进球的那一刻起......（来源：卫报体育·欧冠与五大联赛）",
             "source": {
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af701d0e1e748e57a1a4b48a3",
-              "original": "https://www.theguardian.com/football/live/2026/oct/24/tottenham-arsenal-wsl-premier-league-efl-football-clockwatch-live"
+              "aihot": "https://zenglian-news.onrender.com/items/a72fb2441b7d3f86af8e86d95",
+              "original": "https://www.theguardian.com/football/2026/oct/24/arsenal-everton-premier-league-match-report"
             },
-            "publishedAt": "2026-10-24T11:44:32.000Z",
-            "discoveredAt": "2026-10-24T11:57:56.525Z",
+            "publishedAt": "2026-10-24T16:03:49.000Z",
+            "discoveredAt": "2026-10-24T18:39:16.375Z",
             "category": "business",
-            "score": 99,
+            "score": 98,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af701d0e1e748e57a1a4b48a3"
+              "url": "https://zenglian-news.onrender.com/items/a72fb2441b7d3f86af8e86d95"
             }
           },
           {
@@ -2054,29 +2077,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ab8678481f3ebedb4591c21ab"
-            }
-          },
-          {
-            "id": "a4d72298e8587f74a8a821f06",
-            "title": "【国内要闻】中超第29轮：蓉城负英博无缘提前夺冠 三镇不敌泰山确认降级",
-            "originalTitle": "中超第29轮：蓉城负英博无缘提前夺冠 三镇不敌泰山确认降级",
-            "summary": "中新社北京10月24日电 (刘梦青)2026赛季中超联赛第29轮比赛24日全部战罢。大连英博以1:0力克领头羊成都蓉城，将双方积分差距缩小至3分，本赛季中超冠军归属悬念延续至最后一轮。武汉三镇本轮3:5不敌山东泰山，提前一轮确认降级。",
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a4d72298e8587f74a8a821f06",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-24/10720527.shtml"
-            },
-            "publishedAt": "2026-10-24T14:21:28.000Z",
-            "discoveredAt": "2026-10-24T15:45:46.367Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a4d72298e8587f74a8a821f06"
             }
           }
         ]
