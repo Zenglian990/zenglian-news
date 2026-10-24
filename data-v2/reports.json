@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T06:59:33.725Z",
+  "generatedAt": "2026-10-24T11:58:07.003Z",
   "daily": {
     "kind": "daily",
     "key": "2026-10-24",
     "title": "曾练全球一手简报 · 今日日报 (2026-10-24)",
     "subtitle": "全球·国内·商业搞钱·AI·影视娱乐·体育 六大实时Top20精选",
-    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：OpenAI 现在无需连接互联网即可训练其前沿人工智能模型；上海推动人工智能赋能工业服务业；陶哲轩尴尬了，哈佛研究显示AI审稿比专家强。",
+    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：黑客逆转三星电视，发现机载AI监听OpenAI账户被暂停；OpenAI 现在无需连接互联网即可训练其前沿人工智能模型；陶哲轩尴尬了，哈佛研究显示AI审稿比专家强。",
     "metrics": {
       "totalEvents": 18,
       "sourcesCount": 30,
@@ -17,6 +17,29 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
+          {
+            "id": "a670adf33663187c54aee1a15",
+            "title": "【全球热榜】黑客逆转三星电视，发现机载AI监听OpenAI账户被暂停",
+            "originalTitle": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+            "summary": "X/HN·全球热榜Top实时快讯：Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a670adf33663187c54aee1a15",
+              "original": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/"
+            },
+            "publishedAt": "2026-10-24T05:49:57.000Z",
+            "discoveredAt": "2026-10-24T11:57:06.360Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a670adf33663187c54aee1a15"
+            }
+          },
           {
             "id": "aff7235589ab142718e0f18f5",
             "title": "【国际巨头】OpenAI 现在无需连接互联网即可训练其前沿人工智能模型",
@@ -41,49 +64,26 @@
             }
           },
           {
-            "id": "ac59638f758f1b3fb58ef6751",
-            "title": "【全球热榜】分布式 SQLite 十二年",
-            "originalTitle": "Twelve years of distributed SQLite",
-            "summary": "X/HN·全球热榜Top实时快讯：Twelve years of distributed SQLite。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "id": "ad12a68732931c7b589f378d8",
+            "title": "【全球热榜】纯函数式编程与 C 语言有多接近？",
+            "originalTitle": "How close can pure functional programming get to C?",
+            "summary": "X/HN·全球热榜Top实时快讯：How close can pure functional programming get to C?。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
             "source": {
               "name": "X/HN·全球热榜Top"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac59638f758f1b3fb58ef6751",
-              "original": "https://philipotoole.com/twelve-years-of-distributed-sqlite/"
+              "aihot": "https://zenglian-news.onrender.com/items/ad12a68732931c7b589f378d8",
+              "original": "https://rtfeldman.com/fp-vs-c"
             },
-            "publishedAt": "2026-10-24T01:16:58.000Z",
-            "discoveredAt": "2026-10-24T06:58:52.664Z",
+            "publishedAt": "2026-10-24T03:43:54.000Z",
+            "discoveredAt": "2026-10-24T11:57:07.243Z",
             "category": "global",
             "score": 97,
             "selected": true,
             "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac59638f758f1b3fb58ef6751"
-            }
-          },
-          {
-            "id": "ac5ce491bc235f496ac109fd2",
-            "title": "【全球热榜】不断演变的威胁：http2shell 是 Node、Python 等中的 RCE",
-            "originalTitle": "Evolving Threat: http2shell is an RCE in Node, Python, and more",
-            "summary": "X/HN·全球热榜Top实时快讯：Evolving Threat: http2shell is an RCE in Node, Python, and more。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac5ce491bc235f496ac109fd2",
-              "original": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8"
-            },
-            "publishedAt": "2026-10-23T23:30:17.000Z",
-            "discoveredAt": "2026-10-24T06:58:53.245Z",
-            "category": "global",
-            "score": 97,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac5ce491bc235f496ac109fd2"
+              "url": "https://zenglian-news.onrender.com/items/ad12a68732931c7b589f378d8"
             }
           }
         ]
@@ -93,26 +93,26 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "a56ef3123a5858c4ea67cbb44",
-            "title": "【国内财经】上海推动人工智能赋能工业服务业",
-            "originalTitle": "上海推动人工智能赋能工业服务业",
-            "summary": "中新网上海10月23日电 (记者 郑莹莹)据上海市经济和信息化委员会23日发布的消息，《上海市加快推动人工智能赋能工业服务业高质量发展行动方案(2027-2028年)》(简称“行动方案”)于近日印发。",
+            "id": "a5c7097775a4cb58cb1e26802",
+            "title": "【国内要闻】中国首个区域电力市场正式运行",
+            "originalTitle": "中国首个区域电力市场正式运行",
+            "summary": "中新社广州10月24日电 (王华 蓝旺)中国首个区域电力市场——南方区域(即广东、广西、云南、贵州、海南等南方五省区)电力市场24日转入正式运行，标志着中国统一电力市场体系建设取得重大突破。",
             "source": {
-              "name": "中新网·国内财经"
+              "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a56ef3123a5858c4ea67cbb44",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-23/10720144.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a5c7097775a4cb58cb1e26802",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-24/10720447.shtml"
             },
-            "publishedAt": "2026-10-23T15:24:43.000Z",
-            "discoveredAt": "2026-10-23T17:09:39.673Z",
+            "publishedAt": "2026-10-24T11:26:34.000Z",
+            "discoveredAt": "2026-10-24T11:57:08.338Z",
             "category": "domestic",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a56ef3123a5858c4ea67cbb44"
+              "url": "https://zenglian-news.onrender.com/items/a5c7097775a4cb58cb1e26802"
             }
           },
           {
@@ -139,26 +139,26 @@
             }
           },
           {
-            "id": "aa04cc8d5a22f16c5fd85c3fb",
-            "title": "【国内要闻】2026东南亚中国图书巡回展走进泰国",
-            "originalTitle": "2026东南亚中国图书巡回展走进泰国",
-            "summary": "中新网曼谷10月24日电 (王茜 李映民)2026泰国国家图书博览会23日在曼谷开幕。2026东南亚中国图书巡回展携700余种中国精品图书，作为书展唯一中国元素同期亮相，为东南亚读者阅读中国搭建书香驿站。",
+            "id": "afd7dee22ec89a10b725010dd",
+            "title": "【国内要闻】商务部新闻发言人就美发布新版对外投资限制拟议规则答记者问",
+            "originalTitle": "商务部新闻发言人就美发布新版对外投资限制拟议规则答记者问",
+            "summary": "中新网10月24日电 据商务部网站消息，商务部新闻发言人就美发布新版对外投资限制拟议规则答记者问。",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa04cc8d5a22f16c5fd85c3fb",
-              "original": "https://www.chinanews.com.cn/hr/2026/10-24/10720308.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/afd7dee22ec89a10b725010dd",
+              "original": "https://www.chinanews.com.cn/${mypath}/2026/10-24/10720450.shtml"
             },
-            "publishedAt": "2026-10-24T06:41:29.000Z",
-            "discoveredAt": "2026-10-24T06:58:57.568Z",
+            "publishedAt": "2026-10-24T11:45:51.000Z",
+            "discoveredAt": "2026-10-24T11:57:08.319Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa04cc8d5a22f16c5fd85c3fb"
+              "url": "https://zenglian-news.onrender.com/items/afd7dee22ec89a10b725010dd"
             }
           }
         ]
@@ -318,6 +318,52 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
+            "id": "ab49df705c2244ff75d6a3af7",
+            "title": "【好莱坞一手】El Gouna 要点：《安全出口》荣获最高奖项，阿拉伯电视寻找新人才，埃及电影制片人突破界限",
+            "originalTitle": "El Gouna Takeaways: ‘Safe Exit’ Wins Top Prize, Arab TV Seeks New Talent and Egyptian Filmmakers Push Boundaries",
+            "summary": "经过九天的放映、行业活动和闭幕之夜，埃及艾尔古纳电影节于周五结束了第九届电影节，该电影节的最高奖项遍布中东及其他地区。穆罕默德·哈马德的“安全电子...（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ab49df705c2244ff75d6a3af7",
+              "original": "https://variety.com/2026/film/global/el-gouna-film-festival-2026-five-takeaways-cinegouna-1236930192/"
+            },
+            "publishedAt": "2026-10-24T10:23:00.000Z",
+            "discoveredAt": "2026-10-24T11:57:40.155Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ab49df705c2244ff75d6a3af7"
+            }
+          },
+          {
+            "id": "a7e964d57abc52daeb17c4421",
+            "title": "【好莱坞一手】Impulso Morelia：塔蒂亚娜·韦佐 (Tatiana Huezo) 的《Galerna》荣获何塞·玛丽亚·里巴 (José María Riba) 最高奖，《Homeboys》是另一个主要获奖者",
+            "originalTitle": "Impulso Morelia: Tatiana Huezo’s ‘Galerna’ Takes Top José María Riba Award, With ‘Homeboys’ Another Key Winner",
+            "summary": "墨西哥塔蒂亚娜·韦索 (Tatiana Huezo) 创作的剧情长片《Galerna》在莫雷利亚电影节 (Impulso Morelia) 上荣获最高奖项，该电影节是为期 10 天的莫雷利亚电影节 (10 月 25 日结束) 的后期工业部分。何塞·玛丽亚·里巴奖 (José Maria Riba Award)...（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a7e964d57abc52daeb17c4421",
+              "original": "https://variety.com/2026/film/global/impulso-morelia-galerna-tatiana-huezo-top-prize-1236922084/"
+            },
+            "publishedAt": "2026-10-24T08:33:02.000Z",
+            "discoveredAt": "2026-10-24T11:57:46.603Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a7e964d57abc52daeb17c4421"
+            }
+          },
+          {
             "id": "ada98c0b99167966d046fef10",
             "title": "【全球票房】昆汀·塔伦蒂诺 (Quentin Tarantino) 向观众展示了《悬崖布斯》(Cliff Booth) 的前 17 分钟，以此结束他的 AFI 电影节问答",
             "originalTitle": "Quentin Tarantino’s Wraps His AFI Fest Q&A By Showing Crowd First 17 Minutes Of ‘Cliff Booth’",
@@ -339,52 +385,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ada98c0b99167966d046fef10"
             }
-          },
-          {
-            "id": "a49bc9d5ab86c216b3fefbe69",
-            "title": "【国内文娱】从于右任出发：中外书法家沪上办展，以笔墨作答AI时代",
-            "originalTitle": "从于右任出发：中外书法家沪上办展，以笔墨作答AI时代",
-            "summary": "中新网上海10月24日电(记者 张亨伟)展览“从于右任出发——中国书法 世界回响”23日在上海静安里唐宅的百年老建筑内开幕。在人工智能(AI)浪潮席卷各行各业的当下，15位中外艺术家试图用笔墨给出一个时代的回答：当机器也能挥毫泼墨时，人类为何还要写字？",
-            "source": {
-              "name": "中新网·影视文娱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a49bc9d5ab86c216b3fefbe69",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-24/10720284.shtml"
-            },
-            "publishedAt": "2026-10-24T05:28:23.000Z",
-            "discoveredAt": "2026-10-24T06:59:16.420Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a49bc9d5ab86c216b3fefbe69"
-            }
-          },
-          {
-            "id": "ab2c982dfca47bb06c859c051",
-            "title": "【全球票房】《复仇者联盟：世界末日》世界大赛先睹为快，神奇先生首次投球",
-            "originalTitle": "‘Avengers: Doomsday’ World Series Sneak Peek Sees Mister Fantastic Throw Out First Pitch",
-            "summary": "随着世界大赛的拉开帷幕，MCU 粉丝们得以一睹 12 月 18 日首播的《复仇者联盟：世界末日》的新风采。在周五的第一场比赛中，MLB 和 MCU 联手为即将上映的电影进行了特别预览，在……（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab2c982dfca47bb06c859c051",
-              "original": "https://deadline.com/2026/10/avengers-doomsday-world-series-sneak-peek-1237172207/"
-            },
-            "publishedAt": "2026-10-24T01:01:53.000Z",
-            "discoveredAt": "2026-10-24T01:51:36.422Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab2c982dfca47bb06c859c051"
-            }
           }
         ]
       },
@@ -393,72 +393,72 @@
         "label": "🏆 体育实时Top20",
         "items": [
           {
-            "id": "ae97104a16656459bd9d149a0",
-            "title": "【欧洲足坛】伊普斯维奇 v 诺丁汉森林：英超联赛 - 直播",
-            "originalTitle": "Ipswich v Nottingham Forest: Premier League – live",
-            "summary": "⚽ 英国夏令时晚上 8 点在波特曼路 (Portman Road) 开球的最新消息 ⚽ 需要注意的十件事 |他们的立场如何？ Mail Scott 2 分钟：萨福克有风。沃顿尽其所能地在前场解围。森林非常爱玩...（来源：卫报体育·欧冠与五大联赛）",
+            "id": "af701d0e1e748e57a1a4b48a3",
+            "title": "【欧洲足坛】托特纳姆热刺队在 WSL、英超、EFL 等比赛中主场迎战阿森纳 – 足球时钟直播",
+            "originalTitle": "Tottenham host Arsenal in WSL, Premier League, EFL and more – football clockwatch live",
+            "summary": "⚽ 周六球场周围活动的最新动态 ⚽ 需要注意的十件事 |分数 |桌子| Mail Billy WSL：球队在托特纳姆热刺球场出局。屠宰场过后，今天的伦敦有点毛毛雨……（来源：卫报体育·欧冠与五大联赛）",
             "source": {
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae97104a16656459bd9d149a0",
-              "original": "https://www.theguardian.com/football/live/2026/oct/23/ipswich-v-nottingham-forest-premier-league-live"
+              "aihot": "https://zenglian-news.onrender.com/items/af701d0e1e748e57a1a4b48a3",
+              "original": "https://www.theguardian.com/football/live/2026/oct/24/tottenham-arsenal-wsl-premier-league-efl-football-clockwatch-live"
             },
-            "publishedAt": "2026-10-23T20:14:39.000Z",
-            "discoveredAt": "2026-10-23T20:29:16.187Z",
+            "publishedAt": "2026-10-24T11:44:32.000Z",
+            "discoveredAt": "2026-10-24T11:57:56.525Z",
             "category": "business",
             "score": 99,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae97104a16656459bd9d149a0"
+              "url": "https://zenglian-news.onrender.com/items/af701d0e1e748e57a1a4b48a3"
             }
           },
           {
-            "id": "a10178178aef39048c81862a1",
-            "title": "【欧洲足坛】恩西索挽救了伊普斯维奇否认诺丁汉森林的风暴点",
-            "originalTitle": "Enciso rescues point in storm for Ipswich to deny Nottingham Forest",
-            "summary": "在萨福克的狂风、狂风、持续的大雨中，这场比赛充满了半点机会、失误、强制性裁判争议和尖锐的问题。伊普斯维奇是否拥有应对这场灾难的石头？（来源：卫报体育·欧冠与五大联赛）",
+            "id": "a7408d8157879948ada5d9573",
+            "title": "【欧洲足坛】阿斯顿维拉 vs 曼城：英超联赛 - 直播",
+            "originalTitle": "Aston Villa v Manchester City: Premier League – live",
+            "summary": "⚽ 英国夏令时中午 12.30 开赛的英超联赛更新 ⚽ 需要注意的十件事 |实时比分 |表恩佐·马雷斯卡（Enzo Maresca）关于菲尔·福登（Phil Foden）的遗漏的好处是，因为我们玩了很多游戏，所以我们有很多...（来源：卫报体育·欧冠与五大联赛）",
             "source": {
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a10178178aef39048c81862a1",
-              "original": "https://www.theguardian.com/football/2026/oct/23/ipswich-nottingham-forest-premier-league-match-report"
+              "aihot": "https://zenglian-news.onrender.com/items/a7408d8157879948ada5d9573",
+              "original": "https://www.theguardian.com/football/live/2026/oct/24/aston-villa-v-manchester-city-premier-league-live"
             },
-            "publishedAt": "2026-10-23T21:07:50.000Z",
-            "discoveredAt": "2026-10-23T23:25:33.806Z",
+            "publishedAt": "2026-10-24T11:43:14.000Z",
+            "discoveredAt": "2026-10-24T11:57:55.239Z",
             "category": "business",
-            "score": 98,
+            "score": 99,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a10178178aef39048c81862a1"
+              "url": "https://zenglian-news.onrender.com/items/a7408d8157879948ada5d9573"
             }
           },
           {
-            "id": "ab736bd606ae202adceff884b",
-            "title": "【欧洲足坛】换队长？玩孩子们？如何解决曼联的问题",
-            "originalTitle": "Change captain? Play the kids? How to solve the problems at Manchester United",
-            "summary": "陷入困境的迈克尔·卡里克的工作岌岌可危，但他可以采取一些措施来重振这支陷入困境的俱乐部，当伯恩茅斯抵达老特拉福德参加周日下午 2 点的开球时，最大的问题是迈克尔·卡里克是否......（来源：卫报体育·欧冠与五大联赛）",
+            "id": "abe201b194d21e122edb3e505",
+            "title": "【欧洲足坛】年长、冷静，但仍在打热门比赛：穆里尼奥和马德里为国家德比做好了准备",
+            "originalTitle": "Older, calmer, but still playing the hits: Mourinho and Madrid primed for clásico",
+            "summary": "何塞·穆里尼奥曾经是鲍比·罗布森在诺坎普球场的翻译，他的任务是在周日击败巴塞罗那。何塞·穆里尼奥已经完成了 por que?、打印输出和新闻发布会的缺席，他来这里只是为了……（来源：卫报体育·欧冠与五大联赛）",
             "source": {
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab736bd606ae202adceff884b",
-              "original": "https://www.theguardian.com/football/2026/oct/23/change-captain-play-the-kids-how-to-solve-the-problems-at-manchester-united"
+              "aihot": "https://zenglian-news.onrender.com/items/abe201b194d21e122edb3e505",
+              "original": "https://www.theguardian.com/football/2026/oct/24/la-liga-clasico-barcelona-real-madrid-jose-mourinho"
             },
-            "publishedAt": "2026-10-23T19:00:11.000Z",
-            "discoveredAt": "2026-10-23T23:25:31.831Z",
+            "publishedAt": "2026-10-24T07:00:26.000Z",
+            "discoveredAt": "2026-10-24T11:57:58.346Z",
             "category": "business",
-            "score": 98,
+            "score": 99,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab736bd606ae202adceff884b"
+              "url": "https://zenglian-news.onrender.com/items/abe201b194d21e122edb3e505"
             }
           }
         ]
@@ -470,7 +470,7 @@
     "key": "2026-W41",
     "title": "曾练全球一手简报 · 本周核心周报 (2026年第41周)",
     "subtitle": "7天全球政经、国内大事、商业搞钱、AI突破与文体焦点深度复盘",
-    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：OpenAI 现在无需连接互联网即可训练其前沿人工智能模型；上海推动人工智能赋能工业服务业；陶哲轩尴尬了，哈佛研究显示AI审稿比专家强。",
+    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：黑客逆转三星电视，发现机载AI监听OpenAI账户被暂停；OpenAI 现在无需连接互联网即可训练其前沿人工智能模型；陶哲轩尴尬了，哈佛研究显示AI审稿比专家强。",
     "metrics": {
       "totalEvents": 30,
       "sourcesCount": 30,
@@ -481,6 +481,29 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
+          {
+            "id": "a670adf33663187c54aee1a15",
+            "title": "【全球热榜】黑客逆转三星电视，发现机载AI监听OpenAI账户被暂停",
+            "originalTitle": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+            "summary": "X/HN·全球热榜Top实时快讯：Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a670adf33663187c54aee1a15",
+              "original": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/"
+            },
+            "publishedAt": "2026-10-24T05:49:57.000Z",
+            "discoveredAt": "2026-10-24T11:57:06.360Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a670adf33663187c54aee1a15"
+            }
+          },
           {
             "id": "aff7235589ab142718e0f18f5",
             "title": "【国际巨头】OpenAI 现在无需连接互联网即可训练其前沿人工智能模型",
@@ -502,6 +525,29 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/aff7235589ab142718e0f18f5"
+            }
+          },
+          {
+            "id": "ad12a68732931c7b589f378d8",
+            "title": "【全球热榜】纯函数式编程与 C 语言有多接近？",
+            "originalTitle": "How close can pure functional programming get to C?",
+            "summary": "X/HN·全球热榜Top实时快讯：How close can pure functional programming get to C?。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ad12a68732931c7b589f378d8",
+              "original": "https://rtfeldman.com/fp-vs-c"
+            },
+            "publishedAt": "2026-10-24T03:43:54.000Z",
+            "discoveredAt": "2026-10-24T11:57:07.243Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ad12a68732931c7b589f378d8"
             }
           },
           {
@@ -549,52 +595,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ac5ce491bc235f496ac109fd2"
             }
-          },
-          {
-            "id": "a6f10c38072dd58cb81604599",
-            "title": "【全球热榜】Dessa：有史以来最真实的全双工语音模型",
-            "originalTitle": "Dessa: the most authentic full-duplex speech model ever built",
-            "summary": "X/HN·全球热榜Top实时快讯：Dessa: the most authentic full-duplex speech model ever built。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a6f10c38072dd58cb81604599",
-              "original": "https://block.xyz/dessa"
-            },
-            "publishedAt": "2026-10-23T19:09:54.000Z",
-            "discoveredAt": "2026-10-23T23:24:32.975Z",
-            "category": "global",
-            "score": 97,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a6f10c38072dd58cb81604599"
-            }
-          },
-          {
-            "id": "aa06e665e9b25c02669187fb0",
-            "title": "【全球热榜】我们可以用一桶 HTML 文件替换价值 15 万美元的 Looker 吗？",
-            "originalTitle": "Can we replace a $150k Looker with a bucket of HTML files?",
-            "summary": "X/HN·全球热榜Top实时快讯：Can we replace a $150k Looker with a bucket of HTML files?。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa06e665e9b25c02669187fb0",
-              "original": "https://david.lequin.dev/blog/bi-software-is-dead/"
-            },
-            "publishedAt": "2026-10-23T17:15:03.000Z",
-            "discoveredAt": "2026-10-23T23:24:33.731Z",
-            "category": "global",
-            "score": 97,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa06e665e9b25c02669187fb0"
-            }
           }
         ]
       },
@@ -603,26 +603,26 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "a56ef3123a5858c4ea67cbb44",
-            "title": "【国内财经】上海推动人工智能赋能工业服务业",
-            "originalTitle": "上海推动人工智能赋能工业服务业",
-            "summary": "中新网上海10月23日电 (记者 郑莹莹)据上海市经济和信息化委员会23日发布的消息，《上海市加快推动人工智能赋能工业服务业高质量发展行动方案(2027-2028年)》(简称“行动方案”)于近日印发。",
+            "id": "a5c7097775a4cb58cb1e26802",
+            "title": "【国内要闻】中国首个区域电力市场正式运行",
+            "originalTitle": "中国首个区域电力市场正式运行",
+            "summary": "中新社广州10月24日电 (王华 蓝旺)中国首个区域电力市场——南方区域(即广东、广西、云南、贵州、海南等南方五省区)电力市场24日转入正式运行，标志着中国统一电力市场体系建设取得重大突破。",
             "source": {
-              "name": "中新网·国内财经"
+              "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a56ef3123a5858c4ea67cbb44",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-23/10720144.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a5c7097775a4cb58cb1e26802",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-24/10720447.shtml"
             },
-            "publishedAt": "2026-10-23T15:24:43.000Z",
-            "discoveredAt": "2026-10-23T17:09:39.673Z",
+            "publishedAt": "2026-10-24T11:26:34.000Z",
+            "discoveredAt": "2026-10-24T11:57:08.338Z",
             "category": "domestic",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a56ef3123a5858c4ea67cbb44"
+              "url": "https://zenglian-news.onrender.com/items/a5c7097775a4cb58cb1e26802"
             }
           },
           {
@@ -649,72 +649,72 @@
             }
           },
           {
-            "id": "aa04cc8d5a22f16c5fd85c3fb",
-            "title": "【国内要闻】2026东南亚中国图书巡回展走进泰国",
-            "originalTitle": "2026东南亚中国图书巡回展走进泰国",
-            "summary": "中新网曼谷10月24日电 (王茜 李映民)2026泰国国家图书博览会23日在曼谷开幕。2026东南亚中国图书巡回展携700余种中国精品图书，作为书展唯一中国元素同期亮相，为东南亚读者阅读中国搭建书香驿站。",
+            "id": "afd7dee22ec89a10b725010dd",
+            "title": "【国内要闻】商务部新闻发言人就美发布新版对外投资限制拟议规则答记者问",
+            "originalTitle": "商务部新闻发言人就美发布新版对外投资限制拟议规则答记者问",
+            "summary": "中新网10月24日电 据商务部网站消息，商务部新闻发言人就美发布新版对外投资限制拟议规则答记者问。",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa04cc8d5a22f16c5fd85c3fb",
-              "original": "https://www.chinanews.com.cn/hr/2026/10-24/10720308.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/afd7dee22ec89a10b725010dd",
+              "original": "https://www.chinanews.com.cn/${mypath}/2026/10-24/10720450.shtml"
             },
-            "publishedAt": "2026-10-24T06:41:29.000Z",
-            "discoveredAt": "2026-10-24T06:58:57.568Z",
+            "publishedAt": "2026-10-24T11:45:51.000Z",
+            "discoveredAt": "2026-10-24T11:57:08.319Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa04cc8d5a22f16c5fd85c3fb"
+              "url": "https://zenglian-news.onrender.com/items/afd7dee22ec89a10b725010dd"
             }
           },
           {
-            "id": "aa4f3466498e4ca7aa6735c95",
-            "title": "【国内要闻】青春华章·逐梦北疆｜把“乡土草种”攥在中国人自己手里",
-            "originalTitle": "青春华章·逐梦北疆｜把“乡土草种”攥在中国人自己手里",
-            "summary": "编者按：10月20日，“青春华章·逐梦北疆”网络主题宣传活动在内蒙古大学启动，5天沉浸式媒体行，记者们走进内蒙古，沿着生态保护、产业创新、民生温情、文艺传承的主线，挖掘青年扎根草原、实干奉献的青春故事，立体展现内蒙古绿色发展、民生提质、老城焕新、红色文艺传承的发展画卷。",
+            "id": "ac83e7e3f952b0efb268cd054",
+            "title": "【国内要闻】李希在二十届中央第八轮巡视工作动员部署会上强调 深入学习贯彻习近平党建思想 以更高标准更实举措推动新征程巡视工作高质量发展",
+            "originalTitle": "李希在二十届中央第八轮巡视工作动员部署会上强调 深入学习贯彻习近平党建思想 以更高标准更实举措推动新征程巡视工作高质量发展",
+            "summary": "新华社北京10月24日电 中共中央政治局常委、中央巡视工作领导小组组长李希近日出席二十届中央第八轮巡视工作动员部署会并讲话。会议传达学习了习近平总书记听取中央第七轮巡视情况汇报时的重要讲话精神，对巡视教育部和中管高校作出安排，强调要认真学习领会习近平新时代中国特色社会主义思想特别是习近平党建思想，深刻领悟“两个确立”的决定性意义、坚决做到“两个维护”，以更高标准、更实举措推动新征程巡视工作高质量发展，更好发挥巡视管党治党利剑、治国理政利...",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa4f3466498e4ca7aa6735c95",
-              "original": "https://www.chinanews.com.cn/gn/2026/10-24/10720320.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/ac83e7e3f952b0efb268cd054",
+              "original": "https://www.chinanews.com.cn/gn/2026/10-24/10720444.shtml"
             },
-            "publishedAt": "2026-10-24T06:41:27.000Z",
-            "discoveredAt": "2026-10-24T06:58:57.642Z",
+            "publishedAt": "2026-10-24T11:23:34.000Z",
+            "discoveredAt": "2026-10-24T11:57:08.380Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa4f3466498e4ca7aa6735c95"
+              "url": "https://zenglian-news.onrender.com/items/ac83e7e3f952b0efb268cd054"
             }
           },
           {
-            "id": "a337805780a694578aa59db90",
-            "title": "【国内财经】广东茂名口岸首票进口“多式联运（水水）”业务落地",
-            "originalTitle": "广东茂名口岸首票进口“多式联运（水水）”业务落地",
-            "summary": "中新网茂名10月24日电 (梁盛 卢明枢 王子瑞)广东茂名海关24日发布消息：“穗港航5001”轮23日顺利靠泊茂名广港码头，船上装载来自塞内加尔的26个集装箱进口初榨花生油顺利办结通关手续，目前正在卸运中，标志着茂名口岸首票进口“多式联运(水水)”业务正式落地。",
+            "id": "a51fabf8b4000204d89581cf9",
+            "title": "【国内财经】拼多多紧急捐赠1000万元 驰援西藏那曲抗震救灾",
+            "originalTitle": "拼多多紧急捐赠1000万元 驰援西藏那曲抗震救灾",
+            "summary": "10月22日，西藏那曲市巴青县发生7.0级地震，造成重大人员伤亡及房屋受损。国务院抗震救灾指挥部办公室、应急管理部将国家地震灾害应急响应由四级提升至三级，各项救援工作正全力推进。",
             "source": {
               "name": "中新网·国内财经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a337805780a694578aa59db90",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-24/10720261.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a51fabf8b4000204d89581cf9",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-24/10720441.shtml"
             },
-            "publishedAt": "2026-10-24T04:42:40.000Z",
-            "discoveredAt": "2026-10-24T06:58:58.529Z",
+            "publishedAt": "2026-10-24T10:57:39.000Z",
+            "discoveredAt": "2026-10-24T11:57:08.406Z",
             "category": "domestic",
-            "score": 97,
+            "score": 96,
             "selected": true,
             "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a337805780a694578aa59db90"
+              "url": "https://zenglian-news.onrender.com/items/a51fabf8b4000204d89581cf9"
             }
           }
         ]
@@ -793,6 +793,29 @@
             }
           },
           {
+            "id": "a6d967fc5fc6e9fd6f3351e1c",
+            "title": "【独立变现】Show HN：Corgi，一个有用的{代理，终端}多路复用器",
+            "originalTitle": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+            "summary": "大家好，受 Herdr 的启发，我构建了一个代理多路复用器，几周以来我一直将其用作我的日常驱动程序。我认为我在几个方面改进了这个概念，重点关注我一直希望的人体工程学......（来源：Show HN·独立变现榜）",
+            "source": {
+              "name": "Show HN·独立变现榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a6d967fc5fc6e9fd6f3351e1c",
+              "original": "https://corgi.computer/"
+            },
+            "publishedAt": "2026-10-23T19:46:38.000Z",
+            "discoveredAt": "2026-10-24T11:57:13.423Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a6d967fc5fc6e9fd6f3351e1c"
+            }
+          },
+          {
             "id": "a5f98dbccf5cff15353ce6520",
             "title": "【出海实战】Google Play 上有 50 万次安装，但只有 20-30 名付费用户。我做错了什么？",
             "originalTitle": "500k installs on Google Play but only 20-30 paid users. What am I doing wrong?",
@@ -813,29 +836,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a5f98dbccf5cff15353ce6520"
-            }
-          },
-          {
-            "id": "aad77706c1775b359339f18d1",
-            "title": "【出海实战】是什么让您对 SaaS 产品足够信任并愿意为其付费？",
-            "originalTitle": "What Makes You Trust a SaaS Product Enough to Pay for It?",
-            "summary": "在评估新的 SaaS 产品时，是什么让您相信它值得付费？是产品演示、明确的定价、客户评价、免费试用还是网站本身？我感兴趣的是实际信息...（来源：X/Reddit·出海SaaS搞钱）",
-            "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aad77706c1775b359339f18d1",
-              "original": "https://www.reddit.com/r/SaaS/comments/1xdb43q/what_makes_you_trust_a_saas_product_enough_to_pay/"
-            },
-            "publishedAt": "2026-10-23T11:11:42.000Z",
-            "discoveredAt": "2026-10-23T17:09:57.423Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aad77706c1775b359339f18d1"
             }
           }
         ]
@@ -966,6 +966,52 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
+            "id": "ab49df705c2244ff75d6a3af7",
+            "title": "【好莱坞一手】El Gouna 要点：《安全出口》荣获最高奖项，阿拉伯电视寻找新人才，埃及电影制片人突破界限",
+            "originalTitle": "El Gouna Takeaways: ‘Safe Exit’ Wins Top Prize, Arab TV Seeks New Talent and Egyptian Filmmakers Push Boundaries",
+            "summary": "经过九天的放映、行业活动和闭幕之夜，埃及艾尔古纳电影节于周五结束了第九届电影节，该电影节的最高奖项遍布中东及其他地区。穆罕默德·哈马德的“安全电子...（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ab49df705c2244ff75d6a3af7",
+              "original": "https://variety.com/2026/film/global/el-gouna-film-festival-2026-five-takeaways-cinegouna-1236930192/"
+            },
+            "publishedAt": "2026-10-24T10:23:00.000Z",
+            "discoveredAt": "2026-10-24T11:57:40.155Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ab49df705c2244ff75d6a3af7"
+            }
+          },
+          {
+            "id": "a7e964d57abc52daeb17c4421",
+            "title": "【好莱坞一手】Impulso Morelia：塔蒂亚娜·韦佐 (Tatiana Huezo) 的《Galerna》荣获何塞·玛丽亚·里巴 (José María Riba) 最高奖，《Homeboys》是另一个主要获奖者",
+            "originalTitle": "Impulso Morelia: Tatiana Huezo’s ‘Galerna’ Takes Top José María Riba Award, With ‘Homeboys’ Another Key Winner",
+            "summary": "墨西哥塔蒂亚娜·韦索 (Tatiana Huezo) 创作的剧情长片《Galerna》在莫雷利亚电影节 (Impulso Morelia) 上荣获最高奖项，该电影节是为期 10 天的莫雷利亚电影节 (10 月 25 日结束) 的后期工业部分。何塞·玛丽亚·里巴奖 (José Maria Riba Award)...（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a7e964d57abc52daeb17c4421",
+              "original": "https://variety.com/2026/film/global/impulso-morelia-galerna-tatiana-huezo-top-prize-1236922084/"
+            },
+            "publishedAt": "2026-10-24T08:33:02.000Z",
+            "discoveredAt": "2026-10-24T11:57:46.603Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a7e964d57abc52daeb17c4421"
+            }
+          },
+          {
             "id": "ada98c0b99167966d046fef10",
             "title": "【全球票房】昆汀·塔伦蒂诺 (Quentin Tarantino) 向观众展示了《悬崖布斯》(Cliff Booth) 的前 17 分钟，以此结束他的 AFI 电影节问答",
             "originalTitle": "Quentin Tarantino’s Wraps His AFI Fest Q&A By Showing Crowd First 17 Minutes Of ‘Cliff Booth’",
@@ -989,95 +1035,49 @@
             }
           },
           {
-            "id": "a49bc9d5ab86c216b3fefbe69",
-            "title": "【国内文娱】从于右任出发：中外书法家沪上办展，以笔墨作答AI时代",
-            "originalTitle": "从于右任出发：中外书法家沪上办展，以笔墨作答AI时代",
-            "summary": "中新网上海10月24日电(记者 张亨伟)展览“从于右任出发——中国书法 世界回响”23日在上海静安里唐宅的百年老建筑内开幕。在人工智能(AI)浪潮席卷各行各业的当下，15位中外艺术家试图用笔墨给出一个时代的回答：当机器也能挥毫泼墨时，人类为何还要写字？",
-            "source": {
-              "name": "中新网·影视文娱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a49bc9d5ab86c216b3fefbe69",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-24/10720284.shtml"
-            },
-            "publishedAt": "2026-10-24T05:28:23.000Z",
-            "discoveredAt": "2026-10-24T06:59:16.420Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a49bc9d5ab86c216b3fefbe69"
-            }
-          },
-          {
-            "id": "ab2c982dfca47bb06c859c051",
-            "title": "【全球票房】《复仇者联盟：世界末日》世界大赛先睹为快，神奇先生首次投球",
-            "originalTitle": "‘Avengers: Doomsday’ World Series Sneak Peek Sees Mister Fantastic Throw Out First Pitch",
-            "summary": "随着世界大赛的拉开帷幕，MCU 粉丝们得以一睹 12 月 18 日首播的《复仇者联盟：世界末日》的新风采。在周五的第一场比赛中，MLB 和 MCU 联手为即将上映的电影进行了特别预览，在……（来源：Deadline·全球票房与新片）",
+            "id": "ad7094e478fc8d2650ecdde40",
+            "title": "【全球票房】BBC 削减内部：痛苦的服务关闭开始，但更糟糕的情况可能会到来",
+            "originalTitle": "Inside The BBC Cuts: Painful Service Closures Begin, But Worse Could Be To Come",
+            "summary": "“世界比以往任何时候都更需要 BBC。它的规模和形状可能会有所不同。它不会是马马虎虎的 Netflix 或效仿的 YouTube。它会是一个更好的 BBC。”这是马特·布里廷留下的信息……（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab2c982dfca47bb06c859c051",
-              "original": "https://deadline.com/2026/10/avengers-doomsday-world-series-sneak-peek-1237172207/"
+              "aihot": "https://zenglian-news.onrender.com/items/ad7094e478fc8d2650ecdde40",
+              "original": "https://deadline.com/2026/10/inside-bbc-cuts-painful-closures-begin-worse-to-come-1237169573/"
             },
-            "publishedAt": "2026-10-24T01:01:53.000Z",
-            "discoveredAt": "2026-10-24T01:51:36.422Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab2c982dfca47bb06c859c051"
-            }
-          },
-          {
-            "id": "a861efcd769005a711b600df7",
-            "title": "【全球票房】卡罗琳·莱维特 (Karoline Leavitt) 将凯蒂·扎卡里亚 (Katie Zacharia) 突然辞去特朗普新闻秘书一职与《学徒》进行比较：“他因……远离人民而闻名”",
-            "originalTitle": "Karoline Leavitt Compares Katie Zacharia’s Abrupt Exit As Trump’s Press Secretary To ‘The Apprentice’: “He’s Known For … Moving On From People”",
-            "summary": "卡罗琳·莱维特 (Karoline Leavitt) 周五出现在 HBO 的《实时与比尔·马赫》(Real Time with Bill Maher) 节目中，并就其继任者唐纳德·特朗普 (Donald Trump) 的白宫新闻秘书凯蒂·扎卡里亚 (Katie Zacharia) 的短暂任职受到质疑。只做了一份简报后...（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a861efcd769005a711b600df7",
-              "original": "https://deadline.com/2026/10/karoline-leavitt-on-bill-maher-trump-press-secretary-1237172271/"
-            },
-            "publishedAt": "2026-10-24T03:16:11.000Z",
-            "discoveredAt": "2026-10-24T06:59:21.332Z",
+            "publishedAt": "2026-10-24T09:02:09.000Z",
+            "discoveredAt": "2026-10-24T11:57:47.974Z",
             "category": "culture",
             "score": 98,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a861efcd769005a711b600df7"
+              "url": "https://zenglian-news.onrender.com/items/ad7094e478fc8d2650ecdde40"
             }
           },
           {
-            "id": "a1a8ec5957b1637d10ef16972",
-            "title": "【全球票房】《泥面》导演詹姆斯·沃特金斯解释亚伦·保尔的客串：“一个真正短暂的复活节彩蛋”",
-            "originalTitle": "‘Clayface’ Director James Watkins Explains Aaron Paul’s Cameo: “A Real Brief Easter Egg”",
-            "summary": "在 DC Studios 的《Clayface》中，汤姆·里斯·哈里斯 (Tom Rhys Harries) 饰演的变形蝙蝠侠恶棍有多种形态，其中包括一张令人惊讶的熟悉面孔。在客串一阵低语后，导演詹姆斯·沃特金斯证实亚伦·保尔……（来源：Deadline·全球票房与新片）",
+            "id": "a3c2aab919341f7a39e2fa525",
+            "title": "【好莱坞一手】是枝裕和解释了为什么他从不拍摄哭泣的孩子——以及肯·洛奇和侯孝贤教给他的事",
+            "originalTitle": "Kore-eda Hirokazu Explains Why He Never Films Children Crying – and What Ken Loach and Hou Hsiao-hsien Taught Him",
+            "summary": "日本导演是枝裕和的电影以儿童演员的自然表演而闻名，他说有一件事情他决定永远不会搬上银幕：孩子的哭泣。 “并不是我不能，或者说……（来源：Variety·好莱坞影视）",
             "source": {
-              "name": "Deadline·全球票房与新片"
+              "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a1a8ec5957b1637d10ef16972",
-              "original": "https://deadline.com/2026/10/clayface-james-watkins-explains-aaron-paul-cameo-1237172273/"
+              "aihot": "https://zenglian-news.onrender.com/items/a3c2aab919341f7a39e2fa525",
+              "original": "https://variety.com/2026/film/festivals/kore-eda-hirokazu-why-never-films-children-crying-1236930180/"
             },
-            "publishedAt": "2026-10-24T03:00:27.000Z",
-            "discoveredAt": "2026-10-24T06:59:22.410Z",
+            "publishedAt": "2026-10-24T08:40:11.000Z",
+            "discoveredAt": "2026-10-24T11:57:45.064Z",
             "category": "culture",
             "score": 98,
             "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a1a8ec5957b1637d10ef16972"
+              "url": "https://zenglian-news.onrender.com/items/a3c2aab919341f7a39e2fa525"
             }
           }
         ]
@@ -1087,118 +1087,118 @@
         "label": "🏆 体育实时Top20",
         "items": [
           {
-            "id": "ae97104a16656459bd9d149a0",
-            "title": "【欧洲足坛】伊普斯维奇 v 诺丁汉森林：英超联赛 - 直播",
-            "originalTitle": "Ipswich v Nottingham Forest: Premier League – live",
-            "summary": "⚽ 英国夏令时晚上 8 点在波特曼路 (Portman Road) 开球的最新消息 ⚽ 需要注意的十件事 |他们的立场如何？ Mail Scott 2 分钟：萨福克有风。沃顿尽其所能地在前场解围。森林非常爱玩...（来源：卫报体育·欧冠与五大联赛）",
+            "id": "af701d0e1e748e57a1a4b48a3",
+            "title": "【欧洲足坛】托特纳姆热刺队在 WSL、英超、EFL 等比赛中主场迎战阿森纳 – 足球时钟直播",
+            "originalTitle": "Tottenham host Arsenal in WSL, Premier League, EFL and more – football clockwatch live",
+            "summary": "⚽ 周六球场周围活动的最新动态 ⚽ 需要注意的十件事 |分数 |桌子| Mail Billy WSL：球队在托特纳姆热刺球场出局。屠宰场过后，今天的伦敦有点毛毛雨……（来源：卫报体育·欧冠与五大联赛）",
             "source": {
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae97104a16656459bd9d149a0",
-              "original": "https://www.theguardian.com/football/live/2026/oct/23/ipswich-v-nottingham-forest-premier-league-live"
+              "aihot": "https://zenglian-news.onrender.com/items/af701d0e1e748e57a1a4b48a3",
+              "original": "https://www.theguardian.com/football/live/2026/oct/24/tottenham-arsenal-wsl-premier-league-efl-football-clockwatch-live"
             },
-            "publishedAt": "2026-10-23T20:14:39.000Z",
-            "discoveredAt": "2026-10-23T20:29:16.187Z",
+            "publishedAt": "2026-10-24T11:44:32.000Z",
+            "discoveredAt": "2026-10-24T11:57:56.525Z",
             "category": "business",
             "score": 99,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae97104a16656459bd9d149a0"
+              "url": "https://zenglian-news.onrender.com/items/af701d0e1e748e57a1a4b48a3"
             }
           },
           {
-            "id": "a10178178aef39048c81862a1",
-            "title": "【欧洲足坛】恩西索挽救了伊普斯维奇否认诺丁汉森林的风暴点",
-            "originalTitle": "Enciso rescues point in storm for Ipswich to deny Nottingham Forest",
-            "summary": "在萨福克的狂风、狂风、持续的大雨中，这场比赛充满了半点机会、失误、强制性裁判争议和尖锐的问题。伊普斯维奇是否拥有应对这场灾难的石头？（来源：卫报体育·欧冠与五大联赛）",
+            "id": "a7408d8157879948ada5d9573",
+            "title": "【欧洲足坛】阿斯顿维拉 vs 曼城：英超联赛 - 直播",
+            "originalTitle": "Aston Villa v Manchester City: Premier League – live",
+            "summary": "⚽ 英国夏令时中午 12.30 开赛的英超联赛更新 ⚽ 需要注意的十件事 |实时比分 |表恩佐·马雷斯卡（Enzo Maresca）关于菲尔·福登（Phil Foden）的遗漏的好处是，因为我们玩了很多游戏，所以我们有很多...（来源：卫报体育·欧冠与五大联赛）",
             "source": {
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a10178178aef39048c81862a1",
-              "original": "https://www.theguardian.com/football/2026/oct/23/ipswich-nottingham-forest-premier-league-match-report"
+              "aihot": "https://zenglian-news.onrender.com/items/a7408d8157879948ada5d9573",
+              "original": "https://www.theguardian.com/football/live/2026/oct/24/aston-villa-v-manchester-city-premier-league-live"
             },
-            "publishedAt": "2026-10-23T21:07:50.000Z",
-            "discoveredAt": "2026-10-23T23:25:33.806Z",
+            "publishedAt": "2026-10-24T11:43:14.000Z",
+            "discoveredAt": "2026-10-24T11:57:55.239Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a7408d8157879948ada5d9573"
+            }
+          },
+          {
+            "id": "abe201b194d21e122edb3e505",
+            "title": "【欧洲足坛】年长、冷静，但仍在打热门比赛：穆里尼奥和马德里为国家德比做好了准备",
+            "originalTitle": "Older, calmer, but still playing the hits: Mourinho and Madrid primed for clásico",
+            "summary": "何塞·穆里尼奥曾经是鲍比·罗布森在诺坎普球场的翻译，他的任务是在周日击败巴塞罗那。何塞·穆里尼奥已经完成了 por que?、打印输出和新闻发布会的缺席，他来这里只是为了……（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abe201b194d21e122edb3e505",
+              "original": "https://www.theguardian.com/football/2026/oct/24/la-liga-clasico-barcelona-real-madrid-jose-mourinho"
+            },
+            "publishedAt": "2026-10-24T07:00:26.000Z",
+            "discoveredAt": "2026-10-24T11:57:58.346Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abe201b194d21e122edb3e505"
+            }
+          },
+          {
+            "id": "a86dc1af93b7d8e4893172c9e",
+            "title": "【欧洲足坛】拜仁慕尼黑表示，文森特·孔帕尼将缺席“几周，而不是几天”的病毒治疗",
+            "originalTitle": "Vincent Kompany to miss ‘weeks, not days’ with virus treatment, say Bayern Munich",
+            "summary": "主教练在训练中晕倒住院 助理教练亚伦·丹克斯将接手对阵弗莱堡的拜仁慕尼黑队，预计文森特·孔帕尼将缺席较长一段时间，因为他们的主教练继续在医院治疗...（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a86dc1af93b7d8e4893172c9e",
+              "original": "https://www.theguardian.com/football/2026/oct/24/vincent-kompany-recovery-virus-bayern-munich-bundesliga-football"
+            },
+            "publishedAt": "2026-10-24T09:40:45.000Z",
+            "discoveredAt": "2026-10-24T11:57:57.475Z",
             "category": "business",
             "score": 98,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a10178178aef39048c81862a1"
+              "url": "https://zenglian-news.onrender.com/items/a86dc1af93b7d8e4893172c9e"
             }
           },
           {
-            "id": "ab736bd606ae202adceff884b",
-            "title": "【欧洲足坛】换队长？玩孩子们？如何解决曼联的问题",
-            "originalTitle": "Change captain? Play the kids? How to solve the problems at Manchester United",
-            "summary": "陷入困境的迈克尔·卡里克的工作岌岌可危，但他可以采取一些措施来重振这支陷入困境的俱乐部，当伯恩茅斯抵达老特拉福德参加周日下午 2 点的开球时，最大的问题是迈克尔·卡里克是否......（来源：卫报体育·欧冠与五大联赛）",
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab736bd606ae202adceff884b",
-              "original": "https://www.theguardian.com/football/2026/oct/23/change-captain-play-the-kids-how-to-solve-the-problems-at-manchester-united"
-            },
-            "publishedAt": "2026-10-23T19:00:11.000Z",
-            "discoveredAt": "2026-10-23T23:25:31.831Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab736bd606ae202adceff884b"
-            }
-          },
-          {
-            "id": "aa9d4bc11c809aeb7f55c4ff2",
-            "title": "【体坛快讯】1400余名选手齐聚秦巴腹地 智力赛事邂逅山水民俗文化",
-            "originalTitle": "1400余名选手齐聚秦巴腹地 智力赛事邂逅山水民俗文化",
-            "summary": "中新网陕西安康10月24日电 (记者 张一辰)2026年陕西省第三届智力运动会23日在安康市石泉县开幕。来自全国各地的1400余名选手齐聚石泉，参加这场智慧与山水交融的体育盛会。",
+            "id": "a2b127519c9045d3758423c80",
+            "title": "【体坛快讯】学体联2026年全国大学生自行车锦标赛在云南昭通开赛",
+            "originalTitle": "学体联2026年全国大学生自行车锦标赛在云南昭通开赛",
+            "summary": "中新网云南昭通10月24日电 (苏燕)学体联2026年全国大学生自行车锦标赛24日在云南省昭通市开赛。4天赛程里，来自全国49所高校的200余名运动员将围绕公路自行车、山地自行车、田径场绕圈三个大项展开激烈角逐。",
             "source": {
               "name": "中新网·体育焦点"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa9d4bc11c809aeb7f55c4ff2",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-24/10720262.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a2b127519c9045d3758423c80",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-24/10720396.shtml"
             },
-            "publishedAt": "2026-10-24T05:22:01.000Z",
-            "discoveredAt": "2026-10-24T06:59:26.240Z",
+            "publishedAt": "2026-10-24T10:32:53.000Z",
+            "discoveredAt": "2026-10-24T11:57:49.981Z",
             "category": "business",
             "score": 97,
             "selected": true,
             "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa9d4bc11c809aeb7f55c4ff2"
-            }
-          },
-          {
-            "id": "a5cc73f2a2b3b65237d446b9c",
-            "title": "【体坛快讯】第四届传统体育国际交流大赛在江苏启东开幕",
-            "originalTitle": "第四届传统体育国际交流大赛在江苏启东开幕",
-            "summary": "10月23日，第四届传统体育国际交流大赛在江苏省南通市启东市正式拉开帷幕。本届大赛共吸引了800余名传统体育爱好者参与，其中境外运动员约500人，覆盖全球60余个国家和地区。",
-            "source": {
-              "name": "中新网·体育焦点"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a5cc73f2a2b3b65237d446b9c",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-24/10720292.shtml"
-            },
-            "publishedAt": "2026-10-24T05:11:10.000Z",
-            "discoveredAt": "2026-10-24T06:59:26.311Z",
-            "category": "business",
-            "score": 97,
-            "selected": true,
-            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a5cc73f2a2b3b65237d446b9c"
+              "url": "https://zenglian-news.onrender.com/items/a2b127519c9045d3758423c80"
             }
           }
         ]
@@ -1210,7 +1210,7 @@
     "key": "2026-10",
     "title": "曾练全球一手简报 · 月度产业全景报告 (2026年10月)",
     "subtitle": "30天六大实时Top20赛道全景洞察与高价值搞钱机会总结",
-    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：OpenAI 现在无需连接互联网即可训练其前沿人工智能模型；上海推动人工智能赋能工业服务业；陶哲轩尴尬了，哈佛研究显示AI审稿比专家强。",
+    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：黑客逆转三星电视，发现机载AI监听OpenAI账户被暂停；OpenAI 现在无需连接互联网即可训练其前沿人工智能模型；陶哲轩尴尬了，哈佛研究显示AI审稿比专家强。",
     "metrics": {
       "totalEvents": 36,
       "sourcesCount": 30,
@@ -1221,6 +1221,29 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
+          {
+            "id": "a670adf33663187c54aee1a15",
+            "title": "【全球热榜】黑客逆转三星电视，发现机载AI监听OpenAI账户被暂停",
+            "originalTitle": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+            "summary": "X/HN·全球热榜Top实时快讯：Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a670adf33663187c54aee1a15",
+              "original": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/"
+            },
+            "publishedAt": "2026-10-24T05:49:57.000Z",
+            "discoveredAt": "2026-10-24T11:57:06.360Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a670adf33663187c54aee1a15"
+            }
+          },
           {
             "id": "aff7235589ab142718e0f18f5",
             "title": "【国际巨头】OpenAI 现在无需连接互联网即可训练其前沿人工智能模型",
@@ -1242,6 +1265,29 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/aff7235589ab142718e0f18f5"
+            }
+          },
+          {
+            "id": "ad12a68732931c7b589f378d8",
+            "title": "【全球热榜】纯函数式编程与 C 语言有多接近？",
+            "originalTitle": "How close can pure functional programming get to C?",
+            "summary": "X/HN·全球热榜Top实时快讯：How close can pure functional programming get to C?。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ad12a68732931c7b589f378d8",
+              "original": "https://rtfeldman.com/fp-vs-c"
+            },
+            "publishedAt": "2026-10-24T03:43:54.000Z",
+            "discoveredAt": "2026-10-24T11:57:07.243Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ad12a68732931c7b589f378d8"
             }
           },
           {
@@ -1291,72 +1337,26 @@
             }
           },
           {
-            "id": "a6f10c38072dd58cb81604599",
-            "title": "【全球热榜】Dessa：有史以来最真实的全双工语音模型",
-            "originalTitle": "Dessa: the most authentic full-duplex speech model ever built",
-            "summary": "X/HN·全球热榜Top实时快讯：Dessa: the most authentic full-duplex speech model ever built。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a6f10c38072dd58cb81604599",
-              "original": "https://block.xyz/dessa"
-            },
-            "publishedAt": "2026-10-23T19:09:54.000Z",
-            "discoveredAt": "2026-10-23T23:24:32.975Z",
-            "category": "global",
-            "score": 97,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a6f10c38072dd58cb81604599"
-            }
-          },
-          {
-            "id": "aa06e665e9b25c02669187fb0",
-            "title": "【全球热榜】我们可以用一桶 HTML 文件替换价值 15 万美元的 Looker 吗？",
-            "originalTitle": "Can we replace a $150k Looker with a bucket of HTML files?",
-            "summary": "X/HN·全球热榜Top实时快讯：Can we replace a $150k Looker with a bucket of HTML files?。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa06e665e9b25c02669187fb0",
-              "original": "https://david.lequin.dev/blog/bi-software-is-dead/"
-            },
-            "publishedAt": "2026-10-23T17:15:03.000Z",
-            "discoveredAt": "2026-10-23T23:24:33.731Z",
-            "category": "global",
-            "score": 97,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa06e665e9b25c02669187fb0"
-            }
-          },
-          {
-            "id": "ac1bb9d3e7bc304d0b43a1f70",
-            "title": "【BBC全球】法国全国骚乱一周后准备抗议日",
-            "originalTitle": "France prepares for day of protest a week after nationwide riots",
-            "summary": "预计将有数十万人参加，因为有些警察可能会违反限制，因此将部署 7 万多名警察。（来源：BBC News·全球要闻）",
+            "id": "a0f314a520e1109ba815ff55b",
+            "title": "【BBC全球】乌克兰称星链连接在网络限制后“现已稳定”",
+            "originalTitle": "Ukraine says Starlink connection 'now stable' after network limits",
+            "summary": "星链连接速度减慢已经影响了乌克兰的军事和无人机行动一周。（来源：BBC News·全球要闻）",
             "source": {
               "name": "BBC News·全球要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac1bb9d3e7bc304d0b43a1f70",
-              "original": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/a0f314a520e1109ba815ff55b",
+              "original": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss"
             },
-            "publishedAt": "2026-10-24T06:19:46.000Z",
-            "discoveredAt": "2026-10-24T06:58:47.392Z",
+            "publishedAt": "2026-10-24T11:17:35.000Z",
+            "discoveredAt": "2026-10-24T11:57:02.001Z",
             "category": "global",
             "score": 96,
             "selected": true,
             "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac1bb9d3e7bc304d0b43a1f70"
+              "url": "https://zenglian-news.onrender.com/items/a0f314a520e1109ba815ff55b"
             }
           }
         ]
@@ -1366,26 +1366,26 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "a56ef3123a5858c4ea67cbb44",
-            "title": "【国内财经】上海推动人工智能赋能工业服务业",
-            "originalTitle": "上海推动人工智能赋能工业服务业",
-            "summary": "中新网上海10月23日电 (记者 郑莹莹)据上海市经济和信息化委员会23日发布的消息，《上海市加快推动人工智能赋能工业服务业高质量发展行动方案(2027-2028年)》(简称“行动方案”)于近日印发。",
+            "id": "a5c7097775a4cb58cb1e26802",
+            "title": "【国内要闻】中国首个区域电力市场正式运行",
+            "originalTitle": "中国首个区域电力市场正式运行",
+            "summary": "中新社广州10月24日电 (王华 蓝旺)中国首个区域电力市场——南方区域(即广东、广西、云南、贵州、海南等南方五省区)电力市场24日转入正式运行，标志着中国统一电力市场体系建设取得重大突破。",
             "source": {
-              "name": "中新网·国内财经"
+              "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a56ef3123a5858c4ea67cbb44",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-23/10720144.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a5c7097775a4cb58cb1e26802",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-24/10720447.shtml"
             },
-            "publishedAt": "2026-10-23T15:24:43.000Z",
-            "discoveredAt": "2026-10-23T17:09:39.673Z",
+            "publishedAt": "2026-10-24T11:26:34.000Z",
+            "discoveredAt": "2026-10-24T11:57:08.338Z",
             "category": "domestic",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a56ef3123a5858c4ea67cbb44"
+              "url": "https://zenglian-news.onrender.com/items/a5c7097775a4cb58cb1e26802"
             }
           },
           {
@@ -1412,95 +1412,95 @@
             }
           },
           {
-            "id": "aa04cc8d5a22f16c5fd85c3fb",
-            "title": "【国内要闻】2026东南亚中国图书巡回展走进泰国",
-            "originalTitle": "2026东南亚中国图书巡回展走进泰国",
-            "summary": "中新网曼谷10月24日电 (王茜 李映民)2026泰国国家图书博览会23日在曼谷开幕。2026东南亚中国图书巡回展携700余种中国精品图书，作为书展唯一中国元素同期亮相，为东南亚读者阅读中国搭建书香驿站。",
+            "id": "afd7dee22ec89a10b725010dd",
+            "title": "【国内要闻】商务部新闻发言人就美发布新版对外投资限制拟议规则答记者问",
+            "originalTitle": "商务部新闻发言人就美发布新版对外投资限制拟议规则答记者问",
+            "summary": "中新网10月24日电 据商务部网站消息，商务部新闻发言人就美发布新版对外投资限制拟议规则答记者问。",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa04cc8d5a22f16c5fd85c3fb",
-              "original": "https://www.chinanews.com.cn/hr/2026/10-24/10720308.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/afd7dee22ec89a10b725010dd",
+              "original": "https://www.chinanews.com.cn/${mypath}/2026/10-24/10720450.shtml"
             },
-            "publishedAt": "2026-10-24T06:41:29.000Z",
-            "discoveredAt": "2026-10-24T06:58:57.568Z",
+            "publishedAt": "2026-10-24T11:45:51.000Z",
+            "discoveredAt": "2026-10-24T11:57:08.319Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa04cc8d5a22f16c5fd85c3fb"
+              "url": "https://zenglian-news.onrender.com/items/afd7dee22ec89a10b725010dd"
             }
           },
           {
-            "id": "aa4f3466498e4ca7aa6735c95",
-            "title": "【国内要闻】青春华章·逐梦北疆｜把“乡土草种”攥在中国人自己手里",
-            "originalTitle": "青春华章·逐梦北疆｜把“乡土草种”攥在中国人自己手里",
-            "summary": "编者按：10月20日，“青春华章·逐梦北疆”网络主题宣传活动在内蒙古大学启动，5天沉浸式媒体行，记者们走进内蒙古，沿着生态保护、产业创新、民生温情、文艺传承的主线，挖掘青年扎根草原、实干奉献的青春故事，立体展现内蒙古绿色发展、民生提质、老城焕新、红色文艺传承的发展画卷。",
+            "id": "ac83e7e3f952b0efb268cd054",
+            "title": "【国内要闻】李希在二十届中央第八轮巡视工作动员部署会上强调 深入学习贯彻习近平党建思想 以更高标准更实举措推动新征程巡视工作高质量发展",
+            "originalTitle": "李希在二十届中央第八轮巡视工作动员部署会上强调 深入学习贯彻习近平党建思想 以更高标准更实举措推动新征程巡视工作高质量发展",
+            "summary": "新华社北京10月24日电 中共中央政治局常委、中央巡视工作领导小组组长李希近日出席二十届中央第八轮巡视工作动员部署会并讲话。会议传达学习了习近平总书记听取中央第七轮巡视情况汇报时的重要讲话精神，对巡视教育部和中管高校作出安排，强调要认真学习领会习近平新时代中国特色社会主义思想特别是习近平党建思想，深刻领悟“两个确立”的决定性意义、坚决做到“两个维护”，以更高标准、更实举措推动新征程巡视工作高质量发展，更好发挥巡视管党治党利剑、治国理政利...",
             "source": {
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa4f3466498e4ca7aa6735c95",
-              "original": "https://www.chinanews.com.cn/gn/2026/10-24/10720320.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/ac83e7e3f952b0efb268cd054",
+              "original": "https://www.chinanews.com.cn/gn/2026/10-24/10720444.shtml"
             },
-            "publishedAt": "2026-10-24T06:41:27.000Z",
-            "discoveredAt": "2026-10-24T06:58:57.642Z",
+            "publishedAt": "2026-10-24T11:23:34.000Z",
+            "discoveredAt": "2026-10-24T11:57:08.380Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa4f3466498e4ca7aa6735c95"
+              "url": "https://zenglian-news.onrender.com/items/ac83e7e3f952b0efb268cd054"
             }
           },
           {
-            "id": "a337805780a694578aa59db90",
-            "title": "【国内财经】广东茂名口岸首票进口“多式联运（水水）”业务落地",
-            "originalTitle": "广东茂名口岸首票进口“多式联运（水水）”业务落地",
-            "summary": "中新网茂名10月24日电 (梁盛 卢明枢 王子瑞)广东茂名海关24日发布消息：“穗港航5001”轮23日顺利靠泊茂名广港码头，船上装载来自塞内加尔的26个集装箱进口初榨花生油顺利办结通关手续，目前正在卸运中，标志着茂名口岸首票进口“多式联运(水水)”业务正式落地。",
+            "id": "a51fabf8b4000204d89581cf9",
+            "title": "【国内财经】拼多多紧急捐赠1000万元 驰援西藏那曲抗震救灾",
+            "originalTitle": "拼多多紧急捐赠1000万元 驰援西藏那曲抗震救灾",
+            "summary": "10月22日，西藏那曲市巴青县发生7.0级地震，造成重大人员伤亡及房屋受损。国务院抗震救灾指挥部办公室、应急管理部将国家地震灾害应急响应由四级提升至三级，各项救援工作正全力推进。",
             "source": {
               "name": "中新网·国内财经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a337805780a694578aa59db90",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-24/10720261.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a51fabf8b4000204d89581cf9",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-24/10720441.shtml"
             },
-            "publishedAt": "2026-10-24T04:42:40.000Z",
-            "discoveredAt": "2026-10-24T06:58:58.529Z",
+            "publishedAt": "2026-10-24T10:57:39.000Z",
+            "discoveredAt": "2026-10-24T11:57:08.406Z",
             "category": "domestic",
-            "score": 97,
+            "score": 96,
             "selected": true,
             "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a337805780a694578aa59db90"
+              "url": "https://zenglian-news.onrender.com/items/a51fabf8b4000204d89581cf9"
             }
           },
           {
-            "id": "a32ca1708aa6374d3f9175be4",
-            "title": "苹果 iPhone Duo 隐藏交互曝光：为左撇子优化，控制中心一点就开",
-            "originalTitle": "苹果 iPhone Duo 隐藏交互曝光：为左撇子优化，控制中心一点就开",
-            "summary": "IT之家 10 月 24 日消息，科技媒体 9to5Mac 今天（10 月 24 日）发布博文，报道称在 苹果首款折叠 iPhone Duo 上，苹果公司针对“左撇子”用户，引入了新的控制中心打开方式。 在 iPhone X 以及后续没有配备 Home 按钮的机型上，用户从屏幕右上角向下滑动即可打开控制中心。但在 iPhone Duo 折叠手机上，单手尤其是左手使用时，从屏幕右上角下滑打开控制中心较为吃力。 苹果公司为此引入了新的打开方...",
+            "id": "ad346f5a5cd6d753410375d02",
+            "title": "【国内财经】非遗技艺融入中国时尚饰品 东方美学“圈粉”境外采购商",
+            "originalTitle": "非遗技艺融入中国时尚饰品 东方美学“圈粉”境外采购商",
+            "summary": "中新社广州10月24日电 (记者 孙秋霞)第140届广交会第二期正在广州举行，时尚饰品专区汇聚59家企业、180个展位，集中展示培育钻石、莫桑石、珍珠、银饰铜艺、水晶玉石等。部分展品植根中国传统文化，融合花丝镶嵌、铜雕、猛犸牙刻等非遗技艺，演绎东方美学，吸引众多境外采购商购买。",
             "source": {
-              "name": "IT之家·国内产业"
+              "name": "中新网·国内财经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a32ca1708aa6374d3f9175be4",
-              "original": "https://www.ithome.com/1/017/311.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/ad346f5a5cd6d753410375d02",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-24/10720432.shtml"
             },
-            "publishedAt": "2026-10-24T01:48:03.000Z",
-            "discoveredAt": "2026-10-24T01:51:14.758Z",
+            "publishedAt": "2026-10-24T10:49:38.000Z",
+            "discoveredAt": "2026-10-24T11:57:08.424Z",
             "category": "domestic",
-            "score": 97,
+            "score": 96,
             "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a32ca1708aa6374d3f9175be4"
+              "url": "https://zenglian-news.onrender.com/items/ad346f5a5cd6d753410375d02"
             }
           }
         ]
@@ -1579,6 +1579,29 @@
             }
           },
           {
+            "id": "a6d967fc5fc6e9fd6f3351e1c",
+            "title": "【独立变现】Show HN：Corgi，一个有用的{代理，终端}多路复用器",
+            "originalTitle": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+            "summary": "大家好，受 Herdr 的启发，我构建了一个代理多路复用器，几周以来我一直将其用作我的日常驱动程序。我认为我在几个方面改进了这个概念，重点关注我一直希望的人体工程学......（来源：Show HN·独立变现榜）",
+            "source": {
+              "name": "Show HN·独立变现榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a6d967fc5fc6e9fd6f3351e1c",
+              "original": "https://corgi.computer/"
+            },
+            "publishedAt": "2026-10-23T19:46:38.000Z",
+            "discoveredAt": "2026-10-24T11:57:13.423Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a6d967fc5fc6e9fd6f3351e1c"
+            }
+          },
+          {
             "id": "a5f98dbccf5cff15353ce6520",
             "title": "【出海实战】Google Play 上有 50 万次安装，但只有 20-30 名付费用户。我做错了什么？",
             "originalTitle": "500k installs on Google Play but only 20-30 paid users. What am I doing wrong?",
@@ -1602,49 +1625,26 @@
             }
           },
           {
-            "id": "aad77706c1775b359339f18d1",
-            "title": "【出海实战】是什么让您对 SaaS 产品足够信任并愿意为其付费？",
-            "originalTitle": "What Makes You Trust a SaaS Product Enough to Pay for It?",
-            "summary": "在评估新的 SaaS 产品时，是什么让您相信它值得付费？是产品演示、明确的定价、客户评价、免费试用还是网站本身？我感兴趣的是实际信息...（来源：X/Reddit·出海SaaS搞钱）",
+            "id": "aa12a23de08032dbcf48f4fac",
+            "title": "百度搭子的阶段性大考来了",
+            "originalTitle": "百度搭子的阶段性大考来了",
+            "summary": "（本文作者为 唐辰同学，钛媒体经授权发布） 文 | 唐辰同学 谁说百度搭子不能打？ 10月20日，QuestMobile发布2026年三季度AI应用市场发展报告。数据显示，AI办公月活规模已经达到1.42亿，同比增长50.6%。 其中，百度搭子的表现让很多人眼前一亮。其合计月活977万，多端总使用次数8381万次，较 6 月增长 5810%。 这个规模位居AI办公Agent榜单第二位，它前面是腾讯WorkBuddy的3235.3万，第三...",
             "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
+              "name": "钛媒体·资本与风口"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aad77706c1775b359339f18d1",
-              "original": "https://www.reddit.com/r/SaaS/comments/1xdb43q/what_makes_you_trust_a_saas_product_enough_to_pay/"
+              "aihot": "https://zenglian-news.onrender.com/items/aa12a23de08032dbcf48f4fac",
+              "original": "https://www.tmtpost.com/8179558.html"
             },
-            "publishedAt": "2026-10-23T11:11:42.000Z",
-            "discoveredAt": "2026-10-23T17:09:57.423Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aad77706c1775b359339f18d1"
-            }
-          },
-          {
-            "id": "a8259aaa0d76211f4d2d9b123",
-            "title": "超级运动巨头的时代要消失了？",
-            "originalTitle": "超级运动巨头的时代要消失了？",
-            "summary": "本文来自微信公众号： 深观商业 ，作者：沈跃然 9年前，耐克在大幅压缩全球区域时，独独保留了大中华区的独立地位，9年后，它又亲手撤销了“大中华区”。 就在前几日，耐克公布了2027财年第一季度财报，并随财报抛出名为「Pace」的运营模式转型，大中华区不再单列，与亚太合并为新的「亚太和大中华区」（APGC），区域领导团队设在新加坡。这极具标志性的一幕，预示着耐克正在失去其曾经最强劲的“增长引擎”—中国市场。 业绩崩了，股价也跟着崩了。耐克...",
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a8259aaa0d76211f4d2d9b123",
-              "original": "https://www.huxiu.com/article/4900126.html?f=rss"
-            },
-            "publishedAt": "2026-10-24T06:27:30.000Z",
-            "discoveredAt": "2026-10-24T06:59:08.399Z",
+            "publishedAt": "2026-10-24T10:07:17.000Z",
+            "discoveredAt": "2026-10-24T11:57:27.344Z",
             "category": "money",
             "score": 98,
             "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a8259aaa0d76211f4d2d9b123"
+              "url": "https://zenglian-news.onrender.com/items/aa12a23de08032dbcf48f4fac"
             }
           }
         ]
@@ -1798,6 +1798,52 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
+            "id": "ab49df705c2244ff75d6a3af7",
+            "title": "【好莱坞一手】El Gouna 要点：《安全出口》荣获最高奖项，阿拉伯电视寻找新人才，埃及电影制片人突破界限",
+            "originalTitle": "El Gouna Takeaways: ‘Safe Exit’ Wins Top Prize, Arab TV Seeks New Talent and Egyptian Filmmakers Push Boundaries",
+            "summary": "经过九天的放映、行业活动和闭幕之夜，埃及艾尔古纳电影节于周五结束了第九届电影节，该电影节的最高奖项遍布中东及其他地区。穆罕默德·哈马德的“安全电子...（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ab49df705c2244ff75d6a3af7",
+              "original": "https://variety.com/2026/film/global/el-gouna-film-festival-2026-five-takeaways-cinegouna-1236930192/"
+            },
+            "publishedAt": "2026-10-24T10:23:00.000Z",
+            "discoveredAt": "2026-10-24T11:57:40.155Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ab49df705c2244ff75d6a3af7"
+            }
+          },
+          {
+            "id": "a7e964d57abc52daeb17c4421",
+            "title": "【好莱坞一手】Impulso Morelia：塔蒂亚娜·韦佐 (Tatiana Huezo) 的《Galerna》荣获何塞·玛丽亚·里巴 (José María Riba) 最高奖，《Homeboys》是另一个主要获奖者",
+            "originalTitle": "Impulso Morelia: Tatiana Huezo’s ‘Galerna’ Takes Top José María Riba Award, With ‘Homeboys’ Another Key Winner",
+            "summary": "墨西哥塔蒂亚娜·韦索 (Tatiana Huezo) 创作的剧情长片《Galerna》在莫雷利亚电影节 (Impulso Morelia) 上荣获最高奖项，该电影节是为期 10 天的莫雷利亚电影节 (10 月 25 日结束) 的后期工业部分。何塞·玛丽亚·里巴奖 (José Maria Riba Award)...（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a7e964d57abc52daeb17c4421",
+              "original": "https://variety.com/2026/film/global/impulso-morelia-galerna-tatiana-huezo-top-prize-1236922084/"
+            },
+            "publishedAt": "2026-10-24T08:33:02.000Z",
+            "discoveredAt": "2026-10-24T11:57:46.603Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a7e964d57abc52daeb17c4421"
+            }
+          },
+          {
             "id": "ada98c0b99167966d046fef10",
             "title": "【全球票房】昆汀·塔伦蒂诺 (Quentin Tarantino) 向观众展示了《悬崖布斯》(Cliff Booth) 的前 17 分钟，以此结束他的 AFI 电影节问答",
             "originalTitle": "Quentin Tarantino’s Wraps His AFI Fest Q&A By Showing Crowd First 17 Minutes Of ‘Cliff Booth’",
@@ -1821,49 +1867,49 @@
             }
           },
           {
-            "id": "a49bc9d5ab86c216b3fefbe69",
-            "title": "【国内文娱】从于右任出发：中外书法家沪上办展，以笔墨作答AI时代",
-            "originalTitle": "从于右任出发：中外书法家沪上办展，以笔墨作答AI时代",
-            "summary": "中新网上海10月24日电(记者 张亨伟)展览“从于右任出发——中国书法 世界回响”23日在上海静安里唐宅的百年老建筑内开幕。在人工智能(AI)浪潮席卷各行各业的当下，15位中外艺术家试图用笔墨给出一个时代的回答：当机器也能挥毫泼墨时，人类为何还要写字？",
-            "source": {
-              "name": "中新网·影视文娱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a49bc9d5ab86c216b3fefbe69",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-24/10720284.shtml"
-            },
-            "publishedAt": "2026-10-24T05:28:23.000Z",
-            "discoveredAt": "2026-10-24T06:59:16.420Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a49bc9d5ab86c216b3fefbe69"
-            }
-          },
-          {
-            "id": "ab2c982dfca47bb06c859c051",
-            "title": "【全球票房】《复仇者联盟：世界末日》世界大赛先睹为快，神奇先生首次投球",
-            "originalTitle": "‘Avengers: Doomsday’ World Series Sneak Peek Sees Mister Fantastic Throw Out First Pitch",
-            "summary": "随着世界大赛的拉开帷幕，MCU 粉丝们得以一睹 12 月 18 日首播的《复仇者联盟：世界末日》的新风采。在周五的第一场比赛中，MLB 和 MCU 联手为即将上映的电影进行了特别预览，在……（来源：Deadline·全球票房与新片）",
+            "id": "ad7094e478fc8d2650ecdde40",
+            "title": "【全球票房】BBC 削减内部：痛苦的服务关闭开始，但更糟糕的情况可能会到来",
+            "originalTitle": "Inside The BBC Cuts: Painful Service Closures Begin, But Worse Could Be To Come",
+            "summary": "“世界比以往任何时候都更需要 BBC。它的规模和形状可能会有所不同。它不会是马马虎虎的 Netflix 或效仿的 YouTube。它会是一个更好的 BBC。”这是马特·布里廷留下的信息……（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab2c982dfca47bb06c859c051",
-              "original": "https://deadline.com/2026/10/avengers-doomsday-world-series-sneak-peek-1237172207/"
+              "aihot": "https://zenglian-news.onrender.com/items/ad7094e478fc8d2650ecdde40",
+              "original": "https://deadline.com/2026/10/inside-bbc-cuts-painful-closures-begin-worse-to-come-1237169573/"
             },
-            "publishedAt": "2026-10-24T01:01:53.000Z",
-            "discoveredAt": "2026-10-24T01:51:36.422Z",
+            "publishedAt": "2026-10-24T09:02:09.000Z",
+            "discoveredAt": "2026-10-24T11:57:47.974Z",
             "category": "culture",
-            "score": 99,
+            "score": 98,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab2c982dfca47bb06c859c051"
+              "url": "https://zenglian-news.onrender.com/items/ad7094e478fc8d2650ecdde40"
+            }
+          },
+          {
+            "id": "a3c2aab919341f7a39e2fa525",
+            "title": "【好莱坞一手】是枝裕和解释了为什么他从不拍摄哭泣的孩子——以及肯·洛奇和侯孝贤教给他的事",
+            "originalTitle": "Kore-eda Hirokazu Explains Why He Never Films Children Crying – and What Ken Loach and Hou Hsiao-hsien Taught Him",
+            "summary": "日本导演是枝裕和的电影以儿童演员的自然表演而闻名，他说有一件事情他决定永远不会搬上银幕：孩子的哭泣。 “并不是我不能，或者说……（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a3c2aab919341f7a39e2fa525",
+              "original": "https://variety.com/2026/film/festivals/kore-eda-hirokazu-why-never-films-children-crying-1236930180/"
+            },
+            "publishedAt": "2026-10-24T08:40:11.000Z",
+            "discoveredAt": "2026-10-24T11:57:45.064Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a3c2aab919341f7a39e2fa525"
             }
           },
           {
@@ -1888,52 +1934,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a861efcd769005a711b600df7"
             }
-          },
-          {
-            "id": "a1a8ec5957b1637d10ef16972",
-            "title": "【全球票房】《泥面》导演詹姆斯·沃特金斯解释亚伦·保尔的客串：“一个真正短暂的复活节彩蛋”",
-            "originalTitle": "‘Clayface’ Director James Watkins Explains Aaron Paul’s Cameo: “A Real Brief Easter Egg”",
-            "summary": "在 DC Studios 的《Clayface》中，汤姆·里斯·哈里斯 (Tom Rhys Harries) 饰演的变形蝙蝠侠恶棍有多种形态，其中包括一张令人惊讶的熟悉面孔。在客串一阵低语后，导演詹姆斯·沃特金斯证实亚伦·保尔……（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a1a8ec5957b1637d10ef16972",
-              "original": "https://deadline.com/2026/10/clayface-james-watkins-explains-aaron-paul-cameo-1237172273/"
-            },
-            "publishedAt": "2026-10-24T03:00:27.000Z",
-            "discoveredAt": "2026-10-24T06:59:22.410Z",
-            "category": "culture",
-            "score": 98,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a1a8ec5957b1637d10ef16972"
-            }
-          },
-          {
-            "id": "a6675797db955f00d3a4cf6ea",
-            "title": "【好莱坞一手】卡蒂克·阿利安 (Kartik Aaryan) 执导的《印度队长》以也门胡塞武装冲突为背景（独家）",
-            "originalTitle": "Kartik Aaryan’s ‘Captain India’ Set Amid Houthi Conflict in Yemen (EXCLUSIVE)",
-            "summary": "据 Variety 报道，卡蒂克·阿利安 (Kartik Aaryan) 即将上映的动作片《印度队长》以也门胡塞武装冲突为背景。这部电影标志着阿利安第一次成为飞行员。希米特·阿明 (Shimit Amin) 负责指导该项目，该项目基于...（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a6675797db955f00d3a4cf6ea",
-              "original": "https://variety.com/2026/film/news/kartik-aaryan-captain-india-houthi-conflict-yemen-1236930090/"
-            },
-            "publishedAt": "2026-10-24T02:26:30.000Z",
-            "discoveredAt": "2026-10-24T06:59:18.739Z",
-            "category": "culture",
-            "score": 98,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a6675797db955f00d3a4cf6ea"
-            }
           }
         ]
       },
@@ -1942,141 +1942,141 @@
         "label": "🏆 体育实时Top20",
         "items": [
           {
-            "id": "ae97104a16656459bd9d149a0",
-            "title": "【欧洲足坛】伊普斯维奇 v 诺丁汉森林：英超联赛 - 直播",
-            "originalTitle": "Ipswich v Nottingham Forest: Premier League – live",
-            "summary": "⚽ 英国夏令时晚上 8 点在波特曼路 (Portman Road) 开球的最新消息 ⚽ 需要注意的十件事 |他们的立场如何？ Mail Scott 2 分钟：萨福克有风。沃顿尽其所能地在前场解围。森林非常爱玩...（来源：卫报体育·欧冠与五大联赛）",
+            "id": "af701d0e1e748e57a1a4b48a3",
+            "title": "【欧洲足坛】托特纳姆热刺队在 WSL、英超、EFL 等比赛中主场迎战阿森纳 – 足球时钟直播",
+            "originalTitle": "Tottenham host Arsenal in WSL, Premier League, EFL and more – football clockwatch live",
+            "summary": "⚽ 周六球场周围活动的最新动态 ⚽ 需要注意的十件事 |分数 |桌子| Mail Billy WSL：球队在托特纳姆热刺球场出局。屠宰场过后，今天的伦敦有点毛毛雨……（来源：卫报体育·欧冠与五大联赛）",
             "source": {
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae97104a16656459bd9d149a0",
-              "original": "https://www.theguardian.com/football/live/2026/oct/23/ipswich-v-nottingham-forest-premier-league-live"
+              "aihot": "https://zenglian-news.onrender.com/items/af701d0e1e748e57a1a4b48a3",
+              "original": "https://www.theguardian.com/football/live/2026/oct/24/tottenham-arsenal-wsl-premier-league-efl-football-clockwatch-live"
             },
-            "publishedAt": "2026-10-23T20:14:39.000Z",
-            "discoveredAt": "2026-10-23T20:29:16.187Z",
+            "publishedAt": "2026-10-24T11:44:32.000Z",
+            "discoveredAt": "2026-10-24T11:57:56.525Z",
             "category": "business",
             "score": 99,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae97104a16656459bd9d149a0"
+              "url": "https://zenglian-news.onrender.com/items/af701d0e1e748e57a1a4b48a3"
             }
           },
           {
-            "id": "a10178178aef39048c81862a1",
-            "title": "【欧洲足坛】恩西索挽救了伊普斯维奇否认诺丁汉森林的风暴点",
-            "originalTitle": "Enciso rescues point in storm for Ipswich to deny Nottingham Forest",
-            "summary": "在萨福克的狂风、狂风、持续的大雨中，这场比赛充满了半点机会、失误、强制性裁判争议和尖锐的问题。伊普斯维奇是否拥有应对这场灾难的石头？（来源：卫报体育·欧冠与五大联赛）",
+            "id": "a7408d8157879948ada5d9573",
+            "title": "【欧洲足坛】阿斯顿维拉 vs 曼城：英超联赛 - 直播",
+            "originalTitle": "Aston Villa v Manchester City: Premier League – live",
+            "summary": "⚽ 英国夏令时中午 12.30 开赛的英超联赛更新 ⚽ 需要注意的十件事 |实时比分 |表恩佐·马雷斯卡（Enzo Maresca）关于菲尔·福登（Phil Foden）的遗漏的好处是，因为我们玩了很多游戏，所以我们有很多...（来源：卫报体育·欧冠与五大联赛）",
             "source": {
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a10178178aef39048c81862a1",
-              "original": "https://www.theguardian.com/football/2026/oct/23/ipswich-nottingham-forest-premier-league-match-report"
+              "aihot": "https://zenglian-news.onrender.com/items/a7408d8157879948ada5d9573",
+              "original": "https://www.theguardian.com/football/live/2026/oct/24/aston-villa-v-manchester-city-premier-league-live"
             },
-            "publishedAt": "2026-10-23T21:07:50.000Z",
-            "discoveredAt": "2026-10-23T23:25:33.806Z",
+            "publishedAt": "2026-10-24T11:43:14.000Z",
+            "discoveredAt": "2026-10-24T11:57:55.239Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a7408d8157879948ada5d9573"
+            }
+          },
+          {
+            "id": "abe201b194d21e122edb3e505",
+            "title": "【欧洲足坛】年长、冷静，但仍在打热门比赛：穆里尼奥和马德里为国家德比做好了准备",
+            "originalTitle": "Older, calmer, but still playing the hits: Mourinho and Madrid primed for clásico",
+            "summary": "何塞·穆里尼奥曾经是鲍比·罗布森在诺坎普球场的翻译，他的任务是在周日击败巴塞罗那。何塞·穆里尼奥已经完成了 por que?、打印输出和新闻发布会的缺席，他来这里只是为了……（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abe201b194d21e122edb3e505",
+              "original": "https://www.theguardian.com/football/2026/oct/24/la-liga-clasico-barcelona-real-madrid-jose-mourinho"
+            },
+            "publishedAt": "2026-10-24T07:00:26.000Z",
+            "discoveredAt": "2026-10-24T11:57:58.346Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abe201b194d21e122edb3e505"
+            }
+          },
+          {
+            "id": "a86dc1af93b7d8e4893172c9e",
+            "title": "【欧洲足坛】拜仁慕尼黑表示，文森特·孔帕尼将缺席“几周，而不是几天”的病毒治疗",
+            "originalTitle": "Vincent Kompany to miss ‘weeks, not days’ with virus treatment, say Bayern Munich",
+            "summary": "主教练在训练中晕倒住院 助理教练亚伦·丹克斯将接手对阵弗莱堡的拜仁慕尼黑队，预计文森特·孔帕尼将缺席较长一段时间，因为他们的主教练继续在医院治疗...（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a86dc1af93b7d8e4893172c9e",
+              "original": "https://www.theguardian.com/football/2026/oct/24/vincent-kompany-recovery-virus-bayern-munich-bundesliga-football"
+            },
+            "publishedAt": "2026-10-24T09:40:45.000Z",
+            "discoveredAt": "2026-10-24T11:57:57.475Z",
             "category": "business",
             "score": 98,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a10178178aef39048c81862a1"
+              "url": "https://zenglian-news.onrender.com/items/a86dc1af93b7d8e4893172c9e"
             }
           },
           {
-            "id": "ab736bd606ae202adceff884b",
-            "title": "【欧洲足坛】换队长？玩孩子们？如何解决曼联的问题",
-            "originalTitle": "Change captain? Play the kids? How to solve the problems at Manchester United",
-            "summary": "陷入困境的迈克尔·卡里克的工作岌岌可危，但他可以采取一些措施来重振这支陷入困境的俱乐部，当伯恩茅斯抵达老特拉福德参加周日下午 2 点的开球时，最大的问题是迈克尔·卡里克是否......（来源：卫报体育·欧冠与五大联赛）",
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab736bd606ae202adceff884b",
-              "original": "https://www.theguardian.com/football/2026/oct/23/change-captain-play-the-kids-how-to-solve-the-problems-at-manchester-united"
-            },
-            "publishedAt": "2026-10-23T19:00:11.000Z",
-            "discoveredAt": "2026-10-23T23:25:31.831Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab736bd606ae202adceff884b"
-            }
-          },
-          {
-            "id": "aa9d4bc11c809aeb7f55c4ff2",
-            "title": "【体坛快讯】1400余名选手齐聚秦巴腹地 智力赛事邂逅山水民俗文化",
-            "originalTitle": "1400余名选手齐聚秦巴腹地 智力赛事邂逅山水民俗文化",
-            "summary": "中新网陕西安康10月24日电 (记者 张一辰)2026年陕西省第三届智力运动会23日在安康市石泉县开幕。来自全国各地的1400余名选手齐聚石泉，参加这场智慧与山水交融的体育盛会。",
+            "id": "a2b127519c9045d3758423c80",
+            "title": "【体坛快讯】学体联2026年全国大学生自行车锦标赛在云南昭通开赛",
+            "originalTitle": "学体联2026年全国大学生自行车锦标赛在云南昭通开赛",
+            "summary": "中新网云南昭通10月24日电 (苏燕)学体联2026年全国大学生自行车锦标赛24日在云南省昭通市开赛。4天赛程里，来自全国49所高校的200余名运动员将围绕公路自行车、山地自行车、田径场绕圈三个大项展开激烈角逐。",
             "source": {
               "name": "中新网·体育焦点"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa9d4bc11c809aeb7f55c4ff2",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-24/10720262.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a2b127519c9045d3758423c80",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-24/10720396.shtml"
             },
-            "publishedAt": "2026-10-24T05:22:01.000Z",
-            "discoveredAt": "2026-10-24T06:59:26.240Z",
+            "publishedAt": "2026-10-24T10:32:53.000Z",
+            "discoveredAt": "2026-10-24T11:57:49.981Z",
             "category": "business",
             "score": 97,
             "selected": true,
             "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa9d4bc11c809aeb7f55c4ff2"
+              "url": "https://zenglian-news.onrender.com/items/a2b127519c9045d3758423c80"
             }
           },
           {
-            "id": "a5cc73f2a2b3b65237d446b9c",
-            "title": "【体坛快讯】第四届传统体育国际交流大赛在江苏启东开幕",
-            "originalTitle": "第四届传统体育国际交流大赛在江苏启东开幕",
-            "summary": "10月23日，第四届传统体育国际交流大赛在江苏省南通市启东市正式拉开帷幕。本届大赛共吸引了800余名传统体育爱好者参与，其中境外运动员约500人，覆盖全球60余个国家和地区。",
+            "id": "a446911ddc62c93986dff04ee",
+            "title": "【体坛快讯】2026年江西省户外运动和体育产业发展大会在南昌湾里开幕",
+            "originalTitle": "2026年江西省户外运动和体育产业发展大会在南昌湾里开幕",
+            "summary": "中新网南昌10月24日电 (刘力鑫)23日晚，2026年江西省户外运动和体育产业发展大会在南昌湾里管理局开幕，本次大会以“赣生活 趣户外”为主题，通过三年成果展示、产业交流部署、“群峰”赛事联动、“四首”经济集聚、科技露营体验等板块，全面展现江西户外运动和体育产业发展新成效，释放文体旅融合活力。",
             "source": {
               "name": "中新网·体育焦点"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a5cc73f2a2b3b65237d446b9c",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-24/10720292.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a446911ddc62c93986dff04ee",
+              "original": "https://www.chinanews.com.cn/ty/2026/10-24/10720336.shtml"
             },
-            "publishedAt": "2026-10-24T05:11:10.000Z",
-            "discoveredAt": "2026-10-24T06:59:26.311Z",
+            "publishedAt": "2026-10-24T09:22:02.000Z",
+            "discoveredAt": "2026-10-24T11:57:50.019Z",
             "category": "business",
             "score": 97,
             "selected": true,
             "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a5cc73f2a2b3b65237d446b9c"
-            }
-          },
-          {
-            "id": "a328cfd45a4bde5278f1a715a",
-            "title": "【体坛快讯】仲赛春将担任第五届亚残运会闭幕式中国体育代表团旗手",
-            "originalTitle": "仲赛春将担任第五届亚残运会闭幕式中国体育代表团旗手",
-            "summary": "中新网日本名古屋10月24日电 (记者 朱晨曦)10月24日，第五届亚残运会中国体育代表团宣布，男子轮椅击剑运动员仲赛春将担任第五届亚洲残疾人运动会闭幕式中国体育代表团旗手。",
-            "source": {
-              "name": "中新网·体育焦点"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a328cfd45a4bde5278f1a715a",
-              "original": "https://www.chinanews.com.cn/ty/2026/10-24/10720264.shtml"
-            },
-            "publishedAt": "2026-10-24T05:11:10.000Z",
-            "discoveredAt": "2026-10-24T06:59:26.384Z",
-            "category": "business",
-            "score": 97,
-            "selected": true,
-            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a328cfd45a4bde5278f1a715a"
+              "url": "https://zenglian-news.onrender.com/items/a446911ddc62c93986dff04ee"
             }
           }
         ]
