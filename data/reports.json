@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T18:39:28.472Z",
+  "generatedAt": "2026-10-24T21:12:58.592Z",
   "daily": {
     "kind": "daily",
     "key": "2026-10-25",
     "title": "曾练全球一手简报 · 今日日报 (2026-10-25)",
     "subtitle": "全球·国内·商业搞钱·AI·影视娱乐·体育 六大实时Top20精选",
-    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：谷歌在芬兰非法砍伐25万棵树用于数据中心；GPU 解锁：Nvidia 3000 卡上的 FP/BF16 指令发出率；中国商务部回应美发布新版对外投资限制拟议规则。",
+    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：科技行业之外没有人工智能带来回报的迹象；为什么人工智能生成的语言如此难以理解？；中国商务部回应美发布新版对外投资限制拟议规则。",
     "metrics": {
       "totalEvents": 18,
       "sourcesCount": 30,
@@ -18,49 +18,49 @@
         "label": "🌍 全球实时Top20",
         "items": [
           {
-            "id": "aac6040d176d60c0513fe14ef",
-            "title": "【全球热榜】谷歌在芬兰非法砍伐25万棵树用于数据中心",
-            "originalTitle": "Google illegally cut down 250K trees in Finland for data center",
-            "summary": "X/HN·全球热榜Top实时快讯：Google illegally cut down 250K trees in Finland for data center。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "id": "a713d432c07510d1f54343d18",
+            "title": "【全球热榜】科技行业之外没有人工智能带来回报的迹象",
+            "originalTitle": "No Signs of AI Payoff Outside the Tech Sector",
+            "summary": "X/HN·全球热榜Top实时快讯：No Signs of AI Payoff Outside the Tech Sector。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
             "source": {
               "name": "X/HN·全球热榜Top"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aac6040d176d60c0513fe14ef",
-              "original": "https://nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-finland-data-center-infuriating-locals-report/"
+              "aihot": "https://zenglian-news.onrender.com/items/a713d432c07510d1f54343d18",
+              "original": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
             },
-            "publishedAt": "2026-10-24T14:38:34.000Z",
-            "discoveredAt": "2026-10-24T15:45:37.453Z",
+            "publishedAt": "2026-10-24T19:47:19.000Z",
+            "discoveredAt": "2026-10-24T21:12:20.512Z",
             "category": "global",
             "score": 99,
             "selected": true,
             "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aac6040d176d60c0513fe14ef"
+              "url": "https://zenglian-news.onrender.com/items/a713d432c07510d1f54343d18"
             }
           },
           {
-            "id": "aecab4b9c055a6b2819cb7646",
-            "title": "【全球热榜】GPU 解锁：Nvidia 3000 卡上的 FP/BF16 指令发出率",
-            "originalTitle": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
-            "summary": "X/HN·全球热榜Top实时快讯：GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "id": "aec7e5a28c7f52cd9ac3ff430",
+            "title": "【全球热榜】为什么人工智能生成的语言如此难以理解？",
+            "originalTitle": "Why is AI generated language so hard to understand?",
+            "summary": "X/HN·全球热榜Top实时快讯：Why is AI generated language so hard to understand?。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
             "source": {
               "name": "X/HN·全球热榜Top"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aecab4b9c055a6b2819cb7646",
-              "original": "https://github.com/Zagitta/gpu-unlock"
+              "aihot": "https://zenglian-news.onrender.com/items/aec7e5a28c7f52cd9ac3ff430",
+              "original": "https://arxiv.org/abs/2610.29162"
             },
-            "publishedAt": "2026-10-24T09:58:27.000Z",
-            "discoveredAt": "2026-10-24T18:38:38.044Z",
+            "publishedAt": "2026-10-24T18:04:57.000Z",
+            "discoveredAt": "2026-10-24T21:12:21.878Z",
             "category": "global",
             "score": 99,
             "selected": true,
             "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aecab4b9c055a6b2819cb7646"
+              "url": "https://zenglian-news.onrender.com/items/aec7e5a28c7f52cd9ac3ff430"
             }
           },
           {
@@ -168,6 +168,29 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
+            "id": "adff9901ac73069b5f10d20d1",
+            "title": "【出海实战】我制作了一个开源工具来创建 SaaS 启动视频，例如与 Claude 一起使用",
+            "originalTitle": "I made a open source tool to create saas launch videos like with with Claude",
+            "summary": "许多基于浏览器的程序化视频编辑器依赖无头 Chrome 来渲染每一帧，增加了不必要的开销并减慢了速度。我希望我的人工智能代理能够生成没有这种依赖性的视频，所以我...（来源：X/Reddit·出海SaaS搞钱）",
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/adff9901ac73069b5f10d20d1",
+              "original": "https://www.reddit.com/r/SaaS/comments/1xecvtx/i_made_a_open_source_tool_to_create_saas_launch/"
+            },
+            "publishedAt": "2026-10-24T16:22:07.000Z",
+            "discoveredAt": "2026-10-24T21:12:28.379Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/adff9901ac73069b5f10d20d1"
+            }
+          },
+          {
             "id": "a5cd5af40054de1514e9a6496",
             "title": "不变的面孔、简化的文明：首部院线AI长片的理想与失落",
             "originalTitle": "不变的面孔、简化的文明：首部院线AI长片的理想与失落",
@@ -212,29 +235,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ab39eb2f0bd7298359177b73f"
             }
-          },
-          {
-            "id": "a60cbbe569ffe0a34b587629a",
-            "title": "【出海实战】兄弟，是我一个人的问题，还是发布应用程序比实际制作应用程序困难 100 倍？",
-            "originalTitle": "Bro, is it just me or is PUBLISHING the app 100x harder than actually making it?",
-            "summary": "当我说编写实际应用程序只花了我两天时间时，我不是在开玩笑。但是要发布它并通过应用程序商店吗？两个月。整整两个月的等待、修复和跳跃！在今天的...（来源：X/Reddit·出海SaaS搞钱）",
-            "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a60cbbe569ffe0a34b587629a",
-              "original": "https://www.reddit.com/r/SaaS/comments/1xdw51d/bro_is_it_just_me_or_is_publishing_the_app_100x/"
-            },
-            "publishedAt": "2026-10-24T01:44:02.000Z",
-            "discoveredAt": "2026-10-24T06:59:06.296Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a60cbbe569ffe0a34b587629a"
-            }
           }
         ]
       },
@@ -242,6 +242,29 @@
         "category": "tech",
         "label": "🤖 AI实时Top20",
         "items": [
+          {
+            "id": "a5ebebc3918446e311eb176e4",
+            "title": "【硅谷AI】人工智能墓地：未成功的项目和初创公司的清单",
+            "originalTitle": "The AI graveyard: a running list of projects and startups that didn’t make it",
+            "summary": "从苹果一再推迟 Siri AI 到 OpenAI 混乱的“超级应用”发布，以下是关闭或未达到预期的 AI 项目。（来源：TechCrunch·硅谷AI）",
+            "source": {
+              "name": "TechCrunch·硅谷AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a5ebebc3918446e311eb176e4",
+              "original": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+            },
+            "publishedAt": "2026-10-24T19:00:00.000Z",
+            "discoveredAt": "2026-10-24T21:12:33.805Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a5ebebc3918446e311eb176e4"
+            }
+          },
           {
             "id": "ab234b2d998a76c0e06abecd5",
             "title": "【硅谷AI】在被迫选择的情况下，Grok 的人工智能模型选择了共和党人。 OpenAI 选择了民主党人。",
@@ -287,29 +310,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ab3ffbb1a7d2b511de35759b0"
             }
-          },
-          {
-            "id": "a670adf33663187c54aee1a15",
-            "title": "【全球热榜】黑客逆转三星电视，发现机载AI监听OpenAI账户被暂停",
-            "originalTitle": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
-            "summary": "X/HN·全球热榜Top实时快讯：Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a670adf33663187c54aee1a15",
-              "original": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/"
-            },
-            "publishedAt": "2026-10-24T05:49:57.000Z",
-            "discoveredAt": "2026-10-24T11:57:06.360Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a670adf33663187c54aee1a15"
-            }
           }
         ]
       },
@@ -318,72 +318,72 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "aa6839a38015e4f0ab660e8be",
-            "title": "【好莱坞一手】纽约 AMC Kips Bay 剧院将于 1 月 3 日关闭；首席执行官表示“AMC 希望留下来”，但纽约大学朗格尼分校“希望我们离开”",
-            "originalTitle": "New York’s AMC Kips Bay Theater Closes on Jan. 3; CEO Says ‘AMC Wants to Stay’ but NYU Langone ‘Wants Us Gone’",
-            "summary": "AMC 首席执行官 Adam Aron 就关闭纽约市颇受欢迎的 AMC Kips Bay 15 电影院发表了讲话，该电影院将于 1 月 3 日关闭。Aron 给 Kips Bay 社区写了一封信，并谈到了附近的医院如何...（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa6839a38015e4f0ab660e8be",
-              "original": "https://variety.com/2026/film/news/amc-kips-bay-closing-date-ceo-adam-aron-1236930275/"
-            },
-            "publishedAt": "2026-10-24T16:41:51.000Z",
-            "discoveredAt": "2026-10-24T18:39:03.765Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa6839a38015e4f0ab660e8be"
-            }
-          },
-          {
-            "id": "a733dc1915395836a2fdbb82f",
-            "title": "【好莱坞一手】票房：《粘土脸》首映票房 1,040 万美元登顶第一，《你可以看到一切》周五增加 614 万美元",
-            "originalTitle": "Box Office: ‘Clayface’ Lands at No. 1 with $10.4 Million Debut, ‘You Can See Everything’ Adds $6.14 Million on Friday",
-            "summary": "与 DC 的《女超人》和《超人》相比，《泥脸》对于故事片来说可能是一个更小众的选择，但这并没有阻止观众前来观看这位蝙蝠侠超级反派的血腥、噩梦般的表演……（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a733dc1915395836a2fdbb82f",
-              "original": "https://variety.com/2026/film/box-office/box-office-clayface-you-can-see-everything-wildwood-wicker-1236930256/"
-            },
-            "publishedAt": "2026-10-24T15:44:43.000Z",
-            "discoveredAt": "2026-10-24T15:46:23.800Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a733dc1915395836a2fdbb82f"
-            }
-          },
-          {
-            "id": "ad2da6c5422fdf8839dafe535",
-            "title": "【全球票房】里克·弗莱尔 (Ric Flair) 健康更新：前摔跤手在佛罗里达州摔倒后正在康复",
-            "originalTitle": "Ric Flair Health Update: Ex-Wrestler Recovering After Fall In Florida",
-            "summary": "据报道，10 月 23 日星期五，退役 WWE 偶像里克·弗莱尔 (Ric Flair) 在坦帕一家餐厅外摔倒后，目前正在佛罗里达州一家医院康复。（来源：Deadline·全球票房与新片）",
+            "id": "ab1cb03c8b004b65583508df9",
+            "title": "【全球票房】Hulu 作品《夏日风暴》系列改编作品，由 Melanie Marnich、Erin 和 Sara Foster 创作",
+            "originalTitle": "‘These Summer Storms’ Series Adaptation In Works At Hulu From Melanie Marnich, Erin & Sara Foster",
+            "summary": "独家报道：艾琳·福斯特 (Erin Foster) 和莎拉·福斯特 (Sara Foster) 的 Netflix 喜剧剧集《没人想要》第三季将于本周末在 Netflix 推出，他们还准备了另一个系列项目《夏日风暴》。该剧根据莎拉·M...（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad2da6c5422fdf8839dafe535",
-              "original": "https://deadline.com/2026/10/ric-flair-health-update-1237172323/"
+              "aihot": "https://zenglian-news.onrender.com/items/ab1cb03c8b004b65583508df9",
+              "original": "https://deadline.com/2026/10/these-summer-storms-hulu-tv-series-erin-sara-foster-1237172245/"
             },
-            "publishedAt": "2026-10-24T14:26:59.000Z",
-            "discoveredAt": "2026-10-24T15:46:34.755Z",
+            "publishedAt": "2026-10-24T21:00:00.000Z",
+            "discoveredAt": "2026-10-24T21:12:46.393Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad2da6c5422fdf8839dafe535"
+              "url": "https://zenglian-news.onrender.com/items/ab1cb03c8b004b65583508df9"
+            }
+          },
+          {
+            "id": "afd591ebf0d24ce42bf980aad",
+            "title": "【全球票房】杰西卡·贝尔 (Jessica Biel) 透露她计划如何重启《第七天堂》并在片场打造“安全空间”",
+            "originalTitle": "Jessica Biel Teases How She Plans To “Modernize” ‘7th Heaven’ With Reboot & Create “Safe Space” On Set As EP",
+            "summary": "距我们上次见到卡姆登家族已近 20 年，杰西卡·贝尔 (Jessica Biel) 将为新一代重新启动第七天堂。比尔担任执行制片人的 CBS 工作室正在制作新版 WB/CW 节目……（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/afd591ebf0d24ce42bf980aad",
+              "original": "https://deadline.com/2026/10/jessica-biel-modernize-7th-heaven-reboot-create-safe-space-1237172395/"
+            },
+            "publishedAt": "2026-10-24T21:10:58.000Z",
+            "discoveredAt": "2026-10-24T21:12:44.751Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/afd591ebf0d24ce42bf980aad"
+            }
+          },
+          {
+            "id": "a39a5c826c6b5867f222484da",
+            "title": "【好莱坞一手】恐怖片迷们，欢呼雀跃吧：FilmQuest 突破版《爬行》是你梦想中的勇敢外星人怪胎",
+            "originalTitle": "Horror Fans, Rejoice: FilmQuest Breakout ‘The Crawling’ Is the Gutsy Alien Freakout of Your Dreams",
+            "summary": "对于编剧兼导演克里斯蒂安·埃弗哈德来说，《爬行》最初是一次深夜思想实验。当他和女朋友在一个偏僻的小屋里度假时，他半夜醒来，脑子里一片混乱。作为一个...（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a39a5c826c6b5867f222484da",
+              "original": "https://variety.com/2026/film/columns/the-crawling-alien-movie-1236930222/"
+            },
+            "publishedAt": "2026-10-24T18:48:55.000Z",
+            "discoveredAt": "2026-10-24T21:12:43.067Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a39a5c826c6b5867f222484da"
             }
           }
         ]
@@ -439,26 +439,26 @@
             }
           },
           {
-            "id": "a8a6b6977a657bd149c088084",
-            "title": "【NBA一手】[查拉尼亚] 消息人士告诉 ESPN，奥兰多魔术队球星保罗·班切罗 (Paolo Banchero) 右脚高脚踝轻度扭伤。这种损伤诊断的时间表通常为 4 至 6 周。",
-            "originalTitle": "[Charania] Orlando Magic star Paolo Banchero has sustained a low-grade right high ankle sprain, sources tell ESPN. This injury diagnosis typically carries a timetable of 4-to-6 weeks.",
-            "summary": "消息人士告诉 ESPN，奥兰多魔术队球星保罗·班切罗右脚高脚踝轻度扭伤。这种损伤诊断的时间表通常为 4 至 6 周。来源：https://www.espn.com/contributor/shams-...（来源：NBA·北美篮球实时热榜）",
+            "id": "a85ff861bfbc76dec1e704181",
+            "title": "【BBC足坛】帕尔默被红牌罚下，热刺在斯坦福桥取得了罕见的胜利",
+            "originalTitle": "Spurs clinch rare Stamford Bridge win as Palmer sent off",
+            "summary": "托特纳姆热刺队在斯坦福桥取得了 36 年来第二次战胜切尔西队的胜利，在科尔·帕尔默 (Cole Palmer) 吃到红牌后，主队 10 人应战，以 2-0 获胜。（来源：BBC Sport·欧洲足坛）",
             "source": {
-              "name": "NBA·北美篮球实时热榜"
+              "name": "BBC Sport·欧洲足坛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a8a6b6977a657bd149c088084",
-              "original": "https://www.reddit.com/r/nba/comments/1xeddt5/charania_orlando_magic_star_paolo_banchero_has/"
+              "aihot": "https://zenglian-news.onrender.com/items/a85ff861bfbc76dec1e704181",
+              "original": "https://www.bbc.co.uk/sport/football/videos/ckly0dnqz0r7o?at_medium=RSS&at_campaign=rss"
             },
-            "publishedAt": "2026-10-24T16:42:15.000Z",
-            "discoveredAt": "2026-10-24T18:39:27.041Z",
+            "publishedAt": "2026-10-24T19:17:06.000Z",
+            "discoveredAt": "2026-10-24T21:12:48.997Z",
             "category": "business",
             "score": 98,
             "selected": true,
-            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
+            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a8a6b6977a657bd149c088084"
+              "url": "https://zenglian-news.onrender.com/items/a85ff861bfbc76dec1e704181"
             }
           }
         ]
@@ -470,7 +470,7 @@
     "key": "2026-W41",
     "title": "曾练全球一手简报 · 本周核心周报 (2026年第41周)",
     "subtitle": "7天全球政经、国内大事、商业搞钱、AI突破与文体焦点深度复盘",
-    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：谷歌在芬兰非法砍伐25万棵树用于数据中心；GPU 解锁：Nvidia 3000 卡上的 FP/BF16 指令发出率；中国商务部回应美发布新版对外投资限制拟议规则。",
+    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：科技行业之外没有人工智能带来回报的迹象；为什么人工智能生成的语言如此难以理解？；中国商务部回应美发布新版对外投资限制拟议规则。",
     "metrics": {
       "totalEvents": 30,
       "sourcesCount": 30,
@@ -482,49 +482,49 @@
         "label": "🌍 全球实时Top20",
         "items": [
           {
-            "id": "aac6040d176d60c0513fe14ef",
-            "title": "【全球热榜】谷歌在芬兰非法砍伐25万棵树用于数据中心",
-            "originalTitle": "Google illegally cut down 250K trees in Finland for data center",
-            "summary": "X/HN·全球热榜Top实时快讯：Google illegally cut down 250K trees in Finland for data center。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "id": "a713d432c07510d1f54343d18",
+            "title": "【全球热榜】科技行业之外没有人工智能带来回报的迹象",
+            "originalTitle": "No Signs of AI Payoff Outside the Tech Sector",
+            "summary": "X/HN·全球热榜Top实时快讯：No Signs of AI Payoff Outside the Tech Sector。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
             "source": {
               "name": "X/HN·全球热榜Top"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aac6040d176d60c0513fe14ef",
-              "original": "https://nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-finland-data-center-infuriating-locals-report/"
+              "aihot": "https://zenglian-news.onrender.com/items/a713d432c07510d1f54343d18",
+              "original": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
             },
-            "publishedAt": "2026-10-24T14:38:34.000Z",
-            "discoveredAt": "2026-10-24T15:45:37.453Z",
+            "publishedAt": "2026-10-24T19:47:19.000Z",
+            "discoveredAt": "2026-10-24T21:12:20.512Z",
             "category": "global",
             "score": 99,
             "selected": true,
             "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aac6040d176d60c0513fe14ef"
+              "url": "https://zenglian-news.onrender.com/items/a713d432c07510d1f54343d18"
             }
           },
           {
-            "id": "aecab4b9c055a6b2819cb7646",
-            "title": "【全球热榜】GPU 解锁：Nvidia 3000 卡上的 FP/BF16 指令发出率",
-            "originalTitle": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
-            "summary": "X/HN·全球热榜Top实时快讯：GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "id": "aec7e5a28c7f52cd9ac3ff430",
+            "title": "【全球热榜】为什么人工智能生成的语言如此难以理解？",
+            "originalTitle": "Why is AI generated language so hard to understand?",
+            "summary": "X/HN·全球热榜Top实时快讯：Why is AI generated language so hard to understand?。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
             "source": {
               "name": "X/HN·全球热榜Top"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aecab4b9c055a6b2819cb7646",
-              "original": "https://github.com/Zagitta/gpu-unlock"
+              "aihot": "https://zenglian-news.onrender.com/items/aec7e5a28c7f52cd9ac3ff430",
+              "original": "https://arxiv.org/abs/2610.29162"
             },
-            "publishedAt": "2026-10-24T09:58:27.000Z",
-            "discoveredAt": "2026-10-24T18:38:38.044Z",
+            "publishedAt": "2026-10-24T18:04:57.000Z",
+            "discoveredAt": "2026-10-24T21:12:21.878Z",
             "category": "global",
             "score": 99,
             "selected": true,
             "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aecab4b9c055a6b2819cb7646"
+              "url": "https://zenglian-news.onrender.com/items/aec7e5a28c7f52cd9ac3ff430"
             }
           },
           {
@@ -551,6 +551,29 @@
             }
           },
           {
+            "id": "a35f1e0f25233e6af79447b10",
+            "title": "【全球热榜】丹麦政府默默放弃放弃 MS Office 的计划",
+            "originalTitle": "Danish Government silently drops plan to dump MS Office",
+            "summary": "X/HN·全球热榜Top实时快讯：Danish Government silently drops plan to dump MS Office。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a35f1e0f25233e6af79447b10",
+              "original": "https://www.computerworld.dk/art/297226/digitaliseringsministeriet-har-i-al-stilhed-droppet-stort-anlagt-forsoeg-med-open-source-alternativ-til-microsoft"
+            },
+            "publishedAt": "2026-10-24T18:31:48.000Z",
+            "discoveredAt": "2026-10-24T21:12:21.065Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a35f1e0f25233e6af79447b10"
+            }
+          },
+          {
             "id": "a0d28ba5575ae42328c29eb02",
             "title": "【全球热榜】Roku 开发人员存储库从 GitHub 迁移到 GitLab",
             "originalTitle": "Roku developer repositories moved from GitHub to GitLab",
@@ -571,29 +594,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a0d28ba5575ae42328c29eb02"
-            }
-          },
-          {
-            "id": "ae199b9c47dad2eda40fd7c50",
-            "title": "【国际巨头】Apple 的“Pro and Tell”活动有哪些值得期待的内容",
-            "originalTitle": "What to expect from Apple’s ‘Pro and tell’ event",
-            "summary": "感觉就像苹果的欢迎回家活动刚刚发生一样。 iPhone Duo 的发布也离我们不远了。然而，该公司又推出了另一款产品，重点是 MacBook Pro，看起来……（来源：The Verge·国际巨头）",
-            "source": {
-              "name": "The Verge·国际巨头"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae199b9c47dad2eda40fd7c50",
-              "original": "https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro"
-            },
-            "publishedAt": "2026-10-24T14:15:00.000Z",
-            "discoveredAt": "2026-10-24T15:45:41.821Z",
-            "category": "global",
-            "score": 97,
-            "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae199b9c47dad2eda40fd7c50"
             }
           }
         ]
@@ -724,6 +724,29 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
+            "id": "adff9901ac73069b5f10d20d1",
+            "title": "【出海实战】我制作了一个开源工具来创建 SaaS 启动视频，例如与 Claude 一起使用",
+            "originalTitle": "I made a open source tool to create saas launch videos like with with Claude",
+            "summary": "许多基于浏览器的程序化视频编辑器依赖无头 Chrome 来渲染每一帧，增加了不必要的开销并减慢了速度。我希望我的人工智能代理能够生成没有这种依赖性的视频，所以我...（来源：X/Reddit·出海SaaS搞钱）",
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/adff9901ac73069b5f10d20d1",
+              "original": "https://www.reddit.com/r/SaaS/comments/1xecvtx/i_made_a_open_source_tool_to_create_saas_launch/"
+            },
+            "publishedAt": "2026-10-24T16:22:07.000Z",
+            "discoveredAt": "2026-10-24T21:12:28.379Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/adff9901ac73069b5f10d20d1"
+            }
+          },
+          {
             "id": "a5cd5af40054de1514e9a6496",
             "title": "不变的面孔、简化的文明：首部院线AI长片的理想与失落",
             "originalTitle": "不变的面孔、简化的文明：首部院线AI长片的理想与失落",
@@ -793,29 +816,6 @@
             }
           },
           {
-            "id": "a097295c002f838ac6010c0d2",
-            "title": "【出海实战】用户是否应该能够在不离开您的应用程序的情况下组建有限责任公司？",
-            "originalTitle": "Should users be able to form an LLC without leaving your app?",
-            "summary": "我围绕最终需要实际商业实体为客户开具发票、开设商业账户或作为公司获得报酬的用户进行构建。我一直认为这意味着将他们送到类似 Stripe Atlas 或......（来源：X/Reddit·出海SaaS搞钱）",
-            "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a097295c002f838ac6010c0d2",
-              "original": "https://www.reddit.com/r/SaaS/comments/1xduyf3/should_users_be_able_to_form_an_llc_without/"
-            },
-            "publishedAt": "2026-10-24T00:43:01.000Z",
-            "discoveredAt": "2026-10-24T01:51:16.747Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a097295c002f838ac6010c0d2"
-            }
-          },
-          {
             "id": "a13c96d43c0a0664bc2059cbf",
             "title": "长鑫的千亿利润里，藏着第一个拐点",
             "originalTitle": "长鑫的千亿利润里，藏着第一个拐点",
@@ -844,6 +844,29 @@
         "category": "tech",
         "label": "🤖 AI实时Top20",
         "items": [
+          {
+            "id": "a5ebebc3918446e311eb176e4",
+            "title": "【硅谷AI】人工智能墓地：未成功的项目和初创公司的清单",
+            "originalTitle": "The AI graveyard: a running list of projects and startups that didn’t make it",
+            "summary": "从苹果一再推迟 Siri AI 到 OpenAI 混乱的“超级应用”发布，以下是关闭或未达到预期的 AI 项目。（来源：TechCrunch·硅谷AI）",
+            "source": {
+              "name": "TechCrunch·硅谷AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a5ebebc3918446e311eb176e4",
+              "original": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+            },
+            "publishedAt": "2026-10-24T19:00:00.000Z",
+            "discoveredAt": "2026-10-24T21:12:33.805Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a5ebebc3918446e311eb176e4"
+            }
+          },
           {
             "id": "ab234b2d998a76c0e06abecd5",
             "title": "【硅谷AI】在被迫选择的情况下，Grok 的人工智能模型选择了共和党人。 OpenAI 选择了民主党人。",
@@ -935,29 +958,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a8e4190ccf4e82d941a584356"
             }
-          },
-          {
-            "id": "a00c9b0bd2492a63bdbb39bf2",
-            "title": "【硅谷AI】圣诞节最热门的玩具？ Nvidia CEO 玩可爱的 Microduck 机器人，销量达 20,000 个",
-            "originalTitle": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-            "summary": "机器人跺着小脚，发出微小的 R2-D2 声音，坐下来，倒地“小睡”，然后根据语音指令进行翻跟斗。（来源：TechCrunch·硅谷AI）",
-            "source": {
-              "name": "TechCrunch·硅谷AI"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a00c9b0bd2492a63bdbb39bf2",
-              "original": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/"
-            },
-            "publishedAt": "2026-10-23T21:59:19.000Z",
-            "discoveredAt": "2026-10-23T23:25:00.399Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a00c9b0bd2492a63bdbb39bf2"
-            }
           }
         ]
       },
@@ -966,72 +966,72 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "aa6839a38015e4f0ab660e8be",
-            "title": "【好莱坞一手】纽约 AMC Kips Bay 剧院将于 1 月 3 日关闭；首席执行官表示“AMC 希望留下来”，但纽约大学朗格尼分校“希望我们离开”",
-            "originalTitle": "New York’s AMC Kips Bay Theater Closes on Jan. 3; CEO Says ‘AMC Wants to Stay’ but NYU Langone ‘Wants Us Gone’",
-            "summary": "AMC 首席执行官 Adam Aron 就关闭纽约市颇受欢迎的 AMC Kips Bay 15 电影院发表了讲话，该电影院将于 1 月 3 日关闭。Aron 给 Kips Bay 社区写了一封信，并谈到了附近的医院如何...（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa6839a38015e4f0ab660e8be",
-              "original": "https://variety.com/2026/film/news/amc-kips-bay-closing-date-ceo-adam-aron-1236930275/"
-            },
-            "publishedAt": "2026-10-24T16:41:51.000Z",
-            "discoveredAt": "2026-10-24T18:39:03.765Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa6839a38015e4f0ab660e8be"
-            }
-          },
-          {
-            "id": "a733dc1915395836a2fdbb82f",
-            "title": "【好莱坞一手】票房：《粘土脸》首映票房 1,040 万美元登顶第一，《你可以看到一切》周五增加 614 万美元",
-            "originalTitle": "Box Office: ‘Clayface’ Lands at No. 1 with $10.4 Million Debut, ‘You Can See Everything’ Adds $6.14 Million on Friday",
-            "summary": "与 DC 的《女超人》和《超人》相比，《泥脸》对于故事片来说可能是一个更小众的选择，但这并没有阻止观众前来观看这位蝙蝠侠超级反派的血腥、噩梦般的表演……（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a733dc1915395836a2fdbb82f",
-              "original": "https://variety.com/2026/film/box-office/box-office-clayface-you-can-see-everything-wildwood-wicker-1236930256/"
-            },
-            "publishedAt": "2026-10-24T15:44:43.000Z",
-            "discoveredAt": "2026-10-24T15:46:23.800Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a733dc1915395836a2fdbb82f"
-            }
-          },
-          {
-            "id": "ad2da6c5422fdf8839dafe535",
-            "title": "【全球票房】里克·弗莱尔 (Ric Flair) 健康更新：前摔跤手在佛罗里达州摔倒后正在康复",
-            "originalTitle": "Ric Flair Health Update: Ex-Wrestler Recovering After Fall In Florida",
-            "summary": "据报道，10 月 23 日星期五，退役 WWE 偶像里克·弗莱尔 (Ric Flair) 在坦帕一家餐厅外摔倒后，目前正在佛罗里达州一家医院康复。（来源：Deadline·全球票房与新片）",
+            "id": "ab1cb03c8b004b65583508df9",
+            "title": "【全球票房】Hulu 作品《夏日风暴》系列改编作品，由 Melanie Marnich、Erin 和 Sara Foster 创作",
+            "originalTitle": "‘These Summer Storms’ Series Adaptation In Works At Hulu From Melanie Marnich, Erin & Sara Foster",
+            "summary": "独家报道：艾琳·福斯特 (Erin Foster) 和莎拉·福斯特 (Sara Foster) 的 Netflix 喜剧剧集《没人想要》第三季将于本周末在 Netflix 推出，他们还准备了另一个系列项目《夏日风暴》。该剧根据莎拉·M...（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad2da6c5422fdf8839dafe535",
-              "original": "https://deadline.com/2026/10/ric-flair-health-update-1237172323/"
+              "aihot": "https://zenglian-news.onrender.com/items/ab1cb03c8b004b65583508df9",
+              "original": "https://deadline.com/2026/10/these-summer-storms-hulu-tv-series-erin-sara-foster-1237172245/"
             },
-            "publishedAt": "2026-10-24T14:26:59.000Z",
-            "discoveredAt": "2026-10-24T15:46:34.755Z",
+            "publishedAt": "2026-10-24T21:00:00.000Z",
+            "discoveredAt": "2026-10-24T21:12:46.393Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad2da6c5422fdf8839dafe535"
+              "url": "https://zenglian-news.onrender.com/items/ab1cb03c8b004b65583508df9"
+            }
+          },
+          {
+            "id": "afd591ebf0d24ce42bf980aad",
+            "title": "【全球票房】杰西卡·贝尔 (Jessica Biel) 透露她计划如何重启《第七天堂》并在片场打造“安全空间”",
+            "originalTitle": "Jessica Biel Teases How She Plans To “Modernize” ‘7th Heaven’ With Reboot & Create “Safe Space” On Set As EP",
+            "summary": "距我们上次见到卡姆登家族已近 20 年，杰西卡·贝尔 (Jessica Biel) 将为新一代重新启动第七天堂。比尔担任执行制片人的 CBS 工作室正在制作新版 WB/CW 节目……（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/afd591ebf0d24ce42bf980aad",
+              "original": "https://deadline.com/2026/10/jessica-biel-modernize-7th-heaven-reboot-create-safe-space-1237172395/"
+            },
+            "publishedAt": "2026-10-24T21:10:58.000Z",
+            "discoveredAt": "2026-10-24T21:12:44.751Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/afd591ebf0d24ce42bf980aad"
+            }
+          },
+          {
+            "id": "a39a5c826c6b5867f222484da",
+            "title": "【好莱坞一手】恐怖片迷们，欢呼雀跃吧：FilmQuest 突破版《爬行》是你梦想中的勇敢外星人怪胎",
+            "originalTitle": "Horror Fans, Rejoice: FilmQuest Breakout ‘The Crawling’ Is the Gutsy Alien Freakout of Your Dreams",
+            "summary": "对于编剧兼导演克里斯蒂安·埃弗哈德来说，《爬行》最初是一次深夜思想实验。当他和女朋友在一个偏僻的小屋里度假时，他半夜醒来，脑子里一片混乱。作为一个...（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a39a5c826c6b5867f222484da",
+              "original": "https://variety.com/2026/film/columns/the-crawling-alien-movie-1236930222/"
+            },
+            "publishedAt": "2026-10-24T18:48:55.000Z",
+            "discoveredAt": "2026-10-24T21:12:43.067Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a39a5c826c6b5867f222484da"
             }
           },
           {
@@ -1058,26 +1058,26 @@
             }
           },
           {
-            "id": "ab5591f46c5d9016c4c9df168",
-            "title": "【好莱坞一手】《你可以看到一切》中的惊喜嘉宾可能会赢得奥斯卡奖。他们应该吗？",
-            "originalTitle": "The Surprise Guest in ‘You Can See Everything’ Could Win an Oscar. Should They?",
-            "summary": "剧透警告：本文包含正在影院上映的《你可以看到一切》的剧透。自从上周《你可以看到一切》在影院上映以来，颁奖专家们一直在思考的问题是……（来源：Variety·好莱坞影视）",
+            "id": "a0d45538d4cdfbda635eb4b92",
+            "title": "【全球票房】AMC 影院希望纽约市濒临灭绝的基普斯湾影院得以保留，但这个决定“不是我们能做出的”；预定截止日期已公布",
+            "originalTitle": "AMC Theatres Wants NYC’s Endangered Kips Bay Multiplex To Remain But Decision “Not Ours To Make”; Scheduled Closing Date Announced",
+            "summary": "AMC 剧院首席执行官 Adam Aron 向纽约市居民发表了一封公开信，重申该公司希望继续运营其位于曼哈顿同名社区的长期运营的 Kips Bay 15 影院，但...（来源：Deadline·全球票房与新片）",
             "source": {
-              "name": "Variety·好莱坞影视"
+              "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab5591f46c5d9016c4c9df168",
-              "original": "https://variety.com/2026/film/columns/amanda-seyfried-you-can-see-everything-oscar-1236916757/"
+              "aihot": "https://zenglian-news.onrender.com/items/a0d45538d4cdfbda635eb4b92",
+              "original": "https://deadline.com/2026/10/amc-theatres-kips-bay-multiplex-1237172359/"
             },
-            "publishedAt": "2026-10-24T17:00:00.000Z",
-            "discoveredAt": "2026-10-24T18:39:01.712Z",
+            "publishedAt": "2026-10-24T16:50:06.000Z",
+            "discoveredAt": "2026-10-24T18:39:08.069Z",
             "category": "culture",
             "score": 98,
             "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab5591f46c5d9016c4c9df168"
+              "url": "https://zenglian-news.onrender.com/items/a0d45538d4cdfbda635eb4b92"
             }
           }
         ]
@@ -1133,72 +1133,72 @@
             }
           },
           {
-            "id": "a8a6b6977a657bd149c088084",
-            "title": "【NBA一手】[查拉尼亚] 消息人士告诉 ESPN，奥兰多魔术队球星保罗·班切罗 (Paolo Banchero) 右脚高脚踝轻度扭伤。这种损伤诊断的时间表通常为 4 至 6 周。",
-            "originalTitle": "[Charania] Orlando Magic star Paolo Banchero has sustained a low-grade right high ankle sprain, sources tell ESPN. This injury diagnosis typically carries a timetable of 4-to-6 weeks.",
-            "summary": "消息人士告诉 ESPN，奥兰多魔术队球星保罗·班切罗右脚高脚踝轻度扭伤。这种损伤诊断的时间表通常为 4 至 6 周。来源：https://www.espn.com/contributor/shams-...（来源：NBA·北美篮球实时热榜）",
+            "id": "a85ff861bfbc76dec1e704181",
+            "title": "【BBC足坛】帕尔默被红牌罚下，热刺在斯坦福桥取得了罕见的胜利",
+            "originalTitle": "Spurs clinch rare Stamford Bridge win as Palmer sent off",
+            "summary": "托特纳姆热刺队在斯坦福桥取得了 36 年来第二次战胜切尔西队的胜利，在科尔·帕尔默 (Cole Palmer) 吃到红牌后，主队 10 人应战，以 2-0 获胜。（来源：BBC Sport·欧洲足坛）",
             "source": {
-              "name": "NBA·北美篮球实时热榜"
+              "name": "BBC Sport·欧洲足坛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a8a6b6977a657bd149c088084",
-              "original": "https://www.reddit.com/r/nba/comments/1xeddt5/charania_orlando_magic_star_paolo_banchero_has/"
+              "aihot": "https://zenglian-news.onrender.com/items/a85ff861bfbc76dec1e704181",
+              "original": "https://www.bbc.co.uk/sport/football/videos/ckly0dnqz0r7o?at_medium=RSS&at_campaign=rss"
             },
-            "publishedAt": "2026-10-24T16:42:15.000Z",
-            "discoveredAt": "2026-10-24T18:39:27.041Z",
+            "publishedAt": "2026-10-24T19:17:06.000Z",
+            "discoveredAt": "2026-10-24T21:12:48.997Z",
             "category": "business",
             "score": 98,
             "selected": true,
-            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
+            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a8a6b6977a657bd149c088084"
+              "url": "https://zenglian-news.onrender.com/items/a85ff861bfbc76dec1e704181"
             }
           },
           {
-            "id": "a5d8651c48e486af582257cc4",
-            "title": "【NBA一手】布莱克·格里芬 (Blake Griffin) 在 NBA 演播室节目中说道：“门槛有点低……很多人来找我们：‘你能谈论篮球真是太棒了。’这应该是你谈论的最明显的事情。”",
-            "originalTitle": "Blake Griffin on NBA studio shows: “The bar was kinda low... A lot of people have come up to us: ‘It’s so great that you talk basketball.’ That should be the most obvious thing you talk about.”",
-            "summary": "由/u/luka274提交 [链接] [评论]（来源：NBA·北美篮球实时热榜）",
+            "id": "a659465ddf91e8a314b6accf3",
+            "title": "【BBC足坛】阿森纳击败埃弗顿，积分与领头羊曼城持平",
+            "originalTitle": "Arsenal beat Everton to go level on points with leaders Man City",
+            "summary": "埃兹里·孔萨 (Ezri Konsa) 的进球是他在俱乐部的首个进球，加布里埃尔·马加拉斯 (Gabriel Magalhaes) 帮助阿森纳在酋长球场 2-0 击败埃弗顿，与联赛领头羊曼城追平。（来源：BBC Sport·欧洲足坛）",
             "source": {
-              "name": "NBA·北美篮球实时热榜"
+              "name": "BBC Sport·欧洲足坛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a5d8651c48e486af582257cc4",
-              "original": "https://www.reddit.com/r/nba/comments/1xed9g1/blake_griffin_on_nba_studio_shows_the_bar_was/"
+              "aihot": "https://zenglian-news.onrender.com/items/a659465ddf91e8a314b6accf3",
+              "original": "https://www.bbc.co.uk/sport/football/videos/cm79pxqdlwelo?at_medium=RSS&at_campaign=rss"
             },
-            "publishedAt": "2026-10-24T16:37:26.000Z",
-            "discoveredAt": "2026-10-24T18:39:26.004Z",
+            "publishedAt": "2026-10-24T18:59:30.000Z",
+            "discoveredAt": "2026-10-24T21:12:49.423Z",
             "category": "business",
             "score": 98,
             "selected": true,
-            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
+            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a5d8651c48e486af582257cc4"
+              "url": "https://zenglian-news.onrender.com/items/a659465ddf91e8a314b6accf3"
             }
           },
           {
-            "id": "a72fb2441b7d3f86af8e86d95",
-            "title": "【欧洲足坛】得益于康萨和加布里埃尔，临床阿森纳在对阵埃弗顿的比赛中赢得了宝贵的胜利",
-            "originalTitle": "Clinical Arsenal earn precious win against Everton thanks to Konsa and Gabriel",
-            "summary": "大卫·莫耶斯的等待仍在继续。这位 63 岁的苏格兰人一定希望在他作为埃弗顿主教练第 14 次来到这座球场时，他的运气会改变。然而从埃兹里·孔萨打进他的第一个进球的那一刻起......（来源：卫报体育·欧冠与五大联赛）",
+            "id": "a5528e375b1723f17fe3bb105",
+            "title": "【BBC足坛】博布最后时刻的进球确保富勒姆战胜考文垂",
+            "originalTitle": "Bobb's late strike secures Fulham win at Coventry",
+            "summary": "富勒姆队的奥斯卡·博布在对阵考文垂队的比赛中第80分钟进球，赢得了英超联赛的背靠背胜利。（来源：BBC Sport·欧洲足坛）",
             "source": {
-              "name": "卫报体育·欧冠与五大联赛"
+              "name": "BBC Sport·欧洲足坛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a72fb2441b7d3f86af8e86d95",
-              "original": "https://www.theguardian.com/football/2026/oct/24/arsenal-everton-premier-league-match-report"
+              "aihot": "https://zenglian-news.onrender.com/items/a5528e375b1723f17fe3bb105",
+              "original": "https://www.bbc.co.uk/sport/football/videos/cx7vpmrzr04do?at_medium=RSS&at_campaign=rss"
             },
-            "publishedAt": "2026-10-24T16:03:49.000Z",
-            "discoveredAt": "2026-10-24T18:39:16.375Z",
+            "publishedAt": "2026-10-24T18:59:22.000Z",
+            "discoveredAt": "2026-10-24T21:12:51.763Z",
             "category": "business",
             "score": 98,
             "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a72fb2441b7d3f86af8e86d95"
+              "url": "https://zenglian-news.onrender.com/items/a5528e375b1723f17fe3bb105"
             }
           }
         ]
@@ -1210,7 +1210,7 @@
     "key": "2026-10",
     "title": "曾练全球一手简报 · 月度产业全景报告 (2026年10月)",
     "subtitle": "30天六大实时Top20赛道全景洞察与高价值搞钱机会总结",
-    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：谷歌在芬兰非法砍伐25万棵树用于数据中心；GPU 解锁：Nvidia 3000 卡上的 FP/BF16 指令发出率；中国商务部回应美发布新版对外投资限制拟议规则。",
+    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：科技行业之外没有人工智能带来回报的迹象；为什么人工智能生成的语言如此难以理解？；中国商务部回应美发布新版对外投资限制拟议规则。",
     "metrics": {
       "totalEvents": 36,
       "sourcesCount": 30,
@@ -1222,49 +1222,49 @@
         "label": "🌍 全球实时Top20",
         "items": [
           {
-            "id": "aac6040d176d60c0513fe14ef",
-            "title": "【全球热榜】谷歌在芬兰非法砍伐25万棵树用于数据中心",
-            "originalTitle": "Google illegally cut down 250K trees in Finland for data center",
-            "summary": "X/HN·全球热榜Top实时快讯：Google illegally cut down 250K trees in Finland for data center。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "id": "a713d432c07510d1f54343d18",
+            "title": "【全球热榜】科技行业之外没有人工智能带来回报的迹象",
+            "originalTitle": "No Signs of AI Payoff Outside the Tech Sector",
+            "summary": "X/HN·全球热榜Top实时快讯：No Signs of AI Payoff Outside the Tech Sector。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
             "source": {
               "name": "X/HN·全球热榜Top"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aac6040d176d60c0513fe14ef",
-              "original": "https://nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-finland-data-center-infuriating-locals-report/"
+              "aihot": "https://zenglian-news.onrender.com/items/a713d432c07510d1f54343d18",
+              "original": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
             },
-            "publishedAt": "2026-10-24T14:38:34.000Z",
-            "discoveredAt": "2026-10-24T15:45:37.453Z",
+            "publishedAt": "2026-10-24T19:47:19.000Z",
+            "discoveredAt": "2026-10-24T21:12:20.512Z",
             "category": "global",
             "score": 99,
             "selected": true,
             "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aac6040d176d60c0513fe14ef"
+              "url": "https://zenglian-news.onrender.com/items/a713d432c07510d1f54343d18"
             }
           },
           {
-            "id": "aecab4b9c055a6b2819cb7646",
-            "title": "【全球热榜】GPU 解锁：Nvidia 3000 卡上的 FP/BF16 指令发出率",
-            "originalTitle": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
-            "summary": "X/HN·全球热榜Top实时快讯：GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "id": "aec7e5a28c7f52cd9ac3ff430",
+            "title": "【全球热榜】为什么人工智能生成的语言如此难以理解？",
+            "originalTitle": "Why is AI generated language so hard to understand?",
+            "summary": "X/HN·全球热榜Top实时快讯：Why is AI generated language so hard to understand?。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
             "source": {
               "name": "X/HN·全球热榜Top"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aecab4b9c055a6b2819cb7646",
-              "original": "https://github.com/Zagitta/gpu-unlock"
+              "aihot": "https://zenglian-news.onrender.com/items/aec7e5a28c7f52cd9ac3ff430",
+              "original": "https://arxiv.org/abs/2610.29162"
             },
-            "publishedAt": "2026-10-24T09:58:27.000Z",
-            "discoveredAt": "2026-10-24T18:38:38.044Z",
+            "publishedAt": "2026-10-24T18:04:57.000Z",
+            "discoveredAt": "2026-10-24T21:12:21.878Z",
             "category": "global",
             "score": 99,
             "selected": true,
             "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aecab4b9c055a6b2819cb7646"
+              "url": "https://zenglian-news.onrender.com/items/aec7e5a28c7f52cd9ac3ff430"
             }
           },
           {
@@ -1288,6 +1288,29 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a430053a3018347da73e4bcc8"
+            }
+          },
+          {
+            "id": "a35f1e0f25233e6af79447b10",
+            "title": "【全球热榜】丹麦政府默默放弃放弃 MS Office 的计划",
+            "originalTitle": "Danish Government silently drops plan to dump MS Office",
+            "summary": "X/HN·全球热榜Top实时快讯：Danish Government silently drops plan to dump MS Office。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a35f1e0f25233e6af79447b10",
+              "original": "https://www.computerworld.dk/art/297226/digitaliseringsministeriet-har-i-al-stilhed-droppet-stort-anlagt-forsoeg-med-open-source-alternativ-til-microsoft"
+            },
+            "publishedAt": "2026-10-24T18:31:48.000Z",
+            "discoveredAt": "2026-10-24T21:12:21.065Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a35f1e0f25233e6af79447b10"
             }
           },
           {
@@ -1334,29 +1357,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ae199b9c47dad2eda40fd7c50"
-            }
-          },
-          {
-            "id": "a46b6a8b0128f8d46ae657538",
-            "title": "【全球热榜】我不懂量子物理 (2018)",
-            "originalTitle": "I Don't Understand Quantum Physics (2018)",
-            "summary": "X/HN·全球热榜Top实时快讯：I Don't Understand Quantum Physics (2018)。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a46b6a8b0128f8d46ae657538",
-              "original": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html"
-            },
-            "publishedAt": "2026-10-24T09:53:26.000Z",
-            "discoveredAt": "2026-10-24T15:45:37.994Z",
-            "category": "global",
-            "score": 97,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a46b6a8b0128f8d46ae657538"
             }
           }
         ]
@@ -1510,6 +1510,29 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
+            "id": "adff9901ac73069b5f10d20d1",
+            "title": "【出海实战】我制作了一个开源工具来创建 SaaS 启动视频，例如与 Claude 一起使用",
+            "originalTitle": "I made a open source tool to create saas launch videos like with with Claude",
+            "summary": "许多基于浏览器的程序化视频编辑器依赖无头 Chrome 来渲染每一帧，增加了不必要的开销并减慢了速度。我希望我的人工智能代理能够生成没有这种依赖性的视频，所以我...（来源：X/Reddit·出海SaaS搞钱）",
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/adff9901ac73069b5f10d20d1",
+              "original": "https://www.reddit.com/r/SaaS/comments/1xecvtx/i_made_a_open_source_tool_to_create_saas_launch/"
+            },
+            "publishedAt": "2026-10-24T16:22:07.000Z",
+            "discoveredAt": "2026-10-24T21:12:28.379Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/adff9901ac73069b5f10d20d1"
+            }
+          },
+          {
             "id": "a5cd5af40054de1514e9a6496",
             "title": "不变的面孔、简化的文明：首部院线AI长片的理想与失落",
             "originalTitle": "不变的面孔、简化的文明：首部院线AI长片的理想与失落",
@@ -1579,29 +1602,6 @@
             }
           },
           {
-            "id": "a097295c002f838ac6010c0d2",
-            "title": "【出海实战】用户是否应该能够在不离开您的应用程序的情况下组建有限责任公司？",
-            "originalTitle": "Should users be able to form an LLC without leaving your app?",
-            "summary": "我围绕最终需要实际商业实体为客户开具发票、开设商业账户或作为公司获得报酬的用户进行构建。我一直认为这意味着将他们送到类似 Stripe Atlas 或......（来源：X/Reddit·出海SaaS搞钱）",
-            "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a097295c002f838ac6010c0d2",
-              "original": "https://www.reddit.com/r/SaaS/comments/1xduyf3/should_users_be_able_to_form_an_llc_without/"
-            },
-            "publishedAt": "2026-10-24T00:43:01.000Z",
-            "discoveredAt": "2026-10-24T01:51:16.747Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a097295c002f838ac6010c0d2"
-            }
-          },
-          {
             "id": "a13c96d43c0a0664bc2059cbf",
             "title": "长鑫的千亿利润里，藏着第一个拐点",
             "originalTitle": "长鑫的千亿利润里，藏着第一个拐点",
@@ -1653,6 +1653,29 @@
         "category": "tech",
         "label": "🤖 AI实时Top20",
         "items": [
+          {
+            "id": "a5ebebc3918446e311eb176e4",
+            "title": "【硅谷AI】人工智能墓地：未成功的项目和初创公司的清单",
+            "originalTitle": "The AI graveyard: a running list of projects and startups that didn’t make it",
+            "summary": "从苹果一再推迟 Siri AI 到 OpenAI 混乱的“超级应用”发布，以下是关闭或未达到预期的 AI 项目。（来源：TechCrunch·硅谷AI）",
+            "source": {
+              "name": "TechCrunch·硅谷AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a5ebebc3918446e311eb176e4",
+              "original": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+            },
+            "publishedAt": "2026-10-24T19:00:00.000Z",
+            "discoveredAt": "2026-10-24T21:12:33.805Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a5ebebc3918446e311eb176e4"
+            }
+          },
           {
             "id": "ab234b2d998a76c0e06abecd5",
             "title": "【硅谷AI】在被迫选择的情况下，Grok 的人工智能模型选择了共和党人。 OpenAI 选择了民主党人。",
@@ -1746,29 +1769,6 @@
             }
           },
           {
-            "id": "a00c9b0bd2492a63bdbb39bf2",
-            "title": "【硅谷AI】圣诞节最热门的玩具？ Nvidia CEO 玩可爱的 Microduck 机器人，销量达 20,000 个",
-            "originalTitle": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-            "summary": "机器人跺着小脚，发出微小的 R2-D2 声音，坐下来，倒地“小睡”，然后根据语音指令进行翻跟斗。（来源：TechCrunch·硅谷AI）",
-            "source": {
-              "name": "TechCrunch·硅谷AI"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a00c9b0bd2492a63bdbb39bf2",
-              "original": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/"
-            },
-            "publishedAt": "2026-10-23T21:59:19.000Z",
-            "discoveredAt": "2026-10-23T23:25:00.399Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a00c9b0bd2492a63bdbb39bf2"
-            }
-          },
-          {
             "id": "a55f7037ec199ee28ed28dc35",
             "title": "【OpenAI官宣】快速扩展在线存储以服务超过 10 亿 ChatGPT 用户（第二部分）",
             "originalTitle": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
@@ -1798,72 +1798,72 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "aa6839a38015e4f0ab660e8be",
-            "title": "【好莱坞一手】纽约 AMC Kips Bay 剧院将于 1 月 3 日关闭；首席执行官表示“AMC 希望留下来”，但纽约大学朗格尼分校“希望我们离开”",
-            "originalTitle": "New York’s AMC Kips Bay Theater Closes on Jan. 3; CEO Says ‘AMC Wants to Stay’ but NYU Langone ‘Wants Us Gone’",
-            "summary": "AMC 首席执行官 Adam Aron 就关闭纽约市颇受欢迎的 AMC Kips Bay 15 电影院发表了讲话，该电影院将于 1 月 3 日关闭。Aron 给 Kips Bay 社区写了一封信，并谈到了附近的医院如何...（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa6839a38015e4f0ab660e8be",
-              "original": "https://variety.com/2026/film/news/amc-kips-bay-closing-date-ceo-adam-aron-1236930275/"
-            },
-            "publishedAt": "2026-10-24T16:41:51.000Z",
-            "discoveredAt": "2026-10-24T18:39:03.765Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa6839a38015e4f0ab660e8be"
-            }
-          },
-          {
-            "id": "a733dc1915395836a2fdbb82f",
-            "title": "【好莱坞一手】票房：《粘土脸》首映票房 1,040 万美元登顶第一，《你可以看到一切》周五增加 614 万美元",
-            "originalTitle": "Box Office: ‘Clayface’ Lands at No. 1 with $10.4 Million Debut, ‘You Can See Everything’ Adds $6.14 Million on Friday",
-            "summary": "与 DC 的《女超人》和《超人》相比，《泥脸》对于故事片来说可能是一个更小众的选择，但这并没有阻止观众前来观看这位蝙蝠侠超级反派的血腥、噩梦般的表演……（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a733dc1915395836a2fdbb82f",
-              "original": "https://variety.com/2026/film/box-office/box-office-clayface-you-can-see-everything-wildwood-wicker-1236930256/"
-            },
-            "publishedAt": "2026-10-24T15:44:43.000Z",
-            "discoveredAt": "2026-10-24T15:46:23.800Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a733dc1915395836a2fdbb82f"
-            }
-          },
-          {
-            "id": "ad2da6c5422fdf8839dafe535",
-            "title": "【全球票房】里克·弗莱尔 (Ric Flair) 健康更新：前摔跤手在佛罗里达州摔倒后正在康复",
-            "originalTitle": "Ric Flair Health Update: Ex-Wrestler Recovering After Fall In Florida",
-            "summary": "据报道，10 月 23 日星期五，退役 WWE 偶像里克·弗莱尔 (Ric Flair) 在坦帕一家餐厅外摔倒后，目前正在佛罗里达州一家医院康复。（来源：Deadline·全球票房与新片）",
+            "id": "ab1cb03c8b004b65583508df9",
+            "title": "【全球票房】Hulu 作品《夏日风暴》系列改编作品，由 Melanie Marnich、Erin 和 Sara Foster 创作",
+            "originalTitle": "‘These Summer Storms’ Series Adaptation In Works At Hulu From Melanie Marnich, Erin & Sara Foster",
+            "summary": "独家报道：艾琳·福斯特 (Erin Foster) 和莎拉·福斯特 (Sara Foster) 的 Netflix 喜剧剧集《没人想要》第三季将于本周末在 Netflix 推出，他们还准备了另一个系列项目《夏日风暴》。该剧根据莎拉·M...（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad2da6c5422fdf8839dafe535",
-              "original": "https://deadline.com/2026/10/ric-flair-health-update-1237172323/"
+              "aihot": "https://zenglian-news.onrender.com/items/ab1cb03c8b004b65583508df9",
+              "original": "https://deadline.com/2026/10/these-summer-storms-hulu-tv-series-erin-sara-foster-1237172245/"
             },
-            "publishedAt": "2026-10-24T14:26:59.000Z",
-            "discoveredAt": "2026-10-24T15:46:34.755Z",
+            "publishedAt": "2026-10-24T21:00:00.000Z",
+            "discoveredAt": "2026-10-24T21:12:46.393Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad2da6c5422fdf8839dafe535"
+              "url": "https://zenglian-news.onrender.com/items/ab1cb03c8b004b65583508df9"
+            }
+          },
+          {
+            "id": "afd591ebf0d24ce42bf980aad",
+            "title": "【全球票房】杰西卡·贝尔 (Jessica Biel) 透露她计划如何重启《第七天堂》并在片场打造“安全空间”",
+            "originalTitle": "Jessica Biel Teases How She Plans To “Modernize” ‘7th Heaven’ With Reboot & Create “Safe Space” On Set As EP",
+            "summary": "距我们上次见到卡姆登家族已近 20 年，杰西卡·贝尔 (Jessica Biel) 将为新一代重新启动第七天堂。比尔担任执行制片人的 CBS 工作室正在制作新版 WB/CW 节目……（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/afd591ebf0d24ce42bf980aad",
+              "original": "https://deadline.com/2026/10/jessica-biel-modernize-7th-heaven-reboot-create-safe-space-1237172395/"
+            },
+            "publishedAt": "2026-10-24T21:10:58.000Z",
+            "discoveredAt": "2026-10-24T21:12:44.751Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/afd591ebf0d24ce42bf980aad"
+            }
+          },
+          {
+            "id": "a39a5c826c6b5867f222484da",
+            "title": "【好莱坞一手】恐怖片迷们，欢呼雀跃吧：FilmQuest 突破版《爬行》是你梦想中的勇敢外星人怪胎",
+            "originalTitle": "Horror Fans, Rejoice: FilmQuest Breakout ‘The Crawling’ Is the Gutsy Alien Freakout of Your Dreams",
+            "summary": "对于编剧兼导演克里斯蒂安·埃弗哈德来说，《爬行》最初是一次深夜思想实验。当他和女朋友在一个偏僻的小屋里度假时，他半夜醒来，脑子里一片混乱。作为一个...（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a39a5c826c6b5867f222484da",
+              "original": "https://variety.com/2026/film/columns/the-crawling-alien-movie-1236930222/"
+            },
+            "publishedAt": "2026-10-24T18:48:55.000Z",
+            "discoveredAt": "2026-10-24T21:12:43.067Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a39a5c826c6b5867f222484da"
             }
           },
           {
@@ -1890,29 +1890,6 @@
             }
           },
           {
-            "id": "ab5591f46c5d9016c4c9df168",
-            "title": "【好莱坞一手】《你可以看到一切》中的惊喜嘉宾可能会赢得奥斯卡奖。他们应该吗？",
-            "originalTitle": "The Surprise Guest in ‘You Can See Everything’ Could Win an Oscar. Should They?",
-            "summary": "剧透警告：本文包含正在影院上映的《你可以看到一切》的剧透。自从上周《你可以看到一切》在影院上映以来，颁奖专家们一直在思考的问题是……（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab5591f46c5d9016c4c9df168",
-              "original": "https://variety.com/2026/film/columns/amanda-seyfried-you-can-see-everything-oscar-1236916757/"
-            },
-            "publishedAt": "2026-10-24T17:00:00.000Z",
-            "discoveredAt": "2026-10-24T18:39:01.712Z",
-            "category": "culture",
-            "score": 98,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab5591f46c5d9016c4c9df168"
-            }
-          },
-          {
             "id": "a0d45538d4cdfbda635eb4b92",
             "title": "【全球票房】AMC 影院希望纽约市濒临灭绝的基普斯湾影院得以保留，但这个决定“不是我们能做出的”；预定截止日期已公布",
             "originalTitle": "AMC Theatres Wants NYC’s Endangered Kips Bay Multiplex To Remain But Decision “Not Ours To Make”; Scheduled Closing Date Announced",
@@ -1933,6 +1910,29 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a0d45538d4cdfbda635eb4b92"
+            }
+          },
+          {
+            "id": "a43ecb99b9fa27d38e85297cc",
+            "title": "【全球票房】BravoCon 2027 确定返回拉斯维加斯的日期",
+            "originalTitle": "BravoCon 2027 Sets Dates For Return To Las Vegas",
+            "summary": "Bravo 已经确定了 BravoCon 2027 的日期，粉丝活动将于 2027 年 10 月 22 日至 24 日返回拉斯维加斯。周末活动将在凯撒论坛举​​行，过去两届都在那里举行。这标志着...（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a43ecb99b9fa27d38e85297cc",
+              "original": "https://deadline.com/2026/10/bravocon-2027-dates-las-vegas-1237172140/"
+            },
+            "publishedAt": "2026-10-24T15:45:00.000Z",
+            "discoveredAt": "2026-10-24T15:46:33.519Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a43ecb99b9fa27d38e85297cc"
             }
           }
         ]
@@ -1988,95 +1988,95 @@
             }
           },
           {
-            "id": "a8a6b6977a657bd149c088084",
-            "title": "【NBA一手】[查拉尼亚] 消息人士告诉 ESPN，奥兰多魔术队球星保罗·班切罗 (Paolo Banchero) 右脚高脚踝轻度扭伤。这种损伤诊断的时间表通常为 4 至 6 周。",
-            "originalTitle": "[Charania] Orlando Magic star Paolo Banchero has sustained a low-grade right high ankle sprain, sources tell ESPN. This injury diagnosis typically carries a timetable of 4-to-6 weeks.",
-            "summary": "消息人士告诉 ESPN，奥兰多魔术队球星保罗·班切罗右脚高脚踝轻度扭伤。这种损伤诊断的时间表通常为 4 至 6 周。来源：https://www.espn.com/contributor/shams-...（来源：NBA·北美篮球实时热榜）",
+            "id": "a85ff861bfbc76dec1e704181",
+            "title": "【BBC足坛】帕尔默被红牌罚下，热刺在斯坦福桥取得了罕见的胜利",
+            "originalTitle": "Spurs clinch rare Stamford Bridge win as Palmer sent off",
+            "summary": "托特纳姆热刺队在斯坦福桥取得了 36 年来第二次战胜切尔西队的胜利，在科尔·帕尔默 (Cole Palmer) 吃到红牌后，主队 10 人应战，以 2-0 获胜。（来源：BBC Sport·欧洲足坛）",
             "source": {
-              "name": "NBA·北美篮球实时热榜"
+              "name": "BBC Sport·欧洲足坛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a8a6b6977a657bd149c088084",
-              "original": "https://www.reddit.com/r/nba/comments/1xeddt5/charania_orlando_magic_star_paolo_banchero_has/"
+              "aihot": "https://zenglian-news.onrender.com/items/a85ff861bfbc76dec1e704181",
+              "original": "https://www.bbc.co.uk/sport/football/videos/ckly0dnqz0r7o?at_medium=RSS&at_campaign=rss"
             },
-            "publishedAt": "2026-10-24T16:42:15.000Z",
-            "discoveredAt": "2026-10-24T18:39:27.041Z",
+            "publishedAt": "2026-10-24T19:17:06.000Z",
+            "discoveredAt": "2026-10-24T21:12:48.997Z",
             "category": "business",
             "score": 98,
             "selected": true,
-            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
+            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a8a6b6977a657bd149c088084"
+              "url": "https://zenglian-news.onrender.com/items/a85ff861bfbc76dec1e704181"
             }
           },
           {
-            "id": "a5d8651c48e486af582257cc4",
-            "title": "【NBA一手】布莱克·格里芬 (Blake Griffin) 在 NBA 演播室节目中说道：“门槛有点低……很多人来找我们：‘你能谈论篮球真是太棒了。’这应该是你谈论的最明显的事情。”",
-            "originalTitle": "Blake Griffin on NBA studio shows: “The bar was kinda low... A lot of people have come up to us: ‘It’s so great that you talk basketball.’ That should be the most obvious thing you talk about.”",
-            "summary": "由/u/luka274提交 [链接] [评论]（来源：NBA·北美篮球实时热榜）",
+            "id": "a659465ddf91e8a314b6accf3",
+            "title": "【BBC足坛】阿森纳击败埃弗顿，积分与领头羊曼城持平",
+            "originalTitle": "Arsenal beat Everton to go level on points with leaders Man City",
+            "summary": "埃兹里·孔萨 (Ezri Konsa) 的进球是他在俱乐部的首个进球，加布里埃尔·马加拉斯 (Gabriel Magalhaes) 帮助阿森纳在酋长球场 2-0 击败埃弗顿，与联赛领头羊曼城追平。（来源：BBC Sport·欧洲足坛）",
             "source": {
-              "name": "NBA·北美篮球实时热榜"
+              "name": "BBC Sport·欧洲足坛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a5d8651c48e486af582257cc4",
-              "original": "https://www.reddit.com/r/nba/comments/1xed9g1/blake_griffin_on_nba_studio_shows_the_bar_was/"
+              "aihot": "https://zenglian-news.onrender.com/items/a659465ddf91e8a314b6accf3",
+              "original": "https://www.bbc.co.uk/sport/football/videos/cm79pxqdlwelo?at_medium=RSS&at_campaign=rss"
             },
-            "publishedAt": "2026-10-24T16:37:26.000Z",
-            "discoveredAt": "2026-10-24T18:39:26.004Z",
+            "publishedAt": "2026-10-24T18:59:30.000Z",
+            "discoveredAt": "2026-10-24T21:12:49.423Z",
             "category": "business",
             "score": 98,
             "selected": true,
-            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
+            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a5d8651c48e486af582257cc4"
+              "url": "https://zenglian-news.onrender.com/items/a659465ddf91e8a314b6accf3"
             }
           },
           {
-            "id": "a72fb2441b7d3f86af8e86d95",
-            "title": "【欧洲足坛】得益于康萨和加布里埃尔，临床阿森纳在对阵埃弗顿的比赛中赢得了宝贵的胜利",
-            "originalTitle": "Clinical Arsenal earn precious win against Everton thanks to Konsa and Gabriel",
-            "summary": "大卫·莫耶斯的等待仍在继续。这位 63 岁的苏格兰人一定希望在他作为埃弗顿主教练第 14 次来到这座球场时，他的运气会改变。然而从埃兹里·孔萨打进他的第一个进球的那一刻起......（来源：卫报体育·欧冠与五大联赛）",
+            "id": "a5528e375b1723f17fe3bb105",
+            "title": "【BBC足坛】博布最后时刻的进球确保富勒姆战胜考文垂",
+            "originalTitle": "Bobb's late strike secures Fulham win at Coventry",
+            "summary": "富勒姆队的奥斯卡·博布在对阵考文垂队的比赛中第80分钟进球，赢得了英超联赛的背靠背胜利。（来源：BBC Sport·欧洲足坛）",
+            "source": {
+              "name": "BBC Sport·欧洲足坛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a5528e375b1723f17fe3bb105",
+              "original": "https://www.bbc.co.uk/sport/football/videos/cx7vpmrzr04do?at_medium=RSS&at_campaign=rss"
+            },
+            "publishedAt": "2026-10-24T18:59:22.000Z",
+            "discoveredAt": "2026-10-24T21:12:51.763Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a5528e375b1723f17fe3bb105"
+            }
+          },
+          {
+            "id": "a8e8dbd2061959e18761a4c11",
+            "title": "【欧洲足坛】托特纳姆热刺队击败切尔西队，取得一周内第二场联赛胜利，科尔·帕尔默被罚下场",
+            "originalTitle": "Tottenham stun Chelsea for second league win in a week as Cole Palmer is sent off",
+            "summary": "有时，托特纳姆热刺队会在这些大型比赛中找到击败自己的方法。不过，这一次，他们保持了镇静，他们大多只知道厄运。马刺队打得很控制，保持耐心......（来源：卫报体育·欧冠与五大联赛）",
             "source": {
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a72fb2441b7d3f86af8e86d95",
-              "original": "https://www.theguardian.com/football/2026/oct/24/arsenal-everton-premier-league-match-report"
+              "aihot": "https://zenglian-news.onrender.com/items/a8e8dbd2061959e18761a4c11",
+              "original": "https://www.theguardian.com/football/2026/oct/24/chelsea-tottenham-premier-league-match-report"
             },
-            "publishedAt": "2026-10-24T16:03:49.000Z",
-            "discoveredAt": "2026-10-24T18:39:16.375Z",
+            "publishedAt": "2026-10-24T18:32:03.000Z",
+            "discoveredAt": "2026-10-24T21:12:53.486Z",
             "category": "business",
             "score": 98,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a72fb2441b7d3f86af8e86d95"
-            }
-          },
-          {
-            "id": "ab8678481f3ebedb4591c21ab",
-            "title": "【欧洲足坛】冠军综述：朴茨茅斯运气好击败米尔沃尔；诺维奇重回胜利之路",
-            "originalTitle": "Championship roundup: Portsmouth ride luck to beat Millwall; Norwich back to winning ways",
-            "summary": "朴茨茅斯2-1米尔沃尔；查顿 1-3 诺维奇 沃丁汉姆为庞贝·托马斯·沃丁汉姆进球，为状态正佳的朴茨茅斯在弗拉顿公园球场以 2-1 逆转战胜米尔沃尔。杰克·库珀是...（来源：卫报体育·欧冠与五大联赛）",
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab8678481f3ebedb4591c21ab",
-              "original": "https://www.theguardian.com/football/2026/oct/24/championship-roundup-sheffield-united-derby-west-ham-swansea"
-            },
-            "publishedAt": "2026-10-24T14:30:54.000Z",
-            "discoveredAt": "2026-10-24T15:46:50.998Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab8678481f3ebedb4591c21ab"
+              "url": "https://zenglian-news.onrender.com/items/a8e8dbd2061959e18761a4c11"
             }
           }
         ]
