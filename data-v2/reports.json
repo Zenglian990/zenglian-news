@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T19:12:35.919Z",
+  "generatedAt": "2026-10-25T21:50:41.604Z",
   "daily": {
     "kind": "daily",
     "key": "2026-10-26",
     "title": "曾练全球一手简报 · 今日日报 (2026-10-26)",
     "subtitle": "全球·国内·商业搞钱·AI·影视娱乐·体育 六大实时Top20精选",
-    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：r/opensource 刚刚禁止了人工智能、非英语使用者等；马斯克表示，随着服务恢复，SpaceX限制了乌克兰的星链连接；Show HN：我将员工置于标准普尔 500 指数市值泡沫中。",
+    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：Show HN：我将员工置于标准普尔 500 指数市值泡沫中；Show HN：开源网络安全平台使用人工智能代理来保护企业；显示 HN：Farol – 批准拉取请求的人的风险图。",
     "metrics": {
       "totalEvents": 18,
       "sourcesCount": 30,
@@ -17,52 +17,6 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
-          {
-            "id": "aaada5dc6dc1814564715b295",
-            "title": "【国际巨头】r/opensource 刚刚禁止了人工智能、非英语使用者等",
-            "originalTitle": "r/opensource just banned AI, non-English speakers, and more",
-            "summary": "r/opensource 的 mods 发布了新的提交规则，其中包括禁止使用人工智能的项目。周六晚上发布的帖子开头写道：“如果你的项目使用人工智能、由人工智能制作或旨在用于人工智能，......（来源：The Verge·国际巨头）",
-            "source": {
-              "name": "The Verge·国际巨头"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aaada5dc6dc1814564715b295",
-              "original": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
-            },
-            "publishedAt": "2026-10-25T13:25:32.000Z",
-            "discoveredAt": "2026-10-25T16:22:41.459Z",
-            "category": "global",
-            "score": 99,
-            "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aaada5dc6dc1814564715b295"
-            }
-          },
-          {
-            "id": "afa6cd894561e3c24fdfbaac8",
-            "title": "【BBC全球】马斯克表示，随着服务恢复，SpaceX限制了乌克兰的星链连接",
-            "originalTitle": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
-            "summary": "埃隆·马斯克表示，在乌克兰官员表示连接问题似乎已得到解决后，他的公司 SpaceX 限制了乌克兰的 Starlink 互联网服务。基辅尚未对马斯克的最新说法发表正式评论，但乌克兰总统顾问（来源：BBC News·全球要闻）",
-            "source": {
-              "name": "BBC News·全球要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/afa6cd894561e3c24fdfbaac8",
-              "original": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss"
-            },
-            "publishedAt": "2026-10-25T09:00:00.000Z",
-            "discoveredAt": "2026-10-25T12:02:53.070Z",
-            "category": "global",
-            "score": 99,
-            "selected": true,
-            "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/afa6cd894561e3c24fdfbaac8"
-            }
-          },
           {
             "id": "a011644fb220560317ce4c281",
             "title": "【CNBC全球】乌克兰对埃隆·马斯克关于其军队在无人机操作期间违反星链条款的说法提出异议",
@@ -84,6 +38,52 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a011644fb220560317ce4c281"
+            }
+          },
+          {
+            "id": "ae234ea8d4f4c9d020a3197e5",
+            "title": "【全球热榜】Moderna 和默克公司表示，他们的 mRNA 癌症疫苗将死亡率和复发率降低了 42%",
+            "originalTitle": "Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%",
+            "summary": "X/HN·全球热榜Top实时快讯：Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ae234ea8d4f4c9d020a3197e5",
+              "original": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/"
+            },
+            "publishedAt": "2026-10-25T19:29:16.000Z",
+            "discoveredAt": "2026-10-25T21:49:41.318Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ae234ea8d4f4c9d020a3197e5"
+            }
+          },
+          {
+            "id": "a990ee7f2c9f5bcd16207357b",
+            "title": "【全球热榜】俄勒冈州警方因一名警察的记录向一家当地新闻媒体收取 250 万美元的费用",
+            "originalTitle": "Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop",
+            "summary": "X/HN·全球热榜Top实时快讯：Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a990ee7f2c9f5bcd16207357b",
+              "original": "https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee/"
+            },
+            "publishedAt": "2026-10-25T18:04:11.000Z",
+            "discoveredAt": "2026-10-25T21:49:42.999Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a990ee7f2c9f5bcd16207357b"
             }
           }
         ]
@@ -243,6 +243,29 @@
         "label": "🤖 AI实时Top20",
         "items": [
           {
+            "id": "ae7e85479395b2a1c5fa75dfc",
+            "title": "【X·AI一手】ChatGPT 正在为其用户建立详细的心理档案",
+            "originalTitle": "ChatGPT Is Building Detailed Psychological Profiles of Its Users",
+            "summary": "由 /u/ThereWas 提交 [链接] [评论]（来源：X (Twitter)·硅谷AI大佬）",
+            "source": {
+              "name": "X (Twitter)·硅谷AI大佬"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ae7e85479395b2a1c5fa75dfc",
+              "original": "https://www.reddit.com/r/OpenAI/comments/1xfapw3/chatgpt_is_building_detailed_psychological/"
+            },
+            "publishedAt": "2026-10-25T19:02:22.000Z",
+            "discoveredAt": "2026-10-25T21:50:11.899Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ae7e85479395b2a1c5fa75dfc"
+            }
+          },
+          {
             "id": "a7a3b1a6db05ff137a68602a9",
             "title": "【开源大模型】OpenAI 和 Anthropic 阻止了智能电视监视我们的逆向工程",
             "originalTitle": "OpenAI and Anthropic blocked the reverse engineering of smart TVs spying on us",
@@ -287,29 +310,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a5ebebc3918446e311eb176e4"
             }
-          },
-          {
-            "id": "aaa6cc1e56808a0539c466f81",
-            "title": "【X·AI一手】Oai-math-revised：用于修改 OpenAI 数学文章的社区中心",
-            "originalTitle": "Oai-math-revised: a community hub for revising OpenAI's math write-ups",
-            "summary": "X (Twitter)·硅谷AI大佬实时快讯：Oai-math-revised: a community hub for revising OpenAI's math write-ups。Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。（来源：X (Twitter)·硅谷AI大佬）",
-            "source": {
-              "name": "X (Twitter)·硅谷AI大佬"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aaa6cc1e56808a0539c466f81",
-              "original": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/"
-            },
-            "publishedAt": "2026-10-24T15:35:17.000Z",
-            "discoveredAt": "2026-10-25T01:27:30.305Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aaa6cc1e56808a0539c466f81"
-            }
           }
         ]
       },
@@ -318,72 +318,72 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "ad99042aa4b5612090f2e5f17",
-            "title": "【全球票房】哈德森·威廉姆斯正在写一部电影，因前曲棍球运动员角色“被绊倒”",
-            "originalTitle": "Hudson Williams Is Writing A Film, “Getting Tripped Up” Over Ex-Hockey Player Character",
-            "summary": "除了《激烈竞争》第二季之外，哈德森·威廉姆斯还从冰上获取一些灵感，用于未来的另一个项目。这位演员最近承认他在写的剧本中“被绊倒了”，其中包括……（来源：Deadline·全球票房与新片）",
+            "id": "a6a591ecb0cc76f3589ca328c",
+            "title": "【全球票房】阿曼达·塞弗里德解释为了家人而拒绝《银河护卫队》：“只是不适合我”",
+            "originalTitle": "Amanda Seyfried Explains Turning Down ‘Guardians of the Galaxy’ For Family: “Just Not For Me”",
+            "summary": "12 年后，阿曼达·塞弗里德出演了三部独立电影和一部假日特辑，她似乎并不后悔拒绝出演《银河护卫队》的主角。这位奥斯卡提名者解释说，漫威电影宇宙中的卡魔拉角色“只是......（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad99042aa4b5612090f2e5f17",
-              "original": "https://deadline.com/2026/10/hudson-williams-writing-film-ex-hockey-player-character-1237172776/"
+              "aihot": "https://zenglian-news.onrender.com/items/a6a591ecb0cc76f3589ca328c",
+              "original": "https://deadline.com/2026/10/amanda-seyfried-turning-down-guardians-of-the-galaxy-1237172808/"
             },
-            "publishedAt": "2026-10-25T18:24:49.000Z",
-            "discoveredAt": "2026-10-25T19:12:17.220Z",
+            "publishedAt": "2026-10-25T21:13:58.000Z",
+            "discoveredAt": "2026-10-25T21:50:26.367Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad99042aa4b5612090f2e5f17"
+              "url": "https://zenglian-news.onrender.com/items/a6a591ecb0cc76f3589ca328c"
             }
           },
           {
-            "id": "a98227c9adaa98924766d085e",
-            "title": "【全球票房】《粘土脸》全球首映票房收入达 4300 万美元，派拉蒙与华纳兄弟自合并以来第二次夺得周末票房冠军 – 全球票房",
-            "originalTitle": "‘Clayface’ Beams $43M WW Opening, Delivers Paramount-Warner Bros. Second No. 1 Weekend Win Since Merger – Global Box Office",
-            "summary": "新合并的派拉蒙与华纳兄弟合并后的影片（又名 Skydance）与 DC 的 Clayface 连续第二次夺得全球周末票房冠军，该片获得了 4300 万美元的全球票房。这是新常态吗？连续周末获胜...（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a98227c9adaa98924766d085e",
-              "original": "https://deadline.com/2026/10/box-office-global-clayface-1237172755/"
-            },
-            "publishedAt": "2026-10-25T18:15:35.000Z",
-            "discoveredAt": "2026-10-25T19:12:19.520Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a98227c9adaa98924766d085e"
-            }
-          },
-          {
-            "id": "ad2fa8672178a4867b2a9af7b",
-            "title": "【好莱坞一手】埃隆·马斯克 (Elon Musk) 的《Grok》发布了第一部人工智能生成的《奥德赛》剧集，几个月前，他承诺制作“历史准确”的长片",
-            "originalTitle": "Elon Musk’s Grok Releases First AI-Generated ‘Odyssey’ Episode, Months After Promising ‘Historically Accurate’ Full-Length Film",
-            "summary": "埃隆·马斯克 (Elon Musk) 承诺他的人工智能工具 Grok Imagine 将创建一个完全由人工智能生成的长篇版本的《奥德赛》，几个月后，这位科技大亨已经部分兑现了这一承诺。周五，该委员会...（来源：Variety·好莱坞影视）",
+            "id": "a31928bea09f3126919b42f00",
+            "title": "【好莱坞一手】哈德森·威廉姆斯表示，他正在写一部以“前曲棍球运动员”为主角的电影，并被“激烈的竞争”的相似之处“绊倒”",
+            "originalTitle": "Hudson Williams Says He’s Writing a Film Featuring an ‘Ex-Hockey Player’ and Is ‘Getting Tripped Up’ by ‘Heated Rivalry’ Parallels",
+            "summary": "哈德森·威廉姆斯正在拍摄一部新电影，并因“激烈的竞争”平行而“被绊倒”。在加拿大酷儿曲棍球爱情片取得成功之前，这位演员在过去的一年里一举成名，威利……（来源：Variety·好莱坞影视）",
             "source": {
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad2fa8672178a4867b2a9af7b",
-              "original": "https://variety.com/2026/film/news/elon-musks-grok-ai-generated-odyssey-1236930662/"
+              "aihot": "https://zenglian-news.onrender.com/items/a31928bea09f3126919b42f00",
+              "original": "https://variety.com/2026/film/news/hudson-williams-new-film-heated-rivalry-parallel-1236930742/"
             },
-            "publishedAt": "2026-10-25T17:22:45.000Z",
-            "discoveredAt": "2026-10-25T19:12:12.723Z",
+            "publishedAt": "2026-10-25T20:27:01.000Z",
+            "discoveredAt": "2026-10-25T21:50:19.459Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad2fa8672178a4867b2a9af7b"
+              "url": "https://zenglian-news.onrender.com/items/a31928bea09f3126919b42f00"
+            }
+          },
+          {
+            "id": "a0f1a62e31bce097638c261b0",
+            "title": "【全球票房】《NAZA》票房突破 100 万美元，《La Bola Negra》的 Neon、Solid 有限扩张 — 专业票房",
+            "originalTitle": "‘NAZA’ Tops $1 Million With Neon, Solid Limited Expansion For ‘La Bola Negra’ — Specialty Box Office",
+            "summary": "纪录片《NAZA》最近被 Neon 收购，在影院上映期间，本周末票房突破 100 万美元大关。这部在威尼斯首映的影片由尤瓦尔·亚伯拉罕 (Yuval Abraham) 和雷切尔·索尔 (Rachel Szor)（两位奥斯卡获奖导演）执导。（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0f1a62e31bce097638c261b0",
+              "original": "https://deadline.com/2026/10/indie-film-box-office-naza-neon-la-bola-negra-netflix-1237172763/"
+            },
+            "publishedAt": "2026-10-25T19:31:12.000Z",
+            "discoveredAt": "2026-10-25T21:50:28.218Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0f1a62e31bce097638c261b0"
             }
           }
         ]
@@ -416,49 +416,49 @@
             }
           },
           {
-            "id": "a2a7e1ab565c40cf11d9c83b2",
-            "title": "【欧洲足坛】桑德兰 v 利兹联：英超联赛 - 直播",
-            "originalTitle": "Sunderland v Leeds: Premier League – live",
-            "summary": "欧洲对桑德兰来说诅咒多于祝福 在布鲁诺·费尔南德斯因“纯粹足球”原因被解雇后——根据迈克尔·卡里克的说法——曼联真的能赢得一场足球比赛吗？（来源：卫报体育·欧冠与五大联赛）",
+            "id": "af6414389cda2389ea1420886",
+            "title": "【欧洲足坛】特兰德迟到，曼联终结曼城在 WSL 的胜利开局",
+            "originalTitle": "Terland strikes late as United end Manchester City’s winning start in WSL",
+            "summary": "终于，发现了一个弱点。最终，曼城 100% 获胜的开局结束，这让曼联感到非常高兴，他们在比赛末段通过伊丽莎白·特兰 (Elisabeth Terland) 破门，在这场激烈的比赛中拿下一分……（来源：卫报体育·欧冠与五大联赛）",
             "source": {
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a2a7e1ab565c40cf11d9c83b2",
-              "original": "https://www.theguardian.com/football/live/2026/oct/25/sunderland-v-leeds-premier-league-live"
+              "aihot": "https://zenglian-news.onrender.com/items/af6414389cda2389ea1420886",
+              "original": "https://www.theguardian.com/football/2026/oct/25/manchester-united-manchester-city-wsl-match-report"
             },
-            "publishedAt": "2026-10-25T16:19:42.000Z",
-            "discoveredAt": "2026-10-25T16:23:31.021Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a2a7e1ab565c40cf11d9c83b2"
-            }
-          },
-          {
-            "id": "ad090706dab2920add320b223",
-            "title": "【欧洲足坛】巴塞罗那 vs 皇家马德里：El Clásico – 直播",
-            "originalTitle": "Barcelona v Real Madrid: El Clásico – live",
-            "summary": "实时西甲更新，晚上 8 点开球（格林威治标准时间） Sid Lowe：穆里尼奥的马德里已做好战斗准备您还可以通过电子邮件向 Niall 发送一些来自 Sid Lowe 的重要赛前读物。巴塞罗那（4-2-3-1）：琼·加西亚；若昂·坎...（来源：卫报体育·欧冠与五大联赛）",
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad090706dab2920add320b223",
-              "original": "https://www.theguardian.com/football/live/2026/oct/25/barcelona-v-real-madrid-el-clasico-live"
-            },
-            "publishedAt": "2026-10-25T18:59:55.000Z",
-            "discoveredAt": "2026-10-25T19:12:26.205Z",
+            "publishedAt": "2026-10-25T20:38:20.000Z",
+            "discoveredAt": "2026-10-25T21:50:39.991Z",
             "category": "business",
             "score": 98,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad090706dab2920add320b223"
+              "url": "https://zenglian-news.onrender.com/items/af6414389cda2389ea1420886"
+            }
+          },
+          {
+            "id": "abb0c9e387d19969c55eab4f4",
+            "title": "【BBC足坛】赫尔城主场不敌布伦特福德后连续第三场战平",
+            "originalTitle": "Hull draw third consecutive home game after being held by Brentford",
+            "summary": "英超联赛在MKM球场1-1战平赫尔城，丹戈·瓦塔拉扳平比分，帮助布伦特福德拿下一分，赫尔城连续第三个主场战平。（来源：BBC Sport·欧洲足坛）",
+            "source": {
+              "name": "BBC Sport·欧洲足坛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abb0c9e387d19969c55eab4f4",
+              "original": "https://www.bbc.co.uk/sport/football/videos/cmlylkydwl78o?at_medium=RSS&at_campaign=rss"
+            },
+            "publishedAt": "2026-10-25T19:59:29.000Z",
+            "discoveredAt": "2026-10-25T21:50:36.059Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abb0c9e387d19969c55eab4f4"
             }
           }
         ]
@@ -470,7 +470,7 @@
     "key": "2026-W41",
     "title": "曾练全球一手简报 · 本周核心周报 (2026年第41周)",
     "subtitle": "7天全球政经、国内大事、商业搞钱、AI突破与文体焦点深度复盘",
-    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：r/opensource 刚刚禁止了人工智能、非英语使用者等；马斯克表示，随着服务恢复，SpaceX限制了乌克兰的星链连接；Show HN：我将员工置于标准普尔 500 指数市值泡沫中。",
+    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：Show HN：我将员工置于标准普尔 500 指数市值泡沫中；Show HN：开源网络安全平台使用人工智能代理来保护企业；显示 HN：Farol – 批准拉取请求的人的风险图。",
     "metrics": {
       "totalEvents": 30,
       "sourcesCount": 30,
@@ -481,52 +481,6 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
-          {
-            "id": "aaada5dc6dc1814564715b295",
-            "title": "【国际巨头】r/opensource 刚刚禁止了人工智能、非英语使用者等",
-            "originalTitle": "r/opensource just banned AI, non-English speakers, and more",
-            "summary": "r/opensource 的 mods 发布了新的提交规则，其中包括禁止使用人工智能的项目。周六晚上发布的帖子开头写道：“如果你的项目使用人工智能、由人工智能制作或旨在用于人工智能，......（来源：The Verge·国际巨头）",
-            "source": {
-              "name": "The Verge·国际巨头"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aaada5dc6dc1814564715b295",
-              "original": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
-            },
-            "publishedAt": "2026-10-25T13:25:32.000Z",
-            "discoveredAt": "2026-10-25T16:22:41.459Z",
-            "category": "global",
-            "score": 99,
-            "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aaada5dc6dc1814564715b295"
-            }
-          },
-          {
-            "id": "afa6cd894561e3c24fdfbaac8",
-            "title": "【BBC全球】马斯克表示，随着服务恢复，SpaceX限制了乌克兰的星链连接",
-            "originalTitle": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
-            "summary": "埃隆·马斯克表示，在乌克兰官员表示连接问题似乎已得到解决后，他的公司 SpaceX 限制了乌克兰的 Starlink 互联网服务。基辅尚未对马斯克的最新说法发表正式评论，但乌克兰总统顾问（来源：BBC News·全球要闻）",
-            "source": {
-              "name": "BBC News·全球要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/afa6cd894561e3c24fdfbaac8",
-              "original": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss"
-            },
-            "publishedAt": "2026-10-25T09:00:00.000Z",
-            "discoveredAt": "2026-10-25T12:02:53.070Z",
-            "category": "global",
-            "score": 99,
-            "selected": true,
-            "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/afa6cd894561e3c24fdfbaac8"
-            }
-          },
           {
             "id": "a011644fb220560317ce4c281",
             "title": "【CNBC全球】乌克兰对埃隆·马斯克关于其军队在无人机操作期间违反星链条款的说法提出异议",
@@ -548,6 +502,52 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a011644fb220560317ce4c281"
+            }
+          },
+          {
+            "id": "ae234ea8d4f4c9d020a3197e5",
+            "title": "【全球热榜】Moderna 和默克公司表示，他们的 mRNA 癌症疫苗将死亡率和复发率降低了 42%",
+            "originalTitle": "Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%",
+            "summary": "X/HN·全球热榜Top实时快讯：Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ae234ea8d4f4c9d020a3197e5",
+              "original": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/"
+            },
+            "publishedAt": "2026-10-25T19:29:16.000Z",
+            "discoveredAt": "2026-10-25T21:49:41.318Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ae234ea8d4f4c9d020a3197e5"
+            }
+          },
+          {
+            "id": "a990ee7f2c9f5bcd16207357b",
+            "title": "【全球热榜】俄勒冈州警方因一名警察的记录向一家当地新闻媒体收取 250 万美元的费用",
+            "originalTitle": "Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop",
+            "summary": "X/HN·全球热榜Top实时快讯：Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a990ee7f2c9f5bcd16207357b",
+              "original": "https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee/"
+            },
+            "publishedAt": "2026-10-25T18:04:11.000Z",
+            "discoveredAt": "2026-10-25T21:49:42.999Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a990ee7f2c9f5bcd16207357b"
             }
           },
           {
@@ -845,6 +845,29 @@
         "label": "🤖 AI实时Top20",
         "items": [
           {
+            "id": "ae7e85479395b2a1c5fa75dfc",
+            "title": "【X·AI一手】ChatGPT 正在为其用户建立详细的心理档案",
+            "originalTitle": "ChatGPT Is Building Detailed Psychological Profiles of Its Users",
+            "summary": "由 /u/ThereWas 提交 [链接] [评论]（来源：X (Twitter)·硅谷AI大佬）",
+            "source": {
+              "name": "X (Twitter)·硅谷AI大佬"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ae7e85479395b2a1c5fa75dfc",
+              "original": "https://www.reddit.com/r/OpenAI/comments/1xfapw3/chatgpt_is_building_detailed_psychological/"
+            },
+            "publishedAt": "2026-10-25T19:02:22.000Z",
+            "discoveredAt": "2026-10-25T21:50:11.899Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ae7e85479395b2a1c5fa75dfc"
+            }
+          },
+          {
             "id": "a7a3b1a6db05ff137a68602a9",
             "title": "【开源大模型】OpenAI 和 Anthropic 阻止了智能电视监视我们的逆向工程",
             "originalTitle": "OpenAI and Anthropic blocked the reverse engineering of smart TVs spying on us",
@@ -914,29 +937,6 @@
             }
           },
           {
-            "id": "ab234b2d998a76c0e06abecd5",
-            "title": "【硅谷AI】在被迫选择的情况下，Grok 的人工智能模型选择了共和党人。 OpenAI 选择了民主党人。",
-            "originalTitle": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-            "summary": "一项新研究发现，Grok 的 AI 压倒性地推荐共和党候选人，而 OpenAI 的 GPT 有利于民主党，这两种 AI 模型在近 500 场选举中 90% 以上的结果存在分歧。（来源：TechCrunch·硅谷AI）",
-            "source": {
-              "name": "TechCrunch·硅谷AI"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab234b2d998a76c0e06abecd5",
-              "original": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
-            },
-            "publishedAt": "2026-10-24T15:00:00.000Z",
-            "discoveredAt": "2026-10-24T15:46:19.709Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab234b2d998a76c0e06abecd5"
-            }
-          },
-          {
             "id": "a9990ce737df5d24b136218ab",
             "title": "【X·AI一手】Claude Code 巧妙地将用户的电子邮件添加到出站 HTTP",
             "originalTitle": "Claude Code slyly adding users' emails to outbound HTTP",
@@ -966,26 +966,95 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "ad99042aa4b5612090f2e5f17",
-            "title": "【全球票房】哈德森·威廉姆斯正在写一部电影，因前曲棍球运动员角色“被绊倒”",
-            "originalTitle": "Hudson Williams Is Writing A Film, “Getting Tripped Up” Over Ex-Hockey Player Character",
-            "summary": "除了《激烈竞争》第二季之外，哈德森·威廉姆斯还从冰上获取一些灵感，用于未来的另一个项目。这位演员最近承认他在写的剧本中“被绊倒了”，其中包括……（来源：Deadline·全球票房与新片）",
+            "id": "a6a591ecb0cc76f3589ca328c",
+            "title": "【全球票房】阿曼达·塞弗里德解释为了家人而拒绝《银河护卫队》：“只是不适合我”",
+            "originalTitle": "Amanda Seyfried Explains Turning Down ‘Guardians of the Galaxy’ For Family: “Just Not For Me”",
+            "summary": "12 年后，阿曼达·塞弗里德出演了三部独立电影和一部假日特辑，她似乎并不后悔拒绝出演《银河护卫队》的主角。这位奥斯卡提名者解释说，漫威电影宇宙中的卡魔拉角色“只是......（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad99042aa4b5612090f2e5f17",
-              "original": "https://deadline.com/2026/10/hudson-williams-writing-film-ex-hockey-player-character-1237172776/"
+              "aihot": "https://zenglian-news.onrender.com/items/a6a591ecb0cc76f3589ca328c",
+              "original": "https://deadline.com/2026/10/amanda-seyfried-turning-down-guardians-of-the-galaxy-1237172808/"
             },
-            "publishedAt": "2026-10-25T18:24:49.000Z",
-            "discoveredAt": "2026-10-25T19:12:17.220Z",
+            "publishedAt": "2026-10-25T21:13:58.000Z",
+            "discoveredAt": "2026-10-25T21:50:26.367Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad99042aa4b5612090f2e5f17"
+              "url": "https://zenglian-news.onrender.com/items/a6a591ecb0cc76f3589ca328c"
+            }
+          },
+          {
+            "id": "a31928bea09f3126919b42f00",
+            "title": "【好莱坞一手】哈德森·威廉姆斯表示，他正在写一部以“前曲棍球运动员”为主角的电影，并被“激烈的竞争”的相似之处“绊倒”",
+            "originalTitle": "Hudson Williams Says He’s Writing a Film Featuring an ‘Ex-Hockey Player’ and Is ‘Getting Tripped Up’ by ‘Heated Rivalry’ Parallels",
+            "summary": "哈德森·威廉姆斯正在拍摄一部新电影，并因“激烈的竞争”平行而“被绊倒”。在加拿大酷儿曲棍球爱情片取得成功之前，这位演员在过去的一年里一举成名，威利……（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a31928bea09f3126919b42f00",
+              "original": "https://variety.com/2026/film/news/hudson-williams-new-film-heated-rivalry-parallel-1236930742/"
+            },
+            "publishedAt": "2026-10-25T20:27:01.000Z",
+            "discoveredAt": "2026-10-25T21:50:19.459Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a31928bea09f3126919b42f00"
+            }
+          },
+          {
+            "id": "a0f1a62e31bce097638c261b0",
+            "title": "【全球票房】《NAZA》票房突破 100 万美元，《La Bola Negra》的 Neon、Solid 有限扩张 — 专业票房",
+            "originalTitle": "‘NAZA’ Tops $1 Million With Neon, Solid Limited Expansion For ‘La Bola Negra’ — Specialty Box Office",
+            "summary": "纪录片《NAZA》最近被 Neon 收购，在影院上映期间，本周末票房突破 100 万美元大关。这部在威尼斯首映的影片由尤瓦尔·亚伯拉罕 (Yuval Abraham) 和雷切尔·索尔 (Rachel Szor)（两位奥斯卡获奖导演）执导。（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0f1a62e31bce097638c261b0",
+              "original": "https://deadline.com/2026/10/indie-film-box-office-naza-neon-la-bola-negra-netflix-1237172763/"
+            },
+            "publishedAt": "2026-10-25T19:31:12.000Z",
+            "discoveredAt": "2026-10-25T21:50:28.218Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0f1a62e31bce097638c261b0"
+            }
+          },
+          {
+            "id": "aa09c0f1043b31cfa09db1b74",
+            "title": "【好莱坞一手】《我扮演洛奇》明星斯蒂芬·詹姆斯以红毯造型向卡尔·韦瑟斯致敬：“我真的可以再次穿上他的鞋子了”",
+            "originalTitle": "‘I Play Rocky’ Star Stephan James on Paying Tribute to Carl Weathers with His Red Carpet Look: ‘I Can Literally Walk in His Shoes Yet Again’",
+            "summary": "周六，斯蒂芬·詹姆斯在美国电影协会电影节 (AFI Fest) 放映卡尔·韦瑟斯 (Carl Weathers) 的新片《我扮演洛奇》(I Play Rocky) 时，身穿白色西装，向卡尔·韦瑟斯致敬。詹姆斯在彼得·法拉利电影中扮演已故演员，该电影记录了真基...（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aa09c0f1043b31cfa09db1b74",
+              "original": "https://variety.com/2026/film/columns/i-play-rocky-stephan-james-carl-weathers-michael-b-jordan-1236930508/"
+            },
+            "publishedAt": "2026-10-25T19:23:41.000Z",
+            "discoveredAt": "2026-10-25T21:50:24.628Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aa09c0f1043b31cfa09db1b74"
             }
           },
           {
@@ -1009,75 +1078,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a98227c9adaa98924766d085e"
-            }
-          },
-          {
-            "id": "ad2fa8672178a4867b2a9af7b",
-            "title": "【好莱坞一手】埃隆·马斯克 (Elon Musk) 的《Grok》发布了第一部人工智能生成的《奥德赛》剧集，几个月前，他承诺制作“历史准确”的长片",
-            "originalTitle": "Elon Musk’s Grok Releases First AI-Generated ‘Odyssey’ Episode, Months After Promising ‘Historically Accurate’ Full-Length Film",
-            "summary": "埃隆·马斯克 (Elon Musk) 承诺他的人工智能工具 Grok Imagine 将创建一个完全由人工智能生成的长篇版本的《奥德赛》，几个月后，这位科技大亨已经部分兑现了这一承诺。周五，该委员会...（来源：Variety·好莱坞影视）",
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad2fa8672178a4867b2a9af7b",
-              "original": "https://variety.com/2026/film/news/elon-musks-grok-ai-generated-odyssey-1236930662/"
-            },
-            "publishedAt": "2026-10-25T17:22:45.000Z",
-            "discoveredAt": "2026-10-25T19:12:12.723Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad2fa8672178a4867b2a9af7b"
-            }
-          },
-          {
-            "id": "af046ac27e38eea5b53d065a1",
-            "title": "【全球票房】《没人想要这个》主创艾琳·福斯特第四季有“更多故事可讲”，但不会“太依恋”",
-            "originalTitle": "‘Nobody Wants This’ Creator Erin Foster Has “More Story To Tell” With A Season 4, But Isn’t Getting “Too Attached”",
-            "summary": "如果 Netflix 想要的话，艾琳·福斯特已经准备好推出她的犹太浪漫喜剧第四季。 《无人想要这个季节》第三季发布后，该剧的创作者最近确认她“还有更多故事要讲……”（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af046ac27e38eea5b53d065a1",
-              "original": "https://deadline.com/2026/10/nobody-wants-this-erin-foster-more-story-to-tell-season-4-1237172691/"
-            },
-            "publishedAt": "2026-10-25T02:34:00.000Z",
-            "discoveredAt": "2026-10-25T06:40:55.629Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af046ac27e38eea5b53d065a1"
-            }
-          },
-          {
-            "id": "a73bcc110abfcc28098451d6c",
-            "title": "【全球票房】《SNL UK》和辛西娅·埃里沃 (Cynthia Erivo) 为 Elphaba-Glinda 托运人带来了一场“尼日利亚邪恶”女同性恋模仿秀",
-            "originalTitle": "‘SNL UK’ & Cynthia Erivo Give Elphaba-Glinda Shippers A ‘Nigerian Wicked’ Sapphic Parody",
-            "summary": "尽管《魔法坏女巫》电影可能没有给 LGBTQ 粉丝带来他们想要的 Elphaba 和 Glinda 的浪漫时刻，但英国《周六夜现场》听到了他们的要求。在本周末的喜剧小品节目中，主持人辛西...（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a73bcc110abfcc28098451d6c",
-              "original": "https://deadline.com/2026/10/snl-uk-cynthia-eriva-nigerian-wicked-sapphic-parody-1237172417/"
-            },
-            "publishedAt": "2026-10-25T00:17:28.000Z",
-            "discoveredAt": "2026-10-25T01:27:38.820Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a73bcc110abfcc28098451d6c"
             }
           }
         ]
@@ -1110,26 +1110,72 @@
             }
           },
           {
-            "id": "a2a7e1ab565c40cf11d9c83b2",
-            "title": "【欧洲足坛】桑德兰 v 利兹联：英超联赛 - 直播",
-            "originalTitle": "Sunderland v Leeds: Premier League – live",
-            "summary": "欧洲对桑德兰来说诅咒多于祝福 在布鲁诺·费尔南德斯因“纯粹足球”原因被解雇后——根据迈克尔·卡里克的说法——曼联真的能赢得一场足球比赛吗？（来源：卫报体育·欧冠与五大联赛）",
+            "id": "af6414389cda2389ea1420886",
+            "title": "【欧洲足坛】特兰德迟到，曼联终结曼城在 WSL 的胜利开局",
+            "originalTitle": "Terland strikes late as United end Manchester City’s winning start in WSL",
+            "summary": "终于，发现了一个弱点。最终，曼城 100% 获胜的开局结束，这让曼联感到非常高兴，他们在比赛末段通过伊丽莎白·特兰 (Elisabeth Terland) 破门，在这场激烈的比赛中拿下一分……（来源：卫报体育·欧冠与五大联赛）",
             "source": {
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a2a7e1ab565c40cf11d9c83b2",
-              "original": "https://www.theguardian.com/football/live/2026/oct/25/sunderland-v-leeds-premier-league-live"
+              "aihot": "https://zenglian-news.onrender.com/items/af6414389cda2389ea1420886",
+              "original": "https://www.theguardian.com/football/2026/oct/25/manchester-united-manchester-city-wsl-match-report"
             },
-            "publishedAt": "2026-10-25T16:19:42.000Z",
-            "discoveredAt": "2026-10-25T16:23:31.021Z",
+            "publishedAt": "2026-10-25T20:38:20.000Z",
+            "discoveredAt": "2026-10-25T21:50:39.991Z",
             "category": "business",
-            "score": 99,
+            "score": 98,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a2a7e1ab565c40cf11d9c83b2"
+              "url": "https://zenglian-news.onrender.com/items/af6414389cda2389ea1420886"
+            }
+          },
+          {
+            "id": "abb0c9e387d19969c55eab4f4",
+            "title": "【BBC足坛】赫尔城主场不敌布伦特福德后连续第三场战平",
+            "originalTitle": "Hull draw third consecutive home game after being held by Brentford",
+            "summary": "英超联赛在MKM球场1-1战平赫尔城，丹戈·瓦塔拉扳平比分，帮助布伦特福德拿下一分，赫尔城连续第三个主场战平。（来源：BBC Sport·欧洲足坛）",
+            "source": {
+              "name": "BBC Sport·欧洲足坛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abb0c9e387d19969c55eab4f4",
+              "original": "https://www.bbc.co.uk/sport/football/videos/cmlylkydwl78o?at_medium=RSS&at_campaign=rss"
+            },
+            "publishedAt": "2026-10-25T19:59:29.000Z",
+            "discoveredAt": "2026-10-25T21:50:36.059Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abb0c9e387d19969c55eab4f4"
+            }
+          },
+          {
+            "id": "a5c4a539d884cf8d44a9f33b3",
+            "title": "【欧洲足坛】曼联董事会就卡里克的未来和豪的做法举行危机会谈",
+            "originalTitle": "Manchester United board hold crisis talks over Carrick’s future and Howe approach",
+            "summary": "主场0-3输给伯恩茅斯后，工作处于平衡状态 豪是足球总监杰森·威尔科克斯的头号候选人 曼联高层正在就是否解雇迈克尔·卡里克作为主教练进行危机谈判......（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a5c4a539d884cf8d44a9f33b3",
+              "original": "https://www.theguardian.com/football/2026/oct/25/manchester-united-board-crisis-talks-michael-carrick-eddie-howe-bournemouth-premier-league"
+            },
+            "publishedAt": "2026-10-25T19:24:06.000Z",
+            "discoveredAt": "2026-10-25T21:50:38.312Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a5c4a539d884cf8d44a9f33b3"
             }
           },
           {
@@ -1154,52 +1200,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ad090706dab2920add320b223"
             }
-          },
-          {
-            "id": "a6d549691b188c1c31e2d0566",
-            "title": "【欧洲足坛】罗夫斯和特拉福德立场坚定，桑德兰和利兹联争夺积分",
-            "originalTitle": "Roefs and Trafford stand firm as Sunderland and Leeds battle for point",
-            "summary": "雷吉斯·勒布里斯通常可以做到冷漠至完美，但到终场哨声响起时，即使是桑德兰这位超级平衡的主教练也显得有些厌倦和沮丧。他的垫底球队可能只有......（来源：卫报体育·欧冠与五大联赛）",
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a6d549691b188c1c31e2d0566",
-              "original": "https://www.theguardian.com/football/2026/oct/25/sunderland-leeds-premier-league-match-report"
-            },
-            "publishedAt": "2026-10-25T18:46:08.000Z",
-            "discoveredAt": "2026-10-25T19:12:28.748Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a6d549691b188c1c31e2d0566"
-            }
-          },
-          {
-            "id": "ac81218415aaee53df4979895",
-            "title": "【欧洲足坛】曼联被伯恩茅斯羞辱后，迈克尔·卡里克濒临崩溃边缘",
-            "originalTitle": "Michael Carrick on the brink after Manchester United are humiliated by Bournemouth",
-            "summary": "根据迈克尔·卡里克的说法，布鲁诺·费尔南德斯因“纯粹足球”原因被解雇后，曼联真的能赢得一场足球比赛吗？答案再次是响亮的、令人羞辱的“不”，如果法力……（来源：卫报体育·欧冠与五大联赛）",
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac81218415aaee53df4979895",
-              "original": "https://www.theguardian.com/football/2026/oct/25/manchester-united-bournemouth-premier-league-match-report-michael-carrick"
-            },
-            "publishedAt": "2026-10-25T16:19:03.000Z",
-            "discoveredAt": "2026-10-25T16:23:32.884Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac81218415aaee53df4979895"
-            }
           }
         ]
       }
@@ -1210,7 +1210,7 @@
     "key": "2026-10",
     "title": "曾练全球一手简报 · 月度产业全景报告 (2026年10月)",
     "subtitle": "30天六大实时Top20赛道全景洞察与高价值搞钱机会总结",
-    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：r/opensource 刚刚禁止了人工智能、非英语使用者等；马斯克表示，随着服务恢复，SpaceX限制了乌克兰的星链连接；Show HN：我将员工置于标准普尔 500 指数市值泡沫中。",
+    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：Show HN：我将员工置于标准普尔 500 指数市值泡沫中；Show HN：开源网络安全平台使用人工智能代理来保护企业；显示 HN：Farol – 批准拉取请求的人的风险图。",
     "metrics": {
       "totalEvents": 36,
       "sourcesCount": 30,
@@ -1221,52 +1221,6 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
-          {
-            "id": "aaada5dc6dc1814564715b295",
-            "title": "【国际巨头】r/opensource 刚刚禁止了人工智能、非英语使用者等",
-            "originalTitle": "r/opensource just banned AI, non-English speakers, and more",
-            "summary": "r/opensource 的 mods 发布了新的提交规则，其中包括禁止使用人工智能的项目。周六晚上发布的帖子开头写道：“如果你的项目使用人工智能、由人工智能制作或旨在用于人工智能，......（来源：The Verge·国际巨头）",
-            "source": {
-              "name": "The Verge·国际巨头"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aaada5dc6dc1814564715b295",
-              "original": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
-            },
-            "publishedAt": "2026-10-25T13:25:32.000Z",
-            "discoveredAt": "2026-10-25T16:22:41.459Z",
-            "category": "global",
-            "score": 99,
-            "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aaada5dc6dc1814564715b295"
-            }
-          },
-          {
-            "id": "afa6cd894561e3c24fdfbaac8",
-            "title": "【BBC全球】马斯克表示，随着服务恢复，SpaceX限制了乌克兰的星链连接",
-            "originalTitle": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
-            "summary": "埃隆·马斯克表示，在乌克兰官员表示连接问题似乎已得到解决后，他的公司 SpaceX 限制了乌克兰的 Starlink 互联网服务。基辅尚未对马斯克的最新说法发表正式评论，但乌克兰总统顾问（来源：BBC News·全球要闻）",
-            "source": {
-              "name": "BBC News·全球要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/afa6cd894561e3c24fdfbaac8",
-              "original": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss"
-            },
-            "publishedAt": "2026-10-25T09:00:00.000Z",
-            "discoveredAt": "2026-10-25T12:02:53.070Z",
-            "category": "global",
-            "score": 99,
-            "selected": true,
-            "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/afa6cd894561e3c24fdfbaac8"
-            }
-          },
           {
             "id": "a011644fb220560317ce4c281",
             "title": "【CNBC全球】乌克兰对埃隆·马斯克关于其军队在无人机操作期间违反星链条款的说法提出异议",
@@ -1288,6 +1242,52 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a011644fb220560317ce4c281"
+            }
+          },
+          {
+            "id": "ae234ea8d4f4c9d020a3197e5",
+            "title": "【全球热榜】Moderna 和默克公司表示，他们的 mRNA 癌症疫苗将死亡率和复发率降低了 42%",
+            "originalTitle": "Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%",
+            "summary": "X/HN·全球热榜Top实时快讯：Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ae234ea8d4f4c9d020a3197e5",
+              "original": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/"
+            },
+            "publishedAt": "2026-10-25T19:29:16.000Z",
+            "discoveredAt": "2026-10-25T21:49:41.318Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ae234ea8d4f4c9d020a3197e5"
+            }
+          },
+          {
+            "id": "a990ee7f2c9f5bcd16207357b",
+            "title": "【全球热榜】俄勒冈州警方因一名警察的记录向一家当地新闻媒体收取 250 万美元的费用",
+            "originalTitle": "Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop",
+            "summary": "X/HN·全球热榜Top实时快讯：Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a990ee7f2c9f5bcd16207357b",
+              "original": "https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee/"
+            },
+            "publishedAt": "2026-10-25T18:04:11.000Z",
+            "discoveredAt": "2026-10-25T21:49:42.999Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a990ee7f2c9f5bcd16207357b"
             }
           },
           {
@@ -1337,26 +1337,26 @@
             }
           },
           {
-            "id": "a7ef56ee89cf0e9256ea59431",
-            "title": "【全球热榜】1505 年纽伦堡骑士的工具书",
-            "originalTitle": "Tool book of a Nuremberg knight from 1505",
-            "summary": "X/HN·全球热榜Top实时快讯：Tool book of a Nuremberg knight from 1505。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "id": "a15982bff57db1e5bcfb1b359",
+            "title": "【BBC全球】塞尔维亚总统武契奇承认学生领导的抗议运动在选举中失败",
+            "originalTitle": "Serbia's Vučić concedes election defeat to student-led protest movement",
+            "summary": "担任该国 12 年任期的民粹主义右翼领导人表示，他的塞尔维亚进步党“显然”已经失败。（来源：BBC News·全球要闻）",
             "source": {
-              "name": "X/HN·全球热榜Top"
+              "name": "BBC News·全球要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7ef56ee89cf0e9256ea59431",
-              "original": "https://loeffelholz-codex.org/en/"
+              "aihot": "https://zenglian-news.onrender.com/items/a15982bff57db1e5bcfb1b359",
+              "original": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss"
             },
-            "publishedAt": "2026-10-25T12:37:54.000Z",
-            "discoveredAt": "2026-10-25T16:22:39.013Z",
+            "publishedAt": "2026-10-25T21:25:04.000Z",
+            "discoveredAt": "2026-10-25T21:49:36.098Z",
             "category": "global",
-            "score": 97,
+            "score": 96,
             "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7ef56ee89cf0e9256ea59431"
+              "url": "https://zenglian-news.onrender.com/items/a15982bff57db1e5bcfb1b359"
             }
           }
         ]
@@ -1625,26 +1625,26 @@
             }
           },
           {
-            "id": "ab2683b28e57b80a59d73a72c",
-            "title": "何伟文：AI投资勃兴驱动中国和世界贸易剧增 | 巴伦独家",
-            "originalTitle": "何伟文：AI投资勃兴驱动中国和世界贸易剧增 | 巴伦独家",
-            "summary": "（本文作者为 Barrons巴伦，钛媒体经授权发布） 引言：2026年以来中国进出口的强劲增长，是世界AI及相关技术产品投资勃兴带动全球贸易急剧加速的一部分，不是&ldquo;产能过剩&rdquo;叙事方式所能解释。因为增长最猛烈的AI相关IT产品进口比出口增长更快。 AI投资及相关产品贸易的猛增，带来全球贸易新的不平衡。美国虽为全球AI领先，但相关产品制造外包程度高，反而进口增长更快；欧盟AI发展明显落后，因此出口缺乏增长点；亚太是全...",
+            "id": "a80c0fa2b573d7f3e73d2c7df",
+            "title": "【独立变现】显示 HN：Hurston-1 开源 TTS，讲南美语和非洲英语",
+            "originalTitle": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
+            "summary": "嘿 HN，我正在开源我的 Hurston-1 窄带 TTS 模型 (Apache-2.0)。它非常适合美式英语，尤其适合南美和非洲地区英语口音。 Destined AI 是基于...（来源：Show HN·独立变现榜）",
             "source": {
-              "name": "钛媒体·资本与风口"
+              "name": "Show HN·独立变现榜"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab2683b28e57b80a59d73a72c",
-              "original": "https://www.tmtpost.com/8181271.html"
+              "aihot": "https://zenglian-news.onrender.com/items/a80c0fa2b573d7f3e73d2c7df",
+              "original": "https://huggingface.co/destined/hurston-1"
             },
-            "publishedAt": "2026-10-25T13:02:03.000Z",
-            "discoveredAt": "2026-10-25T19:12:02.233Z",
+            "publishedAt": "2026-10-25T01:30:13.000Z",
+            "discoveredAt": "2026-10-25T21:49:55.192Z",
             "category": "money",
-            "score": 98,
+            "score": 99,
             "selected": true,
-            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab2683b28e57b80a59d73a72c"
+              "url": "https://zenglian-news.onrender.com/items/a80c0fa2b573d7f3e73d2c7df"
             }
           }
         ]
@@ -1653,6 +1653,29 @@
         "category": "tech",
         "label": "🤖 AI实时Top20",
         "items": [
+          {
+            "id": "ae7e85479395b2a1c5fa75dfc",
+            "title": "【X·AI一手】ChatGPT 正在为其用户建立详细的心理档案",
+            "originalTitle": "ChatGPT Is Building Detailed Psychological Profiles of Its Users",
+            "summary": "由 /u/ThereWas 提交 [链接] [评论]（来源：X (Twitter)·硅谷AI大佬）",
+            "source": {
+              "name": "X (Twitter)·硅谷AI大佬"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ae7e85479395b2a1c5fa75dfc",
+              "original": "https://www.reddit.com/r/OpenAI/comments/1xfapw3/chatgpt_is_building_detailed_psychological/"
+            },
+            "publishedAt": "2026-10-25T19:02:22.000Z",
+            "discoveredAt": "2026-10-25T21:50:11.899Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ae7e85479395b2a1c5fa75dfc"
+            }
+          },
           {
             "id": "a7a3b1a6db05ff137a68602a9",
             "title": "【开源大模型】OpenAI 和 Anthropic 阻止了智能电视监视我们的逆向工程",
@@ -1723,29 +1746,6 @@
             }
           },
           {
-            "id": "ab234b2d998a76c0e06abecd5",
-            "title": "【硅谷AI】在被迫选择的情况下，Grok 的人工智能模型选择了共和党人。 OpenAI 选择了民主党人。",
-            "originalTitle": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-            "summary": "一项新研究发现，Grok 的 AI 压倒性地推荐共和党候选人，而 OpenAI 的 GPT 有利于民主党，这两种 AI 模型在近 500 场选举中 90% 以上的结果存在分歧。（来源：TechCrunch·硅谷AI）",
-            "source": {
-              "name": "TechCrunch·硅谷AI"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab234b2d998a76c0e06abecd5",
-              "original": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
-            },
-            "publishedAt": "2026-10-24T15:00:00.000Z",
-            "discoveredAt": "2026-10-24T15:46:19.709Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab234b2d998a76c0e06abecd5"
-            }
-          },
-          {
             "id": "a9990ce737df5d24b136218ab",
             "title": "【X·AI一手】Claude Code 巧妙地将用户的电子邮件添加到出站 HTTP",
             "originalTitle": "Claude Code slyly adding users' emails to outbound HTTP",
@@ -1798,26 +1798,95 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "ad99042aa4b5612090f2e5f17",
-            "title": "【全球票房】哈德森·威廉姆斯正在写一部电影，因前曲棍球运动员角色“被绊倒”",
-            "originalTitle": "Hudson Williams Is Writing A Film, “Getting Tripped Up” Over Ex-Hockey Player Character",
-            "summary": "除了《激烈竞争》第二季之外，哈德森·威廉姆斯还从冰上获取一些灵感，用于未来的另一个项目。这位演员最近承认他在写的剧本中“被绊倒了”，其中包括……（来源：Deadline·全球票房与新片）",
+            "id": "a6a591ecb0cc76f3589ca328c",
+            "title": "【全球票房】阿曼达·塞弗里德解释为了家人而拒绝《银河护卫队》：“只是不适合我”",
+            "originalTitle": "Amanda Seyfried Explains Turning Down ‘Guardians of the Galaxy’ For Family: “Just Not For Me”",
+            "summary": "12 年后，阿曼达·塞弗里德出演了三部独立电影和一部假日特辑，她似乎并不后悔拒绝出演《银河护卫队》的主角。这位奥斯卡提名者解释说，漫威电影宇宙中的卡魔拉角色“只是......（来源：Deadline·全球票房与新片）",
             "source": {
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad99042aa4b5612090f2e5f17",
-              "original": "https://deadline.com/2026/10/hudson-williams-writing-film-ex-hockey-player-character-1237172776/"
+              "aihot": "https://zenglian-news.onrender.com/items/a6a591ecb0cc76f3589ca328c",
+              "original": "https://deadline.com/2026/10/amanda-seyfried-turning-down-guardians-of-the-galaxy-1237172808/"
             },
-            "publishedAt": "2026-10-25T18:24:49.000Z",
-            "discoveredAt": "2026-10-25T19:12:17.220Z",
+            "publishedAt": "2026-10-25T21:13:58.000Z",
+            "discoveredAt": "2026-10-25T21:50:26.367Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad99042aa4b5612090f2e5f17"
+              "url": "https://zenglian-news.onrender.com/items/a6a591ecb0cc76f3589ca328c"
+            }
+          },
+          {
+            "id": "a31928bea09f3126919b42f00",
+            "title": "【好莱坞一手】哈德森·威廉姆斯表示，他正在写一部以“前曲棍球运动员”为主角的电影，并被“激烈的竞争”的相似之处“绊倒”",
+            "originalTitle": "Hudson Williams Says He’s Writing a Film Featuring an ‘Ex-Hockey Player’ and Is ‘Getting Tripped Up’ by ‘Heated Rivalry’ Parallels",
+            "summary": "哈德森·威廉姆斯正在拍摄一部新电影，并因“激烈的竞争”平行而“被绊倒”。在加拿大酷儿曲棍球爱情片取得成功之前，这位演员在过去的一年里一举成名，威利……（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a31928bea09f3126919b42f00",
+              "original": "https://variety.com/2026/film/news/hudson-williams-new-film-heated-rivalry-parallel-1236930742/"
+            },
+            "publishedAt": "2026-10-25T20:27:01.000Z",
+            "discoveredAt": "2026-10-25T21:50:19.459Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a31928bea09f3126919b42f00"
+            }
+          },
+          {
+            "id": "a0f1a62e31bce097638c261b0",
+            "title": "【全球票房】《NAZA》票房突破 100 万美元，《La Bola Negra》的 Neon、Solid 有限扩张 — 专业票房",
+            "originalTitle": "‘NAZA’ Tops $1 Million With Neon, Solid Limited Expansion For ‘La Bola Negra’ — Specialty Box Office",
+            "summary": "纪录片《NAZA》最近被 Neon 收购，在影院上映期间，本周末票房突破 100 万美元大关。这部在威尼斯首映的影片由尤瓦尔·亚伯拉罕 (Yuval Abraham) 和雷切尔·索尔 (Rachel Szor)（两位奥斯卡获奖导演）执导。（来源：Deadline·全球票房与新片）",
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0f1a62e31bce097638c261b0",
+              "original": "https://deadline.com/2026/10/indie-film-box-office-naza-neon-la-bola-negra-netflix-1237172763/"
+            },
+            "publishedAt": "2026-10-25T19:31:12.000Z",
+            "discoveredAt": "2026-10-25T21:50:28.218Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0f1a62e31bce097638c261b0"
+            }
+          },
+          {
+            "id": "aa09c0f1043b31cfa09db1b74",
+            "title": "【好莱坞一手】《我扮演洛奇》明星斯蒂芬·詹姆斯以红毯造型向卡尔·韦瑟斯致敬：“我真的可以再次穿上他的鞋子了”",
+            "originalTitle": "‘I Play Rocky’ Star Stephan James on Paying Tribute to Carl Weathers with His Red Carpet Look: ‘I Can Literally Walk in His Shoes Yet Again’",
+            "summary": "周六，斯蒂芬·詹姆斯在美国电影协会电影节 (AFI Fest) 放映卡尔·韦瑟斯 (Carl Weathers) 的新片《我扮演洛奇》(I Play Rocky) 时，身穿白色西装，向卡尔·韦瑟斯致敬。詹姆斯在彼得·法拉利电影中扮演已故演员，该电影记录了真基...（来源：Variety·好莱坞影视）",
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aa09c0f1043b31cfa09db1b74",
+              "original": "https://variety.com/2026/film/columns/i-play-rocky-stephan-james-carl-weathers-michael-b-jordan-1236930508/"
+            },
+            "publishedAt": "2026-10-25T19:23:41.000Z",
+            "discoveredAt": "2026-10-25T21:50:24.628Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aa09c0f1043b31cfa09db1b74"
             }
           },
           {
@@ -1844,95 +1913,26 @@
             }
           },
           {
-            "id": "ad2fa8672178a4867b2a9af7b",
-            "title": "【好莱坞一手】埃隆·马斯克 (Elon Musk) 的《Grok》发布了第一部人工智能生成的《奥德赛》剧集，几个月前，他承诺制作“历史准确”的长片",
-            "originalTitle": "Elon Musk’s Grok Releases First AI-Generated ‘Odyssey’ Episode, Months After Promising ‘Historically Accurate’ Full-Length Film",
-            "summary": "埃隆·马斯克 (Elon Musk) 承诺他的人工智能工具 Grok Imagine 将创建一个完全由人工智能生成的长篇版本的《奥德赛》，几个月后，这位科技大亨已经部分兑现了这一承诺。周五，该委员会...（来源：Variety·好莱坞影视）",
+            "id": "a5744f74faacfc31922effcc2",
+            "title": "【好莱坞一手】《柳条》主演奥利维亚·科尔曼、亚历山大·斯卡斯加德和伊丽莎白·德比茨基谈制作这部“非常愚蠢”、“真正令人心碎”的电影：“这不仅仅是一部闹剧或性喜剧”",
+            "originalTitle": "‘Wicker’ Stars Olivia Colman, Alexander Skarsgård and Elizabeth Debicki on Making the ‘Very Silly,’ ‘Really Heartbreaking’ Film: ‘It’s Not Just a Slapstick or Sex Comedy’",
+            "summary": "当伊丽莎白·德比茨基 (Elizabeth Debicki) 到达《柳条》片场时，她首先看到的是亚历山大·斯卡斯加德 (Alexander Skarsgård) 正面涉水。但这并不是斯卡斯加德本人；而是斯卡斯加德。他“赤身裸体，像柳条一样”。 “我把...（来源：Variety·好莱坞影视）",
             "source": {
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad2fa8672178a4867b2a9af7b",
-              "original": "https://variety.com/2026/film/news/elon-musks-grok-ai-generated-odyssey-1236930662/"
+              "aihot": "https://zenglian-news.onrender.com/items/a5744f74faacfc31922effcc2",
+              "original": "https://variety.com/2026/film/news/alexander-skarsgard-olivia-colman-elizabeth-debicki-wicker-interview-1236919062/"
             },
-            "publishedAt": "2026-10-25T17:22:45.000Z",
-            "discoveredAt": "2026-10-25T19:12:12.723Z",
+            "publishedAt": "2026-10-25T20:02:05.000Z",
+            "discoveredAt": "2026-10-25T21:50:21.187Z",
             "category": "culture",
-            "score": 99,
+            "score": 98,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad2fa8672178a4867b2a9af7b"
-            }
-          },
-          {
-            "id": "af046ac27e38eea5b53d065a1",
-            "title": "【全球票房】《没人想要这个》主创艾琳·福斯特第四季有“更多故事可讲”，但不会“太依恋”",
-            "originalTitle": "‘Nobody Wants This’ Creator Erin Foster Has “More Story To Tell” With A Season 4, But Isn’t Getting “Too Attached”",
-            "summary": "如果 Netflix 想要的话，艾琳·福斯特已经准备好推出她的犹太浪漫喜剧第四季。 《无人想要这个季节》第三季发布后，该剧的创作者最近确认她“还有更多故事要讲……”（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af046ac27e38eea5b53d065a1",
-              "original": "https://deadline.com/2026/10/nobody-wants-this-erin-foster-more-story-to-tell-season-4-1237172691/"
-            },
-            "publishedAt": "2026-10-25T02:34:00.000Z",
-            "discoveredAt": "2026-10-25T06:40:55.629Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af046ac27e38eea5b53d065a1"
-            }
-          },
-          {
-            "id": "a73bcc110abfcc28098451d6c",
-            "title": "【全球票房】《SNL UK》和辛西娅·埃里沃 (Cynthia Erivo) 为 Elphaba-Glinda 托运人带来了一场“尼日利亚邪恶”女同性恋模仿秀",
-            "originalTitle": "‘SNL UK’ & Cynthia Erivo Give Elphaba-Glinda Shippers A ‘Nigerian Wicked’ Sapphic Parody",
-            "summary": "尽管《魔法坏女巫》电影可能没有给 LGBTQ 粉丝带来他们想要的 Elphaba 和 Glinda 的浪漫时刻，但英国《周六夜现场》听到了他们的要求。在本周末的喜剧小品节目中，主持人辛西...（来源：Deadline·全球票房与新片）",
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a73bcc110abfcc28098451d6c",
-              "original": "https://deadline.com/2026/10/snl-uk-cynthia-eriva-nigerian-wicked-sapphic-parody-1237172417/"
-            },
-            "publishedAt": "2026-10-25T00:17:28.000Z",
-            "discoveredAt": "2026-10-25T01:27:38.820Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a73bcc110abfcc28098451d6c"
-            }
-          },
-          {
-            "id": "a9390435f1434dcf80dd0fe66",
-            "title": "【国内文娱】解锁八桂鱼鲜密码 《在广西吃鱼》新书南宁首发",
-            "originalTitle": "解锁八桂鱼鲜密码 《在广西吃鱼》新书南宁首发",
-            "summary": "中新网南宁10月25日电(记者 林艳华)10月25日，由广西壮族自治区水产技术推广站组织编写，吴伟峰、李坚明编著，广西民族出版社出版的《在广西吃鱼》新书首发仪式在南宁举行。该书甄选88种鱼类、收录33项特色鱼食俗，全景解码广西鱼文化，以美食为媒赋能文旅融合发展。",
-            "source": {
-              "name": "中新网·影视文娱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9390435f1434dcf80dd0fe66",
-              "original": "https://www.chinanews.com.cn/cul/2026/10-25/10720827.shtml"
-            },
-            "publishedAt": "2026-10-25T12:41:37.000Z",
-            "discoveredAt": "2026-10-25T16:23:09.685Z",
-            "category": "culture",
-            "score": 98,
-            "selected": true,
-            "reason": "国家通讯社文娱频道，实时播报国内影视、院线作品、演出展览与文化热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9390435f1434dcf80dd0fe66"
+              "url": "https://zenglian-news.onrender.com/items/a5744f74faacfc31922effcc2"
             }
           }
         ]
@@ -1965,26 +1965,72 @@
             }
           },
           {
-            "id": "a2a7e1ab565c40cf11d9c83b2",
-            "title": "【欧洲足坛】桑德兰 v 利兹联：英超联赛 - 直播",
-            "originalTitle": "Sunderland v Leeds: Premier League – live",
-            "summary": "欧洲对桑德兰来说诅咒多于祝福 在布鲁诺·费尔南德斯因“纯粹足球”原因被解雇后——根据迈克尔·卡里克的说法——曼联真的能赢得一场足球比赛吗？（来源：卫报体育·欧冠与五大联赛）",
+            "id": "af6414389cda2389ea1420886",
+            "title": "【欧洲足坛】特兰德迟到，曼联终结曼城在 WSL 的胜利开局",
+            "originalTitle": "Terland strikes late as United end Manchester City’s winning start in WSL",
+            "summary": "终于，发现了一个弱点。最终，曼城 100% 获胜的开局结束，这让曼联感到非常高兴，他们在比赛末段通过伊丽莎白·特兰 (Elisabeth Terland) 破门，在这场激烈的比赛中拿下一分……（来源：卫报体育·欧冠与五大联赛）",
             "source": {
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a2a7e1ab565c40cf11d9c83b2",
-              "original": "https://www.theguardian.com/football/live/2026/oct/25/sunderland-v-leeds-premier-league-live"
+              "aihot": "https://zenglian-news.onrender.com/items/af6414389cda2389ea1420886",
+              "original": "https://www.theguardian.com/football/2026/oct/25/manchester-united-manchester-city-wsl-match-report"
             },
-            "publishedAt": "2026-10-25T16:19:42.000Z",
-            "discoveredAt": "2026-10-25T16:23:31.021Z",
+            "publishedAt": "2026-10-25T20:38:20.000Z",
+            "discoveredAt": "2026-10-25T21:50:39.991Z",
             "category": "business",
-            "score": 99,
+            "score": 98,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a2a7e1ab565c40cf11d9c83b2"
+              "url": "https://zenglian-news.onrender.com/items/af6414389cda2389ea1420886"
+            }
+          },
+          {
+            "id": "abb0c9e387d19969c55eab4f4",
+            "title": "【BBC足坛】赫尔城主场不敌布伦特福德后连续第三场战平",
+            "originalTitle": "Hull draw third consecutive home game after being held by Brentford",
+            "summary": "英超联赛在MKM球场1-1战平赫尔城，丹戈·瓦塔拉扳平比分，帮助布伦特福德拿下一分，赫尔城连续第三个主场战平。（来源：BBC Sport·欧洲足坛）",
+            "source": {
+              "name": "BBC Sport·欧洲足坛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abb0c9e387d19969c55eab4f4",
+              "original": "https://www.bbc.co.uk/sport/football/videos/cmlylkydwl78o?at_medium=RSS&at_campaign=rss"
+            },
+            "publishedAt": "2026-10-25T19:59:29.000Z",
+            "discoveredAt": "2026-10-25T21:50:36.059Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abb0c9e387d19969c55eab4f4"
+            }
+          },
+          {
+            "id": "a5c4a539d884cf8d44a9f33b3",
+            "title": "【欧洲足坛】曼联董事会就卡里克的未来和豪的做法举行危机会谈",
+            "originalTitle": "Manchester United board hold crisis talks over Carrick’s future and Howe approach",
+            "summary": "主场0-3输给伯恩茅斯后，工作处于平衡状态 豪是足球总监杰森·威尔科克斯的头号候选人 曼联高层正在就是否解雇迈克尔·卡里克作为主教练进行危机谈判......（来源：卫报体育·欧冠与五大联赛）",
+            "source": {
+              "name": "卫报体育·欧冠与五大联赛"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a5c4a539d884cf8d44a9f33b3",
+              "original": "https://www.theguardian.com/football/2026/oct/25/manchester-united-board-crisis-talks-michael-carrick-eddie-howe-bournemouth-premier-league"
+            },
+            "publishedAt": "2026-10-25T19:24:06.000Z",
+            "discoveredAt": "2026-10-25T21:50:38.312Z",
+            "category": "business",
+            "score": 98,
+            "selected": true,
+            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a5c4a539d884cf8d44a9f33b3"
             }
           },
           {
@@ -2031,52 +2077,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a6d549691b188c1c31e2d0566"
-            }
-          },
-          {
-            "id": "ac81218415aaee53df4979895",
-            "title": "【欧洲足坛】曼联被伯恩茅斯羞辱后，迈克尔·卡里克濒临崩溃边缘",
-            "originalTitle": "Michael Carrick on the brink after Manchester United are humiliated by Bournemouth",
-            "summary": "根据迈克尔·卡里克的说法，布鲁诺·费尔南德斯因“纯粹足球”原因被解雇后，曼联真的能赢得一场足球比赛吗？答案再次是响亮的、令人羞辱的“不”，如果法力……（来源：卫报体育·欧冠与五大联赛）",
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac81218415aaee53df4979895",
-              "original": "https://www.theguardian.com/football/2026/oct/25/manchester-united-bournemouth-premier-league-match-report-michael-carrick"
-            },
-            "publishedAt": "2026-10-25T16:19:03.000Z",
-            "discoveredAt": "2026-10-25T16:23:32.884Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac81218415aaee53df4979895"
-            }
-          },
-          {
-            "id": "a9823eed4ce9dfc435e79bf6a",
-            "title": "【BBC足坛】伊萨克终于辜负了利物浦的耐心回报",
-            "originalTitle": "Isak finally living up to price tag as Liverpool patience rewarded",
-            "summary": "亚历山大·伊萨克打进了他本赛季的第六个英超进球，利物浦在安多尼·伊劳拉的带领下取得了过去四场比赛中的四场胜利。（来源：BBC Sport·欧洲足坛）",
-            "source": {
-              "name": "BBC Sport·欧洲足坛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9823eed4ce9dfc435e79bf6a",
-              "original": "https://www.bbc.co.uk/sport/football/articles/cmj47lq7e5e7o?at_medium=RSS&at_campaign=rss"
-            },
-            "publishedAt": "2026-10-25T18:13:55.000Z",
-            "discoveredAt": "2026-10-25T19:12:22.314Z",
-            "category": "business",
-            "score": 97,
-            "selected": true,
-            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9823eed4ce9dfc435e79bf6a"
             }
           }
         ]

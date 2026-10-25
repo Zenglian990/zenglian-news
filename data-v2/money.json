@@ -10,6 +10,29 @@
   },
   "items": [
     {
+      "id": "a3fa0e777b6f6127c09d859a7",
+      "title": "[分享发现] dsh 是否会成为新的一代 agent 标准?",
+      "originalTitle": "[分享发现] dsh 是否会成为新的一代 agent 标准?",
+      "summary": "有空可以看下以 pi ，dsh （ deepseek harness ）为代表的新一代 agent ，前者提供了浏览器内核，后者直接做了浏览器，插件是所有的“网页”，当然这只是雏形，行业内还有那么多大佬还在观望，但从创造力可玩性来讲，比 workbuddy 等好玩多了，豆包工作，与千问办公太封闭，别的 agent 根本访问不了。 大家现在插件做的比较浅，也受制于 dsh 与技术，一个应用的表达，现在用 ts ，electron 表达各种...",
+      "source": {
+        "name": "V2EX·独立开发与副业"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a3fa0e777b6f6127c09d859a7",
+        "original": "https://www.v2ex.com/t/1251729#reply0"
+      },
+      "publishedAt": "2026-10-25T20:23:52.000Z",
+      "discoveredAt": "2026-10-25T21:50:02.727Z",
+      "category": "money",
+      "score": 92,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a3fa0e777b6f6127c09d859a7"
+      }
+    },
+    {
       "id": "aa05c18e6408c3c1c24205978",
       "title": "[Apple] 使用了三天 iPhone Duo 的感想",
       "originalTitle": "[Apple] 使用了三天 iPhone Duo 的感想",
@@ -56,29 +79,6 @@
       }
     },
     {
-      "id": "abff710522c6e552badaf4c7a",
-      "title": "[酷工作] 高级 Unity3D 游戏开发工程师 1 名 远程办公",
-      "originalTitle": "[酷工作] 高级 Unity3D 游戏开发工程师 1 名 远程办公",
-      "summary": "高级 Unity3D 游戏开发工程师 岗位职责 1. 负责 Unity3D 游戏客户端的架构设计、核心功能开发及性能优化，保障产品稳定性与可维护性。 2. 负责 Android APK 安全体系建设，包括代码混淆、加固、签名校验、完整性校验及资源保护。 3. 针对反编译、二次打包、动态调试、Hook 、内存篡改等风险，设计并落地防护方案。 4. 熟悉 Unity Mono / IL2CPP 的运行机制与安全特点，优化 C#、Java/K...",
-      "source": {
-        "name": "V2EX·独立开发与副业"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/abff710522c6e552badaf4c7a",
-        "original": "https://www.v2ex.com/t/1251724#reply0"
-      },
-      "publishedAt": "2026-10-25T16:57:30.000Z",
-      "discoveredAt": "2026-10-25T19:12:02.496Z",
-      "category": "money",
-      "score": 91,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/abff710522c6e552badaf4c7a"
-      }
-    },
-    {
       "id": "a8a2f580c2edd0d8c0d4d987d",
       "title": "安克、耐克客服失守，腾讯封不完的外挂生意",
       "originalTitle": "安克、耐克客服失守，腾讯封不完的外挂生意",
@@ -122,29 +122,6 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/a7f000448ce99c4bb5c3a9049"
-      }
-    },
-    {
-      "id": "a86bfca30d17e88eb32bd30a3",
-      "title": "[分享创造] ESP32 + 基于网页的 Harness，全自动操作 iPhone 点外卖",
-      "originalTitle": "[分享创造] ESP32 + 基于网页的 Harness，全自动操作 iPhone 点外卖",
-      "summary": "Harness 在 Safari 里运行，读取手机屏幕并调用模型，再通过 ESP32 模拟蓝牙键盘和鼠标来操作 iPhone ，也支持剪贴板同步。 手机不用接线，也不用额外安装 App 。ESP32 单独供电，和手机连接同一个 Wi-Fi 即可。 支持自选模型和自定义技能，可以把常用操作流程写成技能重复使用。目前需要 iOS / iPadOS 27 或以上。 GitHub： https://github.com/cccat6/iphon...",
-      "source": {
-        "name": "V2EX·独立开发与副业"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a86bfca30d17e88eb32bd30a3",
-        "original": "https://www.v2ex.com/t/1251717#reply0"
-      },
-      "publishedAt": "2026-10-25T16:01:32.000Z",
-      "discoveredAt": "2026-10-25T16:22:54.634Z",
-      "category": "money",
-      "score": 91,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a86bfca30d17e88eb32bd30a3"
       }
     },
     {
@@ -467,6 +444,29 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/a278f177b9e77fdedfc2657de"
+      }
+    },
+    {
+      "id": "a80c0fa2b573d7f3e73d2c7df",
+      "title": "【独立变现】显示 HN：Hurston-1 开源 TTS，讲南美语和非洲英语",
+      "originalTitle": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
+      "summary": "嘿 HN，我正在开源我的 Hurston-1 窄带 TTS 模型 (Apache-2.0)。它非常适合美式英语，尤其适合南美和非洲地区英语口音。 Destined AI 是基于...（来源：Show HN·独立变现榜）",
+      "source": {
+        "name": "Show HN·独立变现榜"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a80c0fa2b573d7f3e73d2c7df",
+        "original": "https://huggingface.co/destined/hurston-1"
+      },
+      "publishedAt": "2026-10-25T01:30:13.000Z",
+      "discoveredAt": "2026-10-25T21:49:55.192Z",
+      "category": "money",
+      "score": 99,
+      "selected": true,
+      "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a80c0fa2b573d7f3e73d2c7df"
       }
     }
   ],
