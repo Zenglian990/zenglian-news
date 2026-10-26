@@ -10,6 +10,52 @@
   },
   "items": [
     {
+      "id": "a63e869599729435aac3cb9c8",
+      "title": "英伟达下调 Rubin GPU 系统 HBM 与 NVLink 带宽，网络带宽提升",
+      "originalTitle": "英伟达下调 Rubin GPU 系统 HBM 与 NVLink 带宽，网络带宽提升",
+      "summary": "IT之家 10 月 26 日消息，根据 NVIDIA 第一方今年 10 月文档和第三方保存的今年六月文档间的对比， NVIDIA 下调了 Rubin GPU 系统的 HBM 与 NVLink 带宽 ，但网络带宽有所提升。 Vera Rubin 超级芯片的 HBM4 GPU 内存带宽此前是 44TB/s，现在是 38.5TB/s ； NVLink 带宽此前是 7.2TB/s，现在是 6TB/s ；横向扩展网络带宽此前是 0.8TB/s，现...",
+      "source": {
+        "name": "IT之家·国内产业"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a63e869599729435aac3cb9c8",
+        "original": "https://www.ithome.com/1/017/812.htm"
+      },
+      "publishedAt": "2026-10-26T03:26:52.000Z",
+      "discoveredAt": "2026-10-26T03:57:45.482Z",
+      "category": "tech",
+      "score": 95,
+      "selected": true,
+      "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a63e869599729435aac3cb9c8"
+      }
+    },
+    {
+      "id": "a8472eaf92f6217c839421fe7",
+      "title": "【X·AI一手】OpenAI 和 Anthropic 在几个月内将其 LLM 价格削减了高达 80%。为什么？",
+      "originalTitle": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "summary": "由 /u/Azer_pubes33 提交 [链接] [评论]（来源：X (Twitter)·硅谷AI大佬）",
+      "source": {
+        "name": "X (Twitter)·硅谷AI大佬"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a8472eaf92f6217c839421fe7",
+        "original": "https://www.reddit.com/r/OpenAI/comments/1xfkqa2/openai_and_anthropic_cut_their_llm_prices_by_up/"
+      },
+      "publishedAt": "2026-10-26T02:16:40.000Z",
+      "discoveredAt": "2026-10-26T03:58:11.618Z",
+      "category": "tech",
+      "score": 99,
+      "selected": true,
+      "reason": "Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a8472eaf92f6217c839421fe7"
+      }
+    },
+    {
       "id": "a9287b25f442b99965812d193",
       "title": "猫王音乐版权方起诉 Anthropic，指控其未经授权用 274 首歌曲训练 AI 模型",
       "originalTitle": "猫王音乐版权方起诉 Anthropic，指控其未经授权用 274 首歌曲训练 AI 模型",
@@ -53,6 +99,29 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/a9e05fa0850ef32191a468e81"
+      }
+    },
+    {
+      "id": "a569bf42e827c6d926bcae61c",
+      "title": "【开源大模型】SMH，认真的吗？ -->> 黄仁勋以每 GPU 每年 2,000 美元的数字预测 NVIDIA 的软件收入",
+      "originalTitle": "SMH, seriously? -->> NVIDIA Eyes Software Revenue With a $2,000 per GPU Yearly Figure From Huang",
+      "summary": "由 /u/chemist_slime 提交 [链接] [评论]（来源：LocalLLaMA·开源大模型）",
+      "source": {
+        "name": "LocalLLaMA·开源大模型"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a569bf42e827c6d926bcae61c",
+        "original": "https://www.reddit.com/r/LocalLLaMA/comments/1xfhhm4/smh_seriously_nvidia_eyes_software_revenue_with_a/"
+      },
+      "publishedAt": "2026-10-25T23:46:05.000Z",
+      "discoveredAt": "2026-10-26T02:28:37.730Z",
+      "category": "tech",
+      "score": 98,
+      "selected": true,
+      "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a569bf42e827c6d926bcae61c"
       }
     },
     {
@@ -398,75 +467,6 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/a4113728bf6fdfe9669056c47"
-      }
-    },
-    {
-      "id": "a9990ce737df5d24b136218ab",
-      "title": "【X·AI一手】Claude Code 巧妙地将用户的电子邮件添加到出站 HTTP",
-      "originalTitle": "Claude Code slyly adding users' emails to outbound HTTP",
-      "summary": "X (Twitter)·硅谷AI大佬实时快讯：Claude Code slyly adding users' emails to outbound HTTP。Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。（来源：X (Twitter)·硅谷AI大佬）",
-      "source": {
-        "name": "X (Twitter)·硅谷AI大佬"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a9990ce737df5d24b136218ab",
-        "original": "https://twitter.com/chrislakin/status/2113358733548081528"
-      },
-      "publishedAt": "2026-10-24T10:26:30.000Z",
-      "discoveredAt": "2026-10-25T01:27:30.801Z",
-      "category": "tech",
-      "score": 99,
-      "selected": true,
-      "reason": "Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a9990ce737df5d24b136218ab"
-      }
-    },
-    {
-      "id": "af60f1c082a0af1344010195f",
-      "title": "瑞典政府办公厅出手，禁止办公电脑直接访问 ChatGPT、Claude",
-      "originalTitle": "瑞典政府办公厅出手，禁止办公电脑直接访问 ChatGPT、Claude",
-      "summary": "IT之家 10 月 24 日消息，当地时间 23 日，据瑞典国家公共广播公司 Sveriges Radio 报道，瑞典政府办公厅将从下周一起禁止工作人员 通过办公电脑直接访问 ChatGPT 和 Claude ，要求员工改用微软 Copilot 等获得批准的 AI 服务。 内部资料显示，该国政府办公厅还对 Copilot 进行了审查，并进一步加强了安全防护。该机构数字化总监米卡埃尔 · 韦特克兰茨（Mikael Wettercrantz...",
-      "source": {
-        "name": "IT之家·国内产业"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/af60f1c082a0af1344010195f",
-        "original": "https://www.ithome.com/1/017/385.htm"
-      },
-      "publishedAt": "2026-10-24T06:45:40.000Z",
-      "discoveredAt": "2026-10-24T06:59:03.648Z",
-      "category": "tech",
-      "score": 97,
-      "selected": true,
-      "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/af60f1c082a0af1344010195f"
-      }
-    },
-    {
-      "id": "ab3ffbb1a7d2b511de35759b0",
-      "title": "【国内财经】3万亿级参数规模 全球最大开源AI大模型上新",
-      "originalTitle": "3万亿级参数规模 全球最大开源AI大模型上新",
-      "summary": "中新社北京10月24日电 (记者 刘亮)10月24日凌晨，中国人工智能(AI)大模型企业月之暗面(Moonshot AI)发布新一代开源大模型Kimi K3.1 Pro。该模型为3万亿级参数规模，支持100万词元(Token)上下文窗口，蝉联全球参数规模最大的开源模型。",
-      "source": {
-        "name": "中新网·国内财经"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/ab3ffbb1a7d2b511de35759b0",
-        "original": "https://www.chinanews.com.cn/cj/2026/10-24/10720310.shtml"
-      },
-      "publishedAt": "2026-10-24T06:37:07.000Z",
-      "discoveredAt": "2026-10-24T06:58:58.228Z",
-      "category": "tech",
-      "score": 99,
-      "selected": true,
-      "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/ab3ffbb1a7d2b511de35759b0"
       }
     }
   ],
