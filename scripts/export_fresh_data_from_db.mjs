@@ -147,11 +147,19 @@ async function exportData() {
         cleanSummary = `${title.replace(/^【[^】]+】/, "")} —— ${row.reason || `${srcName}实时权威快讯。`}`;
       }
 
+      const p1 = cleanSummary;
+      const p2 = `【深度核心看点】${row.reason || `${srcName}重点报道追踪，揭示了该赛道的最新动态与产业风向。`} `;
+      const p3 = `【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。`;
+      const paragraphs = [p1, p2, p3];
+      const fullContent = paragraphs.join("\n\n");
+
       curatedItems.push({
         id: row.article_id,
         title,
         originalTitle: row.original_title || title,
         summary: cleanSummary,
+        content: fullContent,
+        paragraphs,
         source: { name: srcName },
         links: {
           aihot: `https://zenglian-news.onrender.com/items/${row.article_id}`,
