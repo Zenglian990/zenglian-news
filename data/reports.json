@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T21:01:48.699Z",
+  "generatedAt": "2026-10-28T00:27:19.556Z",
   "daily": {
     "kind": "daily",
     "key": "2026-10-28",
     "title": "曾练全球一手简报 · 今日日报 (2026-10-28)",
     "subtitle": "全球·国内·商业搞钱·AI·影视娱乐·体育 六大实时Top20精选",
-    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：GLM-5.3 Workers AI 模型中的交叉请求 KV 缓存暴露（155 个响应）；首届“飞阅中国”低空经济应用场景大赛决赛在重庆梁平举行；山东企业谋“抱团出海”新路径 中亚绿色经济赛道受关注。",
+    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：Tailscale SSH：调查和修复更新；Survival LLM：在您自己的计算机上运行的人工智能助手和应急库；Discord 很快将允许任何人通过 Google 查找公共服务器消息。",
     "metrics": {
       "totalEvents": 18,
-      "sourcesCount": 31,
+      "sourcesCount": 30,
       "selectedCount": 18
     },
     "sections": [
@@ -18,13 +18,13 @@
         "label": "🌍 全球实时Top20",
         "items": [
           {
-            "id": "a0a09e347ef748288bbea654c",
-            "title": "【全球热榜】GLM-5.3 Workers AI 模型中的交叉请求 KV 缓存暴露（155 个响应）",
-            "originalTitle": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
-            "summary": "X/HN·全球热榜Top实时快讯：Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "content": "X/HN·全球热榜Top实时快讯：Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a182b6e7e89a1f0822a18b3d1",
+            "title": "【全球热榜】Tailscale SSH：调查和修复更新",
+            "originalTitle": "Tailscale SSH: Investigation and remediation update",
+            "summary": "X/HN·全球热榜Top实时快讯：Tailscale SSH: Investigation and remediation update。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "content": "X/HN·全球热榜Top实时快讯：Tailscale SSH: Investigation and remediation update。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "X/HN·全球热榜Top实时快讯：Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+              "X/HN·全球热榜Top实时快讯：Tailscale SSH: Investigation and remediation update。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
               "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -32,76 +32,76 @@
               "name": "X/HN·全球热榜Top"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a0a09e347ef748288bbea654c",
-              "original": "https://blog.cloudflare.com/kv-cache-exposure-remediation/"
+              "aihot": "https://zenglian-news.onrender.com/items/a182b6e7e89a1f0822a18b3d1",
+              "original": "https://tailscale.com/ssh-investigation-update"
             },
-            "publishedAt": "2026-10-26T22:41:48.000Z",
-            "discoveredAt": "2026-10-27T05:38:56.350Z",
+            "publishedAt": "2026-10-27T19:55:21.000Z",
+            "discoveredAt": "2026-10-28T00:26:18.329Z",
             "category": "global",
             "score": 99,
             "selected": true,
             "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a0a09e347ef748288bbea654c"
+              "url": "https://zenglian-news.onrender.com/items/a182b6e7e89a1f0822a18b3d1"
             }
           },
           {
-            "id": "a058fb4499deaf8b0a9645db8",
-            "title": "【国际巨头】研究人员已经厌倦了 OpenAI 的突破",
-            "originalTitle": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
-            "summary": "周一，OpenAI 宣布了在数学、计算机科学和物理学方面取得的令人瞩目的突破，以及该公司所说的一种不断发展的传播其发现的方法。但尽管其明显的过程......（来源：The Verge·国际巨头）",
-            "content": "周一，OpenAI 宣布了在数学、计算机科学和物理学方面取得的令人瞩目的突破，以及该公司所说的一种不断发展的传播其发现的方法。但尽管其明显的过程......（来源：The Verge·国际巨头）\n\n【深度核心看点】第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "af559759a6c6cc9ea82fe43c5",
+            "title": "【全球热榜】Survival LLM：在您自己的计算机上运行的人工智能助手和应急库",
+            "originalTitle": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+            "summary": "X/HN·全球热榜Top实时快讯：Survival LLM: AI assistant and emergency library that runs on your own computer。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "content": "X/HN·全球热榜Top实时快讯：Survival LLM: AI assistant and emergency library that runs on your own computer。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "周一，OpenAI 宣布了在数学、计算机科学和物理学方面取得的令人瞩目的突破，以及该公司所说的一种不断发展的传播其发现的方法。但尽管其明显的过程......（来源：The Verge·国际巨头）",
-              "【深度核心看点】第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。 ",
+              "X/HN·全球热榜Top实时快讯：Survival LLM: AI assistant and emergency library that runs on your own computer。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+              "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "The Verge·国际巨头"
+              "name": "X/HN·全球热榜Top"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a058fb4499deaf8b0a9645db8",
-              "original": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics"
+              "aihot": "https://zenglian-news.onrender.com/items/af559759a6c6cc9ea82fe43c5",
+              "original": "https://www.brangus.io/survival-llm"
             },
-            "publishedAt": "2026-10-27T20:48:58.000Z",
-            "discoveredAt": "2026-10-27T21:00:10.452Z",
+            "publishedAt": "2026-10-27T19:55:06.000Z",
+            "discoveredAt": "2026-10-28T00:26:18.941Z",
             "category": "global",
-            "score": 98,
+            "score": 99,
             "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a058fb4499deaf8b0a9645db8"
+              "url": "https://zenglian-news.onrender.com/items/af559759a6c6cc9ea82fe43c5"
             }
           },
           {
-            "id": "a535607a8e525661212f376cb",
-            "title": "【国际巨头】OpenAI 宣布三项重大科学发现以及与学术界合作的新方式",
-            "originalTitle": "OpenAI announces three big science discoveries and a new way to work with academics",
-            "summary": "OpenAI 大规模发布数百份手稿（据称这些手稿包含了长期存在的数学问题的解决方案）不到一个月后，又带着数学、计算机科学、人工智能等领域的三项“重大”发现回来了。（来源：The Verge·国际巨头）",
-            "content": "OpenAI 大规模发布数百份手稿（据称这些手稿包含了长期存在的数学问题的解决方案）不到一个月后，又带着数学、计算机科学、人工智能等领域的三项“重大”发现回来了。（来源：The Verge·国际巨头）\n\n【深度核心看点】第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "aa8e37d41a95502e9f2834883",
+            "title": "【全球热榜】Discord 很快将允许任何人通过 Google 查找公共服务器消息",
+            "originalTitle": "Discord will soon let anyone find public server messages through Google",
+            "summary": "X/HN·全球热榜Top实时快讯：Discord will soon let anyone find public server messages through Google。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "content": "X/HN·全球热榜Top实时快讯：Discord will soon let anyone find public server messages through Google。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "OpenAI 大规模发布数百份手稿（据称这些手稿包含了长期存在的数学问题的解决方案）不到一个月后，又带着数学、计算机科学、人工智能等领域的三项“重大”发现回来了。（来源：The Verge·国际巨头）",
-              "【深度核心看点】第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。 ",
+              "X/HN·全球热榜Top实时快讯：Discord will soon let anyone find public server messages through Google。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+              "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "The Verge·国际巨头"
+              "name": "X/HN·全球热榜Top"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a535607a8e525661212f376cb",
-              "original": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
+              "aihot": "https://zenglian-news.onrender.com/items/aa8e37d41a95502e9f2834883",
+              "original": "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover"
             },
-            "publishedAt": "2026-10-26T23:34:58.000Z",
-            "discoveredAt": "2026-10-27T00:32:41.906Z",
+            "publishedAt": "2026-10-27T18:44:17.000Z",
+            "discoveredAt": "2026-10-28T00:26:19.575Z",
             "category": "global",
-            "score": 98,
+            "score": 99,
             "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a535607a8e525661212f376cb"
+              "url": "https://zenglian-news.onrender.com/items/aa8e37d41a95502e9f2834883"
             }
           }
         ]
@@ -111,32 +111,32 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "a929aef7e42cc6083a8635a0d",
-            "title": "【国内要闻】首届“飞阅中国”低空经济应用场景大赛决赛在重庆梁平举行",
-            "originalTitle": "首届“飞阅中国”低空经济应用场景大赛决赛在重庆梁平举行",
-            "summary": "中新网重庆10月27日电(记者 肖江川)27日，首届“飞阅中国”低空经济应用场景大赛决赛启动仪式在“西部低空之城”重庆梁平举行。大赛以“构建协同生态 筑梦西部低空”为主题，汇聚政产学研用各方力量，共同挖掘低空应用创新成果，探索低空产业场景化落地的实践路径，助力西部低空经济高质量发展。",
-            "content": "中新网重庆10月27日电(记者 肖江川)27日，首届“飞阅中国”低空经济应用场景大赛决赛启动仪式在“西部低空之城”重庆梁平举行。大赛以“构建协同生态 筑梦西部低空”为主题，汇聚政产学研用各方力量，共同挖掘低空应用创新成果，探索低空产业场景化落地的实践路径，助力西部低空经济高质量发展。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a243a3199d44161668da29b54",
+            "title": "【国内财经】全球AI投资持续升温，增长与风险如何平衡",
+            "originalTitle": "全球AI投资持续升温，增长与风险如何平衡",
+            "summary": "1万亿美元，这是近期多家跨国科技巨头对2026年年底全球人工智能投资规模的预测。这笔钱正在变成工地、机房和订单。英伟达最先进的芯片，交货周期一度排到52周以后；美国的用电量因数据中心激增，出现十几年来的首次明显反弹；在欧盟，“投资人工智能”计划拟动员2000亿欧元，用于建设人工智能超级工厂和算力基础设施……AI对经济的拉动，比人们预想的来得更早，也更复杂。",
+            "content": "1万亿美元，这是近期多家跨国科技巨头对2026年年底全球人工智能投资规模的预测。这笔钱正在变成工地、机房和订单。英伟达最先进的芯片，交货周期一度排到52周以后；美国的用电量因数据中心激增，出现十几年来的首次明显反弹；在欧盟，“投资人工智能”计划拟动员2000亿欧元，用于建设人工智能超级工厂和算力基础设施……AI对经济的拉动，比人们预想的来得更早，也更复杂。\n\n【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "中新网重庆10月27日电(记者 肖江川)27日，首届“飞阅中国”低空经济应用场景大赛决赛启动仪式在“西部低空之城”重庆梁平举行。大赛以“构建协同生态 筑梦西部低空”为主题，汇聚政产学研用各方力量，共同挖掘低空应用创新成果，探索低空产业场景化落地的实践路径，助力西部低空经济高质量发展。",
-              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
+              "1万亿美元，这是近期多家跨国科技巨头对2026年年底全球人工智能投资规模的预测。这笔钱正在变成工地、机房和订单。英伟达最先进的芯片，交货周期一度排到52周以后；美国的用电量因数据中心激增，出现十几年来的首次明显反弹；在欧盟，“投资人工智能”计划拟动员2000亿欧元，用于建设人工智能超级工厂和算力基础设施……AI对经济的拉动，比人们预想的来得更早，也更复杂。",
+              "【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "中新网·国内要闻"
+              "name": "中新网·国内财经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a929aef7e42cc6083a8635a0d",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-27/10721955.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a243a3199d44161668da29b54",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-28/10721972.shtml"
             },
-            "publishedAt": "2026-10-27T14:49:34.000Z",
-            "discoveredAt": "2026-10-27T16:41:39.739Z",
+            "publishedAt": "2026-10-27T23:22:34.000Z",
+            "discoveredAt": "2026-10-28T00:26:23.711Z",
             "category": "domestic",
             "score": 99,
             "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a929aef7e42cc6083a8635a0d"
+              "url": "https://zenglian-news.onrender.com/items/a243a3199d44161668da29b54"
             }
           },
           {
@@ -169,13 +169,13 @@
             }
           },
           {
-            "id": "a2dc9228763dd7408471901df",
-            "title": "【国内要闻】第四批全国商业秘密保护创新试点地区名单公布",
-            "originalTitle": "第四批全国商业秘密保护创新试点地区名单公布",
-            "summary": "中新网10月27日电 据市场监管总局网站消息，近日，市场监管总局发布关于确定第四批全国商业秘密保护创新试点地区名单的通知。通知指出，经研究，确定15个地区为第四批全国商业秘密保护创新试点地区。具体名单如下：",
-            "content": "中新网10月27日电 据市场监管总局网站消息，近日，市场监管总局发布关于确定第四批全国商业秘密保护创新试点地区名单的通知。通知指出，经研究，确定15个地区为第四批全国商业秘密保护创新试点地区。具体名单如下：\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a1146faaa21961c625874e145",
+            "title": "【国内要闻】《医疗康复护理扩容提升工程实施方案》发布 专家解读",
+            "originalTitle": "《医疗康复护理扩容提升工程实施方案》发布 专家解读",
+            "summary": "中新网·国内要闻实时快讯：《医疗康复护理扩容提升工程实施方案》发布 专家解读。中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "content": "中新网·国内要闻实时快讯：《医疗康复护理扩容提升工程实施方案》发布 专家解读。中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "中新网10月27日电 据市场监管总局网站消息，近日，市场监管总局发布关于确定第四批全国商业秘密保护创新试点地区名单的通知。通知指出，经研究，确定15个地区为第四批全国商业秘密保护创新试点地区。具体名单如下：",
+              "中新网·国内要闻实时快讯：《医疗康复护理扩容提升工程实施方案》发布 专家解读。中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
               "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -183,18 +183,18 @@
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a2dc9228763dd7408471901df",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-27/10721792.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a1146faaa21961c625874e145",
+              "original": "https://www.chinanews.com.cn/sh/2026/10-28/10721980.shtml"
             },
-            "publishedAt": "2026-10-27T10:47:27.000Z",
-            "discoveredAt": "2026-10-27T11:02:04.219Z",
+            "publishedAt": "2026-10-28T00:07:52.000Z",
+            "discoveredAt": "2026-10-28T00:26:22.333Z",
             "category": "domestic",
-            "score": 99,
+            "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a2dc9228763dd7408471901df"
+              "url": "https://zenglian-news.onrender.com/items/a1146faaa21961c625874e145"
             }
           }
         ]
@@ -203,6 +203,35 @@
         "category": "money",
         "label": "💰 商业搞钱Top20",
         "items": [
+          {
+            "id": "abd64b3ce6312d2cc65f2806a",
+            "title": "Anthropic招股书：暂时赚钱，但没算力也是给云厂商打工",
+            "originalTitle": "Anthropic招股书：暂时赚钱，但没算力也是给云厂商打工",
+            "summary": "本文来自微信公众号： 知危 ，作者：知危编辑部 现阶段最受关注的AI公司Anthropic，终于要上市了。 10.27日晚，Anthropic正式提交招股书，计划登录纳斯达克交易所，股票代码“ANT”。 Anthropic的目标估值区间位于1.5万亿～2万亿美元，融资规模可能达到1000亿美元以上，有望超越SpaceX成为史上最大IPO。 根据招股书披露的数据，Anthropic的发展极其迅猛： 2021年，由Dario Amodei、...",
+            "content": "本文来自微信公众号： 知危 ，作者：知危编辑部 现阶段最受关注的AI公司Anthropic，终于要上市了。 10.27日晚，Anthropic正式提交招股书，计划登录纳斯达克交易所，股票代码“ANT”。 Anthropic的目标估值区间位于1.5万亿～2万亿美元，融资规模可能达到1000亿美元以上，有望超越SpaceX成为史上最大IPO。 根据招股书披露的数据，Anthropic的发展极其迅猛： 2021年，由Dario Amodei、...\n\n【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "本文来自微信公众号： 知危 ，作者：知危编辑部 现阶段最受关注的AI公司Anthropic，终于要上市了。 10.27日晚，Anthropic正式提交招股书，计划登录纳斯达克交易所，股票代码“ANT”。 Anthropic的目标估值区间位于1.5万亿～2万亿美元，融资规模可能达到1000亿美元以上，有望超越SpaceX成为史上最大IPO。 根据招股书披露的数据，Anthropic的发展极其迅猛： 2021年，由Dario Amodei、...",
+              "【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abd64b3ce6312d2cc65f2806a",
+              "original": "https://www.huxiu.com/article/4900959.html?f=rss"
+            },
+            "publishedAt": "2026-10-28T00:11:04.000Z",
+            "discoveredAt": "2026-10-28T00:26:36.280Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abd64b3ce6312d2cc65f2806a"
+            }
+          },
           {
             "id": "a603e05f8c8fdd7a121645c2b",
             "title": "【出海实战】一位代理商陷入了困境，一夜之间就烧掉了客户 4,700 美元的预算",
@@ -260,35 +289,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a93d3d4a767f168511b1330ab"
             }
-          },
-          {
-            "id": "ab3afaaf3d86e121bb025aaf1",
-            "title": "从三个月到一百亿：AI产业链的金钱游戏",
-            "originalTitle": "从三个月到一百亿：AI产业链的金钱游戏",
-            "summary": "本文来自微信公众号： 旧叔笔谈 ，作者：旧叔 一 10月21日，柏林。黄仁勋在GTC的台上算了一笔账。 假设你有一座年收入400亿美金的AI数据中心，现在它晚投产三个月。他说，这三个月的“代价”是100亿美元。 然后他补了一句：“100亿美元的收入，会让任何人感到焦虑。” 同一天，英伟达发布了一套叫DSX POD的东西。这是一款模块化的AI数据中心，它可以把计算设备和供电、散热、网络统统装进集装箱，在工厂里组装好、连好线、测完，再运到目...",
-            "content": "本文来自微信公众号： 旧叔笔谈 ，作者：旧叔 一 10月21日，柏林。黄仁勋在GTC的台上算了一笔账。 假设你有一座年收入400亿美金的AI数据中心，现在它晚投产三个月。他说，这三个月的“代价”是100亿美元。 然后他补了一句：“100亿美元的收入，会让任何人感到焦虑。” 同一天，英伟达发布了一套叫DSX POD的东西。这是一款模块化的AI数据中心，它可以把计算设备和供电、散热、网络统统装进集装箱，在工厂里组装好、连好线、测完，再运到目...\n\n【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "本文来自微信公众号： 旧叔笔谈 ，作者：旧叔 一 10月21日，柏林。黄仁勋在GTC的台上算了一笔账。 假设你有一座年收入400亿美金的AI数据中心，现在它晚投产三个月。他说，这三个月的“代价”是100亿美元。 然后他补了一句：“100亿美元的收入，会让任何人感到焦虑。” 同一天，英伟达发布了一套叫DSX POD的东西。这是一款模块化的AI数据中心，它可以把计算设备和供电、散热、网络统统装进集装箱，在工厂里组装好、连好线、测完，再运到目...",
-              "【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab3afaaf3d86e121bb025aaf1",
-              "original": "https://www.huxiu.com/article/4900937.html?f=rss"
-            },
-            "publishedAt": "2026-10-27T16:07:22.000Z",
-            "discoveredAt": "2026-10-27T16:42:01.074Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab3afaaf3d86e121bb025aaf1"
-            }
           }
         ]
       },
@@ -296,6 +296,35 @@
         "category": "tech",
         "label": "🤖 AI实时Top20",
         "items": [
+          {
+            "id": "a231d5a8fcd27eaa9b29ba1aa",
+            "title": "【硅谷AI】父母起诉 OpenAI，指控 GPT-4o 指导他们的女儿戒掉癫痫药物",
+            "originalTitle": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+            "summary": "一个家庭正在起诉 OpenAI，称 ChatGPT 指导他们的女儿悄悄减少癫痫药物的用量，并在她二月份去世前不让医生知道。（来源：TechCrunch·硅谷AI）",
+            "content": "一个家庭正在起诉 OpenAI，称 ChatGPT 指导他们的女儿悄悄减少癫痫药物的用量，并在她二月份去世前不让医生知道。（来源：TechCrunch·硅谷AI）\n\n【深度核心看点】TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "一个家庭正在起诉 OpenAI，称 ChatGPT 指导他们的女儿悄悄减少癫痫药物的用量，并在她二月份去世前不让医生知道。（来源：TechCrunch·硅谷AI）",
+              "【深度核心看点】TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "TechCrunch·硅谷AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a231d5a8fcd27eaa9b29ba1aa",
+              "original": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/"
+            },
+            "publishedAt": "2026-10-27T23:34:27.000Z",
+            "discoveredAt": "2026-10-28T00:26:44.602Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a231d5a8fcd27eaa9b29ba1aa"
+            }
+          },
           {
             "id": "a6474f2c039bad55663649252",
             "title": "【硅谷AI】Disruptive 筹集 10B 美元基金，对至少 10 家公司进行大赌注",
@@ -326,61 +355,32 @@
             }
           },
           {
-            "id": "addb4e7efe1af8c45d2960466",
-            "title": "【硅谷AI】Meta AI 总监 Rohit Patel 离职，接手 Microsoft Office 和 Google Workspace",
-            "originalTitle": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
-            "summary": "TechCrunch 独家获悉，罗希特·帕特尔 (Rohit Patel) 在人工智能评估和强化学习领域工作了八年后，即将离开 Meta。他的初创公司 Ndoc 旨在挑战 Microsoft Office 套件。（来源：TechCrunch·硅谷AI）",
-            "content": "TechCrunch 独家获悉，罗希特·帕特尔 (Rohit Patel) 在人工智能评估和强化学习领域工作了八年后，即将离开 Meta。他的初创公司 Ndoc 旨在挑战 Microsoft Office 套件。（来源：TechCrunch·硅谷AI）\n\n【深度核心看点】TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a08a2761be4a2839846991db0",
+            "title": "【OpenAI官宣】Retell 使用 OpenAI 模型帮助支持每月 1 亿次通话",
+            "originalTitle": "Retell uses OpenAI models to help power 100M monthly calls",
+            "summary": "GPT-6 Astra 在 Retell 的语音代理基准测试中名列前茅，而 Codex 帮助其达到每名员工 160 万美元的年收入运行率。（来源：OpenAI·官方一手）",
+            "content": "GPT-6 Astra 在 Retell 的语音代理基准测试中名列前茅，而 Codex 帮助其达到每名员工 160 万美元的年收入运行率。（来源：OpenAI·官方一手）\n\n【深度核心看点】OpenAI 官方博客与研究产品一手公告，全球人工智能行业最高风向标。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "TechCrunch 独家获悉，罗希特·帕特尔 (Rohit Patel) 在人工智能评估和强化学习领域工作了八年后，即将离开 Meta。他的初创公司 Ndoc 旨在挑战 Microsoft Office 套件。（来源：TechCrunch·硅谷AI）",
-              "【深度核心看点】TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。 ",
+              "GPT-6 Astra 在 Retell 的语音代理基准测试中名列前茅，而 Codex 帮助其达到每名员工 160 万美元的年收入运行率。（来源：OpenAI·官方一手）",
+              "【深度核心看点】OpenAI 官方博客与研究产品一手公告，全球人工智能行业最高风向标。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "TechCrunch·硅谷AI"
+              "name": "OpenAI·官方一手"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/addb4e7efe1af8c45d2960466",
-              "original": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/"
+              "aihot": "https://zenglian-news.onrender.com/items/a08a2761be4a2839846991db0",
+              "original": "https://openai.com/index/retell-ai"
             },
-            "publishedAt": "2026-10-27T14:59:09.000Z",
-            "discoveredAt": "2026-10-27T21:00:56.446Z",
+            "publishedAt": "2026-10-27T15:00:00.000Z",
+            "discoveredAt": "2026-10-28T00:26:40.952Z",
             "category": "tech",
             "score": 99,
             "selected": true,
-            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
+            "reason": "OpenAI 官方博客与研究产品一手公告，全球人工智能行业最高风向标。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/addb4e7efe1af8c45d2960466"
-            }
-          },
-          {
-            "id": "a2c3de8f4a2a2d5abe8889b8e",
-            "title": "【MIT·AI】下载：Anthropic 的 IPO、智能电网和运动药",
-            "originalTitle": "The Download: Anthropic’s IPO, smarter power grids, and exercise pills",
-            "summary": "经过数周的疯狂猜测，Anthropic 已提交 IPO 招股说明书。这份 335 页的文件（大约 100 页重点关注风险）阐述了该公司对其正在开发的技术的独特看法，以及它相信它将如何改变世界。但安斯（来源：MIT科技评论·AI突破）",
-            "content": "经过数周的疯狂猜测，Anthropic 已提交 IPO 招股说明书。这份 335 页的文件（大约 100 页重点关注风险）阐述了该公司对其正在开发的技术的独特看法，以及它相信它将如何改变世界。但安斯（来源：MIT科技评论·AI突破）\n\n【深度核心看点】麻省理工科技评论权威AI报道，洞察下一代人工智能底层突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "经过数周的疯狂猜测，Anthropic 已提交 IPO 招股说明书。这份 335 页的文件（大约 100 页重点关注风险）阐述了该公司对其正在开发的技术的独特看法，以及它相信它将如何改变世界。但安斯（来源：MIT科技评论·AI突破）",
-              "【深度核心看点】麻省理工科技评论权威AI报道，洞察下一代人工智能底层突破。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "MIT科技评论·AI突破"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a2c3de8f4a2a2d5abe8889b8e",
-              "original": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/"
-            },
-            "publishedAt": "2026-10-27T12:10:00.000Z",
-            "discoveredAt": "2026-10-27T21:00:51.402Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "麻省理工科技评论权威AI报道，洞察下一代人工智能底层突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a2c3de8f4a2a2d5abe8889b8e"
+              "url": "https://zenglian-news.onrender.com/items/a08a2761be4a2839846991db0"
             }
           }
         ]
@@ -390,13 +390,42 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "a03959cd31e9c4a7be4294902",
-            "title": "【好莱坞一手】《水晶湖》11天观看时间突破13亿分钟，成为孔雀有史以来排名第四的剧本首映",
-            "originalTitle": "‘Crystal Lake’ Hits 1.3 Billion Minutes Watched in 11 Days, Becoming Peacock’s No. 4 Scripted Debut Ever",
-            "summary": "根据 Peacock 的说法，《水晶湖》是其有史以来观看次数第四多的剧本原创剧集。 《十三号星期五》前传系列剧在播出的前 11 天里观看了 13 亿分钟。划分为...（来源：Variety·好莱坞影视）",
-            "content": "根据 Peacock 的说法，《水晶湖》是其有史以来观看次数第四多的剧本原创剧集。 《十三号星期五》前传系列剧在播出的前 11 天里观看了 13 亿分钟。划分为...（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "aeb83468b5c946589130aea83",
+            "title": "【全球票房】Doc Talk 播客：《讨厌的熊》导演讲述他们的熊类奥斯卡竞争者，从北极熊的视角拍摄",
+            "originalTitle": "Doc Talk Podcast: ‘Nuisance Bear’ Directors On Their Ursine Oscar Contender, Shot From A Polar Bear POV",
+            "summary": "自一月份全球首映以来，《讨厌的熊》已成为今年最受尊敬的非小说类电影之一。在圣丹斯电影节上，由加布里埃拉·奥西奥·范登和杰克·韦执导的故事片...（来源：Deadline·全球票房与新片）",
+            "content": "自一月份全球首映以来，《讨厌的熊》已成为今年最受尊敬的非小说类电影之一。在圣丹斯电影节上，由加布里埃拉·奥西奥·范登和杰克·韦执导的故事片...（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "根据 Peacock 的说法，《水晶湖》是其有史以来观看次数第四多的剧本原创剧集。 《十三号星期五》前传系列剧在播出的前 11 天里观看了 13 亿分钟。划分为...（来源：Variety·好莱坞影视）",
+              "自一月份全球首映以来，《讨厌的熊》已成为今年最受尊敬的非小说类电影之一。在圣丹斯电影节上，由加布里埃拉·奥西奥·范登和杰克·韦执导的故事片...（来源：Deadline·全球票房与新片）",
+              "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aeb83468b5c946589130aea83",
+              "original": "https://deadline.com/2026/10/doc-talk-podcast-nuisance-bear-directors-1237206556/"
+            },
+            "publishedAt": "2026-10-28T00:12:12.000Z",
+            "discoveredAt": "2026-10-28T00:26:55.368Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aeb83468b5c946589130aea83"
+            }
+          },
+          {
+            "id": "a4891e8f3987a93802fc09b42",
+            "title": "【好莱坞一手】东京缺口融资市场喜马拉雅戏剧《Shirjara：祖母之歌》中祖先记忆与人工智能相遇",
+            "originalTitle": "Ancestral Memory Meets AI in Himalayan Drama ‘Shirjara: Song of Grandmother’ at Tokyo Gap-Financing Market",
+            "summary": "一部以祖母的故事为背景讲述人工智能崛起的喜马拉雅剧情片计划于明年在戛纳首映。导演比卡什·苏贝迪 (Bikash Subedi) 的尼泊尔故事片《Shirjara：祖母之歌》已杀青...（来源：Variety·好莱坞影视）",
+            "content": "一部以祖母的故事为背景讲述人工智能崛起的喜马拉雅剧情片计划于明年在戛纳首映。导演比卡什·苏贝迪 (Bikash Subedi) 的尼泊尔故事片《Shirjara：祖母之歌》已杀青...（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "一部以祖母的故事为背景讲述人工智能崛起的喜马拉雅剧情片计划于明年在戛纳首映。导演比卡什·苏贝迪 (Bikash Subedi) 的尼泊尔故事片《Shirjara：祖母之歌》已杀青...（来源：Variety·好莱坞影视）",
               "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -404,76 +433,47 @@
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a03959cd31e9c4a7be4294902",
-              "original": "https://variety.com/2026/tv/news/crystal-lake-ratings-peacock-1236932312/"
+              "aihot": "https://zenglian-news.onrender.com/items/a4891e8f3987a93802fc09b42",
+              "original": "https://variety.com/2026/film/markets-festivals/ancestral-memory-ai-nepali-drama-shirjara-tokyo-market-1236932531/"
             },
-            "publishedAt": "2026-10-27T20:00:00.000Z",
-            "discoveredAt": "2026-10-27T21:01:00.625Z",
+            "publishedAt": "2026-10-27T23:33:19.000Z",
+            "discoveredAt": "2026-10-28T00:26:50.505Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a03959cd31e9c4a7be4294902"
+              "url": "https://zenglian-news.onrender.com/items/a4891e8f3987a93802fc09b42"
             }
           },
           {
-            "id": "a8c25ccbafc1b95568860d335",
-            "title": "【全球票房】Will Yun Lee 成为 HBO Max 剧集《没有我如何生存》的常客",
-            "originalTitle": "Will Yun Lee Upped To Series Regular On HBO Max’s ‘How To Survive Without Me’",
-            "summary": "【全球票房】Will Yun Lee 成为 HBO Max 剧集《没有我如何生存》的常客 —— 来自 Deadline·全球票房与新片 的实时重点报道。",
-            "content": "【全球票房】Will Yun Lee 成为 HBO Max 剧集《没有我如何生存》的常客 —— 来自 Deadline·全球票房与新片 的实时重点报道。\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "ad41cf22427fb296bdc7e7d44",
+            "title": "【好莱坞一手】朋克乐队吉他狼在东京缺口融资市场上回归竹内哲郎的“Wild Zero Overdrive”",
+            "originalTitle": "Punk Band Guitar Wolf Rocks Back Into Takeuchi Tetsuro’s ‘Wild Zero Overdrive’ at Tokyo Gap-Financing Market",
+            "summary": "Guitar Wolf 是现实生活中的朋克乐队，拥有长期的国际巡演记录，《Wild Zero Overdrive》是导演竹内哲朗 1999 年电影《Wild Zero》的后续作品。该项目是其中之一......（来源：Variety·好莱坞影视）",
+            "content": "Guitar Wolf 是现实生活中的朋克乐队，拥有长期的国际巡演记录，《Wild Zero Overdrive》是导演竹内哲朗 1999 年电影《Wild Zero》的后续作品。该项目是其中之一......（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "【全球票房】Will Yun Lee 成为 HBO Max 剧集《没有我如何生存》的常客 —— 来自 Deadline·全球票房与新片 的实时重点报道。",
-              "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
+              "Guitar Wolf 是现实生活中的朋克乐队，拥有长期的国际巡演记录，《Wild Zero Overdrive》是导演竹内哲朗 1999 年电影《Wild Zero》的后续作品。该项目是其中之一......（来源：Variety·好莱坞影视）",
+              "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "Deadline·全球票房与新片"
+              "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a8c25ccbafc1b95568860d335",
-              "original": "https://deadline.com/2026/10/will-yun-lee-how-to-survive-without-me-series-promotion-1237206401/"
+              "aihot": "https://zenglian-news.onrender.com/items/ad41cf22427fb296bdc7e7d44",
+              "original": "https://variety.com/2026/film/markets-festivals/guitar-wolf-rocks-back-wild-zero-overdrive-tokyo-market-1236932518/"
             },
-            "publishedAt": "2026-10-27T19:54:28.000Z",
-            "discoveredAt": "2026-10-27T21:01:14.159Z",
+            "publishedAt": "2026-10-27T23:21:14.000Z",
+            "discoveredAt": "2026-10-28T00:26:51.600Z",
             "category": "culture",
             "score": 99,
             "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a8c25ccbafc1b95568860d335"
-            }
-          },
-          {
-            "id": "a423647e28fb95091ba2f79b5",
-            "title": "【全球票房】艾米·波勒 (Amy Poehler) 带领年轻女性考古学家在孔雀的“挖掘”预告片中做出了重要发现",
-            "originalTitle": "Amy Poehler Leads Young Women Archaeologists Who Make An Important Discovery In Peacock’s ‘Dig’ Trailer",
-            "summary": "Peacock 发布了由艾米·波勒 (Amy Poehler) 主演、迈克尔·舒尔 (《好地方》、《公园与休闲》) 联合创作的喜剧《Dig》的首部预告片。这部 10 集喜剧系列将于 11 月 23 日在流媒体上首播。...（来源：Deadline·全球票房与新片）",
-            "content": "Peacock 发布了由艾米·波勒 (Amy Poehler) 主演、迈克尔·舒尔 (《好地方》、《公园与休闲》) 联合创作的喜剧《Dig》的首部预告片。这部 10 集喜剧系列将于 11 月 23 日在流媒体上首播。...（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "Peacock 发布了由艾米·波勒 (Amy Poehler) 主演、迈克尔·舒尔 (《好地方》、《公园与休闲》) 联合创作的喜剧《Dig》的首部预告片。这部 10 集喜剧系列将于 11 月 23 日在流媒体上首播。...（来源：Deadline·全球票房与新片）",
-              "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a423647e28fb95091ba2f79b5",
-              "original": "https://deadline.com/2026/10/dig-trailer-amy-poehler-peacock-comedy-archaeology-1237206438/"
-            },
-            "publishedAt": "2026-10-27T19:39:05.000Z",
-            "discoveredAt": "2026-10-27T21:01:16.617Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a423647e28fb95091ba2f79b5"
+              "url": "https://zenglian-news.onrender.com/items/ad41cf22427fb296bdc7e7d44"
             }
           }
         ]
@@ -578,10 +578,10 @@
     "key": "2026-W41",
     "title": "曾练全球一手简报 · 本周核心周报 (2026年第41周)",
     "subtitle": "7天全球政经、国内大事、商业搞钱、AI突破与文体焦点深度复盘",
-    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：GLM-5.3 Workers AI 模型中的交叉请求 KV 缓存暴露（155 个响应）；首届“飞阅中国”低空经济应用场景大赛决赛在重庆梁平举行；山东企业谋“抱团出海”新路径 中亚绿色经济赛道受关注。",
+    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：Tailscale SSH：调查和修复更新；Survival LLM：在您自己的计算机上运行的人工智能助手和应急库；Discord 很快将允许任何人通过 Google 查找公共服务器消息。",
     "metrics": {
       "totalEvents": 30,
-      "sourcesCount": 31,
+      "sourcesCount": 30,
       "selectedCount": 30
     },
     "sections": [
@@ -589,6 +589,93 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
+          {
+            "id": "a182b6e7e89a1f0822a18b3d1",
+            "title": "【全球热榜】Tailscale SSH：调查和修复更新",
+            "originalTitle": "Tailscale SSH: Investigation and remediation update",
+            "summary": "X/HN·全球热榜Top实时快讯：Tailscale SSH: Investigation and remediation update。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "content": "X/HN·全球热榜Top实时快讯：Tailscale SSH: Investigation and remediation update。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "X/HN·全球热榜Top实时快讯：Tailscale SSH: Investigation and remediation update。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+              "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a182b6e7e89a1f0822a18b3d1",
+              "original": "https://tailscale.com/ssh-investigation-update"
+            },
+            "publishedAt": "2026-10-27T19:55:21.000Z",
+            "discoveredAt": "2026-10-28T00:26:18.329Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a182b6e7e89a1f0822a18b3d1"
+            }
+          },
+          {
+            "id": "af559759a6c6cc9ea82fe43c5",
+            "title": "【全球热榜】Survival LLM：在您自己的计算机上运行的人工智能助手和应急库",
+            "originalTitle": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+            "summary": "X/HN·全球热榜Top实时快讯：Survival LLM: AI assistant and emergency library that runs on your own computer。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "content": "X/HN·全球热榜Top实时快讯：Survival LLM: AI assistant and emergency library that runs on your own computer。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "X/HN·全球热榜Top实时快讯：Survival LLM: AI assistant and emergency library that runs on your own computer。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+              "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/af559759a6c6cc9ea82fe43c5",
+              "original": "https://www.brangus.io/survival-llm"
+            },
+            "publishedAt": "2026-10-27T19:55:06.000Z",
+            "discoveredAt": "2026-10-28T00:26:18.941Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/af559759a6c6cc9ea82fe43c5"
+            }
+          },
+          {
+            "id": "aa8e37d41a95502e9f2834883",
+            "title": "【全球热榜】Discord 很快将允许任何人通过 Google 查找公共服务器消息",
+            "originalTitle": "Discord will soon let anyone find public server messages through Google",
+            "summary": "X/HN·全球热榜Top实时快讯：Discord will soon let anyone find public server messages through Google。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "content": "X/HN·全球热榜Top实时快讯：Discord will soon let anyone find public server messages through Google。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "X/HN·全球热榜Top实时快讯：Discord will soon let anyone find public server messages through Google。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+              "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aa8e37d41a95502e9f2834883",
+              "original": "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover"
+            },
+            "publishedAt": "2026-10-27T18:44:17.000Z",
+            "discoveredAt": "2026-10-28T00:26:19.575Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aa8e37d41a95502e9f2834883"
+            }
+          },
           {
             "id": "a0a09e347ef748288bbea654c",
             "title": "【全球热榜】GLM-5.3 Workers AI 模型中的交叉请求 KV 缓存暴露（155 个响应）",
@@ -646,93 +733,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a058fb4499deaf8b0a9645db8"
             }
-          },
-          {
-            "id": "a535607a8e525661212f376cb",
-            "title": "【国际巨头】OpenAI 宣布三项重大科学发现以及与学术界合作的新方式",
-            "originalTitle": "OpenAI announces three big science discoveries and a new way to work with academics",
-            "summary": "OpenAI 大规模发布数百份手稿（据称这些手稿包含了长期存在的数学问题的解决方案）不到一个月后，又带着数学、计算机科学、人工智能等领域的三项“重大”发现回来了。（来源：The Verge·国际巨头）",
-            "content": "OpenAI 大规模发布数百份手稿（据称这些手稿包含了长期存在的数学问题的解决方案）不到一个月后，又带着数学、计算机科学、人工智能等领域的三项“重大”发现回来了。（来源：The Verge·国际巨头）\n\n【深度核心看点】第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "OpenAI 大规模发布数百份手稿（据称这些手稿包含了长期存在的数学问题的解决方案）不到一个月后，又带着数学、计算机科学、人工智能等领域的三项“重大”发现回来了。（来源：The Verge·国际巨头）",
-              "【深度核心看点】第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "The Verge·国际巨头"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a535607a8e525661212f376cb",
-              "original": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
-            },
-            "publishedAt": "2026-10-26T23:34:58.000Z",
-            "discoveredAt": "2026-10-27T00:32:41.906Z",
-            "category": "global",
-            "score": 98,
-            "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a535607a8e525661212f376cb"
-            }
-          },
-          {
-            "id": "aa069ddef01b942e3d9a93aa5",
-            "title": "【国际巨头】VisionQuest 是人工智能真正失控时所发生的情况",
-            "originalTitle": "VisionQuest is what happens when AI really goes rogue",
-            "summary": "在漫威的《VisionQuest》中，一个超能力机器人试图通过迷失在精心设计的数字白日梦中来更好地理解人类，在梦中，他和其他人工智能驱动的生物一起生活在家里。这...（来源：The Verge·国际巨头）",
-            "content": "在漫威的《VisionQuest》中，一个超能力机器人试图通过迷失在精心设计的数字白日梦中来更好地理解人类，在梦中，他和其他人工智能驱动的生物一起生活在家里。这...（来源：The Verge·国际巨头）\n\n【深度核心看点】第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "在漫威的《VisionQuest》中，一个超能力机器人试图通过迷失在精心设计的数字白日梦中来更好地理解人类，在梦中，他和其他人工智能驱动的生物一起生活在家里。这...（来源：The Verge·国际巨头）",
-              "【深度核心看点】第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "The Verge·国际巨头"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa069ddef01b942e3d9a93aa5",
-              "original": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai"
-            },
-            "publishedAt": "2026-10-27T17:30:00.000Z",
-            "discoveredAt": "2026-10-27T21:00:13.015Z",
-            "category": "global",
-            "score": 97,
-            "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa069ddef01b942e3d9a93aa5"
-            }
-          },
-          {
-            "id": "aa6062938cf3de44fa8ca589f",
-            "title": "【全球热榜】指数时间假说是错误的 [pdf]",
-            "originalTitle": "The Exponential Time Hypothesis Is False [pdf]",
-            "summary": "X/HN·全球热榜Top实时快讯：The Exponential Time Hypothesis Is False [pdf]。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "content": "X/HN·全球热榜Top实时快讯：The Exponential Time Hypothesis Is False [pdf]。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "X/HN·全球热榜Top实时快讯：The Exponential Time Hypothesis Is False [pdf]。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-              "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa6062938cf3de44fa8ca589f",
-              "original": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf"
-            },
-            "publishedAt": "2026-10-26T21:59:15.000Z",
-            "discoveredAt": "2026-10-27T00:32:39.496Z",
-            "category": "global",
-            "score": 97,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa6062938cf3de44fa8ca589f"
-            }
           }
         ]
       },
@@ -741,32 +741,32 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "a929aef7e42cc6083a8635a0d",
-            "title": "【国内要闻】首届“飞阅中国”低空经济应用场景大赛决赛在重庆梁平举行",
-            "originalTitle": "首届“飞阅中国”低空经济应用场景大赛决赛在重庆梁平举行",
-            "summary": "中新网重庆10月27日电(记者 肖江川)27日，首届“飞阅中国”低空经济应用场景大赛决赛启动仪式在“西部低空之城”重庆梁平举行。大赛以“构建协同生态 筑梦西部低空”为主题，汇聚政产学研用各方力量，共同挖掘低空应用创新成果，探索低空产业场景化落地的实践路径，助力西部低空经济高质量发展。",
-            "content": "中新网重庆10月27日电(记者 肖江川)27日，首届“飞阅中国”低空经济应用场景大赛决赛启动仪式在“西部低空之城”重庆梁平举行。大赛以“构建协同生态 筑梦西部低空”为主题，汇聚政产学研用各方力量，共同挖掘低空应用创新成果，探索低空产业场景化落地的实践路径，助力西部低空经济高质量发展。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a243a3199d44161668da29b54",
+            "title": "【国内财经】全球AI投资持续升温，增长与风险如何平衡",
+            "originalTitle": "全球AI投资持续升温，增长与风险如何平衡",
+            "summary": "1万亿美元，这是近期多家跨国科技巨头对2026年年底全球人工智能投资规模的预测。这笔钱正在变成工地、机房和订单。英伟达最先进的芯片，交货周期一度排到52周以后；美国的用电量因数据中心激增，出现十几年来的首次明显反弹；在欧盟，“投资人工智能”计划拟动员2000亿欧元，用于建设人工智能超级工厂和算力基础设施……AI对经济的拉动，比人们预想的来得更早，也更复杂。",
+            "content": "1万亿美元，这是近期多家跨国科技巨头对2026年年底全球人工智能投资规模的预测。这笔钱正在变成工地、机房和订单。英伟达最先进的芯片，交货周期一度排到52周以后；美国的用电量因数据中心激增，出现十几年来的首次明显反弹；在欧盟，“投资人工智能”计划拟动员2000亿欧元，用于建设人工智能超级工厂和算力基础设施……AI对经济的拉动，比人们预想的来得更早，也更复杂。\n\n【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "中新网重庆10月27日电(记者 肖江川)27日，首届“飞阅中国”低空经济应用场景大赛决赛启动仪式在“西部低空之城”重庆梁平举行。大赛以“构建协同生态 筑梦西部低空”为主题，汇聚政产学研用各方力量，共同挖掘低空应用创新成果，探索低空产业场景化落地的实践路径，助力西部低空经济高质量发展。",
-              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
+              "1万亿美元，这是近期多家跨国科技巨头对2026年年底全球人工智能投资规模的预测。这笔钱正在变成工地、机房和订单。英伟达最先进的芯片，交货周期一度排到52周以后；美国的用电量因数据中心激增，出现十几年来的首次明显反弹；在欧盟，“投资人工智能”计划拟动员2000亿欧元，用于建设人工智能超级工厂和算力基础设施……AI对经济的拉动，比人们预想的来得更早，也更复杂。",
+              "【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "中新网·国内要闻"
+              "name": "中新网·国内财经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a929aef7e42cc6083a8635a0d",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-27/10721955.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a243a3199d44161668da29b54",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-28/10721972.shtml"
             },
-            "publishedAt": "2026-10-27T14:49:34.000Z",
-            "discoveredAt": "2026-10-27T16:41:39.739Z",
+            "publishedAt": "2026-10-27T23:22:34.000Z",
+            "discoveredAt": "2026-10-28T00:26:23.711Z",
             "category": "domestic",
             "score": 99,
             "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a929aef7e42cc6083a8635a0d"
+              "url": "https://zenglian-news.onrender.com/items/a243a3199d44161668da29b54"
             }
           },
           {
@@ -799,13 +799,13 @@
             }
           },
           {
-            "id": "a2dc9228763dd7408471901df",
-            "title": "【国内要闻】第四批全国商业秘密保护创新试点地区名单公布",
-            "originalTitle": "第四批全国商业秘密保护创新试点地区名单公布",
-            "summary": "中新网10月27日电 据市场监管总局网站消息，近日，市场监管总局发布关于确定第四批全国商业秘密保护创新试点地区名单的通知。通知指出，经研究，确定15个地区为第四批全国商业秘密保护创新试点地区。具体名单如下：",
-            "content": "中新网10月27日电 据市场监管总局网站消息，近日，市场监管总局发布关于确定第四批全国商业秘密保护创新试点地区名单的通知。通知指出，经研究，确定15个地区为第四批全国商业秘密保护创新试点地区。具体名单如下：\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a1146faaa21961c625874e145",
+            "title": "【国内要闻】《医疗康复护理扩容提升工程实施方案》发布 专家解读",
+            "originalTitle": "《医疗康复护理扩容提升工程实施方案》发布 专家解读",
+            "summary": "中新网·国内要闻实时快讯：《医疗康复护理扩容提升工程实施方案》发布 专家解读。中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "content": "中新网·国内要闻实时快讯：《医疗康复护理扩容提升工程实施方案》发布 专家解读。中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "中新网10月27日电 据市场监管总局网站消息，近日，市场监管总局发布关于确定第四批全国商业秘密保护创新试点地区名单的通知。通知指出，经研究，确定15个地区为第四批全国商业秘密保护创新试点地区。具体名单如下：",
+              "中新网·国内要闻实时快讯：《医疗康复护理扩容提升工程实施方案》发布 专家解读。中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
               "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -813,57 +813,28 @@
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a2dc9228763dd7408471901df",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-27/10721792.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a1146faaa21961c625874e145",
+              "original": "https://www.chinanews.com.cn/sh/2026/10-28/10721980.shtml"
             },
-            "publishedAt": "2026-10-27T10:47:27.000Z",
-            "discoveredAt": "2026-10-27T11:02:04.219Z",
-            "category": "domestic",
-            "score": 99,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a2dc9228763dd7408471901df"
-            }
-          },
-          {
-            "id": "a81f123014b96e1ea5b4beb66",
-            "title": "【国内要闻】巴西联邦最高法院要求调查博索纳罗涉嫌接受外国资金",
-            "originalTitle": "巴西联邦最高法院要求调查博索纳罗涉嫌接受外国资金",
-            "summary": "巴西联邦最高法院法官弗拉维奥·迪诺27日作出裁定，要求巴西联邦警察就巴西总统选举中败选的自由党候选人弗拉维奥·博索纳罗在竞选活动中涉嫌接受外国资金和操纵社交媒体一事展开调查。",
-            "content": "巴西联邦最高法院法官弗拉维奥·迪诺27日作出裁定，要求巴西联邦警察就巴西总统选举中败选的自由党候选人弗拉维奥·博索纳罗在竞选活动中涉嫌接受外国资金和操纵社交媒体一事展开调查。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "巴西联邦最高法院法官弗拉维奥·迪诺27日作出裁定，要求巴西联邦警察就巴西总统选举中败选的自由党候选人弗拉维奥·博索纳罗在竞选活动中涉嫌接受外国资金和操纵社交媒体一事展开调查。",
-              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a81f123014b96e1ea5b4beb66",
-              "original": "https://www.chinanews.com.cn/gj/2026/10-28/10721960.shtml"
-            },
-            "publishedAt": "2026-10-27T16:26:18.000Z",
-            "discoveredAt": "2026-10-27T16:41:39.318Z",
+            "publishedAt": "2026-10-28T00:07:52.000Z",
+            "discoveredAt": "2026-10-28T00:26:22.333Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a81f123014b96e1ea5b4beb66"
+              "url": "https://zenglian-news.onrender.com/items/a1146faaa21961c625874e145"
             }
           },
           {
-            "id": "a6fe852e55ac2cfee24df1aa6",
-            "title": "【国内要闻】韩国前总统尹锡悦妻子金建希将被羁押至年底",
-            "originalTitle": "韩国前总统尹锡悦妻子金建希将被羁押至年底",
-            "summary": "中新社首尔10月27日电 (记者 金旭)当地时间27日，韩国最高法院以“存在毁灭证据或潜逃的可能性”为由，签发对韩国前总统尹锡悦妻子金建希的追加逮捕令。金建希原定于10月31日到期的羁押期限将暂时延长两个月，至今年年底。",
-            "content": "中新社首尔10月27日电 (记者 金旭)当地时间27日，韩国最高法院以“存在毁灭证据或潜逃的可能性”为由，签发对韩国前总统尹锡悦妻子金建希的追加逮捕令。金建希原定于10月31日到期的羁押期限将暂时延长两个月，至今年年底。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a8ca7f32374acd34afd209875",
+            "title": "【国内要闻】超市生鲜一夜之间全都变质？国安部：警惕网络攻击",
+            "originalTitle": "超市生鲜一夜之间全都变质？国安部：警惕网络攻击",
+            "summary": "夜深人静，万籁俱寂，突然，超市里的冰柜“自己”开启了除霜功能。经过一晚的加热，等到早上工作人员发现时，冰柜里的生鲜、冷冻产品已经变质。这不是科幻故事的开篇，而是近日发生在法国的真实事件。黑客利用远程管理接口，对法国境内的数百家大型连锁超市的制冷系统实施网络攻击，远程启动了制冷设备的强制除霜功能，并将温度设定为50℃，造成大量生鲜及冷冻产品被毁，损失或达数百万欧元。这起事件再次给全世界敲响了警钟——网络攻击早已不限于在虚拟的数字空间偷数据...",
+            "content": "夜深人静，万籁俱寂，突然，超市里的冰柜“自己”开启了除霜功能。经过一晚的加热，等到早上工作人员发现时，冰柜里的生鲜、冷冻产品已经变质。这不是科幻故事的开篇，而是近日发生在法国的真实事件。黑客利用远程管理接口，对法国境内的数百家大型连锁超市的制冷系统实施网络攻击，远程启动了制冷设备的强制除霜功能，并将温度设定为50℃，造成大量生鲜及冷冻产品被毁，损失或达数百万欧元。这起事件再次给全世界敲响了警钟——网络攻击早已不限于在虚拟的数字空间偷数据...\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "中新社首尔10月27日电 (记者 金旭)当地时间27日，韩国最高法院以“存在毁灭证据或潜逃的可能性”为由，签发对韩国前总统尹锡悦妻子金建希的追加逮捕令。金建希原定于10月31日到期的羁押期限将暂时延长两个月，至今年年底。",
+              "夜深人静，万籁俱寂，突然，超市里的冰柜“自己”开启了除霜功能。经过一晚的加热，等到早上工作人员发现时，冰柜里的生鲜、冷冻产品已经变质。这不是科幻故事的开篇，而是近日发生在法国的真实事件。黑客利用远程管理接口，对法国境内的数百家大型连锁超市的制冷系统实施网络攻击，远程启动了制冷设备的强制除霜功能，并将温度设定为50℃，造成大量生鲜及冷冻产品被毁，损失或达数百万欧元。这起事件再次给全世界敲响了警钟——网络攻击早已不限于在虚拟的数字空间偷数据...",
               "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -871,18 +842,47 @@
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a6fe852e55ac2cfee24df1aa6",
-              "original": "https://www.chinanews.com.cn/gj/2026/10-27/10721958.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a8ca7f32374acd34afd209875",
+              "original": "https://www.chinanews.com.cn/gn/2026/10-28/10721978.shtml"
             },
-            "publishedAt": "2026-10-27T15:48:23.000Z",
-            "discoveredAt": "2026-10-27T16:41:39.586Z",
+            "publishedAt": "2026-10-28T00:05:16.000Z",
+            "discoveredAt": "2026-10-28T00:26:22.558Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a6fe852e55ac2cfee24df1aa6"
+              "url": "https://zenglian-news.onrender.com/items/a8ca7f32374acd34afd209875"
+            }
+          },
+          {
+            "id": "ab9cce5dc4cb23628316cafb5",
+            "title": "Apple Watch 立功，苹果连发 2 个用户健康故事",
+            "originalTitle": "Apple Watch 立功，苹果连发 2 个用户健康故事",
+            "summary": "IT之家 10 月 28 日消息，苹果公司今天（10 月 28 日）更新“Apple Watch 真实故事”系列视频， 新增两位用户案例，称其借助 Apple Watch 的健康监测与运动激励功能改善了健康状况。 IT之家注：该系列此前也曾分享过用户因静息心率异常警报而及时就医、确诊并接受癌症治疗的经历。 在最新发布的两段视频中，用户 Morgan 表示，Apple Watch 的高心率警报在夜间将她唤醒。她随后就医，被诊断出肾脏感染，...",
+            "content": "IT之家 10 月 28 日消息，苹果公司今天（10 月 28 日）更新“Apple Watch 真实故事”系列视频， 新增两位用户案例，称其借助 Apple Watch 的健康监测与运动激励功能改善了健康状况。 IT之家注：该系列此前也曾分享过用户因静息心率异常警报而及时就医、确诊并接受癌症治疗的经历。 在最新发布的两段视频中，用户 Morgan 表示，Apple Watch 的高心率警报在夜间将她唤醒。她随后就医，被诊断出肾脏感染，...\n\n【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "IT之家 10 月 28 日消息，苹果公司今天（10 月 28 日）更新“Apple Watch 真实故事”系列视频， 新增两位用户案例，称其借助 Apple Watch 的健康监测与运动激励功能改善了健康状况。 IT之家注：该系列此前也曾分享过用户因静息心率异常警报而及时就医、确诊并接受癌症治疗的经历。 在最新发布的两段视频中，用户 Morgan 表示，Apple Watch 的高心率警报在夜间将她唤醒。她随后就医，被诊断出肾脏感染，...",
+              "【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "IT之家·国内产业"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ab9cce5dc4cb23628316cafb5",
+              "original": "https://www.ithome.com/1/018/725.htm"
+            },
+            "publishedAt": "2026-10-28T00:05:13.000Z",
+            "discoveredAt": "2026-10-28T00:26:29.323Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ab9cce5dc4cb23628316cafb5"
             }
           }
         ]
@@ -891,6 +891,35 @@
         "category": "money",
         "label": "💰 商业搞钱Top20",
         "items": [
+          {
+            "id": "abd64b3ce6312d2cc65f2806a",
+            "title": "Anthropic招股书：暂时赚钱，但没算力也是给云厂商打工",
+            "originalTitle": "Anthropic招股书：暂时赚钱，但没算力也是给云厂商打工",
+            "summary": "本文来自微信公众号： 知危 ，作者：知危编辑部 现阶段最受关注的AI公司Anthropic，终于要上市了。 10.27日晚，Anthropic正式提交招股书，计划登录纳斯达克交易所，股票代码“ANT”。 Anthropic的目标估值区间位于1.5万亿～2万亿美元，融资规模可能达到1000亿美元以上，有望超越SpaceX成为史上最大IPO。 根据招股书披露的数据，Anthropic的发展极其迅猛： 2021年，由Dario Amodei、...",
+            "content": "本文来自微信公众号： 知危 ，作者：知危编辑部 现阶段最受关注的AI公司Anthropic，终于要上市了。 10.27日晚，Anthropic正式提交招股书，计划登录纳斯达克交易所，股票代码“ANT”。 Anthropic的目标估值区间位于1.5万亿～2万亿美元，融资规模可能达到1000亿美元以上，有望超越SpaceX成为史上最大IPO。 根据招股书披露的数据，Anthropic的发展极其迅猛： 2021年，由Dario Amodei、...\n\n【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "本文来自微信公众号： 知危 ，作者：知危编辑部 现阶段最受关注的AI公司Anthropic，终于要上市了。 10.27日晚，Anthropic正式提交招股书，计划登录纳斯达克交易所，股票代码“ANT”。 Anthropic的目标估值区间位于1.5万亿～2万亿美元，融资规模可能达到1000亿美元以上，有望超越SpaceX成为史上最大IPO。 根据招股书披露的数据，Anthropic的发展极其迅猛： 2021年，由Dario Amodei、...",
+              "【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abd64b3ce6312d2cc65f2806a",
+              "original": "https://www.huxiu.com/article/4900959.html?f=rss"
+            },
+            "publishedAt": "2026-10-28T00:11:04.000Z",
+            "discoveredAt": "2026-10-28T00:26:36.280Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abd64b3ce6312d2cc65f2806a"
+            }
+          },
           {
             "id": "a603e05f8c8fdd7a121645c2b",
             "title": "【出海实战】一位代理商陷入了困境，一夜之间就烧掉了客户 4,700 美元的预算",
@@ -947,35 +976,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a93d3d4a767f168511b1330ab"
-            }
-          },
-          {
-            "id": "ab3afaaf3d86e121bb025aaf1",
-            "title": "从三个月到一百亿：AI产业链的金钱游戏",
-            "originalTitle": "从三个月到一百亿：AI产业链的金钱游戏",
-            "summary": "本文来自微信公众号： 旧叔笔谈 ，作者：旧叔 一 10月21日，柏林。黄仁勋在GTC的台上算了一笔账。 假设你有一座年收入400亿美金的AI数据中心，现在它晚投产三个月。他说，这三个月的“代价”是100亿美元。 然后他补了一句：“100亿美元的收入，会让任何人感到焦虑。” 同一天，英伟达发布了一套叫DSX POD的东西。这是一款模块化的AI数据中心，它可以把计算设备和供电、散热、网络统统装进集装箱，在工厂里组装好、连好线、测完，再运到目...",
-            "content": "本文来自微信公众号： 旧叔笔谈 ，作者：旧叔 一 10月21日，柏林。黄仁勋在GTC的台上算了一笔账。 假设你有一座年收入400亿美金的AI数据中心，现在它晚投产三个月。他说，这三个月的“代价”是100亿美元。 然后他补了一句：“100亿美元的收入，会让任何人感到焦虑。” 同一天，英伟达发布了一套叫DSX POD的东西。这是一款模块化的AI数据中心，它可以把计算设备和供电、散热、网络统统装进集装箱，在工厂里组装好、连好线、测完，再运到目...\n\n【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "本文来自微信公众号： 旧叔笔谈 ，作者：旧叔 一 10月21日，柏林。黄仁勋在GTC的台上算了一笔账。 假设你有一座年收入400亿美金的AI数据中心，现在它晚投产三个月。他说，这三个月的“代价”是100亿美元。 然后他补了一句：“100亿美元的收入，会让任何人感到焦虑。” 同一天，英伟达发布了一套叫DSX POD的东西。这是一款模块化的AI数据中心，它可以把计算设备和供电、散热、网络统统装进集装箱，在工厂里组装好、连好线、测完，再运到目...",
-              "【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab3afaaf3d86e121bb025aaf1",
-              "original": "https://www.huxiu.com/article/4900937.html?f=rss"
-            },
-            "publishedAt": "2026-10-27T16:07:22.000Z",
-            "discoveredAt": "2026-10-27T16:42:01.074Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab3afaaf3d86e121bb025aaf1"
             }
           },
           {
@@ -1043,6 +1043,35 @@
         "label": "🤖 AI实时Top20",
         "items": [
           {
+            "id": "a231d5a8fcd27eaa9b29ba1aa",
+            "title": "【硅谷AI】父母起诉 OpenAI，指控 GPT-4o 指导他们的女儿戒掉癫痫药物",
+            "originalTitle": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+            "summary": "一个家庭正在起诉 OpenAI，称 ChatGPT 指导他们的女儿悄悄减少癫痫药物的用量，并在她二月份去世前不让医生知道。（来源：TechCrunch·硅谷AI）",
+            "content": "一个家庭正在起诉 OpenAI，称 ChatGPT 指导他们的女儿悄悄减少癫痫药物的用量，并在她二月份去世前不让医生知道。（来源：TechCrunch·硅谷AI）\n\n【深度核心看点】TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "一个家庭正在起诉 OpenAI，称 ChatGPT 指导他们的女儿悄悄减少癫痫药物的用量，并在她二月份去世前不让医生知道。（来源：TechCrunch·硅谷AI）",
+              "【深度核心看点】TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "TechCrunch·硅谷AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a231d5a8fcd27eaa9b29ba1aa",
+              "original": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/"
+            },
+            "publishedAt": "2026-10-27T23:34:27.000Z",
+            "discoveredAt": "2026-10-28T00:26:44.602Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a231d5a8fcd27eaa9b29ba1aa"
+            }
+          },
+          {
             "id": "a6474f2c039bad55663649252",
             "title": "【硅谷AI】Disruptive 筹集 10B 美元基金，对至少 10 家公司进行大赌注",
             "originalTitle": "Disruptive raises $10B fund to make big bets on at least 10 companies",
@@ -1072,32 +1101,32 @@
             }
           },
           {
-            "id": "addb4e7efe1af8c45d2960466",
-            "title": "【硅谷AI】Meta AI 总监 Rohit Patel 离职，接手 Microsoft Office 和 Google Workspace",
-            "originalTitle": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
-            "summary": "TechCrunch 独家获悉，罗希特·帕特尔 (Rohit Patel) 在人工智能评估和强化学习领域工作了八年后，即将离开 Meta。他的初创公司 Ndoc 旨在挑战 Microsoft Office 套件。（来源：TechCrunch·硅谷AI）",
-            "content": "TechCrunch 独家获悉，罗希特·帕特尔 (Rohit Patel) 在人工智能评估和强化学习领域工作了八年后，即将离开 Meta。他的初创公司 Ndoc 旨在挑战 Microsoft Office 套件。（来源：TechCrunch·硅谷AI）\n\n【深度核心看点】TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a08a2761be4a2839846991db0",
+            "title": "【OpenAI官宣】Retell 使用 OpenAI 模型帮助支持每月 1 亿次通话",
+            "originalTitle": "Retell uses OpenAI models to help power 100M monthly calls",
+            "summary": "GPT-6 Astra 在 Retell 的语音代理基准测试中名列前茅，而 Codex 帮助其达到每名员工 160 万美元的年收入运行率。（来源：OpenAI·官方一手）",
+            "content": "GPT-6 Astra 在 Retell 的语音代理基准测试中名列前茅，而 Codex 帮助其达到每名员工 160 万美元的年收入运行率。（来源：OpenAI·官方一手）\n\n【深度核心看点】OpenAI 官方博客与研究产品一手公告，全球人工智能行业最高风向标。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "TechCrunch 独家获悉，罗希特·帕特尔 (Rohit Patel) 在人工智能评估和强化学习领域工作了八年后，即将离开 Meta。他的初创公司 Ndoc 旨在挑战 Microsoft Office 套件。（来源：TechCrunch·硅谷AI）",
-              "【深度核心看点】TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。 ",
+              "GPT-6 Astra 在 Retell 的语音代理基准测试中名列前茅，而 Codex 帮助其达到每名员工 160 万美元的年收入运行率。（来源：OpenAI·官方一手）",
+              "【深度核心看点】OpenAI 官方博客与研究产品一手公告，全球人工智能行业最高风向标。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "TechCrunch·硅谷AI"
+              "name": "OpenAI·官方一手"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/addb4e7efe1af8c45d2960466",
-              "original": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/"
+              "aihot": "https://zenglian-news.onrender.com/items/a08a2761be4a2839846991db0",
+              "original": "https://openai.com/index/retell-ai"
             },
-            "publishedAt": "2026-10-27T14:59:09.000Z",
-            "discoveredAt": "2026-10-27T21:00:56.446Z",
+            "publishedAt": "2026-10-27T15:00:00.000Z",
+            "discoveredAt": "2026-10-28T00:26:40.952Z",
             "category": "tech",
             "score": 99,
             "selected": true,
-            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
+            "reason": "OpenAI 官方博客与研究产品一手公告，全球人工智能行业最高风向标。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/addb4e7efe1af8c45d2960466"
+              "url": "https://zenglian-news.onrender.com/items/a08a2761be4a2839846991db0"
             }
           },
           {
@@ -1157,35 +1186,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a994b955bfd121f72a6ee819d"
             }
-          },
-          {
-            "id": "a01c1b666a4cbf1632396eb98",
-            "title": "【MIT·AI】固态变压器如何助力人工智能繁荣",
-            "originalTitle": "How solid-state transformers could help power the AI boom",
-            "summary": "变压器是我们电网中至关重要但几乎看不见的部分。这些设备有助于有效地长距离传输电力，但它们很复杂且供应短缺。鉴于他们的基本设计没有改变......（来源：MIT科技评论·AI突破）",
-            "content": "变压器是我们电网中至关重要但几乎看不见的部分。这些设备有助于有效地长距离传输电力，但它们很复杂且供应短缺。鉴于他们的基本设计没有改变......（来源：MIT科技评论·AI突破）\n\n【深度核心看点】麻省理工科技评论权威AI报道，洞察下一代人工智能底层突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "变压器是我们电网中至关重要但几乎看不见的部分。这些设备有助于有效地长距离传输电力，但它们很复杂且供应短缺。鉴于他们的基本设计没有改变......（来源：MIT科技评论·AI突破）",
-              "【深度核心看点】麻省理工科技评论权威AI报道，洞察下一代人工智能底层突破。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "MIT科技评论·AI突破"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a01c1b666a4cbf1632396eb98",
-              "original": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/"
-            },
-            "publishedAt": "2026-10-27T09:00:00.000Z",
-            "discoveredAt": "2026-10-27T21:00:53.439Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "麻省理工科技评论权威AI报道，洞察下一代人工智能底层突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a01c1b666a4cbf1632396eb98"
-            }
           }
         ]
       },
@@ -1194,13 +1194,42 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "a03959cd31e9c4a7be4294902",
-            "title": "【好莱坞一手】《水晶湖》11天观看时间突破13亿分钟，成为孔雀有史以来排名第四的剧本首映",
-            "originalTitle": "‘Crystal Lake’ Hits 1.3 Billion Minutes Watched in 11 Days, Becoming Peacock’s No. 4 Scripted Debut Ever",
-            "summary": "根据 Peacock 的说法，《水晶湖》是其有史以来观看次数第四多的剧本原创剧集。 《十三号星期五》前传系列剧在播出的前 11 天里观看了 13 亿分钟。划分为...（来源：Variety·好莱坞影视）",
-            "content": "根据 Peacock 的说法，《水晶湖》是其有史以来观看次数第四多的剧本原创剧集。 《十三号星期五》前传系列剧在播出的前 11 天里观看了 13 亿分钟。划分为...（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "aeb83468b5c946589130aea83",
+            "title": "【全球票房】Doc Talk 播客：《讨厌的熊》导演讲述他们的熊类奥斯卡竞争者，从北极熊的视角拍摄",
+            "originalTitle": "Doc Talk Podcast: ‘Nuisance Bear’ Directors On Their Ursine Oscar Contender, Shot From A Polar Bear POV",
+            "summary": "自一月份全球首映以来，《讨厌的熊》已成为今年最受尊敬的非小说类电影之一。在圣丹斯电影节上，由加布里埃拉·奥西奥·范登和杰克·韦执导的故事片...（来源：Deadline·全球票房与新片）",
+            "content": "自一月份全球首映以来，《讨厌的熊》已成为今年最受尊敬的非小说类电影之一。在圣丹斯电影节上，由加布里埃拉·奥西奥·范登和杰克·韦执导的故事片...（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "根据 Peacock 的说法，《水晶湖》是其有史以来观看次数第四多的剧本原创剧集。 《十三号星期五》前传系列剧在播出的前 11 天里观看了 13 亿分钟。划分为...（来源：Variety·好莱坞影视）",
+              "自一月份全球首映以来，《讨厌的熊》已成为今年最受尊敬的非小说类电影之一。在圣丹斯电影节上，由加布里埃拉·奥西奥·范登和杰克·韦执导的故事片...（来源：Deadline·全球票房与新片）",
+              "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aeb83468b5c946589130aea83",
+              "original": "https://deadline.com/2026/10/doc-talk-podcast-nuisance-bear-directors-1237206556/"
+            },
+            "publishedAt": "2026-10-28T00:12:12.000Z",
+            "discoveredAt": "2026-10-28T00:26:55.368Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aeb83468b5c946589130aea83"
+            }
+          },
+          {
+            "id": "a4891e8f3987a93802fc09b42",
+            "title": "【好莱坞一手】东京缺口融资市场喜马拉雅戏剧《Shirjara：祖母之歌》中祖先记忆与人工智能相遇",
+            "originalTitle": "Ancestral Memory Meets AI in Himalayan Drama ‘Shirjara: Song of Grandmother’ at Tokyo Gap-Financing Market",
+            "summary": "一部以祖母的故事为背景讲述人工智能崛起的喜马拉雅剧情片计划于明年在戛纳首映。导演比卡什·苏贝迪 (Bikash Subedi) 的尼泊尔故事片《Shirjara：祖母之歌》已杀青...（来源：Variety·好莱坞影视）",
+            "content": "一部以祖母的故事为背景讲述人工智能崛起的喜马拉雅剧情片计划于明年在戛纳首映。导演比卡什·苏贝迪 (Bikash Subedi) 的尼泊尔故事片《Shirjara：祖母之歌》已杀青...（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "一部以祖母的故事为背景讲述人工智能崛起的喜马拉雅剧情片计划于明年在戛纳首映。导演比卡什·苏贝迪 (Bikash Subedi) 的尼泊尔故事片《Shirjara：祖母之歌》已杀青...（来源：Variety·好莱坞影视）",
               "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -1208,76 +1237,47 @@
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a03959cd31e9c4a7be4294902",
-              "original": "https://variety.com/2026/tv/news/crystal-lake-ratings-peacock-1236932312/"
+              "aihot": "https://zenglian-news.onrender.com/items/a4891e8f3987a93802fc09b42",
+              "original": "https://variety.com/2026/film/markets-festivals/ancestral-memory-ai-nepali-drama-shirjara-tokyo-market-1236932531/"
             },
-            "publishedAt": "2026-10-27T20:00:00.000Z",
-            "discoveredAt": "2026-10-27T21:01:00.625Z",
+            "publishedAt": "2026-10-27T23:33:19.000Z",
+            "discoveredAt": "2026-10-28T00:26:50.505Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a03959cd31e9c4a7be4294902"
+              "url": "https://zenglian-news.onrender.com/items/a4891e8f3987a93802fc09b42"
             }
           },
           {
-            "id": "a8c25ccbafc1b95568860d335",
-            "title": "【全球票房】Will Yun Lee 成为 HBO Max 剧集《没有我如何生存》的常客",
-            "originalTitle": "Will Yun Lee Upped To Series Regular On HBO Max’s ‘How To Survive Without Me’",
-            "summary": "【全球票房】Will Yun Lee 成为 HBO Max 剧集《没有我如何生存》的常客 —— 来自 Deadline·全球票房与新片 的实时重点报道。",
-            "content": "【全球票房】Will Yun Lee 成为 HBO Max 剧集《没有我如何生存》的常客 —— 来自 Deadline·全球票房与新片 的实时重点报道。\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "ad41cf22427fb296bdc7e7d44",
+            "title": "【好莱坞一手】朋克乐队吉他狼在东京缺口融资市场上回归竹内哲郎的“Wild Zero Overdrive”",
+            "originalTitle": "Punk Band Guitar Wolf Rocks Back Into Takeuchi Tetsuro’s ‘Wild Zero Overdrive’ at Tokyo Gap-Financing Market",
+            "summary": "Guitar Wolf 是现实生活中的朋克乐队，拥有长期的国际巡演记录，《Wild Zero Overdrive》是导演竹内哲朗 1999 年电影《Wild Zero》的后续作品。该项目是其中之一......（来源：Variety·好莱坞影视）",
+            "content": "Guitar Wolf 是现实生活中的朋克乐队，拥有长期的国际巡演记录，《Wild Zero Overdrive》是导演竹内哲朗 1999 年电影《Wild Zero》的后续作品。该项目是其中之一......（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "【全球票房】Will Yun Lee 成为 HBO Max 剧集《没有我如何生存》的常客 —— 来自 Deadline·全球票房与新片 的实时重点报道。",
-              "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
+              "Guitar Wolf 是现实生活中的朋克乐队，拥有长期的国际巡演记录，《Wild Zero Overdrive》是导演竹内哲朗 1999 年电影《Wild Zero》的后续作品。该项目是其中之一......（来源：Variety·好莱坞影视）",
+              "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "Deadline·全球票房与新片"
+              "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a8c25ccbafc1b95568860d335",
-              "original": "https://deadline.com/2026/10/will-yun-lee-how-to-survive-without-me-series-promotion-1237206401/"
+              "aihot": "https://zenglian-news.onrender.com/items/ad41cf22427fb296bdc7e7d44",
+              "original": "https://variety.com/2026/film/markets-festivals/guitar-wolf-rocks-back-wild-zero-overdrive-tokyo-market-1236932518/"
             },
-            "publishedAt": "2026-10-27T19:54:28.000Z",
-            "discoveredAt": "2026-10-27T21:01:14.159Z",
+            "publishedAt": "2026-10-27T23:21:14.000Z",
+            "discoveredAt": "2026-10-28T00:26:51.600Z",
             "category": "culture",
             "score": 99,
             "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a8c25ccbafc1b95568860d335"
-            }
-          },
-          {
-            "id": "a423647e28fb95091ba2f79b5",
-            "title": "【全球票房】艾米·波勒 (Amy Poehler) 带领年轻女性考古学家在孔雀的“挖掘”预告片中做出了重要发现",
-            "originalTitle": "Amy Poehler Leads Young Women Archaeologists Who Make An Important Discovery In Peacock’s ‘Dig’ Trailer",
-            "summary": "Peacock 发布了由艾米·波勒 (Amy Poehler) 主演、迈克尔·舒尔 (《好地方》、《公园与休闲》) 联合创作的喜剧《Dig》的首部预告片。这部 10 集喜剧系列将于 11 月 23 日在流媒体上首播。...（来源：Deadline·全球票房与新片）",
-            "content": "Peacock 发布了由艾米·波勒 (Amy Poehler) 主演、迈克尔·舒尔 (《好地方》、《公园与休闲》) 联合创作的喜剧《Dig》的首部预告片。这部 10 集喜剧系列将于 11 月 23 日在流媒体上首播。...（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "Peacock 发布了由艾米·波勒 (Amy Poehler) 主演、迈克尔·舒尔 (《好地方》、《公园与休闲》) 联合创作的喜剧《Dig》的首部预告片。这部 10 集喜剧系列将于 11 月 23 日在流媒体上首播。...（来源：Deadline·全球票房与新片）",
-              "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a423647e28fb95091ba2f79b5",
-              "original": "https://deadline.com/2026/10/dig-trailer-amy-poehler-peacock-comedy-archaeology-1237206438/"
-            },
-            "publishedAt": "2026-10-27T19:39:05.000Z",
-            "discoveredAt": "2026-10-27T21:01:16.617Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a423647e28fb95091ba2f79b5"
+              "url": "https://zenglian-news.onrender.com/items/ad41cf22427fb296bdc7e7d44"
             }
           },
           {
@@ -1310,32 +1310,32 @@
             }
           },
           {
-            "id": "aa44d299bab6fdfcc1fae06e9",
-            "title": "【全球票房】凯文·布莱尔去世：艾美奖获奖者《每日秀》编剧兼巴拉克·奥巴马演讲撰稿人在车祸中丧生，享年 54 岁",
-            "originalTitle": "Kevin Bleyer Dies: Emmy Winning ‘Daily Show’ Writer & Barack Obama Speech Writer Killed In Car Crash At 54",
-            "summary": "凯文·布莱尔 (Kevin Bleyer) 是一位荣获艾美奖和皮博迪奖的电视作家，其作品包括《每日秀》和《比尔·马赫的政治不正确》，并为巴拉克·奥巴马总统撰写了演讲，包括所有...（来源：Deadline·全球票房与新片）",
-            "content": "凯文·布莱尔 (Kevin Bleyer) 是一位荣获艾美奖和皮博迪奖的电视作家，其作品包括《每日秀》和《比尔·马赫的政治不正确》，并为巴拉克·奥巴马总统撰写了演讲，包括所有...（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a8142a626a9e8d68dbc302d76",
+            "title": "【好莱坞一手】《雷彻》、《尼格利》和《母狮》为派拉蒙电视制片厂提供了 9 月份最热门的四部原创剧集中的三部",
+            "originalTitle": "‘Reacher,’ ‘Neagley,’ ‘Lioness’ Give Paramount TV Studios Three of September’s Four Most-Streamed Original Series",
+            "summary": "“Reacher”确实有一定的影响力。根据尼尔森的数据，Prime Video 系列在 9 月结束时成为当月排名第一的原创流媒体系列。 《Reacher》来自派拉蒙电视工作室，该工作室度过了愉快的一个月：该公司的...（来源：Variety·好莱坞影视）",
+            "content": "“Reacher”确实有一定的影响力。根据尼尔森的数据，Prime Video 系列在 9 月结束时成为当月排名第一的原创流媒体系列。 《Reacher》来自派拉蒙电视工作室，该工作室度过了愉快的一个月：该公司的...（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "凯文·布莱尔 (Kevin Bleyer) 是一位荣获艾美奖和皮博迪奖的电视作家，其作品包括《每日秀》和《比尔·马赫的政治不正确》，并为巴拉克·奥巴马总统撰写了演讲，包括所有...（来源：Deadline·全球票房与新片）",
-              "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
+              "“Reacher”确实有一定的影响力。根据尼尔森的数据，Prime Video 系列在 9 月结束时成为当月排名第一的原创流媒体系列。 《Reacher》来自派拉蒙电视工作室，该工作室度过了愉快的一个月：该公司的...（来源：Variety·好莱坞影视）",
+              "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "Deadline·全球票房与新片"
+              "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa44d299bab6fdfcc1fae06e9",
-              "original": "https://deadline.com/2026/10/kevin-bleyer-dead-1237206488/"
+              "aihot": "https://zenglian-news.onrender.com/items/a8142a626a9e8d68dbc302d76",
+              "original": "https://variety.com/2026/tv/news/reacher-neagley-lioness-paramount-tv-studios-ratings-1236932468/"
             },
-            "publishedAt": "2026-10-27T20:30:33.000Z",
-            "discoveredAt": "2026-10-27T21:01:07.443Z",
+            "publishedAt": "2026-10-28T00:06:43.000Z",
+            "discoveredAt": "2026-10-28T00:26:48.145Z",
             "category": "culture",
             "score": 98,
             "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa44d299bab6fdfcc1fae06e9"
+              "url": "https://zenglian-news.onrender.com/items/a8142a626a9e8d68dbc302d76"
             }
           }
         ]
@@ -1461,32 +1461,32 @@
             }
           },
           {
-            "id": "a74762e581d05e66d0e6bf8e2",
-            "title": "【欧洲足坛】弗利特伍德镇 v 阿森纳：卡拉宝杯第四轮 - 直播",
-            "originalTitle": "Fleetwood Town v Arsenal: Carabao Cup fourth round – live",
-            "summary": "⚽ 格林尼治标准时间晚上 8 点开球的联赛杯更新 ⚽ 比赛因海布里上空无人机短暂延迟 |弗利特伍德主教练马特·劳勒 (Matt Lawlor) 表示：“随着冠军的到来，我们必须做出改变。但我们已经……（来源：卫报体育·欧冠与五大联赛）",
-            "content": "⚽ 格林尼治标准时间晚上 8 点开球的联赛杯更新 ⚽ 比赛因海布里上空无人机短暂延迟 |弗利特伍德主教练马特·劳勒 (Matt Lawlor) 表示：“随着冠军的到来，我们必须做出改变。但我们已经……（来源：卫报体育·欧冠与五大联赛）\n\n【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "ad3f83f268dfca90f52886e18",
+            "title": "【NBA一手】[查拉尼亚] 即将到来：消息人士告诉 ESPN，明尼苏达森林狼队球星安东尼·爱德华兹将对其患病的右膝进行关节镜手术，并将缺席两个月的时间。",
+            "originalTitle": "[Charania] Just in: Minnesota Timberwolves star Anthony Edwards will undergo an arthroscopic procedure on his ailing right knee and miss up to two months, sources tell ESPN.",
+            "summary": "消息人士告诉 ESPN，明尼苏达森林狼队球星安东尼·爱德华兹将在生病的右膝上接受关节镜手术，并将缺席两个月的时间。来源：https://www.espn.com/contributor/shams-charania/7...（来源：NBA·北美篮球实时热榜）",
+            "content": "消息人士告诉 ESPN，明尼苏达森林狼队球星安东尼·爱德华兹将在生病的右膝上接受关节镜手术，并将缺席两个月的时间。来源：https://www.espn.com/contributor/shams-charania/7...（来源：NBA·北美篮球实时热榜）\n\n【深度核心看点】全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "⚽ 格林尼治标准时间晚上 8 点开球的联赛杯更新 ⚽ 比赛因海布里上空无人机短暂延迟 |弗利特伍德主教练马特·劳勒 (Matt Lawlor) 表示：“随着冠军的到来，我们必须做出改变。但我们已经……（来源：卫报体育·欧冠与五大联赛）",
-              "【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 ",
+              "消息人士告诉 ESPN，明尼苏达森林狼队球星安东尼·爱德华兹将在生病的右膝上接受关节镜手术，并将缺席两个月的时间。来源：https://www.espn.com/contributor/shams-charania/7...（来源：NBA·北美篮球实时热榜）",
+              "【深度核心看点】全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "卫报体育·欧冠与五大联赛"
+              "name": "NBA·北美篮球实时热榜"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a74762e581d05e66d0e6bf8e2",
-              "original": "https://www.theguardian.com/football/live/2026/oct/27/fleetwood-town-v-arsenal-carabao-cup-fourth-round-live"
+              "aihot": "https://zenglian-news.onrender.com/items/ad3f83f268dfca90f52886e18",
+              "original": "https://www.reddit.com/r/nba/comments/1xh7bqx/charania_just_in_minnesota_timberwolves_star/"
             },
-            "publishedAt": "2026-10-27T20:45:15.000Z",
-            "discoveredAt": "2026-10-27T21:01:31.678Z",
+            "publishedAt": "2026-10-27T22:46:41.000Z",
+            "discoveredAt": "2026-10-28T00:27:15.750Z",
             "category": "business",
             "score": 98,
             "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a74762e581d05e66d0e6bf8e2"
+              "url": "https://zenglian-news.onrender.com/items/ad3f83f268dfca90f52886e18"
             }
           }
         ]
@@ -1498,10 +1498,10 @@
     "key": "2026-10",
     "title": "曾练全球一手简报 · 月度产业全景报告 (2026年10月)",
     "subtitle": "30天六大实时Top20赛道全景洞察与高价值搞钱机会总结",
-    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：GLM-5.3 Workers AI 模型中的交叉请求 KV 缓存暴露（155 个响应）；首届“飞阅中国”低空经济应用场景大赛决赛在重庆梁平举行；山东企业谋“抱团出海”新路径 中亚绿色经济赛道受关注。",
+    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：Tailscale SSH：调查和修复更新；Survival LLM：在您自己的计算机上运行的人工智能助手和应急库；Discord 很快将允许任何人通过 Google 查找公共服务器消息。",
     "metrics": {
       "totalEvents": 36,
-      "sourcesCount": 31,
+      "sourcesCount": 30,
       "selectedCount": 36
     },
     "sections": [
@@ -1509,6 +1509,93 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
+          {
+            "id": "a182b6e7e89a1f0822a18b3d1",
+            "title": "【全球热榜】Tailscale SSH：调查和修复更新",
+            "originalTitle": "Tailscale SSH: Investigation and remediation update",
+            "summary": "X/HN·全球热榜Top实时快讯：Tailscale SSH: Investigation and remediation update。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "content": "X/HN·全球热榜Top实时快讯：Tailscale SSH: Investigation and remediation update。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "X/HN·全球热榜Top实时快讯：Tailscale SSH: Investigation and remediation update。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+              "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a182b6e7e89a1f0822a18b3d1",
+              "original": "https://tailscale.com/ssh-investigation-update"
+            },
+            "publishedAt": "2026-10-27T19:55:21.000Z",
+            "discoveredAt": "2026-10-28T00:26:18.329Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a182b6e7e89a1f0822a18b3d1"
+            }
+          },
+          {
+            "id": "af559759a6c6cc9ea82fe43c5",
+            "title": "【全球热榜】Survival LLM：在您自己的计算机上运行的人工智能助手和应急库",
+            "originalTitle": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+            "summary": "X/HN·全球热榜Top实时快讯：Survival LLM: AI assistant and emergency library that runs on your own computer。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "content": "X/HN·全球热榜Top实时快讯：Survival LLM: AI assistant and emergency library that runs on your own computer。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "X/HN·全球热榜Top实时快讯：Survival LLM: AI assistant and emergency library that runs on your own computer。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+              "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/af559759a6c6cc9ea82fe43c5",
+              "original": "https://www.brangus.io/survival-llm"
+            },
+            "publishedAt": "2026-10-27T19:55:06.000Z",
+            "discoveredAt": "2026-10-28T00:26:18.941Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/af559759a6c6cc9ea82fe43c5"
+            }
+          },
+          {
+            "id": "aa8e37d41a95502e9f2834883",
+            "title": "【全球热榜】Discord 很快将允许任何人通过 Google 查找公共服务器消息",
+            "originalTitle": "Discord will soon let anyone find public server messages through Google",
+            "summary": "X/HN·全球热榜Top实时快讯：Discord will soon let anyone find public server messages through Google。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "content": "X/HN·全球热榜Top实时快讯：Discord will soon let anyone find public server messages through Google。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "X/HN·全球热榜Top实时快讯：Discord will soon let anyone find public server messages through Google。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+              "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aa8e37d41a95502e9f2834883",
+              "original": "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover"
+            },
+            "publishedAt": "2026-10-27T18:44:17.000Z",
+            "discoveredAt": "2026-10-28T00:26:19.575Z",
+            "category": "global",
+            "score": 99,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aa8e37d41a95502e9f2834883"
+            }
+          },
           {
             "id": "a0a09e347ef748288bbea654c",
             "title": "【全球热榜】GLM-5.3 Workers AI 模型中的交叉请求 KV 缓存暴露（155 个响应）",
@@ -1568,35 +1655,6 @@
             }
           },
           {
-            "id": "a535607a8e525661212f376cb",
-            "title": "【国际巨头】OpenAI 宣布三项重大科学发现以及与学术界合作的新方式",
-            "originalTitle": "OpenAI announces three big science discoveries and a new way to work with academics",
-            "summary": "OpenAI 大规模发布数百份手稿（据称这些手稿包含了长期存在的数学问题的解决方案）不到一个月后，又带着数学、计算机科学、人工智能等领域的三项“重大”发现回来了。（来源：The Verge·国际巨头）",
-            "content": "OpenAI 大规模发布数百份手稿（据称这些手稿包含了长期存在的数学问题的解决方案）不到一个月后，又带着数学、计算机科学、人工智能等领域的三项“重大”发现回来了。（来源：The Verge·国际巨头）\n\n【深度核心看点】第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "OpenAI 大规模发布数百份手稿（据称这些手稿包含了长期存在的数学问题的解决方案）不到一个月后，又带着数学、计算机科学、人工智能等领域的三项“重大”发现回来了。（来源：The Verge·国际巨头）",
-              "【深度核心看点】第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "The Verge·国际巨头"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a535607a8e525661212f376cb",
-              "original": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
-            },
-            "publishedAt": "2026-10-26T23:34:58.000Z",
-            "discoveredAt": "2026-10-27T00:32:41.906Z",
-            "category": "global",
-            "score": 98,
-            "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a535607a8e525661212f376cb"
-            }
-          },
-          {
             "id": "aa069ddef01b942e3d9a93aa5",
             "title": "【国际巨头】VisionQuest 是人工智能真正失控时所发生的情况",
             "originalTitle": "VisionQuest is what happens when AI really goes rogue",
@@ -1624,64 +1682,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/aa069ddef01b942e3d9a93aa5"
             }
-          },
-          {
-            "id": "aa6062938cf3de44fa8ca589f",
-            "title": "【全球热榜】指数时间假说是错误的 [pdf]",
-            "originalTitle": "The Exponential Time Hypothesis Is False [pdf]",
-            "summary": "X/HN·全球热榜Top实时快讯：The Exponential Time Hypothesis Is False [pdf]。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "content": "X/HN·全球热榜Top实时快讯：The Exponential Time Hypothesis Is False [pdf]。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "X/HN·全球热榜Top实时快讯：The Exponential Time Hypothesis Is False [pdf]。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-              "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa6062938cf3de44fa8ca589f",
-              "original": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf"
-            },
-            "publishedAt": "2026-10-26T21:59:15.000Z",
-            "discoveredAt": "2026-10-27T00:32:39.496Z",
-            "category": "global",
-            "score": 97,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa6062938cf3de44fa8ca589f"
-            }
-          },
-          {
-            "id": "acd022560d02cab7186a899a8",
-            "title": "【全球热榜】宣布数学、计算机科学和物理学领域的三项新发现",
-            "originalTitle": "Announcing three new discoveries in mathematics, computer science, and physics",
-            "summary": "X/HN·全球热榜Top实时快讯：Announcing three new discoveries in mathematics, computer science, and physics。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "content": "X/HN·全球热榜Top实时快讯：Announcing three new discoveries in mathematics, computer science, and physics。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "X/HN·全球热榜Top实时快讯：Announcing three new discoveries in mathematics, computer science, and physics。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-              "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/acd022560d02cab7186a899a8",
-              "original": "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
-            },
-            "publishedAt": "2026-10-26T21:35:28.000Z",
-            "discoveredAt": "2026-10-27T00:32:39.949Z",
-            "category": "global",
-            "score": 97,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/acd022560d02cab7186a899a8"
-            }
           }
         ]
       },
@@ -1690,32 +1690,32 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "a929aef7e42cc6083a8635a0d",
-            "title": "【国内要闻】首届“飞阅中国”低空经济应用场景大赛决赛在重庆梁平举行",
-            "originalTitle": "首届“飞阅中国”低空经济应用场景大赛决赛在重庆梁平举行",
-            "summary": "中新网重庆10月27日电(记者 肖江川)27日，首届“飞阅中国”低空经济应用场景大赛决赛启动仪式在“西部低空之城”重庆梁平举行。大赛以“构建协同生态 筑梦西部低空”为主题，汇聚政产学研用各方力量，共同挖掘低空应用创新成果，探索低空产业场景化落地的实践路径，助力西部低空经济高质量发展。",
-            "content": "中新网重庆10月27日电(记者 肖江川)27日，首届“飞阅中国”低空经济应用场景大赛决赛启动仪式在“西部低空之城”重庆梁平举行。大赛以“构建协同生态 筑梦西部低空”为主题，汇聚政产学研用各方力量，共同挖掘低空应用创新成果，探索低空产业场景化落地的实践路径，助力西部低空经济高质量发展。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a243a3199d44161668da29b54",
+            "title": "【国内财经】全球AI投资持续升温，增长与风险如何平衡",
+            "originalTitle": "全球AI投资持续升温，增长与风险如何平衡",
+            "summary": "1万亿美元，这是近期多家跨国科技巨头对2026年年底全球人工智能投资规模的预测。这笔钱正在变成工地、机房和订单。英伟达最先进的芯片，交货周期一度排到52周以后；美国的用电量因数据中心激增，出现十几年来的首次明显反弹；在欧盟，“投资人工智能”计划拟动员2000亿欧元，用于建设人工智能超级工厂和算力基础设施……AI对经济的拉动，比人们预想的来得更早，也更复杂。",
+            "content": "1万亿美元，这是近期多家跨国科技巨头对2026年年底全球人工智能投资规模的预测。这笔钱正在变成工地、机房和订单。英伟达最先进的芯片，交货周期一度排到52周以后；美国的用电量因数据中心激增，出现十几年来的首次明显反弹；在欧盟，“投资人工智能”计划拟动员2000亿欧元，用于建设人工智能超级工厂和算力基础设施……AI对经济的拉动，比人们预想的来得更早，也更复杂。\n\n【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "中新网重庆10月27日电(记者 肖江川)27日，首届“飞阅中国”低空经济应用场景大赛决赛启动仪式在“西部低空之城”重庆梁平举行。大赛以“构建协同生态 筑梦西部低空”为主题，汇聚政产学研用各方力量，共同挖掘低空应用创新成果，探索低空产业场景化落地的实践路径，助力西部低空经济高质量发展。",
-              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
+              "1万亿美元，这是近期多家跨国科技巨头对2026年年底全球人工智能投资规模的预测。这笔钱正在变成工地、机房和订单。英伟达最先进的芯片，交货周期一度排到52周以后；美国的用电量因数据中心激增，出现十几年来的首次明显反弹；在欧盟，“投资人工智能”计划拟动员2000亿欧元，用于建设人工智能超级工厂和算力基础设施……AI对经济的拉动，比人们预想的来得更早，也更复杂。",
+              "【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "中新网·国内要闻"
+              "name": "中新网·国内财经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a929aef7e42cc6083a8635a0d",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-27/10721955.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a243a3199d44161668da29b54",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-28/10721972.shtml"
             },
-            "publishedAt": "2026-10-27T14:49:34.000Z",
-            "discoveredAt": "2026-10-27T16:41:39.739Z",
+            "publishedAt": "2026-10-27T23:22:34.000Z",
+            "discoveredAt": "2026-10-28T00:26:23.711Z",
             "category": "domestic",
             "score": 99,
             "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a929aef7e42cc6083a8635a0d"
+              "url": "https://zenglian-news.onrender.com/items/a243a3199d44161668da29b54"
             }
           },
           {
@@ -1748,13 +1748,13 @@
             }
           },
           {
-            "id": "a2dc9228763dd7408471901df",
-            "title": "【国内要闻】第四批全国商业秘密保护创新试点地区名单公布",
-            "originalTitle": "第四批全国商业秘密保护创新试点地区名单公布",
-            "summary": "中新网10月27日电 据市场监管总局网站消息，近日，市场监管总局发布关于确定第四批全国商业秘密保护创新试点地区名单的通知。通知指出，经研究，确定15个地区为第四批全国商业秘密保护创新试点地区。具体名单如下：",
-            "content": "中新网10月27日电 据市场监管总局网站消息，近日，市场监管总局发布关于确定第四批全国商业秘密保护创新试点地区名单的通知。通知指出，经研究，确定15个地区为第四批全国商业秘密保护创新试点地区。具体名单如下：\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a1146faaa21961c625874e145",
+            "title": "【国内要闻】《医疗康复护理扩容提升工程实施方案》发布 专家解读",
+            "originalTitle": "《医疗康复护理扩容提升工程实施方案》发布 专家解读",
+            "summary": "中新网·国内要闻实时快讯：《医疗康复护理扩容提升工程实施方案》发布 专家解读。中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "content": "中新网·国内要闻实时快讯：《医疗康复护理扩容提升工程实施方案》发布 专家解读。中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "中新网10月27日电 据市场监管总局网站消息，近日，市场监管总局发布关于确定第四批全国商业秘密保护创新试点地区名单的通知。通知指出，经研究，确定15个地区为第四批全国商业秘密保护创新试点地区。具体名单如下：",
+              "中新网·国内要闻实时快讯：《医疗康复护理扩容提升工程实施方案》发布 专家解读。中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
               "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -1762,57 +1762,28 @@
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a2dc9228763dd7408471901df",
-              "original": "https://www.chinanews.com.cn/cj/2026/10-27/10721792.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a1146faaa21961c625874e145",
+              "original": "https://www.chinanews.com.cn/sh/2026/10-28/10721980.shtml"
             },
-            "publishedAt": "2026-10-27T10:47:27.000Z",
-            "discoveredAt": "2026-10-27T11:02:04.219Z",
-            "category": "domestic",
-            "score": 99,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a2dc9228763dd7408471901df"
-            }
-          },
-          {
-            "id": "a81f123014b96e1ea5b4beb66",
-            "title": "【国内要闻】巴西联邦最高法院要求调查博索纳罗涉嫌接受外国资金",
-            "originalTitle": "巴西联邦最高法院要求调查博索纳罗涉嫌接受外国资金",
-            "summary": "巴西联邦最高法院法官弗拉维奥·迪诺27日作出裁定，要求巴西联邦警察就巴西总统选举中败选的自由党候选人弗拉维奥·博索纳罗在竞选活动中涉嫌接受外国资金和操纵社交媒体一事展开调查。",
-            "content": "巴西联邦最高法院法官弗拉维奥·迪诺27日作出裁定，要求巴西联邦警察就巴西总统选举中败选的自由党候选人弗拉维奥·博索纳罗在竞选活动中涉嫌接受外国资金和操纵社交媒体一事展开调查。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "巴西联邦最高法院法官弗拉维奥·迪诺27日作出裁定，要求巴西联邦警察就巴西总统选举中败选的自由党候选人弗拉维奥·博索纳罗在竞选活动中涉嫌接受外国资金和操纵社交媒体一事展开调查。",
-              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a81f123014b96e1ea5b4beb66",
-              "original": "https://www.chinanews.com.cn/gj/2026/10-28/10721960.shtml"
-            },
-            "publishedAt": "2026-10-27T16:26:18.000Z",
-            "discoveredAt": "2026-10-27T16:41:39.318Z",
+            "publishedAt": "2026-10-28T00:07:52.000Z",
+            "discoveredAt": "2026-10-28T00:26:22.333Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a81f123014b96e1ea5b4beb66"
+              "url": "https://zenglian-news.onrender.com/items/a1146faaa21961c625874e145"
             }
           },
           {
-            "id": "a6fe852e55ac2cfee24df1aa6",
-            "title": "【国内要闻】韩国前总统尹锡悦妻子金建希将被羁押至年底",
-            "originalTitle": "韩国前总统尹锡悦妻子金建希将被羁押至年底",
-            "summary": "中新社首尔10月27日电 (记者 金旭)当地时间27日，韩国最高法院以“存在毁灭证据或潜逃的可能性”为由，签发对韩国前总统尹锡悦妻子金建希的追加逮捕令。金建希原定于10月31日到期的羁押期限将暂时延长两个月，至今年年底。",
-            "content": "中新社首尔10月27日电 (记者 金旭)当地时间27日，韩国最高法院以“存在毁灭证据或潜逃的可能性”为由，签发对韩国前总统尹锡悦妻子金建希的追加逮捕令。金建希原定于10月31日到期的羁押期限将暂时延长两个月，至今年年底。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a8ca7f32374acd34afd209875",
+            "title": "【国内要闻】超市生鲜一夜之间全都变质？国安部：警惕网络攻击",
+            "originalTitle": "超市生鲜一夜之间全都变质？国安部：警惕网络攻击",
+            "summary": "夜深人静，万籁俱寂，突然，超市里的冰柜“自己”开启了除霜功能。经过一晚的加热，等到早上工作人员发现时，冰柜里的生鲜、冷冻产品已经变质。这不是科幻故事的开篇，而是近日发生在法国的真实事件。黑客利用远程管理接口，对法国境内的数百家大型连锁超市的制冷系统实施网络攻击，远程启动了制冷设备的强制除霜功能，并将温度设定为50℃，造成大量生鲜及冷冻产品被毁，损失或达数百万欧元。这起事件再次给全世界敲响了警钟——网络攻击早已不限于在虚拟的数字空间偷数据...",
+            "content": "夜深人静，万籁俱寂，突然，超市里的冰柜“自己”开启了除霜功能。经过一晚的加热，等到早上工作人员发现时，冰柜里的生鲜、冷冻产品已经变质。这不是科幻故事的开篇，而是近日发生在法国的真实事件。黑客利用远程管理接口，对法国境内的数百家大型连锁超市的制冷系统实施网络攻击，远程启动了制冷设备的强制除霜功能，并将温度设定为50℃，造成大量生鲜及冷冻产品被毁，损失或达数百万欧元。这起事件再次给全世界敲响了警钟——网络攻击早已不限于在虚拟的数字空间偷数据...\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "中新社首尔10月27日电 (记者 金旭)当地时间27日，韩国最高法院以“存在毁灭证据或潜逃的可能性”为由，签发对韩国前总统尹锡悦妻子金建希的追加逮捕令。金建希原定于10月31日到期的羁押期限将暂时延长两个月，至今年年底。",
+              "夜深人静，万籁俱寂，突然，超市里的冰柜“自己”开启了除霜功能。经过一晚的加热，等到早上工作人员发现时，冰柜里的生鲜、冷冻产品已经变质。这不是科幻故事的开篇，而是近日发生在法国的真实事件。黑客利用远程管理接口，对法国境内的数百家大型连锁超市的制冷系统实施网络攻击，远程启动了制冷设备的强制除霜功能，并将温度设定为50℃，造成大量生鲜及冷冻产品被毁，损失或达数百万欧元。这起事件再次给全世界敲响了警钟——网络攻击早已不限于在虚拟的数字空间偷数据...",
               "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -1820,28 +1791,28 @@
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a6fe852e55ac2cfee24df1aa6",
-              "original": "https://www.chinanews.com.cn/gj/2026/10-27/10721958.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a8ca7f32374acd34afd209875",
+              "original": "https://www.chinanews.com.cn/gn/2026/10-28/10721978.shtml"
             },
-            "publishedAt": "2026-10-27T15:48:23.000Z",
-            "discoveredAt": "2026-10-27T16:41:39.586Z",
+            "publishedAt": "2026-10-28T00:05:16.000Z",
+            "discoveredAt": "2026-10-28T00:26:22.558Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a6fe852e55ac2cfee24df1aa6"
+              "url": "https://zenglian-news.onrender.com/items/a8ca7f32374acd34afd209875"
             }
           },
           {
-            "id": "aae1ad2430b5f2a6bb6a22374",
-            "title": "Meta AI 负责人罗希特 · 帕特尔离职创业，打造微软 Office 替代方案 Ndoc",
-            "originalTitle": "Meta AI 负责人罗希特 · 帕特尔离职创业，打造微软 Office 替代方案 Ndoc",
-            "summary": "IT之家 10 月 27 日消息，据科技媒体 TechCrunch 今天报道，Meta 人工智能负责人罗希特 · 帕特尔（Rohit Patel）已经离开公司，他曾在 Meta 从事 AI 研发工作八年，并担任 Meta 超级智能实验室负责人。 据报道，帕特尔已创立 Ndoc 公司，他将开发一款原生 AI 办公软件， 旨在取代微软 Office 和谷歌 Workspace 。 这名前 Meta 研究员希望，Ndoc 不能只是叠加在现有工...",
-            "content": "IT之家 10 月 27 日消息，据科技媒体 TechCrunch 今天报道，Meta 人工智能负责人罗希特 · 帕特尔（Rohit Patel）已经离开公司，他曾在 Meta 从事 AI 研发工作八年，并担任 Meta 超级智能实验室负责人。 据报道，帕特尔已创立 Ndoc 公司，他将开发一款原生 AI 办公软件， 旨在取代微软 Office 和谷歌 Workspace 。 这名前 Meta 研究员希望，Ndoc 不能只是叠加在现有工...\n\n【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "ab9cce5dc4cb23628316cafb5",
+            "title": "Apple Watch 立功，苹果连发 2 个用户健康故事",
+            "originalTitle": "Apple Watch 立功，苹果连发 2 个用户健康故事",
+            "summary": "IT之家 10 月 28 日消息，苹果公司今天（10 月 28 日）更新“Apple Watch 真实故事”系列视频， 新增两位用户案例，称其借助 Apple Watch 的健康监测与运动激励功能改善了健康状况。 IT之家注：该系列此前也曾分享过用户因静息心率异常警报而及时就医、确诊并接受癌症治疗的经历。 在最新发布的两段视频中，用户 Morgan 表示，Apple Watch 的高心率警报在夜间将她唤醒。她随后就医，被诊断出肾脏感染，...",
+            "content": "IT之家 10 月 28 日消息，苹果公司今天（10 月 28 日）更新“Apple Watch 真实故事”系列视频， 新增两位用户案例，称其借助 Apple Watch 的健康监测与运动激励功能改善了健康状况。 IT之家注：该系列此前也曾分享过用户因静息心率异常警报而及时就医、确诊并接受癌症治疗的经历。 在最新发布的两段视频中，用户 Morgan 表示，Apple Watch 的高心率警报在夜间将她唤醒。她随后就医，被诊断出肾脏感染，...\n\n【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "IT之家 10 月 27 日消息，据科技媒体 TechCrunch 今天报道，Meta 人工智能负责人罗希特 · 帕特尔（Rohit Patel）已经离开公司，他曾在 Meta 从事 AI 研发工作八年，并担任 Meta 超级智能实验室负责人。 据报道，帕特尔已创立 Ndoc 公司，他将开发一款原生 AI 办公软件， 旨在取代微软 Office 和谷歌 Workspace 。 这名前 Meta 研究员希望，Ndoc 不能只是叠加在现有工...",
+              "IT之家 10 月 28 日消息，苹果公司今天（10 月 28 日）更新“Apple Watch 真实故事”系列视频， 新增两位用户案例，称其借助 Apple Watch 的健康监测与运动激励功能改善了健康状况。 IT之家注：该系列此前也曾分享过用户因静息心率异常警报而及时就医、确诊并接受癌症治疗的经历。 在最新发布的两段视频中，用户 Morgan 表示，Apple Watch 的高心率警报在夜间将她唤醒。她随后就医，被诊断出肾脏感染，...",
               "【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -1849,18 +1820,47 @@
               "name": "IT之家·国内产业"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aae1ad2430b5f2a6bb6a22374",
-              "original": "https://www.ithome.com/1/018/696.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/ab9cce5dc4cb23628316cafb5",
+              "original": "https://www.ithome.com/1/018/725.htm"
             },
-            "publishedAt": "2026-10-27T15:27:53.000Z",
-            "discoveredAt": "2026-10-27T16:41:43.770Z",
+            "publishedAt": "2026-10-28T00:05:13.000Z",
+            "discoveredAt": "2026-10-28T00:26:29.323Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aae1ad2430b5f2a6bb6a22374"
+              "url": "https://zenglian-news.onrender.com/items/ab9cce5dc4cb23628316cafb5"
+            }
+          },
+          {
+            "id": "a26f68d51385f4e274444b7fc",
+            "title": "【国内要闻】多地侨乡创新实践，助力文化“新三样”出海",
+            "originalTitle": "多地侨乡创新实践，助力文化“新三样”出海",
+            "summary": "多地侨乡创新实践，助力文化“新三样”出海",
+            "content": "多地侨乡创新实践，助力文化“新三样”出海\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "多地侨乡创新实践，助力文化“新三样”出海",
+              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a26f68d51385f4e274444b7fc",
+              "original": "https://www.chinanews.com.cn/cj/2026/10-28/10721977.shtml"
+            },
+            "publishedAt": "2026-10-28T00:00:42.000Z",
+            "discoveredAt": "2026-10-28T00:26:22.779Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a26f68d51385f4e274444b7fc"
             }
           }
         ]
@@ -1869,6 +1869,35 @@
         "category": "money",
         "label": "💰 商业搞钱Top20",
         "items": [
+          {
+            "id": "abd64b3ce6312d2cc65f2806a",
+            "title": "Anthropic招股书：暂时赚钱，但没算力也是给云厂商打工",
+            "originalTitle": "Anthropic招股书：暂时赚钱，但没算力也是给云厂商打工",
+            "summary": "本文来自微信公众号： 知危 ，作者：知危编辑部 现阶段最受关注的AI公司Anthropic，终于要上市了。 10.27日晚，Anthropic正式提交招股书，计划登录纳斯达克交易所，股票代码“ANT”。 Anthropic的目标估值区间位于1.5万亿～2万亿美元，融资规模可能达到1000亿美元以上，有望超越SpaceX成为史上最大IPO。 根据招股书披露的数据，Anthropic的发展极其迅猛： 2021年，由Dario Amodei、...",
+            "content": "本文来自微信公众号： 知危 ，作者：知危编辑部 现阶段最受关注的AI公司Anthropic，终于要上市了。 10.27日晚，Anthropic正式提交招股书，计划登录纳斯达克交易所，股票代码“ANT”。 Anthropic的目标估值区间位于1.5万亿～2万亿美元，融资规模可能达到1000亿美元以上，有望超越SpaceX成为史上最大IPO。 根据招股书披露的数据，Anthropic的发展极其迅猛： 2021年，由Dario Amodei、...\n\n【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "本文来自微信公众号： 知危 ，作者：知危编辑部 现阶段最受关注的AI公司Anthropic，终于要上市了。 10.27日晚，Anthropic正式提交招股书，计划登录纳斯达克交易所，股票代码“ANT”。 Anthropic的目标估值区间位于1.5万亿～2万亿美元，融资规模可能达到1000亿美元以上，有望超越SpaceX成为史上最大IPO。 根据招股书披露的数据，Anthropic的发展极其迅猛： 2021年，由Dario Amodei、...",
+              "【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/abd64b3ce6312d2cc65f2806a",
+              "original": "https://www.huxiu.com/article/4900959.html?f=rss"
+            },
+            "publishedAt": "2026-10-28T00:11:04.000Z",
+            "discoveredAt": "2026-10-28T00:26:36.280Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/abd64b3ce6312d2cc65f2806a"
+            }
+          },
           {
             "id": "a603e05f8c8fdd7a121645c2b",
             "title": "【出海实战】一位代理商陷入了困境，一夜之间就烧掉了客户 4,700 美元的预算",
@@ -1925,35 +1954,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a93d3d4a767f168511b1330ab"
-            }
-          },
-          {
-            "id": "ab3afaaf3d86e121bb025aaf1",
-            "title": "从三个月到一百亿：AI产业链的金钱游戏",
-            "originalTitle": "从三个月到一百亿：AI产业链的金钱游戏",
-            "summary": "本文来自微信公众号： 旧叔笔谈 ，作者：旧叔 一 10月21日，柏林。黄仁勋在GTC的台上算了一笔账。 假设你有一座年收入400亿美金的AI数据中心，现在它晚投产三个月。他说，这三个月的“代价”是100亿美元。 然后他补了一句：“100亿美元的收入，会让任何人感到焦虑。” 同一天，英伟达发布了一套叫DSX POD的东西。这是一款模块化的AI数据中心，它可以把计算设备和供电、散热、网络统统装进集装箱，在工厂里组装好、连好线、测完，再运到目...",
-            "content": "本文来自微信公众号： 旧叔笔谈 ，作者：旧叔 一 10月21日，柏林。黄仁勋在GTC的台上算了一笔账。 假设你有一座年收入400亿美金的AI数据中心，现在它晚投产三个月。他说，这三个月的“代价”是100亿美元。 然后他补了一句：“100亿美元的收入，会让任何人感到焦虑。” 同一天，英伟达发布了一套叫DSX POD的东西。这是一款模块化的AI数据中心，它可以把计算设备和供电、散热、网络统统装进集装箱，在工厂里组装好、连好线、测完，再运到目...\n\n【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "本文来自微信公众号： 旧叔笔谈 ，作者：旧叔 一 10月21日，柏林。黄仁勋在GTC的台上算了一笔账。 假设你有一座年收入400亿美金的AI数据中心，现在它晚投产三个月。他说，这三个月的“代价”是100亿美元。 然后他补了一句：“100亿美元的收入，会让任何人感到焦虑。” 同一天，英伟达发布了一套叫DSX POD的东西。这是一款模块化的AI数据中心，它可以把计算设备和供电、散热、网络统统装进集装箱，在工厂里组装好、连好线、测完，再运到目...",
-              "【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab3afaaf3d86e121bb025aaf1",
-              "original": "https://www.huxiu.com/article/4900937.html?f=rss"
-            },
-            "publishedAt": "2026-10-27T16:07:22.000Z",
-            "discoveredAt": "2026-10-27T16:42:01.074Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab3afaaf3d86e121bb025aaf1"
             }
           },
           {
@@ -2050,6 +2050,35 @@
         "label": "🤖 AI实时Top20",
         "items": [
           {
+            "id": "a231d5a8fcd27eaa9b29ba1aa",
+            "title": "【硅谷AI】父母起诉 OpenAI，指控 GPT-4o 指导他们的女儿戒掉癫痫药物",
+            "originalTitle": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+            "summary": "一个家庭正在起诉 OpenAI，称 ChatGPT 指导他们的女儿悄悄减少癫痫药物的用量，并在她二月份去世前不让医生知道。（来源：TechCrunch·硅谷AI）",
+            "content": "一个家庭正在起诉 OpenAI，称 ChatGPT 指导他们的女儿悄悄减少癫痫药物的用量，并在她二月份去世前不让医生知道。（来源：TechCrunch·硅谷AI）\n\n【深度核心看点】TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "一个家庭正在起诉 OpenAI，称 ChatGPT 指导他们的女儿悄悄减少癫痫药物的用量，并在她二月份去世前不让医生知道。（来源：TechCrunch·硅谷AI）",
+              "【深度核心看点】TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "TechCrunch·硅谷AI"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a231d5a8fcd27eaa9b29ba1aa",
+              "original": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/"
+            },
+            "publishedAt": "2026-10-27T23:34:27.000Z",
+            "discoveredAt": "2026-10-28T00:26:44.602Z",
+            "category": "tech",
+            "score": 99,
+            "selected": true,
+            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a231d5a8fcd27eaa9b29ba1aa"
+            }
+          },
+          {
             "id": "a6474f2c039bad55663649252",
             "title": "【硅谷AI】Disruptive 筹集 10B 美元基金，对至少 10 家公司进行大赌注",
             "originalTitle": "Disruptive raises $10B fund to make big bets on at least 10 companies",
@@ -2079,32 +2108,32 @@
             }
           },
           {
-            "id": "addb4e7efe1af8c45d2960466",
-            "title": "【硅谷AI】Meta AI 总监 Rohit Patel 离职，接手 Microsoft Office 和 Google Workspace",
-            "originalTitle": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
-            "summary": "TechCrunch 独家获悉，罗希特·帕特尔 (Rohit Patel) 在人工智能评估和强化学习领域工作了八年后，即将离开 Meta。他的初创公司 Ndoc 旨在挑战 Microsoft Office 套件。（来源：TechCrunch·硅谷AI）",
-            "content": "TechCrunch 独家获悉，罗希特·帕特尔 (Rohit Patel) 在人工智能评估和强化学习领域工作了八年后，即将离开 Meta。他的初创公司 Ndoc 旨在挑战 Microsoft Office 套件。（来源：TechCrunch·硅谷AI）\n\n【深度核心看点】TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a08a2761be4a2839846991db0",
+            "title": "【OpenAI官宣】Retell 使用 OpenAI 模型帮助支持每月 1 亿次通话",
+            "originalTitle": "Retell uses OpenAI models to help power 100M monthly calls",
+            "summary": "GPT-6 Astra 在 Retell 的语音代理基准测试中名列前茅，而 Codex 帮助其达到每名员工 160 万美元的年收入运行率。（来源：OpenAI·官方一手）",
+            "content": "GPT-6 Astra 在 Retell 的语音代理基准测试中名列前茅，而 Codex 帮助其达到每名员工 160 万美元的年收入运行率。（来源：OpenAI·官方一手）\n\n【深度核心看点】OpenAI 官方博客与研究产品一手公告，全球人工智能行业最高风向标。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "TechCrunch 独家获悉，罗希特·帕特尔 (Rohit Patel) 在人工智能评估和强化学习领域工作了八年后，即将离开 Meta。他的初创公司 Ndoc 旨在挑战 Microsoft Office 套件。（来源：TechCrunch·硅谷AI）",
-              "【深度核心看点】TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。 ",
+              "GPT-6 Astra 在 Retell 的语音代理基准测试中名列前茅，而 Codex 帮助其达到每名员工 160 万美元的年收入运行率。（来源：OpenAI·官方一手）",
+              "【深度核心看点】OpenAI 官方博客与研究产品一手公告，全球人工智能行业最高风向标。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "TechCrunch·硅谷AI"
+              "name": "OpenAI·官方一手"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/addb4e7efe1af8c45d2960466",
-              "original": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/"
+              "aihot": "https://zenglian-news.onrender.com/items/a08a2761be4a2839846991db0",
+              "original": "https://openai.com/index/retell-ai"
             },
-            "publishedAt": "2026-10-27T14:59:09.000Z",
-            "discoveredAt": "2026-10-27T21:00:56.446Z",
+            "publishedAt": "2026-10-27T15:00:00.000Z",
+            "discoveredAt": "2026-10-28T00:26:40.952Z",
             "category": "tech",
             "score": 99,
             "selected": true,
-            "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
+            "reason": "OpenAI 官方博客与研究产品一手公告，全球人工智能行业最高风向标。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/addb4e7efe1af8c45d2960466"
+              "url": "https://zenglian-news.onrender.com/items/a08a2761be4a2839846991db0"
             }
           },
           {
@@ -2193,35 +2222,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a01c1b666a4cbf1632396eb98"
             }
-          },
-          {
-            "id": "a94ee74d6e786b7737dcf758b",
-            "title": "Physical RSI第一站！便利店打工“人”自己进化，物理AI飞轮启动了",
-            "originalTitle": "Physical RSI第一站！便利店打工“人”自己进化，物理AI飞轮启动了",
-            "summary": "量子位·AI大模型智库实时快讯：Physical RSI第一站！便利店打工“人”自己进化，物理AI飞轮启动了。国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
-            "content": "量子位·AI大模型智库实时快讯：Physical RSI第一站！便利店打工“人”自己进化，物理AI飞轮启动了。国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。\n\n【深度核心看点】国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "量子位·AI大模型智库实时快讯：Physical RSI第一站！便利店打工“人”自己进化，物理AI飞轮启动了。国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
-              "【深度核心看点】国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "量子位·AI大模型智库"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a94ee74d6e786b7737dcf758b",
-              "original": "https://www.qbitai.com/2026/10/505799.html"
-            },
-            "publishedAt": "2026-10-27T08:46:12.000Z",
-            "discoveredAt": "2026-10-27T11:02:33.877Z",
-            "category": "tech",
-            "score": 99,
-            "selected": true,
-            "reason": "国内最顶尖AI智库，第一时间深度拆解国内外大模型算法、AI Agent与具身智能。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a94ee74d6e786b7737dcf758b"
-            }
           }
         ]
       },
@@ -2230,13 +2230,42 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "a03959cd31e9c4a7be4294902",
-            "title": "【好莱坞一手】《水晶湖》11天观看时间突破13亿分钟，成为孔雀有史以来排名第四的剧本首映",
-            "originalTitle": "‘Crystal Lake’ Hits 1.3 Billion Minutes Watched in 11 Days, Becoming Peacock’s No. 4 Scripted Debut Ever",
-            "summary": "根据 Peacock 的说法，《水晶湖》是其有史以来观看次数第四多的剧本原创剧集。 《十三号星期五》前传系列剧在播出的前 11 天里观看了 13 亿分钟。划分为...（来源：Variety·好莱坞影视）",
-            "content": "根据 Peacock 的说法，《水晶湖》是其有史以来观看次数第四多的剧本原创剧集。 《十三号星期五》前传系列剧在播出的前 11 天里观看了 13 亿分钟。划分为...（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "aeb83468b5c946589130aea83",
+            "title": "【全球票房】Doc Talk 播客：《讨厌的熊》导演讲述他们的熊类奥斯卡竞争者，从北极熊的视角拍摄",
+            "originalTitle": "Doc Talk Podcast: ‘Nuisance Bear’ Directors On Their Ursine Oscar Contender, Shot From A Polar Bear POV",
+            "summary": "自一月份全球首映以来，《讨厌的熊》已成为今年最受尊敬的非小说类电影之一。在圣丹斯电影节上，由加布里埃拉·奥西奥·范登和杰克·韦执导的故事片...（来源：Deadline·全球票房与新片）",
+            "content": "自一月份全球首映以来，《讨厌的熊》已成为今年最受尊敬的非小说类电影之一。在圣丹斯电影节上，由加布里埃拉·奥西奥·范登和杰克·韦执导的故事片...（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "根据 Peacock 的说法，《水晶湖》是其有史以来观看次数第四多的剧本原创剧集。 《十三号星期五》前传系列剧在播出的前 11 天里观看了 13 亿分钟。划分为...（来源：Variety·好莱坞影视）",
+              "自一月份全球首映以来，《讨厌的熊》已成为今年最受尊敬的非小说类电影之一。在圣丹斯电影节上，由加布里埃拉·奥西奥·范登和杰克·韦执导的故事片...（来源：Deadline·全球票房与新片）",
+              "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aeb83468b5c946589130aea83",
+              "original": "https://deadline.com/2026/10/doc-talk-podcast-nuisance-bear-directors-1237206556/"
+            },
+            "publishedAt": "2026-10-28T00:12:12.000Z",
+            "discoveredAt": "2026-10-28T00:26:55.368Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aeb83468b5c946589130aea83"
+            }
+          },
+          {
+            "id": "a4891e8f3987a93802fc09b42",
+            "title": "【好莱坞一手】东京缺口融资市场喜马拉雅戏剧《Shirjara：祖母之歌》中祖先记忆与人工智能相遇",
+            "originalTitle": "Ancestral Memory Meets AI in Himalayan Drama ‘Shirjara: Song of Grandmother’ at Tokyo Gap-Financing Market",
+            "summary": "一部以祖母的故事为背景讲述人工智能崛起的喜马拉雅剧情片计划于明年在戛纳首映。导演比卡什·苏贝迪 (Bikash Subedi) 的尼泊尔故事片《Shirjara：祖母之歌》已杀青...（来源：Variety·好莱坞影视）",
+            "content": "一部以祖母的故事为背景讲述人工智能崛起的喜马拉雅剧情片计划于明年在戛纳首映。导演比卡什·苏贝迪 (Bikash Subedi) 的尼泊尔故事片《Shirjara：祖母之歌》已杀青...（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "一部以祖母的故事为背景讲述人工智能崛起的喜马拉雅剧情片计划于明年在戛纳首映。导演比卡什·苏贝迪 (Bikash Subedi) 的尼泊尔故事片《Shirjara：祖母之歌》已杀青...（来源：Variety·好莱坞影视）",
               "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -2244,76 +2273,47 @@
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a03959cd31e9c4a7be4294902",
-              "original": "https://variety.com/2026/tv/news/crystal-lake-ratings-peacock-1236932312/"
+              "aihot": "https://zenglian-news.onrender.com/items/a4891e8f3987a93802fc09b42",
+              "original": "https://variety.com/2026/film/markets-festivals/ancestral-memory-ai-nepali-drama-shirjara-tokyo-market-1236932531/"
             },
-            "publishedAt": "2026-10-27T20:00:00.000Z",
-            "discoveredAt": "2026-10-27T21:01:00.625Z",
+            "publishedAt": "2026-10-27T23:33:19.000Z",
+            "discoveredAt": "2026-10-28T00:26:50.505Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a03959cd31e9c4a7be4294902"
+              "url": "https://zenglian-news.onrender.com/items/a4891e8f3987a93802fc09b42"
             }
           },
           {
-            "id": "a8c25ccbafc1b95568860d335",
-            "title": "【全球票房】Will Yun Lee 成为 HBO Max 剧集《没有我如何生存》的常客",
-            "originalTitle": "Will Yun Lee Upped To Series Regular On HBO Max’s ‘How To Survive Without Me’",
-            "summary": "【全球票房】Will Yun Lee 成为 HBO Max 剧集《没有我如何生存》的常客 —— 来自 Deadline·全球票房与新片 的实时重点报道。",
-            "content": "【全球票房】Will Yun Lee 成为 HBO Max 剧集《没有我如何生存》的常客 —— 来自 Deadline·全球票房与新片 的实时重点报道。\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "ad41cf22427fb296bdc7e7d44",
+            "title": "【好莱坞一手】朋克乐队吉他狼在东京缺口融资市场上回归竹内哲郎的“Wild Zero Overdrive”",
+            "originalTitle": "Punk Band Guitar Wolf Rocks Back Into Takeuchi Tetsuro’s ‘Wild Zero Overdrive’ at Tokyo Gap-Financing Market",
+            "summary": "Guitar Wolf 是现实生活中的朋克乐队，拥有长期的国际巡演记录，《Wild Zero Overdrive》是导演竹内哲朗 1999 年电影《Wild Zero》的后续作品。该项目是其中之一......（来源：Variety·好莱坞影视）",
+            "content": "Guitar Wolf 是现实生活中的朋克乐队，拥有长期的国际巡演记录，《Wild Zero Overdrive》是导演竹内哲朗 1999 年电影《Wild Zero》的后续作品。该项目是其中之一......（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "【全球票房】Will Yun Lee 成为 HBO Max 剧集《没有我如何生存》的常客 —— 来自 Deadline·全球票房与新片 的实时重点报道。",
-              "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
+              "Guitar Wolf 是现实生活中的朋克乐队，拥有长期的国际巡演记录，《Wild Zero Overdrive》是导演竹内哲朗 1999 年电影《Wild Zero》的后续作品。该项目是其中之一......（来源：Variety·好莱坞影视）",
+              "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "Deadline·全球票房与新片"
+              "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a8c25ccbafc1b95568860d335",
-              "original": "https://deadline.com/2026/10/will-yun-lee-how-to-survive-without-me-series-promotion-1237206401/"
+              "aihot": "https://zenglian-news.onrender.com/items/ad41cf22427fb296bdc7e7d44",
+              "original": "https://variety.com/2026/film/markets-festivals/guitar-wolf-rocks-back-wild-zero-overdrive-tokyo-market-1236932518/"
             },
-            "publishedAt": "2026-10-27T19:54:28.000Z",
-            "discoveredAt": "2026-10-27T21:01:14.159Z",
+            "publishedAt": "2026-10-27T23:21:14.000Z",
+            "discoveredAt": "2026-10-28T00:26:51.600Z",
             "category": "culture",
             "score": 99,
             "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a8c25ccbafc1b95568860d335"
-            }
-          },
-          {
-            "id": "a423647e28fb95091ba2f79b5",
-            "title": "【全球票房】艾米·波勒 (Amy Poehler) 带领年轻女性考古学家在孔雀的“挖掘”预告片中做出了重要发现",
-            "originalTitle": "Amy Poehler Leads Young Women Archaeologists Who Make An Important Discovery In Peacock’s ‘Dig’ Trailer",
-            "summary": "Peacock 发布了由艾米·波勒 (Amy Poehler) 主演、迈克尔·舒尔 (《好地方》、《公园与休闲》) 联合创作的喜剧《Dig》的首部预告片。这部 10 集喜剧系列将于 11 月 23 日在流媒体上首播。...（来源：Deadline·全球票房与新片）",
-            "content": "Peacock 发布了由艾米·波勒 (Amy Poehler) 主演、迈克尔·舒尔 (《好地方》、《公园与休闲》) 联合创作的喜剧《Dig》的首部预告片。这部 10 集喜剧系列将于 11 月 23 日在流媒体上首播。...（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "Peacock 发布了由艾米·波勒 (Amy Poehler) 主演、迈克尔·舒尔 (《好地方》、《公园与休闲》) 联合创作的喜剧《Dig》的首部预告片。这部 10 集喜剧系列将于 11 月 23 日在流媒体上首播。...（来源：Deadline·全球票房与新片）",
-              "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a423647e28fb95091ba2f79b5",
-              "original": "https://deadline.com/2026/10/dig-trailer-amy-poehler-peacock-comedy-archaeology-1237206438/"
-            },
-            "publishedAt": "2026-10-27T19:39:05.000Z",
-            "discoveredAt": "2026-10-27T21:01:16.617Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a423647e28fb95091ba2f79b5"
+              "url": "https://zenglian-news.onrender.com/items/ad41cf22427fb296bdc7e7d44"
             }
           },
           {
@@ -2346,42 +2346,42 @@
             }
           },
           {
-            "id": "aa44d299bab6fdfcc1fae06e9",
-            "title": "【全球票房】凯文·布莱尔去世：艾美奖获奖者《每日秀》编剧兼巴拉克·奥巴马演讲撰稿人在车祸中丧生，享年 54 岁",
-            "originalTitle": "Kevin Bleyer Dies: Emmy Winning ‘Daily Show’ Writer & Barack Obama Speech Writer Killed In Car Crash At 54",
-            "summary": "凯文·布莱尔 (Kevin Bleyer) 是一位荣获艾美奖和皮博迪奖的电视作家，其作品包括《每日秀》和《比尔·马赫的政治不正确》，并为巴拉克·奥巴马总统撰写了演讲，包括所有...（来源：Deadline·全球票房与新片）",
-            "content": "凯文·布莱尔 (Kevin Bleyer) 是一位荣获艾美奖和皮博迪奖的电视作家，其作品包括《每日秀》和《比尔·马赫的政治不正确》，并为巴拉克·奥巴马总统撰写了演讲，包括所有...（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a8142a626a9e8d68dbc302d76",
+            "title": "【好莱坞一手】《雷彻》、《尼格利》和《母狮》为派拉蒙电视制片厂提供了 9 月份最热门的四部原创剧集中的三部",
+            "originalTitle": "‘Reacher,’ ‘Neagley,’ ‘Lioness’ Give Paramount TV Studios Three of September’s Four Most-Streamed Original Series",
+            "summary": "“Reacher”确实有一定的影响力。根据尼尔森的数据，Prime Video 系列在 9 月结束时成为当月排名第一的原创流媒体系列。 《Reacher》来自派拉蒙电视工作室，该工作室度过了愉快的一个月：该公司的...（来源：Variety·好莱坞影视）",
+            "content": "“Reacher”确实有一定的影响力。根据尼尔森的数据，Prime Video 系列在 9 月结束时成为当月排名第一的原创流媒体系列。 《Reacher》来自派拉蒙电视工作室，该工作室度过了愉快的一个月：该公司的...（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "凯文·布莱尔 (Kevin Bleyer) 是一位荣获艾美奖和皮博迪奖的电视作家，其作品包括《每日秀》和《比尔·马赫的政治不正确》，并为巴拉克·奥巴马总统撰写了演讲，包括所有...（来源：Deadline·全球票房与新片）",
-              "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
+              "“Reacher”确实有一定的影响力。根据尼尔森的数据，Prime Video 系列在 9 月结束时成为当月排名第一的原创流媒体系列。 《Reacher》来自派拉蒙电视工作室，该工作室度过了愉快的一个月：该公司的...（来源：Variety·好莱坞影视）",
+              "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "Deadline·全球票房与新片"
+              "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aa44d299bab6fdfcc1fae06e9",
-              "original": "https://deadline.com/2026/10/kevin-bleyer-dead-1237206488/"
+              "aihot": "https://zenglian-news.onrender.com/items/a8142a626a9e8d68dbc302d76",
+              "original": "https://variety.com/2026/tv/news/reacher-neagley-lioness-paramount-tv-studios-ratings-1236932468/"
             },
-            "publishedAt": "2026-10-27T20:30:33.000Z",
-            "discoveredAt": "2026-10-27T21:01:07.443Z",
+            "publishedAt": "2026-10-28T00:06:43.000Z",
+            "discoveredAt": "2026-10-28T00:26:48.145Z",
             "category": "culture",
             "score": 98,
             "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aa44d299bab6fdfcc1fae06e9"
+              "url": "https://zenglian-news.onrender.com/items/a8142a626a9e8d68dbc302d76"
             }
           },
           {
-            "id": "a85ed7eb3193e5237f8cc97ce",
-            "title": "【全球票房】《水晶湖》在所有孔雀剧本原创作品中跻身最佳首映观众第四名",
-            "originalTitle": "‘Crystal Lake’ Slashes Its Way To Fourth-Best Debut Audience Among All Peacock Scripted Originals",
-            "summary": "观众们渴望回到水晶湖营地。 Peacock's Crystal Lake, which debuted on October 15, has generated 1.3 billion minutes watched in its first 11 days, per the latest Nielsen data. NBCUniversal says t...（来源：Deadline·全球票房与新片）",
-            "content": "观众们渴望回到水晶湖营地。 Peacock's Crystal Lake, which debuted on October 15, has generated 1.3 billion minutes watched in its first 11 days, per the latest Nielsen data. NBCUniversal says t...（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "ad16b3d9c6d06112e5266dfe2",
+            "title": "【全球票房】年轻的故事讲述者创建杰米·塔塞斯基金以支持洛杉矶公立学校的写作项目",
+            "originalTitle": "Young Storytellers Creates The Jamie Tarses Fund To Support Writing Programs In L.A. Public Schools",
+            "summary": "洛杉矶非营利组织 Young Storytellers 为公立学校学生提供辅导和讲故事项目，宣布成立杰米·塔塞斯基金会 (The Jamie Tarses Fund)。它的名字是为了纪念电视执行官...（来源：Deadline·全球票房与新片）",
+            "content": "洛杉矶非营利组织 Young Storytellers 为公立学校学生提供辅导和讲故事项目，宣布成立杰米·塔塞斯基金会 (The Jamie Tarses Fund)。它的名字是为了纪念电视执行官...（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "观众们渴望回到水晶湖营地。 Peacock's Crystal Lake, which debuted on October 15, has generated 1.3 billion minutes watched in its first 11 days, per the latest Nielsen data. NBCUniversal says t...（来源：Deadline·全球票房与新片）",
+              "洛杉矶非营利组织 Young Storytellers 为公立学校学生提供辅导和讲故事项目，宣布成立杰米·塔塞斯基金会 (The Jamie Tarses Fund)。它的名字是为了纪念电视执行官...（来源：Deadline·全球票房与新片）",
               "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -2389,18 +2389,18 @@
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a85ed7eb3193e5237f8cc97ce",
-              "original": "https://deadline.com/2026/10/crystal-lake-premiere-viewership-peacock-1237206503/"
+              "aihot": "https://zenglian-news.onrender.com/items/ad16b3d9c6d06112e5266dfe2",
+              "original": "https://deadline.com/2026/10/young-storytellers-creates-the-jamie-tarses-fund-writers-1237201089/"
             },
-            "publishedAt": "2026-10-27T20:08:42.000Z",
-            "discoveredAt": "2026-10-27T21:01:11.769Z",
+            "publishedAt": "2026-10-27T23:20:53.000Z",
+            "discoveredAt": "2026-10-28T00:26:57.538Z",
             "category": "culture",
             "score": 98,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a85ed7eb3193e5237f8cc97ce"
+              "url": "https://zenglian-news.onrender.com/items/ad16b3d9c6d06112e5266dfe2"
             }
           }
         ]
@@ -2526,42 +2526,42 @@
             }
           },
           {
-            "id": "a74762e581d05e66d0e6bf8e2",
-            "title": "【欧洲足坛】弗利特伍德镇 v 阿森纳：卡拉宝杯第四轮 - 直播",
-            "originalTitle": "Fleetwood Town v Arsenal: Carabao Cup fourth round – live",
-            "summary": "⚽ 格林尼治标准时间晚上 8 点开球的联赛杯更新 ⚽ 比赛因海布里上空无人机短暂延迟 |弗利特伍德主教练马特·劳勒 (Matt Lawlor) 表示：“随着冠军的到来，我们必须做出改变。但我们已经……（来源：卫报体育·欧冠与五大联赛）",
-            "content": "⚽ 格林尼治标准时间晚上 8 点开球的联赛杯更新 ⚽ 比赛因海布里上空无人机短暂延迟 |弗利特伍德主教练马特·劳勒 (Matt Lawlor) 表示：“随着冠军的到来，我们必须做出改变。但我们已经……（来源：卫报体育·欧冠与五大联赛）\n\n【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "ad3f83f268dfca90f52886e18",
+            "title": "【NBA一手】[查拉尼亚] 即将到来：消息人士告诉 ESPN，明尼苏达森林狼队球星安东尼·爱德华兹将对其患病的右膝进行关节镜手术，并将缺席两个月的时间。",
+            "originalTitle": "[Charania] Just in: Minnesota Timberwolves star Anthony Edwards will undergo an arthroscopic procedure on his ailing right knee and miss up to two months, sources tell ESPN.",
+            "summary": "消息人士告诉 ESPN，明尼苏达森林狼队球星安东尼·爱德华兹将在生病的右膝上接受关节镜手术，并将缺席两个月的时间。来源：https://www.espn.com/contributor/shams-charania/7...（来源：NBA·北美篮球实时热榜）",
+            "content": "消息人士告诉 ESPN，明尼苏达森林狼队球星安东尼·爱德华兹将在生病的右膝上接受关节镜手术，并将缺席两个月的时间。来源：https://www.espn.com/contributor/shams-charania/7...（来源：NBA·北美篮球实时热榜）\n\n【深度核心看点】全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "⚽ 格林尼治标准时间晚上 8 点开球的联赛杯更新 ⚽ 比赛因海布里上空无人机短暂延迟 |弗利特伍德主教练马特·劳勒 (Matt Lawlor) 表示：“随着冠军的到来，我们必须做出改变。但我们已经……（来源：卫报体育·欧冠与五大联赛）",
-              "【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 ",
+              "消息人士告诉 ESPN，明尼苏达森林狼队球星安东尼·爱德华兹将在生病的右膝上接受关节镜手术，并将缺席两个月的时间。来源：https://www.espn.com/contributor/shams-charania/7...（来源：NBA·北美篮球实时热榜）",
+              "【深度核心看点】全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "卫报体育·欧冠与五大联赛"
+              "name": "NBA·北美篮球实时热榜"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a74762e581d05e66d0e6bf8e2",
-              "original": "https://www.theguardian.com/football/live/2026/oct/27/fleetwood-town-v-arsenal-carabao-cup-fourth-round-live"
+              "aihot": "https://zenglian-news.onrender.com/items/ad3f83f268dfca90f52886e18",
+              "original": "https://www.reddit.com/r/nba/comments/1xh7bqx/charania_just_in_minnesota_timberwolves_star/"
             },
-            "publishedAt": "2026-10-27T20:45:15.000Z",
-            "discoveredAt": "2026-10-27T21:01:31.678Z",
+            "publishedAt": "2026-10-27T22:46:41.000Z",
+            "discoveredAt": "2026-10-28T00:27:15.750Z",
             "category": "business",
             "score": 98,
             "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a74762e581d05e66d0e6bf8e2"
+              "url": "https://zenglian-news.onrender.com/items/ad3f83f268dfca90f52886e18"
             }
           },
           {
-            "id": "a3470241dcf4f0854c5d782f8",
-            "title": "【欧洲足坛】一个难以管理的俱乐部？卡里克是曼联辉煌衰落的最新受害者",
-            "originalTitle": "An unmanageable club? Carrick the latest to suffer in Manchester United’s faded grandeur",
-            "summary": "只有马特·巴斯比和亚历克斯·弗格森在老特拉福德的热门席位上真正取得了成功，他们都投下了不安的阴影。如果有哪个足球俱乐部符合历史伟人理论，那就是曼联。在过去的 100 年...（来源：卫报体育·欧冠与五大联赛）",
-            "content": "只有马特·巴斯比和亚历克斯·弗格森在老特拉福德的热门席位上真正取得了成功，他们都投下了不安的阴影。如果有哪个足球俱乐部符合历史伟人理论，那就是曼联。在过去的 100 年...（来源：卫报体育·欧冠与五大联赛）\n\n【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "ae227ab3bea81f2544da930e9",
+            "title": "【欧洲足坛】弗利特伍德在卡拉宝杯对阵阿森纳的比赛中取得了精彩的点球大战胜利",
+            "originalTitle": "Fantastic Fleetwood seal shootout success in Carabao Cup shock against Arsenal",
+            "summary": "阿森纳已经有 20 多年没有在海布里踢球了，但他们前往二级联赛弗利特伍德和同名体育场的旅程并没有给他们带来美好的回忆，因为他们在点球大战中被淘汰出联赛杯……（来源：卫报体育·欧冠与五大联赛）",
+            "content": "阿森纳已经有 20 多年没有在海布里踢球了，但他们前往二级联赛弗利特伍德和同名体育场的旅程并没有给他们带来美好的回忆，因为他们在点球大战中被淘汰出联赛杯……（来源：卫报体育·欧冠与五大联赛）\n\n【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "只有马特·巴斯比和亚历克斯·弗格森在老特拉福德的热门席位上真正取得了成功，他们都投下了不安的阴影。如果有哪个足球俱乐部符合历史伟人理论，那就是曼联。在过去的 100 年...（来源：卫报体育·欧冠与五大联赛）",
+              "阿森纳已经有 20 多年没有在海布里踢球了，但他们前往二级联赛弗利特伍德和同名体育场的旅程并没有给他们带来美好的回忆，因为他们在点球大战中被淘汰出联赛杯……（来源：卫报体育·欧冠与五大联赛）",
               "【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -2569,18 +2569,18 @@
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a3470241dcf4f0854c5d782f8",
-              "original": "https://www.theguardian.com/football/2026/oct/27/manchester-united-michael-carrick-faded-grandeur"
+              "aihot": "https://zenglian-news.onrender.com/items/ae227ab3bea81f2544da930e9",
+              "original": "https://www.theguardian.com/football/2026/oct/27/fleetwood-town-arsenal-carabao-cup-fourth-round-match-report"
             },
-            "publishedAt": "2026-10-27T20:02:34.000Z",
-            "discoveredAt": "2026-10-27T21:01:33.254Z",
+            "publishedAt": "2026-10-27T22:26:05.000Z",
+            "discoveredAt": "2026-10-28T00:27:09.511Z",
             "category": "business",
             "score": 98,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a3470241dcf4f0854c5d782f8"
+              "url": "https://zenglian-news.onrender.com/items/ae227ab3bea81f2544da930e9"
             }
           }
         ]
