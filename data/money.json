@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "a08745e6a93be37eaf55ccb21",
+      "title": "[分享创造] 不想再为了改一句英文切去 ChatGPT 了，我做了个在任何输入框里一键搞定的 Mac 工具",
+      "originalTitle": "[分享创造] 不想再为了改一句英文切去 ChatGPT 了，我做了个在任何输入框里一键搞定的 Mac 工具",
+      "summary": "在外企打工，每天都是是脑子里想的是中文，手上还得敲英文。Slack、邮件写完总要读两遍，感觉怪怪的，又不知道怎么改。 之前一直用 Raycast 的 AI 改英文，但输入框太小，prompt 改起来也不太顺手。干脆自己搓了一个，叫 Inklet，常驻 Mac 菜单栏，专门干这件事。 用起来很简单： 在任何输入框按 ⌥ Space （可以随意设置），中文英文随便写，回车生成自然的英文，再回车直接填回原来的输入框。不用切窗口，也不用复制粘贴...",
+      "content": "在外企打工，每天都是是脑子里想的是中文，手上还得敲英文。Slack、邮件写完总要读两遍，感觉怪怪的，又不知道怎么改。 之前一直用 Raycast 的 AI 改英文，但输入框太小，prompt 改起来也不太顺手。干脆自己搓了一个，叫 Inklet，常驻 Mac 菜单栏，专门干这件事。 用起来很简单： 在任何输入框按 ⌥ Space （可以随意设置），中文英文随便写，回车生成自然的英文，再回车直接填回原来的输入框。不用切窗口，也不用复制粘贴...\n\n【深度核心看点】经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+      "paragraphs": [
+        "在外企打工，每天都是是脑子里想的是中文，手上还得敲英文。Slack、邮件写完总要读两遍，感觉怪怪的，又不知道怎么改。 之前一直用 Raycast 的 AI 改英文，但输入框太小，prompt 改起来也不太顺手。干脆自己搓了一个，叫 Inklet，常驻 Mac 菜单栏，专门干这件事。 用起来很简单： 在任何输入框按 ⌥ Space （可以随意设置），中文英文随便写，回车生成自然的英文，再回车直接填回原来的输入框。不用切窗口，也不用复制粘贴...",
+        "【深度核心看点】经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。 ",
+        "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+      ],
+      "source": {
+        "name": "V2EX·独立开发与副业"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a08745e6a93be37eaf55ccb21",
+        "original": "https://www.v2ex.com/t/1253333#reply0"
+      },
+      "publishedAt": "2026-10-30T22:34:05.000Z",
+      "discoveredAt": "2026-10-30T22:51:02.359Z",
+      "category": "money",
+      "score": 93,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a08745e6a93be37eaf55ccb21"
+      }
+    },
+    {
       "id": "ae2efaf1a51964d12c5a3478c",
       "title": "[职场话题] 有没有做过字节的外包，请教一下",
       "originalTitle": "[职场话题] 有没有做过字节的外包，请教一下",
@@ -242,64 +271,6 @@
       }
     },
     {
-      "id": "a95d64204ff0f1e463a83c4cf",
-      "title": "[分享创造] 做了个 mydash： Claude Code / Codex 产出的方案、报告、PDF、网页原型，在手机上直接看（自托管，开源）",
-      "originalTitle": "[分享创造] 做了个 mydash： Claude Code / Codex 产出的方案、报告、PDF、网页原型，在手机上直接看（自托管，开源）",
-      "summary": "平时让 Claude Code 和 Codex 干活，它们会产出一大堆要我看的东西：方案、调研报告、对比表、截图、网页原型，偶尔还有 Word 。以前这些都只是终端里的一串文件路径，在电脑上看一份三页的方案都费劲，在手机上更是看不了。 mydash 是一个跑在自己电脑上的小服务（ Node ，不用框架）。agent 运行 mydash publish ，你就拿到一个链接，在电脑或手机上看排好版的内容：Markdown （带 Mermai...",
-      "content": "平时让 Claude Code 和 Codex 干活，它们会产出一大堆要我看的东西：方案、调研报告、对比表、截图、网页原型，偶尔还有 Word 。以前这些都只是终端里的一串文件路径，在电脑上看一份三页的方案都费劲，在手机上更是看不了。 mydash 是一个跑在自己电脑上的小服务（ Node ，不用框架）。agent 运行 mydash publish ，你就拿到一个链接，在电脑或手机上看排好版的内容：Markdown （带 Mermai...\n\n【深度核心看点】经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-      "paragraphs": [
-        "平时让 Claude Code 和 Codex 干活，它们会产出一大堆要我看的东西：方案、调研报告、对比表、截图、网页原型，偶尔还有 Word 。以前这些都只是终端里的一串文件路径，在电脑上看一份三页的方案都费劲，在手机上更是看不了。 mydash 是一个跑在自己电脑上的小服务（ Node ，不用框架）。agent 运行 mydash publish ，你就拿到一个链接，在电脑或手机上看排好版的内容：Markdown （带 Mermai...",
-        "【深度核心看点】经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。 ",
-        "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-      ],
-      "source": {
-        "name": "V2EX·独立开发与副业"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a95d64204ff0f1e463a83c4cf",
-        "original": "https://www.v2ex.com/t/1253296#reply0"
-      },
-      "publishedAt": "2026-10-30T13:15:54.000Z",
-      "discoveredAt": "2026-10-30T13:24:00.349Z",
-      "category": "money",
-      "score": 95,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a95d64204ff0f1e463a83c4cf"
-      }
-    },
-    {
-      "id": "ac0a3e8baa4024f37a1414a61",
-      "title": "[Apple] 不得不说，苹果最近几款产品都不尽如人意",
-      "originalTitle": "[Apple] 不得不说，苹果最近几款产品都不尽如人意",
-      "summary": "iPhone 数字系列的外观和外壳耐久度不行 Duo 的性能和质量不行 MBP 的触屏没什么卵用 ipad mini 价格来到当年 iPad Pro 的价位，为了追求所谓“等级森严”依然不给高刷，而普通版 iphone 却有高刷，自相矛盾，决策混乱。 iOS 系统迭代毫无新意，设计拉跨，安全性在 AI 时代岌岌可危",
-      "content": "iPhone 数字系列的外观和外壳耐久度不行 Duo 的性能和质量不行 MBP 的触屏没什么卵用 ipad mini 价格来到当年 iPad Pro 的价位，为了追求所谓“等级森严”依然不给高刷，而普通版 iphone 却有高刷，自相矛盾，决策混乱。 iOS 系统迭代毫无新意，设计拉跨，安全性在 AI 时代岌岌可危\n\n【深度核心看点】经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-      "paragraphs": [
-        "iPhone 数字系列的外观和外壳耐久度不行 Duo 的性能和质量不行 MBP 的触屏没什么卵用 ipad mini 价格来到当年 iPad Pro 的价位，为了追求所谓“等级森严”依然不给高刷，而普通版 iphone 却有高刷，自相矛盾，决策混乱。 iOS 系统迭代毫无新意，设计拉跨，安全性在 AI 时代岌岌可危",
-        "【深度核心看点】经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。 ",
-        "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-      ],
-      "source": {
-        "name": "V2EX·独立开发与副业"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/ac0a3e8baa4024f37a1414a61",
-        "original": "https://www.v2ex.com/t/1253295#reply0"
-      },
-      "publishedAt": "2026-10-30T13:09:30.000Z",
-      "discoveredAt": "2026-10-30T13:24:00.511Z",
-      "category": "money",
-      "score": 94,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/ac0a3e8baa4024f37a1414a61"
-      }
-    },
-    {
       "id": "ae7109adcb9b6e090f994086f",
       "title": "一线投资人与创业者匿名访谈：到底是谁在逼谁追共识",
       "originalTitle": "一线投资人与创业者匿名访谈：到底是谁在逼谁追共识",
@@ -503,35 +474,6 @@
       }
     },
     {
-      "id": "ac65d6b5031ed7d68d8e3acb8",
-      "title": "【独立变现】Show HN：Arsaze – 用于视频编辑的光标（制表符完成和代理编辑）",
-      "originalTitle": "Show HN: Arsaze – Cursor for video editing (Tab-complete and agent edits)",
-      "summary": "Show HN·独立变现榜实时快讯：Show HN: Arsaze – Cursor for video editing (Tab-complete and agent edits)。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
-      "content": "Show HN·独立变现榜实时快讯：Show HN: Arsaze – Cursor for video editing (Tab-complete and agent edits)。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）\n\n【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-      "paragraphs": [
-        "Show HN·独立变现榜实时快讯：Show HN: Arsaze – Cursor for video editing (Tab-complete and agent edits)。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
-        "【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 ",
-        "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-      ],
-      "source": {
-        "name": "Show HN·独立变现榜"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/ac65d6b5031ed7d68d8e3acb8",
-        "original": "https://www.arsaze.com"
-      },
-      "publishedAt": "2026-10-30T06:55:33.000Z",
-      "discoveredAt": "2026-10-30T13:23:45.775Z",
-      "category": "money",
-      "score": 99,
-      "selected": true,
-      "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/ac65d6b5031ed7d68d8e3acb8"
-      }
-    },
-    {
       "id": "adb5a3ae1fd5c13ec61a78642",
       "title": "【出海实战】克劳德刚刚为我的初创公司制作了这段宣传视频",
       "originalTitle": "Claude just made me this Promo video for my startup",
@@ -587,6 +529,64 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/adb322bf20ef2685e0d899cdc"
+      }
+    },
+    {
+      "id": "a6ea023754b69a10a435a7ca1",
+      "title": "【出海实战】我应该放弃吗？",
+      "originalTitle": "Should I Give Up?",
+      "summary": "我的平台推出大约一年前，我有 4 个用户，1 个年度旧用户，1 个月度旧用户和 2 个月度入门用户，他们都每天或半每天使用我的平台。但收入太低了...（来源：X/Reddit·出海SaaS搞钱）",
+      "content": "我的平台推出大约一年前，我有 4 个用户，1 个年度旧用户，1 个月度旧用户和 2 个月度入门用户，他们都每天或半每天使用我的平台。但收入太低了...（来源：X/Reddit·出海SaaS搞钱）\n\n【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+      "paragraphs": [
+        "我的平台推出大约一年前，我有 4 个用户，1 个年度旧用户，1 个月度旧用户和 2 个月度入门用户，他们都每天或半每天使用我的平台。但收入太低了...（来源：X/Reddit·出海SaaS搞钱）",
+        "【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 ",
+        "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+      ],
+      "source": {
+        "name": "X/Reddit·出海SaaS搞钱"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a6ea023754b69a10a435a7ca1",
+        "original": "https://www.reddit.com/r/SaaS/comments/1xj73if/should_i_give_up/"
+      },
+      "publishedAt": "2026-10-30T05:35:48.000Z",
+      "discoveredAt": "2026-10-30T06:18:00.938Z",
+      "category": "money",
+      "score": 98,
+      "selected": true,
+      "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a6ea023754b69a10a435a7ca1"
+      }
+    },
+    {
+      "id": "a502b6789f899b23fd7e6a4cc",
+      "title": "【独立变现】Show HN：Lasm – 在精益中为 Node/serverless/edge 编写经过正式验证的 Web 应用程序",
+      "originalTitle": "Show HN: Lasm – Write formally verified webapps in Lean for Node/serverless/edge",
+      "summary": "Lasm 是我 2026 年大部分时间的梦想。我坚信形式验证是软件工程和编程语言的下一个发展。下一波浪潮将在很大程度上由令人难以置信的......（来源：Show HN·独立变现榜）",
+      "content": "Lasm 是我 2026 年大部分时间的梦想。我坚信形式验证是软件工程和编程语言的下一个发展。下一波浪潮将在很大程度上由令人难以置信的......（来源：Show HN·独立变现榜）\n\n【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+      "paragraphs": [
+        "Lasm 是我 2026 年大部分时间的梦想。我坚信形式验证是软件工程和编程语言的下一个发展。下一波浪潮将在很大程度上由令人难以置信的......（来源：Show HN·独立变现榜）",
+        "【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 ",
+        "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+      ],
+      "source": {
+        "name": "Show HN·独立变现榜"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a502b6789f899b23fd7e6a4cc",
+        "original": "https://github.com/Millillion/lasm"
+      },
+      "publishedAt": "2026-10-30T02:05:41.000Z",
+      "discoveredAt": "2026-10-30T13:23:46.659Z",
+      "category": "money",
+      "score": 99,
+      "selected": true,
+      "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a502b6789f899b23fd7e6a4cc"
       }
     }
   ],
