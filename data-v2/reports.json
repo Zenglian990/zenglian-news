@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T23:00:12.819Z",
+  "generatedAt": "2026-11-02T02:21:10.305Z",
   "daily": {
     "kind": "daily",
     "key": "2026-11-02",
     "title": "曾练全球一手简报 · 今日日报 (2026-11-02)",
     "subtitle": "全球·国内·商业搞钱·AI·影视娱乐·体育 六大实时Top20精选",
-    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：如果AI解开了世界难题，人类数学家还剩下什么？；显示 HN：HackerBooks – HackerTube，但适用于 HN 上提到的书籍；Show HN：OmniDiff – 开源、超快、内容感知的 Git difftool，采用 Rust 语言。",
+    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：最强智能的去向，不在排行榜里；我的 SaaS 实际上正在增长🥹；显示 HN：HackerBooks – HackerTube，但适用于 HN 上提到的书籍。",
     "metrics": {
       "totalEvents": 18,
       "sourcesCount": 30,
@@ -17,6 +17,35 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
+          {
+            "id": "a7fbf0b8f8d1368a102f98c8a",
+            "title": "【BBC全球】民主党在密歇根州参议院关键竞选中支持共和党候选人，党内争端爆发",
+            "originalTitle": "Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts",
+            "summary": "海莉·史蒂文斯(Haley Stevens)在民主党参议院提名中输给了阿卜杜勒·赛义德(Abdul El-Sayed)，他的举动被一位民主党高层称为“卑鄙的背叛”。（来源：BBC News·全球要闻）",
+            "content": "海莉·史蒂文斯(Haley Stevens)在民主党参议院提名中输给了阿卜杜勒·赛义德(Abdul El-Sayed)，他的举动被一位民主党高层称为“卑鄙的背叛”。（来源：BBC News·全球要闻）\n\n【深度核心看点】BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "海莉·史蒂文斯(Haley Stevens)在民主党参议院提名中输给了阿卜杜勒·赛义德(Abdul El-Sayed)，他的举动被一位民主党高层称为“卑鄙的背叛”。（来源：BBC News·全球要闻）",
+              "【深度核心看点】BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "BBC News·全球要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a7fbf0b8f8d1368a102f98c8a",
+              "original": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o?at_medium=RSS&at_campaign=rss"
+            },
+            "publishedAt": "2026-11-02T01:45:42.000Z",
+            "discoveredAt": "2026-11-02T02:20:11.778Z",
+            "category": "global",
+            "score": 98,
+            "selected": true,
+            "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a7fbf0b8f8d1368a102f98c8a"
+            }
+          },
           {
             "id": "a22c0a8c1139029fa1ad88a46",
             "title": "【全球热榜】边疆航空公司可能遭到违规",
@@ -74,35 +103,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a747bd22a32c4c5e1ac7d75db"
             }
-          },
-          {
-            "id": "aaf1efa97fcda18b1739d4b45",
-            "title": "【全球热榜】挪威让茅屋再次伟大",
-            "originalTitle": "Norway makes shithouses great again",
-            "summary": "X/HN·全球热榜Top实时快讯：Norway makes shithouses great again。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "content": "X/HN·全球热榜Top实时快讯：Norway makes shithouses great again。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "X/HN·全球热榜Top实时快讯：Norway makes shithouses great again。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-              "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aaf1efa97fcda18b1739d4b45",
-              "original": "https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/"
-            },
-            "publishedAt": "2026-11-01T10:47:58.000Z",
-            "discoveredAt": "2026-11-01T14:51:12.651Z",
-            "category": "global",
-            "score": 98,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aaf1efa97fcda18b1739d4b45"
-            }
           }
         ]
       },
@@ -111,42 +111,13 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "a80c00c1b5455a7653ad78210",
-            "title": "【国内财经】胶囊胃镜、手术机器人亮相广交会 中国医疗设备加速出海",
-            "originalTitle": "胶囊胃镜、手术机器人亮相广交会 中国医疗设备加速出海",
-            "summary": "中新社广州11月1日电 (记者 蔡敏婕)在第140届广交会展台上，花生大小的智能胶囊胃镜吸引境外采购商注意。受检者只需咽下这颗胶囊，借助配套记录仪与手机App，屏幕上实时传回胃内清晰影像，直观展现胃部筛查过程。",
-            "content": "中新社广州11月1日电 (记者 蔡敏婕)在第140届广交会展台上，花生大小的智能胶囊胃镜吸引境外采购商注意。受检者只需咽下这颗胶囊，借助配套记录仪与手机App，屏幕上实时传回胃内清晰影像，直观展现胃部筛查过程。\n\n【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a0e190e4f10c8ecf694d8411e",
+            "title": "贾跃亭：FFR 机器人 10 月销量超 351 台，累计首次破千台",
+            "originalTitle": "贾跃亭：FFR 机器人 10 月销量超 351 台，累计首次破千台",
+            "summary": "IT之家 11 月 2 日消息，贾跃亭今天发布新一期周报，宣称 FFR 机器人本体 10 月销售及出货量为 351 台，再次刷新单月纪录，已累计销售及出货量达到 1168 台， 首次破千并持续正毛利交付 。 贾跃亭估计，FFR 机器人 11 月、12 月预计月均销售及出货量要超过 400 台， 向全年 2000 台的销售目标冲刺 。 IT之家从贾跃亭微博了解到，FFR 和 FFAI 在纽约大区启动运作并正式开启招商，首期覆盖纽约、新泽西...",
+            "content": "IT之家 11 月 2 日消息，贾跃亭今天发布新一期周报，宣称 FFR 机器人本体 10 月销售及出货量为 351 台，再次刷新单月纪录，已累计销售及出货量达到 1168 台， 首次破千并持续正毛利交付 。 贾跃亭估计，FFR 机器人 11 月、12 月预计月均销售及出货量要超过 400 台， 向全年 2000 台的销售目标冲刺 。 IT之家从贾跃亭微博了解到，FFR 和 FFAI 在纽约大区启动运作并正式开启招商，首期覆盖纽约、新泽西...\n\n【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "中新社广州11月1日电 (记者 蔡敏婕)在第140届广交会展台上，花生大小的智能胶囊胃镜吸引境外采购商注意。受检者只需咽下这颗胶囊，借助配套记录仪与手机App，屏幕上实时传回胃内清晰影像，直观展现胃部筛查过程。",
-              "【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "中新网·国内财经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a80c00c1b5455a7653ad78210",
-              "original": "https://www.chinanews.com.cn/cj/2026/11-01/10724504.shtml"
-            },
-            "publishedAt": "2026-11-01T13:28:09.000Z",
-            "discoveredAt": "2026-11-01T14:51:20.367Z",
-            "category": "domestic",
-            "score": 98,
-            "selected": true,
-            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a80c00c1b5455a7653ad78210"
-            }
-          },
-          {
-            "id": "a7d32ed845c252540f0445b33",
-            "title": "古尔曼：苹果首款触屏 MacBook Pro 设计过于保守",
-            "originalTitle": "古尔曼：苹果首款触屏 MacBook Pro 设计过于保守",
-            "summary": "IT之家 11 月 2 日消息，苹果公司上周终于推出了品牌首款触控屏 MacBook Pro。然而对于一款具有里程碑意义的产品来说，这款笔记本设计却出人意料地保守，没有带来真正突破的创新。 据IT之家了解，触屏 MacBook Pro 采用了更轻薄的机身、OLED 屏幕，配备 M5 Pro 或 M5 Max 芯片，整体使用体验十分熟悉。人们不禁怀疑，苹果是否为这款触屏 Mac 带来足够多的创新，以及它的价格能否配得上外界期待。 彭博社记...",
-            "content": "IT之家 11 月 2 日消息，苹果公司上周终于推出了品牌首款触控屏 MacBook Pro。然而对于一款具有里程碑意义的产品来说，这款笔记本设计却出人意料地保守，没有带来真正突破的创新。 据IT之家了解，触屏 MacBook Pro 采用了更轻薄的机身、OLED 屏幕，配备 M5 Pro 或 M5 Max 芯片，整体使用体验十分熟悉。人们不禁怀疑，苹果是否为这款触屏 Mac 带来足够多的创新，以及它的价格能否配得上外界期待。 彭博社记...\n\n【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "IT之家 11 月 2 日消息，苹果公司上周终于推出了品牌首款触控屏 MacBook Pro。然而对于一款具有里程碑意义的产品来说，这款笔记本设计却出人意料地保守，没有带来真正突破的创新。 据IT之家了解，触屏 MacBook Pro 采用了更轻薄的机身、OLED 屏幕，配备 M5 Pro 或 M5 Max 芯片，整体使用体验十分熟悉。人们不禁怀疑，苹果是否为这款触屏 Mac 带来足够多的创新，以及它的价格能否配得上外界期待。 彭博社记...",
+              "IT之家 11 月 2 日消息，贾跃亭今天发布新一期周报，宣称 FFR 机器人本体 10 月销售及出货量为 351 台，再次刷新单月纪录，已累计销售及出货量达到 1168 台， 首次破千并持续正毛利交付 。 贾跃亭估计，FFR 机器人 11 月、12 月预计月均销售及出货量要超过 400 台， 向全年 2000 台的销售目标冲刺 。 IT之家从贾跃亭微博了解到，FFR 和 FFAI 在纽约大区启动运作并正式开启招商，首期覆盖纽约、新泽西...",
               "【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -154,28 +125,28 @@
               "name": "IT之家·国内产业"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7d32ed845c252540f0445b33",
-              "original": "https://www.ithome.com/1/020/842.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a0e190e4f10c8ecf694d8411e",
+              "original": "https://www.ithome.com/1/020/894.htm"
             },
-            "publishedAt": "2026-11-01T22:43:24.000Z",
-            "discoveredAt": "2026-11-01T22:58:36.028Z",
+            "publishedAt": "2026-11-02T02:16:20.000Z",
+            "discoveredAt": "2026-11-02T02:20:24.656Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7d32ed845c252540f0445b33"
+              "url": "https://zenglian-news.onrender.com/items/a0e190e4f10c8ecf694d8411e"
             }
           },
           {
-            "id": "a16fef65d0f08136a23b5ceff",
-            "title": "【国内要闻】把地球冷冻一下，温室效应会得到缓解吗？答案出乎意料",
-            "originalTitle": "把地球冷冻一下，温室效应会得到缓解吗？答案出乎意料",
-            "summary": "如果把地球冷冻一下，温室效应会得到缓解吗？汽油在水面上为什么是彩色的？微波炉能用“微波”加热食物，那“微波”能不能用来制冷……我们每天都有对这个世界的好奇，中国科学院物理研究所和总台中国之声节目《新闻超链接》为您寻找可能的答案，与您一起探索世界。",
-            "content": "如果把地球冷冻一下，温室效应会得到缓解吗？汽油在水面上为什么是彩色的？微波炉能用“微波”加热食物，那“微波”能不能用来制冷……我们每天都有对这个世界的好奇，中国科学院物理研究所和总台中国之声节目《新闻超链接》为您寻找可能的答案，与您一起探索世界。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a93413d9a50708b815b8ec1ea",
+            "title": "【国内要闻】西藏巴青县首批受灾师生抵达拉萨那曲完全中学开启异地复课 “在这里，感受到了家的温暖”",
+            "originalTitle": "西藏巴青县首批受灾师生抵达拉萨那曲完全中学开启异地复课 “在这里，感受到了家的温暖”",
+            "summary": "11月1日晚，西藏拉萨那曲完全中学校园内灯火通明、暖意融融。首批受巴青7.0级地震影响的589名五、六年级师生顺利抵达拉萨那曲完全中学，开启异地复课学习生活。后续，巴青县玛如乡小学和岗切乡小学异地复课学生总计1495人、教师89人，将陆续抵达。",
+            "content": "11月1日晚，西藏拉萨那曲完全中学校园内灯火通明、暖意融融。首批受巴青7.0级地震影响的589名五、六年级师生顺利抵达拉萨那曲完全中学，开启异地复课学习生活。后续，巴青县玛如乡小学和岗切乡小学异地复课学生总计1495人、教师89人，将陆续抵达。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "如果把地球冷冻一下，温室效应会得到缓解吗？汽油在水面上为什么是彩色的？微波炉能用“微波”加热食物，那“微波”能不能用来制冷……我们每天都有对这个世界的好奇，中国科学院物理研究所和总台中国之声节目《新闻超链接》为您寻找可能的答案，与您一起探索世界。",
+              "11月1日晚，西藏拉萨那曲完全中学校园内灯火通明、暖意融融。首批受巴青7.0级地震影响的589名五、六年级师生顺利抵达拉萨那曲完全中学，开启异地复课学习生活。后续，巴青县玛如乡小学和岗切乡小学异地复课学生总计1495人、教师89人，将陆续抵达。",
               "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -183,18 +154,47 @@
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a16fef65d0f08136a23b5ceff",
-              "original": "https://www.chinanews.com.cn/life/2026/11-02/10724527.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a93413d9a50708b815b8ec1ea",
+              "original": "https://www.chinanews.com.cn/gn/2026/11-02/10724606.shtml"
             },
-            "publishedAt": "2026-11-01T22:42:47.000Z",
-            "discoveredAt": "2026-11-01T22:58:31.063Z",
+            "publishedAt": "2026-11-02T02:11:23.000Z",
+            "discoveredAt": "2026-11-02T02:20:18.367Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a16fef65d0f08136a23b5ceff"
+              "url": "https://zenglian-news.onrender.com/items/a93413d9a50708b815b8ec1ea"
+            }
+          },
+          {
+            "id": "a0bb1c9942f6c424a0fc15311",
+            "title": "【国内要闻】11月2日央行开展5410亿元隔夜逆回购操作",
+            "originalTitle": "11月2日央行开展5410亿元隔夜逆回购操作",
+            "summary": "中新网11月2日电 据中国人民银行网站消息，2026年11月2日中国人民银行以固定利率、数量招标方式开展了5410亿元隔夜期逆回购操作，全额满足了一级交易商需求。具体情况如下：",
+            "content": "中新网11月2日电 据中国人民银行网站消息，2026年11月2日中国人民银行以固定利率、数量招标方式开展了5410亿元隔夜期逆回购操作，全额满足了一级交易商需求。具体情况如下：\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "中新网11月2日电 据中国人民银行网站消息，2026年11月2日中国人民银行以固定利率、数量招标方式开展了5410亿元隔夜期逆回购操作，全额满足了一级交易商需求。具体情况如下：",
+              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0bb1c9942f6c424a0fc15311",
+              "original": "https://www.chinanews.com.cn/cj/2026/11-02/10724557.shtml"
+            },
+            "publishedAt": "2026-11-02T01:35:09.000Z",
+            "discoveredAt": "2026-11-02T01:37:38.244Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0bb1c9942f6c424a0fc15311"
             }
           }
         ]
@@ -204,13 +204,13 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
-            "id": "a57d5b501ad1cf96fda9b5be9",
-            "title": "如果AI解开了世界难题，人类数学家还剩下什么？",
-            "originalTitle": "如果AI解开了世界难题，人类数学家还剩下什么？",
-            "summary": "本文来自微信公众号： 秦朔朋友圈 ，作者：Irene Zhou 继知名数学家陶哲轩公开批评OpenAI后，近期另一位新晋菲尔茨奖得主邓煜也炮轰OpenAI——不能你蒸馏了全世界，不让别人来蒸馏你。 随着顶级模型公司不断破解世界级数学难题，数学家们集体破防。 邓煜近期提出的观点大意是，AI公司在构建大模型时，通过“知识蒸馏”或抓取全人类的网络文献、学术论文与知识库来训练自己。然而，当外界或同行希望了解模型的推理过程（即“思维链”）时，这些...",
-            "content": "本文来自微信公众号： 秦朔朋友圈 ，作者：Irene Zhou 继知名数学家陶哲轩公开批评OpenAI后，近期另一位新晋菲尔茨奖得主邓煜也炮轰OpenAI——不能你蒸馏了全世界，不让别人来蒸馏你。 随着顶级模型公司不断破解世界级数学难题，数学家们集体破防。 邓煜近期提出的观点大意是，AI公司在构建大模型时，通过“知识蒸馏”或抓取全人类的网络文献、学术论文与知识库来训练自己。然而，当外界或同行希望了解模型的推理过程（即“思维链”）时，这些...\n\n【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a570efa3a5c1a46d190c625be",
+            "title": "最强智能的去向，不在排行榜里",
+            "originalTitle": "最强智能的去向，不在排行榜里",
+            "summary": "本文来自微信公众号： 观潮体系 ，作者：观潮 ——从防范彼此超过，到把事做成 “所有AI都听话之后”系列第六篇 一 想象一个夜里。老人醒来，想从床边站起来。床边的机器人伸出扶手，帮她稳住身体。她不需要机器人替她过日子；她需要的是还能在熟悉的家里，自己起身、走动，决定今天要做什么。 人们谈AI，常从模型能力开场：它会不会思考，能不能超过人，带来繁荣，还是灾难。可对这位老人来说，问题更近，也更硬：我还能不能自己生活？伸手够不到时，有没有谁搭...",
+            "content": "本文来自微信公众号： 观潮体系 ，作者：观潮 ——从防范彼此超过，到把事做成 “所有AI都听话之后”系列第六篇 一 想象一个夜里。老人醒来，想从床边站起来。床边的机器人伸出扶手，帮她稳住身体。她不需要机器人替她过日子；她需要的是还能在熟悉的家里，自己起身、走动，决定今天要做什么。 人们谈AI，常从模型能力开场：它会不会思考，能不能超过人，带来繁荣，还是灾难。可对这位老人来说，问题更近，也更硬：我还能不能自己生活？伸手够不到时，有没有谁搭...\n\n【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "本文来自微信公众号： 秦朔朋友圈 ，作者：Irene Zhou 继知名数学家陶哲轩公开批评OpenAI后，近期另一位新晋菲尔茨奖得主邓煜也炮轰OpenAI——不能你蒸馏了全世界，不让别人来蒸馏你。 随着顶级模型公司不断破解世界级数学难题，数学家们集体破防。 邓煜近期提出的观点大意是，AI公司在构建大模型时，通过“知识蒸馏”或抓取全人类的网络文献、学术论文与知识库来训练自己。然而，当外界或同行希望了解模型的推理过程（即“思维链”）时，这些...",
+              "本文来自微信公众号： 观潮体系 ，作者：观潮 ——从防范彼此超过，到把事做成 “所有AI都听话之后”系列第六篇 一 想象一个夜里。老人醒来，想从床边站起来。床边的机器人伸出扶手，帮她稳住身体。她不需要机器人替她过日子；她需要的是还能在熟悉的家里，自己起身、走动，决定今天要做什么。 人们谈AI，常从模型能力开场：它会不会思考，能不能超过人，带来繁荣，还是灾难。可对这位老人来说，问题更近，也更硬：我还能不能自己生活？伸手够不到时，有没有谁搭...",
               "【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -218,18 +218,47 @@
               "name": "虎嗅网·商业搞钱深度"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a57d5b501ad1cf96fda9b5be9",
-              "original": "https://www.huxiu.com/article/4902131.html?f=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/a570efa3a5c1a46d190c625be",
+              "original": "https://www.huxiu.com/article/4902166.html?f=rss"
             },
-            "publishedAt": "2026-11-01T16:11:26.000Z",
-            "discoveredAt": "2026-11-01T16:53:55.550Z",
+            "publishedAt": "2026-11-02T01:16:46.000Z",
+            "discoveredAt": "2026-11-02T01:37:57.955Z",
             "category": "money",
             "score": 99,
             "selected": true,
             "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a57d5b501ad1cf96fda9b5be9"
+              "url": "https://zenglian-news.onrender.com/items/a570efa3a5c1a46d190c625be"
+            }
+          },
+          {
+            "id": "a9aa2370f465537e2d1305256",
+            "title": "【出海实战】我的 SaaS 实际上正在增长🥹",
+            "originalTitle": "My SaaS is actually growing 🥹",
+            "summary": "【出海实战】我的 SaaS 实际上正在增长🥹 —— 来自 X/Reddit·出海SaaS搞钱 的实时重点报道。",
+            "content": "【出海实战】我的 SaaS 实际上正在增长🥹 —— 来自 X/Reddit·出海SaaS搞钱 的实时重点报道。\n\n【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "【出海实战】我的 SaaS 实际上正在增长🥹 —— 来自 X/Reddit·出海SaaS搞钱 的实时重点报道。",
+              "【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a9aa2370f465537e2d1305256",
+              "original": "https://www.reddit.com/r/SaaS/comments/1xlhyox/my_saas_is_actually_growing/"
+            },
+            "publishedAt": "2026-11-01T23:38:44.000Z",
+            "discoveredAt": "2026-11-02T02:20:35.263Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a9aa2370f465537e2d1305256"
             }
           },
           {
@@ -259,35 +288,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a3b02aedc0ce131bf604744bf"
-            }
-          },
-          {
-            "id": "aecd4f609838e0d8db5c8ec7a",
-            "title": "【独立变现】Show HN：OmniDiff – 开源、超快、内容感知的 Git difftool，采用 Rust 语言",
-            "originalTitle": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
-            "summary": "我一直在根据开源存储库中的实际差异研究最终的差异工具是什么样子。 OmniDiff 可以比较：代码（25 种语言）、配置、图像、PDF、档案、光标、字体...速度很快...（来源：Show HN·独立变现榜）",
-            "content": "我一直在根据开源存储库中的实际差异研究最终的差异工具是什么样子。 OmniDiff 可以比较：代码（25 种语言）、配置、图像、PDF、档案、光标、字体...速度很快...（来源：Show HN·独立变现榜）\n\n【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "我一直在根据开源存储库中的实际差异研究最终的差异工具是什么样子。 OmniDiff 可以比较：代码（25 种语言）、配置、图像、PDF、档案、光标、字体...速度很快...（来源：Show HN·独立变现榜）",
-              "【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "Show HN·独立变现榜"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aecd4f609838e0d8db5c8ec7a",
-              "original": "https://github.com/ivankovic/omnidiff"
-            },
-            "publishedAt": "2026-11-01T13:02:30.000Z",
-            "discoveredAt": "2026-11-01T22:58:49.785Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aecd4f609838e0d8db5c8ec7a"
             }
           }
         ]
@@ -390,42 +390,42 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "a7ab9ade69f12871d48c40cf5",
-            "title": "【全球票房】莱恩·约翰逊 (Rian Johnson) 委托《利刃出鞘》电影摄影师策划 RAW 相机应用程序：“我们使用相同的图像处理”",
-            "originalTitle": "Rian Johnson Commissions ‘Knives Out’ Cinematographer For Curated RAW Camera App: “The Same Image Processing We Use”",
-            "summary": "经过近 30 年的幕后合作，Rian Johnson 邀请他的电影摄影师 Steve Yedlin 将他们的美学理念融入到一款新的 iPhone 应用程序中。两次获得奥斯卡提名的编剧和导演宣布...（来源：Deadline·全球票房与新片）",
-            "content": "经过近 30 年的幕后合作，Rian Johnson 邀请他的电影摄影师 Steve Yedlin 将他们的美学理念融入到一款新的 iPhone 应用程序中。两次获得奥斯卡提名的编剧和导演宣布...（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a3b28b99b8553c4de05d56ad3",
+            "title": "【国内文娱】广东省第十届群众音乐舞蹈花会收官 19个作品夺金",
+            "originalTitle": "广东省第十届群众音乐舞蹈花会收官 19个作品夺金",
+            "summary": "中新网中山11月2日电 (记者 程景伟)10月28日至11月1日，广东省第十届群众音乐舞蹈花会决赛在中山市举办。经过决赛舞台的激烈角逐，《鼓乐·狮魂》《幸福鱼档》等19个作品获得金奖，《对自己说》《传麒》等28个作品获得银奖，《木棉花开的早晨》《绿色守望》等45个作品获得铜奖。",
+            "content": "中新网中山11月2日电 (记者 程景伟)10月28日至11月1日，广东省第十届群众音乐舞蹈花会决赛在中山市举办。经过决赛舞台的激烈角逐，《鼓乐·狮魂》《幸福鱼档》等19个作品获得金奖，《对自己说》《传麒》等28个作品获得银奖，《木棉花开的早晨》《绿色守望》等45个作品获得铜奖。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "经过近 30 年的幕后合作，Rian Johnson 邀请他的电影摄影师 Steve Yedlin 将他们的美学理念融入到一款新的 iPhone 应用程序中。两次获得奥斯卡提名的编剧和导演宣布...（来源：Deadline·全球票房与新片）",
-              "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
+              "中新网中山11月2日电 (记者 程景伟)10月28日至11月1日，广东省第十届群众音乐舞蹈花会决赛在中山市举办。经过决赛舞台的激烈角逐，《鼓乐·狮魂》《幸福鱼档》等19个作品获得金奖，《对自己说》《传麒》等28个作品获得银奖，《木棉花开的早晨》《绿色守望》等45个作品获得铜奖。",
+              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "Deadline·全球票房与新片"
+              "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7ab9ade69f12871d48c40cf5",
-              "original": "https://deadline.com/2026/11/rian-johnson-knives-out-cinematographer-curated-raw-camera-app-1237210958/"
+              "aihot": "https://zenglian-news.onrender.com/items/a3b28b99b8553c4de05d56ad3",
+              "original": "https://www.chinanews.com.cn/cul/2026/11-02/10724599.shtml"
             },
-            "publishedAt": "2026-11-01T22:50:29.000Z",
-            "discoveredAt": "2026-11-01T22:59:25.072Z",
+            "publishedAt": "2026-11-02T02:13:47.000Z",
+            "discoveredAt": "2026-11-02T02:20:17.954Z",
             "category": "culture",
             "score": 99,
             "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7ab9ade69f12871d48c40cf5"
+              "url": "https://zenglian-news.onrender.com/items/a3b28b99b8553c4de05d56ad3"
             }
           },
           {
-            "id": "a19235cb336a5223901a21546",
-            "title": "【好莱坞一手】韩国票房：热门动画《Chiikawa》继续领先，布拉德·皮特惊悚片《野兽之心》首映",
-            "originalTitle": "Korea Box Office: Anime Hit ‘Chiikawa’ Retains Lead as Brad Pitt Thriller ‘Heart of the Beast’ Debuts",
-            "summary": "日本动画电影《千井川剧场版：人鱼岛的秘密》在 10 月 30 日至 11 月 30 日的周末占据韩国票房第一的位置。 1、连续第三个周末排名第一...（来源：Variety·好莱坞影视）",
-            "content": "日本动画电影《千井川剧场版：人鱼岛的秘密》在 10 月 30 日至 11 月 30 日的周末占据韩国票房第一的位置。 1、连续第三个周末排名第一...（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "aeccfc37317838613ff55a08a",
+            "title": "【好莱坞一手】沙尔巴努·萨达特和耶莱娜·马克西莫维奇在东京电影节演讲中回击电影资助中的歧视",
+            "originalTitle": "Shahrbanoo Sadat and Jelena Maksimović Hit Back at Discrimination in Film Funding at Tokyo Festival Talk",
+            "summary": "阿富汗导演沙尔巴努·萨达特在东京国际电影节的一次演讲中表示，缺乏资金以及控制资金的机构的无知，使女性在电影业处于固有的劣势。（来源：Variety·好莱坞影视）",
+            "content": "阿富汗导演沙尔巴努·萨达特在东京国际电影节的一次演讲中表示，缺乏资金以及控制资金的机构的无知，使女性在电影业处于固有的劣势。（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "日本动画电影《千井川剧场版：人鱼岛的秘密》在 10 月 30 日至 11 月 30 日的周末占据韩国票房第一的位置。 1、连续第三个周末排名第一...（来源：Variety·好莱坞影视）",
+              "阿富汗导演沙尔巴努·萨达特在东京国际电影节的一次演讲中表示，缺乏资金以及控制资金的机构的无知，使女性在电影业处于固有的劣势。（来源：Variety·好莱坞影视）",
               "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -433,28 +433,28 @@
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a19235cb336a5223901a21546",
-              "original": "https://variety.com/2026/film/box-office/korea-box-office-anime-hit-chiikawa-brad-pitt-heart-of-the-beast-1236936987/"
+              "aihot": "https://zenglian-news.onrender.com/items/aeccfc37317838613ff55a08a",
+              "original": "https://variety.com/2026/film/festivals/shahrbanoo-sadat-hits-back-film-funding-discrimination-1236937057/"
             },
-            "publishedAt": "2026-11-01T22:38:58.000Z",
-            "discoveredAt": "2026-11-01T22:59:15.107Z",
+            "publishedAt": "2026-11-02T01:35:45.000Z",
+            "discoveredAt": "2026-11-02T02:20:50.171Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a19235cb336a5223901a21546"
+              "url": "https://zenglian-news.onrender.com/items/aeccfc37317838613ff55a08a"
             }
           },
           {
-            "id": "ab5e23965d8d0d51897df6e6b",
-            "title": "【好莱坞一手】日本漂流者的韩国公路之旅推动了内山拓哉在东京缺口融资市场上的“蓝色突破”",
-            "originalTitle": "Japanese Drifter’s Road Trip to Korea Drives Uchiyama Takuya’s ‘The Blue Breaks’ at Tokyo Gap-Financing Market",
-            "summary": "《蓝色突破》改编自町屋良平 2016 年由日本电影制片人内山卓也（《麻木》）创作的小说，一名通过精子捐赠受孕的男子不确定自己在世界上的地位，于是踏上了前往韩国的旅程。 ...（来源：Variety·好莱坞影视）",
-            "content": "《蓝色突破》改编自町屋良平 2016 年由日本电影制片人内山卓也（《麻木》）创作的小说，一名通过精子捐赠受孕的男子不确定自己在世界上的地位，于是踏上了前往韩国的旅程。 ...（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a425508715548f0086fee4640",
+            "title": "【好莱坞一手】雅加达世界电影计划与国际评审团一起恢复首届故事片竞赛",
+            "originalTitle": "Jakarta World Cinema Plans to Revive First Feature Competition With International Jury",
+            "summary": "雅加达世界电影计划于明年恢复首届故事片竞赛，向世界各地的电影制片人开放，并由国际评审团进行评审。今年的版本不接受投稿。竞争...（来源：Variety·好莱坞影视）",
+            "content": "雅加达世界电影计划于明年恢复首届故事片竞赛，向世界各地的电影制片人开放，并由国际评审团进行评审。今年的版本不接受投稿。竞争...（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "《蓝色突破》改编自町屋良平 2016 年由日本电影制片人内山卓也（《麻木》）创作的小说，一名通过精子捐赠受孕的男子不确定自己在世界上的地位，于是踏上了前往韩国的旅程。 ...（来源：Variety·好莱坞影视）",
+              "雅加达世界电影计划于明年恢复首届故事片竞赛，向世界各地的电影制片人开放，并由国际评审团进行评审。今年的版本不接受投稿。竞争...（来源：Variety·好莱坞影视）",
               "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -462,18 +462,18 @@
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab5e23965d8d0d51897df6e6b",
-              "original": "https://variety.com/2026/film/markets-festivals/drifter-road-trip-korea-blue-breaks-tokyo-market-1236936982/"
+              "aihot": "https://zenglian-news.onrender.com/items/a425508715548f0086fee4640",
+              "original": "https://variety.com/2026/film/festivals/jakarta-world-cinema-revive-first-feature-competition-1236937042/"
             },
-            "publishedAt": "2026-11-01T22:24:25.000Z",
-            "discoveredAt": "2026-11-01T22:59:17.559Z",
+            "publishedAt": "2026-11-02T00:57:04.000Z",
+            "discoveredAt": "2026-11-02T02:20:52.442Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab5e23965d8d0d51897df6e6b"
+              "url": "https://zenglian-news.onrender.com/items/a425508715548f0086fee4640"
             }
           }
         ]
@@ -482,6 +482,35 @@
         "category": "business",
         "label": "🏆 体育实时Top20",
         "items": [
+          {
+            "id": "acdf4bd56ff49a530a5b9d75f",
+            "title": "【体坛快讯】WTT蒙彼利埃冠军赛：孙颖莎女单夺冠",
+            "originalTitle": "WTT蒙彼利埃冠军赛：孙颖莎女单夺冠",
+            "summary": "中新社法国蒙彼利埃11月2日电 当地时间11月1日，2026年世界乒乓球职业大联盟(WTT)蒙彼利埃冠军赛迎来决赛日。中国名将孙颖莎以4:1战胜队友蒯曼，获得女单冠军。韩国选手张禹珍夺得男单冠军。",
+            "content": "中新社法国蒙彼利埃11月2日电 当地时间11月1日，2026年世界乒乓球职业大联盟(WTT)蒙彼利埃冠军赛迎来决赛日。中国名将孙颖莎以4:1战胜队友蒯曼，获得女单冠军。韩国选手张禹珍夺得男单冠军。\n\n【深度核心看点】权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "中新社法国蒙彼利埃11月2日电 当地时间11月1日，2026年世界乒乓球职业大联盟(WTT)蒙彼利埃冠军赛迎来决赛日。中国名将孙颖莎以4:1战胜队友蒯曼，获得女单冠军。韩国选手张禹珍夺得男单冠军。",
+              "【深度核心看点】权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "中新网·体育焦点"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/acdf4bd56ff49a530a5b9d75f",
+              "original": "https://www.chinanews.com.cn/ty/2026/11-02/10724556.shtml"
+            },
+            "publishedAt": "2026-11-02T01:53:36.000Z",
+            "discoveredAt": "2026-11-02T02:20:58.938Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/acdf4bd56ff49a530a5b9d75f"
+            }
+          },
           {
             "id": "ac83488176c20750b92bc5add",
             "title": "【NBA一手】泰瑞斯·马克西迄今为止：29.6 PTS、4.1 REB、4.4 AST、1.7 STL 投篮命中率 48.6/35.2/83。他是76人队首发5人中唯一打满所有比赛的球员，场均上场37.6分钟。如果他本赛季入选 NBA 最佳阵容，他将有资格签下 2029 年开始的价值 3.04 亿美元/4 年的超级顶薪续约合同",
@@ -512,61 +541,32 @@
             }
           },
           {
-            "id": "a5ffca9f53953ee3b3fa6f17b",
-            "title": "【BBC足坛】阿森纳以罕见的胜利击败利物浦，遥遥领先",
-            "originalTitle": "Arsenal move clear at the top with a rare win at Liverpool",
-            "summary": "阿森纳自 2012 年以来首次在安菲尔德获胜，在英超积分榜上领先 3 分，而利物浦在一场端到端的比赛中却一无所获，感到沮丧。（来源：BBC Sport·欧洲足坛）",
-            "content": "阿森纳自 2012 年以来首次在安菲尔德获胜，在英超积分榜上领先 3 分，而利物浦在一场端到端的比赛中却一无所获，感到沮丧。（来源：BBC Sport·欧洲足坛）\n\n【深度核心看点】BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a308f5e84c8fe2a4f2e0c9428",
+            "title": "【NBA一手】RJ质疑当今NBA的训练营和季前赛团",
+            "originalTitle": "RJ questions the training camp and preseason regiment of today's NBA",
+            "summary": "由 /u/SliMShady55222 提交 [链接] [评论]（来源：NBA·北美篮球实时热榜）",
+            "content": "由 /u/SliMShady55222 提交 [链接] [评论]（来源：NBA·北美篮球实时热榜）\n\n【深度核心看点】全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "阿森纳自 2012 年以来首次在安菲尔德获胜，在英超积分榜上领先 3 分，而利物浦在一场端到端的比赛中却一无所获，感到沮丧。（来源：BBC Sport·欧洲足坛）",
-              "【深度核心看点】BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。 ",
+              "由 /u/SliMShady55222 提交 [链接] [评论]（来源：NBA·北美篮球实时热榜）",
+              "【深度核心看点】全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "BBC Sport·欧洲足坛"
+              "name": "NBA·北美篮球实时热榜"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a5ffca9f53953ee3b3fa6f17b",
-              "original": "https://www.bbc.co.uk/sport/football/videos/cmly09yv9xl6o?at_medium=RSS&at_campaign=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/a308f5e84c8fe2a4f2e0c9428",
+              "original": "https://www.reddit.com/r/nba/comments/1xlid3f/rj_questions_the_training_camp_and_preseason/"
             },
-            "publishedAt": "2026-11-01T20:00:18.000Z",
-            "discoveredAt": "2026-11-01T22:59:41.734Z",
+            "publishedAt": "2026-11-01T23:57:32.000Z",
+            "discoveredAt": "2026-11-02T02:21:08.135Z",
             "category": "business",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
+            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a5ffca9f53953ee3b3fa6f17b"
-            }
-          },
-          {
-            "id": "a9db50fda5c619bd1d4fab65a",
-            "title": "【欧洲足坛】随着主教练压力的增加，英超联赛的苦苦挣扎的球队应该坚持还是扭转？ |安德鲁·比斯利",
-            "originalTitle": "Should Premier League strugglers stick or twist as pressure on managers mounts? | Andrew Beasley",
-            "summary": "不同寻常的是，所有顶级联赛的俱乐部都有同一位新赛季开始时的主教练——但距离第一次解雇可能并不遥远。本赛季还没有英超联赛主教练失去工作。仅在其中的三个...（来源：卫报体育·欧冠与五大联赛）",
-            "content": "不同寻常的是，所有顶级联赛的俱乐部都有同一位新赛季开始时的主教练——但距离第一次解雇可能并不遥远。本赛季还没有英超联赛主教练失去工作。仅在其中的三个...（来源：卫报体育·欧冠与五大联赛）\n\n【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "不同寻常的是，所有顶级联赛的俱乐部都有同一位新赛季开始时的主教练——但距离第一次解雇可能并不遥远。本赛季还没有英超联赛主教练失去工作。仅在其中的三个...（来源：卫报体育·欧冠与五大联赛）",
-              "【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9db50fda5c619bd1d4fab65a",
-              "original": "https://www.theguardian.com/football/2026/nov/01/michael-carrick-manchester-united-favourite-premier-league-sack-race"
-            },
-            "publishedAt": "2026-11-01T18:00:30.000Z",
-            "discoveredAt": "2026-11-01T22:59:55.130Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9db50fda5c619bd1d4fab65a"
+              "url": "https://zenglian-news.onrender.com/items/a308f5e84c8fe2a4f2e0c9428"
             }
           }
         ]
@@ -578,7 +578,7 @@
     "key": "2026-W41",
     "title": "曾练全球一手简报 · 本周核心周报 (2026年第41周)",
     "subtitle": "7天全球政经、国内大事、商业搞钱、AI突破与文体焦点深度复盘",
-    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：如果AI解开了世界难题，人类数学家还剩下什么？；显示 HN：HackerBooks – HackerTube，但适用于 HN 上提到的书籍；Show HN：OmniDiff – 开源、超快、内容感知的 Git difftool，采用 Rust 语言。",
+    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：最强智能的去向，不在排行榜里；我的 SaaS 实际上正在增长🥹；显示 HN：HackerBooks – HackerTube，但适用于 HN 上提到的书籍。",
     "metrics": {
       "totalEvents": 30,
       "sourcesCount": 30,
@@ -589,6 +589,35 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
+          {
+            "id": "a7fbf0b8f8d1368a102f98c8a",
+            "title": "【BBC全球】民主党在密歇根州参议院关键竞选中支持共和党候选人，党内争端爆发",
+            "originalTitle": "Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts",
+            "summary": "海莉·史蒂文斯(Haley Stevens)在民主党参议院提名中输给了阿卜杜勒·赛义德(Abdul El-Sayed)，他的举动被一位民主党高层称为“卑鄙的背叛”。（来源：BBC News·全球要闻）",
+            "content": "海莉·史蒂文斯(Haley Stevens)在民主党参议院提名中输给了阿卜杜勒·赛义德(Abdul El-Sayed)，他的举动被一位民主党高层称为“卑鄙的背叛”。（来源：BBC News·全球要闻）\n\n【深度核心看点】BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "海莉·史蒂文斯(Haley Stevens)在民主党参议院提名中输给了阿卜杜勒·赛义德(Abdul El-Sayed)，他的举动被一位民主党高层称为“卑鄙的背叛”。（来源：BBC News·全球要闻）",
+              "【深度核心看点】BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "BBC News·全球要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a7fbf0b8f8d1368a102f98c8a",
+              "original": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o?at_medium=RSS&at_campaign=rss"
+            },
+            "publishedAt": "2026-11-02T01:45:42.000Z",
+            "discoveredAt": "2026-11-02T02:20:11.778Z",
+            "category": "global",
+            "score": 98,
+            "selected": true,
+            "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a7fbf0b8f8d1368a102f98c8a"
+            }
+          },
           {
             "id": "a22c0a8c1139029fa1ad88a46",
             "title": "【全球热榜】边疆航空公司可能遭到违规",
@@ -645,35 +674,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a747bd22a32c4c5e1ac7d75db"
-            }
-          },
-          {
-            "id": "aaf1efa97fcda18b1739d4b45",
-            "title": "【全球热榜】挪威让茅屋再次伟大",
-            "originalTitle": "Norway makes shithouses great again",
-            "summary": "X/HN·全球热榜Top实时快讯：Norway makes shithouses great again。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "content": "X/HN·全球热榜Top实时快讯：Norway makes shithouses great again。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "X/HN·全球热榜Top实时快讯：Norway makes shithouses great again。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-              "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aaf1efa97fcda18b1739d4b45",
-              "original": "https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/"
-            },
-            "publishedAt": "2026-11-01T10:47:58.000Z",
-            "discoveredAt": "2026-11-01T14:51:12.651Z",
-            "category": "global",
-            "score": 98,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aaf1efa97fcda18b1739d4b45"
             }
           },
           {
@@ -741,42 +741,13 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "a80c00c1b5455a7653ad78210",
-            "title": "【国内财经】胶囊胃镜、手术机器人亮相广交会 中国医疗设备加速出海",
-            "originalTitle": "胶囊胃镜、手术机器人亮相广交会 中国医疗设备加速出海",
-            "summary": "中新社广州11月1日电 (记者 蔡敏婕)在第140届广交会展台上，花生大小的智能胶囊胃镜吸引境外采购商注意。受检者只需咽下这颗胶囊，借助配套记录仪与手机App，屏幕上实时传回胃内清晰影像，直观展现胃部筛查过程。",
-            "content": "中新社广州11月1日电 (记者 蔡敏婕)在第140届广交会展台上，花生大小的智能胶囊胃镜吸引境外采购商注意。受检者只需咽下这颗胶囊，借助配套记录仪与手机App，屏幕上实时传回胃内清晰影像，直观展现胃部筛查过程。\n\n【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a0e190e4f10c8ecf694d8411e",
+            "title": "贾跃亭：FFR 机器人 10 月销量超 351 台，累计首次破千台",
+            "originalTitle": "贾跃亭：FFR 机器人 10 月销量超 351 台，累计首次破千台",
+            "summary": "IT之家 11 月 2 日消息，贾跃亭今天发布新一期周报，宣称 FFR 机器人本体 10 月销售及出货量为 351 台，再次刷新单月纪录，已累计销售及出货量达到 1168 台， 首次破千并持续正毛利交付 。 贾跃亭估计，FFR 机器人 11 月、12 月预计月均销售及出货量要超过 400 台， 向全年 2000 台的销售目标冲刺 。 IT之家从贾跃亭微博了解到，FFR 和 FFAI 在纽约大区启动运作并正式开启招商，首期覆盖纽约、新泽西...",
+            "content": "IT之家 11 月 2 日消息，贾跃亭今天发布新一期周报，宣称 FFR 机器人本体 10 月销售及出货量为 351 台，再次刷新单月纪录，已累计销售及出货量达到 1168 台， 首次破千并持续正毛利交付 。 贾跃亭估计，FFR 机器人 11 月、12 月预计月均销售及出货量要超过 400 台， 向全年 2000 台的销售目标冲刺 。 IT之家从贾跃亭微博了解到，FFR 和 FFAI 在纽约大区启动运作并正式开启招商，首期覆盖纽约、新泽西...\n\n【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "中新社广州11月1日电 (记者 蔡敏婕)在第140届广交会展台上，花生大小的智能胶囊胃镜吸引境外采购商注意。受检者只需咽下这颗胶囊，借助配套记录仪与手机App，屏幕上实时传回胃内清晰影像，直观展现胃部筛查过程。",
-              "【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "中新网·国内财经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a80c00c1b5455a7653ad78210",
-              "original": "https://www.chinanews.com.cn/cj/2026/11-01/10724504.shtml"
-            },
-            "publishedAt": "2026-11-01T13:28:09.000Z",
-            "discoveredAt": "2026-11-01T14:51:20.367Z",
-            "category": "domestic",
-            "score": 98,
-            "selected": true,
-            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a80c00c1b5455a7653ad78210"
-            }
-          },
-          {
-            "id": "a7d32ed845c252540f0445b33",
-            "title": "古尔曼：苹果首款触屏 MacBook Pro 设计过于保守",
-            "originalTitle": "古尔曼：苹果首款触屏 MacBook Pro 设计过于保守",
-            "summary": "IT之家 11 月 2 日消息，苹果公司上周终于推出了品牌首款触控屏 MacBook Pro。然而对于一款具有里程碑意义的产品来说，这款笔记本设计却出人意料地保守，没有带来真正突破的创新。 据IT之家了解，触屏 MacBook Pro 采用了更轻薄的机身、OLED 屏幕，配备 M5 Pro 或 M5 Max 芯片，整体使用体验十分熟悉。人们不禁怀疑，苹果是否为这款触屏 Mac 带来足够多的创新，以及它的价格能否配得上外界期待。 彭博社记...",
-            "content": "IT之家 11 月 2 日消息，苹果公司上周终于推出了品牌首款触控屏 MacBook Pro。然而对于一款具有里程碑意义的产品来说，这款笔记本设计却出人意料地保守，没有带来真正突破的创新。 据IT之家了解，触屏 MacBook Pro 采用了更轻薄的机身、OLED 屏幕，配备 M5 Pro 或 M5 Max 芯片，整体使用体验十分熟悉。人们不禁怀疑，苹果是否为这款触屏 Mac 带来足够多的创新，以及它的价格能否配得上外界期待。 彭博社记...\n\n【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "IT之家 11 月 2 日消息，苹果公司上周终于推出了品牌首款触控屏 MacBook Pro。然而对于一款具有里程碑意义的产品来说，这款笔记本设计却出人意料地保守，没有带来真正突破的创新。 据IT之家了解，触屏 MacBook Pro 采用了更轻薄的机身、OLED 屏幕，配备 M5 Pro 或 M5 Max 芯片，整体使用体验十分熟悉。人们不禁怀疑，苹果是否为这款触屏 Mac 带来足够多的创新，以及它的价格能否配得上外界期待。 彭博社记...",
+              "IT之家 11 月 2 日消息，贾跃亭今天发布新一期周报，宣称 FFR 机器人本体 10 月销售及出货量为 351 台，再次刷新单月纪录，已累计销售及出货量达到 1168 台， 首次破千并持续正毛利交付 。 贾跃亭估计，FFR 机器人 11 月、12 月预计月均销售及出货量要超过 400 台， 向全年 2000 台的销售目标冲刺 。 IT之家从贾跃亭微博了解到，FFR 和 FFAI 在纽约大区启动运作并正式开启招商，首期覆盖纽约、新泽西...",
               "【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -784,28 +755,28 @@
               "name": "IT之家·国内产业"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7d32ed845c252540f0445b33",
-              "original": "https://www.ithome.com/1/020/842.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a0e190e4f10c8ecf694d8411e",
+              "original": "https://www.ithome.com/1/020/894.htm"
             },
-            "publishedAt": "2026-11-01T22:43:24.000Z",
-            "discoveredAt": "2026-11-01T22:58:36.028Z",
+            "publishedAt": "2026-11-02T02:16:20.000Z",
+            "discoveredAt": "2026-11-02T02:20:24.656Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7d32ed845c252540f0445b33"
+              "url": "https://zenglian-news.onrender.com/items/a0e190e4f10c8ecf694d8411e"
             }
           },
           {
-            "id": "a16fef65d0f08136a23b5ceff",
-            "title": "【国内要闻】把地球冷冻一下，温室效应会得到缓解吗？答案出乎意料",
-            "originalTitle": "把地球冷冻一下，温室效应会得到缓解吗？答案出乎意料",
-            "summary": "如果把地球冷冻一下，温室效应会得到缓解吗？汽油在水面上为什么是彩色的？微波炉能用“微波”加热食物，那“微波”能不能用来制冷……我们每天都有对这个世界的好奇，中国科学院物理研究所和总台中国之声节目《新闻超链接》为您寻找可能的答案，与您一起探索世界。",
-            "content": "如果把地球冷冻一下，温室效应会得到缓解吗？汽油在水面上为什么是彩色的？微波炉能用“微波”加热食物，那“微波”能不能用来制冷……我们每天都有对这个世界的好奇，中国科学院物理研究所和总台中国之声节目《新闻超链接》为您寻找可能的答案，与您一起探索世界。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a93413d9a50708b815b8ec1ea",
+            "title": "【国内要闻】西藏巴青县首批受灾师生抵达拉萨那曲完全中学开启异地复课 “在这里，感受到了家的温暖”",
+            "originalTitle": "西藏巴青县首批受灾师生抵达拉萨那曲完全中学开启异地复课 “在这里，感受到了家的温暖”",
+            "summary": "11月1日晚，西藏拉萨那曲完全中学校园内灯火通明、暖意融融。首批受巴青7.0级地震影响的589名五、六年级师生顺利抵达拉萨那曲完全中学，开启异地复课学习生活。后续，巴青县玛如乡小学和岗切乡小学异地复课学生总计1495人、教师89人，将陆续抵达。",
+            "content": "11月1日晚，西藏拉萨那曲完全中学校园内灯火通明、暖意融融。首批受巴青7.0级地震影响的589名五、六年级师生顺利抵达拉萨那曲完全中学，开启异地复课学习生活。后续，巴青县玛如乡小学和岗切乡小学异地复课学生总计1495人、教师89人，将陆续抵达。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "如果把地球冷冻一下，温室效应会得到缓解吗？汽油在水面上为什么是彩色的？微波炉能用“微波”加热食物，那“微波”能不能用来制冷……我们每天都有对这个世界的好奇，中国科学院物理研究所和总台中国之声节目《新闻超链接》为您寻找可能的答案，与您一起探索世界。",
+              "11月1日晚，西藏拉萨那曲完全中学校园内灯火通明、暖意融融。首批受巴青7.0级地震影响的589名五、六年级师生顺利抵达拉萨那曲完全中学，开启异地复课学习生活。后续，巴青县玛如乡小学和岗切乡小学异地复课学生总计1495人、教师89人，将陆续抵达。",
               "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -813,57 +784,28 @@
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a16fef65d0f08136a23b5ceff",
-              "original": "https://www.chinanews.com.cn/life/2026/11-02/10724527.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a93413d9a50708b815b8ec1ea",
+              "original": "https://www.chinanews.com.cn/gn/2026/11-02/10724606.shtml"
             },
-            "publishedAt": "2026-11-01T22:42:47.000Z",
-            "discoveredAt": "2026-11-01T22:58:31.063Z",
+            "publishedAt": "2026-11-02T02:11:23.000Z",
+            "discoveredAt": "2026-11-02T02:20:18.367Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a16fef65d0f08136a23b5ceff"
+              "url": "https://zenglian-news.onrender.com/items/a93413d9a50708b815b8ec1ea"
             }
           },
           {
-            "id": "a7cbab71f0294a87d542dcc34",
-            "title": "赛力斯：问界将全面进入欧洲市场，公司不参与价格战和规模内卷",
-            "originalTitle": "赛力斯：问界将全面进入欧洲市场，公司不参与价格战和规模内卷",
-            "summary": "IT之家 11 月 1 日消息，赛力斯 10 月 31 日发布投资者关系活动记录表，其中回答了“公司在问界的整体经营思路上有什么样的思考？对下一步业务发展有什么规划？”。 据其介绍，问界坚定做全球高端品牌。目前问界全系正推进欧盟 WVTA E1 整车型式认证，验证周期长、环节多，是高端车进入欧洲市场的必经门槛。公司坚持按最高标准走完全程，确保产品以合规、可靠的状态出海。10 月中旬 AITO 6、AITO 7、AITO 8、AITO 9...",
-            "content": "IT之家 11 月 1 日消息，赛力斯 10 月 31 日发布投资者关系活动记录表，其中回答了“公司在问界的整体经营思路上有什么样的思考？对下一步业务发展有什么规划？”。 据其介绍，问界坚定做全球高端品牌。目前问界全系正推进欧盟 WVTA E1 整车型式认证，验证周期长、环节多，是高端车进入欧洲市场的必经门槛。公司坚持按最高标准走完全程，确保产品以合规、可靠的状态出海。10 月中旬 AITO 6、AITO 7、AITO 8、AITO 9...\n\n【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a0bb1c9942f6c424a0fc15311",
+            "title": "【国内要闻】11月2日央行开展5410亿元隔夜逆回购操作",
+            "originalTitle": "11月2日央行开展5410亿元隔夜逆回购操作",
+            "summary": "中新网11月2日电 据中国人民银行网站消息，2026年11月2日中国人民银行以固定利率、数量招标方式开展了5410亿元隔夜期逆回购操作，全额满足了一级交易商需求。具体情况如下：",
+            "content": "中新网11月2日电 据中国人民银行网站消息，2026年11月2日中国人民银行以固定利率、数量招标方式开展了5410亿元隔夜期逆回购操作，全额满足了一级交易商需求。具体情况如下：\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "IT之家 11 月 1 日消息，赛力斯 10 月 31 日发布投资者关系活动记录表，其中回答了“公司在问界的整体经营思路上有什么样的思考？对下一步业务发展有什么规划？”。 据其介绍，问界坚定做全球高端品牌。目前问界全系正推进欧盟 WVTA E1 整车型式认证，验证周期长、环节多，是高端车进入欧洲市场的必经门槛。公司坚持按最高标准走完全程，确保产品以合规、可靠的状态出海。10 月中旬 AITO 6、AITO 7、AITO 8、AITO 9...",
-              "【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "IT之家·国内产业"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7cbab71f0294a87d542dcc34",
-              "original": "https://www.ithome.com/1/020/839.htm"
-            },
-            "publishedAt": "2026-11-01T14:47:24.000Z",
-            "discoveredAt": "2026-11-01T14:51:27.431Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7cbab71f0294a87d542dcc34"
-            }
-          },
-          {
-            "id": "a1c190680af8685be114b64bf",
-            "title": "【国内要闻】代办“超级签”落地后发现竟是旅游签 中介该如何赔偿？",
-            "originalTitle": "代办“超级签”落地后发现竟是旅游签 中介该如何赔偿？",
-            "summary": "出国探亲，有人把签证交给中介代办。可钱花了、办下来的却不是约定的签证类型，中介该不该担责？消费者能否索赔全部损失？近日，北京市西城区人民法院就审结了这样一起案件。",
-            "content": "出国探亲，有人把签证交给中介代办。可钱花了、办下来的却不是约定的签证类型，中介该不该担责？消费者能否索赔全部损失？近日，北京市西城区人民法院就审结了这样一起案件。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "出国探亲，有人把签证交给中介代办。可钱花了、办下来的却不是约定的签证类型，中介该不该担责？消费者能否索赔全部损失？近日，北京市西城区人民法院就审结了这样一起案件。",
+              "中新网11月2日电 据中国人民银行网站消息，2026年11月2日中国人民银行以固定利率、数量招标方式开展了5410亿元隔夜期逆回购操作，全额满足了一级交易商需求。具体情况如下：",
               "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -871,18 +813,76 @@
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a1c190680af8685be114b64bf",
-              "original": "https://www.chinanews.com.cn/sh/2026/11-01/10724513.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a0bb1c9942f6c424a0fc15311",
+              "original": "https://www.chinanews.com.cn/cj/2026/11-02/10724557.shtml"
             },
-            "publishedAt": "2026-11-01T14:20:20.000Z",
-            "discoveredAt": "2026-11-01T14:51:19.221Z",
+            "publishedAt": "2026-11-02T01:35:09.000Z",
+            "discoveredAt": "2026-11-02T01:37:38.244Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a1c190680af8685be114b64bf"
+              "url": "https://zenglian-news.onrender.com/items/a0bb1c9942f6c424a0fc15311"
+            }
+          },
+          {
+            "id": "a835ba5f21070e2c62d82eb34",
+            "title": "A股开盘：创业板指上涨1.05%，激光产业、液态金属、CPO等概念走强",
+            "originalTitle": "A股开盘：创业板指上涨1.05%，激光产业、液态金属、CPO等概念走强",
+            "summary": "11月2日早间A股开盘，上证指数涨0.42%，深证成指涨0.59%，创业板指涨1.05%，北证50涨0.62%。激光产业、液态金属、证券IT、HBM、CPO概念走强，AI语料、石油、有色·钴、锰硅、动漫产业概念走弱。",
+            "content": "11月2日早间A股开盘，上证指数涨0.42%，深证成指涨0.59%，创业板指涨1.05%，北证50涨0.62%。激光产业、液态金属、证券IT、HBM、CPO概念走强，AI语料、石油、有色·钴、锰硅、动漫产业概念走弱。\n\n【深度核心看点】上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "11月2日早间A股开盘，上证指数涨0.42%，深证成指涨0.59%，创业板指涨1.05%，北证50涨0.62%。激光产业、液态金属、证券IT、HBM、CPO概念走强，AI语料、石油、有色·钴、锰硅、动漫产业概念走弱。",
+              "【深度核心看点】上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "界面新闻·国内政经"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a835ba5f21070e2c62d82eb34",
+              "original": "https://www.jiemian.com/article/15279985.html"
+            },
+            "publishedAt": "2026-11-02T01:27:11.000Z",
+            "discoveredAt": "2026-11-02T01:37:41.493Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a835ba5f21070e2c62d82eb34"
+            }
+          },
+          {
+            "id": "a809028a5e147fb90705268d1",
+            "title": "【国内要闻】自然资源部等三部门联合印发《关于完善设施农用地管理的通知》",
+            "originalTitle": "自然资源部等三部门联合印发《关于完善设施农用地管理的通知》",
+            "summary": "中新网11月2日电 据自然资源部微信公众号消息，近日，自然资源部、农业农村部、国家林业和草原局联合印发《关于完善设施农用地管理的通知》(以下简称《通知》)，采取正面清单方式区分设施农业用地方式，并从设施农用地选址、规模、备案、登记、监管等方面完善相关举措，促进农民群众增产增收，助力农业现代化发展和乡村振兴。",
+            "content": "中新网11月2日电 据自然资源部微信公众号消息，近日，自然资源部、农业农村部、国家林业和草原局联合印发《关于完善设施农用地管理的通知》(以下简称《通知》)，采取正面清单方式区分设施农业用地方式，并从设施农用地选址、规模、备案、登记、监管等方面完善相关举措，促进农民群众增产增收，助力农业现代化发展和乡村振兴。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "中新网11月2日电 据自然资源部微信公众号消息，近日，自然资源部、农业农村部、国家林业和草原局联合印发《关于完善设施农用地管理的通知》(以下简称《通知》)，采取正面清单方式区分设施农业用地方式，并从设施农用地选址、规模、备案、登记、监管等方面完善相关举措，促进农民群众增产增收，助力农业现代化发展和乡村振兴。",
+              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a809028a5e147fb90705268d1",
+              "original": "https://www.chinanews.com.cn/gn/2026/11-02/10724553.shtml"
+            },
+            "publishedAt": "2026-11-02T01:09:43.000Z",
+            "discoveredAt": "2026-11-02T01:16:15.138Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a809028a5e147fb90705268d1"
             }
           }
         ]
@@ -892,13 +892,13 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
-            "id": "a57d5b501ad1cf96fda9b5be9",
-            "title": "如果AI解开了世界难题，人类数学家还剩下什么？",
-            "originalTitle": "如果AI解开了世界难题，人类数学家还剩下什么？",
-            "summary": "本文来自微信公众号： 秦朔朋友圈 ，作者：Irene Zhou 继知名数学家陶哲轩公开批评OpenAI后，近期另一位新晋菲尔茨奖得主邓煜也炮轰OpenAI——不能你蒸馏了全世界，不让别人来蒸馏你。 随着顶级模型公司不断破解世界级数学难题，数学家们集体破防。 邓煜近期提出的观点大意是，AI公司在构建大模型时，通过“知识蒸馏”或抓取全人类的网络文献、学术论文与知识库来训练自己。然而，当外界或同行希望了解模型的推理过程（即“思维链”）时，这些...",
-            "content": "本文来自微信公众号： 秦朔朋友圈 ，作者：Irene Zhou 继知名数学家陶哲轩公开批评OpenAI后，近期另一位新晋菲尔茨奖得主邓煜也炮轰OpenAI——不能你蒸馏了全世界，不让别人来蒸馏你。 随着顶级模型公司不断破解世界级数学难题，数学家们集体破防。 邓煜近期提出的观点大意是，AI公司在构建大模型时，通过“知识蒸馏”或抓取全人类的网络文献、学术论文与知识库来训练自己。然而，当外界或同行希望了解模型的推理过程（即“思维链”）时，这些...\n\n【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a570efa3a5c1a46d190c625be",
+            "title": "最强智能的去向，不在排行榜里",
+            "originalTitle": "最强智能的去向，不在排行榜里",
+            "summary": "本文来自微信公众号： 观潮体系 ，作者：观潮 ——从防范彼此超过，到把事做成 “所有AI都听话之后”系列第六篇 一 想象一个夜里。老人醒来，想从床边站起来。床边的机器人伸出扶手，帮她稳住身体。她不需要机器人替她过日子；她需要的是还能在熟悉的家里，自己起身、走动，决定今天要做什么。 人们谈AI，常从模型能力开场：它会不会思考，能不能超过人，带来繁荣，还是灾难。可对这位老人来说，问题更近，也更硬：我还能不能自己生活？伸手够不到时，有没有谁搭...",
+            "content": "本文来自微信公众号： 观潮体系 ，作者：观潮 ——从防范彼此超过，到把事做成 “所有AI都听话之后”系列第六篇 一 想象一个夜里。老人醒来，想从床边站起来。床边的机器人伸出扶手，帮她稳住身体。她不需要机器人替她过日子；她需要的是还能在熟悉的家里，自己起身、走动，决定今天要做什么。 人们谈AI，常从模型能力开场：它会不会思考，能不能超过人，带来繁荣，还是灾难。可对这位老人来说，问题更近，也更硬：我还能不能自己生活？伸手够不到时，有没有谁搭...\n\n【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "本文来自微信公众号： 秦朔朋友圈 ，作者：Irene Zhou 继知名数学家陶哲轩公开批评OpenAI后，近期另一位新晋菲尔茨奖得主邓煜也炮轰OpenAI——不能你蒸馏了全世界，不让别人来蒸馏你。 随着顶级模型公司不断破解世界级数学难题，数学家们集体破防。 邓煜近期提出的观点大意是，AI公司在构建大模型时，通过“知识蒸馏”或抓取全人类的网络文献、学术论文与知识库来训练自己。然而，当外界或同行希望了解模型的推理过程（即“思维链”）时，这些...",
+              "本文来自微信公众号： 观潮体系 ，作者：观潮 ——从防范彼此超过，到把事做成 “所有AI都听话之后”系列第六篇 一 想象一个夜里。老人醒来，想从床边站起来。床边的机器人伸出扶手，帮她稳住身体。她不需要机器人替她过日子；她需要的是还能在熟悉的家里，自己起身、走动，决定今天要做什么。 人们谈AI，常从模型能力开场：它会不会思考，能不能超过人，带来繁荣，还是灾难。可对这位老人来说，问题更近，也更硬：我还能不能自己生活？伸手够不到时，有没有谁搭...",
               "【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -906,18 +906,47 @@
               "name": "虎嗅网·商业搞钱深度"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a57d5b501ad1cf96fda9b5be9",
-              "original": "https://www.huxiu.com/article/4902131.html?f=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/a570efa3a5c1a46d190c625be",
+              "original": "https://www.huxiu.com/article/4902166.html?f=rss"
             },
-            "publishedAt": "2026-11-01T16:11:26.000Z",
-            "discoveredAt": "2026-11-01T16:53:55.550Z",
+            "publishedAt": "2026-11-02T01:16:46.000Z",
+            "discoveredAt": "2026-11-02T01:37:57.955Z",
             "category": "money",
             "score": 99,
             "selected": true,
             "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a57d5b501ad1cf96fda9b5be9"
+              "url": "https://zenglian-news.onrender.com/items/a570efa3a5c1a46d190c625be"
+            }
+          },
+          {
+            "id": "a9aa2370f465537e2d1305256",
+            "title": "【出海实战】我的 SaaS 实际上正在增长🥹",
+            "originalTitle": "My SaaS is actually growing 🥹",
+            "summary": "【出海实战】我的 SaaS 实际上正在增长🥹 —— 来自 X/Reddit·出海SaaS搞钱 的实时重点报道。",
+            "content": "【出海实战】我的 SaaS 实际上正在增长🥹 —— 来自 X/Reddit·出海SaaS搞钱 的实时重点报道。\n\n【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "【出海实战】我的 SaaS 实际上正在增长🥹 —— 来自 X/Reddit·出海SaaS搞钱 的实时重点报道。",
+              "【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a9aa2370f465537e2d1305256",
+              "original": "https://www.reddit.com/r/SaaS/comments/1xlhyox/my_saas_is_actually_growing/"
+            },
+            "publishedAt": "2026-11-01T23:38:44.000Z",
+            "discoveredAt": "2026-11-02T02:20:35.263Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a9aa2370f465537e2d1305256"
             }
           },
           {
@@ -950,71 +979,13 @@
             }
           },
           {
-            "id": "aecd4f609838e0d8db5c8ec7a",
-            "title": "【独立变现】Show HN：OmniDiff – 开源、超快、内容感知的 Git difftool，采用 Rust 语言",
-            "originalTitle": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
-            "summary": "我一直在根据开源存储库中的实际差异研究最终的差异工具是什么样子。 OmniDiff 可以比较：代码（25 种语言）、配置、图像、PDF、档案、光标、字体...速度很快...（来源：Show HN·独立变现榜）",
-            "content": "我一直在根据开源存储库中的实际差异研究最终的差异工具是什么样子。 OmniDiff 可以比较：代码（25 种语言）、配置、图像、PDF、档案、光标、字体...速度很快...（来源：Show HN·独立变现榜）\n\n【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "ade451c60f9374d28b826b036",
+            "title": "红杉资本在VC圈里保持长青的秘密",
+            "originalTitle": "红杉资本在VC圈里保持长青的秘密",
+            "summary": "本文来自微信公众号： AI时代仍不辍思考 ，作者：创业思考碎片 1972年，硅谷沙山路同时诞生了两家风险投资机构。一家叫红杉资本，另一家叫Kleiner Perkins（中文通常叫凯鹏华盈）。起步资金都只有几百万美元，都投出了定义时代的公司，都在九十年代站上行业之巅。 五十年后，红杉依然在全球最具影响力的VC之列。Kleiner Perkins——曾经投出Genentech、Sun、Netscape、Amazon、Google的王者——...",
+            "content": "本文来自微信公众号： AI时代仍不辍思考 ，作者：创业思考碎片 1972年，硅谷沙山路同时诞生了两家风险投资机构。一家叫红杉资本，另一家叫Kleiner Perkins（中文通常叫凯鹏华盈）。起步资金都只有几百万美元，都投出了定义时代的公司，都在九十年代站上行业之巅。 五十年后，红杉依然在全球最具影响力的VC之列。Kleiner Perkins——曾经投出Genentech、Sun、Netscape、Amazon、Google的王者——...\n\n【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "我一直在根据开源存储库中的实际差异研究最终的差异工具是什么样子。 OmniDiff 可以比较：代码（25 种语言）、配置、图像、PDF、档案、光标、字体...速度很快...（来源：Show HN·独立变现榜）",
-              "【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "Show HN·独立变现榜"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aecd4f609838e0d8db5c8ec7a",
-              "original": "https://github.com/ivankovic/omnidiff"
-            },
-            "publishedAt": "2026-11-01T13:02:30.000Z",
-            "discoveredAt": "2026-11-01T22:58:49.785Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aecd4f609838e0d8db5c8ec7a"
-            }
-          },
-          {
-            "id": "a604ab23a40dea305f820bfa6",
-            "title": "【出海实战】Virgin 工程师 vs Chad SaaS 创始人",
-            "originalTitle": "Virgin engineer vs Chad SaaS founder",
-            "summary": "谁真正赢了？   由 /u/Born_Entrepreneur581 提交 [链接] [评论]（来源：X/Reddit·出海SaaS搞钱）",
-            "content": "谁真正赢了？   由 /u/Born_Entrepreneur581 提交 [链接] [评论]（来源：X/Reddit·出海SaaS搞钱）\n\n【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "谁真正赢了？   由 /u/Born_Entrepreneur581 提交 [链接] [评论]（来源：X/Reddit·出海SaaS搞钱）",
-              "【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a604ab23a40dea305f820bfa6",
-              "original": "https://www.reddit.com/r/SaaS/comments/1xlbfkk/virgin_engineer_vs_chad_saas_founder/"
-            },
-            "publishedAt": "2026-11-01T19:05:32.000Z",
-            "discoveredAt": "2026-11-01T22:58:55.476Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a604ab23a40dea305f820bfa6"
-            }
-          },
-          {
-            "id": "a882b15d6eb3a109d025d7318",
-            "title": "传音的非洲手机生意，现金流为什么突然恶化了？",
-            "originalTitle": "传音的非洲手机生意，现金流为什么突然恶化了？",
-            "summary": "本文来自微信公众号： 好望角view ，作者：好望角出海编辑部 传音控股今年前三季度赚了26.3亿元，经营现金流却流出了98.73亿元。 这意味着，一家仍在盈利的手机公司，九个月里从日常经营中净流出的现金，相当于同期净利润的3.75倍。 10月30日，传音发布2026年第三季度财报。前三季度营业收入502.8亿元，同比增长1.49%；归母净利润同比增长22.44%。 然而，第三季度的经营情况出现了明显变化。营业收入148.49亿元，同比...",
-            "content": "本文来自微信公众号： 好望角view ，作者：好望角出海编辑部 传音控股今年前三季度赚了26.3亿元，经营现金流却流出了98.73亿元。 这意味着，一家仍在盈利的手机公司，九个月里从日常经营中净流出的现金，相当于同期净利润的3.75倍。 10月30日，传音发布2026年第三季度财报。前三季度营业收入502.8亿元，同比增长1.49%；归母净利润同比增长22.44%。 然而，第三季度的经营情况出现了明显变化。营业收入148.49亿元，同比...\n\n【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "本文来自微信公众号： 好望角view ，作者：好望角出海编辑部 传音控股今年前三季度赚了26.3亿元，经营现金流却流出了98.73亿元。 这意味着，一家仍在盈利的手机公司，九个月里从日常经营中净流出的现金，相当于同期净利润的3.75倍。 10月30日，传音发布2026年第三季度财报。前三季度营业收入502.8亿元，同比增长1.49%；归母净利润同比增长22.44%。 然而，第三季度的经营情况出现了明显变化。营业收入148.49亿元，同比...",
+              "本文来自微信公众号： AI时代仍不辍思考 ，作者：创业思考碎片 1972年，硅谷沙山路同时诞生了两家风险投资机构。一家叫红杉资本，另一家叫Kleiner Perkins（中文通常叫凯鹏华盈）。起步资金都只有几百万美元，都投出了定义时代的公司，都在九十年代站上行业之巅。 五十年后，红杉依然在全球最具影响力的VC之列。Kleiner Perkins——曾经投出Genentech、Sun、Netscape、Amazon、Google的王者——...",
               "【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -1022,18 +993,47 @@
               "name": "虎嗅网·商业搞钱深度"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a882b15d6eb3a109d025d7318",
-              "original": "https://www.huxiu.com/article/4902121.html?f=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/ade451c60f9374d28b826b036",
+              "original": "https://www.huxiu.com/article/4902157.html?f=rss"
             },
-            "publishedAt": "2026-11-01T14:27:31.000Z",
-            "discoveredAt": "2026-11-01T14:51:39.221Z",
+            "publishedAt": "2026-11-02T02:03:00.000Z",
+            "discoveredAt": "2026-11-02T02:20:37.634Z",
             "category": "money",
             "score": 98,
             "selected": true,
             "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a882b15d6eb3a109d025d7318"
+              "url": "https://zenglian-news.onrender.com/items/ade451c60f9374d28b826b036"
+            }
+          },
+          {
+            "id": "a372729e33bad6b2080fcda1a",
+            "title": "苹果选择千问，另有目的",
+            "originalTitle": "苹果选择千问，另有目的",
+            "summary": "（本文作者为 影子备忘录，钛媒体经授权发布） 文 | 影子备忘录 10月31日，靴子落地。苹果官宣与阿里巴巴合作，千问正式集成至Apple智能，中国用户可以在Siri、写作工具和视觉智能中直接调用千问的文本与图像理解、内容生成能力。 11月4日开发者Beta开放测试，12月随iOS 27.3正式面向中国用户推送。 消息本身并不意外。从2025年2月蔡崇信在迪拜确认合作，到今年7月苹果智能完成备案、8月路透曝出双方联合训练中国专属模型，这...",
+            "content": "（本文作者为 影子备忘录，钛媒体经授权发布） 文 | 影子备忘录 10月31日，靴子落地。苹果官宣与阿里巴巴合作，千问正式集成至Apple智能，中国用户可以在Siri、写作工具和视觉智能中直接调用千问的文本与图像理解、内容生成能力。 11月4日开发者Beta开放测试，12月随iOS 27.3正式面向中国用户推送。 消息本身并不意外。从2025年2月蔡崇信在迪拜确认合作，到今年7月苹果智能完成备案、8月路透曝出双方联合训练中国专属模型，这...\n\n【深度核心看点】聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "（本文作者为 影子备忘录，钛媒体经授权发布） 文 | 影子备忘录 10月31日，靴子落地。苹果官宣与阿里巴巴合作，千问正式集成至Apple智能，中国用户可以在Siri、写作工具和视觉智能中直接调用千问的文本与图像理解、内容生成能力。 11月4日开发者Beta开放测试，12月随iOS 27.3正式面向中国用户推送。 消息本身并不意外。从2025年2月蔡崇信在迪拜确认合作，到今年7月苹果智能完成备案、8月路透曝出双方联合训练中国专属模型，这...",
+              "【深度核心看点】聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "钛媒体·资本与风口"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a372729e33bad6b2080fcda1a",
+              "original": "https://www.tmtpost.com/8189162.html"
+            },
+            "publishedAt": "2026-11-02T01:17:04.000Z",
+            "discoveredAt": "2026-11-02T01:38:01.914Z",
+            "category": "money",
+            "score": 98,
+            "selected": true,
+            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a372729e33bad6b2080fcda1a"
             }
           }
         ]
@@ -1177,7 +1177,7 @@
               "original": "https://www.qbitai.com/2026/11/507076.html"
             },
             "publishedAt": "2026-11-01T13:28:10.000Z",
-            "discoveredAt": "2026-11-01T22:59:06.863Z",
+            "discoveredAt": "2026-11-02T02:20:46.990Z",
             "category": "tech",
             "score": 99,
             "selected": true,
@@ -1193,6 +1193,93 @@
         "category": "culture",
         "label": "🎬 影视娱乐Top20",
         "items": [
+          {
+            "id": "a3b28b99b8553c4de05d56ad3",
+            "title": "【国内文娱】广东省第十届群众音乐舞蹈花会收官 19个作品夺金",
+            "originalTitle": "广东省第十届群众音乐舞蹈花会收官 19个作品夺金",
+            "summary": "中新网中山11月2日电 (记者 程景伟)10月28日至11月1日，广东省第十届群众音乐舞蹈花会决赛在中山市举办。经过决赛舞台的激烈角逐，《鼓乐·狮魂》《幸福鱼档》等19个作品获得金奖，《对自己说》《传麒》等28个作品获得银奖，《木棉花开的早晨》《绿色守望》等45个作品获得铜奖。",
+            "content": "中新网中山11月2日电 (记者 程景伟)10月28日至11月1日，广东省第十届群众音乐舞蹈花会决赛在中山市举办。经过决赛舞台的激烈角逐，《鼓乐·狮魂》《幸福鱼档》等19个作品获得金奖，《对自己说》《传麒》等28个作品获得银奖，《木棉花开的早晨》《绿色守望》等45个作品获得铜奖。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "中新网中山11月2日电 (记者 程景伟)10月28日至11月1日，广东省第十届群众音乐舞蹈花会决赛在中山市举办。经过决赛舞台的激烈角逐，《鼓乐·狮魂》《幸福鱼档》等19个作品获得金奖，《对自己说》《传麒》等28个作品获得银奖，《木棉花开的早晨》《绿色守望》等45个作品获得铜奖。",
+              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a3b28b99b8553c4de05d56ad3",
+              "original": "https://www.chinanews.com.cn/cul/2026/11-02/10724599.shtml"
+            },
+            "publishedAt": "2026-11-02T02:13:47.000Z",
+            "discoveredAt": "2026-11-02T02:20:17.954Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a3b28b99b8553c4de05d56ad3"
+            }
+          },
+          {
+            "id": "aeccfc37317838613ff55a08a",
+            "title": "【好莱坞一手】沙尔巴努·萨达特和耶莱娜·马克西莫维奇在东京电影节演讲中回击电影资助中的歧视",
+            "originalTitle": "Shahrbanoo Sadat and Jelena Maksimović Hit Back at Discrimination in Film Funding at Tokyo Festival Talk",
+            "summary": "阿富汗导演沙尔巴努·萨达特在东京国际电影节的一次演讲中表示，缺乏资金以及控制资金的机构的无知，使女性在电影业处于固有的劣势。（来源：Variety·好莱坞影视）",
+            "content": "阿富汗导演沙尔巴努·萨达特在东京国际电影节的一次演讲中表示，缺乏资金以及控制资金的机构的无知，使女性在电影业处于固有的劣势。（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "阿富汗导演沙尔巴努·萨达特在东京国际电影节的一次演讲中表示，缺乏资金以及控制资金的机构的无知，使女性在电影业处于固有的劣势。（来源：Variety·好莱坞影视）",
+              "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aeccfc37317838613ff55a08a",
+              "original": "https://variety.com/2026/film/festivals/shahrbanoo-sadat-hits-back-film-funding-discrimination-1236937057/"
+            },
+            "publishedAt": "2026-11-02T01:35:45.000Z",
+            "discoveredAt": "2026-11-02T02:20:50.171Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aeccfc37317838613ff55a08a"
+            }
+          },
+          {
+            "id": "a425508715548f0086fee4640",
+            "title": "【好莱坞一手】雅加达世界电影计划与国际评审团一起恢复首届故事片竞赛",
+            "originalTitle": "Jakarta World Cinema Plans to Revive First Feature Competition With International Jury",
+            "summary": "雅加达世界电影计划于明年恢复首届故事片竞赛，向世界各地的电影制片人开放，并由国际评审团进行评审。今年的版本不接受投稿。竞争...（来源：Variety·好莱坞影视）",
+            "content": "雅加达世界电影计划于明年恢复首届故事片竞赛，向世界各地的电影制片人开放，并由国际评审团进行评审。今年的版本不接受投稿。竞争...（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "雅加达世界电影计划于明年恢复首届故事片竞赛，向世界各地的电影制片人开放，并由国际评审团进行评审。今年的版本不接受投稿。竞争...（来源：Variety·好莱坞影视）",
+              "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a425508715548f0086fee4640",
+              "original": "https://variety.com/2026/film/festivals/jakarta-world-cinema-revive-first-feature-competition-1236937042/"
+            },
+            "publishedAt": "2026-11-02T00:57:04.000Z",
+            "discoveredAt": "2026-11-02T02:20:52.442Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a425508715548f0086fee4640"
+            }
+          },
           {
             "id": "a7ab9ade69f12871d48c40cf5",
             "title": "【全球票房】莱恩·约翰逊 (Rian Johnson) 委托《利刃出鞘》电影摄影师策划 RAW 相机应用程序：“我们使用相同的图像处理”",
@@ -1220,93 +1307,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a7ab9ade69f12871d48c40cf5"
-            }
-          },
-          {
-            "id": "a19235cb336a5223901a21546",
-            "title": "【好莱坞一手】韩国票房：热门动画《Chiikawa》继续领先，布拉德·皮特惊悚片《野兽之心》首映",
-            "originalTitle": "Korea Box Office: Anime Hit ‘Chiikawa’ Retains Lead as Brad Pitt Thriller ‘Heart of the Beast’ Debuts",
-            "summary": "日本动画电影《千井川剧场版：人鱼岛的秘密》在 10 月 30 日至 11 月 30 日的周末占据韩国票房第一的位置。 1、连续第三个周末排名第一...（来源：Variety·好莱坞影视）",
-            "content": "日本动画电影《千井川剧场版：人鱼岛的秘密》在 10 月 30 日至 11 月 30 日的周末占据韩国票房第一的位置。 1、连续第三个周末排名第一...（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "日本动画电影《千井川剧场版：人鱼岛的秘密》在 10 月 30 日至 11 月 30 日的周末占据韩国票房第一的位置。 1、连续第三个周末排名第一...（来源：Variety·好莱坞影视）",
-              "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a19235cb336a5223901a21546",
-              "original": "https://variety.com/2026/film/box-office/korea-box-office-anime-hit-chiikawa-brad-pitt-heart-of-the-beast-1236936987/"
-            },
-            "publishedAt": "2026-11-01T22:38:58.000Z",
-            "discoveredAt": "2026-11-01T22:59:15.107Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a19235cb336a5223901a21546"
-            }
-          },
-          {
-            "id": "ab5e23965d8d0d51897df6e6b",
-            "title": "【好莱坞一手】日本漂流者的韩国公路之旅推动了内山拓哉在东京缺口融资市场上的“蓝色突破”",
-            "originalTitle": "Japanese Drifter’s Road Trip to Korea Drives Uchiyama Takuya’s ‘The Blue Breaks’ at Tokyo Gap-Financing Market",
-            "summary": "《蓝色突破》改编自町屋良平 2016 年由日本电影制片人内山卓也（《麻木》）创作的小说，一名通过精子捐赠受孕的男子不确定自己在世界上的地位，于是踏上了前往韩国的旅程。 ...（来源：Variety·好莱坞影视）",
-            "content": "《蓝色突破》改编自町屋良平 2016 年由日本电影制片人内山卓也（《麻木》）创作的小说，一名通过精子捐赠受孕的男子不确定自己在世界上的地位，于是踏上了前往韩国的旅程。 ...（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "《蓝色突破》改编自町屋良平 2016 年由日本电影制片人内山卓也（《麻木》）创作的小说，一名通过精子捐赠受孕的男子不确定自己在世界上的地位，于是踏上了前往韩国的旅程。 ...（来源：Variety·好莱坞影视）",
-              "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab5e23965d8d0d51897df6e6b",
-              "original": "https://variety.com/2026/film/markets-festivals/drifter-road-trip-korea-blue-breaks-tokyo-market-1236936982/"
-            },
-            "publishedAt": "2026-11-01T22:24:25.000Z",
-            "discoveredAt": "2026-11-01T22:59:17.559Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab5e23965d8d0d51897df6e6b"
-            }
-          },
-          {
-            "id": "aefef8bf7c903e310bb07df24",
-            "title": "【好莱坞一手】希拉里·达芙 (Hilary Duff) 表示，《Lizzie McGuire》结束后她就“完蛋了”，再也不想唱《What Dreams Are Made Of》了：我“精疲力竭”",
-            "originalTitle": "Hilary Duff Says She Was ‘F—ing Done’ With ‘Lizzie McGuire’ When It Ended and Never Wanted to Sing ‘What Dreams Are Made Of’ Again: I Was ‘Exhausted By It’",
-            "summary": "希拉里·达芙 (Hilary Duff) 在 2003 年的电影《莉兹·麦奎尔》(Lizzie McGuire) 这部让她成为明星的两季节目结束后，正在反思自己扮演的莉兹·麦奎尔 (Lizzie McGuire) 已经“完蛋”了。 “莉齐·麦奎尔电影”以现在标志性的“什么梦想......（来源：Variety·好莱坞影视）",
-            "content": "希拉里·达芙 (Hilary Duff) 在 2003 年的电影《莉兹·麦奎尔》(Lizzie McGuire) 这部让她成为明星的两季节目结束后，正在反思自己扮演的莉兹·麦奎尔 (Lizzie McGuire) 已经“完蛋”了。 “莉齐·麦奎尔电影”以现在标志性的“什么梦想......（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "希拉里·达芙 (Hilary Duff) 在 2003 年的电影《莉兹·麦奎尔》(Lizzie McGuire) 这部让她成为明星的两季节目结束后，正在反思自己扮演的莉兹·麦奎尔 (Lizzie McGuire) 已经“完蛋”了。 “莉齐·麦奎尔电影”以现在标志性的“什么梦想......（来源：Variety·好莱坞影视）",
-              "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aefef8bf7c903e310bb07df24",
-              "original": "https://variety.com/2026/tv/news/hilary-duff-fing-done-when-lizzie-mcguire-ended-1236936919/"
-            },
-            "publishedAt": "2026-11-01T21:16:13.000Z",
-            "discoveredAt": "2026-11-01T22:59:23.142Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aefef8bf7c903e310bb07df24"
             }
           },
           {
@@ -1345,6 +1345,35 @@
         "label": "🏆 体育实时Top20",
         "items": [
           {
+            "id": "acdf4bd56ff49a530a5b9d75f",
+            "title": "【体坛快讯】WTT蒙彼利埃冠军赛：孙颖莎女单夺冠",
+            "originalTitle": "WTT蒙彼利埃冠军赛：孙颖莎女单夺冠",
+            "summary": "中新社法国蒙彼利埃11月2日电 当地时间11月1日，2026年世界乒乓球职业大联盟(WTT)蒙彼利埃冠军赛迎来决赛日。中国名将孙颖莎以4:1战胜队友蒯曼，获得女单冠军。韩国选手张禹珍夺得男单冠军。",
+            "content": "中新社法国蒙彼利埃11月2日电 当地时间11月1日，2026年世界乒乓球职业大联盟(WTT)蒙彼利埃冠军赛迎来决赛日。中国名将孙颖莎以4:1战胜队友蒯曼，获得女单冠军。韩国选手张禹珍夺得男单冠军。\n\n【深度核心看点】权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "中新社法国蒙彼利埃11月2日电 当地时间11月1日，2026年世界乒乓球职业大联盟(WTT)蒙彼利埃冠军赛迎来决赛日。中国名将孙颖莎以4:1战胜队友蒯曼，获得女单冠军。韩国选手张禹珍夺得男单冠军。",
+              "【深度核心看点】权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "中新网·体育焦点"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/acdf4bd56ff49a530a5b9d75f",
+              "original": "https://www.chinanews.com.cn/ty/2026/11-02/10724556.shtml"
+            },
+            "publishedAt": "2026-11-02T01:53:36.000Z",
+            "discoveredAt": "2026-11-02T02:20:58.938Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/acdf4bd56ff49a530a5b9d75f"
+            }
+          },
+          {
             "id": "ac83488176c20750b92bc5add",
             "title": "【NBA一手】泰瑞斯·马克西迄今为止：29.6 PTS、4.1 REB、4.4 AST、1.7 STL 投篮命中率 48.6/35.2/83。他是76人队首发5人中唯一打满所有比赛的球员，场均上场37.6分钟。如果他本赛季入选 NBA 最佳阵容，他将有资格签下 2029 年开始的价值 3.04 亿美元/4 年的超级顶薪续约合同",
             "originalTitle": "Tyrese Maxey so far: 29.6 PTS, 4.1 REB, 4.4 AST, 1.7 STL shooting 48.6/35.2/83. He's the only Sixers player in the starting 5 to play in all the games, averaging 37.6 minutes a game. If he's named All-NBA this season, he will be eligible to sign a $304M/4Y supermax extension that would start in 2029",
@@ -1374,42 +1403,42 @@
             }
           },
           {
-            "id": "a5ffca9f53953ee3b3fa6f17b",
-            "title": "【BBC足坛】阿森纳以罕见的胜利击败利物浦，遥遥领先",
-            "originalTitle": "Arsenal move clear at the top with a rare win at Liverpool",
-            "summary": "阿森纳自 2012 年以来首次在安菲尔德获胜，在英超积分榜上领先 3 分，而利物浦在一场端到端的比赛中却一无所获，感到沮丧。（来源：BBC Sport·欧洲足坛）",
-            "content": "阿森纳自 2012 年以来首次在安菲尔德获胜，在英超积分榜上领先 3 分，而利物浦在一场端到端的比赛中却一无所获，感到沮丧。（来源：BBC Sport·欧洲足坛）\n\n【深度核心看点】BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a308f5e84c8fe2a4f2e0c9428",
+            "title": "【NBA一手】RJ质疑当今NBA的训练营和季前赛团",
+            "originalTitle": "RJ questions the training camp and preseason regiment of today's NBA",
+            "summary": "由 /u/SliMShady55222 提交 [链接] [评论]（来源：NBA·北美篮球实时热榜）",
+            "content": "由 /u/SliMShady55222 提交 [链接] [评论]（来源：NBA·北美篮球实时热榜）\n\n【深度核心看点】全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "阿森纳自 2012 年以来首次在安菲尔德获胜，在英超积分榜上领先 3 分，而利物浦在一场端到端的比赛中却一无所获，感到沮丧。（来源：BBC Sport·欧洲足坛）",
-              "【深度核心看点】BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。 ",
+              "由 /u/SliMShady55222 提交 [链接] [评论]（来源：NBA·北美篮球实时热榜）",
+              "【深度核心看点】全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "BBC Sport·欧洲足坛"
+              "name": "NBA·北美篮球实时热榜"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a5ffca9f53953ee3b3fa6f17b",
-              "original": "https://www.bbc.co.uk/sport/football/videos/cmly09yv9xl6o?at_medium=RSS&at_campaign=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/a308f5e84c8fe2a4f2e0c9428",
+              "original": "https://www.reddit.com/r/nba/comments/1xlid3f/rj_questions_the_training_camp_and_preseason/"
             },
-            "publishedAt": "2026-11-01T20:00:18.000Z",
-            "discoveredAt": "2026-11-01T22:59:41.734Z",
+            "publishedAt": "2026-11-01T23:57:32.000Z",
+            "discoveredAt": "2026-11-02T02:21:08.135Z",
             "category": "business",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
+            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a5ffca9f53953ee3b3fa6f17b"
+              "url": "https://zenglian-news.onrender.com/items/a308f5e84c8fe2a4f2e0c9428"
             }
           },
           {
-            "id": "a9db50fda5c619bd1d4fab65a",
-            "title": "【欧洲足坛】随着主教练压力的增加，英超联赛的苦苦挣扎的球队应该坚持还是扭转？ |安德鲁·比斯利",
-            "originalTitle": "Should Premier League strugglers stick or twist as pressure on managers mounts? | Andrew Beasley",
-            "summary": "不同寻常的是，所有顶级联赛的俱乐部都有同一位新赛季开始时的主教练——但距离第一次解雇可能并不遥远。本赛季还没有英超联赛主教练失去工作。仅在其中的三个...（来源：卫报体育·欧冠与五大联赛）",
-            "content": "不同寻常的是，所有顶级联赛的俱乐部都有同一位新赛季开始时的主教练——但距离第一次解雇可能并不遥远。本赛季还没有英超联赛主教练失去工作。仅在其中的三个...（来源：卫报体育·欧冠与五大联赛）\n\n【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a2819c96d09a9ff0fb5cbbfa6",
+            "title": "【欧洲足坛】“我们必须告诉他们下去”：伊劳拉回应伊萨克点球被拒绝",
+            "originalTitle": "‘We have to tell them to go down’: Iraola responds to Isak penalty denial for Liverpool",
+            "summary": "主教练对裁判伊拉奥拉两次被驳回的点球申诉表示遗憾，他抱怨“如果你不倒下，你就不会判罚”安多尼·伊拉奥拉表示，在亚历山大·伊萨克（Alexander Isak）之后，他将指示利物浦球员在禁区内倒下……（来源：卫报体育·欧冠与五大联赛）",
+            "content": "主教练对裁判伊拉奥拉两次被驳回的点球申诉表示遗憾，他抱怨“如果你不倒下，你就不会判罚”安多尼·伊拉奥拉表示，在亚历山大·伊萨克（Alexander Isak）之后，他将指示利物浦球员在禁区内倒下……（来源：卫报体育·欧冠与五大联赛）\n\n【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "不同寻常的是，所有顶级联赛的俱乐部都有同一位新赛季开始时的主教练——但距离第一次解雇可能并不遥远。本赛季还没有英超联赛主教练失去工作。仅在其中的三个...（来源：卫报体育·欧冠与五大联赛）",
+              "主教练对裁判伊拉奥拉两次被驳回的点球申诉表示遗憾，他抱怨“如果你不倒下，你就不会判罚”安多尼·伊拉奥拉表示，在亚历山大·伊萨克（Alexander Isak）之后，他将指示利物浦球员在禁区内倒下……（来源：卫报体育·欧冠与五大联赛）",
               "【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -1417,18 +1446,18 @@
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9db50fda5c619bd1d4fab65a",
-              "original": "https://www.theguardian.com/football/2026/nov/01/michael-carrick-manchester-united-favourite-premier-league-sack-race"
+              "aihot": "https://zenglian-news.onrender.com/items/a2819c96d09a9ff0fb5cbbfa6",
+              "original": "https://www.theguardian.com/football/2026/nov/01/andoni-iraola-responds-liverpool-penalty-denial-arsenal-premier-league"
             },
-            "publishedAt": "2026-11-01T18:00:30.000Z",
-            "discoveredAt": "2026-11-01T22:59:55.130Z",
+            "publishedAt": "2026-11-01T21:25:01.000Z",
+            "discoveredAt": "2026-11-02T02:21:03.329Z",
             "category": "business",
-            "score": 99,
+            "score": 98,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9db50fda5c619bd1d4fab65a"
+              "url": "https://zenglian-news.onrender.com/items/a2819c96d09a9ff0fb5cbbfa6"
             }
           },
           {
@@ -1459,35 +1488,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a14b5ac9e3848f5ad0fc97639"
             }
-          },
-          {
-            "id": "a45f601d1b592e97f447e4180",
-            "title": "【欧洲足坛】欧洲足球：姆巴佩点球帮助皇马取得六连胜",
-            "originalTitle": "European football: Mbappé penalty helps Real Madrid stroll to sixth straight win",
-            "summary": "贝林汉姆和迪奥曼德在反击击败卡利亚里后，以3-0击败拉齐奥竞技队，凯利安·姆巴佩在动荡的一周中凭借点球帮助皇马以3-0战胜桑坦德竞技队，结束了动荡的一周……（来源：卫报体育·欧冠与五大联赛）",
-            "content": "贝林汉姆和迪奥曼德在反击击败卡利亚里后，以3-0击败拉齐奥竞技队，凯利安·姆巴佩在动荡的一周中凭借点球帮助皇马以3-0战胜桑坦德竞技队，结束了动荡的一周……（来源：卫报体育·欧冠与五大联赛）\n\n【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "贝林汉姆和迪奥曼德在反击击败卡利亚里后，以3-0击败拉齐奥竞技队，凯利安·姆巴佩在动荡的一周中凭借点球帮助皇马以3-0战胜桑坦德竞技队，结束了动荡的一周……（来源：卫报体育·欧冠与五大联赛）",
-              "【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a45f601d1b592e97f447e4180",
-              "original": "https://www.theguardian.com/football/2026/nov/01/european-football-real-madrid-lazio-juventus-napoli-kylian-mbappe"
-            },
-            "publishedAt": "2026-11-01T17:55:23.000Z",
-            "discoveredAt": "2026-11-01T22:59:52.456Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a45f601d1b592e97f447e4180"
-            }
           }
         ]
       }
@@ -1498,7 +1498,7 @@
     "key": "2026-10",
     "title": "曾练全球一手简报 · 月度产业全景报告 (2026年10月)",
     "subtitle": "30天六大实时Top20赛道全景洞察与高价值搞钱机会总结",
-    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：如果AI解开了世界难题，人类数学家还剩下什么？；显示 HN：HackerBooks – HackerTube，但适用于 HN 上提到的书籍；Show HN：OmniDiff – 开源、超快、内容感知的 Git difftool，采用 Rust 语言。",
+    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：最强智能的去向，不在排行榜里；我的 SaaS 实际上正在增长🥹；显示 HN：HackerBooks – HackerTube，但适用于 HN 上提到的书籍。",
     "metrics": {
       "totalEvents": 36,
       "sourcesCount": 30,
@@ -1509,6 +1509,35 @@
         "category": "global",
         "label": "🌍 全球实时Top20",
         "items": [
+          {
+            "id": "a7fbf0b8f8d1368a102f98c8a",
+            "title": "【BBC全球】民主党在密歇根州参议院关键竞选中支持共和党候选人，党内争端爆发",
+            "originalTitle": "Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts",
+            "summary": "海莉·史蒂文斯(Haley Stevens)在民主党参议院提名中输给了阿卜杜勒·赛义德(Abdul El-Sayed)，他的举动被一位民主党高层称为“卑鄙的背叛”。（来源：BBC News·全球要闻）",
+            "content": "海莉·史蒂文斯(Haley Stevens)在民主党参议院提名中输给了阿卜杜勒·赛义德(Abdul El-Sayed)，他的举动被一位民主党高层称为“卑鄙的背叛”。（来源：BBC News·全球要闻）\n\n【深度核心看点】BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "海莉·史蒂文斯(Haley Stevens)在民主党参议院提名中输给了阿卜杜勒·赛义德(Abdul El-Sayed)，他的举动被一位民主党高层称为“卑鄙的背叛”。（来源：BBC News·全球要闻）",
+              "【深度核心看点】BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "BBC News·全球要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a7fbf0b8f8d1368a102f98c8a",
+              "original": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o?at_medium=RSS&at_campaign=rss"
+            },
+            "publishedAt": "2026-11-02T01:45:42.000Z",
+            "discoveredAt": "2026-11-02T02:20:11.778Z",
+            "category": "global",
+            "score": 98,
+            "selected": true,
+            "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a7fbf0b8f8d1368a102f98c8a"
+            }
+          },
           {
             "id": "a22c0a8c1139029fa1ad88a46",
             "title": "【全球热榜】边疆航空公司可能遭到违规",
@@ -1565,35 +1594,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a747bd22a32c4c5e1ac7d75db"
-            }
-          },
-          {
-            "id": "aaf1efa97fcda18b1739d4b45",
-            "title": "【全球热榜】挪威让茅屋再次伟大",
-            "originalTitle": "Norway makes shithouses great again",
-            "summary": "X/HN·全球热榜Top实时快讯：Norway makes shithouses great again。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "content": "X/HN·全球热榜Top实时快讯：Norway makes shithouses great again。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "X/HN·全球热榜Top实时快讯：Norway makes shithouses great again。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-              "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aaf1efa97fcda18b1739d4b45",
-              "original": "https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/"
-            },
-            "publishedAt": "2026-11-01T10:47:58.000Z",
-            "discoveredAt": "2026-11-01T14:51:12.651Z",
-            "category": "global",
-            "score": 98,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aaf1efa97fcda18b1739d4b45"
             }
           },
           {
@@ -1690,42 +1690,13 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "a80c00c1b5455a7653ad78210",
-            "title": "【国内财经】胶囊胃镜、手术机器人亮相广交会 中国医疗设备加速出海",
-            "originalTitle": "胶囊胃镜、手术机器人亮相广交会 中国医疗设备加速出海",
-            "summary": "中新社广州11月1日电 (记者 蔡敏婕)在第140届广交会展台上，花生大小的智能胶囊胃镜吸引境外采购商注意。受检者只需咽下这颗胶囊，借助配套记录仪与手机App，屏幕上实时传回胃内清晰影像，直观展现胃部筛查过程。",
-            "content": "中新社广州11月1日电 (记者 蔡敏婕)在第140届广交会展台上，花生大小的智能胶囊胃镜吸引境外采购商注意。受检者只需咽下这颗胶囊，借助配套记录仪与手机App，屏幕上实时传回胃内清晰影像，直观展现胃部筛查过程。\n\n【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a0e190e4f10c8ecf694d8411e",
+            "title": "贾跃亭：FFR 机器人 10 月销量超 351 台，累计首次破千台",
+            "originalTitle": "贾跃亭：FFR 机器人 10 月销量超 351 台，累计首次破千台",
+            "summary": "IT之家 11 月 2 日消息，贾跃亭今天发布新一期周报，宣称 FFR 机器人本体 10 月销售及出货量为 351 台，再次刷新单月纪录，已累计销售及出货量达到 1168 台， 首次破千并持续正毛利交付 。 贾跃亭估计，FFR 机器人 11 月、12 月预计月均销售及出货量要超过 400 台， 向全年 2000 台的销售目标冲刺 。 IT之家从贾跃亭微博了解到，FFR 和 FFAI 在纽约大区启动运作并正式开启招商，首期覆盖纽约、新泽西...",
+            "content": "IT之家 11 月 2 日消息，贾跃亭今天发布新一期周报，宣称 FFR 机器人本体 10 月销售及出货量为 351 台，再次刷新单月纪录，已累计销售及出货量达到 1168 台， 首次破千并持续正毛利交付 。 贾跃亭估计，FFR 机器人 11 月、12 月预计月均销售及出货量要超过 400 台， 向全年 2000 台的销售目标冲刺 。 IT之家从贾跃亭微博了解到，FFR 和 FFAI 在纽约大区启动运作并正式开启招商，首期覆盖纽约、新泽西...\n\n【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "中新社广州11月1日电 (记者 蔡敏婕)在第140届广交会展台上，花生大小的智能胶囊胃镜吸引境外采购商注意。受检者只需咽下这颗胶囊，借助配套记录仪与手机App，屏幕上实时传回胃内清晰影像，直观展现胃部筛查过程。",
-              "【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "中新网·国内财经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a80c00c1b5455a7653ad78210",
-              "original": "https://www.chinanews.com.cn/cj/2026/11-01/10724504.shtml"
-            },
-            "publishedAt": "2026-11-01T13:28:09.000Z",
-            "discoveredAt": "2026-11-01T14:51:20.367Z",
-            "category": "domestic",
-            "score": 98,
-            "selected": true,
-            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a80c00c1b5455a7653ad78210"
-            }
-          },
-          {
-            "id": "a7d32ed845c252540f0445b33",
-            "title": "古尔曼：苹果首款触屏 MacBook Pro 设计过于保守",
-            "originalTitle": "古尔曼：苹果首款触屏 MacBook Pro 设计过于保守",
-            "summary": "IT之家 11 月 2 日消息，苹果公司上周终于推出了品牌首款触控屏 MacBook Pro。然而对于一款具有里程碑意义的产品来说，这款笔记本设计却出人意料地保守，没有带来真正突破的创新。 据IT之家了解，触屏 MacBook Pro 采用了更轻薄的机身、OLED 屏幕，配备 M5 Pro 或 M5 Max 芯片，整体使用体验十分熟悉。人们不禁怀疑，苹果是否为这款触屏 Mac 带来足够多的创新，以及它的价格能否配得上外界期待。 彭博社记...",
-            "content": "IT之家 11 月 2 日消息，苹果公司上周终于推出了品牌首款触控屏 MacBook Pro。然而对于一款具有里程碑意义的产品来说，这款笔记本设计却出人意料地保守，没有带来真正突破的创新。 据IT之家了解，触屏 MacBook Pro 采用了更轻薄的机身、OLED 屏幕，配备 M5 Pro 或 M5 Max 芯片，整体使用体验十分熟悉。人们不禁怀疑，苹果是否为这款触屏 Mac 带来足够多的创新，以及它的价格能否配得上外界期待。 彭博社记...\n\n【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "IT之家 11 月 2 日消息，苹果公司上周终于推出了品牌首款触控屏 MacBook Pro。然而对于一款具有里程碑意义的产品来说，这款笔记本设计却出人意料地保守，没有带来真正突破的创新。 据IT之家了解，触屏 MacBook Pro 采用了更轻薄的机身、OLED 屏幕，配备 M5 Pro 或 M5 Max 芯片，整体使用体验十分熟悉。人们不禁怀疑，苹果是否为这款触屏 Mac 带来足够多的创新，以及它的价格能否配得上外界期待。 彭博社记...",
+              "IT之家 11 月 2 日消息，贾跃亭今天发布新一期周报，宣称 FFR 机器人本体 10 月销售及出货量为 351 台，再次刷新单月纪录，已累计销售及出货量达到 1168 台， 首次破千并持续正毛利交付 。 贾跃亭估计，FFR 机器人 11 月、12 月预计月均销售及出货量要超过 400 台， 向全年 2000 台的销售目标冲刺 。 IT之家从贾跃亭微博了解到，FFR 和 FFAI 在纽约大区启动运作并正式开启招商，首期覆盖纽约、新泽西...",
               "【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -1733,28 +1704,28 @@
               "name": "IT之家·国内产业"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7d32ed845c252540f0445b33",
-              "original": "https://www.ithome.com/1/020/842.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a0e190e4f10c8ecf694d8411e",
+              "original": "https://www.ithome.com/1/020/894.htm"
             },
-            "publishedAt": "2026-11-01T22:43:24.000Z",
-            "discoveredAt": "2026-11-01T22:58:36.028Z",
+            "publishedAt": "2026-11-02T02:16:20.000Z",
+            "discoveredAt": "2026-11-02T02:20:24.656Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7d32ed845c252540f0445b33"
+              "url": "https://zenglian-news.onrender.com/items/a0e190e4f10c8ecf694d8411e"
             }
           },
           {
-            "id": "a16fef65d0f08136a23b5ceff",
-            "title": "【国内要闻】把地球冷冻一下，温室效应会得到缓解吗？答案出乎意料",
-            "originalTitle": "把地球冷冻一下，温室效应会得到缓解吗？答案出乎意料",
-            "summary": "如果把地球冷冻一下，温室效应会得到缓解吗？汽油在水面上为什么是彩色的？微波炉能用“微波”加热食物，那“微波”能不能用来制冷……我们每天都有对这个世界的好奇，中国科学院物理研究所和总台中国之声节目《新闻超链接》为您寻找可能的答案，与您一起探索世界。",
-            "content": "如果把地球冷冻一下，温室效应会得到缓解吗？汽油在水面上为什么是彩色的？微波炉能用“微波”加热食物，那“微波”能不能用来制冷……我们每天都有对这个世界的好奇，中国科学院物理研究所和总台中国之声节目《新闻超链接》为您寻找可能的答案，与您一起探索世界。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a93413d9a50708b815b8ec1ea",
+            "title": "【国内要闻】西藏巴青县首批受灾师生抵达拉萨那曲完全中学开启异地复课 “在这里，感受到了家的温暖”",
+            "originalTitle": "西藏巴青县首批受灾师生抵达拉萨那曲完全中学开启异地复课 “在这里，感受到了家的温暖”",
+            "summary": "11月1日晚，西藏拉萨那曲完全中学校园内灯火通明、暖意融融。首批受巴青7.0级地震影响的589名五、六年级师生顺利抵达拉萨那曲完全中学，开启异地复课学习生活。后续，巴青县玛如乡小学和岗切乡小学异地复课学生总计1495人、教师89人，将陆续抵达。",
+            "content": "11月1日晚，西藏拉萨那曲完全中学校园内灯火通明、暖意融融。首批受巴青7.0级地震影响的589名五、六年级师生顺利抵达拉萨那曲完全中学，开启异地复课学习生活。后续，巴青县玛如乡小学和岗切乡小学异地复课学生总计1495人、教师89人，将陆续抵达。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "如果把地球冷冻一下，温室效应会得到缓解吗？汽油在水面上为什么是彩色的？微波炉能用“微波”加热食物，那“微波”能不能用来制冷……我们每天都有对这个世界的好奇，中国科学院物理研究所和总台中国之声节目《新闻超链接》为您寻找可能的答案，与您一起探索世界。",
+              "11月1日晚，西藏拉萨那曲完全中学校园内灯火通明、暖意融融。首批受巴青7.0级地震影响的589名五、六年级师生顺利抵达拉萨那曲完全中学，开启异地复课学习生活。后续，巴青县玛如乡小学和岗切乡小学异地复课学生总计1495人、教师89人，将陆续抵达。",
               "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -1762,28 +1733,115 @@
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a16fef65d0f08136a23b5ceff",
-              "original": "https://www.chinanews.com.cn/life/2026/11-02/10724527.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a93413d9a50708b815b8ec1ea",
+              "original": "https://www.chinanews.com.cn/gn/2026/11-02/10724606.shtml"
             },
-            "publishedAt": "2026-11-01T22:42:47.000Z",
-            "discoveredAt": "2026-11-01T22:58:31.063Z",
+            "publishedAt": "2026-11-02T02:11:23.000Z",
+            "discoveredAt": "2026-11-02T02:20:18.367Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a16fef65d0f08136a23b5ceff"
+              "url": "https://zenglian-news.onrender.com/items/a93413d9a50708b815b8ec1ea"
             }
           },
           {
-            "id": "a7cbab71f0294a87d542dcc34",
-            "title": "赛力斯：问界将全面进入欧洲市场，公司不参与价格战和规模内卷",
-            "originalTitle": "赛力斯：问界将全面进入欧洲市场，公司不参与价格战和规模内卷",
-            "summary": "IT之家 11 月 1 日消息，赛力斯 10 月 31 日发布投资者关系活动记录表，其中回答了“公司在问界的整体经营思路上有什么样的思考？对下一步业务发展有什么规划？”。 据其介绍，问界坚定做全球高端品牌。目前问界全系正推进欧盟 WVTA E1 整车型式认证，验证周期长、环节多，是高端车进入欧洲市场的必经门槛。公司坚持按最高标准走完全程，确保产品以合规、可靠的状态出海。10 月中旬 AITO 6、AITO 7、AITO 8、AITO 9...",
-            "content": "IT之家 11 月 1 日消息，赛力斯 10 月 31 日发布投资者关系活动记录表，其中回答了“公司在问界的整体经营思路上有什么样的思考？对下一步业务发展有什么规划？”。 据其介绍，问界坚定做全球高端品牌。目前问界全系正推进欧盟 WVTA E1 整车型式认证，验证周期长、环节多，是高端车进入欧洲市场的必经门槛。公司坚持按最高标准走完全程，确保产品以合规、可靠的状态出海。10 月中旬 AITO 6、AITO 7、AITO 8、AITO 9...\n\n【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a0bb1c9942f6c424a0fc15311",
+            "title": "【国内要闻】11月2日央行开展5410亿元隔夜逆回购操作",
+            "originalTitle": "11月2日央行开展5410亿元隔夜逆回购操作",
+            "summary": "中新网11月2日电 据中国人民银行网站消息，2026年11月2日中国人民银行以固定利率、数量招标方式开展了5410亿元隔夜期逆回购操作，全额满足了一级交易商需求。具体情况如下：",
+            "content": "中新网11月2日电 据中国人民银行网站消息，2026年11月2日中国人民银行以固定利率、数量招标方式开展了5410亿元隔夜期逆回购操作，全额满足了一级交易商需求。具体情况如下：\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "IT之家 11 月 1 日消息，赛力斯 10 月 31 日发布投资者关系活动记录表，其中回答了“公司在问界的整体经营思路上有什么样的思考？对下一步业务发展有什么规划？”。 据其介绍，问界坚定做全球高端品牌。目前问界全系正推进欧盟 WVTA E1 整车型式认证，验证周期长、环节多，是高端车进入欧洲市场的必经门槛。公司坚持按最高标准走完全程，确保产品以合规、可靠的状态出海。10 月中旬 AITO 6、AITO 7、AITO 8、AITO 9...",
+              "中新网11月2日电 据中国人民银行网站消息，2026年11月2日中国人民银行以固定利率、数量招标方式开展了5410亿元隔夜期逆回购操作，全额满足了一级交易商需求。具体情况如下：",
+              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0bb1c9942f6c424a0fc15311",
+              "original": "https://www.chinanews.com.cn/cj/2026/11-02/10724557.shtml"
+            },
+            "publishedAt": "2026-11-02T01:35:09.000Z",
+            "discoveredAt": "2026-11-02T01:37:38.244Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0bb1c9942f6c424a0fc15311"
+            }
+          },
+          {
+            "id": "a835ba5f21070e2c62d82eb34",
+            "title": "A股开盘：创业板指上涨1.05%，激光产业、液态金属、CPO等概念走强",
+            "originalTitle": "A股开盘：创业板指上涨1.05%，激光产业、液态金属、CPO等概念走强",
+            "summary": "11月2日早间A股开盘，上证指数涨0.42%，深证成指涨0.59%，创业板指涨1.05%，北证50涨0.62%。激光产业、液态金属、证券IT、HBM、CPO概念走强，AI语料、石油、有色·钴、锰硅、动漫产业概念走弱。",
+            "content": "11月2日早间A股开盘，上证指数涨0.42%，深证成指涨0.59%，创业板指涨1.05%，北证50涨0.62%。激光产业、液态金属、证券IT、HBM、CPO概念走强，AI语料、石油、有色·钴、锰硅、动漫产业概念走弱。\n\n【深度核心看点】上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "11月2日早间A股开盘，上证指数涨0.42%，深证成指涨0.59%，创业板指涨1.05%，北证50涨0.62%。激光产业、液态金属、证券IT、HBM、CPO概念走强，AI语料、石油、有色·钴、锰硅、动漫产业概念走弱。",
+              "【深度核心看点】上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "界面新闻·国内政经"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a835ba5f21070e2c62d82eb34",
+              "original": "https://www.jiemian.com/article/15279985.html"
+            },
+            "publishedAt": "2026-11-02T01:27:11.000Z",
+            "discoveredAt": "2026-11-02T01:37:41.493Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "上海报业集团旗下持牌主流财经媒体，权威追踪国内产业政策与巨头动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a835ba5f21070e2c62d82eb34"
+            }
+          },
+          {
+            "id": "a809028a5e147fb90705268d1",
+            "title": "【国内要闻】自然资源部等三部门联合印发《关于完善设施农用地管理的通知》",
+            "originalTitle": "自然资源部等三部门联合印发《关于完善设施农用地管理的通知》",
+            "summary": "中新网11月2日电 据自然资源部微信公众号消息，近日，自然资源部、农业农村部、国家林业和草原局联合印发《关于完善设施农用地管理的通知》(以下简称《通知》)，采取正面清单方式区分设施农业用地方式，并从设施农用地选址、规模、备案、登记、监管等方面完善相关举措，促进农民群众增产增收，助力农业现代化发展和乡村振兴。",
+            "content": "中新网11月2日电 据自然资源部微信公众号消息，近日，自然资源部、农业农村部、国家林业和草原局联合印发《关于完善设施农用地管理的通知》(以下简称《通知》)，采取正面清单方式区分设施农业用地方式，并从设施农用地选址、规模、备案、登记、监管等方面完善相关举措，促进农民群众增产增收，助力农业现代化发展和乡村振兴。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "中新网11月2日电 据自然资源部微信公众号消息，近日，自然资源部、农业农村部、国家林业和草原局联合印发《关于完善设施农用地管理的通知》(以下简称《通知》)，采取正面清单方式区分设施农业用地方式，并从设施农用地选址、规模、备案、登记、监管等方面完善相关举措，促进农民群众增产增收，助力农业现代化发展和乡村振兴。",
+              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a809028a5e147fb90705268d1",
+              "original": "https://www.chinanews.com.cn/gn/2026/11-02/10724553.shtml"
+            },
+            "publishedAt": "2026-11-02T01:09:43.000Z",
+            "discoveredAt": "2026-11-02T01:16:15.138Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a809028a5e147fb90705268d1"
+            }
+          },
+          {
+            "id": "a9eb70a1e8ad6236d6837fef8",
+            "title": "消息称三星首款 AI 眼镜 12 月中旬登陆韩国、美国，要和 Meta 抢市场？",
+            "originalTitle": "消息称三星首款 AI 眼镜 12 月中旬登陆韩国、美国，要和 Meta 抢市场？",
+            "summary": "IT之家 11 月 2 日消息，据 TrendForce 今天报道，三星正准备进军 AI 智能眼镜市场，计划 12 月中旬在韩国和美国推出品牌首款 AI 智能眼镜。命名暂定为“Intelligent Eyewear”，售价尚未确定。 IT之家从原报道获悉，这款 AI 眼镜的首发市场不包括欧洲、中国和日本等地。三星考虑到 AI 眼镜是全新产品品类，因此希望先评估韩国和美国市场需求及用户反馈，再决定是否扩大市场范围。 硬件方面，Intell...",
+            "content": "IT之家 11 月 2 日消息，据 TrendForce 今天报道，三星正准备进军 AI 智能眼镜市场，计划 12 月中旬在韩国和美国推出品牌首款 AI 智能眼镜。命名暂定为“Intelligent Eyewear”，售价尚未确定。 IT之家从原报道获悉，这款 AI 眼镜的首发市场不包括欧洲、中国和日本等地。三星考虑到 AI 眼镜是全新产品品类，因此希望先评估韩国和美国市场需求及用户反馈，再决定是否扩大市场范围。 硬件方面，Intell...\n\n【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "IT之家 11 月 2 日消息，据 TrendForce 今天报道，三星正准备进军 AI 智能眼镜市场，计划 12 月中旬在韩国和美国推出品牌首款 AI 智能眼镜。命名暂定为“Intelligent Eyewear”，售价尚未确定。 IT之家从原报道获悉，这款 AI 眼镜的首发市场不包括欧洲、中国和日本等地。三星考虑到 AI 眼镜是全新产品品类，因此希望先评估韩国和美国市场需求及用户反馈，再决定是否扩大市场范围。 硬件方面，Intell...",
               "【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -1791,76 +1849,18 @@
               "name": "IT之家·国内产业"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a7cbab71f0294a87d542dcc34",
-              "original": "https://www.ithome.com/1/020/839.htm"
+              "aihot": "https://zenglian-news.onrender.com/items/a9eb70a1e8ad6236d6837fef8",
+              "original": "https://www.ithome.com/1/020/866.htm"
             },
-            "publishedAt": "2026-11-01T14:47:24.000Z",
-            "discoveredAt": "2026-11-01T14:51:27.431Z",
+            "publishedAt": "2026-11-02T01:00:01.000Z",
+            "discoveredAt": "2026-11-02T01:01:54.131Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a7cbab71f0294a87d542dcc34"
-            }
-          },
-          {
-            "id": "a1c190680af8685be114b64bf",
-            "title": "【国内要闻】代办“超级签”落地后发现竟是旅游签 中介该如何赔偿？",
-            "originalTitle": "代办“超级签”落地后发现竟是旅游签 中介该如何赔偿？",
-            "summary": "出国探亲，有人把签证交给中介代办。可钱花了、办下来的却不是约定的签证类型，中介该不该担责？消费者能否索赔全部损失？近日，北京市西城区人民法院就审结了这样一起案件。",
-            "content": "出国探亲，有人把签证交给中介代办。可钱花了、办下来的却不是约定的签证类型，中介该不该担责？消费者能否索赔全部损失？近日，北京市西城区人民法院就审结了这样一起案件。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "出国探亲，有人把签证交给中介代办。可钱花了、办下来的却不是约定的签证类型，中介该不该担责？消费者能否索赔全部损失？近日，北京市西城区人民法院就审结了这样一起案件。",
-              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a1c190680af8685be114b64bf",
-              "original": "https://www.chinanews.com.cn/sh/2026/11-01/10724513.shtml"
-            },
-            "publishedAt": "2026-11-01T14:20:20.000Z",
-            "discoveredAt": "2026-11-01T14:51:19.221Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a1c190680af8685be114b64bf"
-            }
-          },
-          {
-            "id": "a1b8664506453d464466b6472",
-            "title": "【国内财经】以一座城的名义致敬企业家 海内外宁商齐聚福建宁德叙乡谊话发展",
-            "originalTitle": "以一座城的名义致敬企业家 海内外宁商齐聚福建宁德叙乡谊话发展",
-            "summary": "中新网宁德11月1日电 (记者 叶茂)2026“宁德企业家日”活动暨宁商投资发展大会1日在福建省宁德市举行，海内外乡贤、宁商宁企代表欢聚一堂，共叙情谊、共话发展。",
-            "content": "中新网宁德11月1日电 (记者 叶茂)2026“宁德企业家日”活动暨宁商投资发展大会1日在福建省宁德市举行，海内外乡贤、宁商宁企代表欢聚一堂，共叙情谊、共话发展。\n\n【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "中新网宁德11月1日电 (记者 叶茂)2026“宁德企业家日”活动暨宁商投资发展大会1日在福建省宁德市举行，海内外乡贤、宁商宁企代表欢聚一堂，共叙情谊、共话发展。",
-              "【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "中新网·国内财经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a1b8664506453d464466b6472",
-              "original": "https://www.chinanews.com.cn/cj/2026/11-01/10724500.shtml"
-            },
-            "publishedAt": "2026-11-01T13:16:02.000Z",
-            "discoveredAt": "2026-11-01T14:51:20.818Z",
-            "category": "domestic",
-            "score": 96,
-            "selected": true,
-            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a1b8664506453d464466b6472"
+              "url": "https://zenglian-news.onrender.com/items/a9eb70a1e8ad6236d6837fef8"
             }
           }
         ]
@@ -1870,13 +1870,13 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
-            "id": "a57d5b501ad1cf96fda9b5be9",
-            "title": "如果AI解开了世界难题，人类数学家还剩下什么？",
-            "originalTitle": "如果AI解开了世界难题，人类数学家还剩下什么？",
-            "summary": "本文来自微信公众号： 秦朔朋友圈 ，作者：Irene Zhou 继知名数学家陶哲轩公开批评OpenAI后，近期另一位新晋菲尔茨奖得主邓煜也炮轰OpenAI——不能你蒸馏了全世界，不让别人来蒸馏你。 随着顶级模型公司不断破解世界级数学难题，数学家们集体破防。 邓煜近期提出的观点大意是，AI公司在构建大模型时，通过“知识蒸馏”或抓取全人类的网络文献、学术论文与知识库来训练自己。然而，当外界或同行希望了解模型的推理过程（即“思维链”）时，这些...",
-            "content": "本文来自微信公众号： 秦朔朋友圈 ，作者：Irene Zhou 继知名数学家陶哲轩公开批评OpenAI后，近期另一位新晋菲尔茨奖得主邓煜也炮轰OpenAI——不能你蒸馏了全世界，不让别人来蒸馏你。 随着顶级模型公司不断破解世界级数学难题，数学家们集体破防。 邓煜近期提出的观点大意是，AI公司在构建大模型时，通过“知识蒸馏”或抓取全人类的网络文献、学术论文与知识库来训练自己。然而，当外界或同行希望了解模型的推理过程（即“思维链”）时，这些...\n\n【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a570efa3a5c1a46d190c625be",
+            "title": "最强智能的去向，不在排行榜里",
+            "originalTitle": "最强智能的去向，不在排行榜里",
+            "summary": "本文来自微信公众号： 观潮体系 ，作者：观潮 ——从防范彼此超过，到把事做成 “所有AI都听话之后”系列第六篇 一 想象一个夜里。老人醒来，想从床边站起来。床边的机器人伸出扶手，帮她稳住身体。她不需要机器人替她过日子；她需要的是还能在熟悉的家里，自己起身、走动，决定今天要做什么。 人们谈AI，常从模型能力开场：它会不会思考，能不能超过人，带来繁荣，还是灾难。可对这位老人来说，问题更近，也更硬：我还能不能自己生活？伸手够不到时，有没有谁搭...",
+            "content": "本文来自微信公众号： 观潮体系 ，作者：观潮 ——从防范彼此超过，到把事做成 “所有AI都听话之后”系列第六篇 一 想象一个夜里。老人醒来，想从床边站起来。床边的机器人伸出扶手，帮她稳住身体。她不需要机器人替她过日子；她需要的是还能在熟悉的家里，自己起身、走动，决定今天要做什么。 人们谈AI，常从模型能力开场：它会不会思考，能不能超过人，带来繁荣，还是灾难。可对这位老人来说，问题更近，也更硬：我还能不能自己生活？伸手够不到时，有没有谁搭...\n\n【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "本文来自微信公众号： 秦朔朋友圈 ，作者：Irene Zhou 继知名数学家陶哲轩公开批评OpenAI后，近期另一位新晋菲尔茨奖得主邓煜也炮轰OpenAI——不能你蒸馏了全世界，不让别人来蒸馏你。 随着顶级模型公司不断破解世界级数学难题，数学家们集体破防。 邓煜近期提出的观点大意是，AI公司在构建大模型时，通过“知识蒸馏”或抓取全人类的网络文献、学术论文与知识库来训练自己。然而，当外界或同行希望了解模型的推理过程（即“思维链”）时，这些...",
+              "本文来自微信公众号： 观潮体系 ，作者：观潮 ——从防范彼此超过，到把事做成 “所有AI都听话之后”系列第六篇 一 想象一个夜里。老人醒来，想从床边站起来。床边的机器人伸出扶手，帮她稳住身体。她不需要机器人替她过日子；她需要的是还能在熟悉的家里，自己起身、走动，决定今天要做什么。 人们谈AI，常从模型能力开场：它会不会思考，能不能超过人，带来繁荣，还是灾难。可对这位老人来说，问题更近，也更硬：我还能不能自己生活？伸手够不到时，有没有谁搭...",
               "【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -1884,18 +1884,47 @@
               "name": "虎嗅网·商业搞钱深度"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a57d5b501ad1cf96fda9b5be9",
-              "original": "https://www.huxiu.com/article/4902131.html?f=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/a570efa3a5c1a46d190c625be",
+              "original": "https://www.huxiu.com/article/4902166.html?f=rss"
             },
-            "publishedAt": "2026-11-01T16:11:26.000Z",
-            "discoveredAt": "2026-11-01T16:53:55.550Z",
+            "publishedAt": "2026-11-02T01:16:46.000Z",
+            "discoveredAt": "2026-11-02T01:37:57.955Z",
             "category": "money",
             "score": 99,
             "selected": true,
             "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a57d5b501ad1cf96fda9b5be9"
+              "url": "https://zenglian-news.onrender.com/items/a570efa3a5c1a46d190c625be"
+            }
+          },
+          {
+            "id": "a9aa2370f465537e2d1305256",
+            "title": "【出海实战】我的 SaaS 实际上正在增长🥹",
+            "originalTitle": "My SaaS is actually growing 🥹",
+            "summary": "【出海实战】我的 SaaS 实际上正在增长🥹 —— 来自 X/Reddit·出海SaaS搞钱 的实时重点报道。",
+            "content": "【出海实战】我的 SaaS 实际上正在增长🥹 —— 来自 X/Reddit·出海SaaS搞钱 的实时重点报道。\n\n【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "【出海实战】我的 SaaS 实际上正在增长🥹 —— 来自 X/Reddit·出海SaaS搞钱 的实时重点报道。",
+              "【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a9aa2370f465537e2d1305256",
+              "original": "https://www.reddit.com/r/SaaS/comments/1xlhyox/my_saas_is_actually_growing/"
+            },
+            "publishedAt": "2026-11-01T23:38:44.000Z",
+            "discoveredAt": "2026-11-02T02:20:35.263Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a9aa2370f465537e2d1305256"
             }
           },
           {
@@ -1928,32 +1957,61 @@
             }
           },
           {
-            "id": "aecd4f609838e0d8db5c8ec7a",
-            "title": "【独立变现】Show HN：OmniDiff – 开源、超快、内容感知的 Git difftool，采用 Rust 语言",
-            "originalTitle": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
-            "summary": "我一直在根据开源存储库中的实际差异研究最终的差异工具是什么样子。 OmniDiff 可以比较：代码（25 种语言）、配置、图像、PDF、档案、光标、字体...速度很快...（来源：Show HN·独立变现榜）",
-            "content": "我一直在根据开源存储库中的实际差异研究最终的差异工具是什么样子。 OmniDiff 可以比较：代码（25 种语言）、配置、图像、PDF、档案、光标、字体...速度很快...（来源：Show HN·独立变现榜）\n\n【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "ade451c60f9374d28b826b036",
+            "title": "红杉资本在VC圈里保持长青的秘密",
+            "originalTitle": "红杉资本在VC圈里保持长青的秘密",
+            "summary": "本文来自微信公众号： AI时代仍不辍思考 ，作者：创业思考碎片 1972年，硅谷沙山路同时诞生了两家风险投资机构。一家叫红杉资本，另一家叫Kleiner Perkins（中文通常叫凯鹏华盈）。起步资金都只有几百万美元，都投出了定义时代的公司，都在九十年代站上行业之巅。 五十年后，红杉依然在全球最具影响力的VC之列。Kleiner Perkins——曾经投出Genentech、Sun、Netscape、Amazon、Google的王者——...",
+            "content": "本文来自微信公众号： AI时代仍不辍思考 ，作者：创业思考碎片 1972年，硅谷沙山路同时诞生了两家风险投资机构。一家叫红杉资本，另一家叫Kleiner Perkins（中文通常叫凯鹏华盈）。起步资金都只有几百万美元，都投出了定义时代的公司，都在九十年代站上行业之巅。 五十年后，红杉依然在全球最具影响力的VC之列。Kleiner Perkins——曾经投出Genentech、Sun、Netscape、Amazon、Google的王者——...\n\n【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "我一直在根据开源存储库中的实际差异研究最终的差异工具是什么样子。 OmniDiff 可以比较：代码（25 种语言）、配置、图像、PDF、档案、光标、字体...速度很快...（来源：Show HN·独立变现榜）",
-              "【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 ",
+              "本文来自微信公众号： AI时代仍不辍思考 ，作者：创业思考碎片 1972年，硅谷沙山路同时诞生了两家风险投资机构。一家叫红杉资本，另一家叫Kleiner Perkins（中文通常叫凯鹏华盈）。起步资金都只有几百万美元，都投出了定义时代的公司，都在九十年代站上行业之巅。 五十年后，红杉依然在全球最具影响力的VC之列。Kleiner Perkins——曾经投出Genentech、Sun、Netscape、Amazon、Google的王者——...",
+              "【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "Show HN·独立变现榜"
+              "name": "虎嗅网·商业搞钱深度"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aecd4f609838e0d8db5c8ec7a",
-              "original": "https://github.com/ivankovic/omnidiff"
+              "aihot": "https://zenglian-news.onrender.com/items/ade451c60f9374d28b826b036",
+              "original": "https://www.huxiu.com/article/4902157.html?f=rss"
             },
-            "publishedAt": "2026-11-01T13:02:30.000Z",
-            "discoveredAt": "2026-11-01T22:58:49.785Z",
+            "publishedAt": "2026-11-02T02:03:00.000Z",
+            "discoveredAt": "2026-11-02T02:20:37.634Z",
             "category": "money",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aecd4f609838e0d8db5c8ec7a"
+              "url": "https://zenglian-news.onrender.com/items/ade451c60f9374d28b826b036"
+            }
+          },
+          {
+            "id": "a372729e33bad6b2080fcda1a",
+            "title": "苹果选择千问，另有目的",
+            "originalTitle": "苹果选择千问，另有目的",
+            "summary": "（本文作者为 影子备忘录，钛媒体经授权发布） 文 | 影子备忘录 10月31日，靴子落地。苹果官宣与阿里巴巴合作，千问正式集成至Apple智能，中国用户可以在Siri、写作工具和视觉智能中直接调用千问的文本与图像理解、内容生成能力。 11月4日开发者Beta开放测试，12月随iOS 27.3正式面向中国用户推送。 消息本身并不意外。从2025年2月蔡崇信在迪拜确认合作，到今年7月苹果智能完成备案、8月路透曝出双方联合训练中国专属模型，这...",
+            "content": "（本文作者为 影子备忘录，钛媒体经授权发布） 文 | 影子备忘录 10月31日，靴子落地。苹果官宣与阿里巴巴合作，千问正式集成至Apple智能，中国用户可以在Siri、写作工具和视觉智能中直接调用千问的文本与图像理解、内容生成能力。 11月4日开发者Beta开放测试，12月随iOS 27.3正式面向中国用户推送。 消息本身并不意外。从2025年2月蔡崇信在迪拜确认合作，到今年7月苹果智能完成备案、8月路透曝出双方联合训练中国专属模型，这...\n\n【深度核心看点】聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "（本文作者为 影子备忘录，钛媒体经授权发布） 文 | 影子备忘录 10月31日，靴子落地。苹果官宣与阿里巴巴合作，千问正式集成至Apple智能，中国用户可以在Siri、写作工具和视觉智能中直接调用千问的文本与图像理解、内容生成能力。 11月4日开发者Beta开放测试，12月随iOS 27.3正式面向中国用户推送。 消息本身并不意外。从2025年2月蔡崇信在迪拜确认合作，到今年7月苹果智能完成备案、8月路透曝出双方联合训练中国专属模型，这...",
+              "【深度核心看点】聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "钛媒体·资本与风口"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a372729e33bad6b2080fcda1a",
+              "original": "https://www.tmtpost.com/8189162.html"
+            },
+            "publishedAt": "2026-11-02T01:17:04.000Z",
+            "discoveredAt": "2026-11-02T01:38:01.914Z",
+            "category": "money",
+            "score": 98,
+            "selected": true,
+            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a372729e33bad6b2080fcda1a"
             }
           },
           {
@@ -1983,64 +2041,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a604ab23a40dea305f820bfa6"
-            }
-          },
-          {
-            "id": "a882b15d6eb3a109d025d7318",
-            "title": "传音的非洲手机生意，现金流为什么突然恶化了？",
-            "originalTitle": "传音的非洲手机生意，现金流为什么突然恶化了？",
-            "summary": "本文来自微信公众号： 好望角view ，作者：好望角出海编辑部 传音控股今年前三季度赚了26.3亿元，经营现金流却流出了98.73亿元。 这意味着，一家仍在盈利的手机公司，九个月里从日常经营中净流出的现金，相当于同期净利润的3.75倍。 10月30日，传音发布2026年第三季度财报。前三季度营业收入502.8亿元，同比增长1.49%；归母净利润同比增长22.44%。 然而，第三季度的经营情况出现了明显变化。营业收入148.49亿元，同比...",
-            "content": "本文来自微信公众号： 好望角view ，作者：好望角出海编辑部 传音控股今年前三季度赚了26.3亿元，经营现金流却流出了98.73亿元。 这意味着，一家仍在盈利的手机公司，九个月里从日常经营中净流出的现金，相当于同期净利润的3.75倍。 10月30日，传音发布2026年第三季度财报。前三季度营业收入502.8亿元，同比增长1.49%；归母净利润同比增长22.44%。 然而，第三季度的经营情况出现了明显变化。营业收入148.49亿元，同比...\n\n【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "本文来自微信公众号： 好望角view ，作者：好望角出海编辑部 传音控股今年前三季度赚了26.3亿元，经营现金流却流出了98.73亿元。 这意味着，一家仍在盈利的手机公司，九个月里从日常经营中净流出的现金，相当于同期净利润的3.75倍。 10月30日，传音发布2026年第三季度财报。前三季度营业收入502.8亿元，同比增长1.49%；归母净利润同比增长22.44%。 然而，第三季度的经营情况出现了明显变化。营业收入148.49亿元，同比...",
-              "【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "虎嗅网·商业搞钱深度"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a882b15d6eb3a109d025d7318",
-              "original": "https://www.huxiu.com/article/4902121.html?f=rss"
-            },
-            "publishedAt": "2026-11-01T14:27:31.000Z",
-            "discoveredAt": "2026-11-01T14:51:39.221Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a882b15d6eb3a109d025d7318"
-            }
-          },
-          {
-            "id": "a32bf38b9104b837cbb92fb2c",
-            "title": "【出海实战】只做无法扩展的事情",
-            "originalTitle": "just do things that don't scale",
-            "summary": "对于我之前构建的大多数产品，我对保罗·格雷厄姆在他的博客中写的内容非常怀疑，并尝试尽早自动化+构建最具杀伤力的分发策略，结果证明我是非常错误的，并且了解到我......（来源：X/Reddit·出海SaaS搞钱）",
-            "content": "对于我之前构建的大多数产品，我对保罗·格雷厄姆在他的博客中写的内容非常怀疑，并尝试尽早自动化+构建最具杀伤力的分发策略，结果证明我是非常错误的，并且了解到我......（来源：X/Reddit·出海SaaS搞钱）\n\n【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "对于我之前构建的大多数产品，我对保罗·格雷厄姆在他的博客中写的内容非常怀疑，并尝试尽早自动化+构建最具杀伤力的分发策略，结果证明我是非常错误的，并且了解到我......（来源：X/Reddit·出海SaaS搞钱）",
-              "【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a32bf38b9104b837cbb92fb2c",
-              "original": "https://www.reddit.com/r/SaaS/comments/1xl3qci/just_do_things_that_dont_scale/"
-            },
-            "publishedAt": "2026-11-01T13:58:35.000Z",
-            "discoveredAt": "2026-11-01T14:51:35.239Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a32bf38b9104b837cbb92fb2c"
             }
           }
         ]
@@ -2184,7 +2184,7 @@
               "original": "https://www.qbitai.com/2026/11/507076.html"
             },
             "publishedAt": "2026-11-01T13:28:10.000Z",
-            "discoveredAt": "2026-11-01T22:59:06.863Z",
+            "discoveredAt": "2026-11-02T02:20:46.990Z",
             "category": "tech",
             "score": 99,
             "selected": true,
@@ -2230,6 +2230,93 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
+            "id": "a3b28b99b8553c4de05d56ad3",
+            "title": "【国内文娱】广东省第十届群众音乐舞蹈花会收官 19个作品夺金",
+            "originalTitle": "广东省第十届群众音乐舞蹈花会收官 19个作品夺金",
+            "summary": "中新网中山11月2日电 (记者 程景伟)10月28日至11月1日，广东省第十届群众音乐舞蹈花会决赛在中山市举办。经过决赛舞台的激烈角逐，《鼓乐·狮魂》《幸福鱼档》等19个作品获得金奖，《对自己说》《传麒》等28个作品获得银奖，《木棉花开的早晨》《绿色守望》等45个作品获得铜奖。",
+            "content": "中新网中山11月2日电 (记者 程景伟)10月28日至11月1日，广东省第十届群众音乐舞蹈花会决赛在中山市举办。经过决赛舞台的激烈角逐，《鼓乐·狮魂》《幸福鱼档》等19个作品获得金奖，《对自己说》《传麒》等28个作品获得银奖，《木棉花开的早晨》《绿色守望》等45个作品获得铜奖。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "中新网中山11月2日电 (记者 程景伟)10月28日至11月1日，广东省第十届群众音乐舞蹈花会决赛在中山市举办。经过决赛舞台的激烈角逐，《鼓乐·狮魂》《幸福鱼档》等19个作品获得金奖，《对自己说》《传麒》等28个作品获得银奖，《木棉花开的早晨》《绿色守望》等45个作品获得铜奖。",
+              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a3b28b99b8553c4de05d56ad3",
+              "original": "https://www.chinanews.com.cn/cul/2026/11-02/10724599.shtml"
+            },
+            "publishedAt": "2026-11-02T02:13:47.000Z",
+            "discoveredAt": "2026-11-02T02:20:17.954Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a3b28b99b8553c4de05d56ad3"
+            }
+          },
+          {
+            "id": "aeccfc37317838613ff55a08a",
+            "title": "【好莱坞一手】沙尔巴努·萨达特和耶莱娜·马克西莫维奇在东京电影节演讲中回击电影资助中的歧视",
+            "originalTitle": "Shahrbanoo Sadat and Jelena Maksimović Hit Back at Discrimination in Film Funding at Tokyo Festival Talk",
+            "summary": "阿富汗导演沙尔巴努·萨达特在东京国际电影节的一次演讲中表示，缺乏资金以及控制资金的机构的无知，使女性在电影业处于固有的劣势。（来源：Variety·好莱坞影视）",
+            "content": "阿富汗导演沙尔巴努·萨达特在东京国际电影节的一次演讲中表示，缺乏资金以及控制资金的机构的无知，使女性在电影业处于固有的劣势。（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "阿富汗导演沙尔巴努·萨达特在东京国际电影节的一次演讲中表示，缺乏资金以及控制资金的机构的无知，使女性在电影业处于固有的劣势。（来源：Variety·好莱坞影视）",
+              "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aeccfc37317838613ff55a08a",
+              "original": "https://variety.com/2026/film/festivals/shahrbanoo-sadat-hits-back-film-funding-discrimination-1236937057/"
+            },
+            "publishedAt": "2026-11-02T01:35:45.000Z",
+            "discoveredAt": "2026-11-02T02:20:50.171Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aeccfc37317838613ff55a08a"
+            }
+          },
+          {
+            "id": "a425508715548f0086fee4640",
+            "title": "【好莱坞一手】雅加达世界电影计划与国际评审团一起恢复首届故事片竞赛",
+            "originalTitle": "Jakarta World Cinema Plans to Revive First Feature Competition With International Jury",
+            "summary": "雅加达世界电影计划于明年恢复首届故事片竞赛，向世界各地的电影制片人开放，并由国际评审团进行评审。今年的版本不接受投稿。竞争...（来源：Variety·好莱坞影视）",
+            "content": "雅加达世界电影计划于明年恢复首届故事片竞赛，向世界各地的电影制片人开放，并由国际评审团进行评审。今年的版本不接受投稿。竞争...（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "雅加达世界电影计划于明年恢复首届故事片竞赛，向世界各地的电影制片人开放，并由国际评审团进行评审。今年的版本不接受投稿。竞争...（来源：Variety·好莱坞影视）",
+              "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a425508715548f0086fee4640",
+              "original": "https://variety.com/2026/film/festivals/jakarta-world-cinema-revive-first-feature-competition-1236937042/"
+            },
+            "publishedAt": "2026-11-02T00:57:04.000Z",
+            "discoveredAt": "2026-11-02T02:20:52.442Z",
+            "category": "culture",
+            "score": 99,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a425508715548f0086fee4640"
+            }
+          },
+          {
             "id": "a7ab9ade69f12871d48c40cf5",
             "title": "【全球票房】莱恩·约翰逊 (Rian Johnson) 委托《利刃出鞘》电影摄影师策划 RAW 相机应用程序：“我们使用相同的图像处理”",
             "originalTitle": "Rian Johnson Commissions ‘Knives Out’ Cinematographer For Curated RAW Camera App: “The Same Image Processing We Use”",
@@ -2256,93 +2343,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a7ab9ade69f12871d48c40cf5"
-            }
-          },
-          {
-            "id": "a19235cb336a5223901a21546",
-            "title": "【好莱坞一手】韩国票房：热门动画《Chiikawa》继续领先，布拉德·皮特惊悚片《野兽之心》首映",
-            "originalTitle": "Korea Box Office: Anime Hit ‘Chiikawa’ Retains Lead as Brad Pitt Thriller ‘Heart of the Beast’ Debuts",
-            "summary": "日本动画电影《千井川剧场版：人鱼岛的秘密》在 10 月 30 日至 11 月 30 日的周末占据韩国票房第一的位置。 1、连续第三个周末排名第一...（来源：Variety·好莱坞影视）",
-            "content": "日本动画电影《千井川剧场版：人鱼岛的秘密》在 10 月 30 日至 11 月 30 日的周末占据韩国票房第一的位置。 1、连续第三个周末排名第一...（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "日本动画电影《千井川剧场版：人鱼岛的秘密》在 10 月 30 日至 11 月 30 日的周末占据韩国票房第一的位置。 1、连续第三个周末排名第一...（来源：Variety·好莱坞影视）",
-              "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a19235cb336a5223901a21546",
-              "original": "https://variety.com/2026/film/box-office/korea-box-office-anime-hit-chiikawa-brad-pitt-heart-of-the-beast-1236936987/"
-            },
-            "publishedAt": "2026-11-01T22:38:58.000Z",
-            "discoveredAt": "2026-11-01T22:59:15.107Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a19235cb336a5223901a21546"
-            }
-          },
-          {
-            "id": "ab5e23965d8d0d51897df6e6b",
-            "title": "【好莱坞一手】日本漂流者的韩国公路之旅推动了内山拓哉在东京缺口融资市场上的“蓝色突破”",
-            "originalTitle": "Japanese Drifter’s Road Trip to Korea Drives Uchiyama Takuya’s ‘The Blue Breaks’ at Tokyo Gap-Financing Market",
-            "summary": "《蓝色突破》改编自町屋良平 2016 年由日本电影制片人内山卓也（《麻木》）创作的小说，一名通过精子捐赠受孕的男子不确定自己在世界上的地位，于是踏上了前往韩国的旅程。 ...（来源：Variety·好莱坞影视）",
-            "content": "《蓝色突破》改编自町屋良平 2016 年由日本电影制片人内山卓也（《麻木》）创作的小说，一名通过精子捐赠受孕的男子不确定自己在世界上的地位，于是踏上了前往韩国的旅程。 ...（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "《蓝色突破》改编自町屋良平 2016 年由日本电影制片人内山卓也（《麻木》）创作的小说，一名通过精子捐赠受孕的男子不确定自己在世界上的地位，于是踏上了前往韩国的旅程。 ...（来源：Variety·好莱坞影视）",
-              "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab5e23965d8d0d51897df6e6b",
-              "original": "https://variety.com/2026/film/markets-festivals/drifter-road-trip-korea-blue-breaks-tokyo-market-1236936982/"
-            },
-            "publishedAt": "2026-11-01T22:24:25.000Z",
-            "discoveredAt": "2026-11-01T22:59:17.559Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab5e23965d8d0d51897df6e6b"
-            }
-          },
-          {
-            "id": "aefef8bf7c903e310bb07df24",
-            "title": "【好莱坞一手】希拉里·达芙 (Hilary Duff) 表示，《Lizzie McGuire》结束后她就“完蛋了”，再也不想唱《What Dreams Are Made Of》了：我“精疲力竭”",
-            "originalTitle": "Hilary Duff Says She Was ‘F—ing Done’ With ‘Lizzie McGuire’ When It Ended and Never Wanted to Sing ‘What Dreams Are Made Of’ Again: I Was ‘Exhausted By It’",
-            "summary": "希拉里·达芙 (Hilary Duff) 在 2003 年的电影《莉兹·麦奎尔》(Lizzie McGuire) 这部让她成为明星的两季节目结束后，正在反思自己扮演的莉兹·麦奎尔 (Lizzie McGuire) 已经“完蛋”了。 “莉齐·麦奎尔电影”以现在标志性的“什么梦想......（来源：Variety·好莱坞影视）",
-            "content": "希拉里·达芙 (Hilary Duff) 在 2003 年的电影《莉兹·麦奎尔》(Lizzie McGuire) 这部让她成为明星的两季节目结束后，正在反思自己扮演的莉兹·麦奎尔 (Lizzie McGuire) 已经“完蛋”了。 “莉齐·麦奎尔电影”以现在标志性的“什么梦想......（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "希拉里·达芙 (Hilary Duff) 在 2003 年的电影《莉兹·麦奎尔》(Lizzie McGuire) 这部让她成为明星的两季节目结束后，正在反思自己扮演的莉兹·麦奎尔 (Lizzie McGuire) 已经“完蛋”了。 “莉齐·麦奎尔电影”以现在标志性的“什么梦想......（来源：Variety·好莱坞影视）",
-              "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aefef8bf7c903e310bb07df24",
-              "original": "https://variety.com/2026/tv/news/hilary-duff-fing-done-when-lizzie-mcguire-ended-1236936919/"
-            },
-            "publishedAt": "2026-11-01T21:16:13.000Z",
-            "discoveredAt": "2026-11-01T22:59:23.142Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aefef8bf7c903e310bb07df24"
             }
           },
           {
@@ -2410,6 +2410,35 @@
         "label": "🏆 体育实时Top20",
         "items": [
           {
+            "id": "acdf4bd56ff49a530a5b9d75f",
+            "title": "【体坛快讯】WTT蒙彼利埃冠军赛：孙颖莎女单夺冠",
+            "originalTitle": "WTT蒙彼利埃冠军赛：孙颖莎女单夺冠",
+            "summary": "中新社法国蒙彼利埃11月2日电 当地时间11月1日，2026年世界乒乓球职业大联盟(WTT)蒙彼利埃冠军赛迎来决赛日。中国名将孙颖莎以4:1战胜队友蒯曼，获得女单冠军。韩国选手张禹珍夺得男单冠军。",
+            "content": "中新社法国蒙彼利埃11月2日电 当地时间11月1日，2026年世界乒乓球职业大联盟(WTT)蒙彼利埃冠军赛迎来决赛日。中国名将孙颖莎以4:1战胜队友蒯曼，获得女单冠军。韩国选手张禹珍夺得男单冠军。\n\n【深度核心看点】权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "中新社法国蒙彼利埃11月2日电 当地时间11月1日，2026年世界乒乓球职业大联盟(WTT)蒙彼利埃冠军赛迎来决赛日。中国名将孙颖莎以4:1战胜队友蒯曼，获得女单冠军。韩国选手张禹珍夺得男单冠军。",
+              "【深度核心看点】权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "中新网·体育焦点"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/acdf4bd56ff49a530a5b9d75f",
+              "original": "https://www.chinanews.com.cn/ty/2026/11-02/10724556.shtml"
+            },
+            "publishedAt": "2026-11-02T01:53:36.000Z",
+            "discoveredAt": "2026-11-02T02:20:58.938Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/acdf4bd56ff49a530a5b9d75f"
+            }
+          },
+          {
             "id": "ac83488176c20750b92bc5add",
             "title": "【NBA一手】泰瑞斯·马克西迄今为止：29.6 PTS、4.1 REB、4.4 AST、1.7 STL 投篮命中率 48.6/35.2/83。他是76人队首发5人中唯一打满所有比赛的球员，场均上场37.6分钟。如果他本赛季入选 NBA 最佳阵容，他将有资格签下 2029 年开始的价值 3.04 亿美元/4 年的超级顶薪续约合同",
             "originalTitle": "Tyrese Maxey so far: 29.6 PTS, 4.1 REB, 4.4 AST, 1.7 STL shooting 48.6/35.2/83. He's the only Sixers player in the starting 5 to play in all the games, averaging 37.6 minutes a game. If he's named All-NBA this season, he will be eligible to sign a $304M/4Y supermax extension that would start in 2029",
@@ -2439,42 +2468,42 @@
             }
           },
           {
-            "id": "a5ffca9f53953ee3b3fa6f17b",
-            "title": "【BBC足坛】阿森纳以罕见的胜利击败利物浦，遥遥领先",
-            "originalTitle": "Arsenal move clear at the top with a rare win at Liverpool",
-            "summary": "阿森纳自 2012 年以来首次在安菲尔德获胜，在英超积分榜上领先 3 分，而利物浦在一场端到端的比赛中却一无所获，感到沮丧。（来源：BBC Sport·欧洲足坛）",
-            "content": "阿森纳自 2012 年以来首次在安菲尔德获胜，在英超积分榜上领先 3 分，而利物浦在一场端到端的比赛中却一无所获，感到沮丧。（来源：BBC Sport·欧洲足坛）\n\n【深度核心看点】BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a308f5e84c8fe2a4f2e0c9428",
+            "title": "【NBA一手】RJ质疑当今NBA的训练营和季前赛团",
+            "originalTitle": "RJ questions the training camp and preseason regiment of today's NBA",
+            "summary": "由 /u/SliMShady55222 提交 [链接] [评论]（来源：NBA·北美篮球实时热榜）",
+            "content": "由 /u/SliMShady55222 提交 [链接] [评论]（来源：NBA·北美篮球实时热榜）\n\n【深度核心看点】全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "阿森纳自 2012 年以来首次在安菲尔德获胜，在英超积分榜上领先 3 分，而利物浦在一场端到端的比赛中却一无所获，感到沮丧。（来源：BBC Sport·欧洲足坛）",
-              "【深度核心看点】BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。 ",
+              "由 /u/SliMShady55222 提交 [链接] [评论]（来源：NBA·北美篮球实时热榜）",
+              "【深度核心看点】全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "BBC Sport·欧洲足坛"
+              "name": "NBA·北美篮球实时热榜"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a5ffca9f53953ee3b3fa6f17b",
-              "original": "https://www.bbc.co.uk/sport/football/videos/cmly09yv9xl6o?at_medium=RSS&at_campaign=rss"
+              "aihot": "https://zenglian-news.onrender.com/items/a308f5e84c8fe2a4f2e0c9428",
+              "original": "https://www.reddit.com/r/nba/comments/1xlid3f/rj_questions_the_training_camp_and_preseason/"
             },
-            "publishedAt": "2026-11-01T20:00:18.000Z",
-            "discoveredAt": "2026-11-01T22:59:41.734Z",
+            "publishedAt": "2026-11-01T23:57:32.000Z",
+            "discoveredAt": "2026-11-02T02:21:08.135Z",
             "category": "business",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
+            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a5ffca9f53953ee3b3fa6f17b"
+              "url": "https://zenglian-news.onrender.com/items/a308f5e84c8fe2a4f2e0c9428"
             }
           },
           {
-            "id": "a9db50fda5c619bd1d4fab65a",
-            "title": "【欧洲足坛】随着主教练压力的增加，英超联赛的苦苦挣扎的球队应该坚持还是扭转？ |安德鲁·比斯利",
-            "originalTitle": "Should Premier League strugglers stick or twist as pressure on managers mounts? | Andrew Beasley",
-            "summary": "不同寻常的是，所有顶级联赛的俱乐部都有同一位新赛季开始时的主教练——但距离第一次解雇可能并不遥远。本赛季还没有英超联赛主教练失去工作。仅在其中的三个...（来源：卫报体育·欧冠与五大联赛）",
-            "content": "不同寻常的是，所有顶级联赛的俱乐部都有同一位新赛季开始时的主教练——但距离第一次解雇可能并不遥远。本赛季还没有英超联赛主教练失去工作。仅在其中的三个...（来源：卫报体育·欧冠与五大联赛）\n\n【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a2819c96d09a9ff0fb5cbbfa6",
+            "title": "【欧洲足坛】“我们必须告诉他们下去”：伊劳拉回应伊萨克点球被拒绝",
+            "originalTitle": "‘We have to tell them to go down’: Iraola responds to Isak penalty denial for Liverpool",
+            "summary": "主教练对裁判伊拉奥拉两次被驳回的点球申诉表示遗憾，他抱怨“如果你不倒下，你就不会判罚”安多尼·伊拉奥拉表示，在亚历山大·伊萨克（Alexander Isak）之后，他将指示利物浦球员在禁区内倒下……（来源：卫报体育·欧冠与五大联赛）",
+            "content": "主教练对裁判伊拉奥拉两次被驳回的点球申诉表示遗憾，他抱怨“如果你不倒下，你就不会判罚”安多尼·伊拉奥拉表示，在亚历山大·伊萨克（Alexander Isak）之后，他将指示利物浦球员在禁区内倒下……（来源：卫报体育·欧冠与五大联赛）\n\n【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "不同寻常的是，所有顶级联赛的俱乐部都有同一位新赛季开始时的主教练——但距离第一次解雇可能并不遥远。本赛季还没有英超联赛主教练失去工作。仅在其中的三个...（来源：卫报体育·欧冠与五大联赛）",
+              "主教练对裁判伊拉奥拉两次被驳回的点球申诉表示遗憾，他抱怨“如果你不倒下，你就不会判罚”安多尼·伊拉奥拉表示，在亚历山大·伊萨克（Alexander Isak）之后，他将指示利物浦球员在禁区内倒下……（来源：卫报体育·欧冠与五大联赛）",
               "【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -2482,18 +2511,18 @@
               "name": "卫报体育·欧冠与五大联赛"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a9db50fda5c619bd1d4fab65a",
-              "original": "https://www.theguardian.com/football/2026/nov/01/michael-carrick-manchester-united-favourite-premier-league-sack-race"
+              "aihot": "https://zenglian-news.onrender.com/items/a2819c96d09a9ff0fb5cbbfa6",
+              "original": "https://www.theguardian.com/football/2026/nov/01/andoni-iraola-responds-liverpool-penalty-denial-arsenal-premier-league"
             },
-            "publishedAt": "2026-11-01T18:00:30.000Z",
-            "discoveredAt": "2026-11-01T22:59:55.130Z",
+            "publishedAt": "2026-11-01T21:25:01.000Z",
+            "discoveredAt": "2026-11-02T02:21:03.329Z",
             "category": "business",
-            "score": 99,
+            "score": 98,
             "selected": true,
             "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a9db50fda5c619bd1d4fab65a"
+              "url": "https://zenglian-news.onrender.com/items/a2819c96d09a9ff0fb5cbbfa6"
             }
           },
           {
@@ -2526,61 +2555,32 @@
             }
           },
           {
-            "id": "a45f601d1b592e97f447e4180",
-            "title": "【欧洲足坛】欧洲足球：姆巴佩点球帮助皇马取得六连胜",
-            "originalTitle": "European football: Mbappé penalty helps Real Madrid stroll to sixth straight win",
-            "summary": "贝林汉姆和迪奥曼德在反击击败卡利亚里后，以3-0击败拉齐奥竞技队，凯利安·姆巴佩在动荡的一周中凭借点球帮助皇马以3-0战胜桑坦德竞技队，结束了动荡的一周……（来源：卫报体育·欧冠与五大联赛）",
-            "content": "贝林汉姆和迪奥曼德在反击击败卡利亚里后，以3-0击败拉齐奥竞技队，凯利安·姆巴佩在动荡的一周中凭借点球帮助皇马以3-0战胜桑坦德竞技队，结束了动荡的一周……（来源：卫报体育·欧冠与五大联赛）\n\n【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a407f097086582299853c2cb0",
+            "title": "【体坛快讯】赛道串联古村落 山西祁县乔家大院村跑吸引900余人参赛",
+            "originalTitle": "赛道串联古村落 山西祁县乔家大院村跑吸引900余人参赛",
+            "summary": "图为村跑现场。张慧杰 摄 中新网晋中11月2日电(高雨晴 范嘉浩 郭坚)11月1日，山西祁县2026年“四秩文博·跑寻古村”乔家大院村跑活动在乔家大院景区鸣枪开跑，以此致敬乔家大院民俗博物馆开馆四十载。",
+            "content": "图为村跑现场。张慧杰 摄 中新网晋中11月2日电(高雨晴 范嘉浩 郭坚)11月1日，山西祁县2026年“四秩文博·跑寻古村”乔家大院村跑活动在乔家大院景区鸣枪开跑，以此致敬乔家大院民俗博物馆开馆四十载。\n\n【深度核心看点】权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "贝林汉姆和迪奥曼德在反击击败卡利亚里后，以3-0击败拉齐奥竞技队，凯利安·姆巴佩在动荡的一周中凭借点球帮助皇马以3-0战胜桑坦德竞技队，结束了动荡的一周……（来源：卫报体育·欧冠与五大联赛）",
-              "【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 ",
+              "图为村跑现场。张慧杰 摄 中新网晋中11月2日电(高雨晴 范嘉浩 郭坚)11月1日，山西祁县2026年“四秩文博·跑寻古村”乔家大院村跑活动在乔家大院景区鸣枪开跑，以此致敬乔家大院民俗博物馆开馆四十载。",
+              "【深度核心看点】权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "卫报体育·欧冠与五大联赛"
+              "name": "中新网·体育焦点"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a45f601d1b592e97f447e4180",
-              "original": "https://www.theguardian.com/football/2026/nov/01/european-football-real-madrid-lazio-juventus-napoli-kylian-mbappe"
+              "aihot": "https://zenglian-news.onrender.com/items/a407f097086582299853c2cb0",
+              "original": "https://www.chinanews.com.cn/ty/2026/11-02/10724562.shtml"
             },
-            "publishedAt": "2026-11-01T17:55:23.000Z",
-            "discoveredAt": "2026-11-01T22:59:52.456Z",
+            "publishedAt": "2026-11-02T01:42:31.000Z",
+            "discoveredAt": "2026-11-02T02:20:59.145Z",
             "category": "business",
-            "score": 98,
+            "score": 97,
             "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a45f601d1b592e97f447e4180"
-            }
-          },
-          {
-            "id": "ae4b97e7ec35959c0716115cc",
-            "title": "【国内要闻】英国选手达特夺得广网女单冠军",
-            "originalTitle": "英国选手达特夺得广网女单冠军",
-            "summary": "中新社广州11月1日电 (记者 王坚)2026年广州国际女子网球公开赛(下称“广网”)11月1日收官。在单打决赛中，英国选手达特逆转击败奥地利18岁小将塔格尔，夺得生涯首个女子网球选手协会(WTA)巡回赛单打冠军；乌兹别克斯坦组合波琳娜·库德梅托娃/蒂莫菲娃夺得双打冠军。",
-            "content": "中新社广州11月1日电 (记者 王坚)2026年广州国际女子网球公开赛(下称“广网”)11月1日收官。在单打决赛中，英国选手达特逆转击败奥地利18岁小将塔格尔，夺得生涯首个女子网球选手协会(WTA)巡回赛单打冠军；乌兹别克斯坦组合波琳娜·库德梅托娃/蒂莫菲娃夺得双打冠军。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "中新社广州11月1日电 (记者 王坚)2026年广州国际女子网球公开赛(下称“广网”)11月1日收官。在单打决赛中，英国选手达特逆转击败奥地利18岁小将塔格尔，夺得生涯首个女子网球选手协会(WTA)巡回赛单打冠军；乌兹别克斯坦组合波琳娜·库德梅托娃/蒂莫菲娃夺得双打冠军。",
-              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae4b97e7ec35959c0716115cc",
-              "original": "https://www.chinanews.com.cn/ty/2026/11-01/10724516.shtml"
-            },
-            "publishedAt": "2026-11-01T15:21:45.000Z",
-            "discoveredAt": "2026-11-01T16:53:33.929Z",
-            "category": "business",
-            "score": 98,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae4b97e7ec35959c0716115cc"
+              "url": "https://zenglian-news.onrender.com/items/a407f097086582299853c2cb0"
             }
           }
         ]
