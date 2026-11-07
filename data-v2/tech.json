@@ -10,6 +10,93 @@
   },
   "items": [
     {
+      "id": "a9635444e03447a632d6b8b0b",
+      "title": "【开源大模型】KV缓存量化对Qwen3.8 27B的影响",
+      "originalTitle": "Effects of KV Cache Quantization on Qwen3.8 27B",
+      "summary": "一段时间以来，KV 缓存量化一直是该社区热议的话题，意见范围从“从不量化”到“4 位就可以了”。由于轶事证据相当不一致，我决定...（来源：LocalLLaMA·开源大模型）",
+      "content": "一段时间以来，KV 缓存量化一直是该社区热议的话题，意见范围从“从不量化”到“4 位就可以了”。由于轶事证据相当不一致，我决定...（来源：LocalLLaMA·开源大模型）\n\n【深度核心看点】全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+      "paragraphs": [
+        "一段时间以来，KV 缓存量化一直是该社区热议的话题，意见范围从“从不量化”到“4 位就可以了”。由于轶事证据相当不一致，我决定...（来源：LocalLLaMA·开源大模型）",
+        "【深度核心看点】全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。 ",
+        "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+      ],
+      "source": {
+        "name": "LocalLLaMA·开源大模型"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a9635444e03447a632d6b8b0b",
+        "original": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbesv/effects_of_kv_cache_quantization_on_qwen38_27b/"
+      },
+      "publishedAt": "2026-11-07T17:09:51.000Z",
+      "discoveredAt": "2026-11-07T18:15:07.889Z",
+      "category": "tech",
+      "score": 98,
+      "selected": true,
+      "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a9635444e03447a632d6b8b0b"
+      }
+    },
+    {
+      "id": "ad14fbe40a8fa50aa6d3c01b3",
+      "title": "【开源大模型】llama_moe_cache：在 CPU 上运行错过的专家，添加 am17an 的调整脚本 · Pull Request #30966 · ggml-org/llama.cpp",
+      "originalTitle": "llama_moe_cache: run missed experts on CPU, add tuning script by am17an · Pull Request #30966 · ggml-org/llama.cpp",
+      "summary": "这对于 MoE 卸载（低 VRAM 的人）来说是一个显着的加速。我尝试过一次 Strata，它有一些调整机制，所以这可能是一个类似的想法。   由/u/jacek2023提交 [链接] [评论]（来源：LocalLLaMA·开源大模型）",
+      "content": "这对于 MoE 卸载（低 VRAM 的人）来说是一个显着的加速。我尝试过一次 Strata，它有一些调整机制，所以这可能是一个类似的想法。   由/u/jacek2023提交 [链接] [评论]（来源：LocalLLaMA·开源大模型）\n\n【深度核心看点】全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+      "paragraphs": [
+        "这对于 MoE 卸载（低 VRAM 的人）来说是一个显着的加速。我尝试过一次 Strata，它有一些调整机制，所以这可能是一个类似的想法。   由/u/jacek2023提交 [链接] [评论]（来源：LocalLLaMA·开源大模型）",
+        "【深度核心看点】全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。 ",
+        "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+      ],
+      "source": {
+        "name": "LocalLLaMA·开源大模型"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/ad14fbe40a8fa50aa6d3c01b3",
+        "original": "https://www.reddit.com/r/LocalLLaMA/comments/1xqacka/llama_moe_cache_run_missed_experts_on_cpu_add/"
+      },
+      "publishedAt": "2026-11-07T16:25:06.000Z",
+      "discoveredAt": "2026-11-07T18:15:03.924Z",
+      "category": "tech",
+      "score": 98,
+      "selected": true,
+      "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/ad14fbe40a8fa50aa6d3c01b3"
+      }
+    },
+    {
+      "id": "a241ae9291bbd5fa72e84ff23",
+      "title": "【开源大模型】Obsessive-1.7B：1.1 GB 网络搜索子代理",
+      "originalTitle": "Obsessive-1.7B: a 1.1 GB web-search subagent",
+      "summary": "我对 LFM3-1.7B 进行了微调，以完成一项工作：提出一个事实问题，调用一次 web_search，并用一个简短的值、逐字引用和 URL 进行回答。如果结果不包含答案，则会显示“在搜索中未找到...”（来源：LocalLLaMA·开源大模型）",
+      "content": "我对 LFM3-1.7B 进行了微调，以完成一项工作：提出一个事实问题，调用一次 web_search，并用一个简短的值、逐字引用和 URL 进行回答。如果结果不包含答案，则会显示“在搜索中未找到...”（来源：LocalLLaMA·开源大模型）\n\n【深度核心看点】全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+      "paragraphs": [
+        "我对 LFM3-1.7B 进行了微调，以完成一项工作：提出一个事实问题，调用一次 web_search，并用一个简短的值、逐字引用和 URL 进行回答。如果结果不包含答案，则会显示“在搜索中未找到...”（来源：LocalLLaMA·开源大模型）",
+        "【深度核心看点】全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。 ",
+        "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+      ],
+      "source": {
+        "name": "LocalLLaMA·开源大模型"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a241ae9291bbd5fa72e84ff23",
+        "original": "https://www.reddit.com/r/LocalLLaMA/comments/1xq4yju/obsessive17b_a_11_gb_websearch_subagent/"
+      },
+      "publishedAt": "2026-11-07T12:13:29.000Z",
+      "discoveredAt": "2026-11-07T18:15:06.190Z",
+      "category": "tech",
+      "score": 98,
+      "selected": true,
+      "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a241ae9291bbd5fa72e84ff23"
+      }
+    },
+    {
       "id": "aa0a100c4dc79d918eb3011f0",
       "title": "人形机器人开始上岗，老牌材料企业瞄准新生意｜进博看未来",
       "originalTitle": "人形机器人开始上岗，老牌材料企业瞄准新生意｜进博看未来",
@@ -242,6 +329,35 @@
       }
     },
     {
+      "id": "ac3c7ce0358e73b84a855d549",
+      "title": "【X·AI一手】代理内存的组成部分",
+      "originalTitle": "The Components of Agent Memory",
+      "summary": "X (Twitter)·硅谷AI大佬实时快讯：The Components of Agent Memory。Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。（来源：X (Twitter)·硅谷AI大佬）",
+      "content": "X (Twitter)·硅谷AI大佬实时快讯：The Components of Agent Memory。Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。（来源：X (Twitter)·硅谷AI大佬）\n\n【深度核心看点】Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+      "paragraphs": [
+        "X (Twitter)·硅谷AI大佬实时快讯：The Components of Agent Memory。Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。（来源：X (Twitter)·硅谷AI大佬）",
+        "【深度核心看点】Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。 ",
+        "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+      ],
+      "source": {
+        "name": "X (Twitter)·硅谷AI大佬"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/ac3c7ce0358e73b84a855d549",
+        "original": "https://www.anthropic.com/research/components-of-agent-memory"
+      },
+      "publishedAt": "2026-11-07T06:39:04.000Z",
+      "discoveredAt": "2026-11-07T18:14:56.035Z",
+      "category": "tech",
+      "score": 99,
+      "selected": true,
+      "reason": "Sam Altman、Karpathy、OpenAI、Anthropic 等硅谷AI领袖在 X 与社区的实时首发动态。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/ac3c7ce0358e73b84a855d549"
+      }
+    },
+    {
       "id": "a0b435e04053eae48014b4da3",
       "title": "【X·AI一手】这个永远不会消失的假免费试用是什么？？？",
       "originalTitle": "what is this fake free trial that never goes away???",
@@ -297,6 +413,35 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/a127bcae4ecf52e39ae7ba2bc"
+      }
+    },
+    {
+      "id": "a62aa737145be568bda984ca6",
+      "title": "【开源大模型】祝你好运，获得便宜的 GPU。 AMD 首席执行官表示，AMD 是一家“数据中心优先的公司”",
+      "originalTitle": "Good Luck Getting a Cheap GPU. AMD Is a 'Data Center First Company,' CEO Says",
+      "summary": "他们都一样，我们……太情绪化了！是的，我们已经知道了。   由/u/ab2377提交 [链接] [评论]（来源：LocalLLaMA·开源大模型）",
+      "content": "他们都一样，我们……太情绪化了！是的，我们已经知道了。   由/u/ab2377提交 [链接] [评论]（来源：LocalLLaMA·开源大模型）\n\n【深度核心看点】全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+      "paragraphs": [
+        "他们都一样，我们……太情绪化了！是的，我们已经知道了。   由/u/ab2377提交 [链接] [评论]（来源：LocalLLaMA·开源大模型）",
+        "【深度核心看点】全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。 ",
+        "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+      ],
+      "source": {
+        "name": "LocalLLaMA·开源大模型"
+      },
+      "links": {
+        "aihot": "https://zenglian-news.onrender.com/items/a62aa737145be568bda984ca6",
+        "original": "https://www.reddit.com/r/LocalLLaMA/comments/1xpx0on/good_luck_getting_a_cheap_gpu_amd_is_a_data/"
+      },
+      "publishedAt": "2026-11-07T04:05:32.000Z",
+      "discoveredAt": "2026-11-07T18:15:02.533Z",
+      "category": "tech",
+      "score": 97,
+      "selected": true,
+      "reason": "全球最大开源大模型极客社区，第一时间评测 DeepSeek、Qwen、Llama 最新权重与微调实战。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news.onrender.com/items/a62aa737145be568bda984ca6"
       }
     },
     {
@@ -442,151 +587,6 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news.onrender.com/items/ae3ed5e9c43fe64d0046d50e6"
-      }
-    },
-    {
-      "id": "a7745e41ef0cfa761b89d5c2c",
-      "title": "苹果、英伟达等科技公司面临潜在国会调查，曾在特朗普白宫宴会捐款 2500 万美元",
-      "originalTitle": "苹果、英伟达等科技公司面临潜在国会调查，曾在特朗普白宫宴会捐款 2500 万美元",
-      "summary": "IT之家 11 月 7 日消息，路透社昨日报道称，即将接任美国参议院常设调查小组委员会主席的民主党参议员理查德・布卢门撒尔（Richard Blumenthal），已经要求苹果、Meta、谷歌、英伟达、亚马逊和微软等参与特朗普白宫宴会捐款的科技企业主动提交相关文件，否则可能在 2027 年 1 月面临传票。 结合华盛顿邮报当地时间 11 月 6 日报道，民主党议员正在为明年展开的一系列企业调查做准备，苹果、Meta 以及马斯克旗下企业均...",
-      "content": "IT之家 11 月 7 日消息，路透社昨日报道称，即将接任美国参议院常设调查小组委员会主席的民主党参议员理查德・布卢门撒尔（Richard Blumenthal），已经要求苹果、Meta、谷歌、英伟达、亚马逊和微软等参与特朗普白宫宴会捐款的科技企业主动提交相关文件，否则可能在 2027 年 1 月面临传票。 结合华盛顿邮报当地时间 11 月 6 日报道，民主党议员正在为明年展开的一系列企业调查做准备，苹果、Meta 以及马斯克旗下企业均...\n\n【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-      "paragraphs": [
-        "IT之家 11 月 7 日消息，路透社昨日报道称，即将接任美国参议院常设调查小组委员会主席的民主党参议员理查德・布卢门撒尔（Richard Blumenthal），已经要求苹果、Meta、谷歌、英伟达、亚马逊和微软等参与特朗普白宫宴会捐款的科技企业主动提交相关文件，否则可能在 2027 年 1 月面临传票。 结合华盛顿邮报当地时间 11 月 6 日报道，民主党议员正在为明年展开的一系列企业调查做准备，苹果、Meta 以及马斯克旗下企业均...",
-        "【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 ",
-        "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-      ],
-      "source": {
-        "name": "IT之家·国内产业"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a7745e41ef0cfa761b89d5c2c",
-        "original": "https://www.ithome.com/1/023/620.htm"
-      },
-      "publishedAt": "2026-11-07T00:08:51.000Z",
-      "discoveredAt": "2026-11-07T00:25:59.902Z",
-      "category": "tech",
-      "score": 97,
-      "selected": true,
-      "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a7745e41ef0cfa761b89d5c2c"
-      }
-    },
-    {
-      "id": "aa6172b7c81373c93c893fa0d",
-      "title": "【硅谷AI】据报道 OpenAI 额外融资 110 亿美元，估值 1.25 万亿美元",
-      "originalTitle": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "summary": "据报道，OpenAI 已额外筹集 110 亿美元，作为一轮融资的一部分，该轮融资尚未结束，但预计将在未来几周内结束。（来源：TechCrunch·硅谷AI）",
-      "content": "据报道，OpenAI 已额外筹集 110 亿美元，作为一轮融资的一部分，该轮融资尚未结束，但预计将在未来几周内结束。（来源：TechCrunch·硅谷AI）\n\n【深度核心看点】TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-      "paragraphs": [
-        "据报道，OpenAI 已额外筹集 110 亿美元，作为一轮融资的一部分，该轮融资尚未结束，但预计将在未来几周内结束。（来源：TechCrunch·硅谷AI）",
-        "【深度核心看点】TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。 ",
-        "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-      ],
-      "source": {
-        "name": "TechCrunch·硅谷AI"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/aa6172b7c81373c93c893fa0d",
-        "original": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
-      },
-      "publishedAt": "2026-11-06T22:53:46.000Z",
-      "discoveredAt": "2026-11-07T00:26:14.223Z",
-      "category": "tech",
-      "score": 99,
-      "selected": true,
-      "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/aa6172b7c81373c93c893fa0d"
-      }
-    },
-    {
-      "id": "ad9936a0fc3ce55f7fa40203e",
-      "title": "【硅谷AI】数百个 Artex AI 黑客工具被发现公开暴露在网络上",
-      "originalTitle": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-      "summary": "安全研究人员发现数百台托管渗透测试工具 Artex 的服务器暴露在互联网上，允许任何人访问该黑客工具。（来源：TechCrunch·硅谷AI）",
-      "content": "安全研究人员发现数百台托管渗透测试工具 Artex 的服务器暴露在互联网上，允许任何人访问该黑客工具。（来源：TechCrunch·硅谷AI）\n\n【深度核心看点】TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-      "paragraphs": [
-        "安全研究人员发现数百台托管渗透测试工具 Artex 的服务器暴露在互联网上，允许任何人访问该黑客工具。（来源：TechCrunch·硅谷AI）",
-        "【深度核心看点】TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。 ",
-        "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-      ],
-      "source": {
-        "name": "TechCrunch·硅谷AI"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/ad9936a0fc3ce55f7fa40203e",
-        "original": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
-      },
-      "publishedAt": "2026-11-06T18:44:38.000Z",
-      "discoveredAt": "2026-11-06T20:44:41.373Z",
-      "category": "tech",
-      "score": 97,
-      "selected": true,
-      "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/ad9936a0fc3ce55f7fa40203e"
-      }
-    },
-    {
-      "id": "a9905cd1f10050b6cd0ed8050",
-      "title": "【硅谷AI】Meta 推出 Spaces，这是一种与 Muse 代理协作的新方式",
-      "originalTitle": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-      "summary": "Meta 的 Muse 代理不断获得新功能和集成。 Spaces 有望成为与人工智能助手互动的新方式。（来源：TechCrunch·硅谷AI）",
-      "content": "Meta 的 Muse 代理不断获得新功能和集成。 Spaces 有望成为与人工智能助手互动的新方式。（来源：TechCrunch·硅谷AI）\n\n【深度核心看点】TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-      "paragraphs": [
-        "Meta 的 Muse 代理不断获得新功能和集成。 Spaces 有望成为与人工智能助手互动的新方式。（来源：TechCrunch·硅谷AI）",
-        "【深度核心看点】TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。 ",
-        "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-      ],
-      "source": {
-        "name": "TechCrunch·硅谷AI"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a9905cd1f10050b6cd0ed8050",
-        "original": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/"
-      },
-      "publishedAt": "2026-11-06T18:44:20.000Z",
-      "discoveredAt": "2026-11-06T20:44:41.790Z",
-      "category": "tech",
-      "score": 97,
-      "selected": true,
-      "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a9905cd1f10050b6cd0ed8050"
-      }
-    },
-    {
-      "id": "a812b61d055fe3c89fdd0139f",
-      "title": "【硅谷AI】蓝色浪潮中期可能如何重塑人工智能行业",
-      "originalTitle": "How a Blue Wave midterm might reshape the AI industry",
-      "summary": "民主党在本周美国中期选举中取得的历史性胜利也可能改变科技行业。周二，公众对 41 项与数据中心相关的投票措施进行了投票——除一项外，大多数投票都赞成实施...（来源：TechCrunch·硅谷AI）",
-      "content": "民主党在本周美国中期选举中取得的历史性胜利也可能改变科技行业。周二，公众对 41 项与数据中心相关的投票措施进行了投票——除一项外，大多数投票都赞成实施...（来源：TechCrunch·硅谷AI）\n\n【深度核心看点】TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-      "paragraphs": [
-        "民主党在本周美国中期选举中取得的历史性胜利也可能改变科技行业。周二，公众对 41 项与数据中心相关的投票措施进行了投票——除一项外，大多数投票都赞成实施...（来源：TechCrunch·硅谷AI）",
-        "【深度核心看点】TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。 ",
-        "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-      ],
-      "source": {
-        "name": "TechCrunch·硅谷AI"
-      },
-      "links": {
-        "aihot": "https://zenglian-news.onrender.com/items/a812b61d055fe3c89fdd0139f",
-        "original": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/"
-      },
-      "publishedAt": "2026-11-06T18:00:00.000Z",
-      "discoveredAt": "2026-11-06T20:44:42.391Z",
-      "category": "tech",
-      "score": 98,
-      "selected": true,
-      "reason": "TechCrunch 人工智能频道，直击硅谷AI初创独角兽产品发布与巨额融资。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news.onrender.com/items/a812b61d055fe3c89fdd0139f"
       }
     }
   ],
