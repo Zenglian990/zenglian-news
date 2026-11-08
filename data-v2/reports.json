@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T01:18:15.563Z",
+  "generatedAt": "2026-11-08T07:49:14.836Z",
   "daily": {
     "kind": "daily",
     "key": "2026-11-08",
     "title": "曾练全球一手简报 · 今日日报 (2026-11-08)",
     "subtitle": "全球·国内·商业搞钱·AI·影视娱乐·体育 六大实时Top20精选",
-    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：微软研究院人工智能前沿小组的终结；Show HN：Coldframe，一个伪装成超市冰箱控制器的蜜罐；我的 SaaS 几乎是 100 美元，因为我决定帮助其他 SaaS 创始人。。",
+    "overview": "本期今日六大实时Top20早晚报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 18 项焦点事件。重点关注：微软研究院人工智能前沿小组的终结；通用大模型逼近，谁来为世界模型买单？；mxRaven 的 perch：开源邮件服务器 + 用于代理的 POSIX CLI。",
     "metrics": {
       "totalEvents": 18,
       "sourcesCount": 30,
@@ -47,42 +47,13 @@
             }
           },
           {
-            "id": "aec28fff8ce9130f2f45450c4",
-            "title": "【独立变现】Show HN：Coldframe，一个伪装成超市冰箱控制器的蜜罐",
-            "originalTitle": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
-            "summary": "我构建了 Coldframe，一个伪装成超市制冷控制器的蜜罐。受到过去几周工业冰箱安装事件的启发，我想看看人们会尝试什么来反对……（来源：Show HN·独立变现榜）",
-            "content": "我构建了 Coldframe，一个伪装成超市制冷控制器的蜜罐。受到过去几周工业冰箱安装事件的启发，我想看看人们会尝试什么来反对……（来源：Show HN·独立变现榜）\n\n【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a084ffedf8e9238bdd6aa0b05",
+            "title": "【全球热榜】GitHub 公共预览版中的新拉取请求概述页面",
+            "originalTitle": "GitHub New pull request overview page in public preview",
+            "summary": "X/HN·全球热榜Top实时快讯：GitHub New pull request overview page in public preview。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "content": "X/HN·全球热榜Top实时快讯：GitHub New pull request overview page in public preview。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "我构建了 Coldframe，一个伪装成超市制冷控制器的蜜罐。受到过去几周工业冰箱安装事件的启发，我想看看人们会尝试什么来反对……（来源：Show HN·独立变现榜）",
-              "【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "Show HN·独立变现榜"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aec28fff8ce9130f2f45450c4",
-              "original": "https://github.com/hedgerow-dev/coldframe"
-            },
-            "publishedAt": "2026-11-07T17:27:30.000Z",
-            "discoveredAt": "2026-11-07T18:14:42.193Z",
-            "category": "global",
-            "score": 99,
-            "selected": true,
-            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aec28fff8ce9130f2f45450c4"
-            }
-          },
-          {
-            "id": "a161886f041449c13fa98e5bc",
-            "title": "【全球热榜】我在价值 10 美元的 OpenStick 家庭实验室上运行的内容",
-            "originalTitle": "What I run on my $10 USD OpenStick homelab",
-            "summary": "X/HN·全球热榜Top实时快讯：What I run on my $10 USD OpenStick homelab。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "content": "X/HN·全球热榜Top实时快讯：What I run on my $10 USD OpenStick homelab。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "X/HN·全球热榜Top实时快讯：What I run on my $10 USD OpenStick homelab。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+              "X/HN·全球热榜Top实时快讯：GitHub New pull request overview page in public preview。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
               "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -90,18 +61,47 @@
               "name": "X/HN·全球热榜Top"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a161886f041449c13fa98e5bc",
-              "original": "https://blog.bosscher.ch/posts/openstick/"
+              "aihot": "https://zenglian-news.onrender.com/items/a084ffedf8e9238bdd6aa0b05",
+              "original": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/"
             },
-            "publishedAt": "2026-11-07T18:12:12.000Z",
-            "discoveredAt": "2026-11-07T21:59:01.437Z",
+            "publishedAt": "2026-11-07T23:09:40.000Z",
+            "discoveredAt": "2026-11-08T07:48:21.305Z",
             "category": "global",
             "score": 97,
             "selected": true,
             "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a161886f041449c13fa98e5bc"
+              "url": "https://zenglian-news.onrender.com/items/a084ffedf8e9238bdd6aa0b05"
+            }
+          },
+          {
+            "id": "ae2d6cfd6e6d5625f4e90a4a9",
+            "title": "【全球热榜】用四个 2 生成任意整数 (2025)",
+            "originalTitle": "Making any integer with four 2s (2025)",
+            "summary": "X/HN·全球热榜Top实时快讯：Making any integer with four 2s (2025)。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "content": "X/HN·全球热榜Top实时快讯：Making any integer with four 2s (2025)。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "X/HN·全球热榜Top实时快讯：Making any integer with four 2s (2025)。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+              "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ae2d6cfd6e6d5625f4e90a4a9",
+              "original": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/"
+            },
+            "publishedAt": "2026-11-07T22:38:58.000Z",
+            "discoveredAt": "2026-11-08T07:48:21.749Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ae2d6cfd6e6d5625f4e90a4a9"
             }
           }
         ]
@@ -111,42 +111,13 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "a536597d24e5be8ccb147f2a3",
-            "title": "【国内财经】（第九届进博会）业界共话：AI带来全球化新机遇",
-            "originalTitle": "（第九届进博会）业界共话：AI带来全球化新机遇",
-            "summary": "中新社上海11月7日电 (记者 郑莹莹)“AI时代是原生全球化的新时代。”中国社会科学院大学教授江小涓日前在第九届虹桥国际经济论坛·虹桥国际开放枢纽建设分论坛暨2026虹桥HUB大会上称。",
-            "content": "中新社上海11月7日电 (记者 郑莹莹)“AI时代是原生全球化的新时代。”中国社会科学院大学教授江小涓日前在第九届虹桥国际经济论坛·虹桥国际开放枢纽建设分论坛暨2026虹桥HUB大会上称。\n\n【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a6c26a67aa3fe62d3a74aeff0",
+            "title": "【国内要闻】12分10板 杨瀚森拿下NBA生涯首个两双",
+            "originalTitle": "12分10板 杨瀚森拿下NBA生涯首个两双",
+            "summary": "中新网·国内要闻实时快讯：12分10板 杨瀚森拿下NBA生涯首个两双。中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "content": "中新网·国内要闻实时快讯：12分10板 杨瀚森拿下NBA生涯首个两双。中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "中新社上海11月7日电 (记者 郑莹莹)“AI时代是原生全球化的新时代。”中国社会科学院大学教授江小涓日前在第九届虹桥国际经济论坛·虹桥国际开放枢纽建设分论坛暨2026虹桥HUB大会上称。",
-              "【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "中新网·国内财经"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a536597d24e5be8ccb147f2a3",
-              "original": "https://www.chinanews.com.cn/cj/2026/11-07/10728123.shtml"
-            },
-            "publishedAt": "2026-11-07T13:21:24.000Z",
-            "discoveredAt": "2026-11-07T13:44:28.367Z",
-            "category": "domestic",
-            "score": 98,
-            "selected": true,
-            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a536597d24e5be8ccb147f2a3"
-            }
-          },
-          {
-            "id": "a0cff7869ffae1d4b8fae7edb",
-            "title": "【国内要闻】第二十三届北京论坛开幕",
-            "originalTitle": "第二十三届北京论坛开幕",
-            "summary": "中新网北京11月8日电 (记者 周昕)11月6日，第二十三届北京论坛在北京开幕。本届论坛以“科技变革与多元文明”为主题，来自29个国家和地区的近400位嘉宾学者参加论坛，共话科技变革时代多元文明的交流互鉴之道。",
-            "content": "中新网北京11月8日电 (记者 周昕)11月6日，第二十三届北京论坛在北京开幕。本届论坛以“科技变革与多元文明”为主题，来自29个国家和地区的近400位嘉宾学者参加论坛，共话科技变革时代多元文明的交流互鉴之道。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "中新网北京11月8日电 (记者 周昕)11月6日，第二十三届北京论坛在北京开幕。本届论坛以“科技变革与多元文明”为主题，来自29个国家和地区的近400位嘉宾学者参加论坛，共话科技变革时代多元文明的交流互鉴之道。",
+              "中新网·国内要闻实时快讯：12分10板 杨瀚森拿下NBA生涯首个两双。中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
               "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -154,28 +125,28 @@
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a0cff7869ffae1d4b8fae7edb",
-              "original": "https://www.chinanews.com.cn/gn/2026/11-08/10728220.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a6c26a67aa3fe62d3a74aeff0",
+              "original": "http://www.chinanews.com.cn/tp/hd2011/2026/11-08/1210208.shtml"
             },
-            "publishedAt": "2026-11-08T01:03:45.000Z",
-            "discoveredAt": "2026-11-08T01:17:25.024Z",
+            "publishedAt": "2026-11-08T07:32:25.000Z",
+            "discoveredAt": "2026-11-08T07:48:22.469Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a0cff7869ffae1d4b8fae7edb"
+              "url": "https://zenglian-news.onrender.com/items/a6c26a67aa3fe62d3a74aeff0"
             }
           },
           {
-            "id": "ae6a78caf36b247f331e0d008",
-            "title": "【国内要闻】寒潮继续影响中东部地区 局地降温可达14℃以上",
-            "originalTitle": "寒潮继续影响中东部地区 局地降温可达14℃以上",
-            "summary": "中新网11月8日电 据中央气象台网站消息，昨日，华北北部及辽宁等地出现强降雪，内蒙古中部、河北北部、北京北部、辽宁西南部等地部分地区出现大雪或暴雪、局地大暴雪；江南北部及云南等地出现大雨或暴雨，局地大暴雨；受冷空气影响，西北地区出现大风降温天气。寒潮继续影响我国，预计，8日至10日，中东部大部地区有较强降温和雨雪天气，部分地区降温10℃以上，长江以北地区及东部、南部海域有大风天气，关注雨雪、大风降温对人体健康、交通出行、能源供应、城乡防...",
-            "content": "中新网11月8日电 据中央气象台网站消息，昨日，华北北部及辽宁等地出现强降雪，内蒙古中部、河北北部、北京北部、辽宁西南部等地部分地区出现大雪或暴雪、局地大暴雪；江南北部及云南等地出现大雨或暴雨，局地大暴雨；受冷空气影响，西北地区出现大风降温天气。寒潮继续影响我国，预计，8日至10日，中东部大部地区有较强降温和雨雪天气，部分地区降温10℃以上，长江以北地区及东部、南部海域有大风天气，关注雨雪、大风降温对人体健康、交通出行、能源供应、城乡防...\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a0aa3ec905d450d2414f040df",
+            "title": "【国内要闻】口袋绿地、便民工坊 群众家门口有了“幸福圈”",
+            "originalTitle": "口袋绿地、便民工坊 群众家门口有了“幸福圈”",
+            "summary": "眼下，全国各地都在推进一刻钟便民生活圈建设，对准居民家门口的“小事、实事、急事”精准发力。湖北荆州的洪垸社区七成以上居民是老年人，社区紧扣银发群体的日常刚需，把医养、助餐、邻里互助资源全部整合起来，为老人们提供暖心的适老服务。",
+            "content": "眼下，全国各地都在推进一刻钟便民生活圈建设，对准居民家门口的“小事、实事、急事”精准发力。湖北荆州的洪垸社区七成以上居民是老年人，社区紧扣银发群体的日常刚需，把医养、助餐、邻里互助资源全部整合起来，为老人们提供暖心的适老服务。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "中新网11月8日电 据中央气象台网站消息，昨日，华北北部及辽宁等地出现强降雪，内蒙古中部、河北北部、北京北部、辽宁西南部等地部分地区出现大雪或暴雪、局地大暴雪；江南北部及云南等地出现大雨或暴雨，局地大暴雨；受冷空气影响，西北地区出现大风降温天气。寒潮继续影响我国，预计，8日至10日，中东部大部地区有较强降温和雨雪天气，部分地区降温10℃以上，长江以北地区及东部、南部海域有大风天气，关注雨雪、大风降温对人体健康、交通出行、能源供应、城乡防...",
+              "眼下，全国各地都在推进一刻钟便民生活圈建设，对准居民家门口的“小事、实事、急事”精准发力。湖北荆州的洪垸社区七成以上居民是老年人，社区紧扣银发群体的日常刚需，把医养、助餐、邻里互助资源全部整合起来，为老人们提供暖心的适老服务。",
               "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -183,18 +154,47 @@
               "name": "中新网·国内要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae6a78caf36b247f331e0d008",
-              "original": "https://www.chinanews.com.cn/sh/2026/11-08/10728234.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/a0aa3ec905d450d2414f040df",
+              "original": "https://www.chinanews.com.cn/sh/2026/11-08/10728357.shtml"
             },
-            "publishedAt": "2026-11-08T00:59:57.000Z",
-            "discoveredAt": "2026-11-08T01:17:25.260Z",
+            "publishedAt": "2026-11-08T07:27:40.000Z",
+            "discoveredAt": "2026-11-08T07:48:22.488Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
             "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae6a78caf36b247f331e0d008"
+              "url": "https://zenglian-news.onrender.com/items/a0aa3ec905d450d2414f040df"
+            }
+          },
+          {
+            "id": "ad38b758c5bdbe7d0616504db",
+            "title": "【国内要闻】国际锐评丨进博之约让世界共享开放红利",
+            "originalTitle": "国际锐评丨进博之约让世界共享开放红利",
+            "summary": "“作为连续九年参加进博会的‘全勤生’，我们期待与更多伙伴深化合作，共享时代机遇”“希望与中国市场共同成长”“长期扎根”“加大投入”……正在举行的第九届中国国际进口博览会上，《国际锐评》评论员对话多位外企高管，发现“中国机遇2.0”成为他们口中的关键词；“十五五”开局之年，跨国企业普遍渴望抓住中国大市场扩容提质的重要机遇。",
+            "content": "“作为连续九年参加进博会的‘全勤生’，我们期待与更多伙伴深化合作，共享时代机遇”“希望与中国市场共同成长”“长期扎根”“加大投入”……正在举行的第九届中国国际进口博览会上，《国际锐评》评论员对话多位外企高管，发现“中国机遇2.0”成为他们口中的关键词；“十五五”开局之年，跨国企业普遍渴望抓住中国大市场扩容提质的重要机遇。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "“作为连续九年参加进博会的‘全勤生’，我们期待与更多伙伴深化合作，共享时代机遇”“希望与中国市场共同成长”“长期扎根”“加大投入”……正在举行的第九届中国国际进口博览会上，《国际锐评》评论员对话多位外企高管，发现“中国机遇2.0”成为他们口中的关键词；“十五五”开局之年，跨国企业普遍渴望抓住中国大市场扩容提质的重要机遇。",
+              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ad38b758c5bdbe7d0616504db",
+              "original": "https://www.chinanews.com.cn/gn/2026/11-08/10728355.shtml"
+            },
+            "publishedAt": "2026-11-08T07:18:41.000Z",
+            "discoveredAt": "2026-11-08T07:48:22.526Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ad38b758c5bdbe7d0616504db"
             }
           }
         ]
@@ -204,13 +204,42 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
-            "id": "a56186e827335e269bc6cd42b",
-            "title": "【出海实战】我的 SaaS 几乎是 100 美元，因为我决定帮助其他 SaaS 创始人。",
-            "originalTitle": "My SaaS is almost at $100 because I decided to help other SaaS founders.",
-            "summary": "当我开始构建 RotateAd 时，我想解决一个与小型网站和独立 SaaS 产品难以引起关注相关的问题。如今，RotateAd 的销售额已达到 92.53 美元。差不多100美元！ 🎉 更好的是，...（来源：X/Reddit·出海SaaS搞钱）",
-            "content": "当我开始构建 RotateAd 时，我想解决一个与小型网站和独立 SaaS 产品难以引起关注相关的问题。如今，RotateAd 的销售额已达到 92.53 美元。差不多100美元！ 🎉 更好的是，...（来源：X/Reddit·出海SaaS搞钱）\n\n【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "af50c440cc956fe185f399c30",
+            "title": "通用大模型逼近，谁来为世界模型买单？",
+            "originalTitle": "通用大模型逼近，谁来为世界模型买单？",
+            "summary": "本文来自微信公众号： 经济观察报 ，作者：郑晨烨 GPT-6 Astra等高性能通用大模型的出现，在一定程度上让人怀疑，专门让AI理解物理世界的世界模型（World Model）路线是否已被证伪。或者说，既然通用大模型也能控制机器人，随着模型能力的继续加强，专门做世界模型似乎就没有必要了。 “我们没有专门为这些动作编写程序，它看到旁边有洗笔的颜料盘，就自己过去把笔洗干净，再继续画画。”10月22日，宇树科技（688836.SH）创始人、...",
+            "content": "本文来自微信公众号： 经济观察报 ，作者：郑晨烨 GPT-6 Astra等高性能通用大模型的出现，在一定程度上让人怀疑，专门让AI理解物理世界的世界模型（World Model）路线是否已被证伪。或者说，既然通用大模型也能控制机器人，随着模型能力的继续加强，专门做世界模型似乎就没有必要了。 “我们没有专门为这些动作编写程序，它看到旁边有洗笔的颜料盘，就自己过去把笔洗干净，再继续画画。”10月22日，宇树科技（688836.SH）创始人、...\n\n【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "当我开始构建 RotateAd 时，我想解决一个与小型网站和独立 SaaS 产品难以引起关注相关的问题。如今，RotateAd 的销售额已达到 92.53 美元。差不多100美元！ 🎉 更好的是，...（来源：X/Reddit·出海SaaS搞钱）",
+              "本文来自微信公众号： 经济观察报 ，作者：郑晨烨 GPT-6 Astra等高性能通用大模型的出现，在一定程度上让人怀疑，专门让AI理解物理世界的世界模型（World Model）路线是否已被证伪。或者说，既然通用大模型也能控制机器人，随着模型能力的继续加强，专门做世界模型似乎就没有必要了。 “我们没有专门为这些动作编写程序，它看到旁边有洗笔的颜料盘，就自己过去把笔洗干净，再继续画画。”10月22日，宇树科技（688836.SH）创始人、...",
+              "【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/af50c440cc956fe185f399c30",
+              "original": "https://www.huxiu.com/article/4903907.html?f=rss"
+            },
+            "publishedAt": "2026-11-08T07:17:38.000Z",
+            "discoveredAt": "2026-11-08T07:48:38.800Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/af50c440cc956fe185f399c30"
+            }
+          },
+          {
+            "id": "ad87ae82fdecba9eb0485aa4a",
+            "title": "【出海实战】mxRaven 的 perch：开源邮件服务器 + 用于代理的 POSIX CLI",
+            "originalTitle": "perch by mxRaven: open source mail server + POSIX CLI for agents",
+            "summary": "perch 是一个完整的 IMAP + SMTP 服务器，配有专为代理设计的符合人体工程学的 CLI。它使用 SQLite 作为数据库，并且可以选择将原始电子邮件内容卸载到 S3，而不是将其存储在嵌入式数据库中...（来源：X/Reddit·出海SaaS搞钱）",
+            "content": "perch 是一个完整的 IMAP + SMTP 服务器，配有专为代理设计的符合人体工程学的 CLI。它使用 SQLite 作为数据库，并且可以选择将原始电子邮件内容卸载到 S3，而不是将其存储在嵌入式数据库中...（来源：X/Reddit·出海SaaS搞钱）\n\n【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "perch 是一个完整的 IMAP + SMTP 服务器，配有专为代理设计的符合人体工程学的 CLI。它使用 SQLite 作为数据库，并且可以选择将原始电子邮件内容卸载到 S3，而不是将其存储在嵌入式数据库中...（来源：X/Reddit·出海SaaS搞钱）",
               "【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -218,57 +247,28 @@
               "name": "X/Reddit·出海SaaS搞钱"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a56186e827335e269bc6cd42b",
-              "original": "https://www.reddit.com/r/SaaS/comments/1xqggv9/my_saas_is_almost_at_100_because_i_decided_to/"
+              "aihot": "https://zenglian-news.onrender.com/items/ad87ae82fdecba9eb0485aa4a",
+              "original": "https://www.reddit.com/r/SaaS/comments/1xqpj7p/perch_by_mxraven_open_source_mail_server_posix/"
             },
-            "publishedAt": "2026-11-07T20:45:32.000Z",
-            "discoveredAt": "2026-11-08T01:17:33.626Z",
+            "publishedAt": "2026-11-08T04:15:42.000Z",
+            "discoveredAt": "2026-11-08T07:48:35.164Z",
             "category": "money",
             "score": 99,
             "selected": true,
             "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a56186e827335e269bc6cd42b"
+              "url": "https://zenglian-news.onrender.com/items/ad87ae82fdecba9eb0485aa4a"
             }
           },
           {
-            "id": "af13c8befe5d63b859b601536",
-            "title": "【独立变现】Show HN：我们将31B视频+音频扩散模型压缩为14B，6步，INT8",
-            "originalTitle": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
-            "summary": "Show HN·独立变现榜实时快讯：Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
-            "content": "Show HN·独立变现榜实时快讯：Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）\n\n【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a44cdf18f811e79c539b58d73",
+            "title": "【出海实战】3 周内注册人数从 0 增加到 25。现在怎么办？",
+            "originalTitle": "From 0 to 25 signups in 3 weeks. Now what?",
+            "summary": "过去几周我一直在构建 B2B SaaS 产品，我想分享事情的进展并从其他创始人那里获得一些反馈。到目前为止，我已经在 3 周内获得了大约 25 名注册用户。一个...（来源：X/Reddit·出海SaaS搞钱）",
+            "content": "过去几周我一直在构建 B2B SaaS 产品，我想分享事情的进展并从其他创始人那里获得一些反馈。到目前为止，我已经在 3 周内获得了大约 25 名注册用户。一个...（来源：X/Reddit·出海SaaS搞钱）\n\n【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "Show HN·独立变现榜实时快讯：Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
-              "【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "Show HN·独立变现榜"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af13c8befe5d63b859b601536",
-              "original": "https://github.com/Video-Rebirth/hyperflow-h3-flash"
-            },
-            "publishedAt": "2026-11-07T15:16:01.000Z",
-            "discoveredAt": "2026-11-07T21:59:11.290Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af13c8befe5d63b859b601536"
-            }
-          },
-          {
-            "id": "aef853d35698a0e4d9e6cd722",
-            "title": "【出海实战】停止构建玩具 SaaS 应用程序。",
-            "originalTitle": "Stop building toy SaaS apps.",
-            "summary": "现在是独立黑客思考更大的时候了。借助人工智能，您现在有能力构建可以与大型企业竞争的产品。您不需要数百万用户。即使 1,000 个付费客户也可以让您...（来源：X/Reddit·出海SaaS搞钱）",
-            "content": "现在是独立黑客思考更大的时候了。借助人工智能，您现在有能力构建可以与大型企业竞争的产品。您不需要数百万用户。即使 1,000 个付费客户也可以让您...（来源：X/Reddit·出海SaaS搞钱）\n\n【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "现在是独立黑客思考更大的时候了。借助人工智能，您现在有能力构建可以与大型企业竞争的产品。您不需要数百万用户。即使 1,000 个付费客户也可以让您...（来源：X/Reddit·出海SaaS搞钱）",
+              "过去几周我一直在构建 B2B SaaS 产品，我想分享事情的进展并从其他创始人那里获得一些反馈。到目前为止，我已经在 3 周内获得了大约 25 名注册用户。一个...（来源：X/Reddit·出海SaaS搞钱）",
               "【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -276,18 +276,18 @@
               "name": "X/Reddit·出海SaaS搞钱"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aef853d35698a0e4d9e6cd722",
-              "original": "https://www.reddit.com/r/SaaS/comments/1xq2fsk/stop_building_toy_saas_apps/"
+              "aihot": "https://zenglian-news.onrender.com/items/a44cdf18f811e79c539b58d73",
+              "original": "https://www.reddit.com/r/SaaS/comments/1xqn85y/from_0_to_25_signups_in_3_weeks_now_what/"
             },
-            "publishedAt": "2026-11-07T09:32:38.000Z",
-            "discoveredAt": "2026-11-07T13:27:47.764Z",
+            "publishedAt": "2026-11-08T02:09:23.000Z",
+            "discoveredAt": "2026-11-08T07:48:36.629Z",
             "category": "money",
             "score": 99,
             "selected": true,
             "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aef853d35698a0e4d9e6cd722"
+              "url": "https://zenglian-news.onrender.com/items/a44cdf18f811e79c539b58d73"
             }
           }
         ]
@@ -390,13 +390,13 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "a76ddd4ff75ee8eed748af71f",
-            "title": "【全球票房】克拉科夫大规模枪击事件默哀一分钟；达伦·阿罗诺夫斯基 (Darren Aronofsky) 和卢卡·瓜达尼诺 (Luca Guadagnino) 推出“人工”",
-            "originalTitle": "Camerimage Opens With Minute Of Silence For Kraków Mass Shooting; Darren Aronofsky Honored & Luca Guadagnino Introduces ‘Artificial’",
-            "summary": "今年的 Camerimage 电影节开幕式气氛阴沉，组织者在波兰托伦拉开了第 34 届 Camerimage 电影节的序幕，为克拉科夫大规模枪击事件的受害者默哀一分钟。（来源：Deadline·全球票房与新片）",
-            "content": "今年的 Camerimage 电影节开幕式气氛阴沉，组织者在波兰托伦拉开了第 34 届 Camerimage 电影节的序幕，为克拉科夫大规模枪击事件的受害者默哀一分钟。（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a00f074658d2bad13d2ba106b",
+            "title": "【全球票房】TAICCA 合资基金支持的项目包括《我们的蓝调》、《午夜晚餐》和《C'Est La Vie》",
+            "originalTitle": "‘Our Blues’, ‘Midnight Diner’ & ‘C’Est La Vie’ Among Projects Backed By TAICCA Joint Venture Funds",
+            "summary": "台湾创意内容机构（TAICCA）与当地公司联合成立的四家内容基金今天在 TCCF 展示会上展示了他们在过去一年中投资的项目。阵容从f...（来源：Deadline·全球票房与新片）",
+            "content": "台湾创意内容机构（TAICCA）与当地公司联合成立的四家内容基金今天在 TCCF 展示会上展示了他们在过去一年中投资的项目。阵容从f...（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "今年的 Camerimage 电影节开幕式气氛阴沉，组织者在波兰托伦拉开了第 34 届 Camerimage 电影节的序幕，为克拉科夫大规模枪击事件的受害者默哀一分钟。（来源：Deadline·全球票房与新片）",
+              "台湾创意内容机构（TAICCA）与当地公司联合成立的四家内容基金今天在 TCCF 展示会上展示了他们在过去一年中投资的项目。阵容从f...（来源：Deadline·全球票房与新片）",
               "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -404,28 +404,28 @@
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a76ddd4ff75ee8eed748af71f",
-              "original": "https://deadline.com/2026/11/camerimage-darren-aronofsky-luca-guadagnino-artificial-1237216360/"
+              "aihot": "https://zenglian-news.onrender.com/items/a00f074658d2bad13d2ba106b",
+              "original": "https://deadline.com/2026/11/our-blues-midnight-diner-taicca-joint-venture-funds-1237216640/"
             },
-            "publishedAt": "2026-11-08T00:37:12.000Z",
-            "discoveredAt": "2026-11-08T01:17:59.783Z",
+            "publishedAt": "2026-11-08T06:59:29.000Z",
+            "discoveredAt": "2026-11-08T07:48:57.229Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a76ddd4ff75ee8eed748af71f"
+              "url": "https://zenglian-news.onrender.com/items/a00f074658d2bad13d2ba106b"
             }
           },
           {
-            "id": "a21d726266040316c6b102b6b",
-            "title": "【好莱坞一手】韩国先锋在台湾创意内容节上警告称，人工智能可能会使电影制作成本比 35 毫米时代更高",
-            "originalTitle": "AI Could Make Filmmaking Costlier Than the 35mm Era, Korean Pioneers Warn at Taiwan Creative Content Fest",
-            "summary": "一位韩国人工智能制作先驱告诉台湾创意网，人工智能已经在削减广告成本，但失控的代币费用和零碎的修改可能会让故事片制片人支付比 35 毫米电影时代更多的费用。（来源：Variety·好莱坞影视）",
-            "content": "一位韩国人工智能制作先驱告诉台湾创意网，人工智能已经在削减广告成本，但失控的代币费用和零碎的修改可能会让故事片制片人支付比 35 毫米电影时代更多的费用。（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a3ab19cad83adbbd679475477",
+            "title": "【好莱坞一手】《周六夜现场》周末更新残酷地嘲笑埃隆·马斯克“史诗般的”中期选举失败",
+            "originalTitle": "‘SNL’ Weekend Update Brutally Roasts Elon Musk Over ‘Epic’ Midterms Defeat",
+            "summary": "精神错乱的“埃隆·马斯克”本周出现在《周六夜现场》周末更新台上，讨论周二中期选举的结果——而由《周六夜现场》特色演员杰里米·卡尔哈恩饰演的马斯克不太清楚……（来源：Variety·好莱坞影视）",
+            "content": "精神错乱的“埃隆·马斯克”本周出现在《周六夜现场》周末更新台上，讨论周二中期选举的结果——而由《周六夜现场》特色演员杰里米·卡尔哈恩饰演的马斯克不太清楚……（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "一位韩国人工智能制作先驱告诉台湾创意网，人工智能已经在削减广告成本，但失控的代币费用和零碎的修改可能会让故事片制片人支付比 35 毫米电影时代更多的费用。（来源：Variety·好莱坞影视）",
+              "精神错乱的“埃隆·马斯克”本周出现在《周六夜现场》周末更新台上，讨论周二中期选举的结果——而由《周六夜现场》特色演员杰里米·卡尔哈恩饰演的马斯克不太清楚……（来源：Variety·好莱坞影视）",
               "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -433,28 +433,28 @@
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a21d726266040316c6b102b6b",
-              "original": "https://variety.com/2026/film/markets-festivals/ai-films-costlier-35mm-era-korean-pioneers-warn-1236942217/"
+              "aihot": "https://zenglian-news.onrender.com/items/a3ab19cad83adbbd679475477",
+              "original": "https://variety.com/2026/tv/news/snl-weekend-update-elon-musk-midterms-election-1236942283/"
             },
-            "publishedAt": "2026-11-08T00:27:50.000Z",
-            "discoveredAt": "2026-11-08T01:17:53.769Z",
+            "publishedAt": "2026-11-08T05:57:06.000Z",
+            "discoveredAt": "2026-11-08T07:48:51.266Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a21d726266040316c6b102b6b"
+              "url": "https://zenglian-news.onrender.com/items/a3ab19cad83adbbd679475477"
             }
           },
           {
-            "id": "a408aaab4ef6799cd7fd19f0b",
-            "title": "【全球票房】艾美·罗森 (Emmy Rossum) 谈 RAINN 大使身份，在《愤怒》角色之后“继续讨论”有关性暴力的话题",
-            "originalTitle": "Emmy Rossum On RAINN Ambassadorship, “Continuing The Conversation” About Sexual Violence After ‘Furious’ Role",
-            "summary": "当艾美·罗森准备回归《速度与激情》第二季时，她一直牢记着该剧的主题。这位金球奖提名者最近作为大使加入了 RAINN 的反性暴力组织，他解释说……（来源：Deadline·全球票房与新片）",
-            "content": "当艾美·罗森准备回归《速度与激情》第二季时，她一直牢记着该剧的主题。这位金球奖提名者最近作为大使加入了 RAINN 的反性暴力组织，他解释说……（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "ac5c7fa3455667ba972bfe2db",
+            "title": "【全球票房】德鲁斯基在《SNL》首秀期间为伊丽莎白·霍姆斯·白脸服务“德鲁可以看到一切”素描",
+            "originalTitle": "Druski Serves Elizabeth Holmes Whiteface In ‘Dru Can See Everything’ Sketch During ‘SNL’ Debut",
+            "summary": "在开玩笑说他无法向《周六夜现场》承诺他不会“不做白脸”后不久，德鲁斯基就借用了伊丽莎白·霍姆斯的说法。在周六的 NBC 喜剧小品节目中，内容创作者很快发布了...（来源：Deadline·全球票房与新片）",
+            "content": "在开玩笑说他无法向《周六夜现场》承诺他不会“不做白脸”后不久，德鲁斯基就借用了伊丽莎白·霍姆斯的说法。在周六的 NBC 喜剧小品节目中，内容创作者很快发布了...（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "当艾美·罗森准备回归《速度与激情》第二季时，她一直牢记着该剧的主题。这位金球奖提名者最近作为大使加入了 RAINN 的反性暴力组织，他解释说……（来源：Deadline·全球票房与新片）",
+              "在开玩笑说他无法向《周六夜现场》承诺他不会“不做白脸”后不久，德鲁斯基就借用了伊丽莎白·霍姆斯的说法。在周六的 NBC 喜剧小品节目中，内容创作者很快发布了...（来源：Deadline·全球票房与新片）",
               "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -462,18 +462,18 @@
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a408aaab4ef6799cd7fd19f0b",
-              "original": "https://deadline.com/2026/11/emmy-rossum-rainn-ambassadorship-sexual-violence-furious-role-1237216377/"
+              "aihot": "https://zenglian-news.onrender.com/items/ac5c7fa3455667ba972bfe2db",
+              "original": "https://deadline.com/2026/11/druski-elizabeth-holmes-whiteface-dru-can-see-everything-snl-1237216571/"
             },
-            "publishedAt": "2026-11-08T00:22:09.000Z",
-            "discoveredAt": "2026-11-08T01:18:01.041Z",
+            "publishedAt": "2026-11-08T05:09:43.000Z",
+            "discoveredAt": "2026-11-08T07:49:00.191Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a408aaab4ef6799cd7fd19f0b"
+              "url": "https://zenglian-news.onrender.com/items/ac5c7fa3455667ba972bfe2db"
             }
           }
         ]
@@ -482,6 +482,35 @@
         "category": "business",
         "label": "🏆 体育实时Top20",
         "items": [
+          {
+            "id": "aafffa168ee728c7a930c9606",
+            "title": "【NBA一手】史蒂芬·库里 (Stephen Curry) 以 69/50/100 的命中率以 41/6/6 的比分战胜魔术队。勇士豪取七连胜！",
+            "originalTitle": "Stephen Curry on the clutch win vs. Magic 41/6/6 on 69/50/100 shooting. Warriors win 7th straight!",
+            "summary": "斯蒂芬·库里在 13/19 中得到 41 分，其中 10/10 的 FT 得分。斯蒂芬 38 岁的赛季应该参加 MVP 讨论吗？   由 /u/curry4real 提交 [链接] [评论]（来源：NBA·北美篮球实时热榜）",
+            "content": "斯蒂芬·库里在 13/19 中得到 41 分，其中 10/10 的 FT 得分。斯蒂芬 38 岁的赛季应该参加 MVP 讨论吗？   由 /u/curry4real 提交 [链接] [评论]（来源：NBA·北美篮球实时热榜）\n\n【深度核心看点】全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "斯蒂芬·库里在 13/19 中得到 41 分，其中 10/10 的 FT 得分。斯蒂芬 38 岁的赛季应该参加 MVP 讨论吗？   由 /u/curry4real 提交 [链接] [评论]（来源：NBA·北美篮球实时热榜）",
+              "【深度核心看点】全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "NBA·北美篮球实时热榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aafffa168ee728c7a930c9606",
+              "original": "https://www.reddit.com/r/nba/comments/1xqpof2/stephen_curry_on_the_clutch_win_vs_magic_4166_on/"
+            },
+            "publishedAt": "2026-11-08T04:23:53.000Z",
+            "discoveredAt": "2026-11-08T07:49:10.916Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aafffa168ee728c7a930c9606"
+            }
+          },
           {
             "id": "a31d443709f426f0b259c997a",
             "title": "【NBA一手】从 60 到 1 顺位选秀中的最佳 NBA 球员",
@@ -539,35 +568,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a440959558d5ef4aa5216a79c"
             }
-          },
-          {
-            "id": "a32b354d222b2786b8f87ab0d",
-            "title": "【BBC足坛】德拉普梅开二度，森林队大胜曼城",
-            "originalTitle": "Delap double inspires Forest to stunning win over Man City",
-            "summary": "利亚姆·德拉普 (Liam Delap) 梅开二度，诺丁汉森林 (Nottingham Forest) 以 3-1 击败曼城 (Manchester City)，取得本赛季在城市球场的首场英超胜利。（来源：BBC Sport·欧洲足坛）",
-            "content": "利亚姆·德拉普 (Liam Delap) 梅开二度，诺丁汉森林 (Nottingham Forest) 以 3-1 击败曼城 (Manchester City)，取得本赛季在城市球场的首场英超胜利。（来源：BBC Sport·欧洲足坛）\n\n【深度核心看点】BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "利亚姆·德拉普 (Liam Delap) 梅开二度，诺丁汉森林 (Nottingham Forest) 以 3-1 击败曼城 (Manchester City)，取得本赛季在城市球场的首场英超胜利。（来源：BBC Sport·欧洲足坛）",
-              "【深度核心看点】BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "BBC Sport·欧洲足坛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a32b354d222b2786b8f87ab0d",
-              "original": "https://www.bbc.co.uk/sport/football/videos/crp3gewxj77eo?at_medium=RSS&at_campaign=rss"
-            },
-            "publishedAt": "2026-11-07T20:02:25.000Z",
-            "discoveredAt": "2026-11-07T21:59:38.784Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "BBC 足球频道，实时播报英超、欧冠、西甲、五大联赛最新比分、伤病与转会内幕。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a32b354d222b2786b8f87ab0d"
-            }
           }
         ]
       }
@@ -578,7 +578,7 @@
     "key": "2026-W41",
     "title": "曾练全球一手简报 · 本周核心周报 (2026年第41周)",
     "subtitle": "7天全球政经、国内大事、商业搞钱、AI突破与文体焦点深度复盘",
-    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：微软研究院人工智能前沿小组的终结；Show HN：Coldframe，一个伪装成超市冰箱控制器的蜜罐；我的 SaaS 几乎是 100 美元，因为我决定帮助其他 SaaS 创始人。。",
+    "overview": "本期本周六大板块核心周报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 30 项焦点事件。重点关注：微软研究院人工智能前沿小组的终结；通用大模型逼近，谁来为世界模型买单？；mxRaven 的 perch：开源邮件服务器 + 用于代理的 POSIX CLI。",
     "metrics": {
       "totalEvents": 30,
       "sourcesCount": 30,
@@ -619,32 +619,61 @@
             }
           },
           {
-            "id": "aec28fff8ce9130f2f45450c4",
-            "title": "【独立变现】Show HN：Coldframe，一个伪装成超市冰箱控制器的蜜罐",
-            "originalTitle": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
-            "summary": "我构建了 Coldframe，一个伪装成超市制冷控制器的蜜罐。受到过去几周工业冰箱安装事件的启发，我想看看人们会尝试什么来反对……（来源：Show HN·独立变现榜）",
-            "content": "我构建了 Coldframe，一个伪装成超市制冷控制器的蜜罐。受到过去几周工业冰箱安装事件的启发，我想看看人们会尝试什么来反对……（来源：Show HN·独立变现榜）\n\n【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a084ffedf8e9238bdd6aa0b05",
+            "title": "【全球热榜】GitHub 公共预览版中的新拉取请求概述页面",
+            "originalTitle": "GitHub New pull request overview page in public preview",
+            "summary": "X/HN·全球热榜Top实时快讯：GitHub New pull request overview page in public preview。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "content": "X/HN·全球热榜Top实时快讯：GitHub New pull request overview page in public preview。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "我构建了 Coldframe，一个伪装成超市制冷控制器的蜜罐。受到过去几周工业冰箱安装事件的启发，我想看看人们会尝试什么来反对……（来源：Show HN·独立变现榜）",
-              "【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 ",
+              "X/HN·全球热榜Top实时快讯：GitHub New pull request overview page in public preview。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+              "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "Show HN·独立变现榜"
+              "name": "X/HN·全球热榜Top"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aec28fff8ce9130f2f45450c4",
-              "original": "https://github.com/hedgerow-dev/coldframe"
+              "aihot": "https://zenglian-news.onrender.com/items/a084ffedf8e9238bdd6aa0b05",
+              "original": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/"
             },
-            "publishedAt": "2026-11-07T17:27:30.000Z",
-            "discoveredAt": "2026-11-07T18:14:42.193Z",
+            "publishedAt": "2026-11-07T23:09:40.000Z",
+            "discoveredAt": "2026-11-08T07:48:21.305Z",
             "category": "global",
-            "score": 99,
+            "score": 97,
             "selected": true,
-            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aec28fff8ce9130f2f45450c4"
+              "url": "https://zenglian-news.onrender.com/items/a084ffedf8e9238bdd6aa0b05"
+            }
+          },
+          {
+            "id": "ae2d6cfd6e6d5625f4e90a4a9",
+            "title": "【全球热榜】用四个 2 生成任意整数 (2025)",
+            "originalTitle": "Making any integer with four 2s (2025)",
+            "summary": "X/HN·全球热榜Top实时快讯：Making any integer with four 2s (2025)。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "content": "X/HN·全球热榜Top实时快讯：Making any integer with four 2s (2025)。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "X/HN·全球热榜Top实时快讯：Making any integer with four 2s (2025)。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+              "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ae2d6cfd6e6d5625f4e90a4a9",
+              "original": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/"
+            },
+            "publishedAt": "2026-11-07T22:38:58.000Z",
+            "discoveredAt": "2026-11-08T07:48:21.749Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ae2d6cfd6e6d5625f4e90a4a9"
             }
           },
           {
@@ -704,35 +733,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/ad885e335577d1ca603586ef8"
             }
-          },
-          {
-            "id": "abb12b3ea48d99a085c5a8417",
-            "title": "【全球热榜】8 美元的 Linux 计算机 (2022)",
-            "originalTitle": "The $8 Linux Computer (2022)",
-            "summary": "X/HN·全球热榜Top实时快讯：The $8 Linux Computer (2022)。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "content": "X/HN·全球热榜Top实时快讯：The $8 Linux Computer (2022)。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "X/HN·全球热榜Top实时快讯：The $8 Linux Computer (2022)。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-              "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "X/HN·全球热榜Top"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/abb12b3ea48d99a085c5a8417",
-              "original": "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html"
-            },
-            "publishedAt": "2026-11-07T14:00:20.000Z",
-            "discoveredAt": "2026-11-07T18:14:27.274Z",
-            "category": "global",
-            "score": 97,
-            "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/abb12b3ea48d99a085c5a8417"
-            }
           }
         ]
       },
@@ -741,13 +741,100 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "a536597d24e5be8ccb147f2a3",
-            "title": "【国内财经】（第九届进博会）业界共话：AI带来全球化新机遇",
-            "originalTitle": "（第九届进博会）业界共话：AI带来全球化新机遇",
-            "summary": "中新社上海11月7日电 (记者 郑莹莹)“AI时代是原生全球化的新时代。”中国社会科学院大学教授江小涓日前在第九届虹桥国际经济论坛·虹桥国际开放枢纽建设分论坛暨2026虹桥HUB大会上称。",
-            "content": "中新社上海11月7日电 (记者 郑莹莹)“AI时代是原生全球化的新时代。”中国社会科学院大学教授江小涓日前在第九届虹桥国际经济论坛·虹桥国际开放枢纽建设分论坛暨2026虹桥HUB大会上称。\n\n【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a6c26a67aa3fe62d3a74aeff0",
+            "title": "【国内要闻】12分10板 杨瀚森拿下NBA生涯首个两双",
+            "originalTitle": "12分10板 杨瀚森拿下NBA生涯首个两双",
+            "summary": "中新网·国内要闻实时快讯：12分10板 杨瀚森拿下NBA生涯首个两双。中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "content": "中新网·国内要闻实时快讯：12分10板 杨瀚森拿下NBA生涯首个两双。中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "中新社上海11月7日电 (记者 郑莹莹)“AI时代是原生全球化的新时代。”中国社会科学院大学教授江小涓日前在第九届虹桥国际经济论坛·虹桥国际开放枢纽建设分论坛暨2026虹桥HUB大会上称。",
+              "中新网·国内要闻实时快讯：12分10板 杨瀚森拿下NBA生涯首个两双。中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a6c26a67aa3fe62d3a74aeff0",
+              "original": "http://www.chinanews.com.cn/tp/hd2011/2026/11-08/1210208.shtml"
+            },
+            "publishedAt": "2026-11-08T07:32:25.000Z",
+            "discoveredAt": "2026-11-08T07:48:22.469Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a6c26a67aa3fe62d3a74aeff0"
+            }
+          },
+          {
+            "id": "a0aa3ec905d450d2414f040df",
+            "title": "【国内要闻】口袋绿地、便民工坊 群众家门口有了“幸福圈”",
+            "originalTitle": "口袋绿地、便民工坊 群众家门口有了“幸福圈”",
+            "summary": "眼下，全国各地都在推进一刻钟便民生活圈建设，对准居民家门口的“小事、实事、急事”精准发力。湖北荆州的洪垸社区七成以上居民是老年人，社区紧扣银发群体的日常刚需，把医养、助餐、邻里互助资源全部整合起来，为老人们提供暖心的适老服务。",
+            "content": "眼下，全国各地都在推进一刻钟便民生活圈建设，对准居民家门口的“小事、实事、急事”精准发力。湖北荆州的洪垸社区七成以上居民是老年人，社区紧扣银发群体的日常刚需，把医养、助餐、邻里互助资源全部整合起来，为老人们提供暖心的适老服务。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "眼下，全国各地都在推进一刻钟便民生活圈建设，对准居民家门口的“小事、实事、急事”精准发力。湖北荆州的洪垸社区七成以上居民是老年人，社区紧扣银发群体的日常刚需，把医养、助餐、邻里互助资源全部整合起来，为老人们提供暖心的适老服务。",
+              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0aa3ec905d450d2414f040df",
+              "original": "https://www.chinanews.com.cn/sh/2026/11-08/10728357.shtml"
+            },
+            "publishedAt": "2026-11-08T07:27:40.000Z",
+            "discoveredAt": "2026-11-08T07:48:22.488Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0aa3ec905d450d2414f040df"
+            }
+          },
+          {
+            "id": "ad38b758c5bdbe7d0616504db",
+            "title": "【国内要闻】国际锐评丨进博之约让世界共享开放红利",
+            "originalTitle": "国际锐评丨进博之约让世界共享开放红利",
+            "summary": "“作为连续九年参加进博会的‘全勤生’，我们期待与更多伙伴深化合作，共享时代机遇”“希望与中国市场共同成长”“长期扎根”“加大投入”……正在举行的第九届中国国际进口博览会上，《国际锐评》评论员对话多位外企高管，发现“中国机遇2.0”成为他们口中的关键词；“十五五”开局之年，跨国企业普遍渴望抓住中国大市场扩容提质的重要机遇。",
+            "content": "“作为连续九年参加进博会的‘全勤生’，我们期待与更多伙伴深化合作，共享时代机遇”“希望与中国市场共同成长”“长期扎根”“加大投入”……正在举行的第九届中国国际进口博览会上，《国际锐评》评论员对话多位外企高管，发现“中国机遇2.0”成为他们口中的关键词；“十五五”开局之年，跨国企业普遍渴望抓住中国大市场扩容提质的重要机遇。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "“作为连续九年参加进博会的‘全勤生’，我们期待与更多伙伴深化合作，共享时代机遇”“希望与中国市场共同成长”“长期扎根”“加大投入”……正在举行的第九届中国国际进口博览会上，《国际锐评》评论员对话多位外企高管，发现“中国机遇2.0”成为他们口中的关键词；“十五五”开局之年，跨国企业普遍渴望抓住中国大市场扩容提质的重要机遇。",
+              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ad38b758c5bdbe7d0616504db",
+              "original": "https://www.chinanews.com.cn/gn/2026/11-08/10728355.shtml"
+            },
+            "publishedAt": "2026-11-08T07:18:41.000Z",
+            "discoveredAt": "2026-11-08T07:48:22.526Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ad38b758c5bdbe7d0616504db"
+            }
+          },
+          {
+            "id": "ae77a61c7241d000c89d5be34",
+            "title": "【国内财经】2025年我国海洋工程建筑业实现增加值2110亿元 同比增长0.3%",
+            "originalTitle": "2025年我国海洋工程建筑业实现增加值2110亿元 同比增长0.3%",
+            "summary": "中新网厦门11月8日电 (记者 阮煜琳)自然资源部海洋咨询中心7日在2026厦门国际海洋周发布《中国海洋工程建筑业发展简报2026》显示，2025年我国海洋工程建筑业全年实现增加值2110亿元，按不变价计算，同比增长0.3%，行业运行总体平稳、转型持续推进。",
+            "content": "中新网厦门11月8日电 (记者 阮煜琳)自然资源部海洋咨询中心7日在2026厦门国际海洋周发布《中国海洋工程建筑业发展简报2026》显示，2025年我国海洋工程建筑业全年实现增加值2110亿元，按不变价计算，同比增长0.3%，行业运行总体平稳、转型持续推进。\n\n【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "中新网厦门11月8日电 (记者 阮煜琳)自然资源部海洋咨询中心7日在2026厦门国际海洋周发布《中国海洋工程建筑业发展简报2026》显示，2025年我国海洋工程建筑业全年实现增加值2110亿元，按不变价计算，同比增长0.3%，行业运行总体平稳、转型持续推进。",
               "【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -755,134 +842,47 @@
               "name": "中新网·国内财经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a536597d24e5be8ccb147f2a3",
-              "original": "https://www.chinanews.com.cn/cj/2026/11-07/10728123.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/ae77a61c7241d000c89d5be34",
+              "original": "https://www.chinanews.com.cn/cj/2026/11-08/10728316.shtml"
             },
-            "publishedAt": "2026-11-07T13:21:24.000Z",
-            "discoveredAt": "2026-11-07T13:44:28.367Z",
+            "publishedAt": "2026-11-08T05:48:08.000Z",
+            "discoveredAt": "2026-11-08T07:48:22.572Z",
             "category": "domestic",
-            "score": 98,
+            "score": 97,
             "selected": true,
             "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a536597d24e5be8ccb147f2a3"
+              "url": "https://zenglian-news.onrender.com/items/ae77a61c7241d000c89d5be34"
             }
           },
           {
-            "id": "a0cff7869ffae1d4b8fae7edb",
-            "title": "【国内要闻】第二十三届北京论坛开幕",
-            "originalTitle": "第二十三届北京论坛开幕",
-            "summary": "中新网北京11月8日电 (记者 周昕)11月6日，第二十三届北京论坛在北京开幕。本届论坛以“科技变革与多元文明”为主题，来自29个国家和地区的近400位嘉宾学者参加论坛，共话科技变革时代多元文明的交流互鉴之道。",
-            "content": "中新网北京11月8日电 (记者 周昕)11月6日，第二十三届北京论坛在北京开幕。本届论坛以“科技变革与多元文明”为主题，来自29个国家和地区的近400位嘉宾学者参加论坛，共话科技变革时代多元文明的交流互鉴之道。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "ad7e80a0342aa12b01132010b",
+            "title": "【国内财经】做强畜禽业“中国芯” 畜禽育种还要过几关？",
+            "originalTitle": "做强畜禽业“中国芯” 畜禽育种还要过几关？",
+            "summary": "中新网新乡11月8日电 (记者 韩章云)肉蛋奶稳定供给，离不开畜禽良种这枚畜牧业的“芯片”。11月7日，2026中原农谷种业大会畜禽种业科技创新研讨会在河南省新乡市中原农谷举办。行业专家为畜禽种质资源保护、育种技术攻关、产业成果转化把脉献策，为做强畜禽种源、端牢大众“肉盘子”探寻新路径。",
+            "content": "中新网新乡11月8日电 (记者 韩章云)肉蛋奶稳定供给，离不开畜禽良种这枚畜牧业的“芯片”。11月7日，2026中原农谷种业大会畜禽种业科技创新研讨会在河南省新乡市中原农谷举办。行业专家为畜禽种质资源保护、育种技术攻关、产业成果转化把脉献策，为做强畜禽种源、端牢大众“肉盘子”探寻新路径。\n\n【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "中新网北京11月8日电 (记者 周昕)11月6日，第二十三届北京论坛在北京开幕。本届论坛以“科技变革与多元文明”为主题，来自29个国家和地区的近400位嘉宾学者参加论坛，共话科技变革时代多元文明的交流互鉴之道。",
-              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
+              "中新网新乡11月8日电 (记者 韩章云)肉蛋奶稳定供给，离不开畜禽良种这枚畜牧业的“芯片”。11月7日，2026中原农谷种业大会畜禽种业科技创新研讨会在河南省新乡市中原农谷举办。行业专家为畜禽种质资源保护、育种技术攻关、产业成果转化把脉献策，为做强畜禽种源、端牢大众“肉盘子”探寻新路径。",
+              "【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "中新网·国内要闻"
+              "name": "中新网·国内财经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a0cff7869ffae1d4b8fae7edb",
-              "original": "https://www.chinanews.com.cn/gn/2026/11-08/10728220.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/ad7e80a0342aa12b01132010b",
+              "original": "https://www.chinanews.com.cn/cj/2026/11-08/10728331.shtml"
             },
-            "publishedAt": "2026-11-08T01:03:45.000Z",
-            "discoveredAt": "2026-11-08T01:17:25.024Z",
+            "publishedAt": "2026-11-08T05:33:55.000Z",
+            "discoveredAt": "2026-11-08T07:48:22.721Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a0cff7869ffae1d4b8fae7edb"
-            }
-          },
-          {
-            "id": "ae6a78caf36b247f331e0d008",
-            "title": "【国内要闻】寒潮继续影响中东部地区 局地降温可达14℃以上",
-            "originalTitle": "寒潮继续影响中东部地区 局地降温可达14℃以上",
-            "summary": "中新网11月8日电 据中央气象台网站消息，昨日，华北北部及辽宁等地出现强降雪，内蒙古中部、河北北部、北京北部、辽宁西南部等地部分地区出现大雪或暴雪、局地大暴雪；江南北部及云南等地出现大雨或暴雨，局地大暴雨；受冷空气影响，西北地区出现大风降温天气。寒潮继续影响我国，预计，8日至10日，中东部大部地区有较强降温和雨雪天气，部分地区降温10℃以上，长江以北地区及东部、南部海域有大风天气，关注雨雪、大风降温对人体健康、交通出行、能源供应、城乡防...",
-            "content": "中新网11月8日电 据中央气象台网站消息，昨日，华北北部及辽宁等地出现强降雪，内蒙古中部、河北北部、北京北部、辽宁西南部等地部分地区出现大雪或暴雪、局地大暴雪；江南北部及云南等地出现大雨或暴雨，局地大暴雨；受冷空气影响，西北地区出现大风降温天气。寒潮继续影响我国，预计，8日至10日，中东部大部地区有较强降温和雨雪天气，部分地区降温10℃以上，长江以北地区及东部、南部海域有大风天气，关注雨雪、大风降温对人体健康、交通出行、能源供应、城乡防...\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "中新网11月8日电 据中央气象台网站消息，昨日，华北北部及辽宁等地出现强降雪，内蒙古中部、河北北部、北京北部、辽宁西南部等地部分地区出现大雪或暴雪、局地大暴雪；江南北部及云南等地出现大雨或暴雨，局地大暴雨；受冷空气影响，西北地区出现大风降温天气。寒潮继续影响我国，预计，8日至10日，中东部大部地区有较强降温和雨雪天气，部分地区降温10℃以上，长江以北地区及东部、南部海域有大风天气，关注雨雪、大风降温对人体健康、交通出行、能源供应、城乡防...",
-              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae6a78caf36b247f331e0d008",
-              "original": "https://www.chinanews.com.cn/sh/2026/11-08/10728234.shtml"
-            },
-            "publishedAt": "2026-11-08T00:59:57.000Z",
-            "discoveredAt": "2026-11-08T01:17:25.260Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae6a78caf36b247f331e0d008"
-            }
-          },
-          {
-            "id": "ab3b2a7359b41613ba0f4949c",
-            "title": "【国内要闻】“90后”返乡青年深耕电商 花木衍生产业年销近亿元",
-            "originalTitle": "“90后”返乡青年深耕电商 花木衍生产业年销近亿元",
-            "summary": "中新网宿迁11月8日电(刘林 谷华)“家人们看这款古法琉璃葫芦！葫芦谐音福禄、纳福聚祥，‘双十一’特价99元上链接。”连日来，江苏沭阳县新河镇直播基地热火朝天，主播轮番推介花木文创产品，直播间订单提示声不断，迎来“双十一”销售热潮。",
-            "content": "中新网宿迁11月8日电(刘林 谷华)“家人们看这款古法琉璃葫芦！葫芦谐音福禄、纳福聚祥，‘双十一’特价99元上链接。”连日来，江苏沭阳县新河镇直播基地热火朝天，主播轮番推介花木文创产品，直播间订单提示声不断，迎来“双十一”销售热潮。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "中新网宿迁11月8日电(刘林 谷华)“家人们看这款古法琉璃葫芦！葫芦谐音福禄、纳福聚祥，‘双十一’特价99元上链接。”连日来，江苏沭阳县新河镇直播基地热火朝天，主播轮番推介花木文创产品，直播间订单提示声不断，迎来“双十一”销售热潮。",
-              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab3b2a7359b41613ba0f4949c",
-              "original": "https://www.chinanews.com.cn/sh/2026/11-08/10728217.shtml"
-            },
-            "publishedAt": "2026-11-08T00:58:03.000Z",
-            "discoveredAt": "2026-11-08T01:17:25.375Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab3b2a7359b41613ba0f4949c"
-            }
-          },
-          {
-            "id": "ac0f14ba9ff6645c40ee8d6b1",
-            "title": "【国内要闻】云南“十五五”将建成多源多尺度实景三维云南",
-            "originalTitle": "云南“十五五”将建成多源多尺度实景三维云南",
-            "summary": "中新网昆明11月8日电 (记者 陈静)云南省人民政府办公厅近日印发《云南省自然资源保护利用“十五五”规划》(下称《规划》)指出，将加强测绘地理信息建设，丰富基础测绘数据资源，建成多源多尺度实景三维云南，开展动态更新。",
-            "content": "中新网昆明11月8日电 (记者 陈静)云南省人民政府办公厅近日印发《云南省自然资源保护利用“十五五”规划》(下称《规划》)指出，将加强测绘地理信息建设，丰富基础测绘数据资源，建成多源多尺度实景三维云南，开展动态更新。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "中新网昆明11月8日电 (记者 陈静)云南省人民政府办公厅近日印发《云南省自然资源保护利用“十五五”规划》(下称《规划》)指出，将加强测绘地理信息建设，丰富基础测绘数据资源，建成多源多尺度实景三维云南，开展动态更新。",
-              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac0f14ba9ff6645c40ee8d6b1",
-              "original": "https://www.chinanews.com.cn/sh/2026/11-08/10728216.shtml"
-            },
-            "publishedAt": "2026-11-08T00:57:37.000Z",
-            "discoveredAt": "2026-11-08T01:17:25.488Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac0f14ba9ff6645c40ee8d6b1"
+              "url": "https://zenglian-news.onrender.com/items/ad7e80a0342aa12b01132010b"
             }
           }
         ]
@@ -892,13 +892,42 @@
         "label": "💰 商业搞钱Top20",
         "items": [
           {
-            "id": "a56186e827335e269bc6cd42b",
-            "title": "【出海实战】我的 SaaS 几乎是 100 美元，因为我决定帮助其他 SaaS 创始人。",
-            "originalTitle": "My SaaS is almost at $100 because I decided to help other SaaS founders.",
-            "summary": "当我开始构建 RotateAd 时，我想解决一个与小型网站和独立 SaaS 产品难以引起关注相关的问题。如今，RotateAd 的销售额已达到 92.53 美元。差不多100美元！ 🎉 更好的是，...（来源：X/Reddit·出海SaaS搞钱）",
-            "content": "当我开始构建 RotateAd 时，我想解决一个与小型网站和独立 SaaS 产品难以引起关注相关的问题。如今，RotateAd 的销售额已达到 92.53 美元。差不多100美元！ 🎉 更好的是，...（来源：X/Reddit·出海SaaS搞钱）\n\n【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "af50c440cc956fe185f399c30",
+            "title": "通用大模型逼近，谁来为世界模型买单？",
+            "originalTitle": "通用大模型逼近，谁来为世界模型买单？",
+            "summary": "本文来自微信公众号： 经济观察报 ，作者：郑晨烨 GPT-6 Astra等高性能通用大模型的出现，在一定程度上让人怀疑，专门让AI理解物理世界的世界模型（World Model）路线是否已被证伪。或者说，既然通用大模型也能控制机器人，随着模型能力的继续加强，专门做世界模型似乎就没有必要了。 “我们没有专门为这些动作编写程序，它看到旁边有洗笔的颜料盘，就自己过去把笔洗干净，再继续画画。”10月22日，宇树科技（688836.SH）创始人、...",
+            "content": "本文来自微信公众号： 经济观察报 ，作者：郑晨烨 GPT-6 Astra等高性能通用大模型的出现，在一定程度上让人怀疑，专门让AI理解物理世界的世界模型（World Model）路线是否已被证伪。或者说，既然通用大模型也能控制机器人，随着模型能力的继续加强，专门做世界模型似乎就没有必要了。 “我们没有专门为这些动作编写程序，它看到旁边有洗笔的颜料盘，就自己过去把笔洗干净，再继续画画。”10月22日，宇树科技（688836.SH）创始人、...\n\n【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "当我开始构建 RotateAd 时，我想解决一个与小型网站和独立 SaaS 产品难以引起关注相关的问题。如今，RotateAd 的销售额已达到 92.53 美元。差不多100美元！ 🎉 更好的是，...（来源：X/Reddit·出海SaaS搞钱）",
+              "本文来自微信公众号： 经济观察报 ，作者：郑晨烨 GPT-6 Astra等高性能通用大模型的出现，在一定程度上让人怀疑，专门让AI理解物理世界的世界模型（World Model）路线是否已被证伪。或者说，既然通用大模型也能控制机器人，随着模型能力的继续加强，专门做世界模型似乎就没有必要了。 “我们没有专门为这些动作编写程序，它看到旁边有洗笔的颜料盘，就自己过去把笔洗干净，再继续画画。”10月22日，宇树科技（688836.SH）创始人、...",
+              "【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/af50c440cc956fe185f399c30",
+              "original": "https://www.huxiu.com/article/4903907.html?f=rss"
+            },
+            "publishedAt": "2026-11-08T07:17:38.000Z",
+            "discoveredAt": "2026-11-08T07:48:38.800Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/af50c440cc956fe185f399c30"
+            }
+          },
+          {
+            "id": "ad87ae82fdecba9eb0485aa4a",
+            "title": "【出海实战】mxRaven 的 perch：开源邮件服务器 + 用于代理的 POSIX CLI",
+            "originalTitle": "perch by mxRaven: open source mail server + POSIX CLI for agents",
+            "summary": "perch 是一个完整的 IMAP + SMTP 服务器，配有专为代理设计的符合人体工程学的 CLI。它使用 SQLite 作为数据库，并且可以选择将原始电子邮件内容卸载到 S3，而不是将其存储在嵌入式数据库中...（来源：X/Reddit·出海SaaS搞钱）",
+            "content": "perch 是一个完整的 IMAP + SMTP 服务器，配有专为代理设计的符合人体工程学的 CLI。它使用 SQLite 作为数据库，并且可以选择将原始电子邮件内容卸载到 S3，而不是将其存储在嵌入式数据库中...（来源：X/Reddit·出海SaaS搞钱）\n\n【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "perch 是一个完整的 IMAP + SMTP 服务器，配有专为代理设计的符合人体工程学的 CLI。它使用 SQLite 作为数据库，并且可以选择将原始电子邮件内容卸载到 S3，而不是将其存储在嵌入式数据库中...（来源：X/Reddit·出海SaaS搞钱）",
               "【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -906,57 +935,28 @@
               "name": "X/Reddit·出海SaaS搞钱"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a56186e827335e269bc6cd42b",
-              "original": "https://www.reddit.com/r/SaaS/comments/1xqggv9/my_saas_is_almost_at_100_because_i_decided_to/"
+              "aihot": "https://zenglian-news.onrender.com/items/ad87ae82fdecba9eb0485aa4a",
+              "original": "https://www.reddit.com/r/SaaS/comments/1xqpj7p/perch_by_mxraven_open_source_mail_server_posix/"
             },
-            "publishedAt": "2026-11-07T20:45:32.000Z",
-            "discoveredAt": "2026-11-08T01:17:33.626Z",
+            "publishedAt": "2026-11-08T04:15:42.000Z",
+            "discoveredAt": "2026-11-08T07:48:35.164Z",
             "category": "money",
             "score": 99,
             "selected": true,
             "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a56186e827335e269bc6cd42b"
+              "url": "https://zenglian-news.onrender.com/items/ad87ae82fdecba9eb0485aa4a"
             }
           },
           {
-            "id": "af13c8befe5d63b859b601536",
-            "title": "【独立变现】Show HN：我们将31B视频+音频扩散模型压缩为14B，6步，INT8",
-            "originalTitle": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
-            "summary": "Show HN·独立变现榜实时快讯：Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
-            "content": "Show HN·独立变现榜实时快讯：Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）\n\n【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a44cdf18f811e79c539b58d73",
+            "title": "【出海实战】3 周内注册人数从 0 增加到 25。现在怎么办？",
+            "originalTitle": "From 0 to 25 signups in 3 weeks. Now what?",
+            "summary": "过去几周我一直在构建 B2B SaaS 产品，我想分享事情的进展并从其他创始人那里获得一些反馈。到目前为止，我已经在 3 周内获得了大约 25 名注册用户。一个...（来源：X/Reddit·出海SaaS搞钱）",
+            "content": "过去几周我一直在构建 B2B SaaS 产品，我想分享事情的进展并从其他创始人那里获得一些反馈。到目前为止，我已经在 3 周内获得了大约 25 名注册用户。一个...（来源：X/Reddit·出海SaaS搞钱）\n\n【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "Show HN·独立变现榜实时快讯：Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
-              "【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "Show HN·独立变现榜"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af13c8befe5d63b859b601536",
-              "original": "https://github.com/Video-Rebirth/hyperflow-h3-flash"
-            },
-            "publishedAt": "2026-11-07T15:16:01.000Z",
-            "discoveredAt": "2026-11-07T21:59:11.290Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af13c8befe5d63b859b601536"
-            }
-          },
-          {
-            "id": "aef853d35698a0e4d9e6cd722",
-            "title": "【出海实战】停止构建玩具 SaaS 应用程序。",
-            "originalTitle": "Stop building toy SaaS apps.",
-            "summary": "现在是独立黑客思考更大的时候了。借助人工智能，您现在有能力构建可以与大型企业竞争的产品。您不需要数百万用户。即使 1,000 个付费客户也可以让您...（来源：X/Reddit·出海SaaS搞钱）",
-            "content": "现在是独立黑客思考更大的时候了。借助人工智能，您现在有能力构建可以与大型企业竞争的产品。您不需要数百万用户。即使 1,000 个付费客户也可以让您...（来源：X/Reddit·出海SaaS搞钱）\n\n【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "现在是独立黑客思考更大的时候了。借助人工智能，您现在有能力构建可以与大型企业竞争的产品。您不需要数百万用户。即使 1,000 个付费客户也可以让您...（来源：X/Reddit·出海SaaS搞钱）",
+              "过去几周我一直在构建 B2B SaaS 产品，我想分享事情的进展并从其他创始人那里获得一些反馈。到目前为止，我已经在 3 周内获得了大约 25 名注册用户。一个...（来源：X/Reddit·出海SaaS搞钱）",
               "【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -964,28 +964,28 @@
               "name": "X/Reddit·出海SaaS搞钱"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aef853d35698a0e4d9e6cd722",
-              "original": "https://www.reddit.com/r/SaaS/comments/1xq2fsk/stop_building_toy_saas_apps/"
+              "aihot": "https://zenglian-news.onrender.com/items/a44cdf18f811e79c539b58d73",
+              "original": "https://www.reddit.com/r/SaaS/comments/1xqn85y/from_0_to_25_signups_in_3_weeks_now_what/"
             },
-            "publishedAt": "2026-11-07T09:32:38.000Z",
-            "discoveredAt": "2026-11-07T13:27:47.764Z",
+            "publishedAt": "2026-11-08T02:09:23.000Z",
+            "discoveredAt": "2026-11-08T07:48:36.629Z",
             "category": "money",
             "score": 99,
             "selected": true,
             "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aef853d35698a0e4d9e6cd722"
+              "url": "https://zenglian-news.onrender.com/items/a44cdf18f811e79c539b58d73"
             }
           },
           {
-            "id": "a83a6adcdd133598f5ade137d",
-            "title": "【独立变现】Show HN：预测市场对这次中期选举有预测吗？",
-            "originalTitle": "Show HN: Did prediction markets do any predicting this midterms?",
-            "summary": "我听说过很多关于预测市场如何成为这个黑暗世界的指路明灯的事情。但当与民意调查或 Nate Silver 的 FLIPR 模型进行正面对比时，它们确实是一败涂地。尤其是看翻转或闭合...（来源：Show HN·独立变现榜）",
-            "content": "我听说过很多关于预测市场如何成为这个黑暗世界的指路明灯的事情。但当与民意调查或 Nate Silver 的 FLIPR 模型进行正面对比时，它们确实是一败涂地。尤其是看翻转或闭合...（来源：Show HN·独立变现榜）\n\n【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a0b87e9ef9b338143c1b9eedf",
+            "title": "【独立变现】Show HN：帮助保持健康眨眼节奏的离线桌面伴侣",
+            "originalTitle": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
+            "summary": "像软件工程师、机械/图形设计师这样的职业会给您的眼睛带来很大的压力，长时间观察屏幕上的微小细节可以显着降低您可能没有意识到的眨眼频率...（来源：Show HN·独立变现榜）",
+            "content": "像软件工程师、机械/图形设计师这样的职业会给您的眼睛带来很大的压力，长时间观察屏幕上的微小细节可以显着降低您可能没有意识到的眨眼频率...（来源：Show HN·独立变现榜）\n\n【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "我听说过很多关于预测市场如何成为这个黑暗世界的指路明灯的事情。但当与民意调查或 Nate Silver 的 FLIPR 模型进行正面对比时，它们确实是一败涂地。尤其是看翻转或闭合...（来源：Show HN·独立变现榜）",
+              "像软件工程师、机械/图形设计师这样的职业会给您的眼睛带来很大的压力，长时间观察屏幕上的微小细节可以显着降低您可能没有意识到的眨眼频率...（来源：Show HN·独立变现榜）",
               "【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -993,47 +993,47 @@
               "name": "Show HN·独立变现榜"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a83a6adcdd133598f5ade137d",
-              "original": "https://app.artifactbin.dev/@vivek/AQTt2H-did-prediction-markets-predict-the-midterms"
+              "aihot": "https://zenglian-news.onrender.com/items/a0b87e9ef9b338143c1b9eedf",
+              "original": "https://eyesrhythm.com/"
             },
-            "publishedAt": "2026-11-07T03:50:21.000Z",
-            "discoveredAt": "2026-11-07T06:26:57.357Z",
+            "publishedAt": "2026-11-07T21:47:47.000Z",
+            "discoveredAt": "2026-11-08T07:48:30.943Z",
             "category": "money",
             "score": 99,
             "selected": true,
             "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a83a6adcdd133598f5ade137d"
+              "url": "https://zenglian-news.onrender.com/items/a0b87e9ef9b338143c1b9eedf"
             }
           },
           {
-            "id": "a0a0cca33781cffa1fb69fd7d",
-            "title": "Edge AI Daily 早报（11月8日）",
-            "originalTitle": "Edge AI Daily 早报（11月8日）",
-            "summary": "硅谷前沿： 一、Anthropic 的 2 万亿 IPO 梦碎：路演前夜，投资者把估值砍向 1.5 万亿 1.估值与发行：Anthropic 向美国证券交易委员会秘密递交文件时瞄准约 2 万亿美元估值，但部分拟参与其 IPO 的投资者已将预期下调至 1.5 万亿美元以下，其中有人称可能进一步下探至 1 万亿美元；公司原计划下周启动路演、争取 11 月 16 日当周上市，但路透社援引知情人士称能否如期启动已成疑问，更新后的招股书仍未披露拟...",
-            "content": "硅谷前沿： 一、Anthropic 的 2 万亿 IPO 梦碎：路演前夜，投资者把估值砍向 1.5 万亿 1.估值与发行：Anthropic 向美国证券交易委员会秘密递交文件时瞄准约 2 万亿美元估值，但部分拟参与其 IPO 的投资者已将预期下调至 1.5 万亿美元以下，其中有人称可能进一步下探至 1 万亿美元；公司原计划下周启动路演、争取 11 月 16 日当周上市，但路透社援引知情人士称能否如期启动已成疑问，更新后的招股书仍未披露拟...\n\n【深度核心看点】聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a9a9ed01765dc5f467259fe7f",
+            "title": "【独立变现】显示 HN：我们在哪里",
+            "originalTitle": "Show HN: Where Were We",
+            "summary": "我制作的一个小网页游戏，作为送给妻子的周年纪念礼物。上传度假照片并将其制作成游戏。 WWW 使用 EXIF 来确定照片的拍摄地点和时间。然后，这将变成一个游戏，您可以发送...（来源：Show HN·独立变现榜）",
+            "content": "我制作的一个小网页游戏，作为送给妻子的周年纪念礼物。上传度假照片并将其制作成游戏。 WWW 使用 EXIF 来确定照片的拍摄地点和时间。然后，这将变成一个游戏，您可以发送...（来源：Show HN·独立变现榜）\n\n【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "硅谷前沿： 一、Anthropic 的 2 万亿 IPO 梦碎：路演前夜，投资者把估值砍向 1.5 万亿 1.估值与发行：Anthropic 向美国证券交易委员会秘密递交文件时瞄准约 2 万亿美元估值，但部分拟参与其 IPO 的投资者已将预期下调至 1.5 万亿美元以下，其中有人称可能进一步下探至 1 万亿美元；公司原计划下周启动路演、争取 11 月 16 日当周上市，但路透社援引知情人士称能否如期启动已成疑问，更新后的招股书仍未披露拟...",
-              "【深度核心看点】聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。 ",
+              "我制作的一个小网页游戏，作为送给妻子的周年纪念礼物。上传度假照片并将其制作成游戏。 WWW 使用 EXIF 来确定照片的拍摄地点和时间。然后，这将变成一个游戏，您可以发送...（来源：Show HN·独立变现榜）",
+              "【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "钛媒体·资本与风口"
+              "name": "Show HN·独立变现榜"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a0a0cca33781cffa1fb69fd7d",
-              "original": "https://www.tmtpost.com/8197405.html"
+              "aihot": "https://zenglian-news.onrender.com/items/a9a9ed01765dc5f467259fe7f",
+              "original": "https://wherewerewe.app/"
             },
-            "publishedAt": "2026-11-08T00:58:37.000Z",
-            "discoveredAt": "2026-11-08T01:17:39.200Z",
+            "publishedAt": "2026-11-07T21:08:35.000Z",
+            "discoveredAt": "2026-11-08T07:48:31.431Z",
             "category": "money",
-            "score": 98,
+            "score": 99,
             "selected": true,
-            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a0a0cca33781cffa1fb69fd7d"
+              "url": "https://zenglian-news.onrender.com/items/a9a9ed01765dc5f467259fe7f"
             }
           }
         ]
@@ -1194,13 +1194,13 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "a76ddd4ff75ee8eed748af71f",
-            "title": "【全球票房】克拉科夫大规模枪击事件默哀一分钟；达伦·阿罗诺夫斯基 (Darren Aronofsky) 和卢卡·瓜达尼诺 (Luca Guadagnino) 推出“人工”",
-            "originalTitle": "Camerimage Opens With Minute Of Silence For Kraków Mass Shooting; Darren Aronofsky Honored & Luca Guadagnino Introduces ‘Artificial’",
-            "summary": "今年的 Camerimage 电影节开幕式气氛阴沉，组织者在波兰托伦拉开了第 34 届 Camerimage 电影节的序幕，为克拉科夫大规模枪击事件的受害者默哀一分钟。（来源：Deadline·全球票房与新片）",
-            "content": "今年的 Camerimage 电影节开幕式气氛阴沉，组织者在波兰托伦拉开了第 34 届 Camerimage 电影节的序幕，为克拉科夫大规模枪击事件的受害者默哀一分钟。（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a00f074658d2bad13d2ba106b",
+            "title": "【全球票房】TAICCA 合资基金支持的项目包括《我们的蓝调》、《午夜晚餐》和《C'Est La Vie》",
+            "originalTitle": "‘Our Blues’, ‘Midnight Diner’ & ‘C’Est La Vie’ Among Projects Backed By TAICCA Joint Venture Funds",
+            "summary": "台湾创意内容机构（TAICCA）与当地公司联合成立的四家内容基金今天在 TCCF 展示会上展示了他们在过去一年中投资的项目。阵容从f...（来源：Deadline·全球票房与新片）",
+            "content": "台湾创意内容机构（TAICCA）与当地公司联合成立的四家内容基金今天在 TCCF 展示会上展示了他们在过去一年中投资的项目。阵容从f...（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "今年的 Camerimage 电影节开幕式气氛阴沉，组织者在波兰托伦拉开了第 34 届 Camerimage 电影节的序幕，为克拉科夫大规模枪击事件的受害者默哀一分钟。（来源：Deadline·全球票房与新片）",
+              "台湾创意内容机构（TAICCA）与当地公司联合成立的四家内容基金今天在 TCCF 展示会上展示了他们在过去一年中投资的项目。阵容从f...（来源：Deadline·全球票房与新片）",
               "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -1208,28 +1208,28 @@
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a76ddd4ff75ee8eed748af71f",
-              "original": "https://deadline.com/2026/11/camerimage-darren-aronofsky-luca-guadagnino-artificial-1237216360/"
+              "aihot": "https://zenglian-news.onrender.com/items/a00f074658d2bad13d2ba106b",
+              "original": "https://deadline.com/2026/11/our-blues-midnight-diner-taicca-joint-venture-funds-1237216640/"
             },
-            "publishedAt": "2026-11-08T00:37:12.000Z",
-            "discoveredAt": "2026-11-08T01:17:59.783Z",
+            "publishedAt": "2026-11-08T06:59:29.000Z",
+            "discoveredAt": "2026-11-08T07:48:57.229Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a76ddd4ff75ee8eed748af71f"
+              "url": "https://zenglian-news.onrender.com/items/a00f074658d2bad13d2ba106b"
             }
           },
           {
-            "id": "a21d726266040316c6b102b6b",
-            "title": "【好莱坞一手】韩国先锋在台湾创意内容节上警告称，人工智能可能会使电影制作成本比 35 毫米时代更高",
-            "originalTitle": "AI Could Make Filmmaking Costlier Than the 35mm Era, Korean Pioneers Warn at Taiwan Creative Content Fest",
-            "summary": "一位韩国人工智能制作先驱告诉台湾创意网，人工智能已经在削减广告成本，但失控的代币费用和零碎的修改可能会让故事片制片人支付比 35 毫米电影时代更多的费用。（来源：Variety·好莱坞影视）",
-            "content": "一位韩国人工智能制作先驱告诉台湾创意网，人工智能已经在削减广告成本，但失控的代币费用和零碎的修改可能会让故事片制片人支付比 35 毫米电影时代更多的费用。（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a3ab19cad83adbbd679475477",
+            "title": "【好莱坞一手】《周六夜现场》周末更新残酷地嘲笑埃隆·马斯克“史诗般的”中期选举失败",
+            "originalTitle": "‘SNL’ Weekend Update Brutally Roasts Elon Musk Over ‘Epic’ Midterms Defeat",
+            "summary": "精神错乱的“埃隆·马斯克”本周出现在《周六夜现场》周末更新台上，讨论周二中期选举的结果——而由《周六夜现场》特色演员杰里米·卡尔哈恩饰演的马斯克不太清楚……（来源：Variety·好莱坞影视）",
+            "content": "精神错乱的“埃隆·马斯克”本周出现在《周六夜现场》周末更新台上，讨论周二中期选举的结果——而由《周六夜现场》特色演员杰里米·卡尔哈恩饰演的马斯克不太清楚……（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "一位韩国人工智能制作先驱告诉台湾创意网，人工智能已经在削减广告成本，但失控的代币费用和零碎的修改可能会让故事片制片人支付比 35 毫米电影时代更多的费用。（来源：Variety·好莱坞影视）",
+              "精神错乱的“埃隆·马斯克”本周出现在《周六夜现场》周末更新台上，讨论周二中期选举的结果——而由《周六夜现场》特色演员杰里米·卡尔哈恩饰演的马斯克不太清楚……（来源：Variety·好莱坞影视）",
               "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -1237,28 +1237,28 @@
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a21d726266040316c6b102b6b",
-              "original": "https://variety.com/2026/film/markets-festivals/ai-films-costlier-35mm-era-korean-pioneers-warn-1236942217/"
+              "aihot": "https://zenglian-news.onrender.com/items/a3ab19cad83adbbd679475477",
+              "original": "https://variety.com/2026/tv/news/snl-weekend-update-elon-musk-midterms-election-1236942283/"
             },
-            "publishedAt": "2026-11-08T00:27:50.000Z",
-            "discoveredAt": "2026-11-08T01:17:53.769Z",
+            "publishedAt": "2026-11-08T05:57:06.000Z",
+            "discoveredAt": "2026-11-08T07:48:51.266Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a21d726266040316c6b102b6b"
+              "url": "https://zenglian-news.onrender.com/items/a3ab19cad83adbbd679475477"
             }
           },
           {
-            "id": "a408aaab4ef6799cd7fd19f0b",
-            "title": "【全球票房】艾美·罗森 (Emmy Rossum) 谈 RAINN 大使身份，在《愤怒》角色之后“继续讨论”有关性暴力的话题",
-            "originalTitle": "Emmy Rossum On RAINN Ambassadorship, “Continuing The Conversation” About Sexual Violence After ‘Furious’ Role",
-            "summary": "当艾美·罗森准备回归《速度与激情》第二季时，她一直牢记着该剧的主题。这位金球奖提名者最近作为大使加入了 RAINN 的反性暴力组织，他解释说……（来源：Deadline·全球票房与新片）",
-            "content": "当艾美·罗森准备回归《速度与激情》第二季时，她一直牢记着该剧的主题。这位金球奖提名者最近作为大使加入了 RAINN 的反性暴力组织，他解释说……（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "ac5c7fa3455667ba972bfe2db",
+            "title": "【全球票房】德鲁斯基在《SNL》首秀期间为伊丽莎白·霍姆斯·白脸服务“德鲁可以看到一切”素描",
+            "originalTitle": "Druski Serves Elizabeth Holmes Whiteface In ‘Dru Can See Everything’ Sketch During ‘SNL’ Debut",
+            "summary": "在开玩笑说他无法向《周六夜现场》承诺他不会“不做白脸”后不久，德鲁斯基就借用了伊丽莎白·霍姆斯的说法。在周六的 NBC 喜剧小品节目中，内容创作者很快发布了...（来源：Deadline·全球票房与新片）",
+            "content": "在开玩笑说他无法向《周六夜现场》承诺他不会“不做白脸”后不久，德鲁斯基就借用了伊丽莎白·霍姆斯的说法。在周六的 NBC 喜剧小品节目中，内容创作者很快发布了...（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "当艾美·罗森准备回归《速度与激情》第二季时，她一直牢记着该剧的主题。这位金球奖提名者最近作为大使加入了 RAINN 的反性暴力组织，他解释说……（来源：Deadline·全球票房与新片）",
+              "在开玩笑说他无法向《周六夜现场》承诺他不会“不做白脸”后不久，德鲁斯基就借用了伊丽莎白·霍姆斯的说法。在周六的 NBC 喜剧小品节目中，内容创作者很快发布了...（来源：Deadline·全球票房与新片）",
               "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -1266,57 +1266,28 @@
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a408aaab4ef6799cd7fd19f0b",
-              "original": "https://deadline.com/2026/11/emmy-rossum-rainn-ambassadorship-sexual-violence-furious-role-1237216377/"
+              "aihot": "https://zenglian-news.onrender.com/items/ac5c7fa3455667ba972bfe2db",
+              "original": "https://deadline.com/2026/11/druski-elizabeth-holmes-whiteface-dru-can-see-everything-snl-1237216571/"
             },
-            "publishedAt": "2026-11-08T00:22:09.000Z",
-            "discoveredAt": "2026-11-08T01:18:01.041Z",
+            "publishedAt": "2026-11-08T05:09:43.000Z",
+            "discoveredAt": "2026-11-08T07:49:00.191Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a408aaab4ef6799cd7fd19f0b"
+              "url": "https://zenglian-news.onrender.com/items/ac5c7fa3455667ba972bfe2db"
             }
           },
           {
-            "id": "a77f54176223f378190a9fd8e",
-            "title": "【全球票房】台湾中华电信公布以“枪声”和“龙虾召唤”为首的投资计划",
-            "originalTitle": "Taiwan’s Chunghwa Telecom Unveils Investment Slate Headed By ‘Gunshot’ & ‘Call Of Lobster’",
-            "summary": "台湾电信公司中华电信在台湾创意内容节（TCCF）上宣布了一系列电影和剧集投资，包括由蔡国强主演的警匪剧《枪声》和由崔始源主演的《龙虾的呼唤》……（来源：Deadline·全球票房与新片）",
-            "content": "台湾电信公司中华电信在台湾创意内容节（TCCF）上宣布了一系列电影和剧集投资，包括由蔡国强主演的警匪剧《枪声》和由崔始源主演的《龙虾的呼唤》……（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a5838d9b0704c58603676efde",
+            "title": "【好莱坞一手】《周六夜现场》：德鲁斯基·唐斯·白脸 (Druski Dons Whiteface) 在《你可以看到一切》戏仿中饰演伊丽莎白·霍姆斯 (Elizabeth Holmes)",
+            "originalTitle": "‘SNL’: Druski Dons Whiteface as Elizabeth Holmes in ‘You Can See Everything’ Parody",
+            "summary": "在一场忙碌的冷开场之后，得克萨斯州当选参议员詹姆斯·塔拉里科的光芒盖过了唐纳德·特朗普，而他未来的电影搭档艾玛·斯通的独白则被《周六夜现场》主持人德鲁斯基——创造了历史的第一个数字电视节目的主持人德鲁斯基……（来源：Variety·好莱坞影视）",
+            "content": "在一场忙碌的冷开场之后，得克萨斯州当选参议员詹姆斯·塔拉里科的光芒盖过了唐纳德·特朗普，而他未来的电影搭档艾玛·斯通的独白则被《周六夜现场》主持人德鲁斯基——创造了历史的第一个数字电视节目的主持人德鲁斯基……（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "台湾电信公司中华电信在台湾创意内容节（TCCF）上宣布了一系列电影和剧集投资，包括由蔡国强主演的警匪剧《枪声》和由崔始源主演的《龙虾的呼唤》……（来源：Deadline·全球票房与新片）",
-              "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "Deadline·全球票房与新片"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a77f54176223f378190a9fd8e",
-              "original": "https://deadline.com/2026/11/chang-chen-choi-siwon-kent-tsai-chunghwa-telecom-1237216224/"
-            },
-            "publishedAt": "2026-11-08T00:00:00.000Z",
-            "discoveredAt": "2026-11-08T01:18:02.436Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a77f54176223f378190a9fd8e"
-            }
-          },
-          {
-            "id": "a02b27701c19378ea206c51f5",
-            "title": "【好莱坞一手】巴布亚新几内亚最昂贵的电影《Mussau：第一首歌》拍摄结束，首次亮相（独家）",
-            "originalTitle": "Papua New Guinea’s Most Expensive Film, ‘Mussau: The First Song,’ Wraps Shoot, Unveils First Looks (EXCLUSIVE)",
-            "summary": "巴布亚新几内亚迄今为止最昂贵的电影、耗资 450 万美元的历史剧《穆绍：第一首歌》经过在两个省历时 40 天的拍摄，现已完成主要拍摄工作。拍摄地点在穆绍岛...（来源：Variety·好莱坞影视）",
-            "content": "巴布亚新几内亚迄今为止最昂贵的电影、耗资 450 万美元的历史剧《穆绍：第一首歌》经过在两个省历时 40 天的拍摄，现已完成主要拍摄工作。拍摄地点在穆绍岛...（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "巴布亚新几内亚迄今为止最昂贵的电影、耗资 450 万美元的历史剧《穆绍：第一首歌》经过在两个省历时 40 天的拍摄，现已完成主要拍摄工作。拍摄地点在穆绍岛...（来源：Variety·好莱坞影视）",
+              "在一场忙碌的冷开场之后，得克萨斯州当选参议员詹姆斯·塔拉里科的光芒盖过了唐纳德·特朗普，而他未来的电影搭档艾玛·斯通的独白则被《周六夜现场》主持人德鲁斯基——创造了历史的第一个数字电视节目的主持人德鲁斯基……（来源：Variety·好莱坞影视）",
               "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -1324,18 +1295,47 @@
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a02b27701c19378ea206c51f5",
-              "original": "https://variety.com/2026/film/news/papua-new-guinea-most-expensive-film-mussau-first-song-wraps-1236942202/"
+              "aihot": "https://zenglian-news.onrender.com/items/a5838d9b0704c58603676efde",
+              "original": "https://variety.com/2026/tv/news/snl-druski-whiteface-elizabeth-holmes-nathan-fielder-you-can-see-everything-parody-1236942289/"
             },
-            "publishedAt": "2026-11-07T23:58:45.000Z",
-            "discoveredAt": "2026-11-08T01:17:54.830Z",
+            "publishedAt": "2026-11-08T05:29:04.000Z",
+            "discoveredAt": "2026-11-08T07:48:52.940Z",
             "category": "culture",
-            "score": 99,
+            "score": 98,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a02b27701c19378ea206c51f5"
+              "url": "https://zenglian-news.onrender.com/items/a5838d9b0704c58603676efde"
+            }
+          },
+          {
+            "id": "ad9494c6462f81e4402dbb0f5",
+            "title": "【全球票房】艾玛·斯通 (Emma Stone) 与德鲁斯基 (Druski) 一起出演《周六夜现场》首秀，在拍摄浪漫喜剧《The Catch》时开场独白",
+            "originalTitle": "Emma Stone Joins Druski For His ‘SNL’ Debut Opening Monologue While Filming ‘The Catch’ Rom-Com",
+            "summary": "当 Druksi 首次亮相《周六夜现场》时，他得到了一位恰好在五人俱乐部的朋友的精神支持。在本周末的 NBC 喜剧小品节目中，内容创作者加入了……（来源：Deadline·全球票房与新片）",
+            "content": "当 Druksi 首次亮相《周六夜现场》时，他得到了一位恰好在五人俱乐部的朋友的精神支持。在本周末的 NBC 喜剧小品节目中，内容创作者加入了……（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "当 Druksi 首次亮相《周六夜现场》时，他得到了一位恰好在五人俱乐部的朋友的精神支持。在本周末的 NBC 喜剧小品节目中，内容创作者加入了……（来源：Deadline·全球票房与新片）",
+              "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "Deadline·全球票房与新片"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ad9494c6462f81e4402dbb0f5",
+              "original": "https://deadline.com/2026/11/emma-stone-joins-druski-snl-debut-opening-monologue-1237216552/"
+            },
+            "publishedAt": "2026-11-08T04:54:25.000Z",
+            "discoveredAt": "2026-11-08T07:49:00.748Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ad9494c6462f81e4402dbb0f5"
             }
           }
         ]
@@ -1344,6 +1344,35 @@
         "category": "business",
         "label": "🏆 体育实时Top20",
         "items": [
+          {
+            "id": "aafffa168ee728c7a930c9606",
+            "title": "【NBA一手】史蒂芬·库里 (Stephen Curry) 以 69/50/100 的命中率以 41/6/6 的比分战胜魔术队。勇士豪取七连胜！",
+            "originalTitle": "Stephen Curry on the clutch win vs. Magic 41/6/6 on 69/50/100 shooting. Warriors win 7th straight!",
+            "summary": "斯蒂芬·库里在 13/19 中得到 41 分，其中 10/10 的 FT 得分。斯蒂芬 38 岁的赛季应该参加 MVP 讨论吗？   由 /u/curry4real 提交 [链接] [评论]（来源：NBA·北美篮球实时热榜）",
+            "content": "斯蒂芬·库里在 13/19 中得到 41 分，其中 10/10 的 FT 得分。斯蒂芬 38 岁的赛季应该参加 MVP 讨论吗？   由 /u/curry4real 提交 [链接] [评论]（来源：NBA·北美篮球实时热榜）\n\n【深度核心看点】全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "斯蒂芬·库里在 13/19 中得到 41 分，其中 10/10 的 FT 得分。斯蒂芬 38 岁的赛季应该参加 MVP 讨论吗？   由 /u/curry4real 提交 [链接] [评论]（来源：NBA·北美篮球实时热榜）",
+              "【深度核心看点】全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "NBA·北美篮球实时热榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aafffa168ee728c7a930c9606",
+              "original": "https://www.reddit.com/r/nba/comments/1xqpof2/stephen_curry_on_the_clutch_win_vs_magic_4166_on/"
+            },
+            "publishedAt": "2026-11-08T04:23:53.000Z",
+            "discoveredAt": "2026-11-08T07:49:10.916Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aafffa168ee728c7a930c9606"
+            }
+          },
           {
             "id": "a31d443709f426f0b259c997a",
             "title": "【NBA一手】从 60 到 1 顺位选秀中的最佳 NBA 球员",
@@ -1459,35 +1488,6 @@
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a14b6a7a043dabf50c79f9dbc"
             }
-          },
-          {
-            "id": "a989ecfc87b8b25ccdb781321",
-            "title": "【欧洲足坛】诺丁汉森林 v 曼城：英超联赛 - 直播",
-            "originalTitle": "Nottingham Forest v Manchester City: Premier League – live",
-            "summary": "⚽ 格林威治标准时间下午 5.30 开球的英超联赛更新 ⚽ 实时比分 |满桌|在 TikTok 上关注我们 |给汤姆发邮件 我们要去城市球场了。开始之前，我们将听到“The Last Post”。明天就是纪念星期日。 ...（来源：卫报体育·欧冠与五大联赛）",
-            "content": "⚽ 格林威治标准时间下午 5.30 开球的英超联赛更新 ⚽ 实时比分 |满桌|在 TikTok 上关注我们 |给汤姆发邮件 我们要去城市球场了。开始之前，我们将听到“The Last Post”。明天就是纪念星期日。 ...（来源：卫报体育·欧冠与五大联赛）\n\n【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "⚽ 格林威治标准时间下午 5.30 开球的英超联赛更新 ⚽ 实时比分 |满桌|在 TikTok 上关注我们 |给汤姆发邮件 我们要去城市球场了。开始之前，我们将听到“The Last Post”。明天就是纪念星期日。 ...（来源：卫报体育·欧冠与五大联赛）",
-              "【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a989ecfc87b8b25ccdb781321",
-              "original": "https://www.theguardian.com/football/live/2026/nov/07/nottingham-forest-v-manchester-city-premier-league-live"
-            },
-            "publishedAt": "2026-11-07T18:01:20.000Z",
-            "discoveredAt": "2026-11-07T18:15:42.755Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a989ecfc87b8b25ccdb781321"
-            }
           }
         ]
       }
@@ -1498,7 +1498,7 @@
     "key": "2026-10",
     "title": "曾练全球一手简报 · 月度产业全景报告 (2026年10月)",
     "subtitle": "30天六大实时Top20赛道全景洞察与高价值搞钱机会总结",
-    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：微软研究院人工智能前沿小组的终结；Show HN：Coldframe，一个伪装成超市冰箱控制器的蜜罐；我的 SaaS 几乎是 100 美元，因为我决定帮助其他 SaaS 创始人。。",
+    "overview": "本期本月全球与国内全景月报从全球 30 大官方一手信源（覆盖全球要闻、国内要闻、商业搞钱、AI大模型、影视娱乐、体育赛事六大实时 Top20 榜单）精选 36 项焦点事件。重点关注：微软研究院人工智能前沿小组的终结；通用大模型逼近，谁来为世界模型买单？；mxRaven 的 perch：开源邮件服务器 + 用于代理的 POSIX CLI。",
     "metrics": {
       "totalEvents": 36,
       "sourcesCount": 30,
@@ -1539,32 +1539,61 @@
             }
           },
           {
-            "id": "aec28fff8ce9130f2f45450c4",
-            "title": "【独立变现】Show HN：Coldframe，一个伪装成超市冰箱控制器的蜜罐",
-            "originalTitle": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
-            "summary": "我构建了 Coldframe，一个伪装成超市制冷控制器的蜜罐。受到过去几周工业冰箱安装事件的启发，我想看看人们会尝试什么来反对……（来源：Show HN·独立变现榜）",
-            "content": "我构建了 Coldframe，一个伪装成超市制冷控制器的蜜罐。受到过去几周工业冰箱安装事件的启发，我想看看人们会尝试什么来反对……（来源：Show HN·独立变现榜）\n\n【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a084ffedf8e9238bdd6aa0b05",
+            "title": "【全球热榜】GitHub 公共预览版中的新拉取请求概述页面",
+            "originalTitle": "GitHub New pull request overview page in public preview",
+            "summary": "X/HN·全球热榜Top实时快讯：GitHub New pull request overview page in public preview。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "content": "X/HN·全球热榜Top实时快讯：GitHub New pull request overview page in public preview。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "我构建了 Coldframe，一个伪装成超市制冷控制器的蜜罐。受到过去几周工业冰箱安装事件的启发，我想看看人们会尝试什么来反对……（来源：Show HN·独立变现榜）",
-              "【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 ",
+              "X/HN·全球热榜Top实时快讯：GitHub New pull request overview page in public preview。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+              "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "Show HN·独立变现榜"
+              "name": "X/HN·全球热榜Top"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aec28fff8ce9130f2f45450c4",
-              "original": "https://github.com/hedgerow-dev/coldframe"
+              "aihot": "https://zenglian-news.onrender.com/items/a084ffedf8e9238bdd6aa0b05",
+              "original": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/"
             },
-            "publishedAt": "2026-11-07T17:27:30.000Z",
-            "discoveredAt": "2026-11-07T18:14:42.193Z",
+            "publishedAt": "2026-11-07T23:09:40.000Z",
+            "discoveredAt": "2026-11-08T07:48:21.305Z",
             "category": "global",
-            "score": 99,
+            "score": 97,
             "selected": true,
-            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aec28fff8ce9130f2f45450c4"
+              "url": "https://zenglian-news.onrender.com/items/a084ffedf8e9238bdd6aa0b05"
+            }
+          },
+          {
+            "id": "ae2d6cfd6e6d5625f4e90a4a9",
+            "title": "【全球热榜】用四个 2 生成任意整数 (2025)",
+            "originalTitle": "Making any integer with four 2s (2025)",
+            "summary": "X/HN·全球热榜Top实时快讯：Making any integer with four 2s (2025)。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+            "content": "X/HN·全球热榜Top实时快讯：Making any integer with four 2s (2025)。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "X/HN·全球热榜Top实时快讯：Making any integer with four 2s (2025)。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
+              "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "X/HN·全球热榜Top"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ae2d6cfd6e6d5625f4e90a4a9",
+              "original": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/"
+            },
+            "publishedAt": "2026-11-07T22:38:58.000Z",
+            "discoveredAt": "2026-11-08T07:48:21.749Z",
+            "category": "global",
+            "score": 97,
+            "selected": true,
+            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ae2d6cfd6e6d5625f4e90a4a9"
             }
           },
           {
@@ -1626,61 +1655,32 @@
             }
           },
           {
-            "id": "abb12b3ea48d99a085c5a8417",
-            "title": "【全球热榜】8 美元的 Linux 计算机 (2022)",
-            "originalTitle": "The $8 Linux Computer (2022)",
-            "summary": "X/HN·全球热榜Top实时快讯：The $8 Linux Computer (2022)。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-            "content": "X/HN·全球热榜Top实时快讯：The $8 Linux Computer (2022)。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）\n\n【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a40faa281df1166cb72327d7b",
+            "title": "【BBC全球】以色列总统责成反对党领袖艾森科特组建政府",
+            "originalTitle": "Israel's president tasks opposition leader Eisenkot with forming government",
+            "summary": "总理本杰明·内塔尼亚胡的集团和他的竞争对手的集团都没有在上周的选举中获得多数席位。（来源：BBC News·全球要闻）",
+            "content": "总理本杰明·内塔尼亚胡的集团和他的竞争对手的集团都没有在上周的选举中获得多数席位。（来源：BBC News·全球要闻）\n\n【深度核心看点】BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "X/HN·全球热榜Top实时快讯：The $8 Linux Computer (2022)。全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。（来源：X/HN·全球热榜Top）",
-              "【深度核心看点】全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。 ",
+              "总理本杰明·内塔尼亚胡的集团和他的竞争对手的集团都没有在上周的选举中获得多数席位。（来源：BBC News·全球要闻）",
+              "【深度核心看点】BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "X/HN·全球热榜Top"
+              "name": "BBC News·全球要闻"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/abb12b3ea48d99a085c5a8417",
-              "original": "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html"
+              "aihot": "https://zenglian-news.onrender.com/items/a40faa281df1166cb72327d7b",
+              "original": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss"
             },
-            "publishedAt": "2026-11-07T14:00:20.000Z",
-            "discoveredAt": "2026-11-07T18:14:27.274Z",
+            "publishedAt": "2026-11-07T22:19:59.000Z",
+            "discoveredAt": "2026-11-08T01:17:22.202Z",
             "category": "global",
-            "score": 97,
+            "score": 96,
             "selected": true,
-            "reason": "全球极客与硅谷领袖热议赞数破百的重大事件与科技突破。",
+            "reason": "BBC 英国广播公司全球突发政经要闻与国际宏观变局一手报道。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/abb12b3ea48d99a085c5a8417"
-            }
-          },
-          {
-            "id": "ad82309b9e33ebfc98a69a814",
-            "title": "【国际巨头】为什么关于人择自动化人工智能开发的新报告令研究人员感到震惊",
-            "originalTitle": "Why a new report on Anthropic automating AI development is alarming researchers",
-            "summary": "Anthropic 首席执行官达里奥·阿莫代。 |照片：Jason Henry/Bloomberg via Getty Images Anthropic 正在利用人工智能来构建更强大的人工智能。它似乎运行得非常好，该公司的模型改进了大约两倍......（来源：The Verge·国际巨头）",
-            "content": "Anthropic 首席执行官达里奥·阿莫代。 |照片：Jason Henry/Bloomberg via Getty Images Anthropic 正在利用人工智能来构建更强大的人工智能。它似乎运行得非常好，该公司的模型改进了大约两倍......（来源：The Verge·国际巨头）\n\n【深度核心看点】第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "Anthropic 首席执行官达里奥·阿莫代。 |照片：Jason Henry/Bloomberg via Getty Images Anthropic 正在利用人工智能来构建更强大的人工智能。它似乎运行得非常好，该公司的模型改进了大约两倍......（来源：The Verge·国际巨头）",
-              "【深度核心看点】第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "The Verge·国际巨头"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ad82309b9e33ebfc98a69a814",
-              "original": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
-            },
-            "publishedAt": "2026-11-07T12:30:00.000Z",
-            "discoveredAt": "2026-11-07T13:27:33.756Z",
-            "category": "global",
-            "score": 97,
-            "selected": true,
-            "reason": "第一时间追踪苹果、谷歌、微软、特斯拉等跨国巨头全球核心动作。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ad82309b9e33ebfc98a69a814"
+              "url": "https://zenglian-news.onrender.com/items/a40faa281df1166cb72327d7b"
             }
           }
         ]
@@ -1690,13 +1690,100 @@
         "label": "🇨🇳 国内实时Top20",
         "items": [
           {
-            "id": "a536597d24e5be8ccb147f2a3",
-            "title": "【国内财经】（第九届进博会）业界共话：AI带来全球化新机遇",
-            "originalTitle": "（第九届进博会）业界共话：AI带来全球化新机遇",
-            "summary": "中新社上海11月7日电 (记者 郑莹莹)“AI时代是原生全球化的新时代。”中国社会科学院大学教授江小涓日前在第九届虹桥国际经济论坛·虹桥国际开放枢纽建设分论坛暨2026虹桥HUB大会上称。",
-            "content": "中新社上海11月7日电 (记者 郑莹莹)“AI时代是原生全球化的新时代。”中国社会科学院大学教授江小涓日前在第九届虹桥国际经济论坛·虹桥国际开放枢纽建设分论坛暨2026虹桥HUB大会上称。\n\n【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a6c26a67aa3fe62d3a74aeff0",
+            "title": "【国内要闻】12分10板 杨瀚森拿下NBA生涯首个两双",
+            "originalTitle": "12分10板 杨瀚森拿下NBA生涯首个两双",
+            "summary": "中新网·国内要闻实时快讯：12分10板 杨瀚森拿下NBA生涯首个两双。中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "content": "中新网·国内要闻实时快讯：12分10板 杨瀚森拿下NBA生涯首个两双。中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "中新社上海11月7日电 (记者 郑莹莹)“AI时代是原生全球化的新时代。”中国社会科学院大学教授江小涓日前在第九届虹桥国际经济论坛·虹桥国际开放枢纽建设分论坛暨2026虹桥HUB大会上称。",
+              "中新网·国内要闻实时快讯：12分10板 杨瀚森拿下NBA生涯首个两双。中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a6c26a67aa3fe62d3a74aeff0",
+              "original": "http://www.chinanews.com.cn/tp/hd2011/2026/11-08/1210208.shtml"
+            },
+            "publishedAt": "2026-11-08T07:32:25.000Z",
+            "discoveredAt": "2026-11-08T07:48:22.469Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a6c26a67aa3fe62d3a74aeff0"
+            }
+          },
+          {
+            "id": "a0aa3ec905d450d2414f040df",
+            "title": "【国内要闻】口袋绿地、便民工坊 群众家门口有了“幸福圈”",
+            "originalTitle": "口袋绿地、便民工坊 群众家门口有了“幸福圈”",
+            "summary": "眼下，全国各地都在推进一刻钟便民生活圈建设，对准居民家门口的“小事、实事、急事”精准发力。湖北荆州的洪垸社区七成以上居民是老年人，社区紧扣银发群体的日常刚需，把医养、助餐、邻里互助资源全部整合起来，为老人们提供暖心的适老服务。",
+            "content": "眼下，全国各地都在推进一刻钟便民生活圈建设，对准居民家门口的“小事、实事、急事”精准发力。湖北荆州的洪垸社区七成以上居民是老年人，社区紧扣银发群体的日常刚需，把医养、助餐、邻里互助资源全部整合起来，为老人们提供暖心的适老服务。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "眼下，全国各地都在推进一刻钟便民生活圈建设，对准居民家门口的“小事、实事、急事”精准发力。湖北荆州的洪垸社区七成以上居民是老年人，社区紧扣银发群体的日常刚需，把医养、助餐、邻里互助资源全部整合起来，为老人们提供暖心的适老服务。",
+              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0aa3ec905d450d2414f040df",
+              "original": "https://www.chinanews.com.cn/sh/2026/11-08/10728357.shtml"
+            },
+            "publishedAt": "2026-11-08T07:27:40.000Z",
+            "discoveredAt": "2026-11-08T07:48:22.488Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0aa3ec905d450d2414f040df"
+            }
+          },
+          {
+            "id": "ad38b758c5bdbe7d0616504db",
+            "title": "【国内要闻】国际锐评丨进博之约让世界共享开放红利",
+            "originalTitle": "国际锐评丨进博之约让世界共享开放红利",
+            "summary": "“作为连续九年参加进博会的‘全勤生’，我们期待与更多伙伴深化合作，共享时代机遇”“希望与中国市场共同成长”“长期扎根”“加大投入”……正在举行的第九届中国国际进口博览会上，《国际锐评》评论员对话多位外企高管，发现“中国机遇2.0”成为他们口中的关键词；“十五五”开局之年，跨国企业普遍渴望抓住中国大市场扩容提质的重要机遇。",
+            "content": "“作为连续九年参加进博会的‘全勤生’，我们期待与更多伙伴深化合作，共享时代机遇”“希望与中国市场共同成长”“长期扎根”“加大投入”……正在举行的第九届中国国际进口博览会上，《国际锐评》评论员对话多位外企高管，发现“中国机遇2.0”成为他们口中的关键词；“十五五”开局之年，跨国企业普遍渴望抓住中国大市场扩容提质的重要机遇。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "“作为连续九年参加进博会的‘全勤生’，我们期待与更多伙伴深化合作，共享时代机遇”“希望与中国市场共同成长”“长期扎根”“加大投入”……正在举行的第九届中国国际进口博览会上，《国际锐评》评论员对话多位外企高管，发现“中国机遇2.0”成为他们口中的关键词；“十五五”开局之年，跨国企业普遍渴望抓住中国大市场扩容提质的重要机遇。",
+              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "中新网·国内要闻"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ad38b758c5bdbe7d0616504db",
+              "original": "https://www.chinanews.com.cn/gn/2026/11-08/10728355.shtml"
+            },
+            "publishedAt": "2026-11-08T07:18:41.000Z",
+            "discoveredAt": "2026-11-08T07:48:22.526Z",
+            "category": "domestic",
+            "score": 97,
+            "selected": true,
+            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ad38b758c5bdbe7d0616504db"
+            }
+          },
+          {
+            "id": "ae77a61c7241d000c89d5be34",
+            "title": "【国内财经】2025年我国海洋工程建筑业实现增加值2110亿元 同比增长0.3%",
+            "originalTitle": "2025年我国海洋工程建筑业实现增加值2110亿元 同比增长0.3%",
+            "summary": "中新网厦门11月8日电 (记者 阮煜琳)自然资源部海洋咨询中心7日在2026厦门国际海洋周发布《中国海洋工程建筑业发展简报2026》显示，2025年我国海洋工程建筑业全年实现增加值2110亿元，按不变价计算，同比增长0.3%，行业运行总体平稳、转型持续推进。",
+            "content": "中新网厦门11月8日电 (记者 阮煜琳)自然资源部海洋咨询中心7日在2026厦门国际海洋周发布《中国海洋工程建筑业发展简报2026》显示，2025年我国海洋工程建筑业全年实现增加值2110亿元，按不变价计算，同比增长0.3%，行业运行总体平稳、转型持续推进。\n\n【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "中新网厦门11月8日电 (记者 阮煜琳)自然资源部海洋咨询中心7日在2026厦门国际海洋周发布《中国海洋工程建筑业发展简报2026》显示，2025年我国海洋工程建筑业全年实现增加值2110亿元，按不变价计算，同比增长0.3%，行业运行总体平稳、转型持续推进。",
               "【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -1704,163 +1791,76 @@
               "name": "中新网·国内财经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a536597d24e5be8ccb147f2a3",
-              "original": "https://www.chinanews.com.cn/cj/2026/11-07/10728123.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/ae77a61c7241d000c89d5be34",
+              "original": "https://www.chinanews.com.cn/cj/2026/11-08/10728316.shtml"
             },
-            "publishedAt": "2026-11-07T13:21:24.000Z",
-            "discoveredAt": "2026-11-07T13:44:28.367Z",
+            "publishedAt": "2026-11-08T05:48:08.000Z",
+            "discoveredAt": "2026-11-08T07:48:22.572Z",
             "category": "domestic",
-            "score": 98,
+            "score": 97,
             "selected": true,
             "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a536597d24e5be8ccb147f2a3"
+              "url": "https://zenglian-news.onrender.com/items/ae77a61c7241d000c89d5be34"
             }
           },
           {
-            "id": "a0cff7869ffae1d4b8fae7edb",
-            "title": "【国内要闻】第二十三届北京论坛开幕",
-            "originalTitle": "第二十三届北京论坛开幕",
-            "summary": "中新网北京11月8日电 (记者 周昕)11月6日，第二十三届北京论坛在北京开幕。本届论坛以“科技变革与多元文明”为主题，来自29个国家和地区的近400位嘉宾学者参加论坛，共话科技变革时代多元文明的交流互鉴之道。",
-            "content": "中新网北京11月8日电 (记者 周昕)11月6日，第二十三届北京论坛在北京开幕。本届论坛以“科技变革与多元文明”为主题，来自29个国家和地区的近400位嘉宾学者参加论坛，共话科技变革时代多元文明的交流互鉴之道。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "ad7e80a0342aa12b01132010b",
+            "title": "【国内财经】做强畜禽业“中国芯” 畜禽育种还要过几关？",
+            "originalTitle": "做强畜禽业“中国芯” 畜禽育种还要过几关？",
+            "summary": "中新网新乡11月8日电 (记者 韩章云)肉蛋奶稳定供给，离不开畜禽良种这枚畜牧业的“芯片”。11月7日，2026中原农谷种业大会畜禽种业科技创新研讨会在河南省新乡市中原农谷举办。行业专家为畜禽种质资源保护、育种技术攻关、产业成果转化把脉献策，为做强畜禽种源、端牢大众“肉盘子”探寻新路径。",
+            "content": "中新网新乡11月8日电 (记者 韩章云)肉蛋奶稳定供给，离不开畜禽良种这枚畜牧业的“芯片”。11月7日，2026中原农谷种业大会畜禽种业科技创新研讨会在河南省新乡市中原农谷举办。行业专家为畜禽种质资源保护、育种技术攻关、产业成果转化把脉献策，为做强畜禽种源、端牢大众“肉盘子”探寻新路径。\n\n【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "中新网北京11月8日电 (记者 周昕)11月6日，第二十三届北京论坛在北京开幕。本届论坛以“科技变革与多元文明”为主题，来自29个国家和地区的近400位嘉宾学者参加论坛，共话科技变革时代多元文明的交流互鉴之道。",
-              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
+              "中新网新乡11月8日电 (记者 韩章云)肉蛋奶稳定供给，离不开畜禽良种这枚畜牧业的“芯片”。11月7日，2026中原农谷种业大会畜禽种业科技创新研讨会在河南省新乡市中原农谷举办。行业专家为畜禽种质资源保护、育种技术攻关、产业成果转化把脉献策，为做强畜禽种源、端牢大众“肉盘子”探寻新路径。",
+              "【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "中新网·国内要闻"
+              "name": "中新网·国内财经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a0cff7869ffae1d4b8fae7edb",
-              "original": "https://www.chinanews.com.cn/gn/2026/11-08/10728220.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/ad7e80a0342aa12b01132010b",
+              "original": "https://www.chinanews.com.cn/cj/2026/11-08/10728331.shtml"
             },
-            "publishedAt": "2026-11-08T01:03:45.000Z",
-            "discoveredAt": "2026-11-08T01:17:25.024Z",
+            "publishedAt": "2026-11-08T05:33:55.000Z",
+            "discoveredAt": "2026-11-08T07:48:22.721Z",
             "category": "domestic",
             "score": 97,
             "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a0cff7869ffae1d4b8fae7edb"
+              "url": "https://zenglian-news.onrender.com/items/ad7e80a0342aa12b01132010b"
             }
           },
           {
-            "id": "ae6a78caf36b247f331e0d008",
-            "title": "【国内要闻】寒潮继续影响中东部地区 局地降温可达14℃以上",
-            "originalTitle": "寒潮继续影响中东部地区 局地降温可达14℃以上",
-            "summary": "中新网11月8日电 据中央气象台网站消息，昨日，华北北部及辽宁等地出现强降雪，内蒙古中部、河北北部、北京北部、辽宁西南部等地部分地区出现大雪或暴雪、局地大暴雪；江南北部及云南等地出现大雨或暴雨，局地大暴雨；受冷空气影响，西北地区出现大风降温天气。寒潮继续影响我国，预计，8日至10日，中东部大部地区有较强降温和雨雪天气，部分地区降温10℃以上，长江以北地区及东部、南部海域有大风天气，关注雨雪、大风降温对人体健康、交通出行、能源供应、城乡防...",
-            "content": "中新网11月8日电 据中央气象台网站消息，昨日，华北北部及辽宁等地出现强降雪，内蒙古中部、河北北部、北京北部、辽宁西南部等地部分地区出现大雪或暴雪、局地大暴雪；江南北部及云南等地出现大雨或暴雨，局地大暴雨；受冷空气影响，西北地区出现大风降温天气。寒潮继续影响我国，预计，8日至10日，中东部大部地区有较强降温和雨雪天气，部分地区降温10℃以上，长江以北地区及东部、南部海域有大风天气，关注雨雪、大风降温对人体健康、交通出行、能源供应、城乡防...\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "aa5ce463b88ef0308ad6acc2f",
+            "title": "【国内财经】（第九届进博会）跨国企业借中国创新力链接全球机遇",
+            "originalTitle": "（第九届进博会）跨国企业借中国创新力链接全球机遇",
+            "summary": "中新社上海11月8日电 (记者 尹倩芸)“对美企来说，中国市场重要，中国的创新能力更重要。”美中贸易全国委员会会长谭森在第九届中国国际进口博览会期间接受中新社记者采访时表示。",
+            "content": "中新社上海11月8日电 (记者 尹倩芸)“对美企来说，中国市场重要，中国的创新能力更重要。”美中贸易全国委员会会长谭森在第九届中国国际进口博览会期间接受中新社记者采访时表示。\n\n【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "中新网11月8日电 据中央气象台网站消息，昨日，华北北部及辽宁等地出现强降雪，内蒙古中部、河北北部、北京北部、辽宁西南部等地部分地区出现大雪或暴雪、局地大暴雪；江南北部及云南等地出现大雨或暴雨，局地大暴雨；受冷空气影响，西北地区出现大风降温天气。寒潮继续影响我国，预计，8日至10日，中东部大部地区有较强降温和雨雪天气，部分地区降温10℃以上，长江以北地区及东部、南部海域有大风天气，关注雨雪、大风降温对人体健康、交通出行、能源供应、城乡防...",
-              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
+              "中新社上海11月8日电 (记者 尹倩芸)“对美企来说，中国市场重要，中国的创新能力更重要。”美中贸易全国委员会会长谭森在第九届中国国际进口博览会期间接受中新社记者采访时表示。",
+              "【深度核心看点】国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "中新网·国内要闻"
+              "name": "中新网·国内财经"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ae6a78caf36b247f331e0d008",
-              "original": "https://www.chinanews.com.cn/sh/2026/11-08/10728234.shtml"
+              "aihot": "https://zenglian-news.onrender.com/items/aa5ce463b88ef0308ad6acc2f",
+              "original": "https://www.chinanews.com.cn/cj/2026/11-08/10728314.shtml"
             },
-            "publishedAt": "2026-11-08T00:59:57.000Z",
-            "discoveredAt": "2026-11-08T01:17:25.260Z",
+            "publishedAt": "2026-11-08T05:38:18.000Z",
+            "discoveredAt": "2026-11-08T07:48:22.607Z",
             "category": "domestic",
-            "score": 97,
+            "score": 96,
             "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+            "reason": "国家通讯社国内宏观经济、金融监管、A股市场与央国企重大动向。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ae6a78caf36b247f331e0d008"
-            }
-          },
-          {
-            "id": "ab3b2a7359b41613ba0f4949c",
-            "title": "【国内要闻】“90后”返乡青年深耕电商 花木衍生产业年销近亿元",
-            "originalTitle": "“90后”返乡青年深耕电商 花木衍生产业年销近亿元",
-            "summary": "中新网宿迁11月8日电(刘林 谷华)“家人们看这款古法琉璃葫芦！葫芦谐音福禄、纳福聚祥，‘双十一’特价99元上链接。”连日来，江苏沭阳县新河镇直播基地热火朝天，主播轮番推介花木文创产品，直播间订单提示声不断，迎来“双十一”销售热潮。",
-            "content": "中新网宿迁11月8日电(刘林 谷华)“家人们看这款古法琉璃葫芦！葫芦谐音福禄、纳福聚祥，‘双十一’特价99元上链接。”连日来，江苏沭阳县新河镇直播基地热火朝天，主播轮番推介花木文创产品，直播间订单提示声不断，迎来“双十一”销售热潮。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "中新网宿迁11月8日电(刘林 谷华)“家人们看这款古法琉璃葫芦！葫芦谐音福禄、纳福聚祥，‘双十一’特价99元上链接。”连日来，江苏沭阳县新河镇直播基地热火朝天，主播轮番推介花木文创产品，直播间订单提示声不断，迎来“双十一”销售热潮。",
-              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ab3b2a7359b41613ba0f4949c",
-              "original": "https://www.chinanews.com.cn/sh/2026/11-08/10728217.shtml"
-            },
-            "publishedAt": "2026-11-08T00:58:03.000Z",
-            "discoveredAt": "2026-11-08T01:17:25.375Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ab3b2a7359b41613ba0f4949c"
-            }
-          },
-          {
-            "id": "ac0f14ba9ff6645c40ee8d6b1",
-            "title": "【国内要闻】云南“十五五”将建成多源多尺度实景三维云南",
-            "originalTitle": "云南“十五五”将建成多源多尺度实景三维云南",
-            "summary": "中新网昆明11月8日电 (记者 陈静)云南省人民政府办公厅近日印发《云南省自然资源保护利用“十五五”规划》(下称《规划》)指出，将加强测绘地理信息建设，丰富基础测绘数据资源，建成多源多尺度实景三维云南，开展动态更新。",
-            "content": "中新网昆明11月8日电 (记者 陈静)云南省人民政府办公厅近日印发《云南省自然资源保护利用“十五五”规划》(下称《规划》)指出，将加强测绘地理信息建设，丰富基础测绘数据资源，建成多源多尺度实景三维云南，开展动态更新。\n\n【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "中新网昆明11月8日电 (记者 陈静)云南省人民政府办公厅近日印发《云南省自然资源保护利用“十五五”规划》(下称《规划》)指出，将加强测绘地理信息建设，丰富基础测绘数据资源，建成多源多尺度实景三维云南，开展动态更新。",
-              "【深度核心看点】中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "中新网·国内要闻"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac0f14ba9ff6645c40ee8d6b1",
-              "original": "https://www.chinanews.com.cn/sh/2026/11-08/10728216.shtml"
-            },
-            "publishedAt": "2026-11-08T00:57:37.000Z",
-            "discoveredAt": "2026-11-08T01:17:25.488Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac0f14ba9ff6645c40ee8d6b1"
-            }
-          },
-          {
-            "id": "a4e80bc2898fb0fc315467dc0",
-            "title": "iG 战队 0:3 不敌 GEN 止步四强，无缘《英雄联盟》S16 最终决赛",
-            "originalTitle": "iG 战队 0:3 不敌 GEN 止步四强，无缘《英雄联盟》S16 最终决赛",
-            "summary": "IT之家 11 月 8 日消息，在刚刚结束的《英雄联盟》2026 全球总决赛（S16）淘汰赛半决赛第一日，来自 LPL 赛区的 iG 战队 0:3 不敌 GEN 战队，遗憾止步四强，后者挺进《英雄联盟》S16 总决赛最终决赛。 IT之家附官方战报如下： iG 0:1 GEN 3 分钟，双方打野支援上路，Canyon 奇亚娜击败克烈拿下一血并随后双杀，GEN 一换二； 8 分钟，双方争夺虚空巢虫，Canyon 奇亚娜伤害拉满，GEN 打出...",
-            "content": "IT之家 11 月 8 日消息，在刚刚结束的《英雄联盟》2026 全球总决赛（S16）淘汰赛半决赛第一日，来自 LPL 赛区的 iG 战队 0:3 不敌 GEN 战队，遗憾止步四强，后者挺进《英雄联盟》S16 总决赛最终决赛。 IT之家附官方战报如下： iG 0:1 GEN 3 分钟，双方打野支援上路，Canyon 奇亚娜击败克烈拿下一血并随后双杀，GEN 一换二； 8 分钟，双方争夺虚空巢虫，Canyon 奇亚娜伤害拉满，GEN 打出...\n\n【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "IT之家 11 月 8 日消息，在刚刚结束的《英雄联盟》2026 全球总决赛（S16）淘汰赛半决赛第一日，来自 LPL 赛区的 iG 战队 0:3 不敌 GEN 战队，遗憾止步四强，后者挺进《英雄联盟》S16 总决赛最终决赛。 IT之家附官方战报如下： iG 0:1 GEN 3 分钟，双方打野支援上路，Canyon 奇亚娜击败克烈拿下一血并随后双杀，GEN 一换二； 8 分钟，双方争夺虚空巢虫，Canyon 奇亚娜伤害拉满，GEN 打出...",
-              "【深度核心看点】国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "IT之家·国内产业"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a4e80bc2898fb0fc315467dc0",
-              "original": "https://www.ithome.com/1/023/856.htm"
-            },
-            "publishedAt": "2026-11-08T00:52:10.000Z",
-            "discoveredAt": "2026-11-08T01:17:30.188Z",
-            "category": "domestic",
-            "score": 97,
-            "selected": true,
-            "reason": "国内科技产业、新能源汽车与本土数码巨头重大发布一手快讯。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a4e80bc2898fb0fc315467dc0"
+              "url": "https://zenglian-news.onrender.com/items/aa5ce463b88ef0308ad6acc2f"
             }
           }
         ]
@@ -1869,6 +1869,151 @@
         "category": "money",
         "label": "💰 商业搞钱Top20",
         "items": [
+          {
+            "id": "af50c440cc956fe185f399c30",
+            "title": "通用大模型逼近，谁来为世界模型买单？",
+            "originalTitle": "通用大模型逼近，谁来为世界模型买单？",
+            "summary": "本文来自微信公众号： 经济观察报 ，作者：郑晨烨 GPT-6 Astra等高性能通用大模型的出现，在一定程度上让人怀疑，专门让AI理解物理世界的世界模型（World Model）路线是否已被证伪。或者说，既然通用大模型也能控制机器人，随着模型能力的继续加强，专门做世界模型似乎就没有必要了。 “我们没有专门为这些动作编写程序，它看到旁边有洗笔的颜料盘，就自己过去把笔洗干净，再继续画画。”10月22日，宇树科技（688836.SH）创始人、...",
+            "content": "本文来自微信公众号： 经济观察报 ，作者：郑晨烨 GPT-6 Astra等高性能通用大模型的出现，在一定程度上让人怀疑，专门让AI理解物理世界的世界模型（World Model）路线是否已被证伪。或者说，既然通用大模型也能控制机器人，随着模型能力的继续加强，专门做世界模型似乎就没有必要了。 “我们没有专门为这些动作编写程序，它看到旁边有洗笔的颜料盘，就自己过去把笔洗干净，再继续画画。”10月22日，宇树科技（688836.SH）创始人、...\n\n【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "本文来自微信公众号： 经济观察报 ，作者：郑晨烨 GPT-6 Astra等高性能通用大模型的出现，在一定程度上让人怀疑，专门让AI理解物理世界的世界模型（World Model）路线是否已被证伪。或者说，既然通用大模型也能控制机器人，随着模型能力的继续加强，专门做世界模型似乎就没有必要了。 “我们没有专门为这些动作编写程序，它看到旁边有洗笔的颜料盘，就自己过去把笔洗干净，再继续画画。”10月22日，宇树科技（688836.SH）创始人、...",
+              "【深度核心看点】深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "虎嗅网·商业搞钱深度"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/af50c440cc956fe185f399c30",
+              "original": "https://www.huxiu.com/article/4903907.html?f=rss"
+            },
+            "publishedAt": "2026-11-08T07:17:38.000Z",
+            "discoveredAt": "2026-11-08T07:48:38.800Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "深度拆解海内外暴利行业、新消费红利、大厂搞钱逻辑与真实商业内幕。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/af50c440cc956fe185f399c30"
+            }
+          },
+          {
+            "id": "ad87ae82fdecba9eb0485aa4a",
+            "title": "【出海实战】mxRaven 的 perch：开源邮件服务器 + 用于代理的 POSIX CLI",
+            "originalTitle": "perch by mxRaven: open source mail server + POSIX CLI for agents",
+            "summary": "perch 是一个完整的 IMAP + SMTP 服务器，配有专为代理设计的符合人体工程学的 CLI。它使用 SQLite 作为数据库，并且可以选择将原始电子邮件内容卸载到 S3，而不是将其存储在嵌入式数据库中...（来源：X/Reddit·出海SaaS搞钱）",
+            "content": "perch 是一个完整的 IMAP + SMTP 服务器，配有专为代理设计的符合人体工程学的 CLI。它使用 SQLite 作为数据库，并且可以选择将原始电子邮件内容卸载到 S3，而不是将其存储在嵌入式数据库中...（来源：X/Reddit·出海SaaS搞钱）\n\n【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "perch 是一个完整的 IMAP + SMTP 服务器，配有专为代理设计的符合人体工程学的 CLI。它使用 SQLite 作为数据库，并且可以选择将原始电子邮件内容卸载到 S3，而不是将其存储在嵌入式数据库中...（来源：X/Reddit·出海SaaS搞钱）",
+              "【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/ad87ae82fdecba9eb0485aa4a",
+              "original": "https://www.reddit.com/r/SaaS/comments/1xqpj7p/perch_by_mxraven_open_source_mail_server_posix/"
+            },
+            "publishedAt": "2026-11-08T04:15:42.000Z",
+            "discoveredAt": "2026-11-08T07:48:35.164Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/ad87ae82fdecba9eb0485aa4a"
+            }
+          },
+          {
+            "id": "a44cdf18f811e79c539b58d73",
+            "title": "【出海实战】3 周内注册人数从 0 增加到 25。现在怎么办？",
+            "originalTitle": "From 0 to 25 signups in 3 weeks. Now what?",
+            "summary": "过去几周我一直在构建 B2B SaaS 产品，我想分享事情的进展并从其他创始人那里获得一些反馈。到目前为止，我已经在 3 周内获得了大约 25 名注册用户。一个...（来源：X/Reddit·出海SaaS搞钱）",
+            "content": "过去几周我一直在构建 B2B SaaS 产品，我想分享事情的进展并从其他创始人那里获得一些反馈。到目前为止，我已经在 3 周内获得了大约 25 名注册用户。一个...（来源：X/Reddit·出海SaaS搞钱）\n\n【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "过去几周我一直在构建 B2B SaaS 产品，我想分享事情的进展并从其他创始人那里获得一些反馈。到目前为止，我已经在 3 周内获得了大约 25 名注册用户。一个...（来源：X/Reddit·出海SaaS搞钱）",
+              "【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "X/Reddit·出海SaaS搞钱"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a44cdf18f811e79c539b58d73",
+              "original": "https://www.reddit.com/r/SaaS/comments/1xqn85y/from_0_to_25_signups_in_3_weeks_now_what/"
+            },
+            "publishedAt": "2026-11-08T02:09:23.000Z",
+            "discoveredAt": "2026-11-08T07:48:36.629Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a44cdf18f811e79c539b58d73"
+            }
+          },
+          {
+            "id": "a0b87e9ef9b338143c1b9eedf",
+            "title": "【独立变现】Show HN：帮助保持健康眨眼节奏的离线桌面伴侣",
+            "originalTitle": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
+            "summary": "像软件工程师、机械/图形设计师这样的职业会给您的眼睛带来很大的压力，长时间观察屏幕上的微小细节可以显着降低您可能没有意识到的眨眼频率...（来源：Show HN·独立变现榜）",
+            "content": "像软件工程师、机械/图形设计师这样的职业会给您的眼睛带来很大的压力，长时间观察屏幕上的微小细节可以显着降低您可能没有意识到的眨眼频率...（来源：Show HN·独立变现榜）\n\n【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "像软件工程师、机械/图形设计师这样的职业会给您的眼睛带来很大的压力，长时间观察屏幕上的微小细节可以显着降低您可能没有意识到的眨眼频率...（来源：Show HN·独立变现榜）",
+              "【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "Show HN·独立变现榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a0b87e9ef9b338143c1b9eedf",
+              "original": "https://eyesrhythm.com/"
+            },
+            "publishedAt": "2026-11-07T21:47:47.000Z",
+            "discoveredAt": "2026-11-08T07:48:30.943Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a0b87e9ef9b338143c1b9eedf"
+            }
+          },
+          {
+            "id": "a9a9ed01765dc5f467259fe7f",
+            "title": "【独立变现】显示 HN：我们在哪里",
+            "originalTitle": "Show HN: Where Were We",
+            "summary": "我制作的一个小网页游戏，作为送给妻子的周年纪念礼物。上传度假照片并将其制作成游戏。 WWW 使用 EXIF 来确定照片的拍摄地点和时间。然后，这将变成一个游戏，您可以发送...（来源：Show HN·独立变现榜）",
+            "content": "我制作的一个小网页游戏，作为送给妻子的周年纪念礼物。上传度假照片并将其制作成游戏。 WWW 使用 EXIF 来确定照片的拍摄地点和时间。然后，这将变成一个游戏，您可以发送...（来源：Show HN·独立变现榜）\n\n【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "我制作的一个小网页游戏，作为送给妻子的周年纪念礼物。上传度假照片并将其制作成游戏。 WWW 使用 EXIF 来确定照片的拍摄地点和时间。然后，这将变成一个游戏，您可以发送...（来源：Show HN·独立变现榜）",
+              "【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "Show HN·独立变现榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a9a9ed01765dc5f467259fe7f",
+              "original": "https://wherewerewe.app/"
+            },
+            "publishedAt": "2026-11-07T21:08:35.000Z",
+            "discoveredAt": "2026-11-08T07:48:31.431Z",
+            "category": "money",
+            "score": 99,
+            "selected": true,
+            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a9a9ed01765dc5f467259fe7f"
+            }
+          },
           {
             "id": "a56186e827335e269bc6cd42b",
             "title": "【出海实战】我的 SaaS 几乎是 100 美元，因为我决定帮助其他 SaaS 创始人。",
@@ -1896,151 +2041,6 @@
             "attribution": {
               "name": "曾练全球一手新闻",
               "url": "https://zenglian-news.onrender.com/items/a56186e827335e269bc6cd42b"
-            }
-          },
-          {
-            "id": "af13c8befe5d63b859b601536",
-            "title": "【独立变现】Show HN：我们将31B视频+音频扩散模型压缩为14B，6步，INT8",
-            "originalTitle": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
-            "summary": "Show HN·独立变现榜实时快讯：Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
-            "content": "Show HN·独立变现榜实时快讯：Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）\n\n【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "Show HN·独立变现榜实时快讯：Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8。全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。（来源：Show HN·独立变现榜）",
-              "【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "Show HN·独立变现榜"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/af13c8befe5d63b859b601536",
-              "original": "https://github.com/Video-Rebirth/hyperflow-h3-flash"
-            },
-            "publishedAt": "2026-11-07T15:16:01.000Z",
-            "discoveredAt": "2026-11-07T21:59:11.290Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/af13c8befe5d63b859b601536"
-            }
-          },
-          {
-            "id": "aef853d35698a0e4d9e6cd722",
-            "title": "【出海实战】停止构建玩具 SaaS 应用程序。",
-            "originalTitle": "Stop building toy SaaS apps.",
-            "summary": "现在是独立黑客思考更大的时候了。借助人工智能，您现在有能力构建可以与大型企业竞争的产品。您不需要数百万用户。即使 1,000 个付费客户也可以让您...（来源：X/Reddit·出海SaaS搞钱）",
-            "content": "现在是独立黑客思考更大的时候了。借助人工智能，您现在有能力构建可以与大型企业竞争的产品。您不需要数百万用户。即使 1,000 个付费客户也可以让您...（来源：X/Reddit·出海SaaS搞钱）\n\n【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "现在是独立黑客思考更大的时候了。借助人工智能，您现在有能力构建可以与大型企业竞争的产品。您不需要数百万用户。即使 1,000 个付费客户也可以让您...（来源：X/Reddit·出海SaaS搞钱）",
-              "【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/aef853d35698a0e4d9e6cd722",
-              "original": "https://www.reddit.com/r/SaaS/comments/1xq2fsk/stop_building_toy_saas_apps/"
-            },
-            "publishedAt": "2026-11-07T09:32:38.000Z",
-            "discoveredAt": "2026-11-07T13:27:47.764Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/aef853d35698a0e4d9e6cd722"
-            }
-          },
-          {
-            "id": "a83a6adcdd133598f5ade137d",
-            "title": "【独立变现】Show HN：预测市场对这次中期选举有预测吗？",
-            "originalTitle": "Show HN: Did prediction markets do any predicting this midterms?",
-            "summary": "我听说过很多关于预测市场如何成为这个黑暗世界的指路明灯的事情。但当与民意调查或 Nate Silver 的 FLIPR 模型进行正面对比时，它们确实是一败涂地。尤其是看翻转或闭合...（来源：Show HN·独立变现榜）",
-            "content": "我听说过很多关于预测市场如何成为这个黑暗世界的指路明灯的事情。但当与民意调查或 Nate Silver 的 FLIPR 模型进行正面对比时，它们确实是一败涂地。尤其是看翻转或闭合...（来源：Show HN·独立变现榜）\n\n【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "我听说过很多关于预测市场如何成为这个黑暗世界的指路明灯的事情。但当与民意调查或 Nate Silver 的 FLIPR 模型进行正面对比时，它们确实是一败涂地。尤其是看翻转或闭合...（来源：Show HN·独立变现榜）",
-              "【深度核心看点】全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "Show HN·独立变现榜"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a83a6adcdd133598f5ade137d",
-              "original": "https://app.artifactbin.dev/@vivek/AQTt2H-did-prediction-markets-predict-the-midterms"
-            },
-            "publishedAt": "2026-11-07T03:50:21.000Z",
-            "discoveredAt": "2026-11-07T06:26:57.357Z",
-            "category": "money",
-            "score": 99,
-            "selected": true,
-            "reason": "全球独立开发者在 Hacker News 晒出的高赞真实创业项目、微SaaS与变现工具。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a83a6adcdd133598f5ade137d"
-            }
-          },
-          {
-            "id": "a0a0cca33781cffa1fb69fd7d",
-            "title": "Edge AI Daily 早报（11月8日）",
-            "originalTitle": "Edge AI Daily 早报（11月8日）",
-            "summary": "硅谷前沿： 一、Anthropic 的 2 万亿 IPO 梦碎：路演前夜，投资者把估值砍向 1.5 万亿 1.估值与发行：Anthropic 向美国证券交易委员会秘密递交文件时瞄准约 2 万亿美元估值，但部分拟参与其 IPO 的投资者已将预期下调至 1.5 万亿美元以下，其中有人称可能进一步下探至 1 万亿美元；公司原计划下周启动路演、争取 11 月 16 日当周上市，但路透社援引知情人士称能否如期启动已成疑问，更新后的招股书仍未披露拟...",
-            "content": "硅谷前沿： 一、Anthropic 的 2 万亿 IPO 梦碎：路演前夜，投资者把估值砍向 1.5 万亿 1.估值与发行：Anthropic 向美国证券交易委员会秘密递交文件时瞄准约 2 万亿美元估值，但部分拟参与其 IPO 的投资者已将预期下调至 1.5 万亿美元以下，其中有人称可能进一步下探至 1 万亿美元；公司原计划下周启动路演、争取 11 月 16 日当周上市，但路透社援引知情人士称能否如期启动已成疑问，更新后的招股书仍未披露拟...\n\n【深度核心看点】聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "硅谷前沿： 一、Anthropic 的 2 万亿 IPO 梦碎：路演前夜，投资者把估值砍向 1.5 万亿 1.估值与发行：Anthropic 向美国证券交易委员会秘密递交文件时瞄准约 2 万亿美元估值，但部分拟参与其 IPO 的投资者已将预期下调至 1.5 万亿美元以下，其中有人称可能进一步下探至 1 万亿美元；公司原计划下周启动路演、争取 11 月 16 日当周上市，但路透社援引知情人士称能否如期启动已成疑问，更新后的招股书仍未披露拟...",
-              "【深度核心看点】聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "钛媒体·资本与风口"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a0a0cca33781cffa1fb69fd7d",
-              "original": "https://www.tmtpost.com/8197405.html"
-            },
-            "publishedAt": "2026-11-08T00:58:37.000Z",
-            "discoveredAt": "2026-11-08T01:17:39.200Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "聚焦一二级资本市场、独角兽融资并购与新商业赚钱赛道研报。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a0a0cca33781cffa1fb69fd7d"
-            }
-          },
-          {
-            "id": "a4f5248c002fc962fa0123bd3",
-            "title": "【出海实战】非常自豪的是，我的小工具现在拥有 300 多个客户，其中包括来自 Microsoft、Walmart、Groupon 等的团队！刚刚加入我的第一个全方位服务企业客户！亲切的谢谢！也到这个社区。",
-            "originalTitle": "So proud my tiny tool now has over 300 customers including teams from Microsoft, Walmart, Groupon and many more! Just on-boarded my first Full Service enterprise client! A gracious Thank you! to this community too.",
-            "summary": "https://preview.redd.it/r475dw9kp70i1.png?width=4500&format=png&auto=webp&s=46a8a1dd35f3ee702fd6064c8f06d914ee6c1181 是的，是的，我等到周六才发表这篇文章，尽管整个感觉都是正确的......（来源：X/Reddit·出海SaaS搞钱）",
-            "content": "https://preview.redd.it/r475dw9kp70i1.png?width=4500&format=png&auto=webp&s=46a8a1dd35f3ee702fd6064c8f06d914ee6c1181 是的，是的，我等到周六才发表这篇文章，尽管整个感觉都是正确的......（来源：X/Reddit·出海SaaS搞钱）\n\n【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "https://preview.redd.it/r475dw9kp70i1.png?width=4500&format=png&auto=webp&s=46a8a1dd35f3ee702fd6064c8f06d914ee6c1181 是的，是的，我等到周六才发表这篇文章，尽管整个感觉都是正确的......（来源：X/Reddit·出海SaaS搞钱）",
-              "【深度核心看点】海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "X/Reddit·出海SaaS搞钱"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a4f5248c002fc962fa0123bd3",
-              "original": "https://www.reddit.com/r/SaaS/comments/1xq9kuf/so_proud_my_tiny_tool_now_has_over_300_customers/"
-            },
-            "publishedAt": "2026-11-07T15:52:54.000Z",
-            "discoveredAt": "2026-11-07T18:14:48.971Z",
-            "category": "money",
-            "score": 98,
-            "selected": true,
-            "reason": "海外独立创始人真实复盘从 0 到月入数万美元 MRR 的获客增长与定价闭环。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a4f5248c002fc962fa0123bd3"
             }
           }
         ]
@@ -2230,13 +2230,13 @@
         "label": "🎬 影视娱乐Top20",
         "items": [
           {
-            "id": "a76ddd4ff75ee8eed748af71f",
-            "title": "【全球票房】克拉科夫大规模枪击事件默哀一分钟；达伦·阿罗诺夫斯基 (Darren Aronofsky) 和卢卡·瓜达尼诺 (Luca Guadagnino) 推出“人工”",
-            "originalTitle": "Camerimage Opens With Minute Of Silence For Kraków Mass Shooting; Darren Aronofsky Honored & Luca Guadagnino Introduces ‘Artificial’",
-            "summary": "今年的 Camerimage 电影节开幕式气氛阴沉，组织者在波兰托伦拉开了第 34 届 Camerimage 电影节的序幕，为克拉科夫大规模枪击事件的受害者默哀一分钟。（来源：Deadline·全球票房与新片）",
-            "content": "今年的 Camerimage 电影节开幕式气氛阴沉，组织者在波兰托伦拉开了第 34 届 Camerimage 电影节的序幕，为克拉科夫大规模枪击事件的受害者默哀一分钟。（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a00f074658d2bad13d2ba106b",
+            "title": "【全球票房】TAICCA 合资基金支持的项目包括《我们的蓝调》、《午夜晚餐》和《C'Est La Vie》",
+            "originalTitle": "‘Our Blues’, ‘Midnight Diner’ & ‘C’Est La Vie’ Among Projects Backed By TAICCA Joint Venture Funds",
+            "summary": "台湾创意内容机构（TAICCA）与当地公司联合成立的四家内容基金今天在 TCCF 展示会上展示了他们在过去一年中投资的项目。阵容从f...（来源：Deadline·全球票房与新片）",
+            "content": "台湾创意内容机构（TAICCA）与当地公司联合成立的四家内容基金今天在 TCCF 展示会上展示了他们在过去一年中投资的项目。阵容从f...（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "今年的 Camerimage 电影节开幕式气氛阴沉，组织者在波兰托伦拉开了第 34 届 Camerimage 电影节的序幕，为克拉科夫大规模枪击事件的受害者默哀一分钟。（来源：Deadline·全球票房与新片）",
+              "台湾创意内容机构（TAICCA）与当地公司联合成立的四家内容基金今天在 TCCF 展示会上展示了他们在过去一年中投资的项目。阵容从f...（来源：Deadline·全球票房与新片）",
               "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -2244,28 +2244,28 @@
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a76ddd4ff75ee8eed748af71f",
-              "original": "https://deadline.com/2026/11/camerimage-darren-aronofsky-luca-guadagnino-artificial-1237216360/"
+              "aihot": "https://zenglian-news.onrender.com/items/a00f074658d2bad13d2ba106b",
+              "original": "https://deadline.com/2026/11/our-blues-midnight-diner-taicca-joint-venture-funds-1237216640/"
             },
-            "publishedAt": "2026-11-08T00:37:12.000Z",
-            "discoveredAt": "2026-11-08T01:17:59.783Z",
+            "publishedAt": "2026-11-08T06:59:29.000Z",
+            "discoveredAt": "2026-11-08T07:48:57.229Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a76ddd4ff75ee8eed748af71f"
+              "url": "https://zenglian-news.onrender.com/items/a00f074658d2bad13d2ba106b"
             }
           },
           {
-            "id": "a21d726266040316c6b102b6b",
-            "title": "【好莱坞一手】韩国先锋在台湾创意内容节上警告称，人工智能可能会使电影制作成本比 35 毫米时代更高",
-            "originalTitle": "AI Could Make Filmmaking Costlier Than the 35mm Era, Korean Pioneers Warn at Taiwan Creative Content Fest",
-            "summary": "一位韩国人工智能制作先驱告诉台湾创意网，人工智能已经在削减广告成本，但失控的代币费用和零碎的修改可能会让故事片制片人支付比 35 毫米电影时代更多的费用。（来源：Variety·好莱坞影视）",
-            "content": "一位韩国人工智能制作先驱告诉台湾创意网，人工智能已经在削减广告成本，但失控的代币费用和零碎的修改可能会让故事片制片人支付比 35 毫米电影时代更多的费用。（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a3ab19cad83adbbd679475477",
+            "title": "【好莱坞一手】《周六夜现场》周末更新残酷地嘲笑埃隆·马斯克“史诗般的”中期选举失败",
+            "originalTitle": "‘SNL’ Weekend Update Brutally Roasts Elon Musk Over ‘Epic’ Midterms Defeat",
+            "summary": "精神错乱的“埃隆·马斯克”本周出现在《周六夜现场》周末更新台上，讨论周二中期选举的结果——而由《周六夜现场》特色演员杰里米·卡尔哈恩饰演的马斯克不太清楚……（来源：Variety·好莱坞影视）",
+            "content": "精神错乱的“埃隆·马斯克”本周出现在《周六夜现场》周末更新台上，讨论周二中期选举的结果——而由《周六夜现场》特色演员杰里米·卡尔哈恩饰演的马斯克不太清楚……（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "一位韩国人工智能制作先驱告诉台湾创意网，人工智能已经在削减广告成本，但失控的代币费用和零碎的修改可能会让故事片制片人支付比 35 毫米电影时代更多的费用。（来源：Variety·好莱坞影视）",
+              "精神错乱的“埃隆·马斯克”本周出现在《周六夜现场》周末更新台上，讨论周二中期选举的结果——而由《周六夜现场》特色演员杰里米·卡尔哈恩饰演的马斯克不太清楚……（来源：Variety·好莱坞影视）",
               "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -2273,28 +2273,28 @@
               "name": "Variety·好莱坞影视"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a21d726266040316c6b102b6b",
-              "original": "https://variety.com/2026/film/markets-festivals/ai-films-costlier-35mm-era-korean-pioneers-warn-1236942217/"
+              "aihot": "https://zenglian-news.onrender.com/items/a3ab19cad83adbbd679475477",
+              "original": "https://variety.com/2026/tv/news/snl-weekend-update-elon-musk-midterms-election-1236942283/"
             },
-            "publishedAt": "2026-11-08T00:27:50.000Z",
-            "discoveredAt": "2026-11-08T01:17:53.769Z",
+            "publishedAt": "2026-11-08T05:57:06.000Z",
+            "discoveredAt": "2026-11-08T07:48:51.266Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a21d726266040316c6b102b6b"
+              "url": "https://zenglian-news.onrender.com/items/a3ab19cad83adbbd679475477"
             }
           },
           {
-            "id": "a408aaab4ef6799cd7fd19f0b",
-            "title": "【全球票房】艾美·罗森 (Emmy Rossum) 谈 RAINN 大使身份，在《愤怒》角色之后“继续讨论”有关性暴力的话题",
-            "originalTitle": "Emmy Rossum On RAINN Ambassadorship, “Continuing The Conversation” About Sexual Violence After ‘Furious’ Role",
-            "summary": "当艾美·罗森准备回归《速度与激情》第二季时，她一直牢记着该剧的主题。这位金球奖提名者最近作为大使加入了 RAINN 的反性暴力组织，他解释说……（来源：Deadline·全球票房与新片）",
-            "content": "当艾美·罗森准备回归《速度与激情》第二季时，她一直牢记着该剧的主题。这位金球奖提名者最近作为大使加入了 RAINN 的反性暴力组织，他解释说……（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "ac5c7fa3455667ba972bfe2db",
+            "title": "【全球票房】德鲁斯基在《SNL》首秀期间为伊丽莎白·霍姆斯·白脸服务“德鲁可以看到一切”素描",
+            "originalTitle": "Druski Serves Elizabeth Holmes Whiteface In ‘Dru Can See Everything’ Sketch During ‘SNL’ Debut",
+            "summary": "在开玩笑说他无法向《周六夜现场》承诺他不会“不做白脸”后不久，德鲁斯基就借用了伊丽莎白·霍姆斯的说法。在周六的 NBC 喜剧小品节目中，内容创作者很快发布了...（来源：Deadline·全球票房与新片）",
+            "content": "在开玩笑说他无法向《周六夜现场》承诺他不会“不做白脸”后不久，德鲁斯基就借用了伊丽莎白·霍姆斯的说法。在周六的 NBC 喜剧小品节目中，内容创作者很快发布了...（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "当艾美·罗森准备回归《速度与激情》第二季时，她一直牢记着该剧的主题。这位金球奖提名者最近作为大使加入了 RAINN 的反性暴力组织，他解释说……（来源：Deadline·全球票房与新片）",
+              "在开玩笑说他无法向《周六夜现场》承诺他不会“不做白脸”后不久，德鲁斯基就借用了伊丽莎白·霍姆斯的说法。在周六的 NBC 喜剧小品节目中，内容创作者很快发布了...（来源：Deadline·全球票房与新片）",
               "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -2302,28 +2302,57 @@
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a408aaab4ef6799cd7fd19f0b",
-              "original": "https://deadline.com/2026/11/emmy-rossum-rainn-ambassadorship-sexual-violence-furious-role-1237216377/"
+              "aihot": "https://zenglian-news.onrender.com/items/ac5c7fa3455667ba972bfe2db",
+              "original": "https://deadline.com/2026/11/druski-elizabeth-holmes-whiteface-dru-can-see-everything-snl-1237216571/"
             },
-            "publishedAt": "2026-11-08T00:22:09.000Z",
-            "discoveredAt": "2026-11-08T01:18:01.041Z",
+            "publishedAt": "2026-11-08T05:09:43.000Z",
+            "discoveredAt": "2026-11-08T07:49:00.191Z",
             "category": "culture",
             "score": 99,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a408aaab4ef6799cd7fd19f0b"
+              "url": "https://zenglian-news.onrender.com/items/ac5c7fa3455667ba972bfe2db"
             }
           },
           {
-            "id": "a77f54176223f378190a9fd8e",
-            "title": "【全球票房】台湾中华电信公布以“枪声”和“龙虾召唤”为首的投资计划",
-            "originalTitle": "Taiwan’s Chunghwa Telecom Unveils Investment Slate Headed By ‘Gunshot’ & ‘Call Of Lobster’",
-            "summary": "台湾电信公司中华电信在台湾创意内容节（TCCF）上宣布了一系列电影和剧集投资，包括由蔡国强主演的警匪剧《枪声》和由崔始源主演的《龙虾的呼唤》……（来源：Deadline·全球票房与新片）",
-            "content": "台湾电信公司中华电信在台湾创意内容节（TCCF）上宣布了一系列电影和剧集投资，包括由蔡国强主演的警匪剧《枪声》和由崔始源主演的《龙虾的呼唤》……（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a5838d9b0704c58603676efde",
+            "title": "【好莱坞一手】《周六夜现场》：德鲁斯基·唐斯·白脸 (Druski Dons Whiteface) 在《你可以看到一切》戏仿中饰演伊丽莎白·霍姆斯 (Elizabeth Holmes)",
+            "originalTitle": "‘SNL’: Druski Dons Whiteface as Elizabeth Holmes in ‘You Can See Everything’ Parody",
+            "summary": "在一场忙碌的冷开场之后，得克萨斯州当选参议员詹姆斯·塔拉里科的光芒盖过了唐纳德·特朗普，而他未来的电影搭档艾玛·斯通的独白则被《周六夜现场》主持人德鲁斯基——创造了历史的第一个数字电视节目的主持人德鲁斯基……（来源：Variety·好莱坞影视）",
+            "content": "在一场忙碌的冷开场之后，得克萨斯州当选参议员詹姆斯·塔拉里科的光芒盖过了唐纳德·特朗普，而他未来的电影搭档艾玛·斯通的独白则被《周六夜现场》主持人德鲁斯基——创造了历史的第一个数字电视节目的主持人德鲁斯基……（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "台湾电信公司中华电信在台湾创意内容节（TCCF）上宣布了一系列电影和剧集投资，包括由蔡国强主演的警匪剧《枪声》和由崔始源主演的《龙虾的呼唤》……（来源：Deadline·全球票房与新片）",
+              "在一场忙碌的冷开场之后，得克萨斯州当选参议员詹姆斯·塔拉里科的光芒盖过了唐纳德·特朗普，而他未来的电影搭档艾玛·斯通的独白则被《周六夜现场》主持人德鲁斯基——创造了历史的第一个数字电视节目的主持人德鲁斯基……（来源：Variety·好莱坞影视）",
+              "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "Variety·好莱坞影视"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/a5838d9b0704c58603676efde",
+              "original": "https://variety.com/2026/tv/news/snl-druski-whiteface-elizabeth-holmes-nathan-fielder-you-can-see-everything-parody-1236942289/"
+            },
+            "publishedAt": "2026-11-08T05:29:04.000Z",
+            "discoveredAt": "2026-11-08T07:48:52.940Z",
+            "category": "culture",
+            "score": 98,
+            "selected": true,
+            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/a5838d9b0704c58603676efde"
+            }
+          },
+          {
+            "id": "ad9494c6462f81e4402dbb0f5",
+            "title": "【全球票房】艾玛·斯通 (Emma Stone) 与德鲁斯基 (Druski) 一起出演《周六夜现场》首秀，在拍摄浪漫喜剧《The Catch》时开场独白",
+            "originalTitle": "Emma Stone Joins Druski For His ‘SNL’ Debut Opening Monologue While Filming ‘The Catch’ Rom-Com",
+            "summary": "当 Druksi 首次亮相《周六夜现场》时，他得到了一位恰好在五人俱乐部的朋友的精神支持。在本周末的 NBC 喜剧小品节目中，内容创作者加入了……（来源：Deadline·全球票房与新片）",
+            "content": "当 Druksi 首次亮相《周六夜现场》时，他得到了一位恰好在五人俱乐部的朋友的精神支持。在本周末的 NBC 喜剧小品节目中，内容创作者加入了……（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "当 Druksi 首次亮相《周六夜现场》时，他得到了一位恰好在五人俱乐部的朋友的精神支持。在本周末的 NBC 喜剧小品节目中，内容创作者加入了……（来源：Deadline·全球票房与新片）",
               "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
@@ -2331,76 +2360,47 @@
               "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a77f54176223f378190a9fd8e",
-              "original": "https://deadline.com/2026/11/chang-chen-choi-siwon-kent-tsai-chunghwa-telecom-1237216224/"
+              "aihot": "https://zenglian-news.onrender.com/items/ad9494c6462f81e4402dbb0f5",
+              "original": "https://deadline.com/2026/11/emma-stone-joins-druski-snl-debut-opening-monologue-1237216552/"
             },
-            "publishedAt": "2026-11-08T00:00:00.000Z",
-            "discoveredAt": "2026-11-08T01:18:02.436Z",
+            "publishedAt": "2026-11-08T04:54:25.000Z",
+            "discoveredAt": "2026-11-08T07:49:00.748Z",
             "category": "culture",
-            "score": 99,
+            "score": 98,
             "selected": true,
             "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a77f54176223f378190a9fd8e"
+              "url": "https://zenglian-news.onrender.com/items/ad9494c6462f81e4402dbb0f5"
             }
           },
           {
-            "id": "a02b27701c19378ea206c51f5",
-            "title": "【好莱坞一手】巴布亚新几内亚最昂贵的电影《Mussau：第一首歌》拍摄结束，首次亮相（独家）",
-            "originalTitle": "Papua New Guinea’s Most Expensive Film, ‘Mussau: The First Song,’ Wraps Shoot, Unveils First Looks (EXCLUSIVE)",
-            "summary": "巴布亚新几内亚迄今为止最昂贵的电影、耗资 450 万美元的历史剧《穆绍：第一首歌》经过在两个省历时 40 天的拍摄，现已完成主要拍摄工作。拍摄地点在穆绍岛...（来源：Variety·好莱坞影视）",
-            "content": "巴布亚新几内亚迄今为止最昂贵的电影、耗资 450 万美元的历史剧《穆绍：第一首歌》经过在两个省历时 40 天的拍摄，现已完成主要拍摄工作。拍摄地点在穆绍岛...（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "a5429fefb9b1dbf664213e7fc",
+            "title": "【全球票房】詹姆斯·塔拉里科 (James Talarico) 凭借期中后客串和“特朗普冰箱”刷屏惊艳《周六夜现场》",
+            "originalTitle": "James Talarico Stuns ‘SNL’ With Post-Midterms Cameo & “Trump Freezers” Swipe",
+            "summary": "一周后，MAGA 的政治尖牙在期中选举中被一只蓝色大袜子打掉，今晚《周六夜现场》跳上擂台，从冷酷的开放式开局开始摇摆不定。事实上，他们去T...（来源：Deadline·全球票房与新片）",
+            "content": "一周后，MAGA 的政治尖牙在期中选举中被一只蓝色大袜子打掉，今晚《周六夜现场》跳上擂台，从冷酷的开放式开局开始摇摆不定。事实上，他们去T...（来源：Deadline·全球票房与新片）\n\n【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "巴布亚新几内亚迄今为止最昂贵的电影、耗资 450 万美元的历史剧《穆绍：第一首歌》经过在两个省历时 40 天的拍摄，现已完成主要拍摄工作。拍摄地点在穆绍岛...（来源：Variety·好莱坞影视）",
-              "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
+              "一周后，MAGA 的政治尖牙在期中选举中被一只蓝色大袜子打掉，今晚《周六夜现场》跳上擂台，从冷酷的开放式开局开始摇摆不定。事实上，他们去T...（来源：Deadline·全球票房与新片）",
+              "【深度核心看点】好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "Variety·好莱坞影视"
+              "name": "Deadline·全球票房与新片"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a02b27701c19378ea206c51f5",
-              "original": "https://variety.com/2026/film/news/papua-new-guinea-most-expensive-film-mussau-first-song-wraps-1236942202/"
+              "aihot": "https://zenglian-news.onrender.com/items/a5429fefb9b1dbf664213e7fc",
+              "original": "https://deadline.com/2026/11/saturday-night-live-james-talarico-cold-open-1237216532/"
             },
-            "publishedAt": "2026-11-07T23:58:45.000Z",
-            "discoveredAt": "2026-11-08T01:17:54.830Z",
+            "publishedAt": "2026-11-08T04:52:21.000Z",
+            "discoveredAt": "2026-11-08T07:49:02.790Z",
             "category": "culture",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
+            "reason": "好莱坞一线影视快讯媒体 Deadline，独家追踪全球院线票房、新片立项与巨星签约。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a02b27701c19378ea206c51f5"
-            }
-          },
-          {
-            "id": "ac005e2354cae80f85863b85e",
-            "title": "【好莱坞一手】《口袋妖怪》动画工作室 OLM 在日本政府支持的项目中仅在三帧上训练人工智能着色工具",
-            "originalTitle": "‘Pokemon’ Anime Studio OLM Trains AI Coloring Tool on Just Three Frames in Japan Government-Backed Project",
-            "summary": "OLM Digital 董事会董事 Yotsukura Tatsu 表示，“精灵宝可梦”动漫系列和电影背后的日本动画集团 OLM 开发了一种人工智能着色工具，只需从三个手绘帧中即可提取出节目的外观。（来源：Variety·好莱坞影视）",
-            "content": "OLM Digital 董事会董事 Yotsukura Tatsu 表示，“精灵宝可梦”动漫系列和电影背后的日本动画集团 OLM 开发了一种人工智能着色工具，只需从三个手绘帧中即可提取出节目的外观。（来源：Variety·好莱坞影视）\n\n【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "OLM Digital 董事会董事 Yotsukura Tatsu 表示，“精灵宝可梦”动漫系列和电影背后的日本动画集团 OLM 开发了一种人工智能着色工具，只需从三个手绘帧中即可提取出节目的外观。（来源：Variety·好莱坞影视）",
-              "【深度核心看点】好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "Variety·好莱坞影视"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac005e2354cae80f85863b85e",
-              "original": "https://variety.com/2026/tv/markets-festivals/pokemon-anime-studio-olm-ai-coloring-tool-three-frames-1236942198/"
-            },
-            "publishedAt": "2026-11-07T23:43:25.000Z",
-            "discoveredAt": "2026-11-08T01:17:55.845Z",
-            "category": "culture",
-            "score": 99,
-            "selected": true,
-            "reason": "好莱坞最权威影视圣经《Variety》，一手掌握全球大片、Netflix、迪士尼与奥斯卡动态。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac005e2354cae80f85863b85e"
+              "url": "https://zenglian-news.onrender.com/items/a5429fefb9b1dbf664213e7fc"
             }
           }
         ]
@@ -2409,6 +2409,35 @@
         "category": "business",
         "label": "🏆 体育实时Top20",
         "items": [
+          {
+            "id": "aafffa168ee728c7a930c9606",
+            "title": "【NBA一手】史蒂芬·库里 (Stephen Curry) 以 69/50/100 的命中率以 41/6/6 的比分战胜魔术队。勇士豪取七连胜！",
+            "originalTitle": "Stephen Curry on the clutch win vs. Magic 41/6/6 on 69/50/100 shooting. Warriors win 7th straight!",
+            "summary": "斯蒂芬·库里在 13/19 中得到 41 分，其中 10/10 的 FT 得分。斯蒂芬 38 岁的赛季应该参加 MVP 讨论吗？   由 /u/curry4real 提交 [链接] [评论]（来源：NBA·北美篮球实时热榜）",
+            "content": "斯蒂芬·库里在 13/19 中得到 41 分，其中 10/10 的 FT 得分。斯蒂芬 38 岁的赛季应该参加 MVP 讨论吗？   由 /u/curry4real 提交 [链接] [评论]（来源：NBA·北美篮球实时热榜）\n\n【深度核心看点】全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "paragraphs": [
+              "斯蒂芬·库里在 13/19 中得到 41 分，其中 10/10 的 FT 得分。斯蒂芬 38 岁的赛季应该参加 MVP 讨论吗？   由 /u/curry4real 提交 [链接] [评论]（来源：NBA·北美篮球实时热榜）",
+              "【深度核心看点】全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。 ",
+              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
+            ],
+            "source": {
+              "name": "NBA·北美篮球实时热榜"
+            },
+            "links": {
+              "aihot": "https://zenglian-news.onrender.com/items/aafffa168ee728c7a930c9606",
+              "original": "https://www.reddit.com/r/nba/comments/1xqpof2/stephen_curry_on_the_clutch_win_vs_magic_4166_on/"
+            },
+            "publishedAt": "2026-11-08T04:23:53.000Z",
+            "discoveredAt": "2026-11-08T07:49:10.916Z",
+            "category": "business",
+            "score": 99,
+            "selected": true,
+            "reason": "全美最大 NBA 实时赛事社区，秒级同步今日比赛战报、高光数据与 Shams 交易爆料。",
+            "attribution": {
+              "name": "曾练全球一手新闻",
+              "url": "https://zenglian-news.onrender.com/items/aafffa168ee728c7a930c9606"
+            }
+          },
           {
             "id": "a31d443709f426f0b259c997a",
             "title": "【NBA一手】从 60 到 1 顺位选秀中的最佳 NBA 球员",
@@ -2526,61 +2555,32 @@
             }
           },
           {
-            "id": "a989ecfc87b8b25ccdb781321",
-            "title": "【欧洲足坛】诺丁汉森林 v 曼城：英超联赛 - 直播",
-            "originalTitle": "Nottingham Forest v Manchester City: Premier League – live",
-            "summary": "⚽ 格林威治标准时间下午 5.30 开球的英超联赛更新 ⚽ 实时比分 |满桌|在 TikTok 上关注我们 |给汤姆发邮件 我们要去城市球场了。开始之前，我们将听到“The Last Post”。明天就是纪念星期日。 ...（来源：卫报体育·欧冠与五大联赛）",
-            "content": "⚽ 格林威治标准时间下午 5.30 开球的英超联赛更新 ⚽ 实时比分 |满桌|在 TikTok 上关注我们 |给汤姆发邮件 我们要去城市球场了。开始之前，我们将听到“The Last Post”。明天就是纪念星期日。 ...（来源：卫报体育·欧冠与五大联赛）\n\n【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
+            "id": "af3af3f4d4728c7d42b0c9f1b",
+            "title": "【体坛快讯】WTT法兰克福冠军赛：中国选手无缘四强",
+            "originalTitle": "WTT法兰克福冠军赛：中国选手无缘四强",
+            "summary": "中新社德国法兰克福11月8日电 当地时间11月7日，2026年世界乒乓球职业大联盟(WTT)法兰克福冠军赛迎来男、女单打1/4决赛。当日出战的中国选手陈幸同、蒯曼、陈熠、温瑞博均不敌对手出局。在德国的本站赛事中，中国选手无人晋级四强。",
+            "content": "中新社德国法兰克福11月8日电 当地时间11月7日，2026年世界乒乓球职业大联盟(WTT)法兰克福冠军赛迎来男、女单打1/4决赛。当日出战的中国选手陈幸同、蒯曼、陈熠、温瑞博均不敌对手出局。在德国的本站赛事中，中国选手无人晋级四强。\n\n【深度核心看点】权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
             "paragraphs": [
-              "⚽ 格林威治标准时间下午 5.30 开球的英超联赛更新 ⚽ 实时比分 |满桌|在 TikTok 上关注我们 |给汤姆发邮件 我们要去城市球场了。开始之前，我们将听到“The Last Post”。明天就是纪念星期日。 ...（来源：卫报体育·欧冠与五大联赛）",
-              "【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 ",
+              "中新社德国法兰克福11月8日电 当地时间11月7日，2026年世界乒乓球职业大联盟(WTT)法兰克福冠军赛迎来男、女单打1/4决赛。当日出战的中国选手陈幸同、蒯曼、陈熠、温瑞博均不敌对手出局。在德国的本站赛事中，中国选手无人晋级四强。",
+              "【深度核心看点】权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。 ",
               "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
             ],
             "source": {
-              "name": "卫报体育·欧冠与五大联赛"
+              "name": "中新网·体育焦点"
             },
             "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/a989ecfc87b8b25ccdb781321",
-              "original": "https://www.theguardian.com/football/live/2026/nov/07/nottingham-forest-v-manchester-city-premier-league-live"
+              "aihot": "https://zenglian-news.onrender.com/items/af3af3f4d4728c7d42b0c9f1b",
+              "original": "https://www.chinanews.com.cn/ty/2026/11-08/10728253.shtml"
             },
-            "publishedAt": "2026-11-07T18:01:20.000Z",
-            "discoveredAt": "2026-11-07T18:15:42.755Z",
+            "publishedAt": "2026-11-08T02:15:33.000Z",
+            "discoveredAt": "2026-11-08T02:19:58.923Z",
             "category": "business",
-            "score": 99,
+            "score": 98,
             "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
+            "reason": "权威直击中国男女足、CBA、乒乓球、网球大满贯及国内外重大赛事战报。",
             "attribution": {
               "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/a989ecfc87b8b25ccdb781321"
-            }
-          },
-          {
-            "id": "ac598a7a3ac222272bb6eb6c1",
-            "title": "【欧洲足坛】马丁·厄德高凭借制胜球打破赫尔城的抵抗，扩大了阿森纳的领先优势",
-            "originalTitle": "Martin Ødegaard extends Arsenal lead at top with winner to break Hull resistance",
-            "summary": "正如大多数阿森纳球迷所证明的那样，耐心是一种美德。在 22 年的等待中，他们需要足够多的时间才能加冕英超冠军，米克尔·阿尔特塔的球队在比赛中当然必须保持冷静。（来源：卫报体育·欧冠与五大联赛）",
-            "content": "正如大多数阿森纳球迷所证明的那样，耐心是一种美德。在 22 年的等待中，他们需要足够多的时间才能加冕英超冠军，米克尔·阿尔特塔的球队在比赛中当然必须保持冷静。（来源：卫报体育·欧冠与五大联赛）\n\n【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 \n\n【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。",
-            "paragraphs": [
-              "正如大多数阿森纳球迷所证明的那样，耐心是一种美德。在 22 年的等待中，他们需要足够多的时间才能加冕英超冠军，米克尔·阿尔特塔的球队在比赛中当然必须保持冷静。（来源：卫报体育·欧冠与五大联赛）",
-              "【深度核心看点】英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。 ",
-              "【背景与多方影响】经由多源交叉比对与研判，该事件在行业上下游及各方市场中持续引发广泛关注，后续落地与趋势演化值得重点跟踪。"
-            ],
-            "source": {
-              "name": "卫报体育·欧冠与五大联赛"
-            },
-            "links": {
-              "aihot": "https://zenglian-news.onrender.com/items/ac598a7a3ac222272bb6eb6c1",
-              "original": "https://www.theguardian.com/football/2026/nov/07/arsenal-hull-premier-league-match-report"
-            },
-            "publishedAt": "2026-11-07T17:02:45.000Z",
-            "discoveredAt": "2026-11-07T18:15:44.252Z",
-            "category": "business",
-            "score": 99,
-            "selected": true,
-            "reason": "英国《卫报》足球专栏，深度直击英超豪门、欧冠焦点战报与欧洲足坛重磅交易。",
-            "attribution": {
-              "name": "曾练全球一手新闻",
-              "url": "https://zenglian-news.onrender.com/items/ac598a7a3ac222272bb6eb6c1"
+              "url": "https://zenglian-news.onrender.com/items/af3af3f4d4728c7d42b0c9f1b"
             }
           }
         ]
