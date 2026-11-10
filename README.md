@@ -1,105 +1,103 @@
-# 📰 增联新闻 (Zenglian News)
+# 📰 增联新闻 (Zenglian News / AIHOT)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/在线体验-zenglian--news.onrender.com-00C7B7?style=for-the-badge&logo=render&logoColor=white" alt="在线演示">
-  <img src="https://img.shields.io/badge/编译引擎-DeepSeek_V3-0066FF?style=for-the-badge&logo=deepseek&logoColor=white" alt="DeepSeek">
-  <img src="https://img.shields.io/badge/云数据库-Neon_PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="Neon DB">
-  <img src="https://img.shields.io/badge/开源协议-MIT-green?style=for-the-badge" alt="License">
+  <a href="https://zenglian-news.onrender.com"><img src="https://img.shields.io/badge/在线体验-zenglian--news.onrender.com-00C7B7?style=for-the-badge&logo=render&logoColor=white" alt="在线演示"></a>
+  <img src="https://img.shields.io/badge/编译引擎-DeepSeek_V3_%2B_Gemini_2.5-0066FF?style=for-the-badge&logo=deepseek&logoColor=white" alt="AI Engine">
+  <img src="https://img.shields.io/badge/云数据库-Neon_PostgreSQL_17-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="Neon DB">
+  <img src="https://img.shields.io/badge/架构-Node.js_24_Monorepo_%2B_SSR-green?style=for-the-badge&logo=node.js&logoColor=white" alt="Node 24">
 </p>
 
 <p align="center">
-  <b>全球科技与商业一手智能情报枢纽 · 7x24h 自动化巡检 · DeepSeek 深度双语编译 · 六大精选板块</b><br>
-  👉 <b>立即在线体验：<a href="https://zenglian-news.onrender.com">https://zenglian-news.onrender.com</a></b>
+  <b>全球科技与商业一手智能情报枢纽 · 7x24h 自动化巡检 · 双引擎深度双语编译 · 六大精选板块</b><br>
+  👉 <b>Web 云端直达：<a href="https://zenglian-news.onrender.com">https://zenglian-news.onrender.com</a></b> ｜ <b>Android 客户端：Releases `v2.8.1`</b>
 </p>
 
 ---
 
 ## 🌟 项目简介
 
-**增联新闻（Zenglian News）** 是专为创业者、投资人、极客及高端决策者量身打造的**新一代商业与全球科技情报聚合中心**。
+**增联新闻（Zenglian News）** 是面向创业者、投资人与技术决策者构建的**全球科技与商业一手智能情报聚合平台**。
 
-系统突破传统新闻聚合平台的杂乱与机翻死板痛点，采用 **DeepSeek 专业媒体级大模型编译引擎** 与 **7x24 小时云原生自动化采集体系**，对全球顶尖信源进行实时过滤、精选评分与深度编译，让用户在第一时间洞察全球商业先机与搞钱风向。
+系统采用 **Node.js 24 TypeScript Monorepo 架构**，结合 **DeepSeek (`deepseek-chat`) 与 Gemini (`gemini-2.5-flash`) 双大模型编译管线** 以及 **7x24 小时云原生定时采集守护进程 (`AutoCurator`)**，对全球权威科技与商业信源进行实时抓取、正文清洗、结构化评分与中英双语对照编译。
 
 ---
 
-## 🎯 六大核心情报板块 (Top 10)
+## 🎯 六大核心情报板块
 
-平台精简排版，按需分类，杜绝信息过载：
+平台按商业与技术价值精简为六大板块，过滤低质水文：
 
-| 板块名称 | 定位与核心价值 | 重点信源渠道 |
+| 板块名称 | 定位与核心价值 | 代表信源渠道 |
 | :--- | :--- | :--- |
-| **🌐 全球一手** | 硅谷最新突破、海外独立创新、AI 落地神器与重大科技动态（支持中英/丹麦语原文双语一键切换） | Hacker News、OpenAI 官方博客、Product Hunt、国际权威科技资讯 |
-| **🇨🇳 国内前沿** | 国内科技大厂、国产大模型前沿、芯片算力与产业落地动态 | 量子位、极客公园、IT之家、开源中国 |
-| **💼 商业创投** | 商业内幕、资本运作、产业深度研报与融资并购一手风向 | 虎嗅网、钛媒体、界面新闻商业版 |
-| **⚡ 科技硬件** | 前沿数码消费、AI 硬件、具身机器人与消费电子新品一手测评 | 爱范儿、极客消费实验室 |
-| **🎭 数字文娱** | 数字生活方式、效率生产力工具、软硬件优质体验探索 | 少数派 (SSPAI)、数字工作流精选 |
-| **💰 搞钱变现** | 独立开发者创业、副业变现、出海赚钱案例与商业化实战讨论 | V2EX 搞钱创造、Product Hunt 创客变现 |
+| **🌐 全球一手** | 硅谷前沿突破、海外独立开发、AI 核心动态（支持中文精编与多语种外媒原文一键对照切换） | Hacker News、OpenAI Blog、Product Hunt、TechCrunch 等国际科技媒体 |
+| **🇨🇳 国内前沿** | 国内科技大厂、国产大模型演进、算力基础设施与产业落地动态 | 量子位、极客公园、IT之家、开源中国 |
+| **💼 商业创投** | 商业深度报道、一级市场投融资、并购动态与行业研报 | 虎嗅网、钛媒体、界面新闻商业版 |
+| **⚡ 科技硬件** | AI 硬件、具身智能机器人、芯片终端与消费电子深度评测 | 爱范儿、极客消费实验室 |
+| **🎭 数字文娱** | 生产力工具、数字工作流与软硬件效率实践 | 少数派 (SSPAI)、效率工具精选 |
+| **💰 搞钱变现** | 独立开发者商业化实战、出海 SaaS 变现案例与副业增长洞察 | V2EX 创造/搞钱节点、Indie Hackers、Product Hunt |
 
 ---
 
-## ⚡ 核心技术亮点
+## 🏗️ 工程架构与技术栈 (Monorepo)
 
-### 1. 🤖 DeepSeek 顶级媒体级编译引擎
-- 告别传统免费机器翻译的生硬机翻与高频 429 报错。
-- 采用 **DeepSeek-Chat 结构化 JSON 编译**，一次性同步生成**精炼主标题**、**150字核心速览**与**全文字段流畅中文**。
-- 原文与译文严格物理分流，保留完整外语原貌，支持用户随时在手机端点击 **【 中文 | 原文 】** 自由对照。
+项目采用 NPM Workspaces 单体多包（Monorepo）架构，由 `run-all.mjs` 统一编排启动：
 
-### 2. ⏰ 7x24 小时云原生自治调度 (AutoCurator)
-- 内置零外部依赖的后台守护服务，每 15 分钟全自动巡检抓取全球顶级信源。
-- 自动完成内容清洗、正文提取、去除广告 Cookie 冗余、结构化入库与分类标签归档。
+```text
+zenglian-news/
+├── apps/
+│   ├── api/                      # 后端核心 API 服务 (监听端口 3001)
+│   ├── worker/                   # 后台异步任务处理与大模型编译队列服务
+│   └── web/                      # 前端 React 19 + React Router v8 + Tailwind v4 SSR 服务端渲染应用 (端口 3000)
+├── packages/
+│   ├── backend/                  # 数据库访问层、业务逻辑与多模型调用核心库
+│   └── contracts/                # 前后端共享 TypeScript 类型契约与接口定义
+├── industry/ & site/             # 行业分类规约与站点静态配置模块
+├── scripts/
+│   ├── migrate.ts                # PostgreSQL 数据库 Schema 自动迁移脚本
+│   └── inject_premium_sources.mjs# AutoCurator 7x24h 全球精选信源定时巡检与双语入库脚本
+├── run-all.mjs                   # 全栈多进程守护启动器 (API + Worker + Web SSR + 15分钟定时巡检)
+├── render.yaml & Dockerfile      # Render 云平台 Docker 容器化部署配置
+└── tests/                        # Node.js 原生并发集成测试套件
+```
 
-### 3. 📱 极简轻量级移动端与 PWA 体验
-- 专为手机端优化的高端杂志级排版，三字精炼 Tab 切换，丝滑流畅。
-- 支持添加到手机主屏幕（PWA），即开即看，无需下载庞大应用。
-- 内置**智能早报/晨报生成器**，早间一键生成今日精选简报。
+### 核心技术亮点
+1. **双引擎结构化编译**：基于 `deepseek-chat` (DeepSeek-V3) 与 `gemini-2.5-flash`，一次性输出结构化中文精炼标题、核心摘要与全文编译，同时完整保留外语原文供随时对照切换。
+2. **7x24 小时自治巡检 (`AutoCurator`)**：`run-all.mjs` 内置零外部 Cron 依赖的守护定时器，启动后每 15 分钟自动执行 `scripts/inject_premium_sources.mjs` 巡检全球信源并写入云端数据库。
+3. **云端网关自动寻址**：支持将最新公网入口同步至 GitHub Gist 路由表，配合 Android 原生客户端 (`v2.8.1`) 与移动端 PWA 实现免配置直连。
 
 ---
 
-## 🛠️ 技术栈一览
+## 🚀 本地开发与启动指南
 
-- **服务端 & SSR**：Node.js 24 + TypeScript + React Router SSR
-- **数据库**：PostgreSQL 17 (Neon Serverless Cloud DB)
-- **AI 大模型**：DeepSeek API (`deepseek-chat`)
-- **云部署**：Render (Docker 容器化全自动 CI/CD) + Cloudflare CDN 加速
-- **数据抓取**：Cheerio + Fast-XML-Parser + 健壮多通道超时防护
+### 1. 环境要求
+- **Node.js**: `>= 24.11`（支持原生 TypeScript 直接运行与 `--env-file`）
+- **PostgreSQL**: PostgreSQL 17（或 Neon Serverless PostgreSQL 云数据库）
 
----
-
-## 🚀 快速本地启动
-
-### 1. 克隆代码仓库
+### 2. 安装与配置
 ```bash
 git clone https://github.com/Zenglian990/zenglian-news.git
 cd zenglian-news
-```
-
-### 2. 安装依赖
-```bash
 npm install
-```
-
-### 3. 配置环境变量
-复制环境配置模板：
-```bash
 cp .env.example .env
 ```
-配置你的 `DATABASE_URL` 以及 `DEEPSEEK_API_KEY`。
+在 `.env` 中配置 `DATABASE_URL`、`DEEPSEEK_API_KEY`（及可选的 `LLM_API_KEY`）。
 
-### 4. 启动所有服务
+### 3. 执行数据库迁移与全栈启动
 ```bash
+# 初始化数据库表结构
+npm run db:migrate
+
+# 一键启动 API (3001) + Worker + Web SSR (3000) + AutoCurator 定时巡检
 node run-all.mjs
 ```
-访问本地：`http://127.0.0.1:3000`
+启动后浏览器访问：`http://127.0.0.1:3000`（管理后台：`http://127.0.0.1:3000/admin`）。
+
+### 4. 类型检查与测试
+```bash
+npm run typecheck
+npm test
+```
 
 ---
 
-## 📄 开源许可证
-
-本项目基于 [MIT 许可证](LICENSE) 开源。
-
----
-
-<p align="center">
-  <b>增联新闻 · 汇聚全球顶尖智慧，助您洞察财富先机</b><br>
-  Created with ❤️ by 曾先生
-</p>
+## 📄 许可证
+本项目基于 [MIT License](LICENSE) 许可协议管理。
