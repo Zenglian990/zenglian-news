@@ -1,0 +1,83 @@
+name: Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: check-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Build & Test
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          package-manager-cache: false
+
+      - name: Install Dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Build Web Application
+        run: npm run build -w @aihot/web
+
+      - name: Run Web Tests
+        run: node --test apps/web/tests/*.test.ts
+
+      - name: Run Runtime & Security Unit Tests
+        run: node --test scripts/*.test.mjs
+
+      - name: Run Core Backend Unit Tests
+        env:
+          DATABASE_URL: postgres://postgres:postgres@127.0.0.1:5432/aihot_test
+        run: node --test tests/url.test.ts tests/url-identity.test.ts tests/rss-links.test.ts tests/web-list-date.test.ts
+
+  secret-scan:
+    name: Credential Leak Guard
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Scan Tracked Files for Production Credentials
+        run: |
+          python3 -c "
+          import subprocess, re, sys
+          files = subprocess.check_output(['git', 'ls-files'], text=True).splitlines()
+          patterns = [
+              ('Google_API_Key', re.compile(r'AIzaSy[A-Za-z0-9_-]{33}')),
+              ('Neon_DB_Password', re.compile(r'npg_[A-Za-z0-9]{8,}')),
+              ('Neon_DB_Host', re.compile(r'ep-[a-z0-9-]+\.[a-z0-9-]+\.aws\.neon\.tech')),
+              ('DeepSeek_OpenAI_Key', re.compile(r'sk-[a-f0-9]{24,}')),
+          ]
+          hits = 0
+          for f in files:
+              try:
+                  txt = open(f, 'r', encoding='utf-8', errors='ignore').read()
+              except Exception:
+                  continue
+              for name, pat in patterns:
+                  for m in pat.finditer(txt):
+                      print(f'ERROR: Leaked {name} in {f}')
+                      hits += 1
+          if hits > 0:
+              sys.exit(1)
+          print('Zero production credentials found in tracked files.')
+          "

@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: zenglian-news
+    runtime: docker
+    plan: free
+    region: singapore
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "3000"
+      - key: API_BASE_URL
+        value: http://127.0.0.1:3001
+      - key: IS_CLOUD
+        value: "true"
+      - key: SITE_URL
+        sync: false
+      - key: SESSION_SECRET
+        sync: false
+      - key: IMG_PROXY_SIGN_SECRET
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: DEEPSEEK_API_KEY
+        sync: false

@@ -1,0 +1,59 @@
+name: Sync News Cache to CDN
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-news
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      SITE_URL: ${{ vars.SITE_URL || secrets.SITE_URL }}
+      DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+    steps:
+      - name: Validate required environment
+        run: |
+          if [ -z "${DATABASE_URL:-}" ]; then
+            echo "Missing required DATABASE_URL secret" >&2
+            exit 1
+          fi
+          if [ -z "${SITE_URL:-}" ]; then
+            echo "Missing required SITE_URL variable/secret" >&2
+            exit 1
+          fi
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          package-manager-cache: false
+
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Crawl live RSS feeds and curate sources
+        run: node scripts/inject_premium_sources.mjs
+
+      - name: Export fresh news from Database
+        run: node scripts/export_fresh_data_from_db.mjs
+
+      - name: Upload news data artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: news-data-export
+          path: |
+            data/
+            data-v2/
+          retention-days: 7
+          if-no-files-found: error
