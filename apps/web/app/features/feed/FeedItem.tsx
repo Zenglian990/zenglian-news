@@ -1,8 +1,28 @@
 // One report in a feed. Desktop (≥ 961px): a white card beside the time rail. Phones: a compact row with
 // the time in the source line, the bookmark at hand, the reason in one line and duplicate reports
 // behind one button that opens a sheet. One markup, two presentations.
-import { memo } from "react";
+import { memo, type ReactNode } from "react";
 import { Link } from "react-router";
+
+function highlightQuery(text: string | null | undefined, q: string | null | undefined): ReactNode {
+  if (!text) return text;
+  const term = q?.trim();
+  if (!term) return text;
+  const tokens = term.split(/\s+/).filter(Boolean).map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  if (!tokens.length) return text;
+  const re = new RegExp(`(${tokens.join("|")})`, "gi");
+  const parts = text.split(re);
+  if (parts.length <= 1) return text;
+  return parts.map((part, idx) =>
+    idx % 2 === 1 ? (
+      <mark key={idx} className="bg-amber-200/70 dark:bg-amber-500/30 text-inherit rounded-[2px] px-0.5">
+        {part}
+      </mark>
+    ) : (
+      part
+    )
+  );
+}
 import { IntentLink } from "../../components/ui/IntentLink";
 import type { GroupInfo, FeedItemSummary, TimelineFilters } from "@aihot/contracts/site";
 import { CATEGORY_LABELS } from "@aihot/contracts/taxonomy";
@@ -82,17 +102,17 @@ export const FeedItem = memo(function FeedItem({ item, group, filters, read = fa
       {isX ? (
         <p className={`mt-1.5 whitespace-pre-line text-[15px] leading-[1.75] line-clamp-5 lg:mt-2 lg:line-clamp-4 ${read ? "text-ink-4" : "text-ink"}`}>
           <IntentLink viewTransition to={`/items/${item.id}`} onClick={open} className="after:absolute after:inset-0 after:content-['']">
-            {item.summary ?? item.title}
+            {highlightQuery(item.summary ?? item.title, filters?.q)}
           </IntentLink>
         </p>
       ) : (
         <>
           <h3 className={`mt-1.5 line-clamp-2 text-[17px] font-[650] leading-[1.5] lg:mt-2 lg:line-clamp-none lg:leading-[1.55] ${read ? "text-ink-4" : "text-ink"}`}>
             <IntentLink viewTransition to={`/items/${item.id}`} onClick={open} className="after:absolute after:inset-0 after:content-['']">
-              {item.title}
+              {highlightQuery(item.title, filters?.q)}
             </IntentLink>
           </h3>
-          {item.summary && <p className="mt-1 line-clamp-2 text-[14.5px] leading-[1.7] text-ink-3 lg:mt-2 lg:line-clamp-3 lg:text-[15px] lg:leading-[1.75]">{item.summary}</p>}
+          {item.summary && <p className="mt-1 line-clamp-2 text-[14.5px] leading-[1.7] text-ink-3 lg:mt-2 lg:line-clamp-3 lg:text-[15px] lg:leading-[1.75]">{highlightQuery(item.summary, filters?.q)}</p>}
         </>
       )}
 

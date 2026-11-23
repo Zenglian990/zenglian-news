@@ -526,7 +526,7 @@ const SPORTS_NOISE_REGEX = /欧冠|英超|西甲|意甲|德甲|法甲|中超|国
 const CRIME_TRIVIA_REGEX = /纵火|判刑|杀人|凶杀|盗窃|吸毒|家暴|出轨|酒驾|交通事故|追尾/i;
 const HIGH_VALUE_REGEX = /AI|人工智能|大模型|GPT|Claude|DeepSeek|OpenAI|芯片|算力|英伟达|NVIDIA|苹果|Apple|谷歌|Google|微软|特斯拉|马斯克|机器人|开源|融资|估值|营收|财报|收购|出海|独立开发|变现|SaaS|MRR|ARR|赚钱|副业|突破|首发|发布|创业|商业|流媒体|票房|效率|工具/i;
 const PURE_AI_REGEX = /OpenAI|ChatGPT|Claude|Anthropic|DeepSeek|Qwen|通义千问|Kimi|豆包|大模型|LLM|Agent|智能体|具身智能|人形机器人|算力|英伟达|NVIDIA|Sora|Midjourney|多模态|推理模型|微调/i;
-const FOREIGN_GEO_REGEX = /伊朗|以色列|加沙|巴勒斯坦|乌克兰|俄罗斯|泽连斯基|普京|白宫|五角大楼|美国国会|英国首相|苏格兰|法国总统|德国总理|墨西哥|叙利亚|黎巴嫩|北约|欧盟委员会|Cloudflare|FAA|NASA/i;
+const FOREIGN_GEO_REGEX = /伊朗|以色列|加沙|巴勒斯坦|乌克兰|俄罗斯|莫斯科|泽连斯基|普京|白宫|五角大楼|美国国会|英国首相|伦敦|苏格兰|法国总统|巴黎|德国|柏林|日本|东京|韩国|首尔|加拿大|澳大利亚|巴西|墨西哥|叙利亚|黎巴嫩|北约|欧盟委员会|Cloudflare|FAA|NASA/i;
 const CHINA_REL_REGEX = /中国|国内|我国|国务院|发改委|工信部|央行|A股|港股|人民币|华为|字节|腾讯|阿里|小米|比亚迪|百度|美团|京东|拼多多|深交所|上交所|北京|上海|深圳|杭州/i;
 
 function isNoiseOrSpam(title, desc = "", sourceId = "") {

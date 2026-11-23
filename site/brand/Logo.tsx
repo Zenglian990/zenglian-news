@@ -10,7 +10,8 @@ export function Wordmark({ size = 24, className = "", title = SITE.name }: { siz
         <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
         <path d="M2 12h20" />
       </svg>
-      <span className="truncate max-w-[168px] sm:max-w-none text-ink">{SITE.name}</span>
+      <span className="sm:hidden text-ink">{SITE.shortName}</span>
+      <span className="hidden sm:inline text-ink">{SITE.name}</span>
     </span>
   );
 }
