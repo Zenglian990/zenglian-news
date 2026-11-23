@@ -15,7 +15,7 @@ export const DEFAULT_CURATOR_BOOT_DELAY_MS = 10_000;
 export const DEFAULT_CURATOR_TIMEOUT_MS = 12 * 60 * 1000;
 export const DEFAULT_CURATOR_FORCE_KILL_DELAY_MS = 5_000;
 export const DEFAULT_SHUTDOWN_TIMEOUT_MS = 200_000;
-export const DEFAULT_WEB_STOP_TIMEOUT_MS = 10_000;
+export const DEFAULT_WEB_STOP_TIMEOUT_MS = 4_000;
 export const DEFAULT_API_STOP_TIMEOUT_MS = 10_000;
 
 /** 判断当前是否处于生产环境或 Cloud Run 运行时。 */
@@ -575,7 +575,7 @@ export function createSupervisedService({
 
 async function main() {
   const root = process.cwd();
-  console.log("🚀 Starting AIHOT services...");
+  console.log("🚀 Starting Zenglian News services...");
 
   const hasDotEnv = loadDotEnvIfExists(root, process.env);
   const envArgs = hasDotEnv ? ["--env-file=.env"] : [];
@@ -684,9 +684,10 @@ async function main() {
     cwd: root,
     env: () => ({ ...process.env }),
     isShuttingDown: () => shuttingDown,
-    onCircuitBreak: () => {
-      readinessAbort.abort();
-      void shutdown(1);
+    onCircuitBreak: (decision) => {
+      console.error(
+        `⚠️ [Worker] Background worker circuit breaker tripped (${decision?.reason ?? "unknown"}). Keeping Web and API services alive.`
+      );
     },
   });
   workerService.start();

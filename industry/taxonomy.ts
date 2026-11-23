@@ -22,7 +22,7 @@ export const CATEGORIES = [
 /**
  * 这个行业最受关注的一类发布（如重大科技突破）
  */
-export const RELEASE: { category: string; tag: string; unit: string } | null = { category: "tech", tag: "科技突破", unit: "个科技突破" };
+export const RELEASE: { category: string; tag: string; unit: string } | null = { category: "tech", tag: "模型发布", unit: "个科技突破" };
 
 /** 周报月报的总述可以直接写、不必在报道里找到出处的行业通用词（小写）。站名会自动算进去。 */
 export const PLAIN_TERMS: readonly string[] = ["ai", "api", "llm", "gpu", "agi", "ceo", "ipo"];
@@ -57,7 +57,7 @@ export const TAG_SYNONYMS: Readonly<Record<string, string>> = {
   论文: "论文/研究", 研究: "论文/研究", paper: "论文/研究", papers: "论文/研究",
   "open-source": "开源/仓库", 开源: "开源/仓库", 仓库: "开源/仓库", repo: "开源/仓库",
   教程: "教程/实践", 玩法: "教程/实践", 指南: "教程/实践", 技巧: "教程/实践", 最佳实践: "教程/实践", 实践: "教程/实践",
-  产品: "产品更新", 更新: "产品更新", 发布: "模型发布", 模型: "模型发布", 趋势: "现象/趋势", 现象: "现象/趋势", 观点: "大佬观点",
+  产品: "产品更新", 更新: "产品更新", 发布: "模型发布", 模型: "模型发布", 科技突破: "模型发布", 趋势: "现象/趋势", 现象: "现象/趋势", 观点: "大佬观点",
   视频生成: "视频", 非ai: "非AI/通用工具", "non-ai": "非AI/通用工具", 通用工具: "非AI/通用工具", 工程工具: "非AI/通用工具",
   安全扫描: "非AI/通用工具", devops: "非AI/通用工具", 行业: "行业动态", 动态: "行业动态",
 };

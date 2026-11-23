@@ -31,7 +31,7 @@ export function registerFeedback(app: FastifyInstance) {
   app.post("/api/site/feedback", { bodyLimit: 12 * 1024 * 1024 }, async (req, reply) => {
     try {
       const body = await readForm(req.body, String(req.headers["content-type"] ?? ""));
-      const ip = String(req.headers["x-real-ip"] ?? req.ip ?? "");
+      const ip = req.ip || "unknown";
       const result = await submitFeedback({ ...body, ip, userAgent: String(req.headers["user-agent"] ?? "") });
       return reply.header("Cache-Control", "no-store").code(201).send(result);
     } catch (error) {

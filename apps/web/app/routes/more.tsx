@@ -8,6 +8,7 @@ import { PhoneBar } from "../components/shell/PhoneBar";
 import type { Screen } from "../components/shell/screens";
 import { apiGet, edgeTtl } from "../lib/api.server";
 import { pageMeta, siteUrl } from "../lib/seo";
+import { copyText } from "../lib/clipboard";
 import { useStarred } from "../lib/local-state";
 import { ThemeSwitch } from "../components/shell/ThemeSwitch";
 import { Sheet } from "../components/ui/Sheet";
@@ -36,9 +37,14 @@ export function meta() {
   return pageMeta({ title: "我的", path: "/more", noindex: true });
 }
 
+const BRIEF_CATEGORIES = new Set(["global", "tech", "business", "money"]);
+
 export async function loader({ request }: { request: Request }) {
-  const data = await apiGet<TimelineResponse>("/api/site/timeline?limit=8", { signal: request.signal }).catch(() => null);
-  const items = (data?.cards ?? []).slice(0, 6).map((c) => ({
+  const data = await apiGet<TimelineResponse>("/api/site/timeline?limit=24", { signal: request.signal }).catch(() => null);
+  const allCards = data?.cards ?? [];
+  const techCards = allCards.filter((c) => c.item.category && BRIEF_CATEGORIES.has(c.item.category));
+  const picked = (techCards.length >= 4 ? techCards : [...techCards, ...allCards.filter((c) => !techCards.includes(c))]).slice(0, 6);
+  const items = picked.map((c) => ({
     id: c.item.id,
     title: c.item.title,
     summary: c.item.summary,
@@ -88,13 +94,28 @@ export default function MorePage() {
 
   useEffect(() => setHere(true), []);
 
+  useEffect(() => {
+    if (!briefOpen && !verifyOpen) return;
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setBriefOpen(false);
+        setVerifyOpen(false);
+      }
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [briefOpen, verifyOpen]);
+
   const todayStr = new Intl.DateTimeFormat("zh-CN", { month: "long", day: "numeric", weekday: "long" }).format(new Date());
+
+  const briefItems = items.filter((item) => !item.category || BRIEF_CATEGORIES.has(item.category));
+  const activeBriefItems = briefItems.length > 0 ? briefItems : items;
 
   const morningBriefText = [
     `☀️【曾练全球一手科技早报】`,
     `📅 ${todayStr}`,
     `━━━━━━━━━━━━━━━━━━`,
-    ...items.map((item, i) => `${i + 1}. 【${item.source}】${item.title}\n   💡 核心看点：${item.summary ? item.summary.slice(0, 75) + "..." : "详见一手情报卡片"}`),
+    ...activeBriefItems.map((item, i) => `${i + 1}. 【${item.source}】${item.title}\n   💡 核心看点：${item.summary ? item.summary.slice(0, 75) + "..." : "详见一手情报卡片"}`),
     `━━━━━━━━━━━━━━━━━━`,
     `📌 消除信息差，抢占商业先机。`,
     `📱 更多一手情报与全球商机：${siteUrl()}`,
@@ -102,7 +123,7 @@ export default function MorePage() {
 
   const copyBrief = async () => {
     try {
-      await navigator.clipboard.writeText(morningBriefText);
+      await copyText(morningBriefText);
       setCopied(true);
       setTimeout(() => setCopied(false), 3000);
     } catch {
@@ -159,7 +180,7 @@ export default function MorePage() {
           </li>
           <RowLink
             row={{
-              to: "/all?category=ai-products",
+              to: "/all?category=money",
               label: "全球出海与落地工具",
               icon: <IconGrid size={20} />,
               detail: "Product Hunt 首发",
@@ -299,7 +320,7 @@ export default function MorePage() {
 
           <h3 className="font-bold text-ink text-[15px] pt-2">🔍 100% 原文直达验证机制</h3>
           <p className="text-[13px] text-ink-3">
-            每条资讯卡片均直链官方原文（点击右上角“原文”链接即可跳转原站）。若您对任何资讯存疑，可随时一键返回原媒体官方页面核验。
+            每条资讯卡片均直链官方原文（点击文章底部或操作栏的“原文”链接即可跳转原站）。若您对任何资讯存疑，可随时一键返回原媒体官方页面核验。
           </p>
         </div>
       </Sheet>

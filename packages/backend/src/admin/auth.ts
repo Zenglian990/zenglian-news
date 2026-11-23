@@ -224,7 +224,7 @@ export async function sessionPrincipal(cookieHeader: string | undefined): Promis
       await sql`DELETE FROM admin_sessions WHERE id_hash = ${hash}`;
     }
   }
-  if (config.devAdmin && config.environmentName !== "production") return { userId: null, name: config.devAdmin.displayName, csrf: "dev", dev: true };
+  if (config.devAdmin && !config.isProduction) return { userId: null, name: config.devAdmin.displayName, csrf: "dev", dev: true };
   return null;
 }
 

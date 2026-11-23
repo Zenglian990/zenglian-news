@@ -4,7 +4,6 @@ import { readdir, stat, unlink } from "node:fs/promises";
 import path from "node:path";
 import { config } from "../config.ts";
 import { sql } from "../db.ts";
-import { screenshotsForwarded } from "./feedback.ts";
 import { serverModules } from "../modules.ts";
 
 /** Removes files under `dir` last written more than `maxAgeMs` ago. */
@@ -37,10 +36,8 @@ export async function dailyRetention(now = new Date()) {
   // Scheduled-task history: 30 days (failures 90) is enough for the runs view.
   const runs = await sql`DELETE FROM job_runs WHERE started_at < ${new Date(now.getTime() - 30 * 86400_000)} AND (status IS DISTINCT FROM 'failed' OR started_at < ${new Date(now.getTime() - 90 * 86400_000)})`;
   const monthMs = 30 * 86400_000;
-  // Feedback screenshots that only wait to be forwarded (the database then keeps just the Feishu image
-  // key). The forwarding sweep gives up after a week; anything older is removed, whether or not
-  // forwarding ever ran for it. Without the internal chat they are the screenshots themselves and stay.
-  const deletedScreenshots = screenshotsForwarded() ? await removeOlderThan(path.join(config.dataDir, "feedback-screenshots"), 8 * 86400_000, now.getTime()) : 0;
+  // Feedback screenshots older than 8 days are cleaned up unconditionally to prevent disk exhaustion.
+  const deletedScreenshots = await removeOlderThan(path.join(config.dataDir, "feedback-screenshots"), 8 * 86400_000, now.getTime());
   // Derived caches (proxied images, share cards and posters) are rebuilt on demand.
   const prunedCache = (await removeOlderThan(path.join(config.dataDir, "imgcache"), monthMs, now.getTime())) + (await removeOlderThan(path.join(config.dataDir, "ogcache"), monthMs, now.getTime()));
   return {

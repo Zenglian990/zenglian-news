@@ -26,8 +26,7 @@ import { sendProblem } from "../http/respond.ts";
 const secure = () => config.siteUrl.startsWith("https://");
 
 /**
- * Password attempts: at most 10 per client address and 50 in all per 15 minutes. The overall cap holds
- * even when a client forges its address; with a 12+ character password that is far too slow to guess.
+ * Password attempts: at most 10 per client address per 15 minutes.
  */
 const attempts = new Map<string, number[]>();
 function over(key: string, limit: number, now: number): boolean {
@@ -38,9 +37,38 @@ function over(key: string, limit: number, now: number): boolean {
 }
 function tooManyAttempts(ip: string): boolean {
   const now = Date.now();
-  if (attempts.size > 5000) attempts.clear();
-  const perClient = over(`ip:${ip}`, 10, now);
-  return over("all", 50, now) || perClient;
+  if (attempts.size > 5000) {
+    for (const [k, v] of attempts) {
+      if (v.every((t) => now - t >= 15 * 60_000)) attempts.delete(k);
+    }
+    if (attempts.size > 5000) {
+      const oldest = attempts.keys().next().value;
+      if (oldest) attempts.delete(oldest);
+    }
+  }
+  return over(`ip:${ip}`, 10, now);
+}
+
+function sameOriginLogin(req: FastifyRequest): boolean {
+  const fetchSite = String(req.headers["sec-fetch-site"] ?? "").toLowerCase();
+  const origin = req.headers.origin;
+  if (config.isProduction && !origin && !fetchSite) return false;
+  if (fetchSite && fetchSite !== "same-origin" && fetchSite !== "none") {
+    return false;
+  }
+  if (origin) {
+    try {
+      const originHost = new URL(origin).host.toLowerCase();
+      const reqHost = String(req.headers["x-forwarded-host"] ?? req.headers.host ?? "").split(",")[0]!.trim().toLowerCase();
+      const siteHost = new URL(config.siteUrl).host.toLowerCase();
+      if (originHost !== reqHost && originHost !== siteHost) {
+        return false;
+      }
+    } catch {
+      return false;
+    }
+  }
+  return true;
 }
 
 const loginPage = (returnTo: string, error?: string) => `/admin/login?${new URLSearchParams({ return: safeReturn(returnTo), ...(error ? { error } : {}) })}`;
@@ -104,21 +132,8 @@ export function registerAdminAuth(app: FastifyInstance) {
       const b = (req.body ?? {}) as Record<string, string>;
       const returnTo = String(b.return ?? "/admin");
       reply.header("Cache-Control", "no-store");
-      const fetchSite = String(req.headers["sec-fetch-site"] ?? "").toLowerCase();
-      if (fetchSite && fetchSite !== "same-origin" && fetchSite !== "none") {
+      if (!sameOriginLogin(req)) {
         return reply.redirect(loginPage(returnTo, "wrong"), 303);
-      }
-      if (req.headers.origin) {
-        try {
-          const originHost = new URL(req.headers.origin).host.toLowerCase();
-          const reqHost = String(req.headers["x-forwarded-host"] ?? req.headers.host ?? "").split(",")[0]!.trim().toLowerCase();
-          const siteHost = new URL(config.siteUrl).host.toLowerCase();
-          if (originHost !== reqHost && originHost !== siteHost) {
-            return reply.redirect(loginPage(returnTo, "wrong"), 303);
-          }
-        } catch {
-          return reply.redirect(loginPage(returnTo, "wrong"), 303);
-        }
       }
       if (tooManyAttempts(String(req.ip))) return reply.redirect(loginPage(returnTo, "too-many"), 303);
       try {
@@ -163,6 +178,7 @@ export function registerAdminAuth(app: FastifyInstance) {
   });
 
   app.post("/api/auth/logout", async (req, reply) => {
+    if (!sameOriginLogin(req)) return reply.code(403).send({ error: "Cross-origin logout rejected" });
     await endSession(req.headers.cookie);
     reply.header("Set-Cookie", cookie(SESSION_COOKIE, "", 0, secure())).header("Cache-Control", "no-store");
     return reply.redirect("/", 303);

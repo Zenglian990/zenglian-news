@@ -20,9 +20,10 @@ export type PublicApiCategoryKey = Exclude<CategoryKey, keyof typeof PUBLIC_CATE
 export const PUBLIC_API_CATEGORY_KEYS = CATEGORIES.filter((c) => !Object.hasOwn(MERGE, c.key)).map((c) => c.key) as unknown as readonly [PublicApiCategoryKey, ...PublicApiCategoryKey[]];
 
 export function toPublicApiCategory(category: string | null): PublicApiCategoryKey | null {
-  const c = CATEGORIES.find((x) => x.key === category);
-  if (!c) return null;
-  return (MERGE[c.key] ?? c.key) as PublicApiCategoryKey;
+  if (!category) return null;
+  const mapped = (MERGE as Record<string, string>)[category] ?? category;
+  const c = CATEGORIES.find((x) => x.key === mapped);
+  return c ? (c.key as PublicApiCategoryKey) : null;
 }
 
 /** A public category's name in feeds (<category>, a category feed's title): the site's, else the pack's feed label, else its website label. */

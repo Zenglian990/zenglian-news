@@ -21,7 +21,7 @@ export async function buildApp(): Promise<FastifyInstance> {
     logger: { level: process.env.LOG_LEVEL || "info", redact: ["req.headers.authorization", "req.headers.cookie"] },
     // Access logs never record query strings (tokens).
     disableRequestLogging: true,
-    trustProxy: true,
+    trustProxy: process.env.TRUST_PROXY === "true" || Boolean(process.env.K_SERVICE || process.env.RENDER),
     genReqId: () => randomUUID(),
     bodyLimit: 10 * 1024 * 1024,
     requestTimeout: 30_000,

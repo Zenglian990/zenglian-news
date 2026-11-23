@@ -287,7 +287,7 @@ export function Timeline({ initial, filters }: { initial: TimelineResponse; filt
         </div>
       )}
 
-      {days.map(({ day, cards }) => {
+      {days.map(({ day, cards }, dayIndex) => {
         const collapsed = state.collapsed.includes(day);
         const count = state.dayCounts[day] ?? cards.length;
         return (
@@ -307,7 +307,7 @@ export function Timeline({ initial, filters }: { initial: TimelineResponse; filt
                           read={readSet.has(c.item.id)}
                           onOpen={markRead}
                           at={c.anchorAt}
-                          rank={filters.category ? index + 1 : undefined}
+                          rank={filters.category && dayIndex === 0 ? index + 1 : undefined}
                         />
                       </TimelineSlot>
                     );
@@ -353,7 +353,7 @@ function FeedEnd({ loading, error, hasMore, manual, empty, onMore, boardLabel }:
       ) : (
         !empty && (
           <span className="text-[12px] text-ink-4 tracking-wider">
-            {boardLabel ? `— 今日【${boardLabel} Top 10】播报完毕 · 每日一手精选 —` : "已经到底了"}
+            {boardLabel ? `— 今日【${boardLabel}】精选播报完毕 · 每日一手精选 —` : "已经到底了"}
           </span>
         )
       )}

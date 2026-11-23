@@ -21,7 +21,7 @@ import {
 } from "./startup.ts";
 
 installModules(SERVER_MODULES);
-assertProductionSecrets([["auth", "IMG_PROXY_SIGN_SECRET"]]);
+assertProductionSecrets([["auth", "SESSION_SECRET"], ["auth", "IMG_PROXY_SIGN_SECRET"]]);
 
 const startupAbort = new AbortController();
 let stopping = false;

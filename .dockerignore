@@ -3,9 +3,17 @@ apps/web/node_modules
 apps/web/build
 apps/web/.react-router
 .data
+data
+data-v2
+tests
+docs
 .env
 .env.*
 !.env.example
 .git
 .github
+.claude
 *.log
+*.md
+!industry/**/*.md
+!site/**/*.md

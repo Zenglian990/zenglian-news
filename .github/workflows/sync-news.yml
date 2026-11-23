@@ -44,16 +44,3 @@ jobs:
 
       - name: Crawl live RSS feeds and curate sources
         run: node scripts/inject_premium_sources.mjs
-
-      - name: Export fresh news from Database
-        run: node scripts/export_fresh_data_from_db.mjs
-
-      - name: Upload news data artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: news-data-export
-          path: |
-            data/
-            data-v2/
-          retention-days: 7
-          if-no-files-found: error

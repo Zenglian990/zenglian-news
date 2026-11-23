@@ -24,6 +24,7 @@ export const q = (req: FastifyRequest) => req.query as Q;
 export const body = <T = Record<string, unknown>>(req: FastifyRequest) => (req.body ?? {}) as T;
 export const param = (req: FastifyRequest, name: string) => (req.params as Record<string, string>)[name]!;
 const notFound = (req: FastifyRequest, reply: FastifyReply) => sendProblem(req, reply, { status: 404, code: "not_found", detail: "Not found." });
+const badRequest = (reply: FastifyReply, detail: string) => sendProblem(reply.request, reply, { status: 400, code: "invalid_request", detail });
 export const orNotFound = <T>(req: FastifyRequest, reply: FastifyReply, value: T | null) => (value === null || value === undefined ? notFound(req, reply) : value);
 export const page = (req: FastifyRequest) => Math.max(1, Number(q(req).page) || 1);
 
@@ -61,17 +62,30 @@ export function registerAdmin(app: FastifyInstance) {
     return orNotFound(req, reply, await rerun(param(req, "id"), b.step, requestId, actorOf(admin)));
   }));
   app.post("/api/admin/content/:id/detach", adminHandler(async (req, _reply, admin) => detachFromFact(param(req, "id"), String(body(req).reason ?? ""), actorOf(admin))));
-  app.post("/api/admin/stories/merge", adminHandler(async (req, _reply, admin) => {
+  app.post("/api/admin/stories/merge", adminHandler(async (req, reply, admin) => {
     const b = body<{ from: number; into: number; reason: string }>(req);
-    return mergeStories(Number(b.from), Number(b.into), b.reason, actorOf(admin));
+    const from = Number(b.from);
+    const into = Number(b.into);
+    if (!Number.isInteger(from) || from <= 0 || !Number.isInteger(into) || into <= 0) return badRequest(reply, "invalid id");
+    return mergeStories(from, into, b.reason, actorOf(admin));
   }));
 
   // Feedback
   app.get("/api/admin/feedback", adminHandler(async (req) => listFeedback({ status: q(req).status, q: q(req).q, page: page(req) })));
-  app.patch("/api/admin/feedback/:id", adminHandler(async (req, reply, admin) => orNotFound(req, reply, await updateFeedback(Number(param(req, "id")), body(req) as never, actorOf(admin)))));
-  app.post("/api/admin/feedback/:id/erase", adminHandler(async (req, reply, admin) => orNotFound(req, reply, await eraseFeedback(Number(param(req, "id")), String(body(req).reason ?? ""), actorOf(admin)))));
+  app.patch("/api/admin/feedback/:id", adminHandler(async (req, reply, admin) => {
+    const id = Number(param(req, "id"));
+    if (!Number.isInteger(id) || id <= 0) return badRequest(reply, "invalid id");
+    return orNotFound(req, reply, await updateFeedback(id, body(req) as never, actorOf(admin)));
+  }));
+  app.post("/api/admin/feedback/:id/erase", adminHandler(async (req, reply, admin) => {
+    const id = Number(param(req, "id"));
+    if (!Number.isInteger(id) || id <= 0) return badRequest(reply, "invalid id");
+    return orNotFound(req, reply, await eraseFeedback(id, String(body(req).reason ?? ""), actorOf(admin)));
+  }));
   app.get("/api/admin/feedback/:id/screenshot", adminHandler(async (req, reply) => {
-    const file = await feedbackScreenshot(Number(param(req, "id")));
+    const id = Number(param(req, "id"));
+    if (!Number.isInteger(id) || id <= 0) return badRequest(reply, "invalid id");
+    const file = await feedbackScreenshot(id);
     const data = file ? await readFile(file).catch(() => null) : null;
     if (!data) return notFound(req, reply);
     const ext = file!.split(".").pop();
@@ -89,8 +103,16 @@ export function registerAdmin(app: FastifyInstance) {
 
   // Runs
   app.get("/api/admin/runs", adminHandler(async () => runsOverview()));
-  app.post("/api/admin/receipts/:id/release", adminHandler(async (req, reply, admin) => orNotFound(req, reply, await releaseReceipt(Number(param(req, "id")), body(req) as never, actorOf(admin)))));
-  app.post("/api/admin/deliveries/:id/resolve", adminHandler(async (req, reply, admin) => orNotFound(req, reply, await resolveDelivery(Number(param(req, "id")), body(req) as never, actorOf(admin)))));
+  app.post("/api/admin/receipts/:id/release", adminHandler(async (req, reply, admin) => {
+    const id = Number(param(req, "id"));
+    if (!Number.isInteger(id) || id <= 0) return badRequest(reply, "invalid id");
+    return orNotFound(req, reply, await releaseReceipt(id, body(req) as never, actorOf(admin)));
+  }));
+  app.post("/api/admin/deliveries/:id/resolve", adminHandler(async (req, reply, admin) => {
+    const id = Number(param(req, "id"));
+    if (!Number.isInteger(id) || id <= 0) return badRequest(reply, "invalid id");
+    return orNotFound(req, reply, await resolveDelivery(id, body(req) as never, actorOf(admin)));
+  }));
   app.post("/api/admin/processing/requeue", adminHandler(async (req, _reply, admin) => requeueFailedArticles(body(req) as never, actorOf(admin))));
 
   // Settings

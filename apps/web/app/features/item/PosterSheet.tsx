@@ -12,6 +12,13 @@ export default function PosterSheet({ id, title, open, onClose }: { id: string; 
   const [canShareFile, setCanShareFile] = useState(false);
 
   useEffect(() => {
+    if (open) {
+      setLoaded(false);
+      setFailed(false);
+    }
+  }, [open, id]);
+
+  useEffect(() => {
     if (!open) return;
     try {
       setCanShareFile(!!navigator.canShare?.({ files: [new File([], "p.png", { type: "image/png" })] }));
@@ -22,7 +29,9 @@ export default function PosterSheet({ id, title, open, onClose }: { id: string; 
 
   async function share() {
     try {
-      const blob = await (await fetch(src)).blob();
+      const res = await fetch(src);
+      if (!res.ok) throw new Error("fetch failed");
+      const blob = await res.blob();
       await navigator.share({ files: [new File([blob], `${SITE.mcpPrefix}-${id}.png`, { type: "image/png" })], title });
     } catch {
       // cancelled or unsupported: saving stays available
@@ -32,7 +41,7 @@ export default function PosterSheet({ id, title, open, onClose }: { id: string; 
   return (
     <Sheet open={open} onClose={onClose} title="分享海报" centered>
       <div className="flex flex-col items-center px-5 sm:px-7">
-        <div className="relative aspect-[3/4] w-full max-w-[min(360px,calc((88dvh-200px)*0.75))] overflow-hidden rounded-card border border-line bg-bg-sunk">
+        <div className="relative aspect-[3/4] max-h-[62vh] w-full max-w-[min(360px,calc((88dvh-200px)*0.75))] overflow-hidden rounded-card border border-line bg-bg-sunk">
           {!loaded && !failed && <div className="absolute inset-0 animate-pulse bg-[linear-gradient(110deg,transparent_30%,rgba(255,255,255,0.35)_50%,transparent_70%)] bg-[length:200%_100%]" />}
           {failed ? (
             <p className="absolute inset-0 grid place-items-center px-6 text-center text-[13px] text-ink-3">海报生成失败，请稍后再试。</p>
@@ -40,7 +49,7 @@ export default function PosterSheet({ id, title, open, onClose }: { id: string; 
             <img
               src={src}
               alt={`${title} · 分享海报`}
-              className={`size-full object-contain transition-[opacity,transform] duration-[250ms] ${loaded ? "scale-100 opacity-100" : "scale-[0.985] opacity-0"}`}
+              className={`mx-auto max-h-[62vh] size-full w-auto object-contain transition-[opacity,transform] duration-[250ms] ${loaded ? "scale-100 opacity-100" : "scale-[0.985] opacity-0"}`}
               onLoad={() => setLoaded(true)}
               onError={() => setFailed(true)}
             />

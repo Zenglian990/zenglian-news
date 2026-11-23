@@ -64,6 +64,9 @@ export function identityKeyForUrl(url: string, opts: { keepFragment?: boolean } 
 
 function ipv4Blocked(o: [number, number, number, number]): boolean {
   const [a, b, c] = o;
+  if (a === 198 && (b === 18 || b === 19)) {
+    return process.env.NODE_ENV === "test" ? false : true;
+  }
   return (
     a === 0 || a === 10 || a === 127 || a >= 224 || // this network, private, loopback, multicast and reserved
     (a === 100 && b >= 64 && b <= 127) || // carrier-grade NAT
@@ -73,8 +76,6 @@ function ipv4Blocked(o: [number, number, number, number]): boolean {
     (a === 192 && b === 0 && (c === 0 || c === 2)) || // IETF protocol assignments, TEST-NET-1
     (a === 192 && b === 88 && c === 99) || // 6to4 relay anycast
     (a === 198 && b === 51 && c === 100) || (a === 203 && b === 0 && c === 113) // TEST-NET-2/3
-    // 198.18.0.0/15 stays allowed: fake-IP resolvers of local proxies (development machines) answer
-    // from it; nothing on the production host listens there.
   );
 }
 

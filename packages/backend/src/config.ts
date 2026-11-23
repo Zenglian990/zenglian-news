@@ -30,12 +30,13 @@ function bool(name: string, fallback: boolean): boolean {
   return value === "1" || value.toLowerCase() === "true";
 }
 
-export const isProduction = env.NODE_ENV === "production";
+export const isProduction = env.NODE_ENV === "production" || Boolean(env.K_SERVICE || env.RENDER);
 
 /** AIHOT_CREDENTIALS_DIR, else the site's own default (relative to the repository). */
 const credentialsDir = env.AIHOT_CREDENTIALS_DIR || DEPLOYMENT.credentialsDir;
 
 export const config = {
+  isProduction,
   databaseUrl: str("DATABASE_URL", "postgres://127.0.0.1:5432/aihot"),
   apiPort: int("API_PORT", 3001),
   // Every generated absolute link uses this address, whatever Host a request arrives with.

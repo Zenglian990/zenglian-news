@@ -6,6 +6,7 @@ import { SITE } from "@aihot/site";
 import { edgeTtl, loadOr404 } from "../lib/api.server";
 import { articleLd, breadcrumbLd, pageMeta, siteUrl, titled } from "../lib/seo";
 import { fullDateTime, relativeTime } from "../lib/format";
+import { copyText } from "../lib/clipboard";
 import { markRead } from "../lib/local-state";
 import { SameEventBadge, SelectedBadge } from "../components/ui/Badge";
 import { ScoreLabel } from "../components/ui/Score";
@@ -125,7 +126,7 @@ async function shareOrCopy(item: Pick<SiteItemDetail, "id" | "title">): Promise<
       await navigator.share({ title: item.title, url });
       return "shared";
     }
-    await navigator.clipboard.writeText(`${item.title}\n${url}`);
+    await copyText(`${item.title}\n${url}`);
     return "copied";
   } catch {
     return null;
@@ -154,11 +155,11 @@ function Toast({ text }: { text: string | null }) {
 
 export default function ItemPage() {
   const data = useLoaderData<typeof clientLoader>() as { item: SiteItemDetail } | Preview;
-  if (data.item) return <ItemView key={`${data.item.id}:${data.item.bodyLanguage}`} item={data.item} />;
+  if (data.item) return <ItemView key={data.item.id} item={data.item} />;
   return (
     <Suspense fallback={<ItemPreview preview={data.preview} />}>
       <Await resolve={data.detail} errorElement={<ItemGone />}>
-        {(loaded) => <ItemView key={`${loaded.item.id}:${loaded.item.bodyLanguage}`} item={loaded.item} />}
+        {(loaded) => <ItemView key={loaded.item.id} item={loaded.item} />}
       </Await>
     </Suspense>
   );
@@ -258,7 +259,7 @@ function ItemView({ item }: { item: SiteItemDetail }) {
   };
   const copyLink = async () => {
     try {
-      await navigator.clipboard.writeText(`${siteUrl()}/items/${item.id}`);
+      await copyText(`${siteUrl()}/items/${item.id}`);
       setToast("链接已复制");
     } catch {
       // clipboard unavailable
@@ -268,7 +269,7 @@ function ItemView({ item }: { item: SiteItemDetail }) {
     try {
       const res = await fetch(`/items/${item.id}/markdown`);
       if (!res.ok) throw new Error(String(res.status));
-      await navigator.clipboard.writeText(await res.text());
+      await copyText(await res.text());
       setToast("Markdown 已复制");
     } catch {
       setToast("复制失败，请在浏览器中打开后导出");
@@ -290,8 +291,8 @@ function ItemView({ item }: { item: SiteItemDetail }) {
     else navigate(item.selected ? "/" : "/all");
   };
   const backButton = (
-    <button type="button" onClick={back} className="-ml-1.5 inline-flex h-8 items-center gap-1.5 rounded-full px-1.5 text-[13px] text-ink-3 transition-colors hover:text-ink">
-      <IconArrowLeft size={16} /> 返回
+    <button type="button" onClick={back} className="-ml-1.5 inline-flex h-8 shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full px-1.5 text-[13px] text-ink-3 transition-colors hover:text-ink">
+      <IconArrowLeft size={16} /> <span className="shrink-0 whitespace-nowrap">返回</span>
     </button>
   );
   const moreMenu = (
@@ -466,7 +467,11 @@ function ItemView({ item }: { item: SiteItemDetail }) {
             )}
           </div>
           {!isX && <h1 data-page-title="" className="text-[26px] font-bold leading-[1.38] tracking-[-0.01em] text-ink lg:text-[32px] lg:leading-[1.34] xl:text-[36px] xl:leading-[1.3]">{item.title}</h1>}
-          {!isX && item.originalTitle && <p className="mt-2.5 text-[14px] leading-relaxed text-ink-4">{item.originalTitle}</p>}
+          {(() => {
+            const cleanTitle = item.title.replace(/^【[^】]+】\s*/, "").trim();
+            const showOriginalTitle = !isX && item.originalTitle && item.originalTitle.trim() !== item.title.trim() && item.originalTitle.trim() !== cleanTitle;
+            return showOriginalTitle ? <p className="mt-2.5 text-[14px] leading-relaxed text-ink-4">{item.originalTitle}</p> : null;
+          })()}
 
           {item.summary && (
             <section className={isX ? "mt-4" : "mt-7 xl:mt-8"}>

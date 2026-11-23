@@ -32,10 +32,9 @@ export function sniffImageType(data: Buffer): "image/png" | "image/jpeg" | "imag
   return null;
 }
 
-export function feedbackSourceHash(ip: string, userAgent: string): string {
+export function feedbackSourceHash(ip: string, _userAgent?: string): string {
   const secret = credential("auth", "SESSION_SECRET") ?? "dev-feedback-secret";
-  const uaFamily = (userAgent.match(/(Chrome|Safari|Firefox|Edg|MicroMessenger|Mobile|Android|iPhone|iPad|Mac OS X|Windows)/g) ?? []).slice(0, 4).join("/");
-  return createHmac("sha256", secret).update(`${ip}|${uaFamily}`).digest("base64url").slice(0, 24);
+  return createHmac("sha256", secret).update(ip).digest("hex").slice(0, 24);
 }
 
 const recent = new Map<string, number[]>();

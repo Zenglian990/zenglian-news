@@ -85,10 +85,10 @@ function BackButton({ to, label }: BackTarget) {
         if (historyIndex() > 0) navigate(-1);
         else navigate(to, { viewTransition: true });
       }}
-      className="flex h-11 min-w-11 items-center pl-1 pr-2 text-[16px] text-accent transition-opacity active:opacity-50"
+      className="flex h-11 min-w-11 shrink-0 items-center whitespace-nowrap pl-1 pr-2 text-[16px] text-accent transition-opacity active:opacity-50"
     >
-      <IconChevronLeft size={25} strokeWidth={2.1} />
-      <span className="max-w-[7em] truncate">{text}</span>
+      <IconChevronLeft size={25} strokeWidth={2.1} className="shrink-0" />
+      <span className="shrink-0 whitespace-nowrap">{text}</span>
     </button>
   );
 }

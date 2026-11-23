@@ -15,7 +15,7 @@ assertProductionSecrets([
   ...DEPLOYMENT.requiredSecrets,
 ]);
 // Somebody must be able to sign in to the admin.
-if (config.environmentName === "production" && !(config.adminPassword && config.adminPassword.length >= 12) && !feishuLoginConfigured()) {
+if (config.isProduction && !(config.adminPassword && config.adminPassword.length >= 12) && !feishuLoginConfigured()) {
   throw new Error("Refusing to start in production: set ADMIN_PASSWORD (at least 12 characters) or configure Feishu sign-in");
 }
 

@@ -1,8 +1,8 @@
 // Public read layer, item level. Every exit (site API, v1, RSS, MCP, sitemap) reads
 // items through these columns and views; which rows are public is decided by scope.ts.
-import type { CategoryKey, ChannelKey } from "@aihot/contracts/taxonomy";
+import { toPublicApiCategory, type CategoryKey, type ChannelKey } from "@aihot/contracts/taxonomy";
 import type { FeedItemSummary, ItemSummary, MediaView, XPostView } from "@aihot/contracts/site";
-import { POLICY } from "@aihot/site";
+import { POLICY, PUBLIC_CATEGORIES } from "@aihot/site";
 import { sql, type Db } from "../db.ts";
 import { proxiedImage, proxiedImageSet } from "../media/imgproxy.ts";
 import { displayTags, publicSourceName } from "./rules.ts";
@@ -74,11 +74,13 @@ export function channelCondition(channel: ChannelKey | null | undefined) {
   return sql`AND p.channel = ${channel}`;
 }
 
-export function categoryCondition(category: CategoryKey | null | undefined, v1 = false) {
+export function categoryCondition(category: CategoryKey | null | undefined, _v1 = false) {
   if (!category) return sql``;
-  // v1 and RSS publish opinion as tip.
-  if (v1 && (category as string) === "tip") return sql`AND p.category IN ('tip', 'opinion')`;
-  return sql`AND p.category = ${category}`;
+  const mergedKeys = Object.entries(PUBLIC_CATEGORIES.merge)
+    .filter(([, target]) => target === category)
+    .map(([source]) => source);
+  const keys = [category, ...mergedKeys];
+  return keys.length > 1 ? sql`AND p.category IN ${sql(keys)}` : sql`AND p.category = ${category}`;
 }
 
 export function tagCondition(tag: string | null | undefined) {
@@ -150,7 +152,7 @@ export function toItemSummary(row: ItemRow): ItemSummary {
     publishedAt: row.published_at?.toISOString() ?? null,
     discoveredAt: row.discovered_at.toISOString(),
     timelineAt: row.timeline_at.toISOString(),
-    category: (row.category as CategoryKey | null) ?? null,
+    category: (toPublicApiCategory(row.category) ?? row.category ?? null) as CategoryKey | null,
     tags: displayTags(row.tags),
     score: row.score === null ? null : Math.round(Number(row.score)),
     selected: row.selected,
