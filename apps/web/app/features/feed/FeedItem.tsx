@@ -37,7 +37,7 @@ import { rememberPreview } from "../item/preview";
 export interface FeedItemProps {
   item: FeedItemSummary;
   group?: GroupInfo | null;
-  filters?: TimelineFilters;
+  filters?: TimelineFilters & { q?: string | null };
   read?: boolean;
   onOpen?: (id: string) => void;
   /** Show category and tags under the text (全部动态, topics, search). */
