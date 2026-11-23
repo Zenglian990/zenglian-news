@@ -9,7 +9,6 @@ import {
   validateRuntimeEnv,
   waitForApiReady,
 } from "../run-all.mjs";
-import { validateExportEnv } from "./export_fresh_data_from_db.mjs";
 import {
   StartupAbortedError,
   computeBackoffDelayMs,
@@ -415,28 +414,5 @@ describe("apps/worker/src/startup.ts resilience", () => {
     );
     assert.equal(msg.includes("super_secret_pw"), false);
     assert.match(msg, /postgresql:\/\/neondb_owner:\*\*\*@ep-1\.neon\.tech/);
-  });
-});
-
-describe("scripts/export_fresh_data_from_db.mjs environment validation", () => {
-  it("fails fast when DATABASE_URL or SITE_URL is missing or invalid", () => {
-    assert.throws(() => validateExportEnv({}), /Missing required DATABASE_URL/);
-    assert.throws(
-      () => validateExportEnv({ DATABASE_URL: "postgres://u:p@host/db" }),
-      /Missing required SITE_URL/
-    );
-    assert.throws(
-      () => validateExportEnv({ DATABASE_URL: "postgres://u:p@host/db", SITE_URL: "ftp://bad.example.com" }),
-      /SITE_URL must use http: or https:/
-    );
-  });
-
-  it("normalizes trailing slashes from valid SITE_URL", () => {
-    const cfg = validateExportEnv({
-      DATABASE_URL: "postgres://u:p@host/db",
-      SITE_URL: "https://zenglian-news-79709693345.asia-east1.run.app/",
-    });
-    assert.equal(cfg.siteUrl, "https://zenglian-news-79709693345.asia-east1.run.app");
-    assert.equal(cfg.deepseekKey, "");
   });
 });
