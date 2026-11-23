@@ -9,7 +9,7 @@
 
 <p align="center">
   <b>全球科技与商业一手智能情报枢纽 · 7x24h 自动化巡检 · 双引擎深度双语编译 · 六大精选板块</b><br>
-  👉 <b>Web 云端直达：<a href="https://zenglian-news-79709693345.asia-east1.run.app">https://zenglian-news-79709693345.asia-east1.run.app</a></b> ｜ <b>移动端：Web SSR + PWA 移动自适应</b>
+  👉 <b>Web 云端直达：<a href="https://zenglian-news-79709693345.asia-east1.run.app">https://zenglian-news-79709693345.asia-east1.run.app</a></b> ｜ <b>Android 客户端：<a href="https://github.com/Zenglian990/zenglian-news/releases/tag/v3.0.0">Releases v3.0.0 (APK)</a></b>
 </p>
 
 ---
