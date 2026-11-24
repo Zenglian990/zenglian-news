@@ -4,7 +4,7 @@ import type { FastifyInstance, FastifyReply, FastifyRequest } from "fastify";
 import { isCategoryKey, isChannelKey, type CategoryKey, type ChannelKey } from "@aihot/contracts/taxonomy";
 import type { ReportIndexResponse, ReportLatestPage, ReportNavigationResponse, SiteContact } from "@aihot/contracts/site";
 import { InvalidCursorError } from "@aihot/backend/lib/cursor";
-import { exportMarkdown, loadItemDetail } from "@aihot/backend/publication/detail";
+import { exportMarkdown, loadItemDetail, loadMobileFeed, loadMobileReports } from "@aihot/backend/publication/detail";
 import { loadPool, SearchBusyError } from "@aihot/backend/publication/pool";
 import { loadTimeline } from "@aihot/backend/publication/timeline";
 import { loadStoryFollowups } from "@aihot/backend/publication/followups";
@@ -58,6 +58,26 @@ export function parseFilters(q: Record<string, string>): FilterParams {
 export function registerSite(app: FastifyInstance) {
   app.get("/api/site/meta", siteHandler(async (req, reply) => {
     return sendJsonWithEtag(req, reply, siteMeta(), { etagPrefix: "meta", cacheControl: "public, max-age=60, s-maxage=60" });
+  }));
+
+  app.get("/api/site/mobile/feed", siteHandler(async (req, reply) => {
+    const q = looseQuery(req);
+    const category = q.category && isCategoryKey(q.category) ? (q.category as CategoryKey) : null;
+    const search = q.q?.trim() ? q.q.trim().slice(0, 200) : null;
+    const limit = Math.min(Math.max(Number(q.limit) || 25, 1), 40);
+    const data = await loadMobileFeed({ category, q: search, limit });
+    return reply
+      .header("Access-Control-Allow-Origin", "*")
+      .header("Cache-Control", "no-store, no-cache, must-revalidate")
+      .send(data);
+  }));
+
+  app.get("/api/site/mobile/reports", siteHandler(async (_req, reply) => {
+    const data = await loadMobileReports();
+    return reply
+      .header("Access-Control-Allow-Origin", "*")
+      .header("Cache-Control", "no-store, no-cache, must-revalidate")
+      .send(data);
   }));
 
   app.get("/api/site/timeline", siteHandler(async (req, reply) => {

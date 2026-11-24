@@ -2,6 +2,8 @@ import postgres from "postgres";
 import { XMLParser } from "fast-xml-parser";
 import * as cheerio from "cheerio";
 import crypto from "node:crypto";
+import { mkdirSync, writeFileSync } from "node:fs";
+import path from "node:path";
 
 const connStr = (process.env.DATABASE_URL || "").trim();
 if (!connStr) {
@@ -523,7 +525,7 @@ export function inferTopicTags(title, originalTitle, summary, category, baseTags
  */
 const SPAM_TITLE_REGEX = /\[推广\]|\[Telegram\]|\[买买买\]|粉丝服务|刷粉|推广|代理IP|原生\s*IP|领券|促销|京东自营|天猫|限时特惠|满减|到手价|白菜价|史低|优惠券|出二手|收个|闲置|求推荐|相亲|女朋友|男朋友|分手|彩礼|签到|测试帖|水一贴|求个码|邀请码|拼车|合租|招人|求职|简历|内推|折腾了|骂醒|耳放|充电宝|数据线|保护壳|钢化膜|桌搭|键帽|鼠标垫|怎么在美亚买|买个手机/i;
 const SPORTS_NOISE_REGEX = /欧冠|英超|西甲|意甲|德甲|法甲|中超|国足|男足|女足|足协|皇马|巴萨|曼城|曼联|阿森纳|利物浦|拜仁|国米|NBA|CBA|湖人|勇士|凯尔特人|詹姆斯|库里|杜兰特|约基奇|网球|大满贯|温网|美网|澳网|法网|F1大奖赛|斯诺克|丁俊晖|国乒|羽毛球|冬奥|花样滑冰|拳击|世预赛|半决赛|战报|进球|绝杀|转会|主帅/i;
-const CRIME_TRIVIA_REGEX = /纵火|判刑|杀人|凶杀|盗窃|吸毒|家暴|出轨|酒驾|交通事故|追尾/i;
+const CRIME_TRIVIA_REGEX = /纵火|判刑|杀人|凶杀|盗窃|吸毒|家暴|出轨|酒驾|交通事故|追尾|空袭.*造成|死\d+伤|\d+死\d+伤|溺水|坠楼|砍人/i;
 const HIGH_VALUE_REGEX = /AI|人工智能|大模型|GPT|Claude|DeepSeek|OpenAI|芯片|算力|英伟达|NVIDIA|苹果|Apple|谷歌|Google|微软|特斯拉|马斯克|机器人|开源|融资|估值|营收|财报|收购|出海|独立开发|变现|SaaS|MRR|ARR|赚钱|副业|突破|首发|发布|创业|商业|流媒体|票房|效率|工具/i;
 const PURE_AI_REGEX = /OpenAI|ChatGPT|Claude|Anthropic|DeepSeek|Qwen|通义千问|Kimi|豆包|大模型|LLM|Agent|智能体|具身智能|人形机器人|算力|英伟达|NVIDIA|Sora|Midjourney|多模态|推理模型|微调/i;
 const FOREIGN_GEO_REGEX = /伊朗|以色列|加沙|巴勒斯坦|乌克兰|俄罗斯|莫斯科|泽连斯基|普京|白宫|五角大楼|美国国会|英国首相|伦敦|苏格兰|法国总统|巴黎|德国|柏林|日本|东京|韩国|首尔|加拿大|澳大利亚|巴西|墨西哥|叙利亚|黎巴嫩|北约|欧盟委员会|Cloudflare|FAA|NASA/i;
@@ -557,9 +559,9 @@ function routeArticleCategory(title, summary, defaultCategory, sourceId) {
     if (PURE_AI_REGEX.test(title) && !/国务院|发改委|央行|财政部|A股|港股/.test(title)) {
       return "tech";
     }
-    // 2. 国内源报道明显属于国际政经/海外突发且与中国无关 -> global（彻底解决中新网国际新闻混入国内榜）
+    // 2. 国内源报道明显属于国际政经/海外突发且与中国无关 -> 直接过滤剔除，既不污染国内榜也不混入全球外媒双语榜
     if (FOREIGN_GEO_REGEX.test(title) && !CHINA_REL_REGEX.test(combined)) {
-      return "global";
+      return null;
     }
     // 3. 国内源报道创投融资/并购/财报研报 -> business
     if (/融资|IPO|估值|并购|收购|财报|营收|净利润|创投|独角兽/.test(title) && /亿|万|美元|港元|A轮|B轮|C轮|上市/.test(combined)) {
@@ -753,9 +755,10 @@ function generateId(prefix = "a") {
 
 const DEEPSEEK_KEY = (process.env.DEEPSEEK_API_KEY || "").trim();
 let warnedMissingDeepSeek = false;
+let deepseekAuthFailed = false;
 
 async function curateAndTranslateWithDeepSeek(origTitle, origSummary, paragraphs, srcName, category) {
-  if (!origTitle) return null;
+  if (!origTitle || deepseekAuthFailed) return null;
   if (!DEEPSEEK_KEY) {
     if (!warnedMissingDeepSeek) {
       warnedMissingDeepSeek = true;
@@ -802,8 +805,14 @@ async function curateAndTranslateWithDeepSeek(origTitle, origSummary, paragraphs
         ],
         response_format: { type: "json_object" }
       }),
-      signal: AbortSignal.timeout(16000)
+      signal: AbortSignal.timeout(12000)
     });
+
+    if (res.status === 401 || res.status === 402 || res.status === 403) {
+      deepseekAuthFailed = true;
+      console.warn(`  ℹ️ DeepSeek key returned HTTP ${res.status}; switching to multi-endpoint neural translation pipeline.`);
+      return null;
+    }
 
     if (res.ok) {
       const data = await res.json();
@@ -824,17 +833,54 @@ async function translateToChinese(text) {
   const clean = text.replace(/\s+/g, " ").trim();
   if (/[\u4e00-\u9fa5]/.test(clean) && !/[a-zA-Z]{6,}/.test(clean)) return clean;
 
+  // 1. Primary: clients5.google.com (dict-chrome-ex) — exempt from gtx 429 rate-limit captcha
   try {
-    const res = await fetch("https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=zh-CN&dt=t", {
+    const res1 = await fetch("https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=auto&tl=zh-CN", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126.0.0.0 Safari/537.36"
+      },
+      body: new URLSearchParams({ q: clean }),
+      signal: AbortSignal.timeout(7000)
+    });
+    if (res1.ok) {
+      const data1 = await res1.json();
+      const tr1 = Array.isArray(data1?.[0]) ? data1[0][0] : (typeof data1?.[0] === "string" ? data1[0] : "");
+      if (tr1 && /[\u4e00-\u9fa5]/.test(tr1)) return String(tr1).trim();
+    }
+  } catch {}
+
+  // 2. Secondary: translate.google.com (client=at Android neural endpoint)
+  try {
+    const res2 = await fetch("https://translate.google.com/translate_a/single?client=at&dt=t&dj=1&sl=auto&tl=zh-CN", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "User-Agent": "GoogleTranslate/6.29.59279 (Linux; U; Android 11; Pixel 5)"
+      },
+      body: new URLSearchParams({ q: clean }),
+      signal: AbortSignal.timeout(7000)
+    });
+    if (res2.ok) {
+      const data2 = await res2.json();
+      const tr2 = (data2?.sentences || []).map((s) => s?.trans || "").join("");
+      if (tr2 && /[\u4e00-\u9fa5]/.test(tr2)) return tr2.trim();
+    }
+  } catch {}
+
+  // 3. Tertiary: translate.googleapis.com (client=gtx)
+  try {
+    const res3 = await fetch("https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=zh-CN&dt=t", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams({ q: clean }),
       signal: AbortSignal.timeout(7000)
     });
-    if (res.ok) {
-      const data = await res.json();
-      const tr = data[0].map((item) => item[0]).join("");
-      if (/[\u4e00-\u9fa5]/.test(tr)) return tr;
+    if (res3.ok) {
+      const data3 = await res3.json();
+      const tr3 = data3[0].map((item) => item[0]).join("");
+      if (/[\u4e00-\u9fa5]/.test(tr3)) return tr3;
     }
   } catch {}
   return clean;
@@ -871,19 +917,21 @@ async function fetchArticleText(url) {
 async function fetchFeedWithFallback(src) {
   const candidates = [src.feedUrl, ...(src.backupUrls || [])];
   for (const url of candidates) {
-    try {
-      const res = await fetch(url, {
-        headers: {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0.0.0 Safari/537.36",
-          "Accept": "application/rss+xml, application/xml, text/xml, application/atom+xml, */*"
-        },
-        signal: AbortSignal.timeout(8000)
-      });
-      if (res.ok) {
-        const xml = await res.text();
-        if (xml && xml.length > 150) return xml;
-      }
-    } catch {}
+    for (let attempt = 1; attempt <= 2; attempt += 1) {
+      try {
+        const res = await fetch(url, {
+          headers: {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0.0.0 Safari/537.36",
+            "Accept": "application/rss+xml, application/xml, text/xml, application/atom+xml, */*"
+          },
+          signal: AbortSignal.timeout(10000)
+        });
+        if (res.ok) {
+          const xml = await res.text();
+          if (xml && xml.length > 150) return xml;
+        }
+      } catch {}
+    }
   }
   return null;
 }
@@ -947,13 +995,14 @@ async function cleanupAndRepairDatabase() {
     WHERE source_id IN ('rss-sspai', 'sspai')
   `;
 
-  // 4. 将国内榜 (domestic) 中明显属于纯海外国际政治/社会的新闻归位到 global（全球榜）
+  // 4. 清除国内榜 (domestic) 或全球榜 (global) 中来自国内中文源但与中国及科技商业无关的纯海外通稿
   await sql`
-    UPDATE publications
-    SET category = 'global'
-    WHERE category = 'domestic'
-      AND title ~* '伊朗|以色列|加沙|巴勒斯坦|乌克兰|泽连斯基|白宫|五角大楼|英国首相|苏格兰|墨西哥|叙利亚|黎巴嫩|北约|欧盟委员会|Cloudflare|FAA|NASA'
-      AND title !~* '中国|国内|我国|华为|字节|腾讯|阿里|小米|比亚迪|A股|港股'
+    DELETE FROM publications
+    WHERE source_id IN ('rss-chinanews-gn', 'rss-chinanews-cj', 'rss-chinanews-ent')
+      AND (category = 'global' OR (
+        title ~* '伊朗|以色列|加沙|巴勒斯坦|乌克兰|泽连斯基|白宫|五角大楼|英国首相|苏格兰|墨西哥|叙利亚|黎巴嫩|北约|默茨|吕特'
+        AND title !~* '中国|国内|我国|华为|字节|腾讯|阿里|小米|比亚迪|A股|港股'
+      ))
   `;
 
   // 5. 将国内榜中纯 AI 大模型突破归位到 tech（科技榜）
@@ -964,10 +1013,10 @@ async function cleanupAndRepairDatabase() {
       AND (title ~* 'OpenAI|Claude|Anthropic|DeepSeek|大模型|LLM|Agent|智能体|Sora|量子位' OR source_id = 'rss-qbitai')
   `;
 
-  // 6. 清除 V2EX 买买买/生活琐事水帖、推广软文及刑事社会新闻
+  // 6. 清除 V2EX 买买买/生活琐事水帖、推广软文及刑事/伤亡社会新闻
   await sql`
     DELETE FROM publications
-    WHERE title ~* '\\[推广\\]|\\[买买买\\]|怎么在美亚买|买个手机|ZooProxy|原生\\s*IP|耳放|充电宝|保护壳|壁纸|氮化镓|鼠标垫|键帽|纵火|判刑|凶杀'
+    WHERE title ~* '\\[推广\\]|\\[买买买\\]|怎么在美亚买|买个手机|ZooProxy|原生\\s*IP|耳放|充电宝|保护壳|壁纸|氮化镓|鼠标垫|键帽|纵火|判刑|凶杀|空袭.*造成|\\d+死\\d+伤'
   `;
 
   // 7. 统一评分量纲：将所有 <= 10 的 10 分制小数评分升级为 76-98 的 100 分制整数分
@@ -1549,6 +1598,156 @@ async function syncPeriodicAndDailyReports() {
   console.log("  ✅ Daily, Weekly & Monthly reports synchronized cleanly.");
 }
 
+async function exportStaticJsonSnapshots() {
+  console.log("📦 [Step 5] Exporting fresh static JSON snapshots to data-v2/*.json & data/*.json...");
+  const siteUrl = (process.env.SITE_URL || "https://zenglian-news-79709693345.asia-east1.run.app").replace(/\/+$/, "");
+  const categories = ["global", "domestic", "business", "tech", "money", "culture"];
+  const dirs = [
+    path.resolve(process.cwd(), "data-v2"),
+    path.resolve(process.cwd(), "data")
+  ];
+  for (const d of dirs) {
+    try { mkdirSync(d, { recursive: true }); } catch {}
+  }
+
+  function splitHtmlOrText(html, text, fallbackSummary) {
+    const raw = html || text || fallbackSummary || "";
+    if (!raw) return [];
+    if (/<p[\s>]/i.test(raw)) {
+      const m = [...raw.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
+        .map((x) => cleanText(x[1]))
+        .filter((s) => s.length >= 12);
+      if (m.length > 0) return m.slice(0, 12);
+    }
+    const plain = String(text || raw)
+      .split(/\n{2,}|\r\n\r\n/)
+      .map((s) => cleanText(s))
+      .filter((s) => s.length >= 12);
+    if (plain.length > 0) return plain.slice(0, 12);
+    return fallbackSummary ? [cleanText(fallbackSummary)] : [];
+  }
+
+  function formatRow(r) {
+    const isEn = r.language === "en" || Boolean(r.original_title && r.original_title !== r.title);
+    const zhParas = isEn
+      ? splitHtmlOrText(r.tr_html, r.tr_text, r.summary)
+      : splitHtmlOrText(r.body_html, r.body_text, r.summary);
+    const origParas = isEn ? splitHtmlOrText(r.body_html, r.body_text, null) : [];
+    const finalParas = zhParas.length > 0 ? zhParas : [r.summary || r.title].filter(Boolean);
+    const aihotUrl = `${siteUrl}/items/${r.article_id}`;
+    return {
+      id: r.article_id,
+      title: r.title,
+      originalTitle: r.original_title || null,
+      summary: r.summary || "",
+      content: finalParas.join("\n\n"),
+      paragraphs: finalParas,
+      originalContent: origParas.length > 0 ? origParas.join("\n\n") : null,
+      source: { name: r.source_name || "一手信源" },
+      links: { aihot: aihotUrl, original: r.url },
+      publishedAt: new Date(r.published_at || r.discovered_at).toISOString(),
+      discoveredAt: new Date(r.discovered_at).toISOString(),
+      category: r.category,
+      tags: Array.isArray(r.tags) ? r.tags.filter((t) => !String(t).startsWith("entity:")) : [],
+      score: Number(r.score || 92),
+      selected: Boolean(r.selected),
+      reason: r.reason || "",
+      attribution: { name: "曾练全球一手新闻", url: aihotUrl }
+    };
+  }
+
+  const allByCat = new Map();
+  for (const cat of categories) {
+    const rows = await sql`
+      SELECT p.article_id, p.title, p.original_title, p.summary, p.reason, p.category, p.tags,
+             p.score, p.selected, p.url, p.published_at, p.discovered_at,
+             s.name AS source_name, a.language, a.body_html, a.body_text,
+             tr.body_html AS tr_html, tr.body_text AS tr_text
+      FROM publications p
+      JOIN sources s ON s.id = p.source_id
+      JOIN articles a ON a.id = p.article_id
+      LEFT JOIN translations tr ON tr.article_id = p.article_id AND tr.lang = 'zh'
+      WHERE p.visibility = 'public' AND p.eligible AND p.category = ${cat}
+      ORDER BY date_trunc('hour', p.discovered_at) DESC, coalesce(p.published_at, p.timeline_at) DESC, p.score DESC NULLS LAST
+      LIMIT 25
+    `;
+    const items = rows.map(formatRow);
+    allByCat.set(cat, items);
+    const payload = {
+      schemaVersion: 1,
+      generatedAt: new Date().toISOString(),
+      query: {
+        mode: "selected",
+        category: cat,
+        window: "7d",
+        q: null,
+        by: "timeline",
+        ordering: "timelineDesc"
+      },
+      items
+    };
+    const jsonText = JSON.stringify(payload, null, 2);
+    for (const d of dirs) {
+      writeFileSync(path.join(d, `${cat}.json`), jsonText, "utf8");
+    }
+  }
+
+  const todayKey = new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Shanghai" }).format(new Date());
+  const monthKey = todayKey.slice(0, 7);
+  const buildSections = (perCat) =>
+    categories.map((cat) => ({
+      category: cat,
+      label: SECTION_LABELS[cat] || cat,
+      items: (allByCat.get(cat) || []).slice(0, perCat)
+    })).filter((s) => s.items.length > 0);
+
+  const dailySections = buildSections(3);
+  const weeklySections = buildSections(5);
+  const monthlySections = buildSections(6);
+  const leadTitles = categories
+    .map((c) => allByCat.get(c)?.[0]?.title?.replace(/^【[^】]+】\s*/, ""))
+    .filter(Boolean)
+    .slice(0, 3)
+    .join("；");
+
+  const reportsPayload = {
+    schemaVersion: 1,
+    generatedAt: new Date().toISOString(),
+    daily: {
+      kind: "daily",
+      key: todayKey,
+      title: `曾练全球一手简报 · 今日日报 (${todayKey})`,
+      subtitle: "全球一手 · 国内前沿 · 商业创投 · 硬核科技 · 搞钱变现 · 数字文娱",
+      overview: `今日从全球 30 大官方一手信源实时严选 ${dailySections.reduce((a, s) => a + s.items.length, 0)} 项高价值科技与商业情报。重点关注：${leadTitles}。`,
+      metrics: { totalEvents: dailySections.reduce((a, s) => a + s.items.length, 0), sourcesCount: 30, selectedCount: dailySections.reduce((a, s) => a + s.items.length, 0) },
+      sections: dailySections
+    },
+    weekly: {
+      kind: "weekly",
+      key: "2026-W48",
+      title: `曾练全球一手简报 · 本周周报 (${todayKey})`,
+      subtitle: "全球商业创投、大模型演进与独立变现周度全景精编",
+      overview: `本周共严选 ${weeklySections.reduce((a, s) => a + s.items.length, 0)} 项跨周期重点科技与商业情报。核心焦点：${leadTitles}。`,
+      metrics: { totalEvents: weeklySections.reduce((a, s) => a + s.items.length, 0), sourcesCount: 30, selectedCount: weeklySections.reduce((a, s) => a + s.items.length, 0) },
+      sections: weeklySections
+    },
+    monthly: {
+      kind: "monthly",
+      key: monthKey,
+      title: `曾练全球一手简报 · 月度研报 (${monthKey})`,
+      subtitle: "全球科技巨头、算力底座与新经济产业月度风向标",
+      overview: `本月共收录 ${monthlySections.reduce((a, s) => a + s.items.length, 0)} 项标志性行业突破与商业事件。重点聚焦：${leadTitles}。`,
+      metrics: { totalEvents: monthlySections.reduce((a, s) => a + s.items.length, 0), sourcesCount: 30, selectedCount: monthlySections.reduce((a, s) => a + s.items.length, 0) },
+      sections: monthlySections
+    }
+  };
+  const reportsJson = JSON.stringify(reportsPayload, null, 2);
+  for (const d of dirs) {
+    writeFileSync(path.join(d, "reports.json"), reportsJson, "utf8");
+  }
+  console.log("  ✅ Exported fresh data-v2/*.json & data/*.json snapshots.");
+}
+
 async function main() {
   console.log("🚀 Starting v3.0 Zenglian News Full-Pipeline Curated Ingestion & Repair...");
 
@@ -1592,6 +1791,7 @@ async function main() {
     await withDbRetry("backfillTopicTagsAndReasons", () => backfillTopicTagsAndReasons());
     await withDbRetry("syncHotStoriesAndRankings", () => syncHotStoriesAndRankings());
     await withDbRetry("syncPeriodicAndDailyReports", () => syncPeriodicAndDailyReports());
+    await withDbRetry("exportStaticJsonSnapshots", () => exportStaticJsonSnapshots());
     console.log("🎉 Finished --repair-only database sync!");
     return;
   }
@@ -1599,13 +1799,13 @@ async function main() {
   let totalNew = 0;
   const seenTitlesByCategory = new Map();
 
-  for (const src of PREMIUM_SOURCES) {
+  async function processSource(src) {
     try {
       console.log(`📡 Fetching [${src.category}] ${src.name}...`);
       const xml = await fetchFeedWithFallback(src);
       if (!xml) {
         console.warn(`  ⚠️ No valid XML from ${src.name}`);
-        continue;
+        return;
       }
       const doc = parser.parse(xml);
       const channel = doc.rss?.channel || doc.feed || {};
@@ -1615,7 +1815,7 @@ async function main() {
       let srcCount = 0;
       const maxQuota = src.maxQuota || 5;
 
-      for (const item of items.slice(0, 12)) {
+      for (const item of items.slice(0, 15)) {
         if (srcCount >= maxQuota) break;
 
         const rawTitle = cleanText(item.title);
@@ -1654,7 +1854,7 @@ async function main() {
         `;
         if (existingPub && /[\u4e00-\u9fa5]/.test(existingPub.title)) {
           categorySeenTitles.push(existingPub.title);
-          srcCount++;
+          // 已存在的旧文章不占用本次新增配额 srcCount，确保排在后面的未入库新文章能被实时抓取
           continue;
         }
 
@@ -1828,16 +2028,24 @@ async function main() {
           console.error(`    Insert error for "${rawTitle.slice(0, 20)}":`, e.message);
         }
       }
-      console.log(`  ✨ Curated ${srcCount} top articles from ${src.name}`);
+      console.log(`  ✨ Curated ${srcCount} new articles from ${src.name}`);
     } catch (err) {
       console.error(`  ❌ Failed ${src.name}: ${err.message}`);
     }
+  }
+
+  // 5 路并发抓取 30 大官方信源，大幅缩短整轮耗时至 60-90 秒内
+  const CONCURRENCY = 5;
+  for (let i = 0; i < PREMIUM_SOURCES.length; i += CONCURRENCY) {
+    const batch = PREMIUM_SOURCES.slice(i, i + CONCURRENCY);
+    await Promise.all(batch.map((src) => processSource(src)));
   }
 
   try {
     await withDbRetry("backfillTopicTagsAndReasons", () => backfillTopicTagsAndReasons());
     await withDbRetry("syncHotStoriesAndRankings", () => syncHotStoriesAndRankings());
     await withDbRetry("syncPeriodicAndDailyReports", () => syncPeriodicAndDailyReports());
+    await withDbRetry("exportStaticJsonSnapshots", () => exportStaticJsonSnapshots());
   } catch (err) {
     console.warn(`  ⚠️ Post-processing sync warning: ${err?.message || err}`);
   }

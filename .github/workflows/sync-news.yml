@@ -1,10 +1,12 @@
 name: Sync News Cache to CDN
 
 on:
+  schedule:
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: sync-news
@@ -16,7 +18,7 @@ jobs:
     timeout-minutes: 20
     env:
       DATABASE_URL: ${{ secrets.DATABASE_URL }}
-      SITE_URL: ${{ vars.SITE_URL || secrets.SITE_URL }}
+      SITE_URL: ${{ vars.SITE_URL || secrets.SITE_URL || 'https://zenglian-news-79709693345.asia-east1.run.app' }}
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
     steps:
       - name: Validate required environment
@@ -25,13 +27,11 @@ jobs:
             echo "Missing required DATABASE_URL secret" >&2
             exit 1
           fi
-          if [ -z "${SITE_URL:-}" ]; then
-            echo "Missing required SITE_URL variable/secret" >&2
-            exit 1
-          fi
 
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
       - name: Setup Node.js 24
         uses: actions/setup-node@v4
@@ -42,5 +42,19 @@ jobs:
       - name: Install dependencies
         run: npm ci --no-audit --no-fund
 
-      - name: Crawl live RSS feeds and curate sources
+      - name: Crawl live RSS feeds, curate sources & export JSON snapshots
         run: node scripts/inject_premium_sources.mjs
+
+      - name: Commit and push updated data-v2 & data snapshots to CDN
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data-v2/*.json data/*.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(data): auto-sync live curated news snapshots [skip ci]"
+            git pull --rebase origin main || true
+            git push origin HEAD:main
+          else
+            echo "No snapshot changes to commit."
+          fi
+
