@@ -279,7 +279,7 @@ export async function loadMobileFeed(opts: {
     WHERE ${scope}
       ${categoryCondition(opts.category ?? null, true)}
       ${directMatchCondition(terms)}
-    ORDER BY date_trunc('hour', p.discovered_at) DESC, coalesce(p.published_at, p.timeline_at) DESC, p.score DESC NULLS LAST
+    ORDER BY coalesce(p.published_at, p.timeline_at, p.discovered_at) DESC, p.score DESC NULLS LAST
     LIMIT ${limit}`;
 
   // 若某个分类下 selected 严选不足，自动补充 listed 候选保证列表饱满
@@ -290,7 +290,7 @@ export async function loadMobileFeed(opts: {
       ${ITEM_FROM}
       WHERE ${listedCondition(now)}
         ${categoryCondition(opts.category ?? null, true)}
-      ORDER BY date_trunc('hour', p.discovered_at) DESC, coalesce(p.published_at, p.timeline_at) DESC, p.score DESC NULLS LAST
+      ORDER BY coalesce(p.published_at, p.timeline_at, p.discovered_at) DESC, p.score DESC NULLS LAST
       LIMIT ${limit}`;
   }
 
@@ -318,6 +318,16 @@ const MOBILE_SECTION_LABELS: Record<string, string> = {
   culture: "数字文娱 · 效率工具与流媒体",
 };
 
+function computeIsoWeekKey(dateStr: string): string {
+  const [y, m, d] = dateStr.split("-").map(Number);
+  const dt = new Date(Date.UTC(y || 2026, (m || 1) - 1, d || 1));
+  const dayNum = dt.getUTCDay() || 7;
+  dt.setUTCDate(dt.getUTCDate() + 4 - dayNum);
+  const yearStart = new Date(Date.UTC(dt.getUTCFullYear(), 0, 1));
+  const weekNo = Math.ceil((((dt.getTime() - yearStart.getTime()) / 86400000) + 1) / 7);
+  return `${dt.getUTCFullYear()}-W${String(weekNo).padStart(2, "0")}`;
+}
+
 /**
  * 移动端实时日报·周报·月报聚合查询（直连 PostgreSQL 最新鲜文章构建双语简报）。
  */
@@ -326,12 +336,13 @@ export async function loadMobileReports(now = new Date()) {
     SELECT ${ITEM_COLUMNS}, a.body_html, a.body_text, tr.body_html AS tr_html, tr.body_text AS tr_text
     ${ITEM_FROM}
     WHERE ${listedCondition(now)}
-    ORDER BY p.discovered_at DESC, p.score DESC NULLS LAST
+    ORDER BY coalesce(p.published_at, p.timeline_at, p.discovered_at) DESC, p.score DESC NULLS LAST
     LIMIT 180`;
 
   const items = rows.map(toMobileFeedItem);
   const todayKey = beijingDate(now);
   const monthKey = todayKey.slice(0, 7);
+  const weekKey = computeIsoWeekKey(todayKey);
 
   function buildSections(pool: ReturnType<typeof toMobileFeedItem>[], perCat: number) {
     return PUBLIC_API_CATEGORY_KEYS.map((cat) => {
@@ -367,7 +378,7 @@ export async function loadMobileReports(now = new Date()) {
     },
     weekly: {
       kind: "weekly",
-      key: `${todayKey.slice(0, 4)}-W48`,
+      key: weekKey,
       title: `曾练全球一手简报 · 本周周报 (${todayKey})`,
       subtitle: "跨周期高分商业与硬核技术演进全景复盘",
       overview: `本周从全球 30 大权威信源精选 ${weeklySections.reduce((n, s) => n + s.items.length, 0)} 项重大产业与技术突破。核心议题：${topTitles}。`,

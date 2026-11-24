@@ -523,8 +523,8 @@ export function inferTopicTags(title, originalTitle, summary, category, baseTags
 /**
  * 噪音、水帖与体育/刑事串类硬过滤规则
  */
-const SPAM_TITLE_REGEX = /\[推广\]|\[Telegram\]|\[买买买\]|粉丝服务|刷粉|推广|代理IP|原生\s*IP|领券|促销|京东自营|天猫|限时特惠|满减|到手价|白菜价|史低|优惠券|出二手|收个|闲置|求推荐|相亲|女朋友|男朋友|分手|彩礼|签到|测试帖|水一贴|求个码|邀请码|拼车|合租|招人|求职|简历|内推|折腾了|骂醒|耳放|充电宝|数据线|保护壳|钢化膜|桌搭|键帽|鼠标垫|怎么在美亚买|买个手机/i;
-const SPORTS_NOISE_REGEX = /欧冠|英超|西甲|意甲|德甲|法甲|中超|国足|男足|女足|足协|皇马|巴萨|曼城|曼联|阿森纳|利物浦|拜仁|国米|NBA|CBA|湖人|勇士|凯尔特人|詹姆斯|库里|杜兰特|约基奇|网球|大满贯|温网|美网|澳网|法网|F1大奖赛|斯诺克|丁俊晖|国乒|羽毛球|冬奥|花样滑冰|拳击|世预赛|半决赛|战报|进球|绝杀|转会|主帅/i;
+const SPAM_TITLE_REGEX = /\[推广\]|\[Telegram\]|\[买买买\]|粉丝服务|刷粉|推广|代理IP|原生\s*IP|领券|促销|京东自营|天猫|限时特惠|满减|到手价|白菜价|史低|优惠券|出二手|收个|闲置|求推荐|相亲|女朋友|男朋友|分手|彩礼|签到|测试帖|水一贴|求个码|邀请码|拼车|合租|年付半价|土区|封号会把|哈基米|跟踪指数.*上涨|标的指数涨超|ETF[^\s]{0,6}\(\d{6}\)|招人|求职|简历|内推|折腾了|骂醒|耳放|充电宝|数据线|保护壳|钢化膜|桌搭|键帽|鼠标垫|怎么在美亚买|买个手机/i;
+const SPORTS_NOISE_REGEX = /欧冠|英超|西甲|意甲|德甲|法甲|中超|国足|男足|女足|足协|皇马|巴萨|曼城|曼联|阿森纳|利物浦|拜仁|国米|NBA|CBA|湖人|勇士|凯尔特人|詹姆斯|库里|杜兰特|约基奇|网球|大满贯|温网|美网|澳网|法网|F1大奖赛|斯诺克|九球|台球|桌球|丁俊晖|国乒|羽毛球|冬奥|花样滑冰|拳击|世预赛|半决赛|战报|进球|绝杀|转会|主帅/i;
 const CRIME_TRIVIA_REGEX = /纵火|判刑|杀人|凶杀|盗窃|吸毒|家暴|出轨|酒驾|交通事故|追尾|空袭.*造成|死\d+伤|\d+死\d+伤|溺水|坠楼|砍人/i;
 const HIGH_VALUE_REGEX = /AI|人工智能|大模型|GPT|Claude|DeepSeek|OpenAI|芯片|算力|英伟达|NVIDIA|苹果|Apple|谷歌|Google|微软|特斯拉|马斯克|机器人|开源|融资|估值|营收|财报|收购|出海|独立开发|变现|SaaS|MRR|ARR|赚钱|副业|突破|首发|发布|创业|商业|流媒体|票房|效率|工具/i;
 const PURE_AI_REGEX = /OpenAI|ChatGPT|Claude|Anthropic|DeepSeek|Qwen|通义千问|Kimi|豆包|大模型|LLM|Agent|智能体|具身智能|人形机器人|算力|英伟达|NVIDIA|Sora|Midjourney|多模态|推理模型|微调/i;
@@ -1013,10 +1013,34 @@ async function cleanupAndRepairDatabase() {
       AND (title ~* 'OpenAI|Claude|Anthropic|DeepSeek|大模型|LLM|Agent|智能体|Sora|量子位' OR source_id = 'rss-qbitai')
   `;
 
-  // 6. 清除 V2EX 买买买/生活琐事水帖、推广软文及刑事/伤亡社会新闻
+  // 6. 清除 V2EX 买买买/生活琐事水帖、推广软文、ETF 机器播报、台球体育串类及刑事/伤亡社会新闻
   await sql`
     DELETE FROM publications
-    WHERE title ~* '\\[推广\\]|\\[买买买\\]|怎么在美亚买|买个手机|ZooProxy|原生\\s*IP|耳放|充电宝|保护壳|壁纸|氮化镓|鼠标垫|键帽|纵火|判刑|凶杀|空袭.*造成|\\d+死\\d+伤'
+    WHERE title ~* '\\[推广\\]|\\[买买买\\]|\\[股票\\]|\\[职场话题\\]|\\[问与答\\]|怎么在美亚买|买个手机|ZooProxy|原生\\s*IP|年付半价|土区|哈基米|准确预测了老黄|封号会把整个|感觉 Neon 速度快|九球公开赛|中式九球|跟踪指数.*上涨|标的指数涨超|ETF.*\\([0-9]{6}\\)|耳放|充电宝|保护壳|壁纸|氮化镓|鼠标垫|键帽|纵火|判刑|凶杀|空袭.*造成|\\d+死\\d+伤'
+  `;
+
+  // 6b. 规范化历史文章中残留的【焦点】【钛晨报】[分享创造][程序员]等非标前缀，并折叠同事件重复国内短通稿
+  await sql`
+    UPDATE publications
+    SET title = '【界面产经】' || regexp_replace(title, '^【焦点】\\s*', '')
+    WHERE title ~ '^【焦点】'
+  `;
+  await sql`
+    UPDATE publications
+    SET title = '【钛媒创投】' || regexp_replace(title, '^【钛晨报】\\s*', '')
+    WHERE title ~ '^【钛晨报】'
+  `;
+  await sql`
+    UPDATE publications
+    SET title = '【独立创造】' || regexp_replace(title, '^\\[(分享创造|程序员|Google Gemini)\\]\\s*', '')
+    WHERE category = 'money' AND title ~ '^\\[(分享创造|程序员|Google Gemini)\\]'
+  `;
+  await sql`
+    UPDATE publications
+    SET selected = false, seat = false
+    WHERE category = 'tech'
+      AND source_id IN ('rss-chinanews-gn', 'rss-chinanews-cj', 'rss-jiemian')
+      AND title ~ '黄仁勋|英伟达'
   `;
 
   // 7. 统一评分量纲：将所有 <= 10 的 10 分制小数评分升级为 76-98 的 100 分制整数分
@@ -1563,19 +1587,26 @@ async function syncPeriodicAndDailyReports() {
     await buildDailyReportForDate(dKey, dayPool);
   }
 
-  // 构建最新周报 (2026-W47 及修复 2026-W46)
+  // 构建最新周报 (2026-W48、2026-W47 及修复 2026-W46)
   await buildPeriodicReport(
     "weekly",
     "2026-W46",
     new Date("2026-11-09T00:00:00+08:00"),
     new Date("2026-11-15T23:59:59+08:00"),
-    recentArticles.slice(20, 120)
+    recentArticles.slice(40, 140)
   );
   await buildPeriodicReport(
     "weekly",
     "2026-W47",
     new Date("2026-11-16T00:00:00+08:00"),
     new Date("2026-11-22T23:59:59+08:00"),
+    recentArticles.slice(15, 105)
+  );
+  await buildPeriodicReport(
+    "weekly",
+    "2026-W48",
+    new Date("2026-11-23T00:00:00+08:00"),
+    new Date("2026-11-29T23:59:59+08:00"),
     recentArticles.slice(0, 90)
   );
 
@@ -1658,7 +1689,7 @@ async function exportStaticJsonSnapshots() {
 
   const allByCat = new Map();
   for (const cat of categories) {
-    const rows = await sql`
+    let rows = await sql`
       SELECT p.article_id, p.title, p.original_title, p.summary, p.reason, p.category, p.tags,
              p.score, p.selected, p.url, p.published_at, p.discovered_at,
              s.name AS source_name, a.language, a.body_html, a.body_text,
@@ -1667,10 +1698,25 @@ async function exportStaticJsonSnapshots() {
       JOIN sources s ON s.id = p.source_id
       JOIN articles a ON a.id = p.article_id
       LEFT JOIN translations tr ON tr.article_id = p.article_id AND tr.lang = 'zh'
-      WHERE p.visibility = 'public' AND p.eligible AND p.category = ${cat}
-      ORDER BY date_trunc('hour', p.discovered_at) DESC, coalesce(p.published_at, p.timeline_at) DESC, p.score DESC NULLS LAST
+      WHERE p.visibility = 'public' AND p.eligible AND p.selected AND p.category = ${cat}
+      ORDER BY coalesce(p.published_at, p.timeline_at, p.discovered_at) DESC, p.score DESC NULLS LAST
       LIMIT 25
     `;
+    if (rows.length < 15) {
+      rows = await sql`
+        SELECT p.article_id, p.title, p.original_title, p.summary, p.reason, p.category, p.tags,
+               p.score, p.selected, p.url, p.published_at, p.discovered_at,
+               s.name AS source_name, a.language, a.body_html, a.body_text,
+               tr.body_html AS tr_html, tr.body_text AS tr_text
+        FROM publications p
+        JOIN sources s ON s.id = p.source_id
+        JOIN articles a ON a.id = p.article_id
+        LEFT JOIN translations tr ON tr.article_id = p.article_id AND tr.lang = 'zh'
+        WHERE p.visibility = 'public' AND p.eligible AND p.category = ${cat}
+        ORDER BY coalesce(p.published_at, p.timeline_at, p.discovered_at) DESC, p.score DESC NULLS LAST
+        LIMIT 25
+      `;
+    }
     const items = rows.map(formatRow);
     allByCat.set(cat, items);
     const payload = {
@@ -1694,6 +1740,16 @@ async function exportStaticJsonSnapshots() {
 
   const todayKey = new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Shanghai" }).format(new Date());
   const monthKey = todayKey.slice(0, 7);
+  const computeIsoWeek = (dStr) => {
+    const [y, m, d] = dStr.split("-").map(Number);
+    const dt = new Date(Date.UTC(y || 2026, (m || 1) - 1, d || 1));
+    const dayNum = dt.getUTCDay() || 7;
+    dt.setUTCDate(dt.getUTCDate() + 4 - dayNum);
+    const yearStart = new Date(Date.UTC(dt.getUTCFullYear(), 0, 1));
+    const weekNo = Math.ceil((((dt.getTime() - yearStart.getTime()) / 86400000) + 1) / 7);
+    return `${dt.getUTCFullYear()}-W${String(weekNo).padStart(2, "0")}`;
+  };
+  const weekKey = computeIsoWeek(todayKey);
   const buildSections = (perCat) =>
     categories.map((cat) => ({
       category: cat,
@@ -1724,7 +1780,7 @@ async function exportStaticJsonSnapshots() {
     },
     weekly: {
       kind: "weekly",
-      key: "2026-W48",
+      key: weekKey,
       title: `曾练全球一手简报 · 本周周报 (${todayKey})`,
       subtitle: "全球商业创投、大模型演进与独立变现周度全景精编",
       overview: `本周共严选 ${weeklySections.reduce((a, s) => a + s.items.length, 0)} 项跨周期重点科技与商业情报。核心焦点：${leadTitles}。`,
@@ -1818,7 +1874,11 @@ async function main() {
       for (const item of items.slice(0, 15)) {
         if (srcCount >= maxQuota) break;
 
-        const rawTitle = cleanText(item.title);
+        const rawTitleOrig = cleanText(item.title);
+        const rawTitle = rawTitleOrig
+          .replace(/^【(?:焦点|钛晨报|快讯|早报|热闻)】\s*/, "")
+          .replace(/^\[[^\]]{1,18}\]\s*/, "")
+          .trim();
         let link = "";
         if (typeof item.link === "string") link = item.link;
         else if (item.link?.["@href"]) link = item.link["@href"];
@@ -1827,7 +1887,7 @@ async function main() {
         const extractedSummary = extractBestSummary(item, rawTitle, src);
         if (!rawTitle || !link) continue;
 
-        if (isNoiseOrSpam(rawTitle, extractedSummary, src.id)) {
+        if (isNoiseOrSpam(rawTitleOrig, extractedSummary, src.id) || isNoiseOrSpam(rawTitle, extractedSummary, src.id)) {
           continue;
         }
 
@@ -1847,6 +1907,10 @@ async function main() {
         let pubDate = pubDateStr ? new Date(pubDateStr) : new Date();
         if (isNaN(pubDate.getTime()) || pubDate.getTime() > Date.now() + 3600_000) {
           pubDate = new Date();
+        }
+        // 超过 72 小时的陈旧 RSS 条目不再作为新实时文章入库
+        if (Date.now() - pubDate.getTime() > 72 * 3600_000) {
+          continue;
         }
 
         const [existingPub] = await sql`

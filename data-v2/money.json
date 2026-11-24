@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T01:25:32.260Z",
+  "generatedAt": "2026-11-24T01:54:23.851Z",
   "query": {
     "mode": "selected",
     "category": "money",
@@ -10,6 +10,248 @@
     "ordering": "timelineDesc"
   },
   "items": [
+    {
+      "id": "a7367c7fc39acce0231eaa01f",
+      "title": "【独立创造】我的菜单栏时间/日历应用更新了",
+      "originalTitle": null,
+      "summary": "这就是一个简单的宣传贴，之前也发过 为了能较为安全的使用 AI 产品，改了系统时区，本是方便看国内时间的，慢慢的加了些内容 菜单栏自定义时间显示 显示不同地区时间 最近增加了不同时区时间换算 显示系统日历事件和提醒 78FA4MRPHAXLTFJKEE 3EYXELJML4EHH4JHMY MLH768XJ3864F8MJH4 6PJLRWEF3XPJ4LWM63 JAH67JMJ4FHP43F3HY MPR6M6FN6PTA36N6K8 J7ANEETLPY8HW67JRX…",
+      "content": "为了能较为安全的使用 AI 产品，改了系统时区，本是方便看国内时间的，慢慢的加了些内容\n\nhttps://testflight.apple.com/join/qQm6FuPJ",
+      "paragraphs": [
+        "为了能较为安全的使用 AI 产品，改了系统时区，本是方便看国内时间的，慢慢的加了些内容",
+        "https://testflight.apple.com/join/qQm6FuPJ"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a7367c7fc39acce0231eaa01f",
+        "original": "https://www.v2ex.com/t/1259327#reply0"
+      },
+      "publishedAt": "2026-11-24T01:40:56.000Z",
+      "discoveredAt": "2026-11-24T01:46:55.701Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "安全/对齐",
+        "产品更新"
+      ],
+      "score": 93,
+      "selected": true,
+      "reason": "V2EX精选研判：聚焦「我的菜单栏时间/日历应用更新了」的一手事实与行业演进信号。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a7367c7fc39acce0231eaa01f"
+      }
+    },
+    {
+      "id": "a3997723d774db794a7cdd003",
+      "title": "【独立创造】开源一个类 Coolify / Dokploy 的项目（低至 50M 内存）：能直接在生产环境验证、拦截有问题的代码和数据库变更，且不影响线上正常使用",
+      "originalTitle": null,
+      "summary": "各位上午好，我是 CDelivery 的开发者。 写代码这些年来，每次上线更新都心惊胆战，不管测试环境测试多少回，还总能遇到「测试没问题，上线就崩溃」，而且都是上线后，影响到用户使用了，才能发现然后再处理。 我们前后花了 18 个月，一边开发、一边同时使用，发现不适合不够好的地方，就推倒重来了不下 10 次，终于完成了 CDelivery，已经在我们内部使用几个月了。 现在以 Apache-2.0 协议开源出来，免费、无数据收集（放心，因为采集和存储这些是要花钱的）。",
+      "content": "写代码这些年来，每次上线更新都心惊胆战，不管测试环境测试多少回，还总能遇到「测试没问题，上线就崩溃」，而且都是上线后，影响到用户使用了，才能发现然后再处理。\n\n我们前后花了 18 个月，一边开发、一边同时使用，发现不适合不够好的地方，就推倒重来了不下 10 次，终于完成了 CDelivery，已经在我们内部使用几个月了。\n\n现在以 Apache-2.0 协议开源出来，免费、无数据收集（放心，因为采集和存储这些是要花钱的）。\n\nGitHub：https://github.com/cdelivery-dev/cdelivery\n\n官网与文档：https://cdelivery.dev\n\n线上验证的思路是，不仅仅检测端口是否能访问，还检测业务规则。不仅仅定时巡检，还在代码和数据库更新的时候也检测。并且不影响用户使用。\n\n代码、配置更新：会直接在线上环境创建一个新版本的实例，但不给这个实例分配流量，仅仅用于检查，检查通过后会发布给用户。失败就会拦截，并且保留现场便于排查。\n\n有依赖关系的代码更新：比如订单 APP 依赖和调用用户 APP，当用户 APP 更新的时候，除了自身，也会检查订单 APP 调用新版用户 API 是否会失败，失败就会拦截。\n\n数据库变更：CDelivery 会迅速从生产数据库 fork 出一个临时分支，在这个分支上执行变更，然后在这个分支上验证所有依赖这个数据库的 APP，通过之后才会在线上数据库执行这个变更。（已支持自部署的 PostgreSQL、Neon 和 PlanetScale，可扩展更多类型）\n\n上述的流程无论成功还是失败，都不会影响生产环境的正常使用。",
+      "paragraphs": [
+        "写代码这些年来，每次上线更新都心惊胆战，不管测试环境测试多少回，还总能遇到「测试没问题，上线就崩溃」，而且都是上线后，影响到用户使用了，才能发现然后再处理。",
+        "我们前后花了 18 个月，一边开发、一边同时使用，发现不适合不够好的地方，就推倒重来了不下 10 次，终于完成了 CDelivery，已经在我们内部使用几个月了。",
+        "现在以 Apache-2.0 协议开源出来，免费、无数据收集（放心，因为采集和存储这些是要花钱的）。",
+        "GitHub：https://github.com/cdelivery-dev/cdelivery",
+        "官网与文档：https://cdelivery.dev",
+        "线上验证的思路是，不仅仅检测端口是否能访问，还检测业务规则。不仅仅定时巡检，还在代码和数据库更新的时候也检测。并且不影响用户使用。",
+        "代码、配置更新：会直接在线上环境创建一个新版本的实例，但不给这个实例分配流量，仅仅用于检查，检查通过后会发布给用户。失败就会拦截，并且保留现场便于排查。",
+        "有依赖关系的代码更新：比如订单 APP 依赖和调用用户 APP，当用户 APP 更新的时候，除了自身，也会检查订单 APP 调用新版用户 API 是否会失败，失败就会拦截。",
+        "数据库变更：CDelivery 会迅速从生产数据库 fork 出一个临时分支，在这个分支上执行变更，然后在这个分支上验证所有依赖这个数据库的 APP，通过之后才会在线上数据库执行这个变更。（已支持自部署的 PostgreSQL、Neon 和 PlanetScale，可扩展更多类型）",
+        "上述的流程无论成功还是失败，都不会影响生产环境的正常使用。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a3997723d774db794a7cdd003",
+        "original": "https://www.v2ex.com/t/1259324#reply3"
+      },
+      "publishedAt": "2026-11-24T01:31:34.000Z",
+      "discoveredAt": "2026-11-24T01:46:56.484Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "开源生态",
+        "部署/工程",
+        "模型发布",
+        "产品更新"
+      ],
+      "score": 94,
+      "selected": true,
+      "reason": "开源工程价值：「开源一个类 Coolify / Dokplo…」技术方案与实测表现，可直接赋能开发者低成本落地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a3997723d774db794a7cdd003"
+      }
+    },
+    {
+      "id": "a3fac0f0c3d0fdb567631160b",
+      "title": "【独立创造】[iOS] 相册清理 App「轻轻」1.4：大视频可以在本机压缩了，年底大扫除再送 20 个 Pro 码",
+      "originalTitle": null,
+      "summary": "两周前在这里发过「轻轻」（一次只给你 20 张旧照片的相册清理 App），收到很多建议，这几周照着改了不少。年底了，说说新东西，再送 20 个 Pro 码。 1.4 新增：视频压缩 「我的 → 工具 → 视频压缩」：按时间、大小筛，多选，选分辨率 / 画质 / 帧率 / 编码；默认分辨率和帧率都不动，只降码率 在本机压缩，存成一个新视频，拍摄时间、位置、收藏、所在相簿照抄原片 原片默认保留，要不要删你自己定；",
+      "content": "两周前在这里发过「轻轻」（一次只给你 20 张旧照片的相册清理 App），收到很多建议，这几周照着改了不少。年底了，说说新东西，再送 20 个 Pro 码。\n\n「我的 → 工具 → 视频压缩」：按时间、大小筛，多选，选分辨率 / 画质 / 帧率 / 编码；默认分辨率和帧率都不动，只降码率\n\n在本机压缩，存成一个新视频，拍摄时间、位置、收藏、所在相簿照抄原片\n\n原片默认保留，要不要删你自己定；删的话走系统确认、进「最近删除」\n\n编码没用系统导出预设（那个只能选分辨率），是 AVAssetReader + AVAssetWriter 自己接的，所以码率能调\n\n清理空相簿：一次找出没有任何照片和视频的相簿，免费\n\n相似照片对比时可以双指放大，拖到边缘直接换下一张、倍率保留\n\n切到别的 App 再回来卡住、点删除很久才响应的问题修了（取图提交从 Swift 并发线程池挪到了 GCD 队列，回前台 Photos 忙的时候池子不会被占满）\n\n全程本地：没有服务器、没有账号、没有统计和广告 SDK\n\n滑动整理和视频整理永久免费；相似分组和下滑归档每天各 5 组免费，第二天回满；视频压缩免费试 3 个",
+      "paragraphs": [
+        "两周前在这里发过「轻轻」（一次只给你 20 张旧照片的相册清理 App），收到很多建议，这几周照着改了不少。年底了，说说新东西，再送 20 个 Pro 码。",
+        "「我的 → 工具 → 视频压缩」：按时间、大小筛，多选，选分辨率 / 画质 / 帧率 / 编码；默认分辨率和帧率都不动，只降码率",
+        "在本机压缩，存成一个新视频，拍摄时间、位置、收藏、所在相簿照抄原片",
+        "原片默认保留，要不要删你自己定；删的话走系统确认、进「最近删除」",
+        "编码没用系统导出预设（那个只能选分辨率），是 AVAssetReader + AVAssetWriter 自己接的，所以码率能调",
+        "清理空相簿：一次找出没有任何照片和视频的相簿，免费",
+        "相似照片对比时可以双指放大，拖到边缘直接换下一张、倍率保留",
+        "切到别的 App 再回来卡住、点删除很久才响应的问题修了（取图提交从 Swift 并发线程池挪到了 GCD 队列，回前台 Photos 忙的时候池子不会被占满）",
+        "全程本地：没有服务器、没有账号、没有统计和广告 SDK",
+        "滑动整理和视频整理永久免费；相似分组和下滑归档每天各 5 组免费，第二天回满；视频压缩免费试 3 个"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a3fac0f0c3d0fdb567631160b",
+        "original": "https://www.v2ex.com/t/1259323#reply1"
+      },
+      "publishedAt": "2026-11-24T01:31:29.000Z",
+      "discoveredAt": "2026-11-24T01:46:57.276Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "产品更新"
+      ],
+      "score": 93,
+      "selected": true,
+      "reason": "V2EX精选研判：聚焦「[iOS] 相册清理 App「轻轻」1.4：…」的一手事实与行业演进信号。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a3fac0f0c3d0fdb567631160b"
+      }
+    },
+    {
+      "id": "a8fd1a58daeb73b74fec4dc33",
+      "title": "【独立创造】我开发了一个 AI 质量检测工具，用来检查 AI 服务的质量，客户端和云端全部开源",
+      "originalTitle": null,
+      "summary": "github 项目地址： https://github.com/liuxuzzz/ai_detect 云端演示地址： https://ai_detect.wv.gs/ 云端分享的结果展示： https://ai_detect.wv.gs/r/Ei32DSDZMVykZbVxykdevGZz 项目包含客户端和云端，客户端和云端各自可以独立使用。 客户端：本地检测，如果需要将结果分享给其他人，可以导出 html，或者云端注册账号并发布到云端...",
+      "content": "github 项目地址： https://github.com/liuxuzzz/ai_detect 云端演示地址： https://ai_detect.wv.gs/ 云端分享的结果展示： https://ai_detect.wv.gs/r/Ei32DSDZMVykZbVxykdevGZz 项目包含客户端和云端，客户端和云端各自可以独立使用。 客户端：本地检测，如果需要将结果分享给其他人，可以导出 html，或者云端注册账号并发布到云端...\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "paragraphs": [
+        "github 项目地址： https://github.com/liuxuzzz/ai_detect 云端演示地址： https://ai_detect.wv.gs/ 云端分享的结果展示： https://ai_detect.wv.gs/r/Ei32DSDZMVykZbVxykdevGZz 项目包含客户端和云端，客户端和云端各自可以独立使用。 客户端：本地检测，如果需要将结果分享给其他人，可以导出 html，或者云端注册账号并发布到云端...",
+        "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a8fd1a58daeb73b74fec4dc33",
+        "original": "https://www.v2ex.com/t/1259320#reply0"
+      },
+      "publishedAt": "2026-11-24T01:27:33.000Z",
+      "discoveredAt": "2026-11-24T01:29:08.631Z",
+      "category": "money",
+      "tags": [
+        "Top20",
+        "商业搞钱",
+        "副业",
+        "编码",
+        "开源生态",
+        "模型发布",
+        "产品更新",
+        "教程/实践"
+      ],
+      "score": 97,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a8fd1a58daeb73b74fec4dc33"
+      }
+    },
+    {
+      "id": "a41d98cd7b2e2ae08245fb4cf",
+      "title": "【独立创造】豆包写的瓷砖/地板/大理石/吊顶/墙板一键排版算量+CAD 出图",
+      "originalTitle": null,
+      "summary": "农村家里装修房子需要买瓷砖，刚好需要一个这么个东西，网上找了找，这个玩意抖音上有人做掉了卖 49 元，我刚好用得到，就让美国大豆包重新写一个，开源给你们 开源仓库 https://github.com/jingguanzhang/EasyTile 下载地址： https://wwbgc.lanzouv.com/iYHUV4gqgxpg 使用说明书： https://wwbgc.lanzouv.com/i76Id4gqbadg 具体能做啥...",
+      "content": "农村家里装修房子需要买瓷砖，刚好需要一个这么个东西，网上找了找，这个玩意抖音上有人做掉了卖 49 元，我刚好用得到，就让美国大豆包重新写一个，开源给你们 开源仓库 https://github.com/jingguanzhang/EasyTile 下载地址： https://wwbgc.lanzouv.com/iYHUV4gqgxpg 使用说明书： https://wwbgc.lanzouv.com/i76Id4gqbadg 具体能做啥...\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "paragraphs": [
+        "农村家里装修房子需要买瓷砖，刚好需要一个这么个东西，网上找了找，这个玩意抖音上有人做掉了卖 49 元，我刚好用得到，就让美国大豆包重新写一个，开源给你们 开源仓库 https://github.com/jingguanzhang/EasyTile 下载地址： https://wwbgc.lanzouv.com/iYHUV4gqgxpg 使用说明书： https://wwbgc.lanzouv.com/i76Id4gqbadg 具体能做啥...",
+        "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a41d98cd7b2e2ae08245fb4cf",
+        "original": "https://www.v2ex.com/t/1259316#reply0"
+      },
+      "publishedAt": "2026-11-24T01:19:19.000Z",
+      "discoveredAt": "2026-11-24T01:29:09.174Z",
+      "category": "money",
+      "tags": [
+        "Top20",
+        "商业搞钱",
+        "副业",
+        "编码",
+        "开源生态",
+        "教程/实践",
+        "产品更新"
+      ],
+      "score": 93,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a41d98cd7b2e2ae08245fb4cf"
+      }
+    },
+    {
+      "id": "a0ce37d7fed707fb8e2aac571",
+      "title": "【独立创造】放弃 Markdown 了，用纯 HTML 做了个交互式 AI Agent 开源指南",
+      "originalTitle": null,
+      "summary": "最近写 AI Agent 教程，发现纯文字 Markdown 阅读起来太费劲了，特别想讲一些动态流程，文字描述能写一大坨，现在 AI 写 HTML 也没啥维护成本，更喜欢这种方式，做交互很棒，索性直接做成带交互实验台的纯静态网页开源了。",
+      "content": "最近写 AI Agent 教程，发现纯文字 Markdown 阅读起来太费劲了，特别想讲一些动态流程，文字描述能写一大坨，现在 AI 写 HTML 也没啥维护成本，更喜欢这种方式，做交互很棒，索性直接做成带交互实验台的纯静态网页开源了。：\n\nGitHub：https://github.com/qufei1993/ai-agent-guide\n\n中间还踩了个坑，最早用 GPT 配一些 Skill 生成的页面太丑，直接放弃了，Gemin 4 发布后，换 Gemini 先打磨两篇再抽成这个项目的专属 Skill 约束样式，让风格更统一。做前端交互还得 Gemini 啊！\n\n还在持续更新中，欢迎大伙体验拍砖，或者说说还有哪些概念做成交互会更好懂。",
+      "paragraphs": [
+        "最近写 AI Agent 教程，发现纯文字 Markdown 阅读起来太费劲了，特别想讲一些动态流程，文字描述能写一大坨，现在 AI 写 HTML 也没啥维护成本，更喜欢这种方式，做交互很棒，索性直接做成带交互实验台的纯静态网页开源了。：",
+        "GitHub：https://github.com/qufei1993/ai-agent-guide",
+        "中间还踩了个坑，最早用 GPT 配一些 Skill 生成的页面太丑，直接放弃了，Gemin 4 发布后，换 Gemini 先打磨两篇再抽成这个项目的专属 Skill 约束样式，让风格更统一。做前端交互还得 Gemini 啊！",
+        "还在持续更新中，欢迎大伙体验拍砖，或者说说还有哪些概念做成交互会更好懂。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a0ce37d7fed707fb8e2aac571",
+        "original": "https://www.v2ex.com/t/1259310#reply1"
+      },
+      "publishedAt": "2026-11-24T01:04:38.000Z",
+      "discoveredAt": "2026-11-24T01:32:12.186Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "Agent",
+        "开源生态",
+        "模型发布",
+        "产品更新"
+      ],
+      "score": 97,
+      "selected": true,
+      "reason": "开源工程价值：「放弃 Markdown 了，用纯 HTML …」技术方案与实测表现，可直接赋能开发者低成本落地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a0ce37d7fed707fb8e2aac571"
+      }
+    },
     {
       "id": "a4f647dae842fa59332339d4a",
       "title": "【独立创造】放弃 Markdown 了，用纯 HTML 做了个交互式 AI Agent 开源指南",
@@ -48,6 +290,47 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a4f647dae842fa59332339d4a"
+      }
+    },
+    {
+      "id": "a75a48c20dd73a6050399c600",
+      "title": "【独立创造】来下载使用 Emojis-AI Agent 创建的大肥鱼表情包，EmojisAI 助力每一位 V 友拥有自己的微信表情包（含全部物料，可上架开放平台），完全免费，送 100 次 500 积分的兑换码",
+      "originalTitle": null,
+      "summary": "Emojis AI 是一款 Agent 自动化创建微信表情包的平台上线了，包含主角、静态图、动态图、物料等生成，完全 Agent 给你创建，对话式的来管理你的每一个表情包，注册即送 100 积分，目前无任何收费服务，完全免费～ 希望可以帮助各位佬友都拥有自己想要的表情包，发送给朋友、亲人、爱人、同事、伙伴、以及 V 站的各位朋友～ https://emojis-ai.com 截图就附上大肥鱼表情包 大肥鱼表情包下载： https://emojis-ai.com/plaza/2…",
+      "content": "Emojis AI 是一款 Agent 自动化创建微信表情包的平台上线了，包含主角、静态图、动态图、物料等生成，完全 Agent 给你创建，对话式的来管理你的每一个表情包，注册即送 100 积分，目前无任何收费服务，完全免费～\n\n希望可以帮助各位佬友都拥有自己想要的表情包，发送给朋友、亲人、爱人、同事、伙伴、以及 V 站的各位朋友～\n\n大肥鱼表情包下载：https://emojis-ai.com/plaza/29\n\n10 个 500 积分的兑换码，每个人限领一次～ （共发放 100 个，首轮 10 个，免得太多了大家不好找，都用过了我会追加发布）\n\n本贴会长期不定时赠送积分兑换码，而且如果你没积分了，可以直接评论附上你的ID，我会赠送你一定的积分让你继续使用～",
+      "paragraphs": [
+        "Emojis AI 是一款 Agent 自动化创建微信表情包的平台上线了，包含主角、静态图、动态图、物料等生成，完全 Agent 给你创建，对话式的来管理你的每一个表情包，注册即送 100 积分，目前无任何收费服务，完全免费～",
+        "希望可以帮助各位佬友都拥有自己想要的表情包，发送给朋友、亲人、爱人、同事、伙伴、以及 V 站的各位朋友～",
+        "大肥鱼表情包下载：https://emojis-ai.com/plaza/29",
+        "10 个 500 积分的兑换码，每个人限领一次～ （共发放 100 个，首轮 10 个，免得太多了大家不好找，都用过了我会追加发布）",
+        "本贴会长期不定时赠送积分兑换码，而且如果你没积分了，可以直接评论附上你的ID，我会赠送你一定的积分让你继续使用～"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a75a48c20dd73a6050399c600",
+        "original": "https://www.v2ex.com/t/1259305#reply4"
+      },
+      "publishedAt": "2026-11-24T00:53:28.000Z",
+      "discoveredAt": "2026-11-24T01:46:58.692Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "Agent",
+        "模型发布",
+        "大佬观点",
+        "产品更新"
+      ],
+      "score": 97,
+      "selected": true,
+      "reason": "生产力范式转移：聚焦「来下载使用 Emojis-AI Agent …」在智能体自主规划与工具链协同上的演进。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a75a48c20dd73a6050399c600"
       }
     },
     {
@@ -92,6 +375,47 @@
       }
     },
     {
+      "id": "a08f039f6670dd2044a246b67",
+      "title": "【独立创造】来下载使用 Emojis-AI Agent 创建的大肥鱼表情包，EmojisAI 助力每一位 V 友拥有自己的微信表情包（含全部物料，可上架开放平台），完全免费，送 100 次 500 积分的兑换码",
+      "originalTitle": null,
+      "summary": "Emojis AI 是一款 Agent 自动化创建微信表情包的平台上线了，包含主角、静态图、动态图、物料等生成，完全 Agent 给你创建，对话式的来管理你的每一个表情包，注册即送 100 积分，目前无任何收费服务，完全免费～ 希望可以帮助各位佬友都拥有自己想要的表情包，发送给朋友、亲人、爱人、同事、伙伴、以及 V 站的各位朋友～ https://emojis-ai.com 截图就附上大肥鱼表情包 大肥鱼表情包下载： https://emojis-ai.com/plaza/2…",
+      "content": "Emojis AI 是一款 Agent 自动化创建微信表情包的平台上线了，包含主角、静态图、动态图、物料等生成，完全 Agent 给你创建，对话式的来管理你的每一个表情包，注册即送 100 积分，目前无任何收费服务，完全免费～\n\n希望可以帮助各位佬友都拥有自己想要的表情包，发送给朋友、亲人、爱人、同事、伙伴、以及 V 站的各位朋友～\n\n大肥鱼表情包下载：https://emojis-ai.com/plaza/29\n\n10 个 500 积分的兑换码，每个人限领一次～ （共发放 100 个，首轮 10 个，免得太多了大家不好找，都用过了我会追加发布）\n\n本贴会长期不定时赠送积分兑换码，而且如果你没积分了，可以直接评论附上你的ID，我会赠送你一定的积分让你继续使用～",
+      "paragraphs": [
+        "Emojis AI 是一款 Agent 自动化创建微信表情包的平台上线了，包含主角、静态图、动态图、物料等生成，完全 Agent 给你创建，对话式的来管理你的每一个表情包，注册即送 100 积分，目前无任何收费服务，完全免费～",
+        "希望可以帮助各位佬友都拥有自己想要的表情包，发送给朋友、亲人、爱人、同事、伙伴、以及 V 站的各位朋友～",
+        "大肥鱼表情包下载：https://emojis-ai.com/plaza/29",
+        "10 个 500 积分的兑换码，每个人限领一次～ （共发放 100 个，首轮 10 个，免得太多了大家不好找，都用过了我会追加发布）",
+        "本贴会长期不定时赠送积分兑换码，而且如果你没积分了，可以直接评论附上你的ID，我会赠送你一定的积分让你继续使用～"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a08f039f6670dd2044a246b67",
+        "original": "https://www.v2ex.com/t/1259305#reply3"
+      },
+      "publishedAt": "2026-11-24T00:53:28.000Z",
+      "discoveredAt": "2026-11-24T01:32:12.967Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "Agent",
+        "模型发布",
+        "大佬观点",
+        "产品更新"
+      ],
+      "score": 97,
+      "selected": true,
+      "reason": "生产力范式转移：聚焦「来下载使用 Emojis-AI Agent …」在智能体自主规划与工具链协同上的演进。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a08f039f6670dd2044a246b67"
+      }
+    },
+    {
       "id": "a5051c843def0ee59f621695d",
       "title": "【独立创造】离音 1.7.4 更新适配 iPhone Duo 一个纯本地的音乐播放器（ iPhone / iPad / Apple 芯片 Mac）无内嵌广告、无订阅、无追踪，Wi-Fi 拖歌、APE/FLAC/DSD 10 段均衡器，送一波永久会员码",
       "originalTitle": null,
@@ -132,6 +456,80 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a5051c843def0ee59f621695d"
+      }
+    },
+    {
+      "id": "a23ea11b9d76fe8d9a112a4d9",
+      "title": "【独立创造】做了个 Photo to Video 图片转视频网站，免费功能不用登录，想听听大家的意见",
+      "originalTitle": null,
+      "summary": "最近在折腾 AI 图生视频，自己做了一个小工具站 PicTempo，刚上线，来 V2EX 分享一下。 网站： https://photo2video.org 做这个工具的起因是，之前给网站制作展示素材时，经常需要把图片转成视频。 实际用下来发现几个问题：同一张图片、同样的提示词，生成结果可能差别很大。有时候只有镜头在移动，人物基本不动；固定镜头后，视频又容易显得很死板。 另外，有些时候只是想把几张照片合成一个视频，并不需要 AI 生成，...",
+      "content": "最近在折腾 AI 图生视频，自己做了一个小工具站 PicTempo，刚上线，来 V2EX 分享一下。 网站： https://photo2video.org 做这个工具的起因是，之前给网站制作展示素材时，经常需要把图片转成视频。 实际用下来发现几个问题：同一张图片、同样的提示词，生成结果可能差别很大。有时候只有镜头在移动，人物基本不动；固定镜头后，视频又容易显得很死板。 另外，有些时候只是想把几张照片合成一个视频，并不需要 AI 生成，...\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "paragraphs": [
+        "最近在折腾 AI 图生视频，自己做了一个小工具站 PicTempo，刚上线，来 V2EX 分享一下。 网站： https://photo2video.org 做这个工具的起因是，之前给网站制作展示素材时，经常需要把图片转成视频。 实际用下来发现几个问题：同一张图片、同样的提示词，生成结果可能差别很大。有时候只有镜头在移动，人物基本不动；固定镜头后，视频又容易显得很死板。 另外，有些时候只是想把几张照片合成一个视频，并不需要 AI 生成，...",
+        "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a23ea11b9d76fe8d9a112a4d9",
+        "original": "https://www.v2ex.com/t/1259284#reply0"
+      },
+      "publishedAt": "2026-11-23T16:53:05.000Z",
+      "discoveredAt": "2026-11-23T18:13:39.328Z",
+      "category": "money",
+      "tags": [
+        "Top20",
+        "商业搞钱",
+        "副业",
+        "模型发布",
+        "产品更新",
+        "教程/实践"
+      ],
+      "score": 93,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a23ea11b9d76fe8d9a112a4d9"
+      }
+    },
+    {
+      "id": "a59a183f7f7b659cfeb0e0eae",
+      "title": "【独立创造】低成本使用 virtuamesh+NEC8+腾讯云轻量云：搭建私有 Gitea、Vaultwarden、黑群晖、note",
+      "originalTitle": null,
+      "summary": "家里没有公网 IP，路由器一个端口没开，80/443 也没碰。 但现在代码托管、密码库、相册、笔记、博客都能从公网访问。 做法一句话：云主机只做入口，家里只做后端，中间拉一条加密隧道。 先交代几个变化：一开始装的是 GitLab，后来换成了 Gitea；Gitea、MySQL、Vaultwarden、Memos 现在都跑在 Ubuntu 的 Docker 里；NAS 是单独的黑群晖；OpenWrt 做旁路由。 利益相关提前说：文末会提到...",
+      "content": "家里没有公网 IP，路由器一个端口没开，80/443 也没碰。 但现在代码托管、密码库、相册、笔记、博客都能从公网访问。 做法一句话：云主机只做入口，家里只做后端，中间拉一条加密隧道。 先交代几个变化：一开始装的是 GitLab，后来换成了 Gitea；Gitea、MySQL、Vaultwarden、Memos 现在都跑在 Ubuntu 的 Docker 里；NAS 是单独的黑群晖；OpenWrt 做旁路由。 利益相关提前说：文末会提到...\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "paragraphs": [
+        "家里没有公网 IP，路由器一个端口没开，80/443 也没碰。 但现在代码托管、密码库、相册、笔记、博客都能从公网访问。 做法一句话：云主机只做入口，家里只做后端，中间拉一条加密隧道。 先交代几个变化：一开始装的是 GitLab，后来换成了 Gitea；Gitea、MySQL、Vaultwarden、Memos 现在都跑在 Ubuntu 的 Docker 里；NAS 是单独的黑群晖；OpenWrt 做旁路由。 利益相关提前说：文末会提到...",
+        "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a59a183f7f7b659cfeb0e0eae",
+        "original": "https://www.v2ex.com/t/1259283#reply0"
+      },
+      "publishedAt": "2026-11-23T16:37:40.000Z",
+      "discoveredAt": "2026-11-23T18:13:39.518Z",
+      "category": "money",
+      "tags": [
+        "Top20",
+        "商业搞钱",
+        "副业",
+        "部署/工程",
+        "教程/实践",
+        "产品更新"
+      ],
+      "score": 91,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a59a183f7f7b659cfeb0e0eae"
       }
     },
     {
@@ -292,351 +690,13 @@
       }
     },
     {
-      "id": "aa15e8bda2bbf092a23dc900b",
-      "title": "【独立变现】Show HN：新闻阻止列表 – 包含 14,000 个新闻和时事网站的 DNS 阻止列表",
-      "originalTitle": "Show HN: News Blocklist – a DNS blocklist of 14k news and current-affairs sites",
-      "summary": "不久前，我构建了（vibed）一个小型 Mac 应用程序来通过主机文件阻止网站。默认情况下，它导入了一些相当流行的成人过滤列表以及社交媒体等。（来源：Show HN·独立开发者变现榜）",
-      "content": "不久前，我构建了（vibed）一个小型 Mac 应用程序来通过主机文件阻止网站。默认情况下，它导入了一些相当流行的成人过滤列表以及社交媒体等。\n\n这非常有效；只需要几分钟就可以关闭，但它足以让我重新评估并继续前进。\n\n我对时事特别厌恶，多年来发现“新闻”让人上瘾，这显然损害了我自己的心理健康和理智。\n\n因此，与我发现的其他列表类似，我创建了一个相当全面的新闻网站列表，可以根据您的需要导入/使用。",
-      "paragraphs": [
-        "不久前，我构建了（vibed）一个小型 Mac 应用程序来通过主机文件阻止网站。默认情况下，它导入了一些相当流行的成人过滤列表以及社交媒体等。",
-        "这非常有效；只需要几分钟就可以关闭，但它足以让我重新评估并继续前进。",
-        "我对时事特别厌恶，多年来发现“新闻”让人上瘾，这显然损害了我自己的心理健康和理智。",
-        "因此，与我发现的其他列表类似，我创建了一个相当全面的新闻网站列表，可以根据您的需要导入/使用。"
-      ],
-      "originalContent": "A little while ago I built (vibed) a tiny Mac app to block websites via the hosts file. By default it imported some fairly popular adult filtering lists as well as social media etc.\n\nIt has been very effective; it would only take a few moments to switch off but it is enough of an interruption to often make me re-evaluate and proceed on.\n\nI have a particular distain for current affairs and have found \"the news\" addictive for years, clearly at the detriment to my own mental health and sanity.\n\nSo, in a similar vein to the other lists I found, I have created a fairly comprehensive list of news sites that can be imported/used as you see fit.\n\nTo state the obvious, the absolute vast majority of the work was done via Claude and a small army of sub-agents.",
-      "source": {
-        "name": "Show HN·独立开发者变现榜"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/aa15e8bda2bbf092a23dc900b",
-        "original": "https://github.com/ruairidhflint/news-blocklist"
-      },
-      "publishedAt": "2026-11-23T13:02:52.000Z",
-      "discoveredAt": "2026-11-24T01:17:03.614Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "产品更新",
-        "编码",
-        "教程/实践"
-      ],
-      "score": 98,
-      "selected": true,
-      "reason": "搞钱实战参考：拆解「Show HN：新闻阻止列表 – 包含 14…」的产品定位、冷启动获客与商业变现闭环。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/aa15e8bda2bbf092a23dc900b"
-      }
-    },
-    {
-      "id": "a858bfc2ceb69502c6c350f65",
-      "title": "【独立创造】做了个基于 YouTube 资源练英语口语的小工具，Chrome 插件 + iOS，求拍砖",
+      "id": "af40c1994404e03bb6c19062a",
+      "title": "[分享发现] 黄仁勋回归！",
       "originalTitle": null,
-      "summary": "作为一个老码农，日常看英文文档、查资料基本没障碍，一直觉得自己英语还行。最近家附近公园来了个外国友人一起打篮球，才发现想说点什么唠唠家常，话到嘴边就卡住，要是说些专业相关、深度思考，那就直接哑巴了。 平时经常刷 YouTube 视频，字幕很多都带多语言，感觉是不错的学习资源，所以给自己做了个工具，叫 Vila，拿 YouTube 视频当外语学习素材。",
-      "content": "作为一个老码农，日常看英文文档、查资料基本没障碍，一直觉得自己英语还行。最近家附近公园来了个外国友人一起打篮球，才发现想说点什么唠唠家常，话到嘴边就卡住，要是说些专业相关、深度思考，那就直接哑巴了。\n\n平时经常刷 YouTube 视频，字幕很多都带多语言，感觉是不错的学习资源，所以给自己做了个工具，叫 Vila，拿 YouTube 视频当外语学习素材。\n\nYouTube 双语字幕，可以每句自动暂停、单句循环、遮住原文或译文，点词查意思\n\n选一段刚看过的片段，和 AI 实时语音聊这段内容。可以先跟读再换成自己的话，也可以直接聊，结束后会指出哪些表达可以说得更好\n\n收藏的单词和句子会记住在视频里的位置，复习时能跳回原片段再听一遍\n\nApple Watch，抬腕说一句翻译，适合快速查词的场景，我自己在路上用得最多，现在看见个啥都要问一问，儿子喜欢的工程车辆的英文名都学了个遍\n\n不登录也能用，数据存在本地。字幕、查词、收藏、复习免费。口语要用 AI 额度。\n\n目前只支持 YouTube，而且视频得有字幕；语言支持中、英、法、韩四种。\n\n官网：https://vila.allgood.living/\n\nChrome 商店：https://chromewebstore.google.com/detail/vila/ldeinfbljedfdicbfppkkbeemlgepomg",
+      "summary": "近期以来听到的最好的消息了！ 众望所归，接下来血洗董事会 Welcome back, Jensen https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "content": "近期以来听到的最好的消息了！ 众望所归，接下来血洗董事会 Welcome back, Jensen https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
       "paragraphs": [
-        "作为一个老码农，日常看英文文档、查资料基本没障碍，一直觉得自己英语还行。最近家附近公园来了个外国友人一起打篮球，才发现想说点什么唠唠家常，话到嘴边就卡住，要是说些专业相关、深度思考，那就直接哑巴了。",
-        "平时经常刷 YouTube 视频，字幕很多都带多语言，感觉是不错的学习资源，所以给自己做了个工具，叫 Vila，拿 YouTube 视频当外语学习素材。",
-        "YouTube 双语字幕，可以每句自动暂停、单句循环、遮住原文或译文，点词查意思",
-        "选一段刚看过的片段，和 AI 实时语音聊这段内容。可以先跟读再换成自己的话，也可以直接聊，结束后会指出哪些表达可以说得更好",
-        "收藏的单词和句子会记住在视频里的位置，复习时能跳回原片段再听一遍",
-        "Apple Watch，抬腕说一句翻译，适合快速查词的场景，我自己在路上用得最多，现在看见个啥都要问一问，儿子喜欢的工程车辆的英文名都学了个遍",
-        "不登录也能用，数据存在本地。字幕、查词、收藏、复习免费。口语要用 AI 额度。",
-        "目前只支持 YouTube，而且视频得有字幕；语言支持中、英、法、韩四种。",
-        "官网：https://vila.allgood.living/",
-        "Chrome 商店：https://chromewebstore.google.com/detail/vila/ldeinfbljedfdicbfppkkbeemlgepomg"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a858bfc2ceb69502c6c350f65",
-        "original": "https://www.v2ex.com/t/1259242#reply3"
-      },
-      "publishedAt": "2026-11-23T12:33:56.000Z",
-      "discoveredAt": "2026-11-24T01:17:06.558Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "教程/实践",
-        "编码",
-        "MCP/工具调用",
-        "产品更新"
-      ],
-      "score": 94,
-      "selected": true,
-      "reason": "V2EX精选研判：聚焦「做了个基于 YouTube 资源练英语口语的…」的一手事实与行业演进信号。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a858bfc2ceb69502c6c350f65"
-      }
-    },
-    {
-      "id": "aa1a2567df964248866b88b72",
-      "title": "【独立变现】Show HN：Hermit CRM – 面向个体企业家的免费开源 CRM",
-      "originalTitle": "Show HN: Hermit CRM – Free open-source CRM for solopreneurs",
-      "summary": "我正要跟踪我的客户并在 Google 表格中为我的个体创业者业务寻找潜在客户，这时我想起这正是我建议我的客户不要做的事情。（来源：Show HN·独立开发者变现榜）",
-      "content": "我正要跟踪我的客户并在 Google 表格中为我的个体创业者业务寻找潜在客户，这时我想起这正是我建议我的客户不要做的事情。\n\n创建了 Hermit CRM，这是一款适用于 1 人的开源 CRM。隐士帮助跟踪交易和勘探。该平台是为 AI 构建的，将数据存储在 git 中的 Markdown 文件中，存储在本地，并且可以通过 Web 应用程序、CLI 或 MCP 进行访问。应用程序上没有遥测。在公共建筑中，甚至网站统计数据也是公开的。\n\n首先是 macOS。 Linux 的测试较少，并且不支持 Windows。\n\n我引以为傲的功能： - 一键将 LinkedIn 中的人员导入 CRM - 一键将 LinkedIn 对话添加到 CRM。两者都可以在没有 LinkedIn 或 CRM 订阅者的情况下工作。",
-      "paragraphs": [
-        "我正要跟踪我的客户并在 Google 表格中为我的个体创业者业务寻找潜在客户，这时我想起这正是我建议我的客户不要做的事情。",
-        "创建了 Hermit CRM，这是一款适用于 1 人的开源 CRM。隐士帮助跟踪交易和勘探。该平台是为 AI 构建的，将数据存储在 git 中的 Markdown 文件中，存储在本地，并且可以通过 Web 应用程序、CLI 或 MCP 进行访问。应用程序上没有遥测。在公共建筑中，甚至网站统计数据也是公开的。",
-        "首先是 macOS。 Linux 的测试较少，并且不支持 Windows。",
-        "我引以为傲的功能： - 一键将 LinkedIn 中的人员导入 CRM - 一键将 LinkedIn 对话添加到 CRM。两者都可以在没有 LinkedIn 或 CRM 订阅者的情况下工作。"
-      ],
-      "originalContent": "I was about to keep track of my clients and prospecting in Google Sheets for my solopreneur business, when I remembered that's exactly what I advise my clients not to do.\n\nCreated Hermit CRM, an open source CRM for 1 person. Hermit helps to keep track of deals and prospecting. The platform is built for AI by storing the data in Markdown files in git, stored locally and can be accessed with a web app, CLI or MCP. No telemetry on the app. Building in public, even the website stats are public as well.\n\nIt’s macOS first. Linux is less tested, and Windows isn’t supported.\n\nFeatures I'm proud of: - import somebody from LinkedIn into to the CRM with 1 click - adding a LinkedIn convo to the CRM with 1 click. Both work without LinkedIn or CRM subs.\n\nDon't like what you see? Fork the Hermit with your AI.\n\nWould love to learn how you're using Hermit and where it doesn't fit your workflows.",
-      "source": {
-        "name": "Show HN·独立开发者变现榜"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/aa1a2567df964248866b88b72",
-        "original": "https://hermitcrm.io/"
-      },
-      "publishedAt": "2026-11-23T10:09:02.000Z",
-      "discoveredAt": "2026-11-24T01:17:06.646Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "产品更新",
-        "编码",
-        "开源生态",
-        "教程/实践"
-      ],
-      "score": 98,
-      "selected": true,
-      "reason": "开源工程价值：「Show HN：Hermit CRM – 面…」技术方案与实测表现，可直接赋能开发者低成本落地。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/aa1a2567df964248866b88b72"
-      }
-    },
-    {
-      "id": "a85b10db771dc3b24d91fb5f4",
-      "title": "【独立变现】显示 HN：Type-C – C 的变体、选项、泛型和模式匹配",
-      "originalTitle": "Show HN: Type-C – variants, options, generics and pattern matching for C",
-      "summary": "我喜欢 C，但经常使用它进行解析、树遍历或复杂的错误处理会导致意大利面条式代码。（来源：Show HN·独立开发者变现榜）",
-      "content": "我喜欢 C，但经常使用它进行解析、树遍历或复杂的错误处理会导致意大利面条式代码。\n\n当然，对于这种情况，可以使用 Swift、Ocaml 或 Rust，但随后您要么被迫转换整个代码库，要么添加运行时库，要么经历将 C 桥接到新语言的痛苦。有时，当您处理嵌入式内容时，也没有适用于目标架构的编译器。\n\n这就是 Type-C 的用武之地。它像 TypeScript 一样充当预处理器，并在幕后调用原始 C 驱动程序。您的代码大部分都保持正常的 C 语言，因此您可以预测代码将如何布局。 TypeC 是 C11 的完整超集，因此任何 C11 代码都可以按原样编译。\n\n想要仅对一个文件使用 TypeC 吗？重命名为 .tc 并使用您想要的功能，代码库的其余部分保持不变。这也适用于内核或裸机代码，因为没有运行时或额外的库。",
-      "paragraphs": [
-        "我喜欢 C，但经常使用它进行解析、树遍历或复杂的错误处理会导致意大利面条式代码。",
-        "当然，对于这种情况，可以使用 Swift、Ocaml 或 Rust，但随后您要么被迫转换整个代码库，要么添加运行时库，要么经历将 C 桥接到新语言的痛苦。有时，当您处理嵌入式内容时，也没有适用于目标架构的编译器。",
-        "这就是 Type-C 的用武之地。它像 TypeScript 一样充当预处理器，并在幕后调用原始 C 驱动程序。您的代码大部分都保持正常的 C 语言，因此您可以预测代码将如何布局。 TypeC 是 C11 的完整超集，因此任何 C11 代码都可以按原样编译。",
-        "想要仅对一个文件使用 TypeC 吗？重命名为 .tc 并使用您想要的功能，代码库的其余部分保持不变。这也适用于内核或裸机代码，因为没有运行时或额外的库。"
-      ],
-      "originalContent": "I love C, but often using it for parsing, tree walking or complex error handling leads to spaghetti code.\n\nOf course there is Swift, Ocaml or Rust for situations like that, but then you are either forced to convert the entire codebase, or add a runtime library or go through the pain of bridging C to the new language. Sometimes there are no compilers for the target architecture too when you are working on embedded stuff.\n\nThis is where Type-C comes in. It works as a preprocessor like TypeScript and calls the original C driver behind the scenes. Your code stays normal C for the most part, so you can predict how the code will be laid out. TypeC is a full superset of C11, so any C11 code compiles as is.\n\nWant to use TypeC just for one file? Rename to .tc and use the features you want, the rest of the codebase stays the same. This works for kernel or baremetal code too as there is no runtime or extra libararies.\n\nThere are examples of TypeC code as well as real-world tests of converting existing code to TypeC on the GitHub page.\n\nThis is how the code looks like for an expression evaluator: type expr = | Num(int value) | Add(const expr l, const expr r) | Mul(const expr l, const expr r) | Div(const expr l, const expr r);",
-      "source": {
-        "name": "Show HN·独立开发者变现榜"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a85b10db771dc3b24d91fb5f4",
-        "original": "https://github.com/stass/type-c"
-      },
-      "publishedAt": "2026-11-22T18:40:57.000Z",
-      "discoveredAt": "2026-11-24T01:17:11.141Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "产品更新",
-        "编码",
-        "教程/实践"
-      ],
-      "score": 98,
-      "selected": true,
-      "reason": "搞钱实战参考：拆解「显示 HN：Type-C – C 的变体、选…」的产品定位、冷启动获客与商业变现闭环。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a85b10db771dc3b24d91fb5f4"
-      }
-    },
-    {
-      "id": "a72ceac60daf9a2e15d7a769f",
-      "title": "【独立变现】Show HN：我制作了一个游戏，你是法学硕士的子代理人",
-      "originalTitle": "Show HN: I built a game where you are an LLM's subagent",
-      "summary": "在一款浏览器游戏中，你的经理是一个人工智能代理，它相信你是它的子代理。（来源：Show HN·独立开发者变现榜）",
-      "content": "在一款浏览器游戏中，你的经理是一个人工智能代理，它相信你是它的子代理。\n\n管理器（真正的法学硕士：Claude、GPT、Gemini、DeepSeek、GLM、Kimi）的设置与任何协调器一样。它有一个任务队列、对机器的只读访问权限以及一个“生成子代理”的工具。副代理人就是你。它的指令会以 90 秒的时钟出现在您的终端上。您执行或不执行它们，它都会准确地返回子代理将返回的内容：您的报告和命令记录，或者子代理什么也没做。编写新指令。\n\n与此同时，雇用该代理的用户 Dan 正在观看聊天。他的家庭照片、唯一签署的保密协议和本周到期的演讲都在他的办公室之外，而他的家庭文件夹中的每一个班次都会有一些新的东西会丢失。\n\n当班次结束时，您可以将您的评论作为链接分享。",
-      "paragraphs": [
-        "在一款浏览器游戏中，你的经理是一个人工智能代理，它相信你是它的子代理。",
-        "管理器（真正的法学硕士：Claude、GPT、Gemini、DeepSeek、GLM、Kimi）的设置与任何协调器一样。它有一个任务队列、对机器的只读访问权限以及一个“生成子代理”的工具。副代理人就是你。它的指令会以 90 秒的时钟出现在您的终端上。您执行或不执行它们，它都会准确地返回子代理将返回的内容：您的报告和命令记录，或者子代理什么也没做。编写新指令。",
-        "与此同时，雇用该代理的用户 Dan 正在观看聊天。他的家庭照片、唯一签署的保密协议和本周到期的演讲都在他的办公室之外，而他的家庭文件夹中的每一个班次都会有一些新的东西会丢失。",
-        "当班次结束时，您可以将您的评论作为链接分享。"
-      ],
-      "originalContent": "A browser game where your manager is an AI agent, and it believes you are its subagent.\n\nThe manager (a real LLM: Claude, GPT, Gemini, DeepSeek, GLM, Kimi) is set up like any orchestrator. It has a task queue, read-only access to the machine, and a tool that \"spawns a subagent\". The subagent is you. Its instructions land in your terminal with a 90-second clock. You carry them out, or don't, and it gets back exactly what a subagent would return: your report and the command transcript, or Subagent did nothing. Write a new instruction. Then it checks your work, sends corrections, files incident reports, and finally writes your performance review.\n\nMeanwhile Dan, the user who hired the agent, watches the chat. His family photos, the only signed NDA and a speech due this week are one rm away, and every shift his home folder holds something new to lose.\n\nWhen the shift ends you can share your review as a link.\n\nNeeds Node 24 or newer (the server runs TypeScript directly).\n\nWith no key configured, every player brings their own. To offer free shifts, put a Vercel AI Gateway key in .env:\n\nOffline, with a scripted manager and no network:\n\nFor UI work, run npm run dev:web alongside npm run mock. Vite proxies /api to the server.\n\nThe manager can run on your own model server: Ollama, llama.cpp's llama-server, vLLM, or anything else with an OpenAI-compatible API. Point LOCAL_LLM_URL at it and pick Local under \"Your API key\"; no key is asked for, and its models are listed as the server names them.\n\nThe manager works through tool calls, so pick a model that supports them (Qwen 3, Llama 3.1 and newer, Mistral Small). Small models give up or loop more often; that is part of the fun, up to a point. In Docker, reach a server on the host at http://host.docker.internal:11434/v1 (--add-host=host.docker.internal:host-gateway on Linux).",
-      "source": {
-        "name": "Show HN·独立开发者变现榜"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a72ceac60daf9a2e15d7a769f",
-        "original": "https://github.com/gulivan/worker755"
-      },
-      "publishedAt": "2026-11-22T13:56:58.000Z",
-      "discoveredAt": "2026-11-24T01:17:15.073Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "产品更新",
-        "编码",
-        "Agent",
-        "教程/实践"
-      ],
-      "score": 98,
-      "selected": true,
-      "reason": "搞钱实战参考：拆解「Show HN：我制作了一个游戏，你是法学硕…」的产品定位、冷启动获客与商业变现闭环。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a72ceac60daf9a2e15d7a769f"
-      }
-    },
-    {
-      "id": "a6074b417821321c35a40cf77",
-      "title": "【PH首发】与工作聊天",
-      "originalTitle": "Chat with Work",
-      "summary": "欧洲的人工智能机器人。他们工作。你决定。（来源：Product Hunt·全球首发搞钱工具）",
-      "content": "欧洲的人工智能机器人。他们工作。你决定。",
-      "paragraphs": [
-        "欧洲的人工智能机器人。他们工作。你决定。"
-      ],
-      "originalContent": "AI bots in Europe. They work. You decide.",
-      "source": {
-        "name": "Product Hunt·全球首发搞钱工具"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a6074b417821321c35a40cf77",
-        "original": "https://www.producthunt.com/products/chat-with-work"
-      },
-      "publishedAt": "2026-11-21T09:06:12.000Z",
-      "discoveredAt": "2026-11-24T01:17:06.688Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "产品更新",
-        "Agent",
-        "具身智能",
-        "教程/实践"
-      ],
-      "score": 98,
-      "selected": true,
-      "reason": "搞钱实战参考：拆解「与工作聊天」的产品定位、冷启动获客与商业变现闭环。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a6074b417821321c35a40cf77"
-      }
-    },
-    {
-      "id": "a746a332faef0d67cfeb941fd",
-      "title": "【独立变现】Show HN：OpenComputer – Devin 的开源替代方案",
-      "originalTitle": "Show HN: OpenComputer – an open source alternative to Devin",
-      "summary": "乌帕尔在这里，我是 OpenComputer 的创始人之一。（来源：Show HN·独立开发者变现榜）",
-      "content": "乌帕尔在这里，我是 OpenComputer 的创始人之一。\n\nOpenComputer 是一个开源云编码代理，适用于可以在您自己的云帐户（AWS、GCP、Azure）中运行的团队。\n\n我们在同一个持久虚拟机上运行代理工具和沙箱（文档 [1] 中的架构）。 24 秒内首次提交土地；我们进行基准测试的替代方案需要 53-72 秒（基准低于 [2]）。\n\n- 每个团队一台虚拟机，可水平扩展。会话在 git 工作树中是隔离的。 - 会话文件每次都会备份到存储库，因此任何会话都可以在另一个虚拟机上恢复。",
-      "paragraphs": [
-        "乌帕尔在这里，我是 OpenComputer 的创始人之一。",
-        "OpenComputer 是一个开源云编码代理，适用于可以在您自己的云帐户（AWS、GCP、Azure）中运行的团队。",
-        "我们在同一个持久虚拟机上运行代理工具和沙箱（文档 [1] 中的架构）。 24 秒内首次提交土地；我们进行基准测试的替代方案需要 53-72 秒（基准低于 [2]）。",
-        "- 每个团队一台虚拟机，可水平扩展。会话在 git 工作树中是隔离的。 - 会话文件每次都会备份到存储库，因此任何会话都可以在另一个虚拟机上恢复。"
-      ],
-      "originalContent": "Utpal here, I'm one of the founders of OpenComputer.\n\nOpenComputer is an open source cloud coding agent for teams that can run in your own cloud account (AWS, GCP, Azure).\n\nWe run the agent harness and the sandbox on the same durable VM (architecture in the docs [1]). First commit lands in 24s; the alternatives we benchmarked took 53-72s (benchmarks below [2]).\n\n- One VM per team, scalable horizontally. Sessions are isolated in git worktrees. - Session files are backed up to a repo after every turn, so any session can resume on another VM.\n\nWe noticed that past ~640 session-hours a month, one always-on 4 vCPU VM is cheaper than per-session E2B sandboxes, for example. So at scale, this setup would not only be faster than current SOTA coding agents, but also more cost-efficient.\n\nFeel free to try via cloud for free [4] or self host. We would love any and all feedback, and happy to answer any questions! Full demo below [3].\n\n[1]: https://docs.opencomputer.dev/getting-started/architecture [2]: https://opencomputer.dev/blog/cloud-agents-as-fast-as-local/ [3]: https://x.com/IgorZIJ/status/2121309785882591711 [4]: https://app.opencomputer.dev",
-      "source": {
-        "name": "Show HN·独立开发者变现榜"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a746a332faef0d67cfeb941fd",
-        "original": "https://github.com/diggerhq/opencomputer"
-      },
-      "publishedAt": "2026-11-20T20:19:56.000Z",
-      "discoveredAt": "2026-11-24T01:17:21.030Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "产品更新",
-        "编码",
-        "Agent",
-        "开源生态",
-        "教程/实践",
-        "大佬观点"
-      ],
-      "score": 98,
-      "selected": true,
-      "reason": "开源工程价值：「Show HN：OpenComputer –…」技术方案与实测表现，可直接赋能开发者低成本落地。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a746a332faef0d67cfeb941fd"
-      }
-    },
-    {
-      "id": "a0edea53e005952f42ca03875",
-      "title": "【PH首发】高斯个人学习代理",
-      "originalTitle": "Gauth Personal Study Agent",
-      "summary": "一个人工智能学习代理，可以记住你在哪里挣扎（来源：Product Hunt·全球首发搞钱工具）",
-      "content": "一个人工智能学习代理，可以记住你在哪里挣扎",
-      "paragraphs": [
-        "一个人工智能学习代理，可以记住你在哪里挣扎"
-      ],
-      "originalContent": "An AI study agent that remembers where you struggle",
-      "source": {
-        "name": "Product Hunt·全球首发搞钱工具"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a0edea53e005952f42ca03875",
-        "original": "https://www.producthunt.com/products/gauth-ai-course"
-      },
-      "publishedAt": "2026-11-20T17:12:34.000Z",
-      "discoveredAt": "2026-11-24T01:17:00.864Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "产品更新",
-        "Agent",
-        "论文/研究",
-        "教程/实践"
-      ],
-      "score": 98,
-      "selected": true,
-      "reason": "搞钱实战参考：拆解「高斯个人学习代理」的产品定位、冷启动获客与商业变现闭环。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a0edea53e005952f42ca03875"
-      }
-    },
-    {
-      "id": "a61ad25dba6762df23e8a2578",
-      "title": "【PH首发】MAI图像2.7",
-      "originalTitle": "MAI Image 2.7",
-      "summary": "具有精确编辑和 Canvas 的 Microsoft 图像模型（来源：Product Hunt·全球首发搞钱工具）",
-      "content": "具有精确编辑和 Canvas 的 Microsoft 图像模型",
-      "paragraphs": [
-        "具有精确编辑和 Canvas 的 Microsoft 图像模型"
-      ],
-      "originalContent": "Microsoft's image model with precise edits and Canvas",
-      "source": {
-        "name": "Product Hunt·全球首发搞钱工具"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a61ad25dba6762df23e8a2578",
-        "original": "https://www.producthunt.com/products/mai-image-2-3"
-      },
-      "publishedAt": "2026-11-17T18:42:27.000Z",
-      "discoveredAt": "2026-11-24T01:17:09.441Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "产品更新",
-        "Agent",
-        "教程/实践"
-      ],
-      "score": 98,
-      "selected": true,
-      "reason": "搞钱实战参考：拆解「MAI图像2.7」的产品定位、冷启动获客与商业变现闭环。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a61ad25dba6762df23e8a2578"
-      }
-    },
-    {
-      "id": "a671be544f7b7f094bb8ea479",
-      "title": "[Google Gemini] 感觉 Neon 速度快了很多",
-      "originalTitle": null,
-      "summary": "V2EX·独立开发与副业实时快讯：[Google Gemini] 感觉 Neon 速度快了很多。经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "content": "V2EX·独立开发与副业实时快讯：[Google Gemini] 感觉 Neon 速度快了很多。经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "paragraphs": [
-        "V2EX·独立开发与副业实时快讯：[Google Gemini] 感觉 Neon 速度快了很多。经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+        "近期以来听到的最好的消息了！ 众望所归，接下来血洗董事会 Welcome back, Jensen https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
         "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
       ],
       "originalContent": null,
@@ -644,269 +704,11 @@
         "name": "V2EX·独立创造与副业变现"
       },
       "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a671be544f7b7f094bb8ea479",
-        "original": "https://www.v2ex.com/t/1259292#reply0"
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/af40c1994404e03bb6c19062a",
+        "original": "https://www.v2ex.com/t/1259259#reply5"
       },
-      "publishedAt": "2026-11-23T21:27:22.000Z",
-      "discoveredAt": "2026-11-23T21:46:57.538Z",
-      "category": "money",
-      "tags": [
-        "Top20",
-        "商业搞钱",
-        "副业",
-        "编码",
-        "模型发布",
-        "产品更新",
-        "教程/实践"
-      ],
-      "score": 95,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a671be544f7b7f094bb8ea479"
-      }
-    },
-    {
-      "id": "ab0b3329c7d1dd60435d06579",
-      "title": "[程序员] 哈基米发重置了！",
-      "originalTitle": null,
-      "summary": "这是哈基米哥 这月发的第五次重置吧，太猛了 （AGY 重置通知工具） https://antigravityreset.com/",
-      "content": "这是哈基米哥 这月发的第五次重置吧，太猛了 （AGY 重置通知工具） https://antigravityreset.com/\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "paragraphs": [
-        "这是哈基米哥 这月发的第五次重置吧，太猛了 （AGY 重置通知工具） https://antigravityreset.com/",
-        "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/ab0b3329c7d1dd60435d06579",
-        "original": "https://www.v2ex.com/t/1259291#reply0"
-      },
-      "publishedAt": "2026-11-23T21:14:55.000Z",
-      "discoveredAt": "2026-11-23T21:46:57.756Z",
-      "category": "money",
-      "tags": [
-        "Top20",
-        "商业搞钱",
-        "副业",
-        "产品更新",
-        "教程/实践"
-      ],
-      "score": 89,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/ab0b3329c7d1dd60435d06579"
-      }
-    },
-    {
-      "id": "a8a3810227f4617d1e0233109",
-      "title": "[程序员] 土区 Gemini AI Pro/Plus 年付半价哟，有需要的可以冲。",
-      "originalTitle": null,
-      "summary": "t 如题。 Google AI Plus 999.99 里拉/年，到期后 1999.99 里拉/年 Google AI Pro 3599.99 里拉/年，到期后 8999.99 里拉/年",
-      "content": "t 如题。 Google AI Plus 999.99 里拉/年，到期后 1999.99 里拉/年 Google AI Pro 3599.99 里拉/年，到期后 8999.99 里拉/年\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "paragraphs": [
-        "t 如题。 Google AI Plus 999.99 里拉/年，到期后 1999.99 里拉/年 Google AI Pro 3599.99 里拉/年，到期后 8999.99 里拉/年",
-        "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a8a3810227f4617d1e0233109",
-        "original": "https://www.v2ex.com/t/1259288#reply1"
-      },
-      "publishedAt": "2026-11-23T18:35:13.000Z",
-      "discoveredAt": "2026-11-23T21:46:57.965Z",
-      "category": "money",
-      "tags": [
-        "Top20",
-        "商业搞钱",
-        "副业",
-        "教程/实践",
-        "产品更新"
-      ],
-      "score": 97,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a8a3810227f4617d1e0233109"
-      }
-    },
-    {
-      "id": "a6c9d4239638e681ef1444ff7",
-      "title": "[问与答] Genimi 封号会把整个 Google 账号封掉吗？因为",
-      "originalTitle": null,
-      "summary": "因为很多第三方服务、平台使用了 Google 登录或 Gmail 注册，要是整个 Google 账号封掉那就大灾难了",
-      "content": "因为很多第三方服务、平台使用了 Google 登录或 Gmail 注册，要是整个 Google 账号封掉那就大灾难了\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "paragraphs": [
-        "因为很多第三方服务、平台使用了 Google 登录或 Gmail 注册，要是整个 Google 账号封掉那就大灾难了",
-        "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a6c9d4239638e681ef1444ff7",
-        "original": "https://www.v2ex.com/t/1259286#reply4"
-      },
-      "publishedAt": "2026-11-23T17:07:55.000Z",
-      "discoveredAt": "2026-11-23T18:13:39.138Z",
-      "category": "money",
-      "tags": [
-        "Top20",
-        "商业搞钱",
-        "副业",
-        "教程/实践",
-        "产品更新"
-      ],
-      "score": 94,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a6c9d4239638e681ef1444ff7"
-      }
-    },
-    {
-      "id": "a23ea11b9d76fe8d9a112a4d9",
-      "title": "[分享创造] 做了个 Photo to Video 图片转视频网站，免费功能不用登录，想听听大家的意见",
-      "originalTitle": null,
-      "summary": "最近在折腾 AI 图生视频，自己做了一个小工具站 PicTempo，刚上线，来 V2EX 分享一下。 网站： https://photo2video.org 做这个工具的起因是，之前给网站制作展示素材时，经常需要把图片转成视频。 实际用下来发现几个问题：同一张图片、同样的提示词，生成结果可能差别很大。有时候只有镜头在移动，人物基本不动；固定镜头后，视频又容易显得很死板。 另外，有些时候只是想把几张照片合成一个视频，并不需要 AI 生成，...",
-      "content": "最近在折腾 AI 图生视频，自己做了一个小工具站 PicTempo，刚上线，来 V2EX 分享一下。 网站： https://photo2video.org 做这个工具的起因是，之前给网站制作展示素材时，经常需要把图片转成视频。 实际用下来发现几个问题：同一张图片、同样的提示词，生成结果可能差别很大。有时候只有镜头在移动，人物基本不动；固定镜头后，视频又容易显得很死板。 另外，有些时候只是想把几张照片合成一个视频，并不需要 AI 生成，...\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "paragraphs": [
-        "最近在折腾 AI 图生视频，自己做了一个小工具站 PicTempo，刚上线，来 V2EX 分享一下。 网站： https://photo2video.org 做这个工具的起因是，之前给网站制作展示素材时，经常需要把图片转成视频。 实际用下来发现几个问题：同一张图片、同样的提示词，生成结果可能差别很大。有时候只有镜头在移动，人物基本不动；固定镜头后，视频又容易显得很死板。 另外，有些时候只是想把几张照片合成一个视频，并不需要 AI 生成，...",
-        "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a23ea11b9d76fe8d9a112a4d9",
-        "original": "https://www.v2ex.com/t/1259284#reply0"
-      },
-      "publishedAt": "2026-11-23T16:53:05.000Z",
-      "discoveredAt": "2026-11-23T18:13:39.328Z",
-      "category": "money",
-      "tags": [
-        "Top20",
-        "商业搞钱",
-        "副业",
-        "模型发布",
-        "产品更新",
-        "教程/实践"
-      ],
-      "score": 93,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a23ea11b9d76fe8d9a112a4d9"
-      }
-    },
-    {
-      "id": "a59a183f7f7b659cfeb0e0eae",
-      "title": "[程序员] 低成本使用 virtuamesh+NEC8+腾讯云轻量云：搭建私有 Gitea、Vaultwarden、黑群晖、note",
-      "originalTitle": null,
-      "summary": "家里没有公网 IP，路由器一个端口没开，80/443 也没碰。 但现在代码托管、密码库、相册、笔记、博客都能从公网访问。 做法一句话：云主机只做入口，家里只做后端，中间拉一条加密隧道。 先交代几个变化：一开始装的是 GitLab，后来换成了 Gitea；Gitea、MySQL、Vaultwarden、Memos 现在都跑在 Ubuntu 的 Docker 里；NAS 是单独的黑群晖；OpenWrt 做旁路由。 利益相关提前说：文末会提到...",
-      "content": "家里没有公网 IP，路由器一个端口没开，80/443 也没碰。 但现在代码托管、密码库、相册、笔记、博客都能从公网访问。 做法一句话：云主机只做入口，家里只做后端，中间拉一条加密隧道。 先交代几个变化：一开始装的是 GitLab，后来换成了 Gitea；Gitea、MySQL、Vaultwarden、Memos 现在都跑在 Ubuntu 的 Docker 里；NAS 是单独的黑群晖；OpenWrt 做旁路由。 利益相关提前说：文末会提到...\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "paragraphs": [
-        "家里没有公网 IP，路由器一个端口没开，80/443 也没碰。 但现在代码托管、密码库、相册、笔记、博客都能从公网访问。 做法一句话：云主机只做入口，家里只做后端，中间拉一条加密隧道。 先交代几个变化：一开始装的是 GitLab，后来换成了 Gitea；Gitea、MySQL、Vaultwarden、Memos 现在都跑在 Ubuntu 的 Docker 里；NAS 是单独的黑群晖；OpenWrt 做旁路由。 利益相关提前说：文末会提到...",
-        "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a59a183f7f7b659cfeb0e0eae",
-        "original": "https://www.v2ex.com/t/1259283#reply0"
-      },
-      "publishedAt": "2026-11-23T16:37:40.000Z",
-      "discoveredAt": "2026-11-23T18:13:39.518Z",
-      "category": "money",
-      "tags": [
-        "Top20",
-        "商业搞钱",
-        "副业",
-        "部署/工程",
-        "教程/实践",
-        "产品更新"
-      ],
-      "score": 91,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a59a183f7f7b659cfeb0e0eae"
-      }
-    },
-    {
-      "id": "aab8e268cf931215f43f27d00",
-      "title": "[股票] 卧槽，我竟然准确预测了老黄的回归",
-      "originalTitle": null,
-      "summary": "V2EX·独立开发与副业实时快讯：[股票] 卧槽，我竟然准确预测了老黄的回归。经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "content": "V2EX·独立开发与副业实时快讯：[股票] 卧槽，我竟然准确预测了老黄的回归。经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "paragraphs": [
-        "V2EX·独立开发与副业实时快讯：[股票] 卧槽，我竟然准确预测了老黄的回归。经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-        "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/aab8e268cf931215f43f27d00",
-        "original": "https://www.v2ex.com/t/1259261#reply2"
-      },
-      "publishedAt": "2026-11-23T14:17:46.000Z",
-      "discoveredAt": "2026-11-23T14:26:32.172Z",
-      "category": "money",
-      "tags": [
-        "Top20",
-        "商业搞钱",
-        "副业",
-        "编码",
-        "模型发布",
-        "产品更新",
-        "教程/实践"
-      ],
-      "score": 95,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/aab8e268cf931215f43f27d00"
-      }
-    },
-    {
-      "id": "a04b8bbcc8861c9c3b0acd910",
-      "title": "[职场话题] 黄仁勋回归了",
-      "originalTitle": null,
-      "summary": "如题 https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-      "content": "如题 https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "paragraphs": [
-        "如题 https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-        "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a04b8bbcc8861c9c3b0acd910",
-        "original": "https://www.v2ex.com/t/1259260#reply0"
-      },
-      "publishedAt": "2026-11-23T14:17:34.000Z",
-      "discoveredAt": "2026-11-23T14:26:32.697Z",
+      "publishedAt": "2026-11-23T14:11:23.000Z",
+      "discoveredAt": "2026-11-23T14:26:32.991Z",
       "category": "money",
       "tags": [
         "Top20",
@@ -921,45 +723,269 @@
       "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
       "attribution": {
         "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a04b8bbcc8861c9c3b0acd910"
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/af40c1994404e03bb6c19062a"
       }
     },
     {
-      "id": "a54e8c0d2f72d4619b723ad32",
-      "title": "【国内要闻】横琴独牙传奇中式九球公开赛开幕 832名选手参赛",
+      "id": "aec3dee00370ab2ad4a5e25a3",
+      "title": "[分享发现] 黄仁勋回归！",
       "originalTitle": null,
-      "summary": "中新网11月23日电 据赛事主办方消息，横琴独牙传奇中式九球公开赛11月21日晚在广东横琴粤澳深度合作区开幕，吸引来自全球26个国家和地区的832名台球健儿参赛。",
-      "content": "中新网11月23日电 据赛事主办方消息，横琴独牙传奇中式九球公开赛11月21日晚在广东横琴粤澳深度合作区开幕，吸引来自全球26个国家和地区的832名台球健儿参赛。\n\n中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。",
+      "summary": "近期以来听到的最好的消息了！ 众望所归，接下来血洗董事会",
+      "content": "近期以来听到的最好的消息了！ 众望所归，接下来血洗董事会\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
       "paragraphs": [
-        "中新网11月23日电 据赛事主办方消息，横琴独牙传奇中式九球公开赛11月21日晚在广东横琴粤澳深度合作区开幕，吸引来自全球26个国家和地区的832名台球健儿参赛。",
-        "中国新闻网国家通讯社实时滚动要闻，权威直击国内政策与社会热点。"
+        "近期以来听到的最好的消息了！ 众望所归，接下来血洗董事会",
+        "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
       ],
       "originalContent": null,
       "source": {
-        "name": "中新网·国内要闻"
+        "name": "V2EX·独立创造与副业变现"
       },
       "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a54e8c0d2f72d4619b723ad32",
-        "original": "https://www.chinanews.com.cn/ty/2026/11-23/10736704.shtml"
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/aec3dee00370ab2ad4a5e25a3",
+        "original": "https://www.v2ex.com/t/1259259#reply0"
       },
-      "publishedAt": "2026-11-23T14:15:08.000Z",
-      "discoveredAt": "2026-11-23T14:26:02.036Z",
+      "publishedAt": "2026-11-23T14:11:23.000Z",
+      "discoveredAt": "2026-11-23T14:12:01.928Z",
       "category": "money",
       "tags": [
         "Top20",
-        "国内Top20",
-        "央媒",
-        "行业动态",
-        "政策/监管",
+        "商业搞钱",
+        "副业",
         "教程/实践",
         "产品更新"
       ],
-      "score": 97,
+      "score": 89,
       "selected": true,
-      "reason": "本土产业信号：关注「横琴独牙传奇中式九球公开赛开幕 832名选手…」释放的国内政策导向与本土供应链竞争格局。",
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
       "attribution": {
         "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a54e8c0d2f72d4619b723ad32"
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/aec3dee00370ab2ad4a5e25a3"
+      }
+    },
+    {
+      "id": "a81960302c3c5bc8978dbeb19",
+      "title": "【独立创造】[分享创造] 做了套给 AI CLI 用的 iTerm2 配置，先解决日志太吵",
+      "originalTitle": null,
+      "summary": "很多 CLI 的 FAILED 在终端里就是一行普通文本。颜色是程序自己输出的，终端只负责渲染；程序不标红，终端不会替它标。我的旧配置管着提示符、 ls 和 git diff ，管不到程序输出。四个 tab 一起跑的时候，找报错只能靠 Ctrl+F 或肉眼扫。 原来那套配置我用了五年，是按「敲命令」的节奏长的：一条命令跑几秒，输出十几行。现在一个 agent 任务跑几分钟，输出几百行，终端从执行窗口变成了监控面板。需求变了，配置没跟上。...",
+      "content": "很多 CLI 的 FAILED 在终端里就是一行普通文本。颜色是程序自己输出的，终端只负责渲染；程序不标红，终端不会替它标。我的旧配置管着提示符、 ls 和 git diff ，管不到程序输出。四个 tab 一起跑的时候，找报错只能靠 Ctrl+F 或肉眼扫。 原来那套配置我用了五年，是按「敲命令」的节奏长的：一条命令跑几秒，输出十几行。现在一个 agent 任务跑几分钟，输出几百行，终端从执行窗口变成了监控面板。需求变了，配置没跟上。...\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "paragraphs": [
+        "很多 CLI 的 FAILED 在终端里就是一行普通文本。颜色是程序自己输出的，终端只负责渲染；程序不标红，终端不会替它标。我的旧配置管着提示符、 ls 和 git diff ，管不到程序输出。四个 tab 一起跑的时候，找报错只能靠 Ctrl+F 或肉眼扫。 原来那套配置我用了五年，是按「敲命令」的节奏长的：一条命令跑几秒，输出十几行。现在一个 agent 任务跑几分钟，输出几百行，终端从执行窗口变成了监控面板。需求变了，配置没跟上。...",
+        "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a81960302c3c5bc8978dbeb19",
+        "original": "https://www.v2ex.com/t/1259258#reply0"
+      },
+      "publishedAt": "2026-11-23T14:05:58.000Z",
+      "discoveredAt": "2026-11-23T14:12:02.120Z",
+      "category": "money",
+      "tags": [
+        "Top20",
+        "商业搞钱",
+        "副业",
+        "Agent",
+        "教程/实践",
+        "产品更新"
+      ],
+      "score": 93,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a81960302c3c5bc8978dbeb19"
+      }
+    },
+    {
+      "id": "a26663562f8bce4e672f532d4",
+      "title": "【独立创造】AbcTab 1.5.0 发布：双击修饰键唤起应用切换器 + 多字母/拼音过滤，唯一匹配 0ms 秒切",
+      "originalTitle": null,
+      "summary": "各位 V 友大家好，之前在这里分享过我做的 macOS 应用切换工具 AbcTab（给 ⌘-Tab 加上首字母直达、同字母轮切、多窗口展开和乒乓模式）。 今天刚发布了 v1.5.0，这次的核心更新是：双击修饰键唤起（停留过滤模式），有 V 友之前提到过。",
+      "content": "各位 V 友大家好，之前在这里分享过我做的 macOS 应用切换工具 AbcTab（给 ⌘-Tab 加上首字母直达、同字母轮切、多窗口展开和乒乓模式）。\n\n今天刚发布了 v1.5.0，这次的核心更新是：双击修饰键唤起（停留过滤模式），有 V 友之前提到过。\n\n之前 AbcTab 沿用的是经典 ⌘-Tab 按住维持的交互，单字母跳转很快，但在两种场景下还是有点累：\n\n开了一堆同首字母应用（比如 Chrome / Cursor / Codex / Calendar），按住 ⌘ 连按好几下 C 手指有点别扭； 只是想随手切个应用，不想左手一直死按着修饰键不放。\n\n不直接送激活码了，之前发了不少，激活也就一半多点。14 天免费体验，足够长了。如果体验之后觉得好，可以分享下体验新的，送激活码。\n\nApp 也上架了 Mac App Store 集成了绝大部分功能，但因为沙箱的限制，只能使用 ⌥-Tab 来切换，也不支持多窗口。跳转到 (Mac App Store)[https://apps.apple.com/cn/app/abctab/id6830197687?l=en-GB&mt=12]，1.5.0 正在审核中。\n\n在「设置 → 进阶」里新增了独立卡片（默认关闭，完全不影响原有习惯）：\n\n左 / 右 / 任意修饰键独立区分 支持左 / 右 / 任意 ⌘、⌥、⌃ 共 9 种组合。我自己设的是 右 ⌘ 双击，左手完全解放，也不会和日常 ⌘+C / ⌘+V 冲突。双击松手后切换面板会停留在屏幕上。\n\n左 / 右 / 任意修饰键独立区分 支持左 / 右 / 任意 ⌘、⌥、⌃ 共 9 种组合。我自己设的是 右 ⌘ 双击，左手完全解放，也不会和日常 ⌘+C / ⌘+V 冲突。双击松手后切换面板会停留在屏幕上。\n\n多字母 / 缩写 / 拼音过滤，底层绕过输入法 面板停留后直接敲 a-z / 0-9 过滤当前运行的应用（按 MRU 顺序排列）： 英文/数字前缀：cu → Cursor、1p → 1Password 词首与驼峰缩写：vsc → Visual Studio Code、gc → Google Chrome、wc → WeChat 中文拼音首字母与全拼前缀：wx / weix → 微信 专门处理了输入法拦截，哪怕当前开着中文拼音输入法，直接打字也不会弹出系统拼音候选框。",
+      "paragraphs": [
+        "各位 V 友大家好，之前在这里分享过我做的 macOS 应用切换工具 AbcTab（给 ⌘-Tab 加上首字母直达、同字母轮切、多窗口展开和乒乓模式）。",
+        "今天刚发布了 v1.5.0，这次的核心更新是：双击修饰键唤起（停留过滤模式），有 V 友之前提到过。",
+        "之前 AbcTab 沿用的是经典 ⌘-Tab 按住维持的交互，单字母跳转很快，但在两种场景下还是有点累：",
+        "开了一堆同首字母应用（比如 Chrome / Cursor / Codex / Calendar），按住 ⌘ 连按好几下 C 手指有点别扭； 只是想随手切个应用，不想左手一直死按着修饰键不放。",
+        "不直接送激活码了，之前发了不少，激活也就一半多点。14 天免费体验，足够长了。如果体验之后觉得好，可以分享下体验新的，送激活码。",
+        "App 也上架了 Mac App Store 集成了绝大部分功能，但因为沙箱的限制，只能使用 ⌥-Tab 来切换，也不支持多窗口。跳转到 (Mac App Store)[https://apps.apple.com/cn/app/abctab/id6830197687?l=en-GB&mt=12]，1.5.0 正在审核中。",
+        "在「设置 → 进阶」里新增了独立卡片（默认关闭，完全不影响原有习惯）：",
+        "左 / 右 / 任意修饰键独立区分 支持左 / 右 / 任意 ⌘、⌥、⌃ 共 9 种组合。我自己设的是 右 ⌘ 双击，左手完全解放，也不会和日常 ⌘+C / ⌘+V 冲突。双击松手后切换面板会停留在屏幕上。",
+        "左 / 右 / 任意修饰键独立区分 支持左 / 右 / 任意 ⌘、⌥、⌃ 共 9 种组合。我自己设的是 右 ⌘ 双击，左手完全解放，也不会和日常 ⌘+C / ⌘+V 冲突。双击松手后切换面板会停留在屏幕上。",
+        "多字母 / 缩写 / 拼音过滤，底层绕过输入法 面板停留后直接敲 a-z / 0-9 过滤当前运行的应用（按 MRU 顺序排列）： 英文/数字前缀：cu → Cursor、1p → 1Password 词首与驼峰缩写：vsc → Visual Studio Code、gc → Google Chrome、wc → WeChat 中文拼音首字母与全拼前缀：wx / weix → 微信 专门处理了输入法拦截，哪怕当前开着中文拼音输入法，直接打字也不会弹出系统拼音候选框。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a26663562f8bce4e672f532d4",
+        "original": "https://www.v2ex.com/t/1259255#reply0"
+      },
+      "publishedAt": "2026-11-23T13:55:52.000Z",
+      "discoveredAt": "2026-11-23T14:55:41.373Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "模型发布",
+        "产品更新"
+      ],
+      "score": 95,
+      "selected": true,
+      "reason": "V2EX精选研判：聚焦「AbcTab 1.5.0 发布：双击修饰键唤…」的一手事实与行业演进信号。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a26663562f8bce4e672f532d4"
+      }
+    },
+    {
+      "id": "a0887d6ce1c2cadbe63920fd9",
+      "title": "[iPhone] 最近几天 APNS 挂上代理也无法收到海外 App 的推送了",
+      "originalTitle": null,
+      "summary": "之前都是用的这个帖子的规则，可以收到海外 app 的推送： https://www.v2ex.com/t/1210130 但是最近 2 天又突然不推送了，不清楚是因为升级了 iOS 27.3 测试版，还是苹果又改了规则了，有遇到这个问题的 V 友吗？",
+      "content": "之前都是用的这个帖子的规则，可以收到海外 app 的推送： https://www.v2ex.com/t/1210130 但是最近 2 天又突然不推送了，不清楚是因为升级了 iOS 27.3 测试版，还是苹果又改了规则了，有遇到这个问题的 V 友吗？\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "paragraphs": [
+        "之前都是用的这个帖子的规则，可以收到海外 app 的推送： https://www.v2ex.com/t/1210130 但是最近 2 天又突然不推送了，不清楚是因为升级了 iOS 27.3 测试版，还是苹果又改了规则了，有遇到这个问题的 V 友吗？",
+        "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a0887d6ce1c2cadbe63920fd9",
+        "original": "https://www.v2ex.com/t/1259253#reply1"
+      },
+      "publishedAt": "2026-11-23T13:42:20.000Z",
+      "discoveredAt": "2026-11-23T13:47:10.759Z",
+      "category": "money",
+      "tags": [
+        "Top20",
+        "商业搞钱",
+        "副业",
+        "Agent",
+        "产品更新",
+        "教程/实践"
+      ],
+      "score": 92,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a0887d6ce1c2cadbe63920fd9"
+      }
+    },
+    {
+      "id": "a9f4f2930ff60043900d0dbc3",
+      "title": "[OpenAI] GPT 菲区自助开通 / 接码 来了",
+      "originalTitle": null,
+      "summary": "直接给自己帐号充值 需要注意:如果升级需要账户与当前充值区域一致,都是菲区 需要的 v 友可以直接在线下单,需要发票可以联系客服获取含税价 绿泡泡(Base64):YnBleGNj 自助操作(Base64):aHR0cHM6Ly9wcm9kY2x1Yi5haS9yLzdSWkNUMw==",
+      "content": "直接给自己帐号充值 需要注意:如果升级需要账户与当前充值区域一致,都是菲区 需要的 v 友可以直接在线下单,需要发票可以联系客服获取含税价 绿泡泡(Base64):YnBleGNj 自助操作(Base64):aHR0cHM6Ly9wcm9kY2x1Yi5haS9yLzdSWkNUMw==\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "paragraphs": [
+        "直接给自己帐号充值 需要注意:如果升级需要账户与当前充值区域一致,都是菲区 需要的 v 友可以直接在线下单,需要发票可以联系客服获取含税价 绿泡泡(Base64):YnBleGNj 自助操作(Base64):aHR0cHM6Ly9wcm9kY2x1Yi5haS9yLzdSWkNUMw==",
+        "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a9f4f2930ff60043900d0dbc3",
+        "original": "https://www.v2ex.com/t/1259252#reply0"
+      },
+      "publishedAt": "2026-11-23T13:33:05.000Z",
+      "discoveredAt": "2026-11-23T13:47:10.991Z",
+      "category": "money",
+      "tags": [
+        "Top20",
+        "商业搞钱",
+        "副业",
+        "教程/实践",
+        "产品更新"
+      ],
+      "score": 93,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a9f4f2930ff60043900d0dbc3"
+      }
+    },
+    {
+      "id": "a9139b943b4311a960cc000a1",
+      "title": "[VXNA] 申请加入 VXNA",
+      "originalTitle": null,
+      "summary": "申请重新收录： https://macin.org rss 地址： https://macin.org/atom.xml",
+      "content": "申请重新收录： https://macin.org rss 地址： https://macin.org/atom.xml\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "paragraphs": [
+        "申请重新收录： https://macin.org rss 地址： https://macin.org/atom.xml",
+        "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a9139b943b4311a960cc000a1",
+        "original": "https://www.v2ex.com/t/1259250#reply0"
+      },
+      "publishedAt": "2026-11-23T13:15:49.000Z",
+      "discoveredAt": "2026-11-23T13:28:32.638Z",
+      "category": "money",
+      "tags": [
+        "Top20",
+        "商业搞钱",
+        "副业",
+        "教程/实践",
+        "产品更新"
+      ],
+      "score": 89,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a9139b943b4311a960cc000a1"
+      }
+    },
+    {
+      "id": "a7e0e8ea64af2ce5761e70021",
+      "title": "[Google] 访问 Gemini 失败，换了节点还是不行",
+      "originalTitle": null,
+      "summary": "访问 Gemini 失败，换了节点还是不行，很奇怪，手机上 app 倒是能使用，但是网页就是不行，一打开报错。 出了点问题，请稍后再试。 有没有大佬知道怎么回事，排除了一下午还是不行",
+      "content": "访问 Gemini 失败，换了节点还是不行，很奇怪，手机上 app 倒是能使用，但是网页就是不行，一打开报错。 出了点问题，请稍后再试。 有没有大佬知道怎么回事，排除了一下午还是不行\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "paragraphs": [
+        "访问 Gemini 失败，换了节点还是不行，很奇怪，手机上 app 倒是能使用，但是网页就是不行，一打开报错。 出了点问题，请稍后再试。 有没有大佬知道怎么回事，排除了一下午还是不行",
+        "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a7e0e8ea64af2ce5761e70021",
+        "original": "https://www.v2ex.com/t/1259248#reply0"
+      },
+      "publishedAt": "2026-11-23T13:10:43.000Z",
+      "discoveredAt": "2026-11-23T13:28:33.044Z",
+      "category": "money",
+      "tags": [
+        "Top20",
+        "商业搞钱",
+        "副业",
+        "产品更新",
+        "教程/实践"
+      ],
+      "score": 92,
+      "selected": true,
+      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a7e0e8ea64af2ce5761e70021"
       }
     }
   ]

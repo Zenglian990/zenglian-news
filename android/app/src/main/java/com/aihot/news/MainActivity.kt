@@ -223,14 +223,21 @@ data class ParsedHeadline(
     val cleanTitle: String
 )
 
+private val GENERIC_KICKERS = setOf(
+    "焦点", "快讯", "早报", "热闻", "钛晨报", "程序员", "股票", "职场话题", "问与答", "分享创造", "Google Gemini"
+)
+
 fun parseHeadline(rawTitle: String, sourceName: String?): ParsedHeadline {
     val trimmed = rawTitle.trim()
-    val bracketMatch = Regex("^【([^】]+)】\\s*(.*)$").find(trimmed)
-    val rawKicker = bracketMatch?.groupValues?.getOrNull(1)?.trim()
-    val bodyTitle = bracketMatch?.groupValues?.getOrNull(2)?.trim()?.takeIf { it.isNotEmpty() } ?: trimmed
+    val cnMatch = Regex("^【([^】]+)】\\s*(.*)$").find(trimmed)
+    val sqMatch = if (cnMatch == null) Regex("^\\[([^\\]]+)]\\s*(.*)$").find(trimmed) else null
+    val match = cnMatch ?: sqMatch
+    val rawKicker = match?.groupValues?.getOrNull(1)?.trim()
+    val bodyTitle = match?.groupValues?.getOrNull(2)?.trim()?.takeIf { it.isNotEmpty() } ?: trimmed
     val fallbackKicker = sourceName?.split("·")?.firstOrNull()?.trim()?.takeIf { it.isNotEmpty() } ?: "一手信源"
+    val finalKicker = if (rawKicker.isNullOrBlank() || rawKicker in GENERIC_KICKERS) fallbackKicker else rawKicker
     return ParsedHeadline(
-        kicker = rawKicker ?: fallbackKicker,
+        kicker = finalKicker,
         cleanTitle = bodyTitle
     )
 }
@@ -244,26 +251,33 @@ fun cleanSummaryText(rawSummary: String?): String {
 }
 
 fun formatRelativeTime(publishedAt: String?, discoveredAt: String?): String {
-    val target = discoveredAt ?: publishedAt ?: return "实时"
-    return try {
-        val sdf = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss", Locale.US).apply {
-            timeZone = TimeZone.getTimeZone("UTC")
-        }
-        val cleanIso = target.take(19)
-        val parsed = sdf.parse(cleanIso) ?: return "实时"
-        val diffMinutes = ((System.currentTimeMillis() - parsed.time) / 60000L).coerceAtLeast(0L)
-        when {
-            diffMinutes < 3L -> "刚刚"
-            diffMinutes < 60L -> "${diffMinutes}分钟前"
-            diffMinutes < 1440L -> "${diffMinutes / 60L}小时前"
-            else -> {
-                val outFmt = SimpleDateFormat("MM-dd HH:mm", Locale.CHINA)
-                outFmt.format(parsed)
-            }
-        }
-    } catch (_: Exception) {
-        "实时"
+    val candidates = listOfNotNull(
+        publishedAt?.takeIf { it.isNotBlank() },
+        discoveredAt?.takeIf { it.isNotBlank() }
+    )
+    if (candidates.isEmpty()) return "实时"
+    val sdf = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss", Locale.US).apply {
+        timeZone = TimeZone.getTimeZone("UTC")
     }
+    for (target in candidates) {
+        try {
+            val cleanIso = target.take(19)
+            val parsed = sdf.parse(cleanIso) ?: continue
+            val diffMinutes = ((System.currentTimeMillis() - parsed.time) / 60000L).coerceAtLeast(0L)
+            return when {
+                diffMinutes < 3L -> "刚刚"
+                diffMinutes < 60L -> "${diffMinutes}分钟前"
+                diffMinutes < 1440L -> "${diffMinutes / 60L}小时前"
+                else -> {
+                    val outFmt = SimpleDateFormat("MM-dd HH:mm", Locale.CHINA)
+                    outFmt.format(parsed)
+                }
+            }
+        } catch (_: Exception) {
+            continue
+        }
+    }
+    return "实时"
 }
 
 fun currentClockString(): String {
@@ -451,6 +465,31 @@ fun ZenglianNewsApp() {
         mutableStateOf(prefs.getBoolean("executive_dark_mode", true))
     }
     val palette = if (isDarkTheme) ObsidianExecutivePalette else EditorialIvoryPalette
+    val colorScheme = remember(isDarkTheme) {
+        if (isDarkTheme) {
+            darkColorScheme(
+                primary = ObsidianExecutivePalette.accentGold,
+                secondary = ObsidianExecutivePalette.accentEmerald,
+                background = ObsidianExecutivePalette.bgPrimary,
+                surface = ObsidianExecutivePalette.cardBg,
+                onPrimary = Color(0xFF080C14),
+                onSecondary = Color.White,
+                onBackground = ObsidianExecutivePalette.textPrimary,
+                onSurface = ObsidianExecutivePalette.textPrimary
+            )
+        } else {
+            lightColorScheme(
+                primary = EditorialIvoryPalette.accentEmerald,
+                secondary = EditorialIvoryPalette.accentGold,
+                background = EditorialIvoryPalette.bgPrimary,
+                surface = EditorialIvoryPalette.cardBg,
+                onPrimary = Color.White,
+                onSecondary = Color.White,
+                onBackground = EditorialIvoryPalette.textPrimary,
+                onSurface = EditorialIvoryPalette.textPrimary
+            )
+        }
+    }
 
     var serverUrl by remember {
         mutableStateOf(prefs.getString("server_url", NewsRepository.DEFAULT_CLOUD_RUN_URL) ?: NewsRepository.DEFAULT_CLOUD_RUN_URL)
@@ -534,6 +573,7 @@ fun ZenglianNewsApp() {
         }
     }
 
+    MaterialTheme(colorScheme = colorScheme) {
     Scaffold(
         containerColor = palette.bgPrimary,
         topBar = {
@@ -623,6 +663,7 @@ fun ZenglianNewsApp() {
                                 val isBookmarked = bookmarkedItems.any { it.id == item.id }
                                 if (index == 0 && searchQuery.isBlank()) {
                                     HeroLeadNewsCard(
+                                        palette = palette,
                                         item = item,
                                         category = currentCategory,
                                         isBookmarked = isBookmarked,
@@ -649,6 +690,8 @@ fun ZenglianNewsApp() {
                         palette = palette,
                         envelope = reportsEnvelope,
                         period = reportPeriod,
+                        bookmarkedItems = bookmarkedItems,
+                        onToggleBookmark = { toggleBookmark(it) },
                         onPeriodChange = { reportPeriod = it },
                         onArticleClick = { activeArticle = it }
                     )
@@ -729,6 +772,7 @@ fun ZenglianNewsApp() {
             },
             onDismiss = { showServerDialog = false }
         )
+    }
     }
 }
 
@@ -1038,6 +1082,7 @@ fun ExecutiveCategoryBar(
  */
 @Composable
 fun HeroLeadNewsCard(
+    palette: ExecutivePalette,
     item: NewsItem,
     category: NewsCategory,
     isBookmarked: Boolean,
@@ -1052,13 +1097,26 @@ fun HeroLeadNewsCard(
         formatRelativeTime(item.publishedAt, item.discoveredAt)
     }
     val displayScore = item.score?.let { if (it <= 10) it * 10 else it } ?: 96
+    val displayReason = remember(item.reason, parsed.cleanTitle) {
+        item.reason?.takeIf { it.isNotBlank() }
+            ?: "首席研判：深度追踪「${parsed.cleanTitle.take(18)}」核心商业与技术演进脉络。"
+    }
+    val displayTags = remember(item.tags) {
+        item.tags.orEmpty()
+            .filter { !it.startsWith("entity:") && it.length in 2..8 }
+            .distinct()
+            .take(2)
+    }
 
     Card(
         modifier = Modifier
             .fillMaxWidth()
             .clickable { onClick() },
         shape = RoundedCornerShape(14.dp),
-        border = BorderStroke(1.dp, Color(0xFFD97706).copy(alpha = 0.45f)),
+        border = BorderStroke(
+            1.dp,
+            if (palette.isDark) Color(0xFFD97706).copy(alpha = 0.5f) else Color(0xFFD97706).copy(alpha = 0.7f)
+        ),
         elevation = CardDefaults.cardElevation(defaultElevation = 4.dp),
         colors = CardDefaults.cardColors(containerColor = Color(0xFF0E1628))
     ) {
@@ -1081,7 +1139,10 @@ fun HeroLeadNewsCard(
                 horizontalArrangement = Arrangement.SpaceBetween,
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                Row(verticalAlignment = Alignment.CenterVertically) {
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    modifier = Modifier.weight(1f)
+                ) {
                     Surface(
                         color = Color(0xFFD97706),
                         shape = RoundedCornerShape(4.dp)
@@ -1100,23 +1161,44 @@ fun HeroLeadNewsCard(
                         text = "${parsed.kicker} · $relTime",
                         color = Color(0xFF94A3B8),
                         fontSize = 11.5.sp,
-                        fontWeight = FontWeight.Medium
+                        fontWeight = FontWeight.Medium,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis
                     )
                 }
 
-                Surface(
-                    color = Color(0xFF064E3B),
-                    shape = RoundedCornerShape(4.dp),
-                    border = BorderStroke(0.6.dp, Color(0xFF10B981).copy(alpha = 0.5f))
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(6.dp)
                 ) {
-                    Text(
-                        text = "AI $displayScore",
-                        color = Color(0xFF34D399),
-                        fontSize = 11.sp,
-                        fontWeight = FontWeight.Bold,
-                        fontFamily = FontFamily.Monospace,
-                        modifier = Modifier.padding(horizontal = 7.dp, vertical = 2.dp)
-                    )
+                    displayTags.firstOrNull()?.let { tag ->
+                        Surface(
+                            color = Color(0xFF1E293B),
+                            shape = RoundedCornerShape(4.dp)
+                        ) {
+                            Text(
+                                text = tag,
+                                color = Color(0xFFE2E8F0),
+                                fontSize = 10.sp,
+                                fontWeight = FontWeight.Medium,
+                                modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp)
+                            )
+                        }
+                    }
+                    Surface(
+                        color = Color(0xFF064E3B),
+                        shape = RoundedCornerShape(4.dp),
+                        border = BorderStroke(0.6.dp, Color(0xFF10B981).copy(alpha = 0.5f))
+                    ) {
+                        Text(
+                            text = "AI $displayScore",
+                            color = Color(0xFF34D399),
+                            fontSize = 11.sp,
+                            fontWeight = FontWeight.Bold,
+                            fontFamily = FontFamily.Monospace,
+                            modifier = Modifier.padding(horizontal = 7.dp, vertical = 2.dp)
+                        )
+                    }
                 }
             }
 
@@ -1155,44 +1237,42 @@ fun HeroLeadNewsCard(
                 )
             }
 
-            // 底部投研研判与操作栏
-            if (!item.reason.isNullOrBlank()) {
-                Spacer(modifier = Modifier.height(12.dp))
-                Row(
+            // 底部投研研判与操作栏（始终展示，确保收藏按钮不缺失）
+            Spacer(modifier = Modifier.height(12.dp))
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .clip(RoundedCornerShape(8.dp))
+                    .background(Color(0xFF080D18))
+                    .padding(horizontal = 10.dp, vertical = 8.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Box(
                     modifier = Modifier
-                        .fillMaxWidth()
-                        .clip(RoundedCornerShape(8.dp))
-                        .background(Color(0xFF080D18))
-                        .padding(horizontal = 10.dp, vertical = 8.dp),
-                    verticalAlignment = Alignment.CenterVertically
+                        .width(2.5.dp)
+                        .height(26.dp)
+                        .background(Color(0xFFF59E0B))
+                )
+                Spacer(modifier = Modifier.width(8.dp))
+                Text(
+                    text = displayReason,
+                    color = Color(0xFFE2E8F0),
+                    fontSize = 12.sp,
+                    lineHeight = 17.sp,
+                    maxLines = 2,
+                    overflow = TextOverflow.Ellipsis,
+                    modifier = Modifier.weight(1f)
+                )
+                IconButton(
+                    onClick = onBookmarkClick,
+                    modifier = Modifier.size(30.dp)
                 ) {
-                    Box(
-                        modifier = Modifier
-                            .width(2.5.dp)
-                            .height(26.dp)
-                            .background(Color(0xFFF59E0B))
+                    Icon(
+                        imageVector = if (isBookmarked) Icons.Default.Bookmark else Icons.Default.BookmarkBorder,
+                        contentDescription = "收藏",
+                        tint = if (isBookmarked) Color(0xFFFBBF24) else Color(0xFF64748B),
+                        modifier = Modifier.size(18.dp)
                     )
-                    Spacer(modifier = Modifier.width(8.dp))
-                    Text(
-                        text = item.reason,
-                        color = Color(0xFFE2E8F0),
-                        fontSize = 12.sp,
-                        lineHeight = 17.sp,
-                        maxLines = 2,
-                        overflow = TextOverflow.Ellipsis,
-                        modifier = Modifier.weight(1f)
-                    )
-                    IconButton(
-                        onClick = onBookmarkClick,
-                        modifier = Modifier.size(30.dp)
-                    ) {
-                        Icon(
-                            imageVector = if (isBookmarked) Icons.Default.Bookmark else Icons.Default.BookmarkBorder,
-                            contentDescription = "收藏",
-                            tint = if (isBookmarked) Color(0xFFFBBF24) else Color(0xFF64748B),
-                            modifier = Modifier.size(18.dp)
-                        )
-                    }
                 }
             }
         }
@@ -1220,6 +1300,14 @@ fun EditorialNewsCard(
     }
     val displayScore = item.score?.let { if (it <= 10) it * 10 else it } ?: 92
     val isTopThree = rank <= 3
+    val displayReason = remember(item.reason, parsed.cleanTitle) {
+        item.reason?.takeIf { it.isNotBlank() }
+            ?: "精选研判：聚焦「${parsed.cleanTitle.take(18)}」的一手事实与行业演进信号。"
+    }
+    val primaryTag = remember(item.tags) {
+        item.tags.orEmpty()
+            .firstOrNull { !it.startsWith("entity:") && it.length in 2..7 }
+    }
 
     Card(
         modifier = Modifier
@@ -1231,7 +1319,7 @@ fun EditorialNewsCard(
         shape = RoundedCornerShape(12.dp)
     ) {
         Column(modifier = Modifier.padding(15.dp)) {
-            // 第一行：高定等宽排名徽章 + 信源铭牌 + 相对时间 + AI 评分
+            // 第一行：高定等宽排名徽章 + 信源铭牌 + 相对时间 + 话题标签 + AI 评分
             Row(
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.SpaceBetween,
@@ -1271,18 +1359,37 @@ fun EditorialNewsCard(
                     )
                 }
 
-                Surface(
-                    color = palette.accentEmeraldBg,
-                    shape = RoundedCornerShape(4.dp)
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(6.dp)
                 ) {
-                    Text(
-                        text = "AI $displayScore",
-                        color = palette.accentEmerald,
-                        fontSize = 10.5.sp,
-                        fontWeight = FontWeight.Bold,
-                        fontFamily = FontFamily.Monospace,
-                        modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp)
-                    )
+                    primaryTag?.let { tag ->
+                        Surface(
+                            color = palette.chipBg,
+                            shape = RoundedCornerShape(4.dp)
+                        ) {
+                            Text(
+                                text = tag,
+                                color = palette.chipText,
+                                fontSize = 10.sp,
+                                fontWeight = FontWeight.Medium,
+                                modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp)
+                            )
+                        }
+                    }
+                    Surface(
+                        color = palette.accentEmeraldBg,
+                        shape = RoundedCornerShape(4.dp)
+                    ) {
+                        Text(
+                            text = "AI $displayScore",
+                            color = palette.accentEmerald,
+                            fontSize = 10.5.sp,
+                            fontWeight = FontWeight.Bold,
+                            fontFamily = FontFamily.Monospace,
+                            modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp)
+                        )
+                    }
                 }
             }
 
@@ -1322,44 +1429,42 @@ fun EditorialNewsCard(
                 )
             }
 
-            // 第五行：左侧垂直金/青装饰线投研洞见栏 + 收藏按钮
-            if (!item.reason.isNullOrBlank()) {
-                Row(
+            // 第五行：左侧垂直金/青装饰线投研洞见栏 + 收藏按钮（始终展示）
+            Row(
+                modifier = Modifier
+                    .padding(top = 10.dp)
+                    .fillMaxWidth()
+                    .clip(RoundedCornerShape(6.dp))
+                    .background(palette.insightBg)
+                    .padding(horizontal = 10.dp, vertical = 7.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Box(
                     modifier = Modifier
-                        .padding(top = 10.dp)
-                        .fillMaxWidth()
-                        .clip(RoundedCornerShape(6.dp))
-                        .background(palette.insightBg)
-                        .padding(horizontal = 10.dp, vertical = 7.dp),
-                    verticalAlignment = Alignment.CenterVertically
+                        .width(2.5.dp)
+                        .height(22.dp)
+                        .background(if (isTopThree) palette.accentGold else palette.accentEmerald)
+                )
+                Spacer(modifier = Modifier.width(8.dp))
+                Text(
+                    text = displayReason,
+                    color = palette.textSecondary,
+                    fontSize = 12.sp,
+                    lineHeight = 17.sp,
+                    maxLines = 2,
+                    overflow = TextOverflow.Ellipsis,
+                    modifier = Modifier.weight(1f)
+                )
+                IconButton(
+                    onClick = onBookmarkClick,
+                    modifier = Modifier.size(28.dp)
                 ) {
-                    Box(
-                        modifier = Modifier
-                            .width(2.5.dp)
-                            .height(22.dp)
-                            .background(if (isTopThree) palette.accentGold else palette.accentEmerald)
+                    Icon(
+                        imageVector = if (isBookmarked) Icons.Default.Bookmark else Icons.Default.BookmarkBorder,
+                        contentDescription = "收藏",
+                        tint = if (isBookmarked) palette.accentGold else palette.textMuted,
+                        modifier = Modifier.size(17.dp)
                     )
-                    Spacer(modifier = Modifier.width(8.dp))
-                    Text(
-                        text = item.reason,
-                        color = palette.textSecondary,
-                        fontSize = 12.sp,
-                        lineHeight = 17.sp,
-                        maxLines = 2,
-                        overflow = TextOverflow.Ellipsis,
-                        modifier = Modifier.weight(1f)
-                    )
-                    IconButton(
-                        onClick = onBookmarkClick,
-                        modifier = Modifier.size(28.dp)
-                    ) {
-                        Icon(
-                            imageVector = if (isBookmarked) Icons.Default.Bookmark else Icons.Default.BookmarkBorder,
-                            contentDescription = "收藏",
-                            tint = if (isBookmarked) palette.accentGold else palette.textMuted,
-                            modifier = Modifier.size(17.dp)
-                        )
-                    }
                 }
             }
         }
@@ -1408,11 +1513,12 @@ fun FullScreenReaderDialog(
             color = palette.bgPrimary
         ) {
             Column(modifier = Modifier.fillMaxSize()) {
-                // 顶部阅读器导航栏
+                // 顶部阅读器导航栏（包含系统状态栏安全内边距，适配刘海屏/挖孔屏）
                 Row(
                     modifier = Modifier
                         .fillMaxWidth()
                         .background(palette.mastheadBg)
+                        .statusBarsPadding()
                         .padding(horizontal = 12.dp, vertical = 10.dp),
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.SpaceBetween
@@ -1618,7 +1724,7 @@ fun FullScreenReaderDialog(
                     Spacer(modifier = Modifier.height(20.dp))
                 }
 
-                // 底部固定操作舱
+                // 底部固定操作舱（包含手势导航栏安全内边距）
                 Surface(
                     color = palette.bgSecondary,
                     border = BorderStroke(0.6.dp, palette.cardBorder),
@@ -1627,6 +1733,7 @@ fun FullScreenReaderDialog(
                     Row(
                         modifier = Modifier
                             .fillMaxWidth()
+                            .navigationBarsPadding()
                             .padding(horizontal = 16.dp, vertical = 12.dp),
                         horizontalArrangement = Arrangement.spacedBy(10.dp),
                         verticalAlignment = Alignment.CenterVertically
@@ -1742,6 +1849,8 @@ fun ReportScreen(
     palette: ExecutivePalette,
     envelope: ReportsEnvelope?,
     period: String,
+    bookmarkedItems: List<NewsItem>,
+    onToggleBookmark: (NewsItem) -> Unit,
     onPeriodChange: (String) -> Unit,
     onArticleClick: (NewsItem) -> Unit
 ) {
@@ -1863,12 +1972,13 @@ fun ReportScreen(
                         }
                     }
                     itemsIndexed(section.items.orEmpty()) { idx, art ->
+                        val isBookmarked = bookmarkedItems.any { it.id == art.id }
                         EditorialNewsCard(
                             palette = palette,
                             rank = idx + 1,
                             item = art,
-                            isBookmarked = false,
-                            onBookmarkClick = {},
+                            isBookmarked = isBookmarked,
+                            onBookmarkClick = { onToggleBookmark(art) },
                             onClick = { onArticleClick(art) }
                         )
                     }
@@ -1891,26 +2001,42 @@ fun ServerConfigDialog(
 
     AlertDialog(
         onDismissRequest = onDismiss,
-        title = { Text("云端实时情报节点配置", fontWeight = FontWeight.Bold) },
+        containerColor = palette.cardBg,
+        titleContentColor = palette.textPrimary,
+        textContentColor = palette.textSecondary,
+        title = {
+            Text(
+                text = "云端实时情报节点配置",
+                color = palette.textPrimary,
+                fontWeight = FontWeight.Bold
+            )
+        },
         text = {
             Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
                 Text(
                     text = "曾先生，App 默认直连谷歌云亚太（台湾）高可用集群实时获取最新情报：",
                     fontSize = 13.sp,
-                    color = Color(0xFF475569)
+                    color = palette.textSecondary
                 )
                 OutlinedTextField(
                     value = inputUrl,
                     onValueChange = { inputUrl = it },
-                    label = { Text("实时集群地址 (HTTPS)") },
+                    label = { Text("实时集群地址 (HTTPS)", color = palette.textMuted) },
                     singleLine = true,
+                    colors = OutlinedTextFieldDefaults.colors(
+                        focusedTextColor = palette.textPrimary,
+                        unfocusedTextColor = palette.textPrimary,
+                        focusedBorderColor = palette.accentGold,
+                        unfocusedBorderColor = palette.cardBorder
+                    ),
                     modifier = Modifier.fillMaxWidth()
                 )
                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     OutlinedButton(
-                        onClick = { inputUrl = NewsRepository.DEFAULT_CLOUD_RUN_URL }
+                        onClick = { inputUrl = NewsRepository.DEFAULT_CLOUD_RUN_URL },
+                        border = BorderStroke(1.dp, palette.cardBorder)
                     ) {
-                        Text("谷歌云亚太主节点", fontSize = 12.sp)
+                        Text("谷歌云亚太主节点", fontSize = 12.sp, color = palette.textPrimary)
                     }
                     OutlinedButton(
                         onClick = {
@@ -1918,15 +2044,16 @@ fun ServerConfigDialog(
                             scope.launch {
                                 pingResult = NewsRepository.pingServer(inputUrl)
                             }
-                        }
+                        },
+                        border = BorderStroke(1.dp, palette.accentGold.copy(alpha = 0.6f))
                     ) {
-                        Text("测试连通性", fontSize = 12.sp)
+                        Text("测试连通性", fontSize = 12.sp, color = palette.accentGold)
                     }
                 }
                 if (pingResult.isNotBlank()) {
                     Text(
                         text = pingResult,
-                        color = if (pingResult.contains("200 OK")) Color(0xFF047857) else Color(0xFFB91C1C),
+                        color = if (pingResult.contains("200 OK")) palette.accentEmerald else Color(0xFFEF4444),
                         fontSize = 12.sp,
                         fontWeight = FontWeight.Medium
                     )
@@ -1936,14 +2063,17 @@ fun ServerConfigDialog(
         confirmButton = {
             Button(
                 onClick = { onSave(inputUrl.trim()) },
-                colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF0F766E))
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = Color(0xFF0F766E),
+                    contentColor = Color.White
+                )
             ) {
                 Text("保存并实时同步")
             }
         },
         dismissButton = {
             TextButton(onClick = onDismiss) {
-                Text("取消")
+                Text("取消", color = palette.textMuted)
             }
         }
     )
