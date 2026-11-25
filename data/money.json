@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T22:44:04.792Z",
+  "generatedAt": "2026-11-25T05:22:25.735Z",
   "query": {
     "mode": "selected",
     "category": "money",
@@ -11,421 +11,908 @@
   },
   "items": [
     {
-      "id": "ae425a32926c9c887d956d6df",
-      "title": "【独立创造】朴捷——协同办公的新方式",
+      "id": "ac147a8412d35079132b6b194",
+      "title": "【独立创造】开源了一个 Google Antigravity 2.0 多语言汉化包：不改 app.asar、不破 macOS 签名，原生秒切 14 种语言",
       "originalTitle": null,
-      "summary": "这几天，朴捷 2.0 算是上线了，也终于可以和大家分享了。 朴捷是什么 朴捷的核心依然项目协同管理软件，但在传统项目协同管理的基础上配上个人 agent。 解决什么问题？ 团队内部个人孤立 agent 上下文的问题 ，通过云端共享的方式让本地 agent 连接上云，任何一个员工接到 agent 很轻松了开始自己的办公。协作更轻松。 agent 操作无法审计的问题，朴捷对项目/任务等操作全部留痕，配合自动审计规则，针对异常活动及时告警。",
-      "content": "这几天，朴捷 2.0 算是上线了，也终于可以和大家分享了。\n\n朴捷的核心依然项目协同管理软件，但在传统项目协同管理的基础上配上个人 agent。\n\n团队内部个人孤立 agent 上下文的问题 ，通过云端共享的方式让本地 agent 连接上云，任何一个员工接到 agent 很轻松了开始自己的办公。协作更轻松。\n\nagent 操作无法审计的问题，朴捷对项目/任务等操作全部留痕，配合自动审计规则，针对异常活动及时告警。\n\n任务进出评审需要交接单，用机制来保证协作的质量和稳定\n\n任务状态流转规则可配置，什么身份能做什么流转，随意配置；\n\n朴捷助手支持配置云端权限，在完全受控的情况才修改云端数据；\n\n配置无人值守，前置任务完成，任务到达执行时间可自动执行，为了避免状态抖动（有人误操作）情况下的应激执行，无人值守可以设置冷静期。\n\n任务，云端文档，消息全部可以拖入对话框，交给 agent 处理，包括文档的局部修改。\n\n任务，云端文档，消息全部可以拖入对话框，交给 agent 处理，包括文档的局部修改。",
+      "summary": "升级到 Google Antigravity 2.0 新版界面后，原有的 VS Code 中文语言包扩展覆盖不到新的 Agent 工作台、Artifacts 面板和设置弹窗；而直接解包替换 app.asar 在 macOS 上会破坏 Apple 公证签名（弹「应用已损坏」警告或每次启动反复请求钥匙串授权），并且客户端一自动更新就会被打回英文。",
+      "content": "升级到 Google Antigravity 2.0 新版界面后，原有的 VS Code 中文语言包扩展覆盖不到新的 Agent 工作台、Artifacts 面板和设置弹窗；而直接解包替换 app.asar 在 macOS 上会破坏 Apple 公证签名（弹「应用已损坏」警告或每次启动反复请求钥匙串授权），并且客户端一自动更新就会被打回英文。\n\n为了干净地解决这个问题，写了一个纯文本开源语言包 **antigravity-langpack**（GPL-3.0）：\n\n👉 GitHub 仓库地址： https://github.com/CHANPAJN/antigravity-langpack\n\n不碰 app.asar 与安装目录：无需 sudo 或管理员权限，macOS 官方公证签名 100% 保持原样，常规客户端更新后无需重打补丁。\n\n原生外观设置内秒切 14 种语言：直接在 设置 → 外观 (Appearance) 中嵌入与官方 UI 一致的「显示语言 (Display Language)」下拉框，无需重启窗口即可在简体中文、繁体中文、日文、韩文、原版英文等 14 个语种（每语种 1,920 条专业开发术语）之间即时切换。\n\n零 .exe 二进制、零外部 npm 依赖：仅使用 Node.js（&gt;= 22.13）内置标准库，基于本机 127.0.0.1 CDP 事件驱动（Page.frameNavigated + Runtime.bindingCalled），平时后台空闲 0% CPU 占用，几分钟即可审阅完全部源码。\n\n不污染编辑器与报错日志：严格跳过 Monaco 代码编辑器、集成终端与调试堆栈；针对后续新版本新增词条的 AI 增量补词默认关闭（false），仅在手动调用时于只读沙箱内按需运行。\n\n支持 macOS / Windows / Linux（正式版与 Insiders 均兼容）。除了常规终端命令安装外，也可以直接复制 GitHub 仓库首页顶部的 一句话 AI 安装提示词 粘贴进 Antigravity 或 Claude Code 聊天框，让 Agent 自动检查环境并完成配置。\n\n如果大家在使用中发现某处译文不够地道或有改进建议，欢迎随时提 Issue 交流；觉得好用的话也欢迎点个 Star 支持一下！",
       "paragraphs": [
-        "这几天，朴捷 2.0 算是上线了，也终于可以和大家分享了。",
-        "朴捷的核心依然项目协同管理软件，但在传统项目协同管理的基础上配上个人 agent。",
-        "团队内部个人孤立 agent 上下文的问题 ，通过云端共享的方式让本地 agent 连接上云，任何一个员工接到 agent 很轻松了开始自己的办公。协作更轻松。",
-        "agent 操作无法审计的问题，朴捷对项目/任务等操作全部留痕，配合自动审计规则，针对异常活动及时告警。",
-        "任务进出评审需要交接单，用机制来保证协作的质量和稳定",
-        "任务状态流转规则可配置，什么身份能做什么流转，随意配置；",
-        "朴捷助手支持配置云端权限，在完全受控的情况才修改云端数据；",
-        "配置无人值守，前置任务完成，任务到达执行时间可自动执行，为了避免状态抖动（有人误操作）情况下的应激执行，无人值守可以设置冷静期。",
-        "任务，云端文档，消息全部可以拖入对话框，交给 agent 处理，包括文档的局部修改。",
-        "任务，云端文档，消息全部可以拖入对话框，交给 agent 处理，包括文档的局部修改。"
+        "升级到 Google Antigravity 2.0 新版界面后，原有的 VS Code 中文语言包扩展覆盖不到新的 Agent 工作台、Artifacts 面板和设置弹窗；而直接解包替换 app.asar 在 macOS 上会破坏 Apple 公证签名（弹「应用已损坏」警告或每次启动反复请求钥匙串授权），并且客户端一自动更新就会被打回英文。",
+        "为了干净地解决这个问题，写了一个纯文本开源语言包 **antigravity-langpack**（GPL-3.0）：",
+        "👉 GitHub 仓库地址： https://github.com/CHANPAJN/antigravity-langpack",
+        "不碰 app.asar 与安装目录：无需 sudo 或管理员权限，macOS 官方公证签名 100% 保持原样，常规客户端更新后无需重打补丁。",
+        "原生外观设置内秒切 14 种语言：直接在 设置 → 外观 (Appearance) 中嵌入与官方 UI 一致的「显示语言 (Display Language)」下拉框，无需重启窗口即可在简体中文、繁体中文、日文、韩文、原版英文等 14 个语种（每语种 1,920 条专业开发术语）之间即时切换。",
+        "零 .exe 二进制、零外部 npm 依赖：仅使用 Node.js（&gt;= 22.13）内置标准库，基于本机 127.0.0.1 CDP 事件驱动（Page.frameNavigated + Runtime.bindingCalled），平时后台空闲 0% CPU 占用，几分钟即可审阅完全部源码。",
+        "不污染编辑器与报错日志：严格跳过 Monaco 代码编辑器、集成终端与调试堆栈；针对后续新版本新增词条的 AI 增量补词默认关闭（false），仅在手动调用时于只读沙箱内按需运行。",
+        "支持 macOS / Windows / Linux（正式版与 Insiders 均兼容）。除了常规终端命令安装外，也可以直接复制 GitHub 仓库首页顶部的 一句话 AI 安装提示词 粘贴进 Antigravity 或 Claude Code 聊天框，让 Agent 自动检查环境并完成配置。",
+        "如果大家在使用中发现某处译文不够地道或有改进建议，欢迎随时提 Issue 交流；觉得好用的话也欢迎点个 Star 支持一下！"
       ],
       "originalContent": null,
       "source": {
         "name": "V2EX·独立创造与副业变现"
       },
       "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/ae425a32926c9c887d956d6df",
-        "original": "https://www.v2ex.com/t/1259583#reply0"
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/ac147a8412d35079132b6b194",
+        "original": "https://www.v2ex.com/t/1259681#reply0"
       },
-      "publishedAt": "2026-11-24T16:53:43.000Z",
-      "discoveredAt": "2026-11-24T16:58:54.254Z",
+      "publishedAt": "2026-11-25T05:00:09.000Z",
+      "discoveredAt": "2026-11-25T05:13:56.922Z",
       "category": "money",
       "tags": [
         "搞钱变现",
         "教程/实践",
         "编码",
         "Agent",
+        "开源生态",
         "模型发布",
         "产品更新"
       ],
-      "score": 92,
+      "score": 96,
       "selected": true,
-      "reason": "生产力范式转移：聚焦「朴捷——协同办公的新方式」在智能体自主规划与工具链协同上的演进。",
+      "reason": "开源工程价值：「开源了一个 Google Antigravi…」技术方案与实测表现，可直接赋能开发者低成本落地。",
       "attribution": {
         "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/ae425a32926c9c887d956d6df"
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/ac147a8412d35079132b6b194"
       }
     },
     {
-      "id": "a1d105d9183e2746d9e3182b2",
-      "title": "【独立创造】macOS 工时记录工具",
+      "id": "a15623ef6b63b9c78ca3d9fe3",
+      "title": "【独立创造】命理、占星与塔罗探索平台",
       "originalTitle": null,
-      "summary": "我们是灵活工作时间，有时摸鱼太多自己补时间又怕补多了亏。 开发了一个记录工时的 macOS 工具，可以自己调节一天需要完成的工时长度，利用 macOS 的 touchbar 来显示剩余待完成工时。touchbar 上面还可以切换 工作，个人（也就是摸鱼），待机（也就是离开电脑）三种状态。 有感兴趣的我再开源。",
-      "content": "我们是灵活工作时间，有时摸鱼太多自己补时间又怕补多了亏。\n\n开发了一个记录工时的 macOS 工具，可以自己调节一天需要完成的工时长度，利用 macOS 的 touchbar 来显示剩余待完成工时。touchbar 上面还可以切换 工作，个人（也就是摸鱼），待机（也就是离开电脑）三种状态。",
+      "summary": "OmenDay — AI 命理、占星与塔罗探索平台 是一个融合东方传统命理与西方占星文化的 AI 命理平台，帮助用户通过多种命理工具和 AI 指引，探索自我、关系与人生方向。 用户可以体验西方占星、塔罗牌占卜、每日星座运势，以及中国传统命理中的八字（四柱）和紫微斗数。无论是了解自己的出生星盘、探索感情与事业，还是寻找个人成长的灵感，OmenDay 都提供互动工具与 AI 辅助解读，帮助用户从不同视角认识自己。",
+      "content": "OmenDay — AI 命理、占星与塔罗探索平台 是一个融合东方传统命理与西方占星文化的 AI 命理平台，帮助用户通过多种命理工具和 AI 指引，探索自我、关系与人生方向。\n\n用户可以体验西方占星、塔罗牌占卜、每日星座运势，以及中国传统命理中的八字（四柱）和紫微斗数。无论是了解自己的出生星盘、探索感情与事业，还是寻找个人成长的灵感，OmenDay 都提供互动工具与 AI 辅助解读，帮助用户从不同视角认识自己。\n\n平台还提供免费的在线计算器、塔罗占卜工具和系统化的命理知识库，让全球用户更容易接触和理解占星学与中国传统命理文化。",
       "paragraphs": [
-        "我们是灵活工作时间，有时摸鱼太多自己补时间又怕补多了亏。",
-        "开发了一个记录工时的 macOS 工具，可以自己调节一天需要完成的工时长度，利用 macOS 的 touchbar 来显示剩余待完成工时。touchbar 上面还可以切换 工作，个人（也就是摸鱼），待机（也就是离开电脑）三种状态。"
+        "OmenDay — AI 命理、占星与塔罗探索平台 是一个融合东方传统命理与西方占星文化的 AI 命理平台，帮助用户通过多种命理工具和 AI 指引，探索自我、关系与人生方向。",
+        "用户可以体验西方占星、塔罗牌占卜、每日星座运势，以及中国传统命理中的八字（四柱）和紫微斗数。无论是了解自己的出生星盘、探索感情与事业，还是寻找个人成长的灵感，OmenDay 都提供互动工具与 AI 辅助解读，帮助用户从不同视角认识自己。",
+        "平台还提供免费的在线计算器、塔罗占卜工具和系统化的命理知识库，让全球用户更容易接触和理解占星学与中国传统命理文化。"
       ],
       "originalContent": null,
       "source": {
         "name": "V2EX·独立创造与副业变现"
       },
       "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a1d105d9183e2746d9e3182b2",
-        "original": "https://www.v2ex.com/t/1259578#reply0"
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a15623ef6b63b9c78ca3d9fe3",
+        "original": "https://www.v2ex.com/t/1259677#reply0"
       },
-      "publishedAt": "2026-11-24T16:15:11.000Z",
-      "discoveredAt": "2026-11-24T16:29:04.122Z",
+      "publishedAt": "2026-11-25T04:40:33.000Z",
+      "discoveredAt": "2026-11-25T04:58:52.532Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "产品更新"
+      ],
+      "score": 97,
+      "selected": true,
+      "reason": "V2EX精选研判：聚焦「命理、占星与塔罗探索平台」的一手事实与行业演进信号。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a15623ef6b63b9c78ca3d9fe3"
+      }
+    },
+    {
+      "id": "aa981685b3cb5309ef06a27dd",
+      "title": "【独立创造】开源了一个手机版本的超级 agent 工具：agent tower",
+      "originalTitle": null,
+      "summary": "电脑上装了 opencode、chatgpt 、claude code 我平常混着用，有时候想在手机上继续用不太方便，所以开发一个手机端的超级 agent，支持接入 Claude Code、Codex、Cursor、OpenCode、CodeBuddy 和 DeepSeek Harness。",
+      "content": "电脑上装了 opencode、chatgpt 、claude code 我平常混着用，有时候想在手机上继续用不太方便，所以开发一个手机端的超级 agent，支持接入 Claude Code、Codex、Cursor、OpenCode、CodeBuddy 和 DeepSeek Harness。\n\nhttps://github.com/agenttower-ai/agent-connector\n\nAgentTower 把电脑上的 AI Agent 状态、会话和受支持的操作带到控制客户端。通过中转服务与客户端通信，让你在离开工位后仍能了解任务进展、处理支持远程审批的请求。\n\n已将上架 Appstore 开箱机用，不用担心安全问题，中转服务器可以用自己的，也可以用我的，所有代码开源。\n\n国内的小伙伴直接微信小程序也能用：飞思远程 AI。",
+      "paragraphs": [
+        "电脑上装了 opencode、chatgpt 、claude code 我平常混着用，有时候想在手机上继续用不太方便，所以开发一个手机端的超级 agent，支持接入 Claude Code、Codex、Cursor、OpenCode、CodeBuddy 和 DeepSeek Harness。",
+        "https://github.com/agenttower-ai/agent-connector",
+        "AgentTower 把电脑上的 AI Agent 状态、会话和受支持的操作带到控制客户端。通过中转服务与客户端通信，让你在离开工位后仍能了解任务进展、处理支持远程审批的请求。",
+        "已将上架 Appstore 开箱机用，不用担心安全问题，中转服务器可以用自己的，也可以用我的，所有代码开源。",
+        "国内的小伙伴直接微信小程序也能用：飞思远程 AI。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/aa981685b3cb5309ef06a27dd",
+        "original": "https://www.v2ex.com/t/1259673#reply0"
+      },
+      "publishedAt": "2026-11-25T04:05:04.000Z",
+      "discoveredAt": "2026-11-25T04:14:06.287Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "Agent",
+        "开源生态",
+        "模型发布",
+        "产品更新"
+      ],
+      "score": 97,
+      "selected": true,
+      "reason": "开源工程价值：「开源了一个手机版本的超级 agent 工具：…」技术方案与实测表现，可直接赋能开发者低成本落地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/aa981685b3cb5309ef06a27dd"
+      }
+    },
+    {
+      "id": "a4fd24dc984e4ddcd25655afa",
+      "title": "【独立创造】做了个 Claude Code / Codex 的图形界面：有个 AI 秘书替你派活，工作台也能让 agent 自己搭",
+      "originalTitle": null,
+      "summary": "我平时会同时开好几个 coding agent。用了几个月 herdr（给 agent 用的终端复用器）之后，发现自己的大部分时间都花在了派活、盯进度上，而且一出门就什么也管不了。 所以自己写了个图形界面，叫 Gerdr（MIT 开源）。它不经过终端，直接用 Claude Code / Codex 的结构化接口通信，界面是自己画的。 Superagent：一个替你派活的秘书 平时只跟「秘书」这一个对话框说话。",
+      "content": "我平时会同时开好几个 coding agent。用了几个月 herdr（给 agent 用的终端复用器）之后，发现自己的大部分时间都花在了派活、盯进度上，而且一出门就什么也管不了。 所以自己写了个图形界面，叫 Gerdr（MIT 开源）。它不经过终端，直接用 Claude Code / Codex 的结构化接口通信，界面是自己画的。\n\n平时只跟「秘书」这一个对话框说话。你交代一件事，它判断该去哪个仓库，派给 Claude Code 或 Codex 的 worker 去做，然后替你盯着，包括 MR 上的 review 意见和流水线。 只有要你拍板的事，它才来问你；进度随时问它，到点它还会给你写简报。想看全局的话，同一批任务在看板上一张张摆着。 Slack / 飞书的私信和 @、告警这类外面来的消息，也可以交给它判断接不接、派给谁。\n\n每个项目都能有自己的面板。一个面板就是一个小应用：左边是页面，右边是它自己的助手。比如说一句「做一个本周数据总览」，它就把页面写出来了。 Superagent 本身也只是这样一个面板，代码开源，可以一键装，也可以改成你自己的流程。 不只是面板，Gerdr 整个界面都是热更新的源码：想加按钮、快捷键，直接让 agent 改，马上生效。改坏了有个改不坏的急救面板，能把界面救回来。\n\n顶上一排胶囊是所有进行中的 agent，等你拍板的排最前，左右一滑就切过去\n\n路上想到新需求，点一下 + 挑好仓库和 Claude / Codex，电脑立刻在后台开工\n\n手势、软键盘都专门打磨过，输入框不会被键盘挡住；装上语音扩展可以按住说话\n\n原生安卓 / iOS App：在家自动走局域网直连，出门走端到端加密的中继或 Tailscale，过期了刷脸 / 指纹续上；安卓还能收后台通知\n\n分屏、tab、工作空间，快捷键和 herdr 一样，herdr 的布局可以直接导进来\n\n除了 Claude 和 Codex，还能接任意 ACP agent，也能直接调 GPT / DeepSeek 的 API\n\nmac 有桌面 App（Windows 目前需要自己编译），也可以在浏览器里用。",
+      "paragraphs": [
+        "我平时会同时开好几个 coding agent。用了几个月 herdr（给 agent 用的终端复用器）之后，发现自己的大部分时间都花在了派活、盯进度上，而且一出门就什么也管不了。 所以自己写了个图形界面，叫 Gerdr（MIT 开源）。它不经过终端，直接用 Claude Code / Codex 的结构化接口通信，界面是自己画的。",
+        "平时只跟「秘书」这一个对话框说话。你交代一件事，它判断该去哪个仓库，派给 Claude Code 或 Codex 的 worker 去做，然后替你盯着，包括 MR 上的 review 意见和流水线。 只有要你拍板的事，它才来问你；进度随时问它，到点它还会给你写简报。想看全局的话，同一批任务在看板上一张张摆着。 Slack / 飞书的私信和 @、告警这类外面来的消息，也可以交给它判断接不接、派给谁。",
+        "每个项目都能有自己的面板。一个面板就是一个小应用：左边是页面，右边是它自己的助手。比如说一句「做一个本周数据总览」，它就把页面写出来了。 Superagent 本身也只是这样一个面板，代码开源，可以一键装，也可以改成你自己的流程。 不只是面板，Gerdr 整个界面都是热更新的源码：想加按钮、快捷键，直接让 agent 改，马上生效。改坏了有个改不坏的急救面板，能把界面救回来。",
+        "顶上一排胶囊是所有进行中的 agent，等你拍板的排最前，左右一滑就切过去",
+        "路上想到新需求，点一下 + 挑好仓库和 Claude / Codex，电脑立刻在后台开工",
+        "手势、软键盘都专门打磨过，输入框不会被键盘挡住；装上语音扩展可以按住说话",
+        "原生安卓 / iOS App：在家自动走局域网直连，出门走端到端加密的中继或 Tailscale，过期了刷脸 / 指纹续上；安卓还能收后台通知",
+        "分屏、tab、工作空间，快捷键和 herdr 一样，herdr 的布局可以直接导进来",
+        "除了 Claude 和 Codex，还能接任意 ACP agent，也能直接调 GPT / DeepSeek 的 API",
+        "mac 有桌面 App（Windows 目前需要自己编译），也可以在浏览器里用。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a4fd24dc984e4ddcd25655afa",
+        "original": "https://www.v2ex.com/t/1259668#reply0"
+      },
+      "publishedAt": "2026-11-25T03:50:00.000Z",
+      "discoveredAt": "2026-11-25T03:58:57.151Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "Agent",
+        "开源生态",
+        "论文/研究",
+        "大佬观点",
+        "产品更新"
+      ],
+      "score": 96,
+      "selected": true,
+      "reason": "开源工程价值：「做了个 Claude Code / Code…」技术方案与实测表现，可直接赋能开发者低成本落地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a4fd24dc984e4ddcd25655afa"
+      }
+    },
+    {
+      "id": "a4178c13ee0469ba12905f999",
+      "title": "【独立创造】Immich + Tailscale 安卓客户端：无需额外 VPN 即可安全访问家庭 NAS 照片",
+      "originalTitle": null,
+      "summary": "将 Immich 部署在家庭 NAS 上是很多人的选择，但 如何安全地从外网访问 始终是个难题： 直接暴露公网端口 ：看似方便，实则风险极高。一旦服务端或反代组件出现漏洞，极易被扫描和入侵——近期群晖频繁爆出的安全事件就是前车之鉴。 使用 Tailscale 等组网工具 ：安全性有保障，但移动端体验糟糕。用户必须额外安装 Tailscale App，它会占用系统 VPN 通道，状态栏常驻图标影响美观，还可能与其它 VPN 类工具冲突；",
+      "content": "将 Immich 部署在家庭 NAS 上是很多人的选择，但如何安全地从外网访问始终是个难题：\n\n直接暴露公网端口：看似方便，实则风险极高。一旦服务端或反代组件出现漏洞，极易被扫描和入侵——近期群晖频繁爆出的安全事件就是前车之鉴。\n\n使用 Tailscale 等组网工具：安全性有保障，但移动端体验糟糕。用户必须额外安装 Tailscale App，它会占用系统 VPN 通道，状态栏常驻图标影响美观，还可能与其它 VPN 类工具冲突；更令人头疼的是，Tailscale 偶尔会莫名退出连接。若想为家人逐一配置，更是费时费力。\n\n为了解决这个痛点，我将 Tailscale 节点直接内置到了 Immich 安卓客户端中。\n\n启动 Immich 时自动拉起内置 Tailscale 节点\n\n无缝连通家庭 NAS 所在的 Tailscale 网络\n\n配置简单：填入 Immich 服务端在 Tailscale 网络中的 IP 即可\n\n启用 Tailscale 远程访问，需授权接入你的 Tailscale\n\n返回 App 登陆页面，填写 Immich 服务端在 Tailscale 网络中的 IP 地址（我没有测试域名的方式，不确定是否支持）\n\n第一次搞个人项目，不复杂，用 AI 很快就搞定了，但确实解决了我自己很大的痛点，也期望能帮助到大家。欢迎反馈意见和 STAR：https://github.com/aurora698/immich-tailscale",
+      "paragraphs": [
+        "将 Immich 部署在家庭 NAS 上是很多人的选择，但如何安全地从外网访问始终是个难题：",
+        "直接暴露公网端口：看似方便，实则风险极高。一旦服务端或反代组件出现漏洞，极易被扫描和入侵——近期群晖频繁爆出的安全事件就是前车之鉴。",
+        "使用 Tailscale 等组网工具：安全性有保障，但移动端体验糟糕。用户必须额外安装 Tailscale App，它会占用系统 VPN 通道，状态栏常驻图标影响美观，还可能与其它 VPN 类工具冲突；更令人头疼的是，Tailscale 偶尔会莫名退出连接。若想为家人逐一配置，更是费时费力。",
+        "为了解决这个痛点，我将 Tailscale 节点直接内置到了 Immich 安卓客户端中。",
+        "启动 Immich 时自动拉起内置 Tailscale 节点",
+        "无缝连通家庭 NAS 所在的 Tailscale 网络",
+        "配置简单：填入 Immich 服务端在 Tailscale 网络中的 IP 即可",
+        "启用 Tailscale 远程访问，需授权接入你的 Tailscale",
+        "返回 App 登陆页面，填写 Immich 服务端在 Tailscale 网络中的 IP 地址（我没有测试域名的方式，不确定是否支持）",
+        "第一次搞个人项目，不复杂，用 AI 很快就搞定了，但确实解决了我自己很大的痛点，也期望能帮助到大家。欢迎反馈意见和 STAR：https://github.com/aurora698/immich-tailscale"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a4178c13ee0469ba12905f999",
+        "original": "https://www.v2ex.com/t/1259666#reply9"
+      },
+      "publishedAt": "2026-11-25T03:47:14.000Z",
+      "discoveredAt": "2026-11-25T05:21:54.287Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "安全/对齐",
+        "产品更新"
+      ],
+      "score": 97,
+      "selected": true,
+      "reason": "V2EX精选研判：聚焦「Immich + Tailscale 安卓客…」的一手事实与行业演进信号。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a4178c13ee0469ba12905f999"
+      }
+    },
+    {
+      "id": "a616850dddd03fa1d89ba19b7",
+      "title": "【独立创造】Immich + Tailscale 安卓客户端：无需额外 VPN 即可安全访问家庭 NAS 照片",
+      "originalTitle": null,
+      "summary": "将 Immich 部署在家庭 NAS 上是很多人的选择，但 如何安全地从外网访问 始终是个难题： 直接暴露公网端口 ：看似方便，实则风险极高。一旦服务端或反代组件出现漏洞，极易被扫描和入侵——近期群晖频繁爆出的安全事件就是前车之鉴。 使用 Tailscale 等组网工具 ：安全性有保障，但移动端体验糟糕。用户必须额外安装 Tailscale App，它会占用系统 VPN 通道，状态栏常驻图标影响美观，还可能与其它 VPN 类工具冲突；",
+      "content": "将 Immich 部署在家庭 NAS 上是很多人的选择，但如何安全地从外网访问始终是个难题：\n\n直接暴露公网端口：看似方便，实则风险极高。一旦服务端或反代组件出现漏洞，极易被扫描和入侵——近期群晖频繁爆出的安全事件就是前车之鉴。\n\n使用 Tailscale 等组网工具：安全性有保障，但移动端体验糟糕。用户必须额外安装 Tailscale App，它会占用系统 VPN 通道，状态栏常驻图标影响美观，还可能与其它 VPN 类工具冲突；更令人头疼的是，Tailscale 偶尔会莫名退出连接。若想为家人逐一配置，更是费时费力。\n\n为了解决这个痛点，我将 Tailscale 节点直接内置到了 Immich 安卓客户端中。\n\n启动 Immich 时自动拉起内置 Tailscale 节点\n\n无缝连通家庭 NAS 所在的 Tailscale 网络\n\n配置简单：填入 Immich 服务端在 Tailscale 网络中的 IP 即可\n\n启用 Tailscale 远程访问，需授权接入你的 Tailscale\n\n返回 App 登陆页面，填写 Immich 服务端在 Tailscale 网络中的 IP 地址（我没有测试域名的方式，不确定是否支持）\n\n第一次搞个人项目，不复杂，用 AI 很快就搞定了，但确实解决了我自己很大的痛点，也期望能帮助到大家。欢迎反馈意见和 STAR：https://github.com/aurora698/immich-tailscale",
+      "paragraphs": [
+        "将 Immich 部署在家庭 NAS 上是很多人的选择，但如何安全地从外网访问始终是个难题：",
+        "直接暴露公网端口：看似方便，实则风险极高。一旦服务端或反代组件出现漏洞，极易被扫描和入侵——近期群晖频繁爆出的安全事件就是前车之鉴。",
+        "使用 Tailscale 等组网工具：安全性有保障，但移动端体验糟糕。用户必须额外安装 Tailscale App，它会占用系统 VPN 通道，状态栏常驻图标影响美观，还可能与其它 VPN 类工具冲突；更令人头疼的是，Tailscale 偶尔会莫名退出连接。若想为家人逐一配置，更是费时费力。",
+        "为了解决这个痛点，我将 Tailscale 节点直接内置到了 Immich 安卓客户端中。",
+        "启动 Immich 时自动拉起内置 Tailscale 节点",
+        "无缝连通家庭 NAS 所在的 Tailscale 网络",
+        "配置简单：填入 Immich 服务端在 Tailscale 网络中的 IP 即可",
+        "启用 Tailscale 远程访问，需授权接入你的 Tailscale",
+        "返回 App 登陆页面，填写 Immich 服务端在 Tailscale 网络中的 IP 地址（我没有测试域名的方式，不确定是否支持）",
+        "第一次搞个人项目，不复杂，用 AI 很快就搞定了，但确实解决了我自己很大的痛点，也期望能帮助到大家。欢迎反馈意见和 STAR：https://github.com/aurora698/immich-tailscale"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a616850dddd03fa1d89ba19b7",
+        "original": "https://www.v2ex.com/t/1259666#reply4"
+      },
+      "publishedAt": "2026-11-25T03:47:14.000Z",
+      "discoveredAt": "2026-11-25T04:14:07.267Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "安全/对齐",
+        "产品更新"
+      ],
+      "score": 97,
+      "selected": true,
+      "reason": "V2EX精选研判：聚焦「Immich + Tailscale 安卓客…」的一手事实与行业演进信号。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a616850dddd03fa1d89ba19b7"
+      }
+    },
+    {
+      "id": "a8f2593072e626dc3966e13e8",
+      "title": "【独立创造】Immich + Tailscale 安卓客户端：无需额外 VPN 即可安全访问家庭 NAS 照片",
+      "originalTitle": null,
+      "summary": "将 Immich 部署在家庭 NAS 上是很多人的选择，但 如何安全地从外网访问 始终是个难题： 直接暴露公网端口 ：看似方便，实则风险极高。一旦服务端或反代组件出现漏洞，极易被扫描和入侵——近期群晖频繁爆出的安全事件就是前车之鉴。 使用 Tailscale 等组网工具 ：安全性有保障，但移动端体验糟糕。用户必须额外安装 Tailscale App，它会占用系统 VPN 通道，状态栏常驻图标影响美观，还可能与其它 VPN 类工具冲突；",
+      "content": "将 Immich 部署在家庭 NAS 上是很多人的选择，但如何安全地从外网访问始终是个难题：\n\n直接暴露公网端口：看似方便，实则风险极高。一旦服务端或反代组件出现漏洞，极易被扫描和入侵——近期群晖频繁爆出的安全事件就是前车之鉴。\n\n使用 Tailscale 等组网工具：安全性有保障，但移动端体验糟糕。用户必须额外安装 Tailscale App，它会占用系统 VPN 通道，状态栏常驻图标影响美观，还可能与其它 VPN 类工具冲突；更令人头疼的是，Tailscale 偶尔会莫名退出连接。若想为家人逐一配置，更是费时费力。\n\n为了解决这个痛点，我将 Tailscale 节点直接内置到了 Immich 安卓客户端中。\n\n启动 Immich 时自动拉起内置 Tailscale 节点\n\n无缝连通家庭 NAS 所在的 Tailscale 网络\n\n配置简单：填入 Immich 服务端在 Tailscale 网络中的 IP 即可\n\n启用 Tailscale 远程访问，需授权接入你的 Tailscale\n\n返回 App 登陆页面，填写 Immich 服务端在 Tailscale 网络中的 IP 地址（我没有测试域名的方式，不确定是否支持）\n\n第一次搞个人项目，不复杂，用 AI 很快就搞定了，但确实解决了我自己很大的痛点，也期望能帮助到大家。欢迎反馈意见和 STAR：https://github.com/aurora698/immich-tailscale",
+      "paragraphs": [
+        "将 Immich 部署在家庭 NAS 上是很多人的选择，但如何安全地从外网访问始终是个难题：",
+        "直接暴露公网端口：看似方便，实则风险极高。一旦服务端或反代组件出现漏洞，极易被扫描和入侵——近期群晖频繁爆出的安全事件就是前车之鉴。",
+        "使用 Tailscale 等组网工具：安全性有保障，但移动端体验糟糕。用户必须额外安装 Tailscale App，它会占用系统 VPN 通道，状态栏常驻图标影响美观，还可能与其它 VPN 类工具冲突；更令人头疼的是，Tailscale 偶尔会莫名退出连接。若想为家人逐一配置，更是费时费力。",
+        "为了解决这个痛点，我将 Tailscale 节点直接内置到了 Immich 安卓客户端中。",
+        "启动 Immich 时自动拉起内置 Tailscale 节点",
+        "无缝连通家庭 NAS 所在的 Tailscale 网络",
+        "配置简单：填入 Immich 服务端在 Tailscale 网络中的 IP 即可",
+        "启用 Tailscale 远程访问，需授权接入你的 Tailscale",
+        "返回 App 登陆页面，填写 Immich 服务端在 Tailscale 网络中的 IP 地址（我没有测试域名的方式，不确定是否支持）",
+        "第一次搞个人项目，不复杂，用 AI 很快就搞定了，但确实解决了我自己很大的痛点，也期望能帮助到大家。欢迎反馈意见和 STAR：https://github.com/aurora698/immich-tailscale"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a8f2593072e626dc3966e13e8",
+        "original": "https://www.v2ex.com/t/1259666#reply0"
+      },
+      "publishedAt": "2026-11-25T03:47:14.000Z",
+      "discoveredAt": "2026-11-25T03:58:57.931Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "安全/对齐",
+        "产品更新"
+      ],
+      "score": 97,
+      "selected": true,
+      "reason": "V2EX精选研判：聚焦「Immich + Tailscale 安卓客…」的一手事实与行业演进信号。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a8f2593072e626dc3966e13e8"
+      }
+    },
+    {
+      "id": "a3a336da6bb45e920892b9ac5",
+      "title": "【独立创造】Immich + Tailscale 安卓客户端：无需额外 VPN 即可安全访问家庭 NAS 照片",
+      "originalTitle": null,
+      "summary": "将 Immich 部署在家庭 NAS 上是很多人的选择，但 如何安全地从外网访问 始终是个难题： 直接暴露公网端口 ：看似方便，实则风险极高。一旦服务端或反代组件出现漏洞，极易被扫描和入侵——近期群晖频繁爆出的安全事件就是前车之鉴。 使用 Tailscale 等组网工具 ：安全性有保障，但移动端体验糟糕。用户必须额外安装 Tailscale App，它会占用系统 VPN 通道，状态栏常驻图标影响美观，还可能与其它 VPN 类工具冲突；",
+      "content": "将 Immich 部署在家庭 NAS 上是很多人的选择，但如何安全地从外网访问始终是个难题：\n\n直接暴露公网端口：看似方便，实则风险极高。一旦服务端或反代组件出现漏洞，极易被扫描和入侵——近期群晖频繁爆出的安全事件就是前车之鉴。\n\n使用 Tailscale 等组网工具：安全性有保障，但移动端体验糟糕。用户必须额外安装 Tailscale App，它会占用系统 VPN 通道，状态栏常驻图标影响美观，还可能与其它 VPN 类工具冲突；更令人头疼的是，Tailscale 偶尔会莫名退出连接。若想为家人逐一配置，更是费时费力。\n\n为了解决这个痛点，我将 Tailscale 节点直接内置到了 Immich 安卓客户端中。\n\n启动 Immich 时自动拉起内置 Tailscale 节点\n\n无缝连通家庭 NAS 所在的 Tailscale 网络\n\n配置简单：填入 Immich 服务端在 Tailscale 网络中的 IP 即可\n\n启用 Tailscale 远程访问，需授权接入你的 Tailscale\n\n返回 App 登陆页面，填写 Immich 服务端在 Tailscale 网络中的 IP 地址（我没有测试域名的方式，不确定是否支持）\n\n第一次搞个人项目，不复杂，用 AI 很快就搞定了，但确实解决了我自己很大的痛点，也期望能帮助到大家。欢迎反馈意见和 STAR：https://github.com/aurora698/immich-tailscale",
+      "paragraphs": [
+        "将 Immich 部署在家庭 NAS 上是很多人的选择，但如何安全地从外网访问始终是个难题：",
+        "直接暴露公网端口：看似方便，实则风险极高。一旦服务端或反代组件出现漏洞，极易被扫描和入侵——近期群晖频繁爆出的安全事件就是前车之鉴。",
+        "使用 Tailscale 等组网工具：安全性有保障，但移动端体验糟糕。用户必须额外安装 Tailscale App，它会占用系统 VPN 通道，状态栏常驻图标影响美观，还可能与其它 VPN 类工具冲突；更令人头疼的是，Tailscale 偶尔会莫名退出连接。若想为家人逐一配置，更是费时费力。",
+        "为了解决这个痛点，我将 Tailscale 节点直接内置到了 Immich 安卓客户端中。",
+        "启动 Immich 时自动拉起内置 Tailscale 节点",
+        "无缝连通家庭 NAS 所在的 Tailscale 网络",
+        "配置简单：填入 Immich 服务端在 Tailscale 网络中的 IP 即可",
+        "启用 Tailscale 远程访问，需授权接入你的 Tailscale",
+        "返回 App 登陆页面，填写 Immich 服务端在 Tailscale 网络中的 IP 地址（我没有测试域名的方式，不确定是否支持）",
+        "第一次搞个人项目，不复杂，用 AI 很快就搞定了，但确实解决了我自己很大的痛点，也期望能帮助到大家。欢迎反馈意见和 STAR：https://github.com/aurora698/immich-tailscale"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a3a336da6bb45e920892b9ac5",
+        "original": "https://www.v2ex.com/t/1259666#reply8"
+      },
+      "publishedAt": "2026-11-25T03:47:14.000Z",
+      "discoveredAt": "2026-11-25T04:28:55.866Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "安全/对齐",
+        "产品更新"
+      ],
+      "score": 97,
+      "selected": true,
+      "reason": "V2EX精选研判：聚焦「Immich + Tailscale 安卓客…」的一手事实与行业演进信号。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a3a336da6bb45e920892b9ac5"
+      }
+    },
+    {
+      "id": "a2f81de62011afa4f3f509093",
+      "title": "【独立创造】1 年多的个人 AI 作品集分享",
+      "originalTitle": null,
+      "summary": "https://lingyichen-ai.github.io/",
+      "content": "https://lingyichen-ai.github.io/",
+      "paragraphs": [
+        "https://lingyichen-ai.github.io/"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a2f81de62011afa4f3f509093",
+        "original": "https://www.v2ex.com/t/1259665#reply0"
+      },
+      "publishedAt": "2026-11-25T03:45:28.000Z",
+      "discoveredAt": "2026-11-25T03:58:58.898Z",
       "category": "money",
       "tags": [
         "搞钱变现",
         "教程/实践",
         "编码",
         "开源生态",
+        "产品更新"
+      ],
+      "score": 92,
+      "selected": true,
+      "reason": "开源工程价值：「1 年多的个人 AI 作品集分享」技术方案与实测表现，可直接赋能开发者低成本落地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a2f81de62011afa4f3f509093"
+      }
+    },
+    {
+      "id": "a92457e7c90547c626f18428a",
+      "title": "【独立创造】做了个能跨屏会刹车的蜘蛛",
+      "originalTitle": null,
+      "summary": "整了个桌宠，叫 Araneae。 它会自己满屏溜达。 我电脑接了两块屏幕，给它加了自动跨屏。 也能 cmd + 左键快速给它薅过来。 等 Agent 跑任务的时候可以把玩一下。 可以先在网页里玩一下： https://jaaasonho.github.io/Araneae/ 桌宠版目前只弄了 macOS，用 Tauri 2 + Three.js 做的。App 大概 9 MB。 功能不多，后续会丰富一下它的功能，不过目前还没想好，大家有好玩的点子也可以搞。",
+      "content": "可以先在网页里玩一下： https://jaaasonho.github.io/Araneae/\n\n桌宠版目前只弄了 macOS，用 Tauri 2 + Three.js 做的。App 大概 9 MB。\n\n功能不多，后续会丰富一下它的功能，不过目前还没想好，大家有好玩的点子也可以搞。\n\n代码也放出来了 https://github.com/jaaasonho/Araneae",
+      "paragraphs": [
+        "可以先在网页里玩一下： https://jaaasonho.github.io/Araneae/",
+        "桌宠版目前只弄了 macOS，用 Tauri 2 + Three.js 做的。App 大概 9 MB。",
+        "功能不多，后续会丰富一下它的功能，不过目前还没想好，大家有好玩的点子也可以搞。",
+        "代码也放出来了 https://github.com/jaaasonho/Araneae"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a92457e7c90547c626f18428a",
+        "original": "https://www.v2ex.com/t/1259662#reply0"
+      },
+      "publishedAt": "2026-11-25T03:34:38.000Z",
+      "discoveredAt": "2026-11-25T03:43:45.578Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "Agent",
+        "开源生态",
+        "产品更新"
+      ],
+      "score": 92,
+      "selected": true,
+      "reason": "开源工程价值：「做了个能跨屏会刹车的蜘蛛」技术方案与实测表现，可直接赋能开发者低成本落地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a92457e7c90547c626f18428a"
+      }
+    },
+    {
+      "id": "a4a4d80a7a70da8bf3d31e81f",
+      "title": "【独立创造】做了个能跨屏会刹车的蜘蛛",
+      "originalTitle": null,
+      "summary": "整了个桌宠，叫 Araneae。 它会自己满屏溜达。 我电脑接了两块屏幕，给它加了自动跨屏。 也能 cmd + 左键快速给它薅过来。 等 Agent 跑任务的时候可以把玩一下。 可以先在网页里玩一下： https://jaaasonho.github.io/Araneae/ 桌宠版目前只弄了 macOS，用 Tauri 2 + Three.js 做的。App 大概 9 MB。 功能不多，后续会丰富一下它的功能，不过目前还没想好，大家有好玩的点子也可以搞。",
+      "content": "可以先在网页里玩一下： https://jaaasonho.github.io/Araneae/\n\n桌宠版目前只弄了 macOS，用 Tauri 2 + Three.js 做的。App 大概 9 MB。\n\n功能不多，后续会丰富一下它的功能，不过目前还没想好，大家有好玩的点子也可以搞。\n\n代码也放出来了 https://github.com/jaaasonho/Araneae",
+      "paragraphs": [
+        "可以先在网页里玩一下： https://jaaasonho.github.io/Araneae/",
+        "桌宠版目前只弄了 macOS，用 Tauri 2 + Three.js 做的。App 大概 9 MB。",
+        "功能不多，后续会丰富一下它的功能，不过目前还没想好，大家有好玩的点子也可以搞。",
+        "代码也放出来了 https://github.com/jaaasonho/Araneae"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a4a4d80a7a70da8bf3d31e81f",
+        "original": "https://www.v2ex.com/t/1259662#reply3"
+      },
+      "publishedAt": "2026-11-25T03:34:38.000Z",
+      "discoveredAt": "2026-11-25T05:21:54.668Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "Agent",
+        "开源生态",
+        "产品更新"
+      ],
+      "score": 92,
+      "selected": true,
+      "reason": "开源工程价值：「做了个能跨屏会刹车的蜘蛛」技术方案与实测表现，可直接赋能开发者低成本落地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a4a4d80a7a70da8bf3d31e81f"
+      }
+    },
+    {
+      "id": "ab95fee7b89decce4f20e0d18",
+      "title": "【独立创造】做了个能跨屏会刹车的蜘蛛",
+      "originalTitle": null,
+      "summary": "整了个桌宠，叫 Araneae。 它会自己满屏溜达。 我电脑接了两块屏幕，给它加了自动跨屏。 也能 cmd + 左键快速给它薅过来。 等 Agent 跑任务的时候可以把玩一下。 可以先在网页里玩一下： https://jaaasonho.github.io/Araneae/ 桌宠版目前只弄了 macOS，用 Tauri 2 + Three.js 做的。App 大概 9 MB。 功能不多，后续会丰富一下它的功能，不过目前还没想好，大家有好玩的点子也可以搞。",
+      "content": "可以先在网页里玩一下： https://jaaasonho.github.io/Araneae/\n\n桌宠版目前只弄了 macOS，用 Tauri 2 + Three.js 做的。App 大概 9 MB。\n\n功能不多，后续会丰富一下它的功能，不过目前还没想好，大家有好玩的点子也可以搞。\n\n代码也放出来了 https://github.com/jaaasonho/Araneae",
+      "paragraphs": [
+        "可以先在网页里玩一下： https://jaaasonho.github.io/Araneae/",
+        "桌宠版目前只弄了 macOS，用 Tauri 2 + Three.js 做的。App 大概 9 MB。",
+        "功能不多，后续会丰富一下它的功能，不过目前还没想好，大家有好玩的点子也可以搞。",
+        "代码也放出来了 https://github.com/jaaasonho/Araneae"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/ab95fee7b89decce4f20e0d18",
+        "original": "https://www.v2ex.com/t/1259662#reply2"
+      },
+      "publishedAt": "2026-11-25T03:34:38.000Z",
+      "discoveredAt": "2026-11-25T04:43:54.581Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "Agent",
+        "开源生态",
+        "产品更新"
+      ],
+      "score": 92,
+      "selected": true,
+      "reason": "开源工程价值：「做了个能跨屏会刹车的蜘蛛」技术方案与实测表现，可直接赋能开发者低成本落地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/ab95fee7b89decce4f20e0d18"
+      }
+    },
+    {
+      "id": "abe6b05754882cfde8da102fb",
+      "title": "【独立变现】Show HN：滑动窗格 React UI 库（受 WebOS Enyo 启发）",
+      "originalTitle": "Show HN: Sliding-panes React UI library (inspired by WebOS Enyo)",
+      "summary": "拖动两个窗格之间的边缘以调整它们的大小。边缘固定在宽度的一小部分处，没有剩余空间的窗格滑到其邻居下方。布局可以保存在 URL 中。（来源：Show HN·独立开发者变现榜）",
+      "content": "拖动两个窗格之间的边缘以调整它们的大小。边缘固定在宽度的一小部分处，没有剩余空间的窗格滑到其邻居下方。布局可以保存在 URL 中。\n\n高级用户希望按照自己的工作方式安排屏幕。窗格在不使界面变得复杂的情况下提供了这些功能：每个窗格都是一个普通视图，唯一的新控件是它们之间的边缘。\n\n这使得它们成为完全可定制的用户界面（任何面板都可以移动到任何地方）和简单的响应式布局（为您决定一切）之间的良好中间立场。\n\n除法器基于分母最多为 6 的分数，因此保存在笔记本电脑上的布局在显示器上仍然有意义。当框架变宽时，网格变得更细。",
+      "paragraphs": [
+        "拖动两个窗格之间的边缘以调整它们的大小。边缘固定在宽度的一小部分处，没有剩余空间的窗格滑到其邻居下方。布局可以保存在 URL 中。",
+        "高级用户希望按照自己的工作方式安排屏幕。窗格在不使界面变得复杂的情况下提供了这些功能：每个窗格都是一个普通视图，唯一的新控件是它们之间的边缘。",
+        "这使得它们成为完全可定制的用户界面（任何面板都可以移动到任何地方）和简单的响应式布局（为您决定一切）之间的良好中间立场。",
+        "除法器基于分母最多为 6 的分数，因此保存在笔记本电脑上的布局在显示器上仍然有意义。当框架变宽时，网格变得更细。"
+      ],
+      "originalContent": "Drag the edge between two panes to resize them. The edge settles at a simple fraction of the width, and a pane with no room left slides under its neighbour. The layout can be saved in the URL.\n\nPower users want to arrange their screen the way they work. Panes give them that without making the interface complicated: each pane is an ordinary view, and the only new control is the edge between them.\n\nThat makes them a good middle ground between a fully customisable UI, where any panel can go anywhere, and a simple responsive layout that decides everything for you.\n\nDividers rest on fractions with a denominator up to six, so a layout saved on a laptop still makes sense on a monitor. The grid gets finer as the frame gets wider.\n\nA quick throw carries the divider one or two snaps past where you let go. Release speed is read from the last 90 ms, so a slow drag still lands exactly where you put it.\n\nAny pane can have a bar at its bottom for filters, settings or a table of contents. It expands over the pane and works the same on a phone.\n\nDrill down as far as you like. Panes that no longer fit fold into a slim spine, with a tab for each. Drag cost stays flat at a thousand deep.\n\nWhich panes are open, how wide they are, and which bars are open all fit in a short code you can keep in the URL. Share the link and the other person sees the same arrangement.",
+      "source": {
+        "name": "Show HN·独立开发者变现榜"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/abe6b05754882cfde8da102fb",
+        "original": "https://vcarl.com/sashay/"
+      },
+      "publishedAt": "2026-11-25T03:10:18.000Z",
+      "discoveredAt": "2026-11-25T05:14:00.905Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "产品更新",
+        "编码",
+        "教程/实践"
+      ],
+      "score": 98,
+      "selected": true,
+      "reason": "搞钱实战参考：拆解「Show HN：滑动窗格 React UI …」的产品定位、冷启动获客与商业变现闭环。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/abe6b05754882cfde8da102fb"
+      }
+    },
+    {
+      "id": "ae75389075a86a871cea91343",
+      "title": "【独立创造】作业助手，让小孩轻松一点点",
+      "originalTitle": null,
+      "summary": "娃就快上小学了，找小区其他家长打听了下，年级高一点后，每天的作业还是挺多的，我挺反感卷孩子们的，搞了家庭作业助手： https://aihwhelper.com 之前薅的 token 用不完，现在完全免费使用。欢迎有同样想法的家长体验，提意见。",
+      "content": "娃就快上小学了，找小区其他家长打听了下，年级高一点后，每天的作业还是挺多的，我挺反感卷孩子们的，搞了家庭作业助手： https://aihwhelper.com 之前薅的 token 用不完，现在完全免费使用。欢迎有同样想法的家长体验，提意见。",
+      "paragraphs": [
+        "娃就快上小学了，找小区其他家长打听了下，年级高一点后，每天的作业还是挺多的，我挺反感卷孩子们的，搞了家庭作业助手： https://aihwhelper.com 之前薅的 token 用不完，现在完全免费使用。欢迎有同样想法的家长体验，提意见。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/ae75389075a86a871cea91343",
+        "original": "https://www.v2ex.com/t/1259635#reply0"
+      },
+      "publishedAt": "2026-11-25T02:19:34.000Z",
+      "discoveredAt": "2026-11-25T02:28:51.460Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "产品更新"
+      ],
+      "score": 93,
+      "selected": true,
+      "reason": "V2EX精选研判：聚焦「作业助手，让小孩轻松一点点」的一手事实与行业演进信号。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/ae75389075a86a871cea91343"
+      }
+    },
+    {
+      "id": "a6e321c7d7c3ad1941c2d6d60",
+      "title": "【独立创造】作业助手，让小孩轻松一点点",
+      "originalTitle": null,
+      "summary": "娃就快上小学了，找小区其他家长打听了下，年级高一点后，每天的作业还是挺多的，我挺反感卷孩子们的，搞了家庭作业助手： https://aihwhelper.com 之前薅的 token 用不完，现在完全免费使用。欢迎有同样想法的家长体验，提意见。",
+      "content": "娃就快上小学了，找小区其他家长打听了下，年级高一点后，每天的作业还是挺多的，我挺反感卷孩子们的，搞了家庭作业助手： https://aihwhelper.com 之前薅的 token 用不完，现在完全免费使用。欢迎有同样想法的家长体验，提意见。",
+      "paragraphs": [
+        "娃就快上小学了，找小区其他家长打听了下，年级高一点后，每天的作业还是挺多的，我挺反感卷孩子们的，搞了家庭作业助手： https://aihwhelper.com 之前薅的 token 用不完，现在完全免费使用。欢迎有同样想法的家长体验，提意见。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a6e321c7d7c3ad1941c2d6d60",
+        "original": "https://www.v2ex.com/t/1259635#reply5"
+      },
+      "publishedAt": "2026-11-25T02:19:34.000Z",
+      "discoveredAt": "2026-11-25T03:13:50.302Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "产品更新"
+      ],
+      "score": 93,
+      "selected": true,
+      "reason": "V2EX精选研判：聚焦「作业助手，让小孩轻松一点点」的一手事实与行业演进信号。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a6e321c7d7c3ad1941c2d6d60"
+      }
+    },
+    {
+      "id": "a65c38d27dcd91cdcdd4b1bf7",
+      "title": "【独立创造】作业助手，让小孩轻松一点点",
+      "originalTitle": null,
+      "summary": "娃就快上小学了，找小区其他家长打听了下，年级高一点后，每天的作业还是挺多的，我挺反感卷孩子们的，搞了家庭作业助手： https://aihwhelper.com 之前薅的 token 用不完，现在完全免费使用。欢迎有同样想法的家长体验，提意见。",
+      "content": "娃就快上小学了，找小区其他家长打听了下，年级高一点后，每天的作业还是挺多的，我挺反感卷孩子们的，搞了家庭作业助手： https://aihwhelper.com 之前薅的 token 用不完，现在完全免费使用。欢迎有同样想法的家长体验，提意见。",
+      "paragraphs": [
+        "娃就快上小学了，找小区其他家长打听了下，年级高一点后，每天的作业还是挺多的，我挺反感卷孩子们的，搞了家庭作业助手： https://aihwhelper.com 之前薅的 token 用不完，现在完全免费使用。欢迎有同样想法的家长体验，提意见。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a65c38d27dcd91cdcdd4b1bf7",
+        "original": "https://www.v2ex.com/t/1259635#reply12"
+      },
+      "publishedAt": "2026-11-25T02:19:34.000Z",
+      "discoveredAt": "2026-11-25T03:43:46.621Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "产品更新"
+      ],
+      "score": 93,
+      "selected": true,
+      "reason": "V2EX精选研判：聚焦「作业助手，让小孩轻松一点点」的一手事实与行业演进信号。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a65c38d27dcd91cdcdd4b1bf7"
+      }
+    },
+    {
+      "id": "a07b6868ad5f7d681c2db1a96",
+      "title": "【独立创造】作业助手，让小孩轻松一点点",
+      "originalTitle": null,
+      "summary": "娃就快上小学了，找小区其他家长打听了下，年级高一点后，每天的作业还是挺多的，我挺反感卷孩子们的，搞了家庭作业助手： https://aihwhelper.com 之前薅的 token 用不完，现在完全免费使用。欢迎有同样想法的家长体验，提意见。",
+      "content": "娃就快上小学了，找小区其他家长打听了下，年级高一点后，每天的作业还是挺多的，我挺反感卷孩子们的，搞了家庭作业助手： https://aihwhelper.com 之前薅的 token 用不完，现在完全免费使用。欢迎有同样想法的家长体验，提意见。",
+      "paragraphs": [
+        "娃就快上小学了，找小区其他家长打听了下，年级高一点后，每天的作业还是挺多的，我挺反感卷孩子们的，搞了家庭作业助手： https://aihwhelper.com 之前薅的 token 用不完，现在完全免费使用。欢迎有同样想法的家长体验，提意见。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a07b6868ad5f7d681c2db1a96",
+        "original": "https://www.v2ex.com/t/1259635#reply2"
+      },
+      "publishedAt": "2026-11-25T02:19:34.000Z",
+      "discoveredAt": "2026-11-25T02:58:56.884Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "产品更新"
+      ],
+      "score": 93,
+      "selected": true,
+      "reason": "V2EX精选研判：聚焦「作业助手，让小孩轻松一点点」的一手事实与行业演进信号。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a07b6868ad5f7d681c2db1a96"
+      }
+    },
+    {
+      "id": "aa555db3e40e611ff9af0be8b",
+      "title": "【独立创造】作业助手，让小孩轻松一点点",
+      "originalTitle": null,
+      "summary": "娃就快上小学了，找小区其他家长打听了下，年级高一点后，每天的作业还是挺多的，我挺反感卷孩子们的，搞了家庭作业助手： https://aihwhelper.com 之前薅的 token 用不完，现在完全免费使用。欢迎有同样想法的家长体验，提意见。",
+      "content": "娃就快上小学了，找小区其他家长打听了下，年级高一点后，每天的作业还是挺多的，我挺反感卷孩子们的，搞了家庭作业助手： https://aihwhelper.com 之前薅的 token 用不完，现在完全免费使用。欢迎有同样想法的家长体验，提意见。",
+      "paragraphs": [
+        "娃就快上小学了，找小区其他家长打听了下，年级高一点后，每天的作业还是挺多的，我挺反感卷孩子们的，搞了家庭作业助手： https://aihwhelper.com 之前薅的 token 用不完，现在完全免费使用。欢迎有同样想法的家长体验，提意见。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/aa555db3e40e611ff9af0be8b",
+        "original": "https://www.v2ex.com/t/1259635#reply10"
+      },
+      "publishedAt": "2026-11-25T02:19:34.000Z",
+      "discoveredAt": "2026-11-25T03:29:08.097Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "产品更新"
+      ],
+      "score": 93,
+      "selected": true,
+      "reason": "V2EX精选研判：聚焦「作业助手，让小孩轻松一点点」的一手事实与行业演进信号。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/aa555db3e40e611ff9af0be8b"
+      }
+    },
+    {
+      "id": "a99cfcff2a521e08b83c35f1c",
+      "title": "【独立创造】作业助手，让小孩轻松一点点",
+      "originalTitle": null,
+      "summary": "娃就快上小学了，找小区其他家长打听了下，年级高一点后，每天的作业还是挺多的，我挺反感卷孩子们的，搞了家庭作业助手： https://aihwhelper.com 之前薅的 token 用不完，现在完全免费使用。欢迎有同样想法的家长体验，提意见。",
+      "content": "娃就快上小学了，找小区其他家长打听了下，年级高一点后，每天的作业还是挺多的，我挺反感卷孩子们的，搞了家庭作业助手： https://aihwhelper.com 之前薅的 token 用不完，现在完全免费使用。欢迎有同样想法的家长体验，提意见。",
+      "paragraphs": [
+        "娃就快上小学了，找小区其他家长打听了下，年级高一点后，每天的作业还是挺多的，我挺反感卷孩子们的，搞了家庭作业助手： https://aihwhelper.com 之前薅的 token 用不完，现在完全免费使用。欢迎有同样想法的家长体验，提意见。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a99cfcff2a521e08b83c35f1c",
+        "original": "https://www.v2ex.com/t/1259635#reply13"
+      },
+      "publishedAt": "2026-11-25T02:19:34.000Z",
+      "discoveredAt": "2026-11-25T03:59:00.066Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "产品更新"
+      ],
+      "score": 93,
+      "selected": true,
+      "reason": "V2EX精选研判：聚焦「作业助手，让小孩轻松一点点」的一手事实与行业演进信号。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a99cfcff2a521e08b83c35f1c"
+      }
+    },
+    {
+      "id": "acc1f8c36c975be2d9e7bd456",
+      "title": "【独立创造】把 @playwright/mcp 换成纯 Rust 管道后，Rust 浏览器 Moli 内存暴降 90.7%、速度反超 Chrome 2.76×（附官方 M4 复现）",
+      "originalTitle": null,
+      "summary": "上次在 V 站分享过 sessfork 初版（/t/1258533），解决 AI Agent 复用本地 Chrome 登录态时老抢前台窗口的问题。 这周把后台无头浏览器换成 2.4 万星的纯 Rust 浏览器 lexmount/moli 做 12 标签页重型 DOM 压测时，踩出了一个挺反直觉的工程结论： 直接用 Node 版 @playwright/mcp 驱动 Moli，虽然内存比 Chrome 省了不少，但跑得反而比 Chrome 慢了近一倍。",
+      "content": "上次在 V 站分享过 sessfork 初版（/t/1258533），解决 AI Agent 复用本地 Chrome 登录态时老抢前台窗口的问题。\n\n这周把后台无头浏览器换成 2.4 万星的纯 Rust 浏览器 lexmount/moli 做 12 标签页重型 DOM 压测时，踩出了一个挺反直觉的工程结论：\n\n直接用 Node 版 @playwright/mcp 驱动 Moli，虽然内存比 Chrome 省了不少，但跑得反而比 Chrome 慢了近一倍。\n\n拆开看瓶颈其实不在 Moli 浏览器本身，而在中间那层 Node/Playwright 包装：\n\nNode.js 壳子自带 ~272 MB 常驻内存，npx 冷启动动辄 1.2–1.8 秒；\n\nPlaywright 会在每个 V8 上下文里注入一大坨 JS aria-snapshot 运行时，且 CDP 走 WebSocket/TCP。\n\n于是干脆把 Node 包装层整个砍掉，用纯 Rust 写了 **sessfork-mcp**（v0.1.4 仅 605 KB，依赖只有 serde / serde_json / libc，零 Node.js、零 Tokio、零本地监听端口）：\n\n用 pipe() + dup2() 直接把 moli serve --remote-debugging-pipe 接到 FD 3 / FD 4（NUL 分隔 JSON 帧），主进程就算被 SIGKILL，内核关闭管道 EOF 也会立刻把子进程收干净，彻底杜绝孤儿浏览器进程；\n\n直接调原生 CDP Accessibility.getFullAXTree 和 Storage.setCookies，不往页面 V8 堆里注入任何 Playwright 脚本；\n\n懒加载策略：空闲常驻仅 1.7 MB，首次工具调用才拉起 Moli。",
+      "paragraphs": [
+        "上次在 V 站分享过 sessfork 初版（/t/1258533），解决 AI Agent 复用本地 Chrome 登录态时老抢前台窗口的问题。",
+        "这周把后台无头浏览器换成 2.4 万星的纯 Rust 浏览器 lexmount/moli 做 12 标签页重型 DOM 压测时，踩出了一个挺反直觉的工程结论：",
+        "直接用 Node 版 @playwright/mcp 驱动 Moli，虽然内存比 Chrome 省了不少，但跑得反而比 Chrome 慢了近一倍。",
+        "拆开看瓶颈其实不在 Moli 浏览器本身，而在中间那层 Node/Playwright 包装：",
+        "Node.js 壳子自带 ~272 MB 常驻内存，npx 冷启动动辄 1.2–1.8 秒；",
+        "Playwright 会在每个 V8 上下文里注入一大坨 JS aria-snapshot 运行时，且 CDP 走 WebSocket/TCP。",
+        "于是干脆把 Node 包装层整个砍掉，用纯 Rust 写了 **sessfork-mcp**（v0.1.4 仅 605 KB，依赖只有 serde / serde_json / libc，零 Node.js、零 Tokio、零本地监听端口）：",
+        "用 pipe() + dup2() 直接把 moli serve --remote-debugging-pipe 接到 FD 3 / FD 4（NUL 分隔 JSON 帧），主进程就算被 SIGKILL，内核关闭管道 EOF 也会立刻把子进程收干净，彻底杜绝孤儿浏览器进程；",
+        "直接调原生 CDP Accessibility.getFullAXTree 和 Storage.setCookies，不往页面 V8 堆里注入任何 Playwright 脚本；",
+        "懒加载策略：空闲常驻仅 1.7 MB，首次工具调用才拉起 Moli。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/acc1f8c36c975be2d9e7bd456",
+        "original": "https://www.v2ex.com/t/1259622#reply2"
+      },
+      "publishedAt": "2026-11-25T01:49:47.000Z",
+      "discoveredAt": "2026-11-25T03:13:51.113Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "Agent",
+        "部署/工程",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "score": 93,
+      "selected": true,
+      "reason": "生产力范式转移：聚焦「把 @playwright/mcp 换成纯 …」在智能体自主规划与工具链协同上的演进。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/acc1f8c36c975be2d9e7bd456"
+      }
+    },
+    {
+      "id": "a69af0075cf0f50ce0a135d2b",
+      "title": "【独立创造】把 @playwright/mcp 换成纯 Rust 管道后，Rust 浏览器 Moli 内存暴降 90.7%、速度反超 Chrome 2.76×（附官方 M4 复现）",
+      "originalTitle": null,
+      "summary": "上次在 V 站分享过 sessfork 初版（/t/1258533），解决 AI Agent 复用本地 Chrome 登录态时老抢前台窗口的问题。 这周把后台无头浏览器换成 2.4 万星的纯 Rust 浏览器 lexmount/moli 做 12 标签页重型 DOM 压测时，踩出了一个挺反直觉的工程结论： 直接用 Node 版 @playwright/mcp 驱动 Moli，虽然内存比 Chrome 省了不少，但跑得反而比 Chrome 慢了近一倍。",
+      "content": "上次在 V 站分享过 sessfork 初版（/t/1258533），解决 AI Agent 复用本地 Chrome 登录态时老抢前台窗口的问题。\n\n这周把后台无头浏览器换成 2.4 万星的纯 Rust 浏览器 lexmount/moli 做 12 标签页重型 DOM 压测时，踩出了一个挺反直觉的工程结论：\n\n直接用 Node 版 @playwright/mcp 驱动 Moli，虽然内存比 Chrome 省了不少，但跑得反而比 Chrome 慢了近一倍。\n\n拆开看瓶颈其实不在 Moli 浏览器本身，而在中间那层 Node/Playwright 包装：\n\nNode.js 壳子自带 ~272 MB 常驻内存，npx 冷启动动辄 1.2–1.8 秒；\n\nPlaywright 会在每个 V8 上下文里注入一大坨 JS aria-snapshot 运行时，且 CDP 走 WebSocket/TCP。\n\n于是干脆把 Node 包装层整个砍掉，用纯 Rust 写了 **sessfork-mcp**（v0.1.4 仅 605 KB，依赖只有 serde / serde_json / libc，零 Node.js、零 Tokio、零本地监听端口）：\n\n用 pipe() + dup2() 直接把 moli serve --remote-debugging-pipe 接到 FD 3 / FD 4（NUL 分隔 JSON 帧），主进程就算被 SIGKILL，内核关闭管道 EOF 也会立刻把子进程收干净，彻底杜绝孤儿浏览器进程；\n\n直接调原生 CDP Accessibility.getFullAXTree 和 Storage.setCookies，不往页面 V8 堆里注入任何 Playwright 脚本；\n\n懒加载策略：空闲常驻仅 1.7 MB，首次工具调用才拉起 Moli。",
+      "paragraphs": [
+        "上次在 V 站分享过 sessfork 初版（/t/1258533），解决 AI Agent 复用本地 Chrome 登录态时老抢前台窗口的问题。",
+        "这周把后台无头浏览器换成 2.4 万星的纯 Rust 浏览器 lexmount/moli 做 12 标签页重型 DOM 压测时，踩出了一个挺反直觉的工程结论：",
+        "直接用 Node 版 @playwright/mcp 驱动 Moli，虽然内存比 Chrome 省了不少，但跑得反而比 Chrome 慢了近一倍。",
+        "拆开看瓶颈其实不在 Moli 浏览器本身，而在中间那层 Node/Playwright 包装：",
+        "Node.js 壳子自带 ~272 MB 常驻内存，npx 冷启动动辄 1.2–1.8 秒；",
+        "Playwright 会在每个 V8 上下文里注入一大坨 JS aria-snapshot 运行时，且 CDP 走 WebSocket/TCP。",
+        "于是干脆把 Node 包装层整个砍掉，用纯 Rust 写了 **sessfork-mcp**（v0.1.4 仅 605 KB，依赖只有 serde / serde_json / libc，零 Node.js、零 Tokio、零本地监听端口）：",
+        "用 pipe() + dup2() 直接把 moli serve --remote-debugging-pipe 接到 FD 3 / FD 4（NUL 分隔 JSON 帧），主进程就算被 SIGKILL，内核关闭管道 EOF 也会立刻把子进程收干净，彻底杜绝孤儿浏览器进程；",
+        "直接调原生 CDP Accessibility.getFullAXTree 和 Storage.setCookies，不往页面 V8 堆里注入任何 Playwright 脚本；",
+        "懒加载策略：空闲常驻仅 1.7 MB，首次工具调用才拉起 Moli。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a69af0075cf0f50ce0a135d2b",
+        "original": "https://www.v2ex.com/t/1259622#reply1"
+      },
+      "publishedAt": "2026-11-25T01:49:47.000Z",
+      "discoveredAt": "2026-11-25T01:58:59.331Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "Agent",
+        "部署/工程",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "score": 93,
+      "selected": true,
+      "reason": "生产力范式转移：聚焦「把 @playwright/mcp 换成纯 …」在智能体自主规划与工具链协同上的演进。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a69af0075cf0f50ce0a135d2b"
+      }
+    },
+    {
+      "id": "aa3623f8c69bfd9a75626e8fc",
+      "title": "【独立创造】Pervio：轻量级 app 在手机上让 Claude Code、Codex 等多 agent 协作，支持自定义工作流",
+      "originalTitle": null,
+      "summary": "大家好，今天分享一个用零碎时间做了挺久的 app Pervio，断断续续大半年，目前由于课业繁重精力有限只开放了 iOS 公测: Pervio 最初设想就跟他名字一样 是一个轻量级，安全，灵动的手机 app。 所以这里我通过 SSH 连接自己的电脑，直接使用上面已经安装、登录好的编程 agent。 目前支持 Claude Code、Codex 和 Cursor 这三种工具。 因为不存在第三方服务器，因此不需要注册 Pervio 账号，也不用在电脑上手动部署额外的常驻服务。",
+      "content": "大家好，今天分享一个用零碎时间做了挺久的 app Pervio，断断续续大半年，目前由于课业繁重精力有限只开放了 iOS 公测:\n\nPervio 最初设想就跟他名字一样 是一个轻量级，安全，灵动的手机 app。 所以这里我通过 SSH 连接自己的电脑，直接使用上面已经安装、登录好的编程 agent。目前支持 Claude Code、Codex 和 Cursor 这三种工具。 因为不存在第三方服务器，因此不需要注册 Pervio 账号，也不用在电脑上手动部署额外的常驻服务。\n\n除了在手机上继续聊天、查看任务进度和代码改动，我这里还设计了一些不太一样的交互方式:\n\n我个人灵感匮乏时候常用的头脑风暴模式：可以让两个 agent 各自想一遍方案，再把分歧和结论汇总起来；以及长程运行模式，让一个负责执行，另一个检查结果。\n\n当然，为了让协作更灵活，这里还可以通过 context session 迁移、memory 迁移（同时支持本机本地和多机）来实现\"agent 自由切换\"。\n\n对我来说，可能经常会做重复的事情，所以 app 里也引入了工作流设置：可以把固定的流程拆成几个步骤，保存成工作流，定时运行，完成后在手机上查看结果。\n\n需要一台 iOS 17 及以上的 iPhone，以及一台能通过 SSH 连上的 Mac 或 Linux 电脑。电脑上需要有 Python 3，并装好、登录上述至少一种 agent。我平时主要在 Mac 上开发和使用，Linux 也支持，欢迎反馈遇到的问题。\n\n同一个局域网里可以直接连接，出门使用可以配合 Tailscale 或已有的 SSH 访问方式。\n\n欢迎大家试试！遇到问题可以在帖子里留言，或者到 GitHub 提 issue。觉得有用的话，也帮忙点个 Star ⭐，感谢支持！",
+      "paragraphs": [
+        "大家好，今天分享一个用零碎时间做了挺久的 app Pervio，断断续续大半年，目前由于课业繁重精力有限只开放了 iOS 公测:",
+        "Pervio 最初设想就跟他名字一样 是一个轻量级，安全，灵动的手机 app。 所以这里我通过 SSH 连接自己的电脑，直接使用上面已经安装、登录好的编程 agent。目前支持 Claude Code、Codex 和 Cursor 这三种工具。 因为不存在第三方服务器，因此不需要注册 Pervio 账号，也不用在电脑上手动部署额外的常驻服务。",
+        "除了在手机上继续聊天、查看任务进度和代码改动，我这里还设计了一些不太一样的交互方式:",
+        "我个人灵感匮乏时候常用的头脑风暴模式：可以让两个 agent 各自想一遍方案，再把分歧和结论汇总起来；以及长程运行模式，让一个负责执行，另一个检查结果。",
+        "当然，为了让协作更灵活，这里还可以通过 context session 迁移、memory 迁移（同时支持本机本地和多机）来实现\"agent 自由切换\"。",
+        "对我来说，可能经常会做重复的事情，所以 app 里也引入了工作流设置：可以把固定的流程拆成几个步骤，保存成工作流，定时运行，完成后在手机上查看结果。",
+        "需要一台 iOS 17 及以上的 iPhone，以及一台能通过 SSH 连上的 Mac 或 Linux 电脑。电脑上需要有 Python 3，并装好、登录上述至少一种 agent。我平时主要在 Mac 上开发和使用，Linux 也支持，欢迎反馈遇到的问题。",
+        "同一个局域网里可以直接连接，出门使用可以配合 Tailscale 或已有的 SSH 访问方式。",
+        "欢迎大家试试！遇到问题可以在帖子里留言，或者到 GitHub 提 issue。觉得有用的话，也帮忙点个 Star ⭐，感谢支持！"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/aa3623f8c69bfd9a75626e8fc",
+        "original": "https://www.v2ex.com/t/1259619#reply0"
+      },
+      "publishedAt": "2026-11-25T01:44:46.000Z",
+      "discoveredAt": "2026-11-25T01:59:00.132Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "Agent",
+        "部署/工程",
+        "安全/对齐",
+        "MCP/工具调用",
         "产品更新"
       ],
       "score": 95,
       "selected": true,
-      "reason": "开源工程价值：「macOS 工时记录工具」技术方案与实测表现，可直接赋能开发者低成本落地。",
+      "reason": "生产力范式转移：聚焦「Pervio：轻量级 app 在手机上让 C…」在智能体自主规划与工具链协同上的演进。",
       "attribution": {
         "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a1d105d9183e2746d9e3182b2"
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/aa3623f8c69bfd9a75626e8fc"
       }
     },
     {
-      "id": "a6687e4daf5a523e94760b52a",
-      "title": "【独立变现】Show HN：Mason – 一个轻量级的 Postgres 只读副本，基于列式存储构建",
-      "originalTitle": "Show HN: Mason – a lightweight Postgres read-replica, built on columnar storage",
-      "summary": "嗨，HN！ TLDR：我们已经为 postgres 只读副本构建了一个开源的直接替代品，由 duckdb 的列式计算引擎提供支持。速度非常快。它看起来像 postgres。（来源：Show HN·独立开发者变现榜）",
-      "content": "嗨，HN！ TLDR：我们已经为 postgres 只读副本构建了一个开源的直接替代品，由 duckdb 的列式计算引擎提供支持。速度非常快。它看起来像 postgres。\n\n所以，一开始是这样的：让我们将 Clickhouse 连接到我们的 postgres 数据库，然后向它抛出我们的分析查询。这会加快一切速度。但我们很快发现 1) Clickhouse 具有相当大的学习曲线（引擎优化）以使其快速（我们需要一些可以轻松放入任何客户的 postgres 场景的东西），2) 我们低估了 clickhouse 的 SQL 语法与 postgres 的不同之处。别误会我的意思\n\n因此，我们开始寻找替代方案：1）更即插即用，2）看起来更像 postgres。\n\n我们仅仅根据案头研究就驳回了一些：",
-      "paragraphs": [
-        "嗨，HN！ TLDR：我们已经为 postgres 只读副本构建了一个开源的直接替代品，由 duckdb 的列式计算引擎提供支持。速度非常快。它看起来像 postgres。",
-        "所以，一开始是这样的：让我们将 Clickhouse 连接到我们的 postgres 数据库，然后向它抛出我们的分析查询。这会加快一切速度。但我们很快发现 1) Clickhouse 具有相当大的学习曲线（引擎优化）以使其快速（我们需要一些可以轻松放入任何客户的 postgres 场景的东西），2) 我们低估了 clickhouse 的 SQL 语法与 postgres 的不同之处。别误会我的意思",
-        "因此，我们开始寻找替代方案：1）更即插即用，2）看起来更像 postgres。",
-        "我们仅仅根据案头研究就驳回了一些："
-      ],
-      "originalContent": "Hi HN! TLDR: we’ve built an open-source drop-in replacement for a postgres read-replica, powered by duckdb’s columnar compute engine. It’s very fast. And it looks like postgres.\n\nSo, this started out as: let’s just connect Clickhouse to our postgres dbs and throw our analytics queries at it instead. That will speed everything up. But we quickly found that 1) Clickhouse comes with quite the learning curve (engine optimisation) to make it fast (we needed something we could easily drop in to any customer’s postgres scenario), and 2) we had underestimated how different clickhouse’s SQL syntax was to postgres. Don’t get me wrong: we love Clickhouse (it’s ridiculously fast if you know what queries to expect), it just didn’t work for our ad-hoc postgres workloads.\n\nSo we went searching for alternatives that were 1) more plug-and-play and 2) looked a lot more like postgres.\n\nWe dismissed a bunch based on desk research alone:\n\n- pg_mooncake (seems to have stalled since data bricks bought them)\n\n- pg_duckdb (seems to offer fast queries, or fresh data, but not both - we needed both)\n\n- materialize/risingwave/readyset (like Clickhouse, they require knowing the query shapes upfront - not ideal for ad-hoc workloads)\n\n- firebolt (license makes it challenging to offer to our customers)\n\n- redshift / alloydb / etc (we wanted something cloud-provider agnostic)\n\n- pg_clickhouse (Postgres extension that parses SQL in Postgres and pushes the work down to ClickHouse)",
-      "source": {
-        "name": "Show HN·独立开发者变现榜"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a6687e4daf5a523e94760b52a",
-        "original": "https://masondata.ai/"
-      },
-      "publishedAt": "2026-11-24T16:11:52.000Z",
-      "discoveredAt": "2026-11-24T19:44:19.270Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "产品更新",
-        "编码",
-        "开源生态",
-        "部署/工程",
-        "教程/实践"
-      ],
-      "score": 98,
-      "selected": true,
-      "reason": "开源工程价值：「Show HN：Mason – 一个轻量级的…」技术方案与实测表现，可直接赋能开发者低成本落地。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a6687e4daf5a523e94760b52a"
-      }
-    },
-    {
-      "id": "a9edddef32ac0ae98fdcebede",
-      "title": "【独立创造】利用 AI 开源了一个 macOS 小工具：LocalPeek 。把本机的 Redis、MySQL 和 Web 开发服务收进一个窗口，只读浏览、实时看日志。macOS 免费开源。",
+      "id": "aa7e17902b2d3fb6645605ac7",
+      "title": "【独立创造】chrome-devtools-cli v2.5.0 让 ai agent 直接操作真实浏览器的 rust 命令行，这版看得更多了",
       "originalTitle": null,
-      "summary": "本地开发时，服务、数据库、端口和日志散落在不同工具里。LocalPeek 自动发现本机正在运行的 Redis、MySQL 和 Web 服务，用一个窗口展示数据、进程与实时日志。数据库访问只读，关闭或启动进程需要你确认；没有账号、云同步或遥测，数据不离开本机。 官网： https://sunbridger.github.io/localpeek/ GitHub： https://github.com/Sunbridger/localpeek",
-      "content": "本地开发时，服务、数据库、端口和日志散落在不同工具里。LocalPeek 自动发现本机正在运行的 Redis、MySQL 和 Web 服务，用一个窗口展示数据、进程与实时日志。数据库访问只读，关闭或启动进程需要你确认；没有账号、云同步或遥测，数据不离开本机。\n\n官网：https://sunbridger.github.io/localpeek/\n\nGitHub：https://github.com/Sunbridger/localpeek",
+      "summary": "我做了一个 chrome-devtools-cli，直接走 devtools 协议的 rust 命令行工具，给需要操作真实浏览器的 ai agent 用，需要 rust 1.89 以上 chrome-devtools-cli v2.5.0 让 agent 能看到浏览器自己知道、页面脚本却拿不到的那些东西，也不再会被卡住的页面拖死 cookies 直接读 chrome 为页面存下的 cookie，httponly 和分区 cookie 都包括，走的是 daemon 已经批准的连…",
+      "content": "我做了一个 chrome-devtools-cli，直接走 devtools 协议的 rust 命令行工具，给需要操作真实浏览器的 ai agent 用，需要 rust 1.89 以上\n\nchrome-devtools-cli v2.5.0 让 agent 能看到浏览器自己知道、页面脚本却拿不到的那些东西，也不再会被卡住的页面拖死\n\ncookies 直接读 chrome 为页面存下的 cookie，httponly 和分区 cookie 都包括，走的是 daemon 已经批准的连接，不会再弹一次授权框，默认情况下值不会打出来，要用了才显示，想知道某个请求真正带了什么，用 network --request-headers，它会显示线上真实的头，重定向每一跳的 cookie 和 set-cookie 都在\n\nmock-network 让命令行直接答复页面的请求，状态码、响应头、内容或者直接失败都能指定，测登录和接口报错不用改服务端\n\ncss-styles 解释一个元素为什么长成这样，匹配到的规则按优先级排好，哪些声明输了、为什么输了都标出来，var() 会解析，继承来的规则也列出来，层级、important、属性注册和 chrome 自己的 token 规则都算在里面\n\nconfigure-webauthn 在标签页里放一个虚拟通行密钥或安全密钥，不用硬件也不用系统弹窗就能测登录流程\n\n堆快照现在按 memory 面板的方式分组，输出可以翻页，还能看 retain 路径，要对比的快照必须来自同一个标签页，而且 daemon 要一直待在上面，因为会话一离开 chrome 就会重新编号\n\n可靠性上最大的变化是没有调用会永远等下去了，上一个命令留下的弹窗会被处理掉，或者让下一个命令立刻失败，每次调用都有超时，连接断了 daemon 会退出，而不是让后面的命令一起卡住\n\nhttps://github.com/aeroxy/chrome-devtools-cli https://github.com/aeroxy/chrome-devtools-cli-scripts",
       "paragraphs": [
-        "本地开发时，服务、数据库、端口和日志散落在不同工具里。LocalPeek 自动发现本机正在运行的 Redis、MySQL 和 Web 服务，用一个窗口展示数据、进程与实时日志。数据库访问只读，关闭或启动进程需要你确认；没有账号、云同步或遥测，数据不离开本机。",
-        "官网：https://sunbridger.github.io/localpeek/",
-        "GitHub：https://github.com/Sunbridger/localpeek"
+        "我做了一个 chrome-devtools-cli，直接走 devtools 协议的 rust 命令行工具，给需要操作真实浏览器的 ai agent 用，需要 rust 1.89 以上",
+        "chrome-devtools-cli v2.5.0 让 agent 能看到浏览器自己知道、页面脚本却拿不到的那些东西，也不再会被卡住的页面拖死",
+        "cookies 直接读 chrome 为页面存下的 cookie，httponly 和分区 cookie 都包括，走的是 daemon 已经批准的连接，不会再弹一次授权框，默认情况下值不会打出来，要用了才显示，想知道某个请求真正带了什么，用 network --request-headers，它会显示线上真实的头，重定向每一跳的 cookie 和 set-cookie 都在",
+        "mock-network 让命令行直接答复页面的请求，状态码、响应头、内容或者直接失败都能指定，测登录和接口报错不用改服务端",
+        "css-styles 解释一个元素为什么长成这样，匹配到的规则按优先级排好，哪些声明输了、为什么输了都标出来，var() 会解析，继承来的规则也列出来，层级、important、属性注册和 chrome 自己的 token 规则都算在里面",
+        "configure-webauthn 在标签页里放一个虚拟通行密钥或安全密钥，不用硬件也不用系统弹窗就能测登录流程",
+        "堆快照现在按 memory 面板的方式分组，输出可以翻页，还能看 retain 路径，要对比的快照必须来自同一个标签页，而且 daemon 要一直待在上面，因为会话一离开 chrome 就会重新编号",
+        "可靠性上最大的变化是没有调用会永远等下去了，上一个命令留下的弹窗会被处理掉，或者让下一个命令立刻失败，每次调用都有超时，连接断了 daemon 会退出，而不是让后面的命令一起卡住",
+        "https://github.com/aeroxy/chrome-devtools-cli https://github.com/aeroxy/chrome-devtools-cli-scripts"
       ],
       "originalContent": null,
       "source": {
         "name": "V2EX·独立创造与副业变现"
       },
       "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a9edddef32ac0ae98fdcebede",
-        "original": "https://www.v2ex.com/t/1259576#reply0"
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/aa7e17902b2d3fb6645605ac7",
+        "original": "https://www.v2ex.com/t/1259610#reply0"
       },
-      "publishedAt": "2026-11-24T15:56:12.000Z",
-      "discoveredAt": "2026-11-24T15:58:56.003Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "教程/实践",
-        "编码",
-        "开源生态",
-        "部署/工程",
-        "模型发布",
-        "产品更新"
-      ],
-      "score": 97,
-      "selected": true,
-      "reason": "开源工程价值：「利用 AI 开源了一个 macOS 小工具：…」技术方案与实测表现，可直接赋能开发者低成本落地。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a9edddef32ac0ae98fdcebede"
-      }
-    },
-    {
-      "id": "aa9784bad4820806e3808440d",
-      "title": "【独立创造】让 V2EX 更好用的 油猴脚本 - [V2EX Kit]",
-      "originalTitle": null,
-      "summary": "使用 AI 重构了一下。 安装地址： https://greasyfork.org/zh-CN/scripts/397787-v2ex-kit 支持如下功能",
-      "content": "安装地址：https://greasyfork.org/zh-CN/scripts/397787-v2ex-kit",
-      "paragraphs": [
-        "安装地址：https://greasyfork.org/zh-CN/scripts/397787-v2ex-kit"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/aa9784bad4820806e3808440d",
-        "original": "https://www.v2ex.com/t/1259573#reply0"
-      },
-      "publishedAt": "2026-11-24T15:50:09.000Z",
-      "discoveredAt": "2026-11-24T15:58:56.971Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "教程/实践",
-        "编码",
-        "产品更新"
-      ],
-      "score": 91,
-      "selected": true,
-      "reason": "V2EX精选研判：聚焦「让 V2EX 更好用的 油猴脚本 - [V2…」的一手事实与行业演进信号。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/aa9784bad4820806e3808440d"
-      }
-    },
-    {
-      "id": "a106226af06163046f45acd57",
-      "title": "【独立变现】Show HN：Brickie – 在您自己的 AWS 账户中部署沙箱",
-      "originalTitle": "Show HN: Brickie – Deploy sandboxes in your own AWS account",
-      "summary": "嘿 HN，我是来自 Hatchet 的 Alexander (https://github.com/hatchet-dev/hatchet)。我们今天发布了一个名为 Brickie 的新开源项目。 Brickie 允许您在自己的云帐户中运行沙箱，主要针对 AWS 上的 EKS。（来源：Show HN·独立开发者变现榜）",
-      "content": "嘿 HN，我是来自 Hatchet 的 Alexander (https://github.com/hatchet-dev/hatchet)。我们今天发布了一个名为 Brickie 的新开源项目。 Brickie 允许您在自己的云帐户中运行沙箱，主要针对 AWS 上的 EKS。\n\n沙箱对于代理应用程序来说是非常有用的原语。它们有两个主要功能：(1) 代理安全执行不受信任代码的一种方式，(2) 代理通过快照保留其状态的持久文件系统。\n\n我们决定在开始开发一个名为“@hatchet-dev/sandbox”的软件包后开始构建它，以更直接地与各种沙箱提供商（如 E2B、Daytona、Archil 和 Modal）集成。我们发现，由于企业的自托管要求，许多用户需要为其部分（或全部）堆栈自行托管其沙箱基础设施。我们四处寻找用户自行托管沙箱堆栈和代理的最简单方法\n\n然而，它缺少一些必要的功能。 rickie 构建在代理沙箱项目之上，并将其扩展为支持适当的沙箱（基于文件系统）快照、分叉、暂停和恢复，同时通过 Hatchet 捆绑适当的编排和可观察性层。",
-      "paragraphs": [
-        "嘿 HN，我是来自 Hatchet 的 Alexander (https://github.com/hatchet-dev/hatchet)。我们今天发布了一个名为 Brickie 的新开源项目。 Brickie 允许您在自己的云帐户中运行沙箱，主要针对 AWS 上的 EKS。",
-        "沙箱对于代理应用程序来说是非常有用的原语。它们有两个主要功能：(1) 代理安全执行不受信任代码的一种方式，(2) 代理通过快照保留其状态的持久文件系统。",
-        "我们决定在开始开发一个名为“@hatchet-dev/sandbox”的软件包后开始构建它，以更直接地与各种沙箱提供商（如 E2B、Daytona、Archil 和 Modal）集成。我们发现，由于企业的自托管要求，许多用户需要为其部分（或全部）堆栈自行托管其沙箱基础设施。我们四处寻找用户自行托管沙箱堆栈和代理的最简单方法",
-        "然而，它缺少一些必要的功能。 rickie 构建在代理沙箱项目之上，并将其扩展为支持适当的沙箱（基于文件系统）快照、分叉、暂停和恢复，同时通过 Hatchet 捆绑适当的编排和可观察性层。"
-      ],
-      "originalContent": "Hey HN, this is Alexander from Hatchet (https://github.com/hatchet-dev/hatchet). We’re releasing a new open-source project today called Brickie. Brickie lets you run sandboxes in your own cloud account, primarily targeting EKS on AWS.\n\nSandboxes are an incredibly useful primitive for agentic applications. They serve two main functions: (1) a way for the agent to safely execute untrusted code, and (2) a durable filesystem for agents to preserve their state via snapshots.\n\nWe decided to start building this after we started on a package called `@hatchet-dev/sandbox` to integrate more directly with various sandbox providers, like E2B, Daytona, Archil, and Modal. We discovered that a lot of users had a requirement to self-host their sandbox infra for part of (or all of) their stack, due to a self-host requirement for enterprises. We searched around for the easiest way for users to self-host a sandbox stack and agent-sandbox (https://agent-sandbox.sigs.k8s.io) was the closest thing to what we had in mind: it’s a kubernetes-sigs project implementing a Kubernetes operator which spawns sandboxes as pods on supported isolation layers like Firecracker, gVisor, and Kata Containers. We learned that many platform teams were adopting this because it's a standard k8s-based deployment model and is pretty easy to customize the isolation layer, network config, etc.\n\nHowever, it was missing some necessary features. brickie builds on top of the agent-sandbox project and extends it to support proper sandbox (filesystem-based) snapshots, fork, pause, and resume, all while bundling a proper orchestration and observability layer via Hatchet.\n\nZooming out a bit, Hatchet is an orchestration engine which supports durable execution (https://hatchet.run/blog/durable-execution). Throughout 2026, we saw high adoption from users building agents using durable workflows as the statefulness layer and execution model. But as sandboxes became more popular, something didn’t sit right with us. Sandboxes _also_ provide a durability layer, but at the filesystem level, and it became important to disambiguate what we call session state from filesystem state. I wrote a lot more about this here: https://hatchet.run/blog/agent-statefulness.\n\nThe problem with having state in multiple places is that it needs coordination, which adds complexity to your application. This was part of the motivation behind `@hatchet-dev/sandbox`: we wanted to provide an easy way to take coordinated snapshots of agent state, even when using an external sandbox provider.\n\nSo when we started looking at self-hosted sandbox options, it was critical that this architecture was supported well. We decided to support this in brickie using a pretty simple snapshotting mechanism which tars and stores snapshots in an object store (S3). This is something we’re actively working to improve and make more performant.\n\nBrickie is early and in beta, we're looking for testers, contributors, and feedback on the deployment model. Thanks in advance!",
-      "source": {
-        "name": "Show HN·独立开发者变现榜"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a106226af06163046f45acd57",
-        "original": "https://github.com/hatchet-dev/brickie"
-      },
-      "publishedAt": "2026-11-24T15:48:34.000Z",
-      "discoveredAt": "2026-11-24T22:43:31.730Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "产品更新",
-        "编码",
-        "开源生态",
-        "模型发布",
-        "教程/实践"
-      ],
-      "score": 98,
-      "selected": true,
-      "reason": "开源工程价值：「Show HN：Brickie – 在您自己…」技术方案与实测表现，可直接赋能开发者低成本落地。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a106226af06163046f45acd57"
-      }
-    },
-    {
-      "id": "a33a8d1e6661141a59e1b5500",
-      "title": "【独立创造】love2.us：做了个免费的在线贺卡英文小站，还能给自己写张卡",
-      "originalTitle": null,
-      "summary": "做了个小东西， love2.us ，一个免费的在线贺卡的英文网站。选个模板，写几句话，传几张照片，就生成一个专属链接发给对方，对方点开先看到一个信封，点开才是卡。不用注册，也不收费。 有 9 个模板，生日、爱情、纪念日三种场合，各有可爱、优雅、简约、浪漫几种风格，照片可以调滤镜、排版、加说明。 另外还有个给自己的角落，叫 Dear Me，一直想着，留一个空间给自己，给偶尔需要治愈的自己，可以写下来，几句随意的话，或者鼓励自己的话存在自己的小空间里，不用发给任何人。",
-      "content": "做了个小东西，love2.us，一个免费的在线贺卡的英文网站。选个模板，写几句话，传几张照片，就生成一个专属链接发给对方，对方点开先看到一个信封，点开才是卡。不用注册，也不收费。 有 9 个模板，生日、爱情、纪念日三种场合，各有可爱、优雅、简约、浪漫几种风格，照片可以调滤镜、排版、加说明。 另外还有个给自己的角落，叫 Dear Me，一直想着，留一个空间给自己，给偶尔需要治愈的自己，可以写下来，几句随意的话，或者鼓励自己的话存在自己的小空间里，不用发给任何人。 本来就是想做个轻的东西，贺卡这件事被各种 App 做得太重了。欢迎大家来试试，提意见。",
-      "paragraphs": [
-        "做了个小东西，love2.us，一个免费的在线贺卡的英文网站。选个模板，写几句话，传几张照片，就生成一个专属链接发给对方，对方点开先看到一个信封，点开才是卡。不用注册，也不收费。 有 9 个模板，生日、爱情、纪念日三种场合，各有可爱、优雅、简约、浪漫几种风格，照片可以调滤镜、排版、加说明。 另外还有个给自己的角落，叫 Dear Me，一直想着，留一个空间给自己，给偶尔需要治愈的自己，可以写下来，几句随意的话，或者鼓励自己的话存在自己的小空间里，不用发给任何人。 本来就是想做个轻的东西，贺卡这件事被各种 App 做得太重了。欢迎大家来试试，提意见。"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a33a8d1e6661141a59e1b5500",
-        "original": "https://www.v2ex.com/t/1259570#reply0"
-      },
-      "publishedAt": "2026-11-24T15:24:31.000Z",
-      "discoveredAt": "2026-11-24T15:29:07.784Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "教程/实践",
-        "编码",
-        "产品更新"
-      ],
-      "score": 92,
-      "selected": true,
-      "reason": "V2EX精选研判：聚焦「love2.us：做了个免费的在线贺卡英文小…」的一手事实与行业演进信号。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a33a8d1e6661141a59e1b5500"
-      }
-    },
-    {
-      "id": "aba2aef0d5b5668c31352db87",
-      "title": "【独立创造】我尝试把遗嘱做成了一款日常使用的软件，想听听大家的建议",
-      "originalTitle": null,
-      "summary": "今天总感觉遇到了不少好兆头，趁这个机会，把自己做了很久的一个个人项目拿出来，想听听大家的意见与反馈，叨扰大家了。 项目名为「星愿遗嘱」，简单来讲，这是一个帮助用户长期记录、保存和传递个人意愿的项目。 项目的创作理念，其实来自一些大家经常开玩笑讲起的话：“如果我哪天死了，请一定帮我删除浏览记录”、“如果我哪天死了，记得帮我告诉某个朋友一些事情”。 我自己也曾经经历过相当严重的心理困境，一度走到了轻生的边缘。",
-      "content": "今天总感觉遇到了不少好兆头，趁这个机会，把自己做了很久的一个个人项目拿出来，想听听大家的意见与反馈，叨扰大家了。\n\n项目名为「星愿遗嘱」，简单来讲，这是一个帮助用户长期记录、保存和传递个人意愿的项目。\n\n项目的创作理念，其实来自一些大家经常开玩笑讲起的话：“如果我哪天死了，请一定帮我删除浏览记录”、“如果我哪天死了，记得帮我告诉某个朋友一些事情”。\n\n我自己也曾经经历过相当严重的心理困境，一度走到了轻生的边缘。当时让我选择继续生活的理由其实很简单：我意识到自己还有很多话没有来得及跟孩子讲，也不希望有一天，自己的想法只能由别人来解释。这个看似微不足道的念想，让我重新有了面对生活的意愿。\n\n从那之后，我就希望自己的经历多少可以帮助到一些有类似困境的人。很多时候，人在情绪中很难看清自己的生活，而那些尚未完成的事情、尚未说出口的话，或许也能成为我们重新审视生活的一个契机。\n\n软件会邀请用户在日常生活中不断记录、修改和完善自己的“遗嘱”，并通过定期打卡刷新自己的“存续状态”。这里的遗嘱并不局限于财产分配，它可以是想对某个人说的话，可以是对一些事情的交代，也可以只是现阶段对自己人生的理解。\n\n对于有长期意愿保存需求的用户，项目也提供实体信件的托管与交付服务。在满足预先约定的存续失效条件并完成必要核实后，平台会通过邮政渠道将信件寄往用户事先验证的指定地址。当然，存续失效并不等同于死亡认定，信件也不必然具备法律意义上的遗嘱效力。\n\n除了这些功能之外，我也花了相当多的时间在项目的美术与交互设计上。随着用户一次次完成打卡，画面中的星空也会逐渐发生变化。我希望用这种方式，让原本有些机械的打卡行为，成为一件能够感受到时间积累的事情。\n\n我其实并不希望用户把写遗嘱当作一件临终时才需要做的事情。人的想法会随着生活不断发生变化，今天在意的事情，几年后或许已经释怀；今天尚未说出口的话，明天或许就有机会亲口告诉对方。\n\n我希望遗嘱不一定是人生的最后一篇文字，它也可以是一篇伴随人生不断修改的文字。",
-      "paragraphs": [
-        "今天总感觉遇到了不少好兆头，趁这个机会，把自己做了很久的一个个人项目拿出来，想听听大家的意见与反馈，叨扰大家了。",
-        "项目名为「星愿遗嘱」，简单来讲，这是一个帮助用户长期记录、保存和传递个人意愿的项目。",
-        "项目的创作理念，其实来自一些大家经常开玩笑讲起的话：“如果我哪天死了，请一定帮我删除浏览记录”、“如果我哪天死了，记得帮我告诉某个朋友一些事情”。",
-        "我自己也曾经经历过相当严重的心理困境，一度走到了轻生的边缘。当时让我选择继续生活的理由其实很简单：我意识到自己还有很多话没有来得及跟孩子讲，也不希望有一天，自己的想法只能由别人来解释。这个看似微不足道的念想，让我重新有了面对生活的意愿。",
-        "从那之后，我就希望自己的经历多少可以帮助到一些有类似困境的人。很多时候，人在情绪中很难看清自己的生活，而那些尚未完成的事情、尚未说出口的话，或许也能成为我们重新审视生活的一个契机。",
-        "软件会邀请用户在日常生活中不断记录、修改和完善自己的“遗嘱”，并通过定期打卡刷新自己的“存续状态”。这里的遗嘱并不局限于财产分配，它可以是想对某个人说的话，可以是对一些事情的交代，也可以只是现阶段对自己人生的理解。",
-        "对于有长期意愿保存需求的用户，项目也提供实体信件的托管与交付服务。在满足预先约定的存续失效条件并完成必要核实后，平台会通过邮政渠道将信件寄往用户事先验证的指定地址。当然，存续失效并不等同于死亡认定，信件也不必然具备法律意义上的遗嘱效力。",
-        "除了这些功能之外，我也花了相当多的时间在项目的美术与交互设计上。随着用户一次次完成打卡，画面中的星空也会逐渐发生变化。我希望用这种方式，让原本有些机械的打卡行为，成为一件能够感受到时间积累的事情。",
-        "我其实并不希望用户把写遗嘱当作一件临终时才需要做的事情。人的想法会随着生活不断发生变化，今天在意的事情，几年后或许已经释怀；今天尚未说出口的话，明天或许就有机会亲口告诉对方。",
-        "我希望遗嘱不一定是人生的最后一篇文字，它也可以是一篇伴随人生不断修改的文字。"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/aba2aef0d5b5668c31352db87",
-        "original": "https://www.v2ex.com/t/1259565#reply1"
-      },
-      "publishedAt": "2026-11-24T14:37:54.000Z",
-      "discoveredAt": "2026-11-24T15:29:08.620Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "教程/实践",
-        "编码",
-        "产品更新"
-      ],
-      "score": 92,
-      "selected": true,
-      "reason": "V2EX精选研判：聚焦「我尝试把遗嘱做成了一款日常使用的软件，想听听…」的一手事实与行业演进信号。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/aba2aef0d5b5668c31352db87"
-      }
-    },
-    {
-      "id": "aa2037f0ba45bfbb2ffd096fa",
-      "title": "【独立创造】我尝试把遗嘱做成了一款日常使用的软件，想听听大家的建议",
-      "originalTitle": null,
-      "summary": "今天总感觉遇到了不少好兆头，趁这个机会，把自己做了很久的一个个人项目拿出来，想听听大家的意见与反馈，叨扰大家了。 项目名为「星愿遗嘱」，简单来讲，这是一个帮助用户长期记录、保存和传递个人意愿的项目。 项目的创作理念，其实来自一些大家经常开玩笑讲起的话：“如果我哪天死了，请一定帮我删除浏览记录”、“如果我哪天死了，记得帮我告诉某个朋友一些事情”。 我自己也曾经经历过相当严重的心理困境，一度走到了轻生的边缘。",
-      "content": "今天总感觉遇到了不少好兆头，趁这个机会，把自己做了很久的一个个人项目拿出来，想听听大家的意见与反馈，叨扰大家了。\n\n项目名为「星愿遗嘱」，简单来讲，这是一个帮助用户长期记录、保存和传递个人意愿的项目。\n\n项目的创作理念，其实来自一些大家经常开玩笑讲起的话：“如果我哪天死了，请一定帮我删除浏览记录”、“如果我哪天死了，记得帮我告诉某个朋友一些事情”。\n\n我自己也曾经经历过相当严重的心理困境，一度走到了轻生的边缘。当时让我选择继续生活的理由其实很简单：我意识到自己还有很多话没有来得及跟孩子讲，也不希望有一天，自己的想法只能由别人来解释。这个看似微不足道的念想，让我重新有了面对生活的意愿。\n\n从那之后，我就希望自己的经历多少可以帮助到一些有类似困境的人。很多时候，人在情绪中很难看清自己的生活，而那些尚未完成的事情、尚未说出口的话，或许也能成为我们重新审视生活的一个契机。\n\n软件会邀请用户在日常生活中不断记录、修改和完善自己的“遗嘱”，并通过定期打卡刷新自己的“存续状态”。这里的遗嘱并不局限于财产分配，它可以是想对某个人说的话，可以是对一些事情的交代，也可以只是现阶段对自己人生的理解。\n\n对于有长期意愿保存需求的用户，项目也提供实体信件的托管与交付服务。在满足预先约定的存续失效条件并完成必要核实后，平台会通过邮政渠道将信件寄往用户事先验证的指定地址。当然，存续失效并不等同于死亡认定，信件也不必然具备法律意义上的遗嘱效力。\n\n除了这些功能之外，我也花了相当多的时间在项目的美术与交互设计上。随着用户一次次完成打卡，画面中的星空也会逐渐发生变化。我希望用这种方式，让原本有些机械的打卡行为，成为一件能够感受到时间积累的事情。\n\n我其实并不希望用户把写遗嘱当作一件临终时才需要做的事情。人的想法会随着生活不断发生变化，今天在意的事情，几年后或许已经释怀；今天尚未说出口的话，明天或许就有机会亲口告诉对方。\n\n我希望遗嘱不一定是人生的最后一篇文字，它也可以是一篇伴随人生不断修改的文字。",
-      "paragraphs": [
-        "今天总感觉遇到了不少好兆头，趁这个机会，把自己做了很久的一个个人项目拿出来，想听听大家的意见与反馈，叨扰大家了。",
-        "项目名为「星愿遗嘱」，简单来讲，这是一个帮助用户长期记录、保存和传递个人意愿的项目。",
-        "项目的创作理念，其实来自一些大家经常开玩笑讲起的话：“如果我哪天死了，请一定帮我删除浏览记录”、“如果我哪天死了，记得帮我告诉某个朋友一些事情”。",
-        "我自己也曾经经历过相当严重的心理困境，一度走到了轻生的边缘。当时让我选择继续生活的理由其实很简单：我意识到自己还有很多话没有来得及跟孩子讲，也不希望有一天，自己的想法只能由别人来解释。这个看似微不足道的念想，让我重新有了面对生活的意愿。",
-        "从那之后，我就希望自己的经历多少可以帮助到一些有类似困境的人。很多时候，人在情绪中很难看清自己的生活，而那些尚未完成的事情、尚未说出口的话，或许也能成为我们重新审视生活的一个契机。",
-        "软件会邀请用户在日常生活中不断记录、修改和完善自己的“遗嘱”，并通过定期打卡刷新自己的“存续状态”。这里的遗嘱并不局限于财产分配，它可以是想对某个人说的话，可以是对一些事情的交代，也可以只是现阶段对自己人生的理解。",
-        "对于有长期意愿保存需求的用户，项目也提供实体信件的托管与交付服务。在满足预先约定的存续失效条件并完成必要核实后，平台会通过邮政渠道将信件寄往用户事先验证的指定地址。当然，存续失效并不等同于死亡认定，信件也不必然具备法律意义上的遗嘱效力。",
-        "除了这些功能之外，我也花了相当多的时间在项目的美术与交互设计上。随着用户一次次完成打卡，画面中的星空也会逐渐发生变化。我希望用这种方式，让原本有些机械的打卡行为，成为一件能够感受到时间积累的事情。",
-        "我其实并不希望用户把写遗嘱当作一件临终时才需要做的事情。人的想法会随着生活不断发生变化，今天在意的事情，几年后或许已经释怀；今天尚未说出口的话，明天或许就有机会亲口告诉对方。",
-        "我希望遗嘱不一定是人生的最后一篇文字，它也可以是一篇伴随人生不断修改的文字。"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/aa2037f0ba45bfbb2ffd096fa",
-        "original": "https://www.v2ex.com/t/1259565#reply2"
-      },
-      "publishedAt": "2026-11-24T14:37:54.000Z",
-      "discoveredAt": "2026-11-24T16:43:53.288Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "教程/实践",
-        "编码",
-        "产品更新"
-      ],
-      "score": 92,
-      "selected": true,
-      "reason": "V2EX精选研判：聚焦「我尝试把遗嘱做成了一款日常使用的软件，想听听…」的一手事实与行业演进信号。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/aa2037f0ba45bfbb2ffd096fa"
-      }
-    },
-    {
-      "id": "ae140415801bee71853aa410e",
-      "title": "【独立创造】我尝试把遗嘱做成了一款日常使用的软件，想听听大家的建议",
-      "originalTitle": null,
-      "summary": "今天总感觉遇到了不少好兆头，趁这个机会，把自己做了很久的一个个人项目拿出来，想听听大家的意见与反馈，叨扰大家了。 项目名为「星愿遗嘱」，简单来讲，这是一个帮助用户长期记录、保存和传递个人意愿的项目。 项目的创作理念，其实来自一些大家经常开玩笑讲起的话：“如果我哪天死了，请一定帮我删除浏览记录”、“如果我哪天死了，记得帮我告诉某个朋友一些事情”。 我自己也曾经经历过相当严重的心理困境，一度走到了轻生的边缘。",
-      "content": "今天总感觉遇到了不少好兆头，趁这个机会，把自己做了很久的一个个人项目拿出来，想听听大家的意见与反馈，叨扰大家了。\n\n项目名为「星愿遗嘱」，简单来讲，这是一个帮助用户长期记录、保存和传递个人意愿的项目。\n\n项目的创作理念，其实来自一些大家经常开玩笑讲起的话：“如果我哪天死了，请一定帮我删除浏览记录”、“如果我哪天死了，记得帮我告诉某个朋友一些事情”。\n\n我自己也曾经经历过相当严重的心理困境，一度走到了轻生的边缘。当时让我选择继续生活的理由其实很简单：我意识到自己还有很多话没有来得及跟孩子讲，也不希望有一天，自己的想法只能由别人来解释。这个看似微不足道的念想，让我重新有了面对生活的意愿。\n\n从那之后，我就希望自己的经历多少可以帮助到一些有类似困境的人。很多时候，人在情绪中很难看清自己的生活，而那些尚未完成的事情、尚未说出口的话，或许也能成为我们重新审视生活的一个契机。\n\n软件会邀请用户在日常生活中不断记录、修改和完善自己的“遗嘱”，并通过定期打卡刷新自己的“存续状态”。这里的遗嘱并不局限于财产分配，它可以是想对某个人说的话，可以是对一些事情的交代，也可以只是现阶段对自己人生的理解。\n\n对于有长期意愿保存需求的用户，项目也提供实体信件的托管与交付服务。在满足预先约定的存续失效条件并完成必要核实后，平台会通过邮政渠道将信件寄往用户事先验证的指定地址。当然，存续失效并不等同于死亡认定，信件也不必然具备法律意义上的遗嘱效力。\n\n除了这些功能之外，我也花了相当多的时间在项目的美术与交互设计上。随着用户一次次完成打卡，画面中的星空也会逐渐发生变化。我希望用这种方式，让原本有些机械的打卡行为，成为一件能够感受到时间积累的事情。\n\n我其实并不希望用户把写遗嘱当作一件临终时才需要做的事情。人的想法会随着生活不断发生变化，今天在意的事情，几年后或许已经释怀；今天尚未说出口的话，明天或许就有机会亲口告诉对方。\n\n我希望遗嘱不一定是人生的最后一篇文字，它也可以是一篇伴随人生不断修改的文字。",
-      "paragraphs": [
-        "今天总感觉遇到了不少好兆头，趁这个机会，把自己做了很久的一个个人项目拿出来，想听听大家的意见与反馈，叨扰大家了。",
-        "项目名为「星愿遗嘱」，简单来讲，这是一个帮助用户长期记录、保存和传递个人意愿的项目。",
-        "项目的创作理念，其实来自一些大家经常开玩笑讲起的话：“如果我哪天死了，请一定帮我删除浏览记录”、“如果我哪天死了，记得帮我告诉某个朋友一些事情”。",
-        "我自己也曾经经历过相当严重的心理困境，一度走到了轻生的边缘。当时让我选择继续生活的理由其实很简单：我意识到自己还有很多话没有来得及跟孩子讲，也不希望有一天，自己的想法只能由别人来解释。这个看似微不足道的念想，让我重新有了面对生活的意愿。",
-        "从那之后，我就希望自己的经历多少可以帮助到一些有类似困境的人。很多时候，人在情绪中很难看清自己的生活，而那些尚未完成的事情、尚未说出口的话，或许也能成为我们重新审视生活的一个契机。",
-        "软件会邀请用户在日常生活中不断记录、修改和完善自己的“遗嘱”，并通过定期打卡刷新自己的“存续状态”。这里的遗嘱并不局限于财产分配，它可以是想对某个人说的话，可以是对一些事情的交代，也可以只是现阶段对自己人生的理解。",
-        "对于有长期意愿保存需求的用户，项目也提供实体信件的托管与交付服务。在满足预先约定的存续失效条件并完成必要核实后，平台会通过邮政渠道将信件寄往用户事先验证的指定地址。当然，存续失效并不等同于死亡认定，信件也不必然具备法律意义上的遗嘱效力。",
-        "除了这些功能之外，我也花了相当多的时间在项目的美术与交互设计上。随着用户一次次完成打卡，画面中的星空也会逐渐发生变化。我希望用这种方式，让原本有些机械的打卡行为，成为一件能够感受到时间积累的事情。",
-        "我其实并不希望用户把写遗嘱当作一件临终时才需要做的事情。人的想法会随着生活不断发生变化，今天在意的事情，几年后或许已经释怀；今天尚未说出口的话，明天或许就有机会亲口告诉对方。",
-        "我希望遗嘱不一定是人生的最后一篇文字，它也可以是一篇伴随人生不断修改的文字。"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/ae140415801bee71853aa410e",
-        "original": "https://www.v2ex.com/t/1259565#reply0"
-      },
-      "publishedAt": "2026-11-24T14:37:54.000Z",
-      "discoveredAt": "2026-11-24T14:43:53.407Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "教程/实践",
-        "编码",
-        "产品更新"
-      ],
-      "score": 92,
-      "selected": true,
-      "reason": "V2EX精选研判：聚焦「我尝试把遗嘱做成了一款日常使用的软件，想听听…」的一手事实与行业演进信号。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/ae140415801bee71853aa410e"
-      }
-    },
-    {
-      "id": "a4e9e74c2add720da5d9005da",
-      "title": "【独立创造】Antigravity 上下文与 Token 统计面板 Pulse v0.10.0（全新毛玻璃 UI / 一键汉化 / 免 TUN 切代理）",
-      "originalTitle": null,
-      "summary": "最近重度用 Antigravity 写代码，之前一直在用社区的上下文查看器，但自己用久了有几个地方实在难受： 一是每次官方客户端一升级，app.asar 被覆盖就得重新装一遍； 二是挂机久了或者休眠唤醒后经常出现“本地鉴权失败”或者面板数据全归零； 三是想同屏看 5h + 周额度、算算每个模型到底花了多少 Token。",
-      "content": "最近重度用 Antigravity 写代码，之前一直在用社区的上下文查看器，但自己用久了有几个地方实在难受： 一是每次官方客户端一升级，app.asar 被覆盖就得重新装一遍； 二是挂机久了或者休眠唤醒后经常出现“本地鉴权失败”或者面板数据全归零； 三是想同屏看 5h + 周额度、算算每个模型到底花了多少 Token。 重新设计了一套顶栏胶囊和毛玻璃面板 Antigravity Viewer Pulse，今天刚更到 v0.10.0，分享给有需要的佬友：\n\nhttps://github.com/DDG0808/antigravity-viewer-pulse\n\n对话自动压缩标注：审计页增加了每轮时间线，哪一轮触发了 Antigravity 自动压缩、砍掉了多少上下文一眼看清； 各模型花费排行 & 账本导出：除了 52 周热力图和 42 国订阅回本计算，现在能直接看哪个模型最烧钱，支持一键导出 CSV / JSON； 免 TUN 代理多节点切换：不用开全局 TUN，面板里能存最多 12 个本地代理预设，点一下直接切节点并测连通性； 上下文上限按模型独立解锁：支持 16K ~ 2M 独立保存，也支持一键无损还原回官方原版。",
-      "paragraphs": [
-        "最近重度用 Antigravity 写代码，之前一直在用社区的上下文查看器，但自己用久了有几个地方实在难受： 一是每次官方客户端一升级，app.asar 被覆盖就得重新装一遍； 二是挂机久了或者休眠唤醒后经常出现“本地鉴权失败”或者面板数据全归零； 三是想同屏看 5h + 周额度、算算每个模型到底花了多少 Token。 重新设计了一套顶栏胶囊和毛玻璃面板 Antigravity Viewer Pulse，今天刚更到 v0.10.0，分享给有需要的佬友：",
-        "https://github.com/DDG0808/antigravity-viewer-pulse",
-        "对话自动压缩标注：审计页增加了每轮时间线，哪一轮触发了 Antigravity 自动压缩、砍掉了多少上下文一眼看清； 各模型花费排行 & 账本导出：除了 52 周热力图和 42 国订阅回本计算，现在能直接看哪个模型最烧钱，支持一键导出 CSV / JSON； 免 TUN 代理多节点切换：不用开全局 TUN，面板里能存最多 12 个本地代理预设，点一下直接切节点并测连通性； 上下文上限按模型独立解锁：支持 16K ~ 2M 独立保存，也支持一键无损还原回官方原版。"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a4e9e74c2add720da5d9005da",
-        "original": "https://www.v2ex.com/t/1259556#reply0"
-      },
-      "publishedAt": "2026-11-24T13:34:37.000Z",
-      "discoveredAt": "2026-11-24T13:44:10.273Z",
+      "publishedAt": "2026-11-25T01:21:48.000Z",
+      "discoveredAt": "2026-11-25T01:28:46.397Z",
       "category": "money",
       "tags": [
         "搞钱变现",
@@ -434,555 +921,75 @@
         "Agent",
         "产品更新"
       ],
-      "score": 92,
+      "score": 95,
       "selected": true,
-      "reason": "V2EX精选研判：聚焦「Antigravity 上下文与 Token…」的一手事实与行业演进信号。",
+      "reason": "生产力范式转移：聚焦「chrome-devtools-cli v2…」在智能体自主规划与工具链协同上的演进。",
       "attribution": {
         "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a4e9e74c2add720da5d9005da"
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/aa7e17902b2d3fb6645605ac7"
       }
     },
     {
-      "id": "a0f0d5032a14d13682b99902c",
-      "title": "【独立创造】谛听 diting：抗 FOMO 的 RSS 阅读器，自定义分级 + 日报 + 知识库(LLM Wiki)",
+      "id": "a1d29845ebf0793e11eb614b4",
+      "title": "【独立创造】分享一个古法编程做的 Android App",
       "originalTitle": null,
-      "summary": "作为 RSS 重度用户，我常年疲于筛选新信息，随之而来的就是 FOMO：不敢不看，又看不完。上百条更新里，真正值得看的可能只有十几条。多年前我就期待有一个足够聪明的 RSS 阅读器，能帮我降噪。 后来有了 AI 摘要，但筛选成本并没有消失，只是换了个形式。 所以我做了「谛听 diting」，思路是把判断放在内容进入视野之前： 先决定读不读，再谈怎么读。 最近一个多月我已经把 RSS 阅读的主力换成了它，现在开源出来，欢迎体验、交流。",
-      "content": "作为 RSS 重度用户，我常年疲于筛选新信息，随之而来的就是 FOMO：不敢不看，又看不完。上百条更新里，真正值得看的可能只有十几条。多年前我就期待有一个足够聪明的 RSS 阅读器，能帮我降噪。\n\n后来有了 AI 摘要，但筛选成本并没有消失，只是换了个形式。\n\n所以我做了「谛听 diting」，思路是把判断放在内容进入视野之前：先决定读不读，再谈怎么读。 最近一个多月我已经把 RSS 阅读的主力换成了它，现在开源出来，欢迎体验、交流。\n\n项目地址：https://github.com/fred2045/diting （MIT，目前 alpha）\n\n新文章进来，LLM 按你的画像和自定义的规则自动分级\n\n读的时候划线、批注、问 AI，这些痕迹会提炼&编译成知识库草稿\n\n周报直接由 7 天日报合成，不用重新抓取、重新分级\n\n剩下的不是「已经读完了」，而是「判断为不需要读」。\n\n判据可以按「读者画像 → 分类 → 单个订阅源」配置。技术源、投资源、生活随笔，完全可以有不同的判断标准。\n\n模型改写出来的数字会做机械核对，编造或对不上会明确写出来",
+      "summary": "不出所料的，花了几个月做出来的实时语音系统 ( https://edge.v2ex.com/t/1258994 ) 又是无人问津，这两天的感受又回到了从 22 年底 chagpt 发布以来为了预备大裁员，自己决定做创业项目来对冲的状态中。",
+      "content": "不出所料的，花了几个月做出来的实时语音系统 (https://edge.v2ex.com/t/1258994) 又是无人问津，这两天的感受又回到了从 22 年底 chagpt 发布以来为了预备大裁员，自己决定做创业项目来对冲的状态中。四年过去了，倒是没被裁，可是也算清楚自己算个葱了，四年只发展不到 20 个用户还能坚持下来的举个手 -- 多少人像我一样拿着高的收入，可心里却像这样的：\n\n分享一个从 25 年初手搓做的信息聚合 app context pilot: https://play.google.com/store/apps/details?id=xyz.pilot.context\n\n里面有从 25 年初到现在打好标签的大约几千万条 twitter 和其他平台（reddit 等）整合的信息 有 crypto / non_crypto 两类 每天应该有几十万条 twitter 信号\n\n不要求登陆，不要求权限，palystore verified，所以放心用就是",
       "paragraphs": [
-        "作为 RSS 重度用户，我常年疲于筛选新信息，随之而来的就是 FOMO：不敢不看，又看不完。上百条更新里，真正值得看的可能只有十几条。多年前我就期待有一个足够聪明的 RSS 阅读器，能帮我降噪。",
-        "后来有了 AI 摘要，但筛选成本并没有消失，只是换了个形式。",
-        "所以我做了「谛听 diting」，思路是把判断放在内容进入视野之前：先决定读不读，再谈怎么读。 最近一个多月我已经把 RSS 阅读的主力换成了它，现在开源出来，欢迎体验、交流。",
-        "项目地址：https://github.com/fred2045/diting （MIT，目前 alpha）",
-        "新文章进来，LLM 按你的画像和自定义的规则自动分级",
-        "读的时候划线、批注、问 AI，这些痕迹会提炼&编译成知识库草稿",
-        "周报直接由 7 天日报合成，不用重新抓取、重新分级",
-        "剩下的不是「已经读完了」，而是「判断为不需要读」。",
-        "判据可以按「读者画像 → 分类 → 单个订阅源」配置。技术源、投资源、生活随笔，完全可以有不同的判断标准。",
-        "模型改写出来的数字会做机械核对，编造或对不上会明确写出来"
+        "不出所料的，花了几个月做出来的实时语音系统 (https://edge.v2ex.com/t/1258994) 又是无人问津，这两天的感受又回到了从 22 年底 chagpt 发布以来为了预备大裁员，自己决定做创业项目来对冲的状态中。四年过去了，倒是没被裁，可是也算清楚自己算个葱了，四年只发展不到 20 个用户还能坚持下来的举个手 -- 多少人像我一样拿着高的收入，可心里却像这样的：",
+        "分享一个从 25 年初手搓做的信息聚合 app context pilot: https://play.google.com/store/apps/details?id=xyz.pilot.context",
+        "里面有从 25 年初到现在打好标签的大约几千万条 twitter 和其他平台（reddit 等）整合的信息 有 crypto / non_crypto 两类 每天应该有几十万条 twitter 信号",
+        "不要求登陆，不要求权限，palystore verified，所以放心用就是"
       ],
       "originalContent": null,
       "source": {
         "name": "V2EX·独立创造与副业变现"
       },
       "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a0f0d5032a14d13682b99902c",
-        "original": "https://www.v2ex.com/t/1259553#reply0"
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a1d29845ebf0793e11eb614b4",
+        "original": "https://www.v2ex.com/t/1259604#reply0"
       },
-      "publishedAt": "2026-11-24T13:16:33.000Z",
-      "discoveredAt": "2026-11-24T13:28:58.964Z",
+      "publishedAt": "2026-11-25T01:09:49.000Z",
+      "discoveredAt": "2026-11-25T01:13:45.495Z",
       "category": "money",
       "tags": [
         "搞钱变现",
         "教程/实践",
-        "编码",
-        "开源生态",
-        "产品更新"
-      ],
-      "score": 94,
-      "selected": true,
-      "reason": "开源工程价值：「谛听 diting：抗 FOMO 的 RSS…」技术方案与实测表现，可直接赋能开发者低成本落地。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a0f0d5032a14d13682b99902c"
-      }
-    },
-    {
-      "id": "a92bac154c8f3f65bb4c34ef9",
-      "title": "【独立创造】Krss：一个类 Folo 的自部署 RSS 阅读器",
-      "originalTitle": null,
-      "summary": "老哥们我不太善言辞，直接说特色功能看图吧... 插件系统：zip 装插件，能加菜单、工具栏和独立视图，也能给自动化当动作。 自动化规则：范围 + 关键词 / 正则 / AI 相关性 → 动作（星标、标已读、静音、webhook、Bark）。能预览命中、回溯历史、撤销、看命中日志，能用一句话生成规则。 双向 MCP：外部 MCP 服务可以直接当订阅源接进来（测试）；Krss 自己也是个 MCP server（/mcp，token 鉴权）。",
-      "content": "插件系统：zip 装插件，能加菜单、工具栏和独立视图，也能给自动化当动作。\n\n插件系统：zip 装插件，能加菜单、工具栏和独立视图，也能给自动化当动作。\n\n自动化规则：范围 + 关键词 / 正则 / AI 相关性 → 动作（星标、标已读、静音、webhook、Bark）。能预览命中、回溯历史、撤销、看命中日志，能用一句话生成规则。\n\n自动化规则：范围 + 关键词 / 正则 / AI 相关性 → 动作（星标、标已读、静音、webhook、Bark）。能预览命中、回溯历史、撤销、看命中日志，能用一句话生成规则。\n\n双向 MCP：外部 MCP 服务可以直接当订阅源接进来（测试）；Krss 自己也是个 MCP server（/mcp，token 鉴权）。\n\n双向 MCP：外部 MCP 服务可以直接当订阅源接进来（测试）；Krss 自己也是个 MCP server（/mcp，token 鉴权）。\n\n智能代理：直连不通自动走代理，按域名记住结论，订阅和文件夹还能单独覆盖。\n\n智能代理：直连不通自动走代理，按域名记住结论，订阅和文件夹还能单独覆盖。\n\n四种视图：文章（三栏，另有 Inoreader 风格的紧凑列表）、社交、通知、图片。\n\n四种视图：文章（三栏，另有 Inoreader 风格的紧凑列表）、社交、通知、图片。",
-      "paragraphs": [
-        "插件系统：zip 装插件，能加菜单、工具栏和独立视图，也能给自动化当动作。",
-        "插件系统：zip 装插件，能加菜单、工具栏和独立视图，也能给自动化当动作。",
-        "自动化规则：范围 + 关键词 / 正则 / AI 相关性 → 动作（星标、标已读、静音、webhook、Bark）。能预览命中、回溯历史、撤销、看命中日志，能用一句话生成规则。",
-        "自动化规则：范围 + 关键词 / 正则 / AI 相关性 → 动作（星标、标已读、静音、webhook、Bark）。能预览命中、回溯历史、撤销、看命中日志，能用一句话生成规则。",
-        "双向 MCP：外部 MCP 服务可以直接当订阅源接进来（测试）；Krss 自己也是个 MCP server（/mcp，token 鉴权）。",
-        "双向 MCP：外部 MCP 服务可以直接当订阅源接进来（测试）；Krss 自己也是个 MCP server（/mcp，token 鉴权）。",
-        "智能代理：直连不通自动走代理，按域名记住结论，订阅和文件夹还能单独覆盖。",
-        "智能代理：直连不通自动走代理，按域名记住结论，订阅和文件夹还能单独覆盖。",
-        "四种视图：文章（三栏，另有 Inoreader 风格的紧凑列表）、社交、通知、图片。",
-        "四种视图：文章（三栏，另有 Inoreader 风格的紧凑列表）、社交、通知、图片。"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a92bac154c8f3f65bb4c34ef9",
-        "original": "https://www.v2ex.com/t/1259542#reply1"
-      },
-      "publishedAt": "2026-11-24T12:22:33.000Z",
-      "discoveredAt": "2026-11-24T22:13:54.424Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "教程/实践",
-        "编码",
-        "MCP/工具调用",
-        "产品更新"
-      ],
-      "score": 94,
-      "selected": true,
-      "reason": "生产力范式转移：聚焦「Krss：一个类 Folo 的自部署 RSS…」在智能体自主规划与工具链协同上的演进。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a92bac154c8f3f65bb4c34ef9"
-      }
-    },
-    {
-      "id": "a1ae32c61115d7a3ebeafa9a5",
-      "title": "【独立创造】[开源自荐] Krss：一个类 Folo 的自部署 RSS 阅读器",
-      "originalTitle": "[分享创造] [开源自荐] Krss：一个类 Folo 的自部署 RSS 阅读器",
-      "summary": "老哥们我不太善言辞，直接说特色功能看图吧... 插件系统：zip 装插件，能加菜单、工具栏和独立视图，也能给自动化当动作。 自动化规则：范围 + 关键词 / 正则 / AI 相关性 → 动作（星标、标已读、静音、webhook、Bark）。能预览命中、回溯历史、撤销、看命中日志，能用一句话生成规则。 双向 MCP：外部 MCP 服务可以直接当订阅源接进来（测试）；Krss 自己也是个 MCP server（/mcp，token 鉴权）。...",
-      "content": "老哥们我不太善言辞，直接说特色功能看图吧... 插件系统：zip 装插件，能加菜单、工具栏和独立视图，也能给自动化当动作。 自动化规则：范围 + 关键词 / 正则 / AI 相关性 → 动作（星标、标已读、静音、webhook、Bark）。能预览命中、回溯历史、撤销、看命中日志，能用一句话生成规则。 双向 MCP：外部 MCP 服务可以直接当订阅源接进来（测试）；Krss 自己也是个 MCP server（/mcp，token 鉴权）。...",
-      "paragraphs": [
-        "老哥们我不太善言辞，直接说特色功能看图吧... 插件系统：zip 装插件，能加菜单、工具栏和独立视图，也能给自动化当动作。 自动化规则：范围 + 关键词 / 正则 / AI 相关性 → 动作（星标、标已读、静音、webhook、Bark）。能预览命中、回溯历史、撤销、看命中日志，能用一句话生成规则。 双向 MCP：外部 MCP 服务可以直接当订阅源接进来（测试）；Krss 自己也是个 MCP server（/mcp，token 鉴权）。..."
-      ],
-      "originalContent": "老哥们我不太善言辞，直接说特色功能看图吧... 插件系统：zip 装插件，能加菜单、工具栏和独立视图，也能给自动化当动作。 自动化规则：范围 + 关键词 / 正则 / AI 相关性 → 动作（星标、标已读、静音、webhook、Bark）。能预览命中、回溯历史、撤销、看命中日志，能用一句话生成规则。 双向 MCP：外部 MCP 服务可以直接当订阅源接进来（测试）；Krss 自己也是个 MCP server（/mcp，token 鉴权）。...\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a1ae32c61115d7a3ebeafa9a5",
-        "original": "https://www.v2ex.com/t/1259542#reply0"
-      },
-      "publishedAt": "2026-11-24T12:22:33.000Z",
-      "discoveredAt": "2026-11-24T12:24:19.494Z",
-      "category": "money",
-      "tags": [
-        "Top20",
-        "商业搞钱",
-        "副业",
-        "开源生态",
-        "MCP/工具调用",
-        "产品更新",
-        "教程/实践"
-      ],
-      "score": 93,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a1ae32c61115d7a3ebeafa9a5"
-      }
-    },
-    {
-      "id": "a1a327a028e8eaec909c2e2e3",
-      "title": "【独立创造】rex(ghostty 作者新产品)重度体验",
-      "originalTitle": "[程序员] rex(ghostty 作者新产品)重度体验",
-      "summary": "ghostty 作者的新产品, 上个月看到其他 V 友发了下载方式( /t/1251516 )后开始用, 现在已经成为我的默认 vibe 环境. 用三点来描述 rex: 一个 terminal 软件, 替代了 iterm2/ghostty 内置 tailscale, 作为 server 暴露成服务. 作为 client 连接远程 rex 注: 在 client 端, 需要 tailscale VPN, 不过 LAN 里也支持 ssh 连...",
-      "content": "ghostty 作者的新产品, 上个月看到其他 V 友发了下载方式( /t/1251516 )后开始用, 现在已经成为我的默认 vibe 环境. 用三点来描述 rex: 一个 terminal 软件, 替代了 iterm2/ghostty 内置 tailscale, 作为 server 暴露成服务. 作为 client 连接远程 rex 注: 在 client 端, 需要 tailscale VPN, 不过 LAN 里也支持 ssh 连...",
-      "paragraphs": [
-        "ghostty 作者的新产品, 上个月看到其他 V 友发了下载方式( /t/1251516 )后开始用, 现在已经成为我的默认 vibe 环境. 用三点来描述 rex: 一个 terminal 软件, 替代了 iterm2/ghostty 内置 tailscale, 作为 server 暴露成服务. 作为 client 连接远程 rex 注: 在 client 端, 需要 tailscale VPN, 不过 LAN 里也支持 ssh 连..."
-      ],
-      "originalContent": "ghostty 作者的新产品, 上个月看到其他 V 友发了下载方式( /t/1251516 )后开始用, 现在已经成为我的默认 vibe 环境. 用三点来描述 rex: 一个 terminal 软件, 替代了 iterm2/ghostty 内置 tailscale, 作为 server 暴露成服务. 作为 client 连接远程 rex 注: 在 client 端, 需要 tailscale VPN, 不过 LAN 里也支持 ssh 连...\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a1a327a028e8eaec909c2e2e3",
-        "original": "https://www.v2ex.com/t/1259539#reply0"
-      },
-      "publishedAt": "2026-11-24T12:01:07.000Z",
-      "discoveredAt": "2026-11-24T12:24:19.718Z",
-      "category": "money",
-      "tags": [
-        "Top20",
-        "商业搞钱",
-        "副业",
-        "产品更新",
-        "教程/实践"
-      ],
-      "score": 93,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a1a327a028e8eaec909c2e2e3"
-      }
-    },
-    {
-      "id": "ae923af478d5529379c27ec08",
-      "title": "[酷工作] 招 Agent 研发岗。",
-      "originalTitle": null,
-      "summary": "在找有较深 Agent 实践、软件工程能力强的人。不是只做 Demo、只调 API，而是能把 Agent 真正落到业务系统里，处理工具调用、流程编排、上下文/记忆、评测、稳定性和成本这些问题。 希望你： 有 Agent 相关实际落地经验； 过往做过复杂系统，或用户量大的系统； 工程基础扎实，能定位和解决线上问题； 对 LLM 应用有理解，能推进方案落地。 有开源、论文、竞赛或线上效果加分。级别开放，高级/专家均可聊。Base：深圳、北京...",
-      "content": "在找有较深 Agent 实践、软件工程能力强的人。不是只做 Demo、只调 API，而是能把 Agent 真正落到业务系统里，处理工具调用、流程编排、上下文/记忆、评测、稳定性和成本这些问题。 希望你： 有 Agent 相关实际落地经验； 过往做过复杂系统，或用户量大的系统； 工程基础扎实，能定位和解决线上问题； 对 LLM 应用有理解，能推进方案落地。 有开源、论文、竞赛或线上效果加分。级别开放，高级/专家均可聊。Base：深圳、北京...\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "paragraphs": [
-        "在找有较深 Agent 实践、软件工程能力强的人。不是只做 Demo、只调 API，而是能把 Agent 真正落到业务系统里，处理工具调用、流程编排、上下文/记忆、评测、稳定性和成本这些问题。 希望你： 有 Agent 相关实际落地经验； 过往做过复杂系统，或用户量大的系统； 工程基础扎实，能定位和解决线上问题； 对 LLM 应用有理解，能推进方案落地。 有开源、论文、竞赛或线上效果加分。级别开放，高级/专家均可聊。Base：深圳、北京...",
-        "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/ae923af478d5529379c27ec08",
-        "original": "https://www.v2ex.com/t/1259535#reply3"
-      },
-      "publishedAt": "2026-11-24T11:27:25.000Z",
-      "discoveredAt": "2026-11-24T12:24:20.696Z",
-      "category": "money",
-      "tags": [
-        "Top20",
-        "商业搞钱",
-        "副业",
-        "Agent",
-        "开源生态",
-        "部署/工程",
-        "MCP/工具调用",
-        "产品更新",
-        "论文/研究",
-        "评测/基准",
-        "教程/实践"
-      ],
-      "score": 92,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/ae923af478d5529379c27ec08"
-      }
-    },
-    {
-      "id": "a0b2f57e6d8cf136884e822a0",
-      "title": "[酷工作] 招 Agent 研发岗。",
-      "originalTitle": null,
-      "summary": "在找有较深 Agent 实践、软件工程能力强的人。不是只做 Demo、只调 API，而是能把 Agent 真正落到业务系统里，处理工具调用、流程编排、上下文/记忆、评测、稳定性和成本这些问题。 希望你： 有 Agent 相关实际落地经验； 过往做过复杂系统，或用户量大的系统； 工程基础扎实，能定位和解决线上问题； 对 LLM 应用有理解，能推进方案落地。 有开源、论文、竞赛或线上效果加分。级别开放，高级/专家均可聊。Base：深圳、北京...",
-      "content": "在找有较深 Agent 实践、软件工程能力强的人。不是只做 Demo、只调 API，而是能把 Agent 真正落到业务系统里，处理工具调用、流程编排、上下文/记忆、评测、稳定性和成本这些问题。 希望你： 有 Agent 相关实际落地经验； 过往做过复杂系统，或用户量大的系统； 工程基础扎实，能定位和解决线上问题； 对 LLM 应用有理解，能推进方案落地。 有开源、论文、竞赛或线上效果加分。级别开放，高级/专家均可聊。Base：深圳、北京...\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "paragraphs": [
-        "在找有较深 Agent 实践、软件工程能力强的人。不是只做 Demo、只调 API，而是能把 Agent 真正落到业务系统里，处理工具调用、流程编排、上下文/记忆、评测、稳定性和成本这些问题。 希望你： 有 Agent 相关实际落地经验； 过往做过复杂系统，或用户量大的系统； 工程基础扎实，能定位和解决线上问题； 对 LLM 应用有理解，能推进方案落地。 有开源、论文、竞赛或线上效果加分。级别开放，高级/专家均可聊。Base：深圳、北京...",
-        "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a0b2f57e6d8cf136884e822a0",
-        "original": "https://www.v2ex.com/t/1259535#reply0"
-      },
-      "publishedAt": "2026-11-24T11:27:25.000Z",
-      "discoveredAt": "2026-11-24T11:28:41.726Z",
-      "category": "money",
-      "tags": [
-        "Top20",
-        "商业搞钱",
-        "副业",
-        "Agent",
-        "开源生态",
-        "部署/工程",
-        "MCP/工具调用",
-        "产品更新",
-        "论文/研究",
-        "评测/基准",
-        "教程/实践"
-      ],
-      "score": 92,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a0b2f57e6d8cf136884e822a0"
-      }
-    },
-    {
-      "id": "a2b891467f7745c78f327d1ac",
-      "title": "[Google] 最近谷歌的风控是不是变严了，正常使用的账号突然就被封了",
-      "originalTitle": null,
-      "summary": "不知道是不是切换频繁，还是有其他人登录过的原因，今天突然就告诉我账号封禁了。 我换了个号，结果一直要我 Authenticator 的验证码，我输了又说验证码错误，就是过不了。 即使通过其他方式过了两步验证，但是想把两步验证或者动态验证码关掉的话，就还是会回到登录的页面，叫你输动态验证码，却不给二维码给你扫。。。我就是动态验证码登不了才想关掉的呀，又叫我输动态验证码，晕了。 问了下 Gemini，它说是因为设备太新还没信任，得用上 7 ...",
-      "content": "不知道是不是切换频繁，还是有其他人登录过的原因，今天突然就告诉我账号封禁了。 我换了个号，结果一直要我 Authenticator 的验证码，我输了又说验证码错误，就是过不了。 即使通过其他方式过了两步验证，但是想把两步验证或者动态验证码关掉的话，就还是会回到登录的页面，叫你输动态验证码，却不给二维码给你扫。。。我就是动态验证码登不了才想关掉的呀，又叫我输动态验证码，晕了。 问了下 Gemini，它说是因为设备太新还没信任，得用上 7 ...\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "paragraphs": [
-        "不知道是不是切换频繁，还是有其他人登录过的原因，今天突然就告诉我账号封禁了。 我换了个号，结果一直要我 Authenticator 的验证码，我输了又说验证码错误，就是过不了。 即使通过其他方式过了两步验证，但是想把两步验证或者动态验证码关掉的话，就还是会回到登录的页面，叫你输动态验证码，却不给二维码给你扫。。。我就是动态验证码登不了才想关掉的呀，又叫我输动态验证码，晕了。 问了下 Gemini，它说是因为设备太新还没信任，得用上 7 ...",
-        "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a2b891467f7745c78f327d1ac",
-        "original": "https://www.v2ex.com/t/1259534#reply0"
-      },
-      "publishedAt": "2026-11-24T11:26:35.000Z",
-      "discoveredAt": "2026-11-24T11:28:41.952Z",
-      "category": "money",
-      "tags": [
-        "Top20",
-        "商业搞钱",
-        "副业",
-        "教程/实践",
-        "产品更新"
-      ],
-      "score": 93,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a2b891467f7745c78f327d1ac"
-      }
-    },
-    {
-      "id": "afe76539ce7574c13b09dc501",
-      "title": "【独立创造】感觉今天重置之后 token 消耗速度已经变快了",
-      "originalTitle": "[Google Gemini] 感觉今天重置之后 token 消耗速度已经变快了",
-      "summary": "V2EX·独立开发与副业实时快讯：[Google Gemini] 感觉今天重置之后 token 消耗速度已经变快了。经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "content": "V2EX·独立开发与副业实时快讯：[Google Gemini] 感觉今天重置之后 token 消耗速度已经变快了。经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "paragraphs": [
-        "V2EX·独立开发与副业实时快讯：[Google Gemini] 感觉今天重置之后 token 消耗速度已经变快了。经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
-      ],
-      "originalContent": "V2EX·独立开发与副业实时快讯：[Google Gemini] 感觉今天重置之后 token 消耗速度已经变快了。经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/afe76539ce7574c13b09dc501",
-        "original": "https://www.v2ex.com/t/1259533#reply0"
-      },
-      "publishedAt": "2026-11-24T11:22:26.000Z",
-      "discoveredAt": "2026-11-24T11:28:42.174Z",
-      "category": "money",
-      "tags": [
-        "Top20",
-        "商业搞钱",
-        "副业",
         "编码",
         "模型发布",
-        "产品更新",
-        "教程/实践"
-      ],
-      "score": 97,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/afe76539ce7574c13b09dc501"
-      }
-    },
-    {
-      "id": "af38c141b173e56fadc5fb3e3",
-      "title": "[macOS] 2026 我的 Mac 软件清单",
-      "originalTitle": null,
-      "summary": "跟风。总结一下 2026 我的 Mac 软件清单 这份清单从我这台 Mac 上已安装的软件里选出了 31 款，涵盖自研项目、开发、写作、效率和影音工具。先看总览，再往下看每款软件的用途。 总览 分类 软件 自己做的 遥控搭子 Remote Buddy 、 万年历 Swift 、 Process Viewer AI 与开发 ChatGPT、Claude、WorkBuddy、Antigravity、GitHub Copilot、Ghostt...",
-      "content": "跟风。总结一下 2026 我的 Mac 软件清单 这份清单从我这台 Mac 上已安装的软件里选出了 31 款，涵盖自研项目、开发、写作、效率和影音工具。先看总览，再往下看每款软件的用途。 总览 分类 软件 自己做的 遥控搭子 Remote Buddy 、 万年历 Swift 、 Process Viewer AI 与开发 ChatGPT、Claude、WorkBuddy、Antigravity、GitHub Copilot、Ghostt...\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "paragraphs": [
-        "跟风。总结一下 2026 我的 Mac 软件清单 这份清单从我这台 Mac 上已安装的软件里选出了 31 款，涵盖自研项目、开发、写作、效率和影音工具。先看总览，再往下看每款软件的用途。 总览 分类 软件 自己做的 遥控搭子 Remote Buddy 、 万年历 Swift 、 Process Viewer AI 与开发 ChatGPT、Claude、WorkBuddy、Antigravity、GitHub Copilot、Ghostt...",
-        "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/af38c141b173e56fadc5fb3e3",
-        "original": "https://www.v2ex.com/t/1259530#reply0"
-      },
-      "publishedAt": "2026-11-24T10:44:23.000Z",
-      "discoveredAt": "2026-11-24T10:58:43.724Z",
-      "category": "money",
-      "tags": [
-        "Top20",
-        "商业搞钱",
-        "副业",
-        "编码",
-        "开源生态",
-        "产品更新",
-        "教程/实践"
-      ],
-      "score": 94,
-      "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/af38c141b173e56fadc5fb3e3"
-      }
-    },
-    {
-      "id": "a2498a1c15debf2d87586d2e1",
-      "title": "[分享发现] 分享一次起诉",
-      "originalTitle": null,
-      "summary": "本文不是诉讼避雷帖，亦不希望各位在被侵害时退缩，虽然过程和行为需要权衡，但依然值得尝试。 本文全程未使用生成式 AI。 前因 我于数月前在海鲜市场买了“美国 AA 航空寰宇一家绿宝石匹配服务”，在此之前有在社交媒体上了解过确实存在以卡换卡的活动，不过只看到过 4 个月的，但想着海鲜市场这么神奇的地方，有什么都不奇怪，故下单。 卖家在商品说明及下单后的首条消息多次强调，不包结果，只帮忙提交，申请后无法退款；虽然我很不爽，但是看着评价里确实...",
-      "content": "本文不是诉讼避雷帖，亦不希望各位在被侵害时退缩，虽然过程和行为需要权衡，但依然值得尝试。 本文全程未使用生成式 AI。 前因 我于数月前在海鲜市场买了“美国 AA 航空寰宇一家绿宝石匹配服务”，在此之前有在社交媒体上了解过确实存在以卡换卡的活动，不过只看到过 4 个月的，但想着海鲜市场这么神奇的地方，有什么都不奇怪，故下单。 卖家在商品说明及下单后的首条消息多次强调，不包结果，只帮忙提交，申请后无法退款；虽然我很不爽，但是看着评价里确实...\n\n经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
-      "paragraphs": [
-        "本文不是诉讼避雷帖，亦不希望各位在被侵害时退缩，虽然过程和行为需要权衡，但依然值得尝试。 本文全程未使用生成式 AI。 前因 我于数月前在海鲜市场买了“美国 AA 航空寰宇一家绿宝石匹配服务”，在此之前有在社交媒体上了解过确实存在以卡换卡的活动，不过只看到过 4 个月的，但想着海鲜市场这么神奇的地方，有什么都不奇怪，故下单。 卖家在商品说明及下单后的首条消息多次强调，不包结果，只帮忙提交，申请后无法退款；虽然我很不爽，但是看着评价里确实...",
-        "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a2498a1c15debf2d87586d2e1",
-        "original": "https://www.v2ex.com/t/1259528#reply0"
-      },
-      "publishedAt": "2026-11-24T10:42:58.000Z",
-      "discoveredAt": "2026-11-24T10:58:43.918Z",
-      "category": "money",
-      "tags": [
-        "Top20",
-        "商业搞钱",
-        "副业",
-        "教程/实践",
         "产品更新"
       ],
-      "score": 92,
+      "score": 95,
       "selected": true,
-      "reason": "经严苛去水帖过滤后的国内开发者独立产品发布、出海收款与副业变现。",
+      "reason": "前沿模型演进：评估「分享一个古法编程做的 Android App」在模型能力边界、推理成本与应用生态上的突破。",
       "attribution": {
         "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a2498a1c15debf2d87586d2e1"
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a1d29845ebf0793e11eb614b4"
       }
     },
     {
-      "id": "ab51e6b7fa09c2186a19ded4d",
-      "title": "【国内要闻】约八成展品首亮相 吉林省博物院展出古代兵器珍藏",
+      "id": "a6a664890a13c0542147a9cac",
+      "title": "【独立创造】别再让 AI 用 emoji 当图标啦",
       "originalTitle": null,
-      "summary": "中新网长春11月24日电 (记者 郭佳)一件刻有细密铭文的战国青铜戈，为何出现在吉林长白山地区？一柄具有鲜明东北地域特色的青铜曲刃剑，又记录着怎样的文化交融？24日，吉林省博物院历史部馆员刘肖睿接受中新网记者专访，结合馆藏古代兵器，讲述兵器形制演变背后的文化密码。",
-      "content": "中新网长春11月24日电 (记者 郭佳)一件刻有细密铭文的战国青铜戈，为何出现在吉林长白山地区？一柄具有鲜明东北地域特色的青铜曲刃剑，又记录着怎样的文化交融？24日，吉林省博物院历史部馆员刘肖睿接受中新网记者专访，结合馆藏古代兵器，讲述兵器形制演变背后的文化密码。\n\n近日，“攻守有道——吉林省博物院藏古代兵器展”正式开展。展览展出馆藏古代兵器及相关文物三百余件，涵盖戈矛、剑刀、弓弩、甲胄、车马五大单元及“拾遗”专题，时间跨度从夏商至明清。其中，约八成展品为首次展出。\n\n一件战国蔺相如戈，为展览增添了历史悬念。戈上铭文刻画细密，部分文字肉眼难以辨识，需借助电子显微镜等设备观察。刘肖睿介绍，这件兵器出土于吉林长白山地区，学界对于它如何从赵国流传至东北有多种推测，可能与赵国经燕国向东北传播、秦灭赵后人员迁徙等历史背景有关。无论哪种情形，这件戈都为探寻战国时期不同地域之间的联系提供了实物线索。\n\n吉林地域特色是展览一大看点。展厅中，青铜曲刃剑、环首铁剑和双鸟回首青铜短剑三件文物颇具代表性。刘肖睿介绍，青铜曲刃剑是东北地区代表性兵器类型，主要分布于辽宁、吉林、内蒙古东部等地；双鸟回首青铜短剑带有鲜明的北方草原文化特征；环首铁剑则具备中原汉式兵器风格，其伴出文物包含汉式铜镜、带钩等，反映夫余文化对汉文化的吸收与认同。\n\n兵器形制的变化，同样折射出作战方式与工艺技术的发展。刘肖睿介绍，魏晋南北朝是古代兵器佩戴方式、军事装备演变的重要阶段。伴随北方各民族交往交流，兵器、马具与生活习俗相互影响。马镫逐步成熟，帮助骑手稳定身姿，助推骑兵发展；复合弓等装备也促进弓箭技术的交流传播。\n\n从攻击到防御，古人的军事智慧也体现在装备持续改良上。展览中的弩机、箭镞、甲胄及马具，展现古人在远程打击、躯体防护、骑乘机动等方面的探索，相关遗存为研究东北地区古代军事装备，以及其和周边文化的交流提供实物佐证。\n\n兵器的意义并不局限于战场。展览中的玉具剑、玉剑璏等文物，展现古代佩剑礼仪与等级制度；弓箭从实战兵器逐步融入礼制，西周形成的射礼，后来衍生出兼具礼仪与娱乐属性的投壶活动；清代扳指，也从射箭护指的实用器具，发展为承载身份等级、审美风尚的器物。\n\n刘肖睿认为，古代兵器承载古人的技艺智慧，也见证各民族、各区域之间的交流融合。希望通过本次展览，让观众在刀剑锋芒之间读懂兵器背后的文明演进。(完)",
+      "summary": "用 CodeAgent 写前端的人大概都经历过这个场面：你让它给导航栏加几个图标，它非常自信地给你返回一排 🏠 📊 ⚙️ 👤。你让它“换成正经图标”，它开始瞎编 SVG path，渲染出来是一坨看不出是什么的曲线。 这事不能全怪模型。它手里根本没有图标数据，能做的只有两件事：找最接近的 emoji，或者凭印象编一个 path。 icons 把 react-icons 全量 31 个集合、50,934 个图标编译进了单个可执行文件(18MB)。",
+      "content": "用 CodeAgent 写前端的人大概都经历过这个场面：你让它给导航栏加几个图标，它非常自信地给你返回一排 🏠 📊 ⚙️ 👤。你让它“换成正经图标”，它开始瞎编 SVG path，渲染出来是一坨看不出是什么的曲线。\n\n这事不能全怪模型。它手里根本没有图标数据，能做的只有两件事：找最接近的 emoji，或者凭印象编一个 path。\n\nicons 把 react-icons 全量 31 个集合、50,934 个图标编译进了单个可执行文件(18MB)。启动后内置 MCP 服务器监听 9393 端口，Cursor / Claude Desktop / TRAE 配一行就能接上：\n\n{ \"mcpServers\": { \"icons\": { \"url\": \"http://127.0.0.1:9393/mcp\" } } }\n\nWindows 出安装包，macOS / Linux 未验证。仓库：https://github.com/limengwei/icons",
       "paragraphs": [
-        "中新网长春11月24日电 (记者 郭佳)一件刻有细密铭文的战国青铜戈，为何出现在吉林长白山地区？一柄具有鲜明东北地域特色的青铜曲刃剑，又记录着怎样的文化交融？24日，吉林省博物院历史部馆员刘肖睿接受中新网记者专访，结合馆藏古代兵器，讲述兵器形制演变背后的文化密码。",
-        "近日，“攻守有道——吉林省博物院藏古代兵器展”正式开展。展览展出馆藏古代兵器及相关文物三百余件，涵盖戈矛、剑刀、弓弩、甲胄、车马五大单元及“拾遗”专题，时间跨度从夏商至明清。其中，约八成展品为首次展出。",
-        "一件战国蔺相如戈，为展览增添了历史悬念。戈上铭文刻画细密，部分文字肉眼难以辨识，需借助电子显微镜等设备观察。刘肖睿介绍，这件兵器出土于吉林长白山地区，学界对于它如何从赵国流传至东北有多种推测，可能与赵国经燕国向东北传播、秦灭赵后人员迁徙等历史背景有关。无论哪种情形，这件戈都为探寻战国时期不同地域之间的联系提供了实物线索。",
-        "吉林地域特色是展览一大看点。展厅中，青铜曲刃剑、环首铁剑和双鸟回首青铜短剑三件文物颇具代表性。刘肖睿介绍，青铜曲刃剑是东北地区代表性兵器类型，主要分布于辽宁、吉林、内蒙古东部等地；双鸟回首青铜短剑带有鲜明的北方草原文化特征；环首铁剑则具备中原汉式兵器风格，其伴出文物包含汉式铜镜、带钩等，反映夫余文化对汉文化的吸收与认同。",
-        "兵器形制的变化，同样折射出作战方式与工艺技术的发展。刘肖睿介绍，魏晋南北朝是古代兵器佩戴方式、军事装备演变的重要阶段。伴随北方各民族交往交流，兵器、马具与生活习俗相互影响。马镫逐步成熟，帮助骑手稳定身姿，助推骑兵发展；复合弓等装备也促进弓箭技术的交流传播。",
-        "从攻击到防御，古人的军事智慧也体现在装备持续改良上。展览中的弩机、箭镞、甲胄及马具，展现古人在远程打击、躯体防护、骑乘机动等方面的探索，相关遗存为研究东北地区古代军事装备，以及其和周边文化的交流提供实物佐证。",
-        "兵器的意义并不局限于战场。展览中的玉具剑、玉剑璏等文物，展现古代佩剑礼仪与等级制度；弓箭从实战兵器逐步融入礼制，西周形成的射礼，后来衍生出兼具礼仪与娱乐属性的投壶活动；清代扳指，也从射箭护指的实用器具，发展为承载身份等级、审美风尚的器物。",
-        "刘肖睿认为，古代兵器承载古人的技艺智慧，也见证各民族、各区域之间的交流融合。希望通过本次展览，让观众在刀剑锋芒之间读懂兵器背后的文明演进。(完)"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "中新网·国内要闻"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/ab51e6b7fa09c2186a19ded4d",
-        "original": "https://www.chinanews.com.cn/cul/2026/11-24/10737102.shtml"
-      },
-      "publishedAt": "2026-11-24T10:14:11.000Z",
-      "discoveredAt": "2026-11-24T10:28:32.880Z",
-      "category": "money",
-      "tags": [
-        "国内前沿",
-        "政策/监管",
-        "行业动态",
-        "产品更新",
-        "现象/趋势",
-        "教程/实践"
-      ],
-      "score": 96,
-      "selected": true,
-      "reason": "本土产业信号：关注「约八成展品首亮相 吉林省博物院展出古代兵器珍…」释放的国内政策导向与本土供应链竞争格局。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/ab51e6b7fa09c2186a19ded4d"
-      }
-    },
-    {
-      "id": "a1e344aba4c6248c0582cc543",
-      "title": "【国内要闻】电视剧《我们的峥嵘岁月》剧本研讨会举行",
-      "originalTitle": null,
-      "summary": "中新网北京11月24日电 (记者 高凯)由中国电视艺术委员会和国家航天局新闻宣传中心共同举办的电视剧《我们的峥嵘岁月》剧本研讨会日前在京举行。",
-      "content": "中新网北京11月24日电 (记者 高凯)由中国电视艺术委员会和国家航天局新闻宣传中心共同举办的电视剧《我们的峥嵘岁月》剧本研讨会日前在京举行。\n\n国家广播电视总局电视剧司、中共浙江省委宣传部、中央广播电视总台影视剧纪录片中心和主办单位相关负责同志，网络视听平台代表，航天和文艺评论领域专家，《我们的峥嵘岁月》出品方代表和主创代表等出席会议。会议由中国电视艺术委员会副秘书长李园园主持。\n\n会上，出品方代表，北京军工宏图文化传播有限公司总经理王晓宁；主创代表，该剧制片人陆军、导演安建、编剧杨文森介绍了剧本创作情况。\n\n中央文史研究馆馆员、文艺评论家仲呈祥，中国文联电视艺术中心主任赵彤，浙江大学传媒与国际文化学院特聘教授范志忠，北京评协视听委员会副主任高小立，电影卫星频道研究部主任李玮，中国传媒大学戏剧影视学院教授李胜利，浙江大学传媒与国际文化学院副教授顾晓燕等专家当日肯定了该剧前期剧本创作工作，认为该剧选题立意高、人物形象鲜明、叙事视角独特，具备了打造一部航天领域“凡人史诗”的基础。希望创作团队下一步坚持哲学意识、史学意识、美学意识相统一，坚持现实主义精神和浪漫主义情怀相结合，平衡好成就与苦难、昂扬与忧伤的整体基调，平衡好国家航天事业发展与个体人物情感纠葛的叙事篇幅，真正展现航天工作者的家国情怀与科学追求，弘扬伟大的航天精神，让观众看到中国航天事业的“峥嵘岁月”，进一步增强全体中华儿女的民族自信心和自豪感。\n\n特邀专家，国家国防科工局一司原司长杨小宇、中国航天基金会副理事长齐国生也从专业角度为剧本提升提出了具有建设性的意见和建议。\n\n据悉，正在创作中的电视剧《我们的峥嵘岁月》聚焦航天发动机研制工作，讲述的是我国第一代航天人在极端艰苦的条件下，保家卫国、深耕科研的奋斗故事。(完)",
-      "paragraphs": [
-        "中新网北京11月24日电 (记者 高凯)由中国电视艺术委员会和国家航天局新闻宣传中心共同举办的电视剧《我们的峥嵘岁月》剧本研讨会日前在京举行。",
-        "国家广播电视总局电视剧司、中共浙江省委宣传部、中央广播电视总台影视剧纪录片中心和主办单位相关负责同志，网络视听平台代表，航天和文艺评论领域专家，《我们的峥嵘岁月》出品方代表和主创代表等出席会议。会议由中国电视艺术委员会副秘书长李园园主持。",
-        "会上，出品方代表，北京军工宏图文化传播有限公司总经理王晓宁；主创代表，该剧制片人陆军、导演安建、编剧杨文森介绍了剧本创作情况。",
-        "中央文史研究馆馆员、文艺评论家仲呈祥，中国文联电视艺术中心主任赵彤，浙江大学传媒与国际文化学院特聘教授范志忠，北京评协视听委员会副主任高小立，电影卫星频道研究部主任李玮，中国传媒大学戏剧影视学院教授李胜利，浙江大学传媒与国际文化学院副教授顾晓燕等专家当日肯定了该剧前期剧本创作工作，认为该剧选题立意高、人物形象鲜明、叙事视角独特，具备了打造一部航天领域“凡人史诗”的基础。希望创作团队下一步坚持哲学意识、史学意识、美学意识相统一，坚持现实主义精神和浪漫主义情怀相结合，平衡好成就与苦难、昂扬与忧伤的整体基调，平衡好国家航天事业发展与个体人物情感纠葛的叙事篇幅，真正展现航天工作者的家国情怀与科学追求，弘扬伟大的航天精神，让观众看到中国航天事业的“峥嵘岁月”，进一步增强全体中华儿女的民族自信心和自豪感。",
-        "特邀专家，国家国防科工局一司原司长杨小宇、中国航天基金会副理事长齐国生也从专业角度为剧本提升提出了具有建设性的意见和建议。",
-        "据悉，正在创作中的电视剧《我们的峥嵘岁月》聚焦航天发动机研制工作，讲述的是我国第一代航天人在极端艰苦的条件下，保家卫国、深耕科研的奋斗故事。(完)"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "中新网·国内要闻"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a1e344aba4c6248c0582cc543",
-        "original": "https://www.chinanews.com.cn/cul/2026/11-24/10737091.shtml"
-      },
-      "publishedAt": "2026-11-24T09:55:00.000Z",
-      "discoveredAt": "2026-11-24T09:58:44.995Z",
-      "category": "money",
-      "tags": [
-        "国内前沿",
-        "政策/监管",
-        "行业动态",
-        "产品更新",
-        "现象/趋势"
-      ],
-      "score": 94,
-      "selected": true,
-      "reason": "本土产业信号：关注「电视剧《我们的峥嵘岁月》剧本研讨会举行」释放的国内政策导向与本土供应链竞争格局。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a1e344aba4c6248c0582cc543"
-      }
-    },
-    {
-      "id": "ac20278f675d3afc5fe0f55a9",
-      "title": "【国内要闻】百余件长沙马王堆汉墓出土文物在山东青州集结展出",
-      "originalTitle": null,
-      "summary": "中新网山东青州11月24日电 (记者 赵晓)由青州博物馆联合湖南省博物馆推出的“生命无极——长沙马王堆汉墓文化特展”24日在山东青州开展。194件(套)长沙马王堆汉墓出土的珍贵文物集中亮相，涵盖漆器、陶器、简牍、帛画、丝织品等多个门类。",
-      "content": "中新网山东青州11月24日电 (记者 赵晓)由青州博物馆联合湖南省博物馆推出的“生命无极——长沙马王堆汉墓文化特展”24日在山东青州开展。194件(套)长沙马王堆汉墓出土的珍贵文物集中亮相，涵盖漆器、陶器、简牍、帛画、丝织品等多个门类。\n\n1972年至1974年发掘的长沙马王堆三座西汉古墓，是20世纪中国乃至世界上最重大的考古发现之一。\n\n本次展览设自然相生、生生不息、彼岸新生三个单元，循着古人的思想脉络徐徐铺展。一件件文物承载着生者的祈愿，彰显汉代文明独有的生命关怀与超越精神，回应了生与死这一人类终极命题。\n\n展览策展人付卫杰介绍，本次展览沿用汉代标志性红黑主色调。策展团队跳出传统展览叙事框架，在敬畏文物本体、恪守学术底色的基础上，营造清新疏朗的展陈氛围，带领观众回望汉初盛世图景，触摸鲜活厚重的汉代人文精神。\n\n“帛画绘天地流转，简牍载千年哲思，漆器藏万物意趣。展览中的一器一物，都是古人观照天地、思考生命的见证，静静诉说着华夏文明源远流长的生命智慧。”付卫杰说。",
-      "paragraphs": [
-        "中新网山东青州11月24日电 (记者 赵晓)由青州博物馆联合湖南省博物馆推出的“生命无极——长沙马王堆汉墓文化特展”24日在山东青州开展。194件(套)长沙马王堆汉墓出土的珍贵文物集中亮相，涵盖漆器、陶器、简牍、帛画、丝织品等多个门类。",
-        "1972年至1974年发掘的长沙马王堆三座西汉古墓，是20世纪中国乃至世界上最重大的考古发现之一。",
-        "本次展览设自然相生、生生不息、彼岸新生三个单元，循着古人的思想脉络徐徐铺展。一件件文物承载着生者的祈愿，彰显汉代文明独有的生命关怀与超越精神，回应了生与死这一人类终极命题。",
-        "展览策展人付卫杰介绍，本次展览沿用汉代标志性红黑主色调。策展团队跳出传统展览叙事框架，在敬畏文物本体、恪守学术底色的基础上，营造清新疏朗的展陈氛围，带领观众回望汉初盛世图景，触摸鲜活厚重的汉代人文精神。",
-        "“帛画绘天地流转，简牍载千年哲思，漆器藏万物意趣。展览中的一器一物，都是古人观照天地、思考生命的见证，静静诉说着华夏文明源远流长的生命智慧。”付卫杰说。"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "中新网·国内要闻"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/ac20278f675d3afc5fe0f55a9",
-        "original": "https://www.chinanews.com.cn/cul/2026/11-24/10737084.shtml"
-      },
-      "publishedAt": "2026-11-24T09:46:56.000Z",
-      "discoveredAt": "2026-11-24T09:58:49.404Z",
-      "category": "money",
-      "tags": [
-        "国内前沿",
-        "政策/监管",
-        "行业动态",
-        "产品更新",
-        "现象/趋势"
-      ],
-      "score": 96,
-      "selected": true,
-      "reason": "本土产业信号：关注「百余件长沙马王堆汉墓出土文物在山东青州集结展…」释放的国内政策导向与本土供应链竞争格局。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/ac20278f675d3afc5fe0f55a9"
-      }
-    },
-    {
-      "id": "a8ed2ebd9975ac9a636a74e33",
-      "title": "【独立创造】Deskbell：面向桌面零碎问题设计的轻量级 AI 浮窗助手",
-      "originalTitle": null,
-      "summary": "日常使用电脑时，无论是处理常规办公文档，还是正在专注推进开发与创作任务，桌面上总会不时冒出一些需要当场确认的零碎问题——比如突然弹出一串陌生的英文系统提示、遇到拿不准的软件配置选项、看到报错信息不知如何应对，或是临时想查一个专业术语、顺手润色两句话。 面对这类单点问题，我们的核心诉求其实很简单：当场问清楚，然后立刻回到手头正在做的事情上。但在现有的工具形态下，这个看似微小的动作往往不够顺手。",
-      "content": "日常使用电脑时，无论是处理常规办公文档，还是正在专注推进开发与创作任务，桌面上总会不时冒出一些需要当场确认的零碎问题——比如突然弹出一串陌生的英文系统提示、遇到拿不准的软件配置选项、看到报错信息不知如何应对，或是临时想查一个专业术语、顺手润色两句话。\n\n面对这类单点问题，我们的核心诉求其实很简单：当场问清楚，然后立刻回到手头正在做的事情上。但在现有的工具形态下，这个看似微小的动作往往不够顺手。\n\n目前在电脑上调用 AI，最常见的无非是两条路径，但它们在应对桌面零碎疑问时都存在明显的错位：\n\n第一种是打开浏览器找网页端 AI。这需要先切出当前工作窗口、新建或翻找标签页，遇到界面问题还得手动截图再粘贴上传，很容易打断原本的专注节奏。更重要的是，网页端根本不了解本机的桌面环境，很多时候用户自己也不清楚该给它补充哪些背景信息，来回描述反而更费时间。\n\n第二种是打开功能完备的重型 AI Agent 软件（例如 Codex、WorkBuddy 这类工作台）。这类工具专为复杂任务与深度工作流打造，能力很强，但每次提问前往往需要先选定项目目录、新建会话、挑选模型与思考等级；如果图省事直接在正在跑主线任务的窗口里插问一句无关小事，又容易污染原有的长上下文。仅仅为了确认一两个桌面上的零碎问题，每次都走这样一套流程，未免显得太重了。\n\n基于这个日常工作流中的痛点，我做了一个叫 Deskbell（ https://deskbellai.com/ ）的轻量级桌面 AI 工具。它的设计逻辑很纯粹——就像放在办公桌手边的一只按铃，平时安静驻留在系统后台，不占视线；需要时按一下就能原地响应，问完即走。\n\n围绕“桌面即时提问”这一高频场景，Deskbell 提供了两种最直接的交互方式：\n\n在任何应用界面下，按下快捷键 Control + Option + Space，即可在当前屏幕上方直接呼出一个轻量、半透明的对话浮窗（体验上类似于 macOS 的 Spotlight）。临时查个概念、核对一条命令、快速改写一段回复，几秒钟看完结果就能直接关掉浮窗，全程无需切换窗口。\n\n如果问题就出现在眼前的屏幕上——比如首次打开软件弹出的英文安全验证框、莫名其妙白屏的窗口，或是报错弹窗，无需手敲报错原文，直接按下 Control + Option + A 框住那块画面就能发起提问，同时也支持直接语音输入。\n\nDeskbell 会直接读取框选区域的画面细节（包括窗口角落里肉眼容易忽略的小字提示），当场给出逐句解释与具体的排查步骤。确认完怎么处理，随手关掉浮窗即可继续手头的工作。",
-      "paragraphs": [
-        "日常使用电脑时，无论是处理常规办公文档，还是正在专注推进开发与创作任务，桌面上总会不时冒出一些需要当场确认的零碎问题——比如突然弹出一串陌生的英文系统提示、遇到拿不准的软件配置选项、看到报错信息不知如何应对，或是临时想查一个专业术语、顺手润色两句话。",
-        "面对这类单点问题，我们的核心诉求其实很简单：当场问清楚，然后立刻回到手头正在做的事情上。但在现有的工具形态下，这个看似微小的动作往往不够顺手。",
-        "目前在电脑上调用 AI，最常见的无非是两条路径，但它们在应对桌面零碎疑问时都存在明显的错位：",
-        "第一种是打开浏览器找网页端 AI。这需要先切出当前工作窗口、新建或翻找标签页，遇到界面问题还得手动截图再粘贴上传，很容易打断原本的专注节奏。更重要的是，网页端根本不了解本机的桌面环境，很多时候用户自己也不清楚该给它补充哪些背景信息，来回描述反而更费时间。",
-        "第二种是打开功能完备的重型 AI Agent 软件（例如 Codex、WorkBuddy 这类工作台）。这类工具专为复杂任务与深度工作流打造，能力很强，但每次提问前往往需要先选定项目目录、新建会话、挑选模型与思考等级；如果图省事直接在正在跑主线任务的窗口里插问一句无关小事，又容易污染原有的长上下文。仅仅为了确认一两个桌面上的零碎问题，每次都走这样一套流程，未免显得太重了。",
-        "基于这个日常工作流中的痛点，我做了一个叫 Deskbell（ https://deskbellai.com/ ）的轻量级桌面 AI 工具。它的设计逻辑很纯粹——就像放在办公桌手边的一只按铃，平时安静驻留在系统后台，不占视线；需要时按一下就能原地响应，问完即走。",
-        "围绕“桌面即时提问”这一高频场景，Deskbell 提供了两种最直接的交互方式：",
-        "在任何应用界面下，按下快捷键 Control + Option + Space，即可在当前屏幕上方直接呼出一个轻量、半透明的对话浮窗（体验上类似于 macOS 的 Spotlight）。临时查个概念、核对一条命令、快速改写一段回复，几秒钟看完结果就能直接关掉浮窗，全程无需切换窗口。",
-        "如果问题就出现在眼前的屏幕上——比如首次打开软件弹出的英文安全验证框、莫名其妙白屏的窗口，或是报错弹窗，无需手敲报错原文，直接按下 Control + Option + A 框住那块画面就能发起提问，同时也支持直接语音输入。",
-        "Deskbell 会直接读取框选区域的画面细节（包括窗口角落里肉眼容易忽略的小字提示），当场给出逐句解释与具体的排查步骤。确认完怎么处理，随手关掉浮窗即可继续手头的工作。"
+        "用 CodeAgent 写前端的人大概都经历过这个场面：你让它给导航栏加几个图标，它非常自信地给你返回一排 🏠 📊 ⚙️ 👤。你让它“换成正经图标”，它开始瞎编 SVG path，渲染出来是一坨看不出是什么的曲线。",
+        "这事不能全怪模型。它手里根本没有图标数据，能做的只有两件事：找最接近的 emoji，或者凭印象编一个 path。",
+        "icons 把 react-icons 全量 31 个集合、50,934 个图标编译进了单个可执行文件(18MB)。启动后内置 MCP 服务器监听 9393 端口，Cursor / Claude Desktop / TRAE 配一行就能接上：",
+        "{ \"mcpServers\": { \"icons\": { \"url\": \"http://127.0.0.1:9393/mcp\" } } }",
+        "Windows 出安装包，macOS / Linux 未验证。仓库：https://github.com/limengwei/icons"
       ],
       "originalContent": null,
       "source": {
         "name": "V2EX·独立创造与副业变现"
       },
       "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a8ed2ebd9975ac9a636a74e33",
-        "original": "https://www.v2ex.com/t/1259514#reply0"
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a6a664890a13c0542147a9cac",
+        "original": "https://www.v2ex.com/t/1259595#reply2"
       },
-      "publishedAt": "2026-11-24T09:45:17.000Z",
-      "discoveredAt": "2026-11-24T09:59:12.968Z",
+      "publishedAt": "2026-11-25T00:03:51.000Z",
+      "discoveredAt": "2026-11-25T01:59:01.310Z",
       "category": "money",
       "tags": [
         "搞钱变现",
@@ -990,12 +997,12 @@
         "编码",
         "产品更新"
       ],
-      "score": 94,
+      "score": 93,
       "selected": true,
-      "reason": "V2EX精选研判：聚焦「Deskbell：面向桌面零碎问题设计的轻量…」的一手事实与行业演进信号。",
+      "reason": "生产力范式转移：聚焦「别再让 AI 用 emoji 当图标啦」在智能体自主规划与工具链协同上的演进。",
       "attribution": {
         "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a8ed2ebd9975ac9a636a74e33"
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a6a664890a13c0542147a9cac"
       }
     }
   ]
