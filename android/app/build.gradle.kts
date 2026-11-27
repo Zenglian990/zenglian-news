@@ -12,8 +12,8 @@ android {
         applicationId = "com.aihot.news"
         minSdk = 26
         targetSdk = 35
-        versionCode = 31
-        versionName = "3.1.0"
+        versionCode = 32
+        versionName = "3.1.1"
     }
 
     buildTypes {

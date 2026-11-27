@@ -5,6 +5,7 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import androidx.activity.ComponentActivity
+import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.BorderStroke
@@ -56,8 +57,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.compose.ui.window.Dialog
-import androidx.compose.ui.window.DialogProperties
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import kotlinx.coroutines.Dispatchers
@@ -574,6 +573,7 @@ fun ZenglianNewsApp() {
     }
 
     MaterialTheme(colorScheme = colorScheme) {
+    Box(modifier = Modifier.fillMaxSize()) {
     Scaffold(
         containerColor = palette.bgPrimary,
         topBar = {
@@ -749,15 +749,18 @@ fun ZenglianNewsApp() {
         }
     }
 
-    // 全屏沉浸式双语精读器
+    // 全屏沉浸式双语精读器（同窗口覆盖层，共享系统导航栏安全区）
     activeArticle?.let { article ->
-        FullScreenReaderDialog(
-            palette = palette,
-            item = article,
-            isBookmarked = bookmarkedItems.any { it.id == article.id },
-            onToggleBookmark = { toggleBookmark(article) },
-            onDismiss = { activeArticle = null }
-        )
+        key(article.id) {
+            FullScreenReaderScreen(
+                palette = palette,
+                item = article,
+                isBookmarked = bookmarkedItems.any { it.id == article.id },
+                onToggleBookmark = { toggleBookmark(article) },
+                onDismiss = { activeArticle = null }
+            )
+        }
+    }
     }
 
     if (showServerDialog) {
@@ -838,7 +841,7 @@ fun ExecutiveMasthead(
                         border = BorderStroke(0.8.dp, Color(0xFFF59E0B).copy(alpha = 0.6f))
                     ) {
                         Text(
-                            text = "PRO v3.1",
+                            text = "PRO v3.1.1",
                             color = Color(0xFFFBBF24),
                             fontSize = 9.5.sp,
                             fontWeight = FontWeight.Bold,
@@ -1473,10 +1476,12 @@ fun EditorialNewsCard(
 
 /**
  * 全屏沉浸式双语精读器 (Full-Screen Editorial Reader)
- * 支持「双语对照」「中文精编」「外媒原文」三态切换
+ * 采用主窗口全屏覆盖层 + Scaffold 安全区架构，彻底避免独立 Dialog 窗口在 Android 15 / 三键导航栏上
+ * 丢失 navigationBarsPadding 导致底部按钮被遮挡的问题；同时完整拦截系统返回键。
+ * 支持「双语对照」「中文精编」「外媒原文」三态切换。
  */
 @Composable
-fun FullScreenReaderDialog(
+fun FullScreenReaderScreen(
     palette: ExecutivePalette,
     item: NewsItem,
     isBookmarked: Boolean,
@@ -1503,281 +1508,322 @@ fun FullScreenReaderDialog(
     val enParagraphs = remember(item) {
         item.originalContent?.split("\n\n")?.map { it.trim() }?.filter { it.isNotBlank() }.orEmpty()
     }
+    val origUrl = item.links?.original ?: item.links?.aihot
 
-    Dialog(
-        onDismissRequest = onDismiss,
-        properties = DialogProperties(usePlatformDefaultWidth = false)
+    // 拦截系统三键返回 / 手势侧滑返回，平滑关闭阅读器回到列表
+    BackHandler(enabled = true) {
+        onDismiss()
+    }
+
+    // 外层不透明 Surface 拦截触摸事件，防止点击穿透到底层列表
+    Surface(
+        modifier = Modifier.fillMaxSize(),
+        color = palette.bgPrimary
     ) {
-        Surface(
+        Scaffold(
             modifier = Modifier.fillMaxSize(),
-            color = palette.bgPrimary
-        ) {
-            Column(modifier = Modifier.fillMaxSize()) {
-                // 顶部阅读器导航栏（包含系统状态栏安全内边距，适配刘海屏/挖孔屏）
-                Row(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .background(palette.mastheadBg)
-                        .statusBarsPadding()
-                        .padding(horizontal = 12.dp, vertical = 10.dp),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.SpaceBetween
-                ) {
-                    Row(verticalAlignment = Alignment.CenterVertically) {
-                        IconButton(onClick = onDismiss) {
-                            Icon(
-                                imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                                contentDescription = "返回",
-                                tint = Color.White
-                            )
-                        }
-                        Column {
-                            Text(
-                                text = item.source?.name ?: parsed.kicker,
-                                color = Color(0xFFFBBF24),
-                                fontSize = 13.sp,
-                                fontWeight = FontWeight.Bold
-                            )
-                            Text(
-                                text = "$relTime · AI 价值评分 $displayScore",
-                                color = Color(0xFF94A3B8),
-                                fontSize = 11.sp
-                            )
-                        }
-                    }
-
-                    Row(verticalAlignment = Alignment.CenterVertically) {
-                        IconButton(onClick = onToggleBookmark) {
-                            Icon(
-                                imageVector = if (isBookmarked) Icons.Default.Bookmark else Icons.Default.BookmarkBorder,
-                                contentDescription = "收藏",
-                                tint = if (isBookmarked) Color(0xFFFBBF24) else Color.White
-                            )
-                        }
-                    }
-                }
-
-                // 语言模式切换栏（当存在外媒原文时显示）
-                if (hasOriginal) {
+            containerColor = palette.bgPrimary,
+            contentWindowInsets = WindowInsets(0, 0, 0, 0),
+            topBar = {
+                Column(modifier = Modifier.fillMaxWidth()) {
+                    // 顶部阅读器导航栏（包含系统状态栏安全内边距，适配刘海屏/挖孔屏）
                     Row(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .background(palette.bgSecondary)
-                            .padding(horizontal = 16.dp, vertical = 8.dp),
-                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                            .background(palette.mastheadBg)
+                            .statusBarsPadding()
+                            .padding(horizontal = 12.dp, vertical = 10.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.SpaceBetween
                     ) {
-                        listOf(
-                            0 to "中英双语对照",
-                            1 to "中文深度精编",
-                            2 to "外媒英文原文"
-                        ).forEach { (mode, label) ->
-                            val selected = readingMode == mode
-                            Surface(
-                                color = if (selected) palette.accentEmeraldBg else palette.chipBg,
-                                shape = RoundedCornerShape(6.dp),
-                                border = BorderStroke(
-                                    0.8.dp,
-                                    if (selected) palette.accentEmerald else Color.Transparent
-                                ),
-                                modifier = Modifier
-                                    .weight(1f)
-                                    .clickable { readingMode = mode }
-                            ) {
-                                Box(
-                                    contentAlignment = Alignment.Center,
-                                    modifier = Modifier.padding(vertical = 6.dp)
-                                ) {
-                                    Text(
-                                        text = label,
-                                        color = if (selected) palette.accentEmerald else palette.chipText,
-                                        fontSize = 12.sp,
-                                        fontWeight = if (selected) FontWeight.Bold else FontWeight.Medium
-                                    )
-                                }
-                            }
-                        }
-                    }
-                    HorizontalDivider(thickness = 0.6.dp, color = palette.cardBorder)
-                }
-
-                // 沉浸式正文滚动区
-                Column(
-                    modifier = Modifier
-                        .weight(1f)
-                        .verticalScroll(rememberScrollState())
-                        .padding(horizontal = 18.dp, vertical = 16.dp),
-                    verticalArrangement = Arrangement.spacedBy(14.dp)
-                ) {
-                    // 标题区
-                    Text(
-                        text = if (readingMode == 2 && hasOriginal) item.originalTitle!! else parsed.cleanTitle,
-                        color = palette.textPrimary,
-                        fontSize = 21.sp,
-                        fontWeight = FontWeight.ExtraBold,
-                        lineHeight = 29.sp
-                    )
-
-                    if (readingMode != 2 && hasOriginal) {
-                        Text(
-                            text = item.originalTitle!!,
-                            color = palette.textMuted,
-                            fontSize = 13.5.sp,
-                            fontStyle = FontStyle.Italic,
-                            lineHeight = 19.sp
-                        )
-                    }
-
-                    // 商业与技术核心研判导读框
-                    if (!item.reason.isNullOrBlank()) {
-                        Surface(
-                            color = palette.insightBg,
-                            shape = RoundedCornerShape(10.dp),
-                            border = BorderStroke(0.8.dp, palette.accentGold.copy(alpha = 0.4f)),
-                            modifier = Modifier.fillMaxWidth()
-                        ) {
-                            Column(modifier = Modifier.padding(14.dp)) {
-                                Text(
-                                    text = "EXECUTIVE TAKEAWAY · 核心投研研判",
-                                    color = palette.accentGold,
-                                    fontSize = 10.5.sp,
-                                    fontWeight = FontWeight.ExtraBold,
-                                    fontFamily = FontFamily.Monospace
-                                )
-                                Spacer(modifier = Modifier.height(6.dp))
-                                Text(
-                                    text = item.reason,
-                                    color = palette.textPrimary,
-                                    fontSize = 14.sp,
-                                    fontWeight = FontWeight.Medium,
-                                    lineHeight = 21.sp
-                                )
-                            }
-                        }
-                    }
-
-                    HorizontalDivider(thickness = 0.6.dp, color = palette.cardBorder)
-
-                    // 正文段落渲染
-                    when (readingMode) {
-                        0 -> {
-                            // 双语同屏深度精读
-                            Text(
-                                text = "中文深度精编",
-                                color = palette.accentEmerald,
-                                fontSize = 12.sp,
-                                fontWeight = FontWeight.Bold
-                            )
-                            zhParagraphs.forEach { p ->
-                                Text(
-                                    text = p,
-                                    color = palette.textPrimary,
-                                    fontSize = 16.sp,
-                                    lineHeight = 26.sp
-                                )
-                            }
-                            if (enParagraphs.isNotEmpty()) {
-                                Spacer(modifier = Modifier.height(8.dp))
-                                HorizontalDivider(thickness = 0.6.dp, color = palette.cardBorder)
-                                Spacer(modifier = Modifier.height(4.dp))
-                                Text(
-                                    text = "ORIGINAL ENGLISH DISPATCH · 外媒一手原文",
-                                    color = palette.accentGold,
-                                    fontSize = 11.5.sp,
-                                    fontWeight = FontWeight.Bold,
-                                    fontFamily = FontFamily.Monospace
-                                )
-                                enParagraphs.forEach { ep ->
-                                    Text(
-                                        text = ep,
-                                        color = palette.textSecondary,
-                                        fontSize = 15.sp,
-                                        lineHeight = 24.sp
-                                    )
-                                }
-                            }
-                        }
-
-                        1 -> {
-                            zhParagraphs.forEach { p ->
-                                Text(
-                                    text = p,
-                                    color = palette.textPrimary,
-                                    fontSize = 16.5.sp,
-                                    lineHeight = 27.sp
-                                )
-                            }
-                        }
-
-                        2 -> {
-                            val targetParas = if (enParagraphs.isNotEmpty()) enParagraphs else zhParagraphs
-                            targetParas.forEach { ep ->
-                                Text(
-                                    text = ep,
-                                    color = palette.textPrimary,
-                                    fontSize = 16.sp,
-                                    lineHeight = 25.sp
-                                )
-                            }
-                        }
-                    }
-
-                    Spacer(modifier = Modifier.height(20.dp))
-                }
-
-                // 底部固定操作舱（包含手势导航栏安全内边距）
-                Surface(
-                    color = palette.bgSecondary,
-                    border = BorderStroke(0.6.dp, palette.cardBorder),
-                    modifier = Modifier.fillMaxWidth()
-                ) {
-                    Row(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .navigationBarsPadding()
-                            .padding(horizontal = 16.dp, vertical = 12.dp),
-                        horizontalArrangement = Arrangement.spacedBy(10.dp),
-                        verticalAlignment = Alignment.CenterVertically
-                    ) {
-                        OutlinedButton(
-                            onClick = onToggleBookmark,
-                            border = BorderStroke(1.dp, palette.cardBorder),
-                            shape = RoundedCornerShape(8.dp),
+                        Row(
+                            verticalAlignment = Alignment.CenterVertically,
                             modifier = Modifier.weight(1f)
                         ) {
-                            Icon(
-                                imageVector = if (isBookmarked) Icons.Default.Bookmark else Icons.Default.BookmarkBorder,
-                                contentDescription = null,
-                                tint = if (isBookmarked) palette.accentGold else palette.textSecondary,
-                                modifier = Modifier.size(16.dp)
-                            )
-                            Spacer(modifier = Modifier.width(6.dp))
-                            Text(
-                                text = if (isBookmarked) "已存书签" else "加入书签",
-                                color = palette.textPrimary,
-                                fontWeight = FontWeight.SemiBold
-                            )
+                            IconButton(onClick = onDismiss) {
+                                Icon(
+                                    imageVector = Icons.AutoMirrored.Filled.ArrowBack,
+                                    contentDescription = "返回",
+                                    tint = Color.White
+                                )
+                            }
+                            Column(modifier = Modifier.weight(1f)) {
+                                Text(
+                                    text = item.source?.name ?: parsed.kicker,
+                                    color = Color(0xFFFBBF24),
+                                    fontSize = 13.sp,
+                                    fontWeight = FontWeight.Bold,
+                                    maxLines = 1,
+                                    overflow = TextOverflow.Ellipsis
+                                )
+                                Text(
+                                    text = "$relTime · AI 价值评分 $displayScore",
+                                    color = Color(0xFF94A3B8),
+                                    fontSize = 11.sp,
+                                    maxLines = 1,
+                                    overflow = TextOverflow.Ellipsis
+                                )
+                            }
                         }
 
-                        val origUrl = item.links?.original ?: item.links?.aihot
-                        if (!origUrl.isNullOrBlank()) {
-                            Button(
-                                onClick = {
-                                    context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(origUrl)))
-                                },
-                                colors = ButtonDefaults.buttonColors(
-                                    containerColor = Color(0xFF0F766E),
-                                    contentColor = Color.White
-                                ),
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            IconButton(onClick = onToggleBookmark) {
+                                Icon(
+                                    imageVector = if (isBookmarked) Icons.Default.Bookmark else Icons.Default.BookmarkBorder,
+                                    contentDescription = "收藏",
+                                    tint = if (isBookmarked) Color(0xFFFBBF24) else Color.White
+                                )
+                            }
+                        }
+                    }
+
+                    // 语言模式切换栏（当存在外媒原文时显示）
+                    if (hasOriginal) {
+                        Row(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .background(palette.bgSecondary)
+                                .padding(horizontal = 16.dp, vertical = 8.dp),
+                            horizontalArrangement = Arrangement.spacedBy(8.dp)
+                        ) {
+                            listOf(
+                                0 to "中英双语对照",
+                                1 to "中文深度精编",
+                                2 to "外媒英文原文"
+                            ).forEach { (mode, label) ->
+                                val selected = readingMode == mode
+                                Surface(
+                                    color = if (selected) palette.accentEmeraldBg else palette.chipBg,
+                                    shape = RoundedCornerShape(6.dp),
+                                    border = BorderStroke(
+                                        0.8.dp,
+                                        if (selected) palette.accentEmerald else Color.Transparent
+                                    ),
+                                    modifier = Modifier
+                                        .weight(1f)
+                                        .clickable { readingMode = mode }
+                                ) {
+                                    Box(
+                                        contentAlignment = Alignment.Center,
+                                        modifier = Modifier.padding(vertical = 6.dp)
+                                    ) {
+                                        Text(
+                                            text = label,
+                                            color = if (selected) palette.accentEmerald else palette.chipText,
+                                            fontSize = 12.sp,
+                                            fontWeight = if (selected) FontWeight.Bold else FontWeight.Medium,
+                                            maxLines = 1,
+                                            overflow = TextOverflow.Ellipsis
+                                        )
+                                    }
+                                }
+                            }
+                        }
+                        HorizontalDivider(thickness = 0.6.dp, color = palette.cardBorder)
+                    }
+                }
+            },
+            bottomBar = {
+                // 底部固定操作舱：与主页面同窗共享系统导航栏 Insets，精准避让三键导航栏与全面屏小白条
+                Surface(
+                    color = palette.bgSecondary,
+                    tonalElevation = 0.dp,
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Column(modifier = Modifier.fillMaxWidth()) {
+                        HorizontalDivider(thickness = 0.6.dp, color = palette.cardBorder)
+                        Row(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .windowInsetsPadding(
+                                    WindowInsets.navigationBars.only(
+                                        WindowInsetsSides.Horizontal + WindowInsetsSides.Bottom
+                                    )
+                                )
+                                .padding(horizontal = 16.dp, vertical = 12.dp),
+                            horizontalArrangement = Arrangement.spacedBy(10.dp),
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            OutlinedButton(
+                                onClick = onToggleBookmark,
+                                border = BorderStroke(1.dp, palette.cardBorder),
                                 shape = RoundedCornerShape(8.dp),
-                                modifier = Modifier.weight(1.3f)
+                                contentPadding = PaddingValues(horizontal = 12.dp, vertical = 10.dp),
+                                modifier = Modifier
+                                    .weight(1f)
+                                    .heightIn(min = 46.dp)
                             ) {
-                                Icon(Icons.Default.OpenInNew, contentDescription = null, modifier = Modifier.size(16.dp))
+                                Icon(
+                                    imageVector = if (isBookmarked) Icons.Default.Bookmark else Icons.Default.BookmarkBorder,
+                                    contentDescription = null,
+                                    tint = if (isBookmarked) palette.accentGold else palette.textSecondary,
+                                    modifier = Modifier.size(16.dp)
+                                )
                                 Spacer(modifier = Modifier.width(6.dp))
-                                Text("直达源站原文", fontWeight = FontWeight.Bold)
+                                Text(
+                                    text = if (isBookmarked) "已存书签" else "加入书签",
+                                    color = palette.textPrimary,
+                                    fontWeight = FontWeight.SemiBold,
+                                    maxLines = 1,
+                                    softWrap = false
+                                )
+                            }
+
+                            if (!origUrl.isNullOrBlank()) {
+                                Button(
+                                    onClick = {
+                                        runCatching {
+                                            context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(origUrl)))
+                                        }
+                                    },
+                                    colors = ButtonDefaults.buttonColors(
+                                        containerColor = Color(0xFF0F766E),
+                                        contentColor = Color.White
+                                    ),
+                                    shape = RoundedCornerShape(8.dp),
+                                    contentPadding = PaddingValues(horizontal = 12.dp, vertical = 10.dp),
+                                    modifier = Modifier
+                                        .weight(1.3f)
+                                        .heightIn(min = 46.dp)
+                                ) {
+                                    Icon(Icons.Default.OpenInNew, contentDescription = null, modifier = Modifier.size(16.dp))
+                                    Spacer(modifier = Modifier.width(6.dp))
+                                    Text(
+                                        text = "直达源站原文",
+                                        fontWeight = FontWeight.Bold,
+                                        maxLines = 1,
+                                        softWrap = false
+                                    )
+                                }
                             }
                         }
                     }
                 }
+            }
+        ) { innerPadding ->
+            // 沉浸式正文滚动区
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(innerPadding)
+                    .verticalScroll(rememberScrollState())
+                    .padding(horizontal = 18.dp, vertical = 16.dp),
+                verticalArrangement = Arrangement.spacedBy(14.dp)
+            ) {
+                // 标题区
+                Text(
+                    text = if (readingMode == 2 && hasOriginal) item.originalTitle!! else parsed.cleanTitle,
+                    color = palette.textPrimary,
+                    fontSize = 21.sp,
+                    fontWeight = FontWeight.ExtraBold,
+                    lineHeight = 29.sp
+                )
+
+                if (readingMode != 2 && hasOriginal) {
+                    Text(
+                        text = item.originalTitle!!,
+                        color = palette.textMuted,
+                        fontSize = 13.5.sp,
+                        fontStyle = FontStyle.Italic,
+                        lineHeight = 19.sp
+                    )
+                }
+
+                // 商业与技术核心研判导读框
+                if (!item.reason.isNullOrBlank()) {
+                    Surface(
+                        color = palette.insightBg,
+                        shape = RoundedCornerShape(10.dp),
+                        border = BorderStroke(0.8.dp, palette.accentGold.copy(alpha = 0.4f)),
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Column(modifier = Modifier.padding(14.dp)) {
+                            Text(
+                                text = "EXECUTIVE TAKEAWAY · 核心投研研判",
+                                color = palette.accentGold,
+                                fontSize = 10.5.sp,
+                                fontWeight = FontWeight.ExtraBold,
+                                fontFamily = FontFamily.Monospace
+                            )
+                            Spacer(modifier = Modifier.height(6.dp))
+                            Text(
+                                text = item.reason,
+                                color = palette.textPrimary,
+                                fontSize = 14.sp,
+                                fontWeight = FontWeight.Medium,
+                                lineHeight = 21.sp
+                            )
+                        }
+                    }
+                }
+
+                HorizontalDivider(thickness = 0.6.dp, color = palette.cardBorder)
+
+                // 正文段落渲染
+                when (readingMode) {
+                    0 -> {
+                        // 双语同屏深度精读
+                        Text(
+                            text = "中文深度精编",
+                            color = palette.accentEmerald,
+                            fontSize = 12.sp,
+                            fontWeight = FontWeight.Bold
+                        )
+                        zhParagraphs.forEach { p ->
+                            Text(
+                                text = p,
+                                color = palette.textPrimary,
+                                fontSize = 16.sp,
+                                lineHeight = 26.sp
+                            )
+                        }
+                        if (enParagraphs.isNotEmpty()) {
+                            Spacer(modifier = Modifier.height(8.dp))
+                            HorizontalDivider(thickness = 0.6.dp, color = palette.cardBorder)
+                            Spacer(modifier = Modifier.height(4.dp))
+                            Text(
+                                text = "ORIGINAL ENGLISH DISPATCH · 外媒一手原文",
+                                color = palette.accentGold,
+                                fontSize = 11.5.sp,
+                                fontWeight = FontWeight.Bold,
+                                fontFamily = FontFamily.Monospace
+                            )
+                            enParagraphs.forEach { ep ->
+                                Text(
+                                    text = ep,
+                                    color = palette.textSecondary,
+                                    fontSize = 15.sp,
+                                    lineHeight = 24.sp
+                                )
+                            }
+                        }
+                    }
+
+                    1 -> {
+                        zhParagraphs.forEach { p ->
+                            Text(
+                                text = p,
+                                color = palette.textPrimary,
+                                fontSize = 16.5.sp,
+                                lineHeight = 27.sp
+                            )
+                        }
+                    }
+
+                    2 -> {
+                        val targetParas = if (enParagraphs.isNotEmpty()) enParagraphs else zhParagraphs
+                        targetParas.forEach { ep ->
+                            Text(
+                                text = ep,
+                                color = palette.textPrimary,
+                                fontSize = 16.sp,
+                                lineHeight = 25.sp
+                            )
+                        }
+                    }
+                }
+
+                Spacer(modifier = Modifier.height(24.dp))
             }
         }
     }

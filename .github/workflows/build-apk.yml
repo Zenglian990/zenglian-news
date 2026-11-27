@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   build-apk:
-    name: Build ZenglianNews v3.0.0 APK
+    name: Build ZenglianNews v3.1.1 APK
     runs-on: ubuntu-latest
     env:
       ANDROID_HOME: /usr/local/lib/android/sdk
@@ -42,11 +42,18 @@ jobs:
           chmod +x android/gradlew
           cd android
           ./gradlew assembleRelease --no-daemon
-          cp app/build/outputs/apk/release/app-release.apk ../ZenglianNews-v3.0.0-live.apk
-          cp app/build/outputs/apk/release/app-release.apk ../ZenglianNews-v3.1.0-pro.apk
+          cp app/build/outputs/apk/release/app-release.apk ../ZenglianNews-v3.1.1-pro.apk
 
-      - name: Upload APK to v3.0.0 GitHub Release
+      - name: Publish APK to v3.1.1 GitHub Release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release upload v3.0.0 ZenglianNews-v3.0.0-live.apk ZenglianNews-v3.1.0-pro.apk --clobber
+          if gh release view v3.1.1 >/dev/null 2>&1; then
+            gh release upload v3.1.1 ZenglianNews-v3.1.1-pro.apk --clobber
+            gh release edit v3.1.1 --latest
+          else
+            gh release create v3.1.1 ZenglianNews-v3.1.1-pro.apk \
+              --title "ZenglianNews Pro v3.1.1" \
+              --notes "修复文章详情页在 Android 15 / 底部三键导航栏机型上被系统导航栏遮挡、按钮点按不到的问题：将阅读器从独立 Dialog 窗口重构为主窗口全屏覆盖层，精准适配系统导航栏与状态栏安全区，并完整支持返回键关闭。" \
+              --latest
+          fi
