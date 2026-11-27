@@ -18,6 +18,21 @@ import { listTopicSummaries, loadTopicPage } from "@aihot/backend/publication/to
 import { registerFeedback } from "./feedback.ts";
 import { loadHot, loadStoryDetail, resolveStory } from "@aihot/backend/publication/stories";
 import { listReports, loadReport, reportNavigation, loadReportNavigation, loadReportMonth, type ReportKind } from "@aihot/backend/publication/reports";
+import {
+  fallbackHot,
+  fallbackItemAvailability,
+  fallbackItemDetail,
+  fallbackMobileFeed,
+  fallbackMobileReports,
+  fallbackPool,
+  fallbackReport,
+  fallbackReportList,
+  fallbackSiteStats,
+  fallbackTimeline,
+  fallbackTopicPage,
+  fallbackTopics,
+  withDbFallback,
+} from "@aihot/backend/publication/snapshot-fallback";
 import { looseQuery, sendJsonWithEtag, sendProblem } from "../http/respond.ts";
 
 type Handler = (req: FastifyRequest, reply: FastifyReply) => Promise<unknown>;
@@ -65,7 +80,10 @@ export function registerSite(app: FastifyInstance) {
     const category = q.category && isCategoryKey(q.category) ? (q.category as CategoryKey) : null;
     const search = q.q?.trim() ? q.q.trim().slice(0, 200) : null;
     const limit = Math.min(Math.max(Number(q.limit) || 25, 1), 40);
-    const data = await loadMobileFeed({ category, q: search, limit });
+    const data = await withDbFallback(
+      () => loadMobileFeed({ category, q: search, limit }),
+      () => fallbackMobileFeed({ category, q: search, limit }),
+    );
     return reply
       .header("Access-Control-Allow-Origin", "*")
       .header("Cache-Control", "no-store, no-cache, must-revalidate")
@@ -73,7 +91,10 @@ export function registerSite(app: FastifyInstance) {
   }));
 
   app.get("/api/site/mobile/reports", siteHandler(async (_req, reply) => {
-    const data = await loadMobileReports();
+    const data = await withDbFallback(
+      () => loadMobileReports(),
+      () => fallbackMobileReports(),
+    );
     return reply
       .header("Access-Control-Allow-Origin", "*")
       .header("Cache-Control", "no-store, no-cache, must-revalidate")
@@ -85,13 +106,19 @@ export function registerSite(app: FastifyInstance) {
     const filters = parseFilters(q);
     const limit = Math.min(Math.max(Number(q.limit) || 20, 1), 40);
     const unfiltered = filters.channel === "all" && !filters.category && !filters.tag && !q.cursor;
-    const [data, hot] = await Promise.all([
-      loadTimeline({ ...filters, cursor: q.cursor || null, limit }),
-      unfiltered ? loadHotStrip() : null,
-    ]);
+    const payload = await withDbFallback(
+      async () => {
+        const [data, hot] = await Promise.all([
+          loadTimeline({ ...filters, cursor: q.cursor || null, limit }),
+          unfiltered ? loadHotStrip() : null,
+        ]);
+        return { ...data, hot };
+      },
+      () => fallbackTimeline({ ...filters, limit }),
+    );
     // Any cache in front and the home page built from this answer share one absolute deadline.
     reply.header("X-Accel-Expires", `@${Math.floor(Date.now() / 1000) + 60}`);
-    return sendJsonWithEtag(req, reply, { ...data, hot }, { etagPrefix: "tl", cacheControl: "public, max-age=60, s-maxage=60" });
+    return sendJsonWithEtag(req, reply, payload, { etagPrefix: "tl", cacheControl: "public, max-age=60, s-maxage=60" });
   }));
 
   app.get("/api/site/pool", siteHandler(async (req, reply) => {
@@ -100,13 +127,20 @@ export function registerSite(app: FastifyInstance) {
     const page = Math.min(Math.max(Number(q.page) || 1, 1), 50);
     const search = q.q?.trim() ? q.q.trim().slice(0, 200) : null;
     const tab = q.tab === "relevance" ? "relevance" : "time";
-    return sendJsonWithEtag(req, reply, await loadPool({ ...filters, q: search, tab, page }), { etagPrefix: "pool", cacheControl: "public, max-age=60, s-maxage=60" });
+    const data = await withDbFallback(
+      () => loadPool({ ...filters, q: search, tab, page }),
+      () => fallbackPool({ ...filters, q: search, tab, page }),
+    );
+    return sendJsonWithEtag(req, reply, data, { etagPrefix: "pool", cacheControl: "public, max-age=60, s-maxage=60" });
   }));
 
   app.get("/api/site/items/:id", siteHandler(async (req, reply) => {
     const id = (req.params as { id: string }).id;
     if (!/^[a-zA-Z0-9_-]{1,80}$/.test(id)) return sendProblem(req, reply, { status: 404, code: "not_found", detail: "item not found" });
-    const result = await loadItemDetail(id);
+    const result = await withDbFallback(
+      () => loadItemDetail(id),
+      () => fallbackItemDetail(id, "zh"),
+    );
     if (result.kind === "not_found") return sendProblem(req, reply, { status: 404, code: "not_found", detail: "item not found", cacheControl: "public, max-age=60" });
     return sendJsonWithEtag(req, reply, result.item, { etagPrefix: "item", cacheControl: "public, max-age=60, s-maxage=60" });
   }));
@@ -114,7 +148,10 @@ export function registerSite(app: FastifyInstance) {
   app.get("/api/site/items/:id/original", siteHandler(async (req, reply) => {
     const id = (req.params as { id: string }).id;
     if (!/^[a-zA-Z0-9_-]{1,80}$/.test(id)) return sendProblem(req, reply, { status: 404, code: "not_found", detail: "item not found" });
-    const result = await loadItemDetail(id, "original");
+    const result = await withDbFallback(
+      () => loadItemDetail(id, "original"),
+      () => fallbackItemDetail(id, "original"),
+    );
     if (result.kind === "not_found") return sendProblem(req, reply, { status: 404, code: "not_found", detail: "item not found", cacheControl: "public, max-age=60" });
     return sendJsonWithEtag(req, reply, result.item, { etagPrefix: "item-original", cacheControl: "public, max-age=60, s-maxage=60" });
   }));
@@ -132,13 +169,19 @@ export function registerSite(app: FastifyInstance) {
   }));
 
   app.get("/api/site/contact", siteHandler(async (req, reply) => {
-    const [contact, makerAvatar] = await Promise.all([loadContact(), loadMakerAvatar()]);
-    const body: SiteContact = { ...contact, makerAvatar };
+    const body: SiteContact = await withDbFallback(
+      async () => {
+        const [contact, makerAvatar] = await Promise.all([loadContact(), loadMakerAvatar()]);
+        return { ...contact, makerAvatar };
+      },
+      () => ({ wechatQr: null, feishuQr: null, makerAvatar: null }),
+    );
     return sendJsonWithEtag(req, reply, body, { etagPrefix: "contact", cacheControl: "public, max-age=300, s-maxage=300" });
   }));
 
   app.get("/api/site/stats", siteHandler(async (req, reply) => {
-    return sendJsonWithEtag(req, reply, await loadSiteStats(), { etagPrefix: "stats", cacheControl: "public, max-age=300, s-maxage=300" });
+    const data = await withDbFallback(() => loadSiteStats(), () => fallbackSiteStats());
+    return sendJsonWithEtag(req, reply, data, { etagPrefix: "stats", cacheControl: "public, max-age=300, s-maxage=300" });
   }));
 
   app.get("/api/site/changelog", siteHandler(async (req, reply) => {
@@ -148,16 +191,19 @@ export function registerSite(app: FastifyInstance) {
   app.get("/api/site/items/availability", siteHandler(async (req, reply) => {
     const ids = (looseQuery(req).ids ?? "").split(",").filter(Boolean);
     reply.header("Cache-Control", "no-store");
-    return reply.send(await itemAvailability(ids));
+    const data = await withDbFallback(() => itemAvailability(ids), () => fallbackItemAvailability(ids));
+    return reply.send(data);
   }));
 
   app.get("/api/site/topics", siteHandler(async (req, reply) => {
-    return sendJsonWithEtag(req, reply, await listTopicSummaries(), { etagPrefix: "topics", cacheControl: "public, max-age=300, s-maxage=300" });
+    const data = await withDbFallback(() => listTopicSummaries(), () => fallbackTopics());
+    return sendJsonWithEtag(req, reply, data, { etagPrefix: "topics", cacheControl: "public, max-age=300, s-maxage=300" });
   }));
 
   app.get("/api/site/topics/:slug", siteHandler(async (req, reply) => {
     const slug = (req.params as { slug: string }).slug;
-    const data = await loadTopicPage(slug, Number(looseQuery(req).page ?? 1));
+    const page = Number(looseQuery(req).page ?? 1);
+    const data = await withDbFallback(() => loadTopicPage(slug, page), () => fallbackTopicPage(slug, page));
     if (!data) return sendProblem(req, reply, { status: 404, code: "not_found", detail: "topic page not found", cacheControl: "public, max-age=60" });
     return sendJsonWithEtag(req, reply, data, { etagPrefix: "topic", cacheControl: "public, max-age=60, s-maxage=60" });
   }));
@@ -165,7 +211,7 @@ export function registerSite(app: FastifyInstance) {
   registerFeedback(app);
 
   app.get("/api/site/hot", siteHandler(async (req, reply) => {
-    const data = await loadHot();
+    const data = await withDbFallback(() => loadHot(), () => fallbackHot());
     return sendJsonWithEtag(req, reply, data, { etagPrefix: "hot", cacheControl: "public, max-age=30, s-maxage=30" });
   }));
 
@@ -184,7 +230,9 @@ export function registerSite(app: FastifyInstance) {
   app.get("/api/site/reports/:kind", siteHandler(async (req, reply) => {
     const kind = (req.params as { kind: string }).kind;
     if (!["daily", "weekly", "monthly"].includes(kind)) return sendProblem(req, reply, { status: 404, code: "not_found", detail: "unknown report kind" });
-    const body: ReportIndexResponse = { kind: kind as ReportKind, items: await listReports(kind as ReportKind) };
+    const k = kind as ReportKind;
+    const items = await withDbFallback(() => listReports(k), () => fallbackReportList(k));
+    const body: ReportIndexResponse = { kind: k, items };
     return sendJsonWithEtag(req, reply, body, { etagPrefix: "reports", cacheControl: "public, max-age=60, s-maxage=60" });
   }));
 
@@ -192,23 +240,39 @@ export function registerSite(app: FastifyInstance) {
   app.get("/api/site/reports/:kind/latest-page", siteHandler(async (req, reply) => {
     const kind = (req.params as { kind: string }).kind;
     if (!["daily", "weekly", "monthly"].includes(kind)) return sendProblem(req, reply, { status: 404, code: "not_found", detail: "unknown report kind" });
-    const index = await listReports(kind as ReportKind);
-    const report = index[0] ? await loadReport(kind as ReportKind, index[0].key) : null;
-    const body: ReportLatestPage = { index: reportNavigation(kind as ReportKind, index, report?.key ?? ""), report };
+    const k = kind as ReportKind;
+    const body: ReportLatestPage = await withDbFallback(
+      async () => {
+        const index = await listReports(k);
+        const report = index[0] ? await loadReport(k, index[0].key) : null;
+        return { index: reportNavigation(k, index, report?.key ?? ""), report };
+      },
+      async () => {
+        const index = await fallbackReportList(k);
+        const report = await fallbackReport(k);
+        return { index: reportNavigation(k, index, report.key), report };
+      },
+    );
     return sendJsonWithEtag(req, reply, body, { etagPrefix: "report-latest", cacheControl: "public, max-age=60, s-maxage=60" });
   }));
 
   app.get("/api/site/reports/:kind/navigation/:key", siteHandler(async (req, reply) => {
     const { kind, key } = req.params as { kind: string; key: string };
     if (!["daily", "weekly", "monthly"].includes(kind) || !/^\d{4}-(\d{2}(-\d{2})?|W\d{2})$/.test(key)) return sendProblem(req, reply, { status: 404, code: "not_found", detail: "report not found" });
-    const body: ReportNavigationResponse = { items: await loadReportNavigation(kind as ReportKind, key) };
+    const k = kind as ReportKind;
+    const items = await withDbFallback(
+      () => loadReportNavigation(k, key),
+      async () => reportNavigation(k, await fallbackReportList(k), key),
+    );
+    const body: ReportNavigationResponse = { items };
     return sendJsonWithEtag(req, reply, body, { etagPrefix: "report-navigation", cacheControl: "public, max-age=60, s-maxage=60" });
   }));
 
   app.get("/api/site/reports/daily/months/:month", siteHandler(async (req, reply) => {
     const { month } = req.params as { month: string };
     if (!/^\d{4}-(0[1-9]|1[0-2])$/.test(month)) return sendProblem(req, reply, { status: 404, code: "not_found", detail: "month not found" });
-    const body: ReportNavigationResponse = { items: await loadReportMonth("daily", month) };
+    const items = await withDbFallback(() => loadReportMonth("daily", month), () => fallbackReportList("daily"));
+    const body: ReportNavigationResponse = { items };
     return sendJsonWithEtag(req, reply, body, { etagPrefix: "report-month", cacheControl: "public, max-age=60, s-maxage=60" });
   }));
 
@@ -217,7 +281,8 @@ export function registerSite(app: FastifyInstance) {
     if (!["daily", "weekly", "monthly"].includes(kind) || !/^\d{4}-(\d{2}(-\d{2})?|W\d{2})$/.test(key)) {
       return sendProblem(req, reply, { status: 404, code: "not_found", detail: "report not found" });
     }
-    const data = await loadReport(kind as ReportKind, key);
+    const k = kind as ReportKind;
+    const data = await withDbFallback(() => loadReport(k, key), () => fallbackReport(k, key));
     if (!data) return sendProblem(req, reply, { status: 404, code: "not_found", detail: "report not found", cacheControl: "public, max-age=60" });
     return sendJsonWithEtag(req, reply, data, { etagPrefix: "report", cacheControl: "public, max-age=120, s-maxage=120" });
   }));

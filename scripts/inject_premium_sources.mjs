@@ -2,20 +2,44 @@ import postgres from "postgres";
 import { XMLParser } from "fast-xml-parser";
 import * as cheerio from "cheerio";
 import crypto from "node:crypto";
-import { mkdirSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 
 const connStr = (process.env.DATABASE_URL || "").trim();
-if (!connStr) {
-  console.error("Missing DATABASE_URL environment variable");
-  process.exit(1);
+const sql = connStr
+  ? postgres(connStr, {
+      ssl: /127\.0\.0\.1|localhost/.test(connStr) || connStr.includes("sslmode=disable") ? false : "require",
+      max: 3,
+      connect_timeout: 8,
+      idle_timeout: 60,
+    })
+  : null;
+
+function isQuotaOrFatalDbError(err) {
+  const msg = String(err?.message || err || "").toLowerCase();
+  return (
+    msg.includes("exceeded the quota") ||
+    msg.includes("upgrade your plan") ||
+    msg.includes("28p01") ||
+    msg.includes("28000") ||
+    msg.includes("3d000") ||
+    msg.includes("42p01")
+  );
 }
-const sql = postgres(connStr, {
-  ssl: /127\.0\.0\.1|localhost/.test(connStr) || connStr.includes("sslmode=disable") ? false : "require",
-  max: 4,
-  connect_timeout: 20,
-  idle_timeout: 240,
-});
+
+async function probeDbAvailable() {
+  if (!sql) return false;
+  try {
+    await Promise.race([
+      sql`SELECT 1`,
+      new Promise((_, reject) => setTimeout(() => reject(new Error("db probe timeout")), 6000)),
+    ]);
+    return true;
+  } catch (err) {
+    console.warn(`  ⚠️ PostgreSQL unavailable (${err?.message || err}); running in DB-Free Live Snapshot mode.`);
+    return false;
+  }
+}
 
 async function withDbRetry(label, fn, maxAttempts = 3) {
   let lastErr;
@@ -25,7 +49,8 @@ async function withDbRetry(label, fn, maxAttempts = 3) {
     } catch (err) {
       lastErr = err;
       const code = err && typeof err === "object" ? err.code : null;
-      const nonRetryable = code === "28P01" || code === "28000" || code === "3D000" || code === "42P01";
+      const nonRetryable =
+        code === "28P01" || code === "28000" || code === "3D000" || code === "42P01" || isQuotaOrFatalDbError(err);
       if (nonRetryable || attempt >= maxAttempts) {
         throw err;
       }
@@ -1264,7 +1289,7 @@ async function syncHotStoriesAndRankings() {
     JOIN sources s ON s.id = p.source_id
     WHERE p.visibility = 'public' AND p.eligible
     ORDER BY p.timeline_at DESC
-    LIMIT 600
+    LIMIT 120
   `;
 
   const hotEntries = [];
@@ -1566,7 +1591,7 @@ async function syncPeriodicAndDailyReports() {
     LEFT JOIN sources s ON s.id = p.source_id
     WHERE p.selected AND p.visibility = 'public'
     ORDER BY p.timeline_at DESC
-    LIMIT 1500
+    LIMIT 180
   `;
 
   if (recentArticles.length === 0) return;
@@ -1629,9 +1654,30 @@ async function syncPeriodicAndDailyReports() {
   console.log("  ✅ Daily, Weekly & Monthly reports synchronized cleanly.");
 }
 
-async function exportStaticJsonSnapshots() {
-  console.log("📦 [Step 5] Exporting fresh static JSON snapshots to data-v2/*.json & data/*.json...");
-  const siteUrl = (process.env.SITE_URL || "https://zenglian-news-79709693345.asia-east1.run.app").replace(/\/+$/, "");
+function loadExistingSnapshots() {
+  const categories = ["global", "domestic", "business", "tech", "money", "culture"];
+  const dir = path.resolve(process.cwd(), "data-v2");
+  const byCat = new Map();
+  const knownUrls = new Set();
+  for (const cat of categories) {
+    const f = path.join(dir, `${cat}.json`);
+    let items = [];
+    if (existsSync(f)) {
+      try {
+        const parsed = JSON.parse(readFileSync(f, "utf8"));
+        if (Array.isArray(parsed?.items)) items = parsed.items;
+      } catch {}
+    }
+    byCat.set(cat, items);
+    for (const it of items) {
+      const origUrl = it?.links?.original;
+      if (origUrl) knownUrls.add(origUrl);
+    }
+  }
+  return { byCat, knownUrls };
+}
+
+function writeSnapshotFilesFromMap(allByCat) {
   const categories = ["global", "domestic", "business", "tech", "money", "culture"];
   const dirs = [
     path.resolve(process.cwd(), "data-v2"),
@@ -1641,84 +1687,8 @@ async function exportStaticJsonSnapshots() {
     try { mkdirSync(d, { recursive: true }); } catch {}
   }
 
-  function splitHtmlOrText(html, text, fallbackSummary) {
-    const raw = html || text || fallbackSummary || "";
-    if (!raw) return [];
-    if (/<p[\s>]/i.test(raw)) {
-      const m = [...raw.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
-        .map((x) => cleanText(x[1]))
-        .filter((s) => s.length >= 12);
-      if (m.length > 0) return m.slice(0, 12);
-    }
-    const plain = String(text || raw)
-      .split(/\n{2,}|\r\n\r\n/)
-      .map((s) => cleanText(s))
-      .filter((s) => s.length >= 12);
-    if (plain.length > 0) return plain.slice(0, 12);
-    return fallbackSummary ? [cleanText(fallbackSummary)] : [];
-  }
-
-  function formatRow(r) {
-    const isEn = r.language === "en" || Boolean(r.original_title && r.original_title !== r.title);
-    const zhParas = isEn
-      ? splitHtmlOrText(r.tr_html, r.tr_text, r.summary)
-      : splitHtmlOrText(r.body_html, r.body_text, r.summary);
-    const origParas = isEn ? splitHtmlOrText(r.body_html, r.body_text, null) : [];
-    const finalParas = zhParas.length > 0 ? zhParas : [r.summary || r.title].filter(Boolean);
-    const aihotUrl = `${siteUrl}/items/${r.article_id}`;
-    return {
-      id: r.article_id,
-      title: r.title,
-      originalTitle: r.original_title || null,
-      summary: r.summary || "",
-      content: finalParas.join("\n\n"),
-      paragraphs: finalParas,
-      originalContent: origParas.length > 0 ? origParas.join("\n\n") : null,
-      source: { name: r.source_name || "一手信源" },
-      links: { aihot: aihotUrl, original: r.url },
-      publishedAt: new Date(r.published_at || r.discovered_at).toISOString(),
-      discoveredAt: new Date(r.discovered_at).toISOString(),
-      category: r.category,
-      tags: Array.isArray(r.tags) ? r.tags.filter((t) => !String(t).startsWith("entity:")) : [],
-      score: Number(r.score || 92),
-      selected: Boolean(r.selected),
-      reason: r.reason || "",
-      attribution: { name: "曾练全球一手新闻", url: aihotUrl }
-    };
-  }
-
-  const allByCat = new Map();
   for (const cat of categories) {
-    let rows = await sql`
-      SELECT p.article_id, p.title, p.original_title, p.summary, p.reason, p.category, p.tags,
-             p.score, p.selected, p.url, p.published_at, p.discovered_at,
-             s.name AS source_name, a.language, a.body_html, a.body_text,
-             tr.body_html AS tr_html, tr.body_text AS tr_text
-      FROM publications p
-      JOIN sources s ON s.id = p.source_id
-      JOIN articles a ON a.id = p.article_id
-      LEFT JOIN translations tr ON tr.article_id = p.article_id AND tr.lang = 'zh'
-      WHERE p.visibility = 'public' AND p.eligible AND p.selected AND p.category = ${cat}
-      ORDER BY coalesce(p.published_at, p.timeline_at, p.discovered_at) DESC, p.score DESC NULLS LAST
-      LIMIT 25
-    `;
-    if (rows.length < 15) {
-      rows = await sql`
-        SELECT p.article_id, p.title, p.original_title, p.summary, p.reason, p.category, p.tags,
-               p.score, p.selected, p.url, p.published_at, p.discovered_at,
-               s.name AS source_name, a.language, a.body_html, a.body_text,
-               tr.body_html AS tr_html, tr.body_text AS tr_text
-        FROM publications p
-        JOIN sources s ON s.id = p.source_id
-        JOIN articles a ON a.id = p.article_id
-        LEFT JOIN translations tr ON tr.article_id = p.article_id AND tr.lang = 'zh'
-        WHERE p.visibility = 'public' AND p.eligible AND p.category = ${cat}
-        ORDER BY coalesce(p.published_at, p.timeline_at, p.discovered_at) DESC, p.score DESC NULLS LAST
-        LIMIT 25
-      `;
-    }
-    const items = rows.map(formatRow);
-    allByCat.set(cat, items);
+    const items = (allByCat.get(cat) || []).slice(0, 25);
     const payload = {
       schemaVersion: 1,
       generatedAt: new Date().toISOString(),
@@ -1804,56 +1774,183 @@ async function exportStaticJsonSnapshots() {
   console.log("  ✅ Exported fresh data-v2/*.json & data/*.json snapshots.");
 }
 
-async function main() {
-  console.log("🚀 Starting v3.0 Zenglian News Full-Pipeline Curated Ingestion & Repair...");
+function exportMergedSnapshots(existingByCat, newlyCuratedByCat) {
+  console.log("📦 [Step 5 - Live Fallback] Merging freshly curated live RSS items into data-v2/*.json & data/*.json...");
+  const categories = ["global", "domestic", "business", "tech", "money", "culture"];
+  const merged = new Map();
+  for (const cat of categories) {
+    const fresh = newlyCuratedByCat.get(cat) || [];
+    const old = existingByCat.get(cat) || [];
+    const byUrl = new Map();
+    const seenTitles = [];
+    for (const it of [...fresh, ...old]) {
+      const url = it?.links?.original || it?.id;
+      if (!url || byUrl.has(url)) continue;
+      if (isSameStory(it.title || "", seenTitles)) continue;
+      seenTitles.push(it.title || "");
+      byUrl.set(url, it);
+    }
+    const list = [...byUrl.values()]
+      .sort((a, b) => Date.parse(b.publishedAt || 0) - Date.parse(a.publishedAt || 0) || Number(b.score || 90) - Number(a.score || 90))
+      .slice(0, 25);
+    merged.set(cat, list);
+  }
+  writeSnapshotFilesFromMap(merged);
+}
 
-  try {
-    await withDbRetry("cleanupAndRepairDatabase", () => cleanupAndRepairDatabase());
-  } catch (err) {
-    console.warn(`  ⚠️ cleanupAndRepairDatabase warning: ${err?.message || err}`);
+async function exportStaticJsonSnapshots() {
+  console.log("📦 [Step 5] Exporting fresh static JSON snapshots to data-v2/*.json & data/*.json...");
+  const siteUrl = (process.env.SITE_URL || "https://zenglian-news-79709693345.asia-east1.run.app").replace(/\/+$/, "");
+  const categories = ["global", "domestic", "business", "tech", "money", "culture"];
+
+  function splitHtmlOrText(html, text, fallbackSummary) {
+    const raw = html || text || fallbackSummary || "";
+    if (!raw) return [];
+    if (/<p[\s>]/i.test(raw)) {
+      const m = [...raw.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
+        .map((x) => cleanText(x[1]))
+        .filter((s) => s.length >= 12);
+      if (m.length > 0) return m.slice(0, 12);
+    }
+    const plain = String(text || raw)
+      .split(/\n{2,}|\r\n\r\n/)
+      .map((s) => cleanText(s))
+      .filter((s) => s.length >= 12);
+    if (plain.length > 0) return plain.slice(0, 12);
+    return fallbackSummary ? [cleanText(fallbackSummary)] : [];
   }
 
-  // 1. Upsert all 30 official sources in DB (site_fulltext = true so detail pages render full articles)
-  for (const src of PREMIUM_SOURCES) {
-    const configJson = JSON.stringify({ feedUrl: src.feedUrl, _aihot: { initialBackfillLimit: 15 } });
+  function formatRow(r) {
+    const isEn = r.language === "en" || Boolean(r.original_title && r.original_title !== r.title);
+    const zhParas = isEn
+      ? splitHtmlOrText(r.tr_html, r.tr_text, r.summary)
+      : splitHtmlOrText(r.body_html, r.body_text, r.summary);
+    const origParas = isEn ? splitHtmlOrText(r.body_html, r.body_text, null) : [];
+    const finalParas = zhParas.length > 0 ? zhParas : [r.summary || r.title].filter(Boolean);
+    const aihotUrl = `${siteUrl}/items/${r.article_id}`;
+    return {
+      id: r.article_id,
+      title: r.title,
+      originalTitle: r.original_title || null,
+      summary: r.summary || "",
+      content: finalParas.join("\n\n"),
+      paragraphs: finalParas,
+      originalContent: origParas.length > 0 ? origParas.join("\n\n") : null,
+      source: { name: r.source_name || "一手信源" },
+      links: { aihot: aihotUrl, original: r.url },
+      publishedAt: new Date(r.published_at || r.discovered_at).toISOString(),
+      discoveredAt: new Date(r.discovered_at).toISOString(),
+      category: r.category,
+      tags: Array.isArray(r.tags) ? r.tags.filter((t) => !String(t).startsWith("entity:")) : [],
+      score: Number(r.score || 92),
+      selected: Boolean(r.selected),
+      reason: r.reason || "",
+      attribution: { name: "曾练全球一手新闻", url: aihotUrl }
+    };
+  }
+
+  const allByCat = new Map();
+  for (const cat of categories) {
+    let rows = await sql`
+      SELECT p.article_id, p.title, p.original_title, p.summary, p.reason, p.category, p.tags,
+             p.score, p.selected, p.url, p.published_at, p.discovered_at,
+             s.name AS source_name, a.language, a.body_html, a.body_text,
+             tr.body_html AS tr_html, tr.body_text AS tr_text
+      FROM publications p
+      JOIN sources s ON s.id = p.source_id
+      JOIN articles a ON a.id = p.article_id
+      LEFT JOIN translations tr ON tr.article_id = p.article_id AND tr.lang = 'zh'
+      WHERE p.visibility = 'public' AND p.eligible AND p.selected AND p.category = ${cat}
+      ORDER BY coalesce(p.published_at, p.timeline_at, p.discovered_at) DESC, p.score DESC NULLS LAST
+      LIMIT 25
+    `;
+    if (rows.length < 15) {
+      rows = await sql`
+        SELECT p.article_id, p.title, p.original_title, p.summary, p.reason, p.category, p.tags,
+               p.score, p.selected, p.url, p.published_at, p.discovered_at,
+               s.name AS source_name, a.language, a.body_html, a.body_text,
+               tr.body_html AS tr_html, tr.body_text AS tr_text
+        FROM publications p
+        JOIN sources s ON s.id = p.source_id
+        JOIN articles a ON a.id = p.article_id
+        LEFT JOIN translations tr ON tr.article_id = p.article_id AND tr.lang = 'zh'
+        WHERE p.visibility = 'public' AND p.eligible AND p.category = ${cat}
+        ORDER BY coalesce(p.published_at, p.timeline_at, p.discovered_at) DESC, p.score DESC NULLS LAST
+        LIMIT 25
+      `;
+    }
+    allByCat.set(cat, rows.map(formatRow));
+  }
+
+  writeSnapshotFilesFromMap(allByCat);
+}
+
+async function main() {
+  console.log("🚀 Starting v3.2 Zenglian News Resilient Curated Ingestion (Quota-Safe & DB-Optional)...");
+  const isRepairMode = process.argv.includes("--repair-only");
+  const siteUrl = (process.env.SITE_URL || "https://zenglian-news-79709693345.asia-east1.run.app").replace(/\/+$/, "");
+  let dbAvailable = await probeDbAvailable();
+  const { byCat: existingByCat, knownUrls } = loadExistingSnapshots();
+
+  if (dbAvailable && isRepairMode) {
     try {
-      await withDbRetry(`upsert source ${src.id}`, () => sql`
-        INSERT INTO sources (
-          id, name, kind, config, tags, first_party, owner_entity_id, tier,
-          participation_mode, interval_minutes, site_fulltext, syndicate_fulltext,
-          enabled, health, fail_count, last_ok_at, updated_at
-        )
-        VALUES (
-          ${src.id}, ${src.name}, 'rss', ${configJson}::jsonb, ${src.tags}, true, null, 'T1',
-          'editorial', 20, true, false,
-          true, 'ok', 0, now(), now()
-        )
-        ON CONFLICT (id) DO UPDATE SET
-          name = EXCLUDED.name,
-          config = EXCLUDED.config,
-          tags = EXCLUDED.tags,
-          site_fulltext = true,
-          enabled = true,
-          tier = 'T1',
-          last_ok_at = now(),
-          updated_at = now()
-      `);
+      await withDbRetry("cleanupAndRepairDatabase", () => cleanupAndRepairDatabase());
     } catch (err) {
-      console.error(`  ⚠️ Failed to upsert source ${src.id}: ${err?.message || err}`);
+      console.warn(`  ⚠️ cleanupAndRepairDatabase warning: ${err?.message || err}`);
+      if (isQuotaOrFatalDbError(err)) dbAvailable = false;
     }
   }
 
-  if (process.argv.includes("--repair-only")) {
-    await withDbRetry("backfillTopicTagsAndReasons", () => backfillTopicTagsAndReasons());
-    await withDbRetry("syncHotStoriesAndRankings", () => syncHotStoriesAndRankings());
-    await withDbRetry("syncPeriodicAndDailyReports", () => syncPeriodicAndDailyReports());
-    await withDbRetry("exportStaticJsonSnapshots", () => exportStaticJsonSnapshots());
+  // 1. 仅在 DB 可用且处于修复模式或首次注册时同步信源表，平时增量巡检减少不必要写库流量
+  if (dbAvailable && isRepairMode) {
+    for (const src of PREMIUM_SOURCES) {
+      const configJson = JSON.stringify({ feedUrl: src.feedUrl, _aihot: { initialBackfillLimit: 15 } });
+      try {
+        await withDbRetry(`upsert source ${src.id}`, () => sql`
+          INSERT INTO sources (
+            id, name, kind, config, tags, first_party, owner_entity_id, tier,
+            participation_mode, interval_minutes, site_fulltext, syndicate_fulltext,
+            enabled, health, fail_count, last_ok_at, updated_at
+          )
+          VALUES (
+            ${src.id}, ${src.name}, 'rss', ${configJson}::jsonb, ${src.tags}, true, null, 'T1',
+            'editorial', 20, true, false,
+            true, 'ok', 0, now(), now()
+          )
+          ON CONFLICT (id) DO UPDATE SET
+            name = EXCLUDED.name,
+            config = EXCLUDED.config,
+            tags = EXCLUDED.tags,
+            site_fulltext = true,
+            enabled = true,
+            tier = 'T1',
+            last_ok_at = now(),
+            updated_at = now()
+        `);
+      } catch (err) {
+        console.error(`  ⚠️ Failed to upsert source ${src.id}: ${err?.message || err}`);
+        if (isQuotaOrFatalDbError(err)) {
+          dbAvailable = false;
+          break;
+        }
+      }
+    }
+  }
+
+  if (isRepairMode) {
+    if (dbAvailable) {
+      await withDbRetry("backfillTopicTagsAndReasons", () => backfillTopicTagsAndReasons());
+      await withDbRetry("syncHotStoriesAndRankings", () => syncHotStoriesAndRankings());
+      await withDbRetry("syncPeriodicAndDailyReports", () => syncPeriodicAndDailyReports());
+      await withDbRetry("exportStaticJsonSnapshots", () => exportStaticJsonSnapshots());
+    }
     console.log("🎉 Finished --repair-only database sync!");
     return;
   }
 
   let totalNew = 0;
   const seenTitlesByCategory = new Map();
+  const newlyCuratedByCat = new Map();
 
   async function processSource(src) {
     try {
@@ -1913,13 +2010,27 @@ async function main() {
           continue;
         }
 
-        const [existingPub] = await sql`
-          SELECT article_id, title, summary, score, reason, category FROM publications WHERE url = ${link} LIMIT 1
-        `;
-        if (existingPub && /[\u4e00-\u9fa5]/.test(existingPub.title)) {
-          categorySeenTitles.push(existingPub.title);
-          // 已存在的旧文章不占用本次新增配额 srcCount，确保排在后面的未入库新文章能被实时抓取
+        // 先做本地快照 O(1) 去重，节省海量 DB 查询流量！
+        if (knownUrls.has(link)) {
           continue;
+        }
+
+        if (dbAvailable) {
+          try {
+            const [existingPub] = await sql`
+              SELECT article_id, title FROM publications WHERE url = ${link} LIMIT 1
+            `;
+            if (existingPub && /[\u4e00-\u9fa5]/.test(existingPub.title)) {
+              categorySeenTitles.push(existingPub.title);
+              knownUrls.add(link);
+              continue;
+            }
+          } catch (err) {
+            if (isQuotaOrFatalDbError(err)) {
+              console.warn(`  ⚠️ DB quota/connection limit hit during dedup; switching to DB-Free Live Snapshot mode.`);
+              dbAvailable = false;
+            }
+          }
         }
 
         const artId = generateId("a");
@@ -1934,6 +2045,7 @@ async function main() {
         let bodyText = null;
         let zhHtml = null;
         let zhText = null;
+        let zhParagraphsOut = null;
 
         // 提取多段正文（同时支持英文与国内中文信源！）
         let paragraphs = extractParagraphsFromItemHtml(item);
@@ -1960,6 +2072,7 @@ async function main() {
             if (aiResult.reason) reason = aiResult.reason;
             aiScore = aiResult.score;
             if (Array.isArray(aiResult.paragraphs) && aiResult.paragraphs.length) {
+              zhParagraphsOut = aiResult.paragraphs;
               zhHtml = paragraphsToSafeHtml(aiResult.paragraphs);
               zhText = aiResult.paragraphs.join("\n\n");
             }
@@ -1975,11 +2088,13 @@ async function main() {
             }
             if (trParagraphs.length > 0) {
               summary = `${trParagraphs[0].slice(0, 200)}（来源：${src.name}）`;
+              zhParagraphsOut = trParagraphs;
               zhHtml = paragraphsToSafeHtml(trParagraphs);
               zhText = trParagraphs.join("\n\n");
             } else {
               summary = `${displayTitle} —— 来自 ${src.name} 的实时重点报道。`;
-              zhHtml = paragraphsToSafeHtml([summary, reason]);
+              zhParagraphsOut = [summary, reason];
+              zhHtml = paragraphsToSafeHtml(zhParagraphsOut);
               zhText = `${summary}\n\n${reason}`;
             }
             reason = generateContextualReason(displayTitle, summary, routedCategory, src);
@@ -2009,88 +2124,125 @@ async function main() {
           tags: topicTags
         });
 
-        try {
-          const now = new Date();
-          const [insertedArt] = await sql`
-            INSERT INTO articles (
-              id, source_id, identity_key, url, title, excerpt, language,
-              body_html, body_text, processing_state, grouping_status,
-              published_at, discovered_at, timeline_at, revision, body_status, created_at, updated_at
-            ) VALUES (
-              ${artId}, ${src.id}, ${link}, ${link}, ${originalTitle || displayTitle}, ${summary}, ${isEnglish ? "en" : "zh"},
-              ${bodyHtml}, ${bodyText}, 'analyzed', 'complete',
-              ${pubDate}, ${now}, ${pubDate}, 1, 'ok', ${now}, ${now}
-            )
-            ON CONFLICT (identity_key) DO UPDATE SET
-              title = EXCLUDED.title,
-              excerpt = EXCLUDED.excerpt,
-              body_html = COALESCE(EXCLUDED.body_html, articles.body_html),
-              body_text = COALESCE(EXCLUDED.body_text, articles.body_text),
-              processing_state = 'analyzed',
-              grouping_status = 'complete',
-              updated_at = now()
-            RETURNING id
-          `;
+        const now = new Date();
+        let targetArticleId = artId;
 
-          const targetArticleId = insertedArt ? insertedArt.id : artId;
-
-          if (isEnglish && zhHtml && /[\u4e00-\u9fa5]/.test(zhHtml)) {
-            await sql`
-              INSERT INTO translations (article_id, lang, revision, title, body_html, body_text, complete, origin, created_at)
-              VALUES (${targetArticleId}, 'zh', 1, ${displayTitle}, ${zhHtml}, ${zhText}, true, 'model', now())
-              ON CONFLICT (article_id, lang) DO UPDATE SET
+        if (dbAvailable) {
+          try {
+            const [insertedArt] = await sql`
+              INSERT INTO articles (
+                id, source_id, identity_key, url, title, excerpt, language,
+                body_html, body_text, processing_state, grouping_status,
+                published_at, discovered_at, timeline_at, revision, body_status, created_at, updated_at
+              ) VALUES (
+                ${artId}, ${src.id}, ${link}, ${link}, ${originalTitle || displayTitle}, ${summary}, ${isEnglish ? "en" : "zh"},
+                ${bodyHtml}, ${bodyText}, 'analyzed', 'complete',
+                ${pubDate}, ${now}, ${pubDate}, 1, 'ok', ${now}, ${now}
+              )
+              ON CONFLICT (identity_key) DO UPDATE SET
                 title = EXCLUDED.title,
-                body_html = EXCLUDED.body_html,
-                body_text = EXCLUDED.body_text,
-                complete = true,
-                created_at = now()
+                excerpt = EXCLUDED.excerpt,
+                body_html = COALESCE(EXCLUDED.body_html, articles.body_html),
+                body_text = COALESCE(EXCLUDED.body_text, articles.body_text),
+                processing_state = 'analyzed',
+                grouping_status = 'complete',
+                updated_at = now()
+              RETURNING id
             `;
+
+            targetArticleId = insertedArt ? insertedArt.id : artId;
+
+            if (isEnglish && zhHtml && /[\u4e00-\u9fa5]/.test(zhHtml)) {
+              await sql`
+                INSERT INTO translations (article_id, lang, revision, title, body_html, body_text, complete, origin, created_at)
+                VALUES (${targetArticleId}, 'zh', 1, ${displayTitle}, ${zhHtml}, ${zhText}, true, 'model', now())
+                ON CONFLICT (article_id, lang) DO UPDATE SET
+                  title = EXCLUDED.title,
+                  body_html = EXCLUDED.body_html,
+                  body_text = EXCLUDED.body_text,
+                  complete = true,
+                  created_at = now()
+              `;
+            }
+
+            await sql`
+              INSERT INTO publications (
+                article_id, revision, visibility, eligible, selected,
+                title, original_title, summary, reason, category, tags,
+                score, source_id, channel, first_party, url,
+                published_at, discovered_at, timeline_at, sort_at,
+                visible_after, selected_ready_at, body_mode, seat, selection_candidate, search_text
+              ) VALUES (
+                ${targetArticleId}, 1, 'public', true, ${isSelected},
+                ${displayTitle}, ${originalTitle}, ${summary}, ${reason}, ${finalCategory}, ${topicTags}::text[],
+                ${finalScore}, ${src.id}, 'news', true, ${link},
+                ${pubDate}, ${now}, ${pubDate}, ${pubDate},
+                ${now}, ${now}, 'full', true, true, ${searchText}
+              )
+              ON CONFLICT (article_id) DO UPDATE SET
+                visibility = 'public',
+                selected = EXCLUDED.selected,
+                eligible = true,
+                title = EXCLUDED.title,
+                original_title = EXCLUDED.original_title,
+                summary = EXCLUDED.summary,
+                reason = EXCLUDED.reason,
+                category = EXCLUDED.category,
+                tags = EXCLUDED.tags,
+                score = EXCLUDED.score,
+                body_mode = 'full',
+                search_text = EXCLUDED.search_text,
+                visible_after = now()
+            `;
+
+            const poolBody = (zhText || bodyText || summary || "").toLowerCase().slice(0, 12000);
+            await sql`
+              INSERT INTO pool_search (article_id, direct, body)
+              VALUES (${targetArticleId}, ${searchText}, ${poolBody})
+              ON CONFLICT (article_id) DO UPDATE SET
+                direct = EXCLUDED.direct,
+                body = EXCLUDED.body
+            `;
+          } catch (e) {
+            console.error(`    DB insert warning for "${rawTitle.slice(0, 20)}":`, e.message);
+            if (isQuotaOrFatalDbError(e)) {
+              dbAvailable = false;
+            }
           }
-
-          await sql`
-            INSERT INTO publications (
-              article_id, revision, visibility, eligible, selected,
-              title, original_title, summary, reason, category, tags,
-              score, source_id, channel, first_party, url,
-              published_at, discovered_at, timeline_at, sort_at,
-              visible_after, selected_ready_at, body_mode, seat, selection_candidate, search_text
-            ) VALUES (
-              ${targetArticleId}, 1, 'public', true, ${isSelected},
-              ${displayTitle}, ${originalTitle}, ${summary}, ${reason}, ${finalCategory}, ${topicTags}::text[],
-              ${finalScore}, ${src.id}, 'news', true, ${link},
-              ${pubDate}, ${now}, ${pubDate}, ${pubDate},
-              ${now}, ${now}, 'full', true, true, ${searchText}
-            )
-            ON CONFLICT (article_id) DO UPDATE SET
-              visibility = 'public',
-              selected = EXCLUDED.selected,
-              eligible = true,
-              title = EXCLUDED.title,
-              original_title = EXCLUDED.original_title,
-              summary = EXCLUDED.summary,
-              reason = EXCLUDED.reason,
-              category = EXCLUDED.category,
-              tags = EXCLUDED.tags,
-              score = EXCLUDED.score,
-              body_mode = 'full',
-              search_text = EXCLUDED.search_text,
-              visible_after = now()
-          `;
-
-          const poolBody = (zhText || bodyText || summary || "").toLowerCase().slice(0, 12000);
-          await sql`
-            INSERT INTO pool_search (article_id, direct, body)
-            VALUES (${targetArticleId}, ${searchText}, ${poolBody})
-            ON CONFLICT (article_id) DO UPDATE SET
-              direct = EXCLUDED.direct,
-              body = EXCLUDED.body
-          `;
-
-          srcCount++;
-          totalNew++;
-        } catch (e) {
-          console.error(`    Insert error for "${rawTitle.slice(0, 20)}":`, e.message);
         }
+
+        // 同步缓存到内存实时池，无论 DB 是否超限，均确保快照 100% 写入最新实时文章！
+        const finalParagraphs = isEnglish
+          ? (zhParagraphsOut && zhParagraphsOut.length > 0 ? zhParagraphsOut : [summary, reason])
+          : (paragraphs && paragraphs.length > 0 ? paragraphs : [summary, reason]);
+        const aihotUrl = `${siteUrl}/items/${targetArticleId}`;
+        const snapshotItem = {
+          id: targetArticleId,
+          title: displayTitle,
+          originalTitle: originalTitle || null,
+          summary,
+          content: finalParagraphs.join("\n\n"),
+          paragraphs: finalParagraphs,
+          originalContent: isEnglish ? bodyText : null,
+          source: { name: src.name },
+          links: { aihot: aihotUrl, original: link },
+          publishedAt: pubDate.toISOString(),
+          discoveredAt: now.toISOString(),
+          category: finalCategory,
+          tags: topicTags.filter((t) => !String(t).startsWith("entity:")),
+          score: finalScore,
+          selected: isSelected,
+          reason,
+          attribution: { name: "曾练全球一手新闻", url: aihotUrl }
+        };
+        if (!newlyCuratedByCat.has(finalCategory)) {
+          newlyCuratedByCat.set(finalCategory, []);
+        }
+        newlyCuratedByCat.get(finalCategory).push(snapshotItem);
+        knownUrls.add(link);
+
+        srcCount++;
+        totalNew++;
       }
       console.log(`  ✨ Curated ${srcCount} new articles from ${src.name}`);
     } catch (err) {
@@ -2098,23 +2250,27 @@ async function main() {
     }
   }
 
-  // 5 路并发抓取 30 大官方信源，大幅缩短整轮耗时至 60-90 秒内
+  // 5 路并发抓取 30 大官方信源，大幅缩短整轮耗时至 45-75 秒内
   const CONCURRENCY = 5;
   for (let i = 0; i < PREMIUM_SOURCES.length; i += CONCURRENCY) {
     const batch = PREMIUM_SOURCES.slice(i, i + CONCURRENCY);
     await Promise.all(batch.map((src) => processSource(src)));
   }
 
-  try {
-    await withDbRetry("backfillTopicTagsAndReasons", () => backfillTopicTagsAndReasons());
-    await withDbRetry("syncHotStoriesAndRankings", () => syncHotStoriesAndRankings());
-    await withDbRetry("syncPeriodicAndDailyReports", () => syncPeriodicAndDailyReports());
-    await withDbRetry("exportStaticJsonSnapshots", () => exportStaticJsonSnapshots());
-  } catch (err) {
-    console.warn(`  ⚠️ Post-processing sync warning: ${err?.message || err}`);
+  if (dbAvailable) {
+    try {
+      await withDbRetry("syncHotStoriesAndRankings", () => syncHotStoriesAndRankings());
+      await withDbRetry("syncPeriodicAndDailyReports", () => syncPeriodicAndDailyReports());
+      await withDbRetry("exportStaticJsonSnapshots", () => exportStaticJsonSnapshots());
+    } catch (err) {
+      console.warn(`  ⚠️ DB post-processing failed (${err?.message || err}); exporting merged live snapshots directly.`);
+      exportMergedSnapshots(existingByCat, newlyCuratedByCat);
+    }
+  } else {
+    exportMergedSnapshots(existingByCat, newlyCuratedByCat);
   }
 
-  console.log(`\n🎉 Finished v3.0 Full-Pipeline Curation! Added/Updated ${totalNew} high-value articles.`);
+  console.log(`\n🎉 Finished v3.2 Resilient Curation (dbAvailable=${dbAvailable})! Added/Updated ${totalNew} live articles.`);
 }
 
 main()
@@ -2122,4 +2278,4 @@ main()
     console.error("FATAL ERROR:", e);
     process.exitCode = 1;
   })
-  .finally(() => sql.end({ timeout: 5 }).catch(() => {}));
+  .finally(() => (sql ? sql.end({ timeout: 5 }).catch(() => {}) : Promise.resolve()));

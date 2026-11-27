@@ -49,7 +49,7 @@ async function groupPool(q: TimelineQuery, now: Date, factIds: number[]) {
  * first. Every timeline page and its day counts read this list; it is kept for five seconds per
  * filter scope (a newly selected report appears at most that much later).
  */
-const groupedAnchors = cachedByKey(binding, (q: TimelineQuery) => queryGroupedAnchors(q, new Date()), { freshMs: 5000, maxStaleMs: 5000, maxKeys: 50 });
+const groupedAnchors = cachedByKey(binding, (q: TimelineQuery) => queryGroupedAnchors(q, new Date()), { freshMs: 120_000, maxStaleMs: 300_000, maxKeys: 50 });
 
 async function queryGroupedAnchors(q: TimelineQuery, now: Date) {
   const rows = (
@@ -59,6 +59,7 @@ async function queryGroupedAnchors(q: TimelineQuery, now: Date) {
           THEN 'f' || p.fact_id::text ELSE 'a' || p.article_id END AS gk
         FROM publications p
         WHERE ${selectedCondition(now)} ${filterSql(q)}
+          AND p.timeline_at > ${now}::timestamptz - interval '60 days'
       )
       SELECT gk, min(sort_at) AS anchor_at FROM base GROUP BY gk ORDER BY anchor_at DESC, gk COLLATE "C" DESC`
   ).map((r) => ({ gk: r.gk, anchor: r.anchor_at.getTime() }));

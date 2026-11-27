@@ -10,8 +10,8 @@ const LOCAL_HOSTNAMES = new Set(["localhost", "127.0.0.1", "::1", "[::1]", "0.0.
 export const DEFAULT_API_READY_TIMEOUT_MS = 120_000;
 export const DEFAULT_API_HEALTH_REQUEST_TIMEOUT_MS = 5_000;
 export const DEFAULT_API_HEALTH_POLL_INTERVAL_MS = 500;
-export const DEFAULT_CURATOR_INTERVAL_MS = 15 * 60 * 1000;
-export const DEFAULT_CURATOR_BOOT_DELAY_MS = 10_000;
+export const DEFAULT_CURATOR_INTERVAL_MS = 30 * 60 * 1000;
+export const DEFAULT_CURATOR_BOOT_DELAY_MS = 15_000;
 export const DEFAULT_CURATOR_TIMEOUT_MS = 12 * 60 * 1000;
 export const DEFAULT_CURATOR_FORCE_KILL_DELAY_MS = 5_000;
 export const DEFAULT_SHUTDOWN_TIMEOUT_MS = 200_000;
@@ -677,20 +677,24 @@ async function main() {
   });
   apiService.start();
 
-  // 2. 并发启动 Worker（独立指数退避重试连库，受守护熔断保护）
-  workerService = createSupervisedService({
-    name: "Worker",
-    args: [...envArgs, "apps/worker/src/main.ts"],
-    cwd: root,
-    env: () => ({ ...process.env }),
-    isShuttingDown: () => shuttingDown,
-    onCircuitBreak: (decision) => {
-      console.error(
-        `⚠️ [Worker] Background worker circuit breaker tripped (${decision?.reason ?? "unknown"}). Keeping Web and API services alive.`
-      );
-    },
-  });
-  workerService.start();
+  // 2. 仅在显式启用 ENABLE_LEGACY_WORKER=true 时启动原框架 Worker，避免 pg-boss 高频轮询空耗云数据库配额
+  if (process.env.ENABLE_LEGACY_WORKER === "true") {
+    workerService = createSupervisedService({
+      name: "Worker",
+      args: [...envArgs, "apps/worker/src/main.ts"],
+      cwd: root,
+      env: () => ({ ...process.env }),
+      isShuttingDown: () => shuttingDown,
+      onCircuitBreak: (decision) => {
+        console.error(
+          `⚠️ [Worker] Background worker circuit breaker tripped (${decision?.reason ?? "unknown"}). Keeping Web and API services alive.`
+        );
+      },
+    });
+    workerService.start();
+  } else {
+    console.log("ℹ️ Legacy pg-boss Worker disabled by default to protect cloud DB quota (set ENABLE_LEGACY_WORKER=true to enable).");
+  }
 
   // 3. 启动门控：轮询内部 API /api/health 返回 200 后才放行 Web SSR 监听公网端口
   console.log(`⏳ Waiting for API readiness at ${runtimeCfg.apiHealthUrl}...`);

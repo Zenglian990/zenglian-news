@@ -8,6 +8,7 @@ import { SearchBusyError } from "@aihot/backend/publication/pool";
 import { selectedChanges, selectedSnapshot, SnapshotRequiredError, v1Items } from "@aihot/backend/publication/v1";
 import { resolveStory, v1HotTopics, v1Story } from "@aihot/backend/publication/stories";
 import { isPeriodKey, v1Dailies, v1Daily, v1Period, v1Periods } from "@aihot/backend/publication/reports";
+import { fallbackV1HotTopics, fallbackV1Items, withDbFallback } from "@aihot/backend/publication/snapshot-fallback";
 import { isValidDate } from "@aihot/contracts/time";
 import { requestNotice } from "@aihot/backend/modules";
 import { applyPublicHeaders, QueryError, sendJsonWithNotice, sendJsonWithEtag, sendProblem, strictQuery } from "../http/respond.ts";
@@ -97,13 +98,16 @@ export function registerV1(app: FastifyInstance) {
     }
     const limit = intParam(q.limit, "limit", 1, 100, 50);
     if (q.cursor !== undefined && q.cursor.length === 0) throw new InvalidCursorError("empty cursor");
-    const body = await v1Items({ mode, window, by, category, q: search, limit, cursor: q.cursor ?? null });
+    const body = await withDbFallback(
+      () => v1Items({ mode, window, by, category, q: search, limit, cursor: q.cursor ?? null }),
+      () => fallbackV1Items({ mode, window, by, category, q: search, limit }),
+    );
     return sendV1(req, reply, body, { etagPrefix: "v1-items", cacheControl: V1_OPERATIONS.items.cacheControl });
   }));
 
   app.get("/api/v1/hot-topics", publicHandler(async (req, reply) => {
     strictQuery(req, V1_OPERATIONS.hotTopics.queryKeys);
-    const body = await v1HotTopics();
+    const body = await withDbFallback(() => v1HotTopics(), () => fallbackV1HotTopics());
     return sendV1(req, reply, body, { etagPrefix: "v1-hot", cacheControl: V1_OPERATIONS.hotTopics.cacheControl });
   }));
 

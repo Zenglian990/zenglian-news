@@ -195,7 +195,7 @@ async function readIndex(now: Date): Promise<TopicIndex> {
   return { at: now, bySlug, modules: new Map(await Promise.all(parts.map(async (p) => [p.name, await p.index(members, now)] as const))) };
 }
 
-const indexCache = cached(() => readIndex(new Date()), { freshMs: 60_000, maxStaleMs: 10 * 60_000 });
+const indexCache = cached(() => readIndex(new Date()), { freshMs: 600_000, maxStaleMs: 30 * 60_000 });
 
 /** A given `now` reads afresh (tests, a clock other than this minute's). */
 const topicIndex = (now?: Date) => (now ? readIndex(now) : indexCache.get());

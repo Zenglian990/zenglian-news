@@ -2,6 +2,7 @@ import Fastify, { type FastifyInstance } from "fastify";
 import { randomUUID } from "node:crypto";
 import { OAUTH_PROBE_PATHS, resolveRedirect } from "@aihot/contracts/http-policy";
 import { sql } from "@aihot/backend/db";
+import { dbDegradedReason, isDbDegraded, markDbDegraded, markDbHealthy } from "@aihot/backend/publication/snapshot-fallback";
 import { serverModules } from "@aihot/backend/modules";
 import { registerSite } from "./routes/site.ts";
 import { registerOg } from "./routes/og.ts";
@@ -66,8 +67,40 @@ export async function buildApp(): Promise<FastifyInstance> {
 
   app.get("/api/health", async (_req, reply) => {
     const started = Date.now();
-    await sql`SELECT 1`;
-    return reply.header("Cache-Control", "no-store").send({ ok: true, db: "ok", ms: Date.now() - started, release: process.env.AIHOT_RELEASE ?? "dev" });
+    if (isDbDegraded()) {
+      return reply.header("Cache-Control", "no-store").send({
+        ok: true,
+        db: "degraded",
+        mode: "snapshot-live",
+        reason: dbDegradedReason() || "database temporarily degraded",
+        ms: Date.now() - started,
+        release: process.env.AIHOT_RELEASE ?? "dev",
+      });
+    }
+    try {
+      await Promise.race([
+        sql`SELECT 1`,
+        new Promise((_, reject) => setTimeout(() => reject(new Error("health db timeout")), 3500)),
+      ]);
+      markDbHealthy();
+      return reply.header("Cache-Control", "no-store").send({
+        ok: true,
+        db: "ok",
+        mode: "live",
+        ms: Date.now() - started,
+        release: process.env.AIHOT_RELEASE ?? "dev",
+      });
+    } catch (err) {
+      markDbDegraded(err);
+      return reply.header("Cache-Control", "no-store").send({
+        ok: true,
+        db: "degraded",
+        mode: "snapshot-live",
+        reason: dbDegradedReason(),
+        ms: Date.now() - started,
+        release: process.env.AIHOT_RELEASE ?? "dev",
+      });
+    }
   });
 
   registerSite(app);
