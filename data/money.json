@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T09:31:45.385Z",
+  "generatedAt": "2026-11-27T19:25:15.053Z",
   "query": {
     "mode": "selected",
     "category": "money",
@@ -10,6 +10,200 @@
     "ordering": "timelineDesc"
   },
   "items": [
+    {
+      "id": "a73d442c3aeca10542c34456c",
+      "title": "【独立创造】做了一个 MAGI-2 AI 视频生成器",
+      "originalTitle": null,
+      "summary": "说是 MAGI-2 主打“一次性生成超长连贯叙事”和“原生音画同步”的开源模型，设计重心是长时程、多镜头的完整内容创作，原生音画同步生成，多模态参考多达 20 份参考素材（10 张图片、5 段视频、5 段音频，对于一镜到底一站式完成商业级叙事视频。是挺好的，做了个网站试试看。 https://magi-2aivideo.app/",
+      "content": "说是 MAGI-2 主打“一次性生成超长连贯叙事”和“原生音画同步”的开源模型，设计重心是长时程、多镜头的完整内容创作，原生音画同步生成，多模态参考多达 20 份参考素材（10 张图片、5 段视频、5 段音频，对于一镜到底一站式完成商业级叙事视频。是挺好的，做了个网站试试看。 https://magi-2aivideo.app/",
+      "paragraphs": [
+        "说是 MAGI-2 主打“一次性生成超长连贯叙事”和“原生音画同步”的开源模型，设计重心是长时程、多镜头的完整内容创作，原生音画同步生成，多模态参考多达 20 份参考素材（10 张图片、5 段视频、5 段音频，对于一镜到底一站式完成商业级叙事视频。是挺好的，做了个网站试试看。 https://magi-2aivideo.app/"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a73d442c3aeca10542c34456c",
+        "original": "https://www.v2ex.com/t/1260473#reply0"
+      },
+      "publishedAt": "2026-11-27T16:04:33.000Z",
+      "discoveredAt": "2026-11-27T19:24:44.882Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "多模态",
+        "视频",
+        "语音",
+        "开源生态",
+        "产品更新"
+      ],
+      "score": 96,
+      "selected": true,
+      "reason": "开源工程价值：「做了一个 MAGI-2 AI 视频生成器」技术方案与实测表现，可直接赋能开发者低成本落地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a73d442c3aeca10542c34456c"
+      }
+    },
+    {
+      "id": "a07cc25a0ae5f3a7ea8f9600e",
+      "title": "【独立创造】让 Claude Code 重构了一个 1500 多行的函数，测试全过了，但我还是不太放心",
+      "originalTitle": null,
+      "summary": "最近在做一个 AIGC 项目，有个后台任务函数，调用服务、处理异常、保存结果、发送通知，各种逻辑堆在一起，共 1572 行。 用 Claude Code 分四步重构，最终主函数缩减到 150 行，代码复杂度从 143 降到 7，6471 个测试全部通过，但整个文件反而变长了 31%。 为了验证测试通过是不是业务逻辑也没变，又做了三个事情： 1. 对比实际执行过程 记录了修改前后的数据库操作和日志，发现有几个测试虽然通过，但重构后多执行了一次数据库查询。 2.",
+      "content": "最近在做一个 AIGC 项目，有个后台任务函数，调用服务、处理异常、保存结果、发送通知，各种逻辑堆在一起，共 1572 行。 用 Claude Code 分四步重构，最终主函数缩减到 150 行，代码复杂度从 143 降到 7，6471 个测试全部通过，但整个文件反而变长了 31%。 为了验证测试通过是不是业务逻辑也没变，又做了三个事情： 1. 对比实际执行过程 记录了修改前后的数据库操作和日志，发现有几个测试虽然通过，但重构后多执行了一次数据库查询。 2. 让新旧代码处理相同的任务 模拟服务成功、失败、超时、限流等情况，生成了 12000 个测试场景，对比新旧代码的执行行为，结果全部一致。真实环境有没有差异，还没验证。 3. 故意把代码改坏 故意改错判断条件、边界值，或者少调用一次服务，看看测试能不能发现。最初有些错误没被发现，补充测试后，设置的 63 处行为错误全部被检测出来。 这次最大的感受就是 AI 降低了修改代码的成本，但验证代码是否正确还是非常重要的。就连测试本身，也需要再次进行验证。 这次使用的代码清理流程是开源项目，大家可以看看：https://github.com/rulemason/rulemason 各位大神在用 AI 写代码、改项目的时候，除了人工 Review 和跑测试，还有什么比较有效的验收方法吗？期待分享\n\n当一个项目开始引入 AI 开发的时候，最后基本上必然腐化到 AI 接管一切。\n\n@mooyo 哈哈，这样好吗。人工铲屎的速度跟不上 AI 拉屎的速度，我们是不是要专注研究下怎么自动铲屎。。。",
+      "paragraphs": [
+        "最近在做一个 AIGC 项目，有个后台任务函数，调用服务、处理异常、保存结果、发送通知，各种逻辑堆在一起，共 1572 行。 用 Claude Code 分四步重构，最终主函数缩减到 150 行，代码复杂度从 143 降到 7，6471 个测试全部通过，但整个文件反而变长了 31%。 为了验证测试通过是不是业务逻辑也没变，又做了三个事情： 1. 对比实际执行过程 记录了修改前后的数据库操作和日志，发现有几个测试虽然通过，但重构后多执行了一次数据库查询。 2. 让新旧代码处理相同的任务 模拟服务成功、失败、超时、限流等情况，生成了 12000 个测试场景，对比新旧代码的执行行为，结果全部一致。真实环境有没有差异，还没验证。 3. 故意把代码改坏 故意改错判断条件、边界值，或者少调用一次服务，看看测试能不能发现。最初有些错误没被发现，补充测试后，设置的 63 处行为错误全部被检测出来。 这次最大的感受就是 AI 降低了修改代码的成本，但验证代码是否正确还是非常重要的。就连测试本身，也需要再次进行验证。 这次使用的代码清理流程是开源项目，大家可以看看：https://github.com/rulemason/rulemason 各位大神在用 AI 写代码、改项目的时候，除了人工 Review 和跑测试，还有什么比较有效的验收方法吗？期待分享",
+        "当一个项目开始引入 AI 开发的时候，最后基本上必然腐化到 AI 接管一切。",
+        "@mooyo 哈哈，这样好吗。人工铲屎的速度跟不上 AI 拉屎的速度，我们是不是要专注研究下怎么自动铲屎。。。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a07cc25a0ae5f3a7ea8f9600e",
+        "original": "https://www.v2ex.com/t/1260469#reply2"
+      },
+      "publishedAt": "2026-11-27T15:54:47.000Z",
+      "discoveredAt": "2026-11-27T19:24:44.971Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "Agent",
+        "部署/工程",
+        "评测/基准",
+        "产品更新"
+      ],
+      "score": 95,
+      "selected": true,
+      "reason": "生产力范式转移：聚焦「让 Claude Code 重构了一个 15…」在智能体自主规划与工具链协同上的演进。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a07cc25a0ae5f3a7ea8f9600e"
+      }
+    },
+    {
+      "id": "a53a68c504a6e24285349b06d",
+      "title": "【独立创造】23 年裸辞开始钓鱼，现在做了一个没有广告的钓鱼社区小程序：收竿，公开钓点免登录可看，想找钓鱼的 V 友试试",
+      "originalTitle": null,
+      "summary": "想做的事情很简单：让钓友有个地方记录出钓、交流附近的鱼情，顺便认识一些同城的人。 现在能做什么 晒鱼获、晒装备，和其他钓友交流。 记录自己的出钓。 在同城鱼情留言板聊聊最近的鱼口。 分享钓点，查看公开钓点的位置并导航。 玩一些钓鱼相关的趣味称号。 最近还加了同城「城主」：每城一位，负责管理留言、带动交流，可以置顶、精选、屏蔽留言，也可以建立自己的同城交流群。 产品截图就不放了，放个官网吧： 收竿官网 做了几个取舍 第一，目前没有广告，社区功能免费。",
+      "content": "想做的事情很简单：让钓友有个地方记录出钓、交流附近的鱼情，顺便认识一些同城的人。\n\n最近还加了同城「城主」：每城一位，负责管理留言、带动交流，可以置顶、精选、屏蔽留言，也可以建立自己的同城交流群。\n\n小程序已经具备开通广告的能力，但我们没有开。对现阶段的收竿来说，先让人用着顺手、愿意回来，比多一个变现入口更重要。\n\n发布者把钓点设为「所有人可见」后，没有登录的人也能查看具体位置、直接导航。只是想看看别人主动分享的位置，不必为了这一步先注册。\n\n钓点有三种可见范围：所有人、互相关注的好友、仅自己。愿意分享给所有人可以，只想和朋友交流，或者留作自己的秘密基地，也可以。\n\n我们也在考虑这个问题。开发和维护都需要投入，社区得能持续做下去。\n\n目前的设想是，等钓友和同城交流积累起来，逐步吸引钓场、周边商家入驻，通过服务商家寻找商业化机会。这是后续想尝试的方向，还不是已经跑通的模式。\n\n社区功能继续免费，接下来很长一段时间，也没有接入广告的打算。\n\n对你来说，记录出钓、找公开钓点、交流同城鱼情，哪个更值得留下来用？\n\n不钓鱼的 V 友，也欢迎从产品体验和社区设计上提意见。",
+      "paragraphs": [
+        "想做的事情很简单：让钓友有个地方记录出钓、交流附近的鱼情，顺便认识一些同城的人。",
+        "最近还加了同城「城主」：每城一位，负责管理留言、带动交流，可以置顶、精选、屏蔽留言，也可以建立自己的同城交流群。",
+        "小程序已经具备开通广告的能力，但我们没有开。对现阶段的收竿来说，先让人用着顺手、愿意回来，比多一个变现入口更重要。",
+        "发布者把钓点设为「所有人可见」后，没有登录的人也能查看具体位置、直接导航。只是想看看别人主动分享的位置，不必为了这一步先注册。",
+        "钓点有三种可见范围：所有人、互相关注的好友、仅自己。愿意分享给所有人可以，只想和朋友交流，或者留作自己的秘密基地，也可以。",
+        "我们也在考虑这个问题。开发和维护都需要投入，社区得能持续做下去。",
+        "目前的设想是，等钓友和同城交流积累起来，逐步吸引钓场、周边商家入驻，通过服务商家寻找商业化机会。这是后续想尝试的方向，还不是已经跑通的模式。",
+        "社区功能继续免费，接下来很长一段时间，也没有接入广告的打算。",
+        "对你来说，记录出钓、找公开钓点、交流同城鱼情，哪个更值得留下来用？",
+        "不钓鱼的 V 友，也欢迎从产品体验和社区设计上提意见。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a53a68c504a6e24285349b06d",
+        "original": "https://www.v2ex.com/t/1260461#reply1"
+      },
+      "publishedAt": "2026-11-27T15:13:38.000Z",
+      "discoveredAt": "2026-11-27T19:24:44.971Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "产品更新"
+      ],
+      "score": 92,
+      "selected": true,
+      "reason": "V2EX精选研判：聚焦「23 年裸辞开始钓鱼，现在做了一个没有广告的…」的一手事实与行业演进信号。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a53a68c504a6e24285349b06d"
+      }
+    },
+    {
+      "id": "a6a4eb3338aa931cc01aa57eb",
+      "title": "【独立创造】一个把你几 k GitHub star 利用起来的工具",
+      "originalTitle": null,
+      "summary": "星栈 / StarStack 「去年 star 的那个 Rust 解析器叫什么？」星栈从你自己的 GitHub 收藏里按语义查找，返回仓库链接、收藏日期，以及你留下的标签和备注。一个 Rust 二进制同时提供 CLI、Web 管理后台和 MCP 服务。 截图可以去仓库 readme 看 https://github.com/ca-x/starstack",
+      "content": "「去年 star 的那个 Rust 解析器叫什么？」星栈从你自己的 GitHub 收藏里按语义查找，返回仓库链接、收藏日期，以及你留下的标签和备注。一个 Rust 二进制同时提供 CLI、Web 管理后台和 MCP 服务。\n\n截图可以去仓库 readme 看 https://github.com/ca-x/starstack",
+      "paragraphs": [
+        "「去年 star 的那个 Rust 解析器叫什么？」星栈从你自己的 GitHub 收藏里按语义查找，返回仓库链接、收藏日期，以及你留下的标签和备注。一个 Rust 二进制同时提供 CLI、Web 管理后台和 MCP 服务。",
+        "截图可以去仓库 readme 看 https://github.com/ca-x/starstack"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a6a4eb3338aa931cc01aa57eb",
+        "original": "https://www.v2ex.com/t/1260460#reply0"
+      },
+      "publishedAt": "2026-11-27T14:57:07.000Z",
+      "discoveredAt": "2026-11-27T19:24:44.971Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "开源生态",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "score": 93,
+      "selected": true,
+      "reason": "开源工程价值：「一个把你几 k GitHub star 利用…」技术方案与实测表现，可直接赋能开发者低成本落地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a6a4eb3338aa931cc01aa57eb"
+      }
+    },
+    {
+      "id": "a4f8d34977248275871661751",
+      "title": "【独立变现】Show HN：我恢复了 Palm 的最后一个设备，并将其操作系统带到了其他平台",
+      "originalTitle": "Show HN: I restored Palm's last device, and brought its OS to other platforms",
+      "summary": "2026 年 11 月 27 日 · Codepoet · 社论（来源：Show HN·独立开发者变现榜）",
+      "content": "2026 年 11 月 27 日 · Codepoet · 社论\n\n在分享该平台的最新创新成果时，我开始意识到有些人并不真正了解 webOS 是什么。我想我已经忍受了这么久，以至于我从来没有想到世界其他地方已经发生了变化。虽然我本来打算写一篇关于该平台未来的文章，但对于更休闲的探索者来说，也许对过去做一些入门是合适的……\n\n早在 iPhone 出现之前，Palm Pilot 就已经是每个人都想拥有的“it”小玩意了。 Palm 自己的操作系统使这些设备变得有用且响应迅速，但到 2004 年，该公司及其平台都陷入了困境。人们开始努力重新构想两者，并创建了一个全新的“网络操作系统”，以与原始 iPhone 保持同步。\n\n在 Apple 校友 Jon Rubinstein 的领导下，Palm 吸引了一些最优秀的设计师和开发人员（其中许多人甚至来自 Apple），通过利用 Linux、WebKit 和 JavaScript 等开放技术，在有限的硬件上创造流畅、美观的新体验。最初的带有滑出式键盘的 Palm Pre 继而推出了 Pre 2 和 Pixi，当时它们还是 Palm，但团队的英勇努力还不足以与 Google 和 Apple 抗衡。",
+      "paragraphs": [
+        "2026 年 11 月 27 日 · Codepoet · 社论",
+        "在分享该平台的最新创新成果时，我开始意识到有些人并不真正了解 webOS 是什么。我想我已经忍受了这么久，以至于我从来没有想到世界其他地方已经发生了变化。虽然我本来打算写一篇关于该平台未来的文章，但对于更休闲的探索者来说，也许对过去做一些入门是合适的……",
+        "早在 iPhone 出现之前，Palm Pilot 就已经是每个人都想拥有的“it”小玩意了。 Palm 自己的操作系统使这些设备变得有用且响应迅速，但到 2004 年，该公司及其平台都陷入了困境。人们开始努力重新构想两者，并创建了一个全新的“网络操作系统”，以与原始 iPhone 保持同步。",
+        "在 Apple 校友 Jon Rubinstein 的领导下，Palm 吸引了一些最优秀的设计师和开发人员（其中许多人甚至来自 Apple），通过利用 Linux、WebKit 和 JavaScript 等开放技术，在有限的硬件上创造流畅、美观的新体验。最初的带有滑出式键盘的 Palm Pre 继而推出了 Pre 2 和 Pixi，当时它们还是 Palm，但团队的英勇努力还不足以与 Google 和 Apple 抗衡。"
+      ],
+      "originalContent": "27 November 2026 · by Codepoet · Editorial\n\nIn socializing recent innovations for the platform, I began to realize that there are people out there who don’t really know what webOS was. I guess I’ve lived with it so long that it never occurred to me that the rest of the world has moved on. While I had intended to write a post about the future for the platform, maybe a little primer on the past is in order – for the more casual explorer…\n\nLong before the iPhone, the Palm Pilot was the “it” gadget that everyone wanted to have. Palm’s own OS made these devices useful and responsive, but by 2004, both the company and its platform were in a tough place. Efforts began to re-imagine both, and a completely new “web OS” was created to be contemporary of the original iPhone.\n\nUnder Apple alum Jon Rubinstein , Palm attracted some of the best designers and developers (many even from Apple), to create a fluid and beautiful new experience on limited hardware, by leveraging open technologies, like Linux, WebKit and JavaScript. The original Palm Pre, with its slide-out keyboard, was followed up by the Pre 2 and Pixi while they were still Palm, but the valiant efforts of the team were not enough to take on Google and Apple. They needed a new owner, with a bigger wallet.\n\nHP decided they wanted to be that owner, and acqui-hired the Palm team . Work resumed on the diminutive Veer slide-out, the impressive Pre3, and the TouchPad tablet line under HP’s brand. The leadership promised webOS everywhere, and it looked like there might be a chance. The TouchPad launched against the iPad, with an updated version of webOS, innovative features that wouldn’t be copied by others for years, and a small but useful App Catalog… and then disaster struck.\n\nHP had a leadership change, and foolishly decided to write off the Palm purchase . The dev team worked quickly to spin off a fully Open Source derivative, Open webOS , and accelerated efforts to make the SDK libraries usable cross-platform. The TouchPad went on fire sale , and most of the Pre3s never made it to market. The little group of innovators who dared to take on the Apple/Google Duopoly were defeated.\n\nLG bought what was left of the commercial OS, and moved quickly to make it the platform for their Smart TVs. Other experiments, including a Smart Watch, only briefly glimpsed daylight. The Palm brand moved to TCL, and HP moved on to selling crappy Android and Windows 8 tablets. It seemed like the end…\n\nBut the famously active and dedicated Community weren’t willing to give up. webOS had been defined by Homebrew and the hacker ethos . Community members archived as much of the App Catalog as they could salvage before it was shut off. Open webOS was promptly picked up and became LuneOS – a community re-write that worked on the TouchPad and could be ported to other hardware. The TouchPad itself got some updates through Luna Community Edition, providing launcher features Palm never got to deliver.\n\nOver the ensuing decade, though, the small contributions of the community were not enough to fight back the tide of progress. The ancient Linux kernel, WebKit and OpenSSH stacks became a challenge for the modern web. Previously open APIs that enabled apps and features got closed off as Meta and Google consolidated their iron-fisted control over our screen time. And app devs moved on to more profitable platforms.\n\nIn 2018, shortly before the world got shut down by Covid, I started work on restoring the SDK . I liked the fact that my TouchPad and Pre3 couldn’t do much – that meant Google wasn’t tracking my every move. It became a challenge to find a way to proxy, re-route, or update calls so I could keep apps alive, or restore them to functionality.",
+      "source": {
+        "name": "Show HN·独立开发者变现榜"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a4f8d34977248275871661751",
+        "original": "https://www.webosarchive.org/pivot/2026/11/27/the-story-so-far/"
+      },
+      "publishedAt": "2026-11-27T14:37:02.000Z",
+      "discoveredAt": "2026-11-27T19:24:48.169Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "产品更新",
+        "编码",
+        "教程/实践"
+      ],
+      "score": 98,
+      "selected": true,
+      "reason": "搞钱实战参考：拆解「Show HN：我恢复了 Palm 的最后一…」的产品定位、冷启动获客与商业变现闭环。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a4f8d34977248275871661751"
+      }
+    },
     {
       "id": "a0a28403c3be6915e7875e06e",
       "title": "【独立创造】我开发了一款弹珠足球游戏，希望大家能给我提供一些建议。",
@@ -171,6 +365,44 @@
       }
     },
     {
+      "id": "a2d7d2e3739d0d6596e13aa22",
+      "title": "【出海实战】独立网络浏览器 Ladybird 进入 alpha 测试",
+      "originalTitle": "Indie web browser Ladybird enters alpha testing",
+      "summary": "Upstart 引擎可下载 macOS 和 Linux 版本，但没有安全保证（来源：IndieSaaS·出海MRR增长实战）",
+      "content": "Upstart 引擎可下载 macOS 和 Linux 版本，但没有安全保证\n\n独立的 Ladybird 网络浏览器已经达到了一个重要的里程碑：alpha 测试版本。更重要的是，它运作良好。不过，这些可能不是某些人评判它的标准。\n\n本周早些时候，Ladybird 网络浏览器背后的开发者宣布 Ladybird 现在处于 alpha 阶段。我们对其进行了简短的测试，它的表现非常好。它比 alpha 标签所暗示的更稳定、效果更好。\n\n可供下载，涵盖 Apple Silicon 上的 macOS 以及 x86-64 上的 Linux；对于后者，有一个 Flatpak 软件包，以及本机 Ubuntu 和 Fedora 软件包。",
+      "paragraphs": [
+        "Upstart 引擎可下载 macOS 和 Linux 版本，但没有安全保证",
+        "独立的 Ladybird 网络浏览器已经达到了一个重要的里程碑：alpha 测试版本。更重要的是，它运作良好。不过，这些可能不是某些人评判它的标准。",
+        "本周早些时候，Ladybird 网络浏览器背后的开发者宣布 Ladybird 现在处于 alpha 阶段。我们对其进行了简短的测试，它的表现非常好。它比 alpha 标签所暗示的更稳定、效果更好。",
+        "可供下载，涵盖 Apple Silicon 上的 macOS 以及 x86-64 上的 Linux；对于后者，有一个 Flatpak 软件包，以及本机 Ubuntu 和 Fedora 软件包。"
+      ],
+      "originalContent": "Upstart engine gets downloadable macOS and Linux builds, but no security guarantees\n\nThe independent Ladybird web browser has reached an important milestone: an alpha test version. What's more, it works well. These may not be the criteria by which some will judge it, though.\n\nEarlier this week, the developer behind the Ladybird web browser announced that Ladybird is now in alpha. We've given it a brief test, and it performed very well. It's more stable and works better than its alpha label would suggest.\n\nThere are downloads available, covering macOS on Apple Silicon, as well as for Linux on x86-64; for the latter, there's a Flatpak package, as well as native Ubuntu and Fedora packages.\n\nIt's an open source project, so you can download the source code from the GitHub repository and compile it yourself, but in an unusual move, back in June the project announced that the developers would no longer accept public code contributions.\n\nWe first mentioned Ladybird as part of our early 2022 look at its original parent project – SerenityOS: Remarkable project with its own JS-capable web browser. Both the name and the date are significant: the former is a nod to the Serenity prayer, recited at the end of Alcoholics Anonymous meetings. The date of the article is because it's well before the launch of ChatGPT at the end of 2022.\n\nAbout a year and a half later, we reported that Serenity OS turns five and emits first offspring, Ladybird. Both the OS and the browser were still hand-coded, but now the browser could be compiled and run on other OSes. That freed it up to call upon external libraries which didn't exist for SerenityOS.\n\nEarlier this year, we wrote Ladybird flutters toward Rust with a little help from AI. At one point, developer Andreas Kling used Apple's Swift language, but this year, he changed course and adopted Rust instead, using LLM tools to convert some existing code. Some will dismiss Ladybird because of this, but as our first coverage shows, the browser and its original host OS were established projects before the current wave of AI-assisted development.\n\nKling does use LLMs, but Ladybird is not some sloppy vibe-coded effort. The macOS download is 68.4 MB in size, which in 2026 is remarkably small. The Flatpak is larger – about 111 MB – but it also pulls in some KDE dependencies which increase its size.\n\nWe tested it on Pop!_OS. It handles sites such as The Register and Hacker News and everything else we tried perfectly, and took just 6 percent of our Dell XPS13's CPU to play full-screen HD video from YouTube smoothly. In our short testing, we saw no crashes, hesitation, or any other problems at all.",
+      "source": {
+        "name": "IndieSaaS·出海MRR增长实战"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a2d7d2e3739d0d6596e13aa22",
+        "original": "https://www.theregister.com/software/2026/11/26/indie-web-browser-ladybird-enters-alpha-testing/5311914"
+      },
+      "publishedAt": "2026-11-27T07:58:37.000Z",
+      "discoveredAt": "2026-11-27T19:24:46.373Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "现象/趋势",
+        "安全/对齐",
+        "产品更新"
+      ],
+      "score": 98,
+      "selected": true,
+      "reason": "基本面研判：从「独立网络浏览器 Ladybird 进入 al…」关键财务指标洞察行业龙头商业化变现能力。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a2d7d2e3739d0d6596e13aa22"
+      }
+    },
+    {
       "id": "a412f6f02e9e149f57d0b2fad",
       "title": "【PH首发】伍莫尔",
       "originalTitle": "Woomool",
@@ -202,40 +434,6 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a412f6f02e9e149f57d0b2fad"
-      }
-    },
-    {
-      "id": "a27a1e9c8214819c4fc74ae62",
-      "title": "【PH首发】存款人工智能",
-      "originalTitle": "Depost AI",
-      "summary": "LinkedIn AI 代理可以了解什么适合您的品牌（来源：Product Hunt·全球首发搞钱工具）",
-      "content": "LinkedIn AI 代理可以了解什么适合您的品牌",
-      "paragraphs": [
-        "LinkedIn AI 代理可以了解什么适合您的品牌"
-      ],
-      "originalContent": "The LinkedIn AI agent that learns what works for your brand",
-      "source": {
-        "name": "Product Hunt·全球首发搞钱工具"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a27a1e9c8214819c4fc74ae62",
-        "original": "https://www.producthunt.com/products/depost-ai"
-      },
-      "publishedAt": "2026-11-27T03:17:55.000Z",
-      "discoveredAt": "2026-11-27T09:31:38.900Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "产品更新",
-        "Agent",
-        "教程/实践"
-      ],
-      "score": 98,
-      "selected": true,
-      "reason": "搞钱实战参考：拆解「存款人工智能」的产品定位、冷启动获客与商业变现闭环。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a27a1e9c8214819c4fc74ae62"
       }
     },
     {
@@ -757,189 +955,6 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a950465536b76685795aad35b"
-      }
-    },
-    {
-      "id": "a396769b089094f5e3c3bc004",
-      "title": "【PH首发】超级放大镜",
-      "originalTitle": "SuperLoupe",
-      "summary": "在 Mac 上的任何内容中搜索（来源：Product Hunt·全球首发搞钱工具）",
-      "content": "在 Mac 上的任何内容中搜索",
-      "paragraphs": [
-        "在 Mac 上的任何内容中搜索"
-      ],
-      "originalContent": "search inside anything on your Mac",
-      "source": {
-        "name": "Product Hunt·全球首发搞钱工具"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a396769b089094f5e3c3bc004",
-        "original": "https://www.producthunt.com/products/superloupe"
-      },
-      "publishedAt": "2026-11-25T23:54:50.000Z",
-      "discoveredAt": "2026-11-27T00:49:03.062Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "产品更新",
-        "Agent",
-        "教程/实践"
-      ],
-      "score": 98,
-      "selected": true,
-      "reason": "搞钱实战参考：拆解「超级放大镜」的产品定位、冷启动获客与商业变现闭环。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a396769b089094f5e3c3bc004"
-      }
-    },
-    {
-      "id": "aed1b1464a94593e7695ed736",
-      "title": "【PH首发】InfraThrone 开发运营公园",
-      "originalTitle": "InfraThrone DevOps Park",
-      "summary": "在现场 DevOps 实验室修复 300 多个实际生产中断（来源：Product Hunt·全球首发搞钱工具）",
-      "content": "在现场 DevOps 实验室修复 300 多个实际生产中断",
-      "paragraphs": [
-        "在现场 DevOps 实验室修复 300 多个实际生产中断"
-      ],
-      "originalContent": "Fix 300+ real production outages in live DevOps labs",
-      "source": {
-        "name": "Product Hunt·全球首发搞钱工具"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/aed1b1464a94593e7695ed736",
-        "original": "https://www.producthunt.com/products/infrathrone-devops-park"
-      },
-      "publishedAt": "2026-11-25T12:07:17.000Z",
-      "discoveredAt": "2026-11-27T00:49:06.426Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "产品更新",
-        "Agent",
-        "论文/研究",
-        "教程/实践"
-      ],
-      "score": 98,
-      "selected": true,
-      "reason": "搞钱实战参考：拆解「InfraThrone 开发运营公园」的产品定位、冷启动获客与商业变现闭环。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/aed1b1464a94593e7695ed736"
-      }
-    },
-    {
-      "id": "a0d1bc0c1b40ea5a2730a87a2",
-      "title": "【PH首发】木偶邮政局长",
-      "originalTitle": "Postmaster of Puppets",
-      "summary": "查看是否有人可以作为您的域发送电子邮件（来源：Product Hunt·全球首发搞钱工具）",
-      "content": "查看是否有人可以作为您的域发送电子邮件",
-      "paragraphs": [
-        "查看是否有人可以作为您的域发送电子邮件"
-      ],
-      "originalContent": "See if anyone can send email as your domain",
-      "source": {
-        "name": "Product Hunt·全球首发搞钱工具"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a0d1bc0c1b40ea5a2730a87a2",
-        "original": "https://www.producthunt.com/products/postmaster-of-puppets"
-      },
-      "publishedAt": "2026-11-25T10:54:52.000Z",
-      "discoveredAt": "2026-11-27T00:49:04.589Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "产品更新",
-        "Agent",
-        "教程/实践"
-      ],
-      "score": 98,
-      "selected": true,
-      "reason": "搞钱实战参考：拆解「木偶邮政局长」的产品定位、冷启动获客与商业变现闭环。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a0d1bc0c1b40ea5a2730a87a2"
-      }
-    },
-    {
-      "id": "a17b9d0966db5b4085991f4d0",
-      "title": "【PH首发】威星R1",
-      "originalTitle": "Wizstar R1",
-      "summary": "成本更低的 Seedance 2.0 级产品视频（来源：Product Hunt·全球首发搞钱工具）",
-      "content": "成本更低的 Seedance 2.0 级产品视频",
-      "paragraphs": [
-        "成本更低的 Seedance 2.0 级产品视频"
-      ],
-      "originalContent": "Seedance 2.0-level product videos at a lower cost",
-      "source": {
-        "name": "Product Hunt·全球首发搞钱工具"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a17b9d0966db5b4085991f4d0",
-        "original": "https://www.producthunt.com/products/wizstar"
-      },
-      "publishedAt": "2026-11-25T07:56:05.000Z",
-      "discoveredAt": "2026-11-27T09:31:38.970Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "产品更新",
-        "Agent",
-        "推理",
-        "教程/实践"
-      ],
-      "score": 98,
-      "selected": true,
-      "reason": "搞钱实战参考：拆解「威星R1」的产品定位、冷启动获客与商业变现闭环。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a17b9d0966db5b4085991f4d0"
-      }
-    },
-    {
-      "id": "ac147a8412d35079132b6b194",
-      "title": "【独立创造】开源了一个 Google Antigravity 2.0 多语言汉化包：不改 app.asar、不破 macOS 签名，原生秒切 14 种语言",
-      "originalTitle": null,
-      "summary": "升级到 Google Antigravity 2.0 新版界面后，原有的 VS Code 中文语言包扩展覆盖不到新的 Agent 工作台、Artifacts 面板和设置弹窗；而直接解包替换 app.asar 在 macOS 上会破坏 Apple 公证签名（弹「应用已损坏」警告或每次启动反复请求钥匙串授权），并且客户端一自动更新就会被打回英文。",
-      "content": "升级到 Google Antigravity 2.0 新版界面后，原有的 VS Code 中文语言包扩展覆盖不到新的 Agent 工作台、Artifacts 面板和设置弹窗；而直接解包替换 app.asar 在 macOS 上会破坏 Apple 公证签名（弹「应用已损坏」警告或每次启动反复请求钥匙串授权），并且客户端一自动更新就会被打回英文。\n\n为了干净地解决这个问题，写了一个纯文本开源语言包 **antigravity-langpack**（GPL-3.0）：\n\n👉 GitHub 仓库地址： https://github.com/CHANPAJN/antigravity-langpack\n\n不碰 app.asar 与安装目录：无需 sudo 或管理员权限，macOS 官方公证签名 100% 保持原样，常规客户端更新后无需重打补丁。\n\n原生外观设置内秒切 14 种语言：直接在 设置 → 外观 (Appearance) 中嵌入与官方 UI 一致的「显示语言 (Display Language)」下拉框，无需重启窗口即可在简体中文、繁体中文、日文、韩文、原版英文等 14 个语种（每语种 1,920 条专业开发术语）之间即时切换。\n\n零 .exe 二进制、零外部 npm 依赖：仅使用 Node.js（&gt;= 22.13）内置标准库，基于本机 127.0.0.1 CDP 事件驱动（Page.frameNavigated + Runtime.bindingCalled），平时后台空闲 0% CPU 占用，几分钟即可审阅完全部源码。\n\n不污染编辑器与报错日志：严格跳过 Monaco 代码编辑器、集成终端与调试堆栈；针对后续新版本新增词条的 AI 增量补词默认关闭（false），仅在手动调用时于只读沙箱内按需运行。\n\n支持 macOS / Windows / Linux（正式版与 Insiders 均兼容）。除了常规终端命令安装外，也可以直接复制 GitHub 仓库首页顶部的 一句话 AI 安装提示词 粘贴进 Antigravity 或 Claude Code 聊天框，让 Agent 自动检查环境并完成配置。\n\n如果大家在使用中发现某处译文不够地道或有改进建议，欢迎随时提 Issue 交流；觉得好用的话也欢迎点个 Star 支持一下！",
-      "paragraphs": [
-        "升级到 Google Antigravity 2.0 新版界面后，原有的 VS Code 中文语言包扩展覆盖不到新的 Agent 工作台、Artifacts 面板和设置弹窗；而直接解包替换 app.asar 在 macOS 上会破坏 Apple 公证签名（弹「应用已损坏」警告或每次启动反复请求钥匙串授权），并且客户端一自动更新就会被打回英文。",
-        "为了干净地解决这个问题，写了一个纯文本开源语言包 **antigravity-langpack**（GPL-3.0）：",
-        "👉 GitHub 仓库地址： https://github.com/CHANPAJN/antigravity-langpack",
-        "不碰 app.asar 与安装目录：无需 sudo 或管理员权限，macOS 官方公证签名 100% 保持原样，常规客户端更新后无需重打补丁。",
-        "原生外观设置内秒切 14 种语言：直接在 设置 → 外观 (Appearance) 中嵌入与官方 UI 一致的「显示语言 (Display Language)」下拉框，无需重启窗口即可在简体中文、繁体中文、日文、韩文、原版英文等 14 个语种（每语种 1,920 条专业开发术语）之间即时切换。",
-        "零 .exe 二进制、零外部 npm 依赖：仅使用 Node.js（&gt;= 22.13）内置标准库，基于本机 127.0.0.1 CDP 事件驱动（Page.frameNavigated + Runtime.bindingCalled），平时后台空闲 0% CPU 占用，几分钟即可审阅完全部源码。",
-        "不污染编辑器与报错日志：严格跳过 Monaco 代码编辑器、集成终端与调试堆栈；针对后续新版本新增词条的 AI 增量补词默认关闭（false），仅在手动调用时于只读沙箱内按需运行。",
-        "支持 macOS / Windows / Linux（正式版与 Insiders 均兼容）。除了常规终端命令安装外，也可以直接复制 GitHub 仓库首页顶部的 一句话 AI 安装提示词 粘贴进 Antigravity 或 Claude Code 聊天框，让 Agent 自动检查环境并完成配置。",
-        "如果大家在使用中发现某处译文不够地道或有改进建议，欢迎随时提 Issue 交流；觉得好用的话也欢迎点个 Star 支持一下！"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/ac147a8412d35079132b6b194",
-        "original": "https://www.v2ex.com/t/1259681#reply0"
-      },
-      "publishedAt": "2026-11-25T05:00:09.000Z",
-      "discoveredAt": "2026-11-25T05:13:56.922Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "教程/实践",
-        "编码",
-        "Agent",
-        "开源生态",
-        "模型发布",
-        "产品更新"
-      ],
-      "score": 96,
-      "selected": true,
-      "reason": "开源工程价值：「开源了一个 Google Antigravi…」技术方案与实测表现，可直接赋能开发者低成本落地。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/ac147a8412d35079132b6b194"
       }
     }
   ]
