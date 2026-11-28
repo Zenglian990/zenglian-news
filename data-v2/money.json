@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-28T02:34:13.378Z",
+  "generatedAt": "2026-11-28T11:30:17.125Z",
   "query": {
     "mode": "selected",
     "category": "money",
@@ -10,6 +10,164 @@
     "ordering": "timelineDesc"
   },
   "items": [
+    {
+      "id": "a83aac4c5605dde2a495bce5b",
+      "title": "【独立创造】一个有多种功能，支持插件的快速启动器，RUST 编写，内存占用很少",
+      "originalTitle": null,
+      "summary": "Felix 是一个常驻系统托盘的桌面搜索启动器。按全局快捷键呼出后，可以用一个输入框查找本机应用、Windows 设置与控制面板项、书签、窗口、文件和插件提供的内容，也可以直接计算表达式或运行快捷项。核心目标是让不同来源的结果使用同一套搜索、排序、键盘操作、详情及上下文菜单。 项目使用 Rust 编写宿主，Slint 实现桌面界面，Lua 插件提供可选扩展。Rust 宿主负责索引、查询编排、结果匹配排序、配置、平台调用和插件 API；",
+      "content": "Felix 是一个常驻系统托盘的桌面搜索启动器。按全局快捷键呼出后，可以用一个输入框查找本机应用、Windows 设置与控制面板项、书签、窗口、文件和插件提供的内容，也可以直接计算表达式或运行快捷项。核心目标是让不同来源的结果使用同一套搜索、排序、键盘操作、详情及上下文菜单。\n\n项目使用 Rust 编写宿主，Slint 实现桌面界面，Lua 插件提供可选扩展。Rust 宿主负责索引、查询编排、结果匹配排序、配置、平台调用和插件 API；插件只返回声明式结果与动作，不直接操作界面。\n\n下载：https://download.ifelix.app/stable/windows-x64/felix-0.1.9.exe\n\n仓库自带天气、Google Translate、Steam Games 插件。插件是可选扩展；文件搜索现为 Rust 内置引擎，正常使用不依赖旧 Everything 插件。",
+      "paragraphs": [
+        "Felix 是一个常驻系统托盘的桌面搜索启动器。按全局快捷键呼出后，可以用一个输入框查找本机应用、Windows 设置与控制面板项、书签、窗口、文件和插件提供的内容，也可以直接计算表达式或运行快捷项。核心目标是让不同来源的结果使用同一套搜索、排序、键盘操作、详情及上下文菜单。",
+        "项目使用 Rust 编写宿主，Slint 实现桌面界面，Lua 插件提供可选扩展。Rust 宿主负责索引、查询编排、结果匹配排序、配置、平台调用和插件 API；插件只返回声明式结果与动作，不直接操作界面。",
+        "下载：https://download.ifelix.app/stable/windows-x64/felix-0.1.9.exe",
+        "仓库自带天气、Google Translate、Steam Games 插件。插件是可选扩展；文件搜索现为 Rust 内置引擎，正常使用不依赖旧 Everything 插件。"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a83aac4c5605dde2a495bce5b",
+        "original": "https://www.v2ex.com/t/1260597#reply0"
+      },
+      "publishedAt": "2026-11-28T10:56:59.000Z",
+      "discoveredAt": "2026-11-28T11:29:59.040Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "score": 92,
+      "selected": true,
+      "reason": "V2EX精选研判：聚焦「一个有多种功能，支持插件的快速启动器，RUS…」的一手事实与行业演进信号。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a83aac4c5605dde2a495bce5b"
+      }
+    },
+    {
+      "id": "ac72a0ee736de59476a934758",
+      "title": "【独立创造】分享一个开源磁盘清理、文件搜索工具",
+      "originalTitle": null,
+      "summary": "最近 mac 磁盘告急，尝试了一些清理工具例如 Mole，Radix 等，或多或少都有些问题 最头疼的是微信/企业微信这类软件，长期、大量的群文件在磁盘上链接深、分布乱，关键是里面还混杂着我需要保留的文件，因此诞生了这个小工具，扩展了 find 的语法与易用性，解决大量文件扫描的性能问题，可以创建持久化索引，配合 mac 上优秀的 quick look（就是在 finder 下按下空格快速预览的功能）解决了清理或者是整理此类文件的难题。",
+      "content": "最近 mac 磁盘告急，尝试了一些清理工具例如 Mole，Radix 等，或多或少都有些问题 最头疼的是微信/企业微信这类软件，长期、大量的群文件在磁盘上链接深、分布乱，关键是里面还混杂着我需要保留的文件，因此诞生了这个小工具，扩展了 find 的语法与易用性，解决大量文件扫描的性能问题，可以创建持久化索引，配合 mac 上优秀的 quick look（就是在 finder 下按下空格快速预览的功能）解决了清理或者是整理此类文件的难题。\n\n工作流很纯粹：查找、预览、选择、清理、收集 所有的决策都是你根据 quick look 预览来的，你明确知道删除了哪些。\n\n后续会暴露给 agent 一些能力帮助写 query，但是最终的决策还是你自己来\n\n另外还顺带发现了 dsh 产生的几十 GiB 垃圾这个规则还在集成\n\n让软件、Agent 产生的垃圾无处遁形，让有价值的文件一直被记得。\n\n快速清理企微的指令：findo -q rule:wework\n\nhttps://github.com/ygcaicn/findo",
+      "paragraphs": [
+        "最近 mac 磁盘告急，尝试了一些清理工具例如 Mole，Radix 等，或多或少都有些问题 最头疼的是微信/企业微信这类软件，长期、大量的群文件在磁盘上链接深、分布乱，关键是里面还混杂着我需要保留的文件，因此诞生了这个小工具，扩展了 find 的语法与易用性，解决大量文件扫描的性能问题，可以创建持久化索引，配合 mac 上优秀的 quick look（就是在 finder 下按下空格快速预览的功能）解决了清理或者是整理此类文件的难题。",
+        "工作流很纯粹：查找、预览、选择、清理、收集 所有的决策都是你根据 quick look 预览来的，你明确知道删除了哪些。",
+        "后续会暴露给 agent 一些能力帮助写 query，但是最终的决策还是你自己来",
+        "另外还顺带发现了 dsh 产生的几十 GiB 垃圾这个规则还在集成",
+        "让软件、Agent 产生的垃圾无处遁形，让有价值的文件一直被记得。",
+        "快速清理企微的指令：findo -q rule:wework",
+        "https://github.com/ygcaicn/findo"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/ac72a0ee736de59476a934758",
+        "original": "https://www.v2ex.com/t/1260583#reply0"
+      },
+      "publishedAt": "2026-11-28T08:36:18.000Z",
+      "discoveredAt": "2026-11-28T11:29:59.040Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "开源生态",
+        "产品更新"
+      ],
+      "score": 96,
+      "selected": true,
+      "reason": "开源工程价值：「分享一个开源磁盘清理、文件搜索工具」技术方案与实测表现，可直接赋能开发者低成本落地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/ac72a0ee736de59476a934758"
+      }
+    },
+    {
+      "id": "a410bad506c6078a00ea7481e",
+      "title": "【独立创造】robots.txt 早写了，爬虫还是把我免费的 Worker 刷到 8840 次超限",
+      "originalTitle": null,
+      "summary": "10 月 12 号收到 Cloudflare 的邮件：过去 24 小时，Workers 有一千多次达到免费套餐的 CPU 时间上限。进后台一看，实际是 8840 次，用户那边直接 error 1102，页面打不开。 第一反应是升级付费套餐。手放到按钮上又停了一下，因为我先看了眼请求量：24 小时大概两万次，比平时高出一大截。这个量不对劲，我就想先弄清楚是谁在刷。 Workers 的指标能按脚本和状态拆开，能看到 exceededResources 那一栏。",
+      "content": "10 月 12 号收到 Cloudflare 的邮件：过去 24 小时，Workers 有一千多次达到免费套餐的 CPU 时间上限。进后台一看，实际是 8840 次，用户那边直接 error 1102，页面打不开。\n\n第一反应是升级付费套餐。手放到按钮上又停了一下，因为我先看了眼请求量：24 小时大概两万次，比平时高出一大截。这个量不对劲，我就想先弄清楚是谁在刷。\n\nWorkers 的指标能按脚本和状态拆开，能看到 exceededResources 那一栏。再拉请求明细，按来源的 ASN 和「已验证爬虫」分组，答案很清楚：九成来自一家云厂商的地址段，请求头伪装成 Chrome；外加一个 AI 公司的爬虫。它们刷的全是筛选、排序页，参数组合是无穷的。\n\n按理说这几个页面不该被爬。robots.txt 里早就写了不许带查询串的 URL 进来，它们不看。边缘缓存也帮不上忙，每个组合都是第一次见，一次都命中不了，只能完整地服务端渲染一遍，一个请求 20 到 70 毫秒 CPU。\n\n修法没多复杂：在 Worker 入口、渲染之前，先看请求的 ASN 和已验证爬虫类别，命中就直接回 403，不到 1 毫秒。那家云厂商的 GET 全拦；AI 爬虫只拦带查询串的，普通页面还让它爬；POST 放行，别把支付回调这类 webhook 拦掉。\n\n回头看，值得说的就两点。robots.txt 是给守规矩的爬虫看的，对不守规矩的等于没有。还有，站里只要有筛选、排序、分页这种带查询串的链接，又是全服务端渲染，上线时就得有这一层，别等邮件来了才想。我这次要是直接点了升级，等于花着钱让人继续刷。\n\n想问下也在用 Workers 或者别的边缘函数的：按 ASN 在代码里拦，你们有更省事的做法吗？边缘 WAF 的规则够不够用？",
+      "paragraphs": [
+        "10 月 12 号收到 Cloudflare 的邮件：过去 24 小时，Workers 有一千多次达到免费套餐的 CPU 时间上限。进后台一看，实际是 8840 次，用户那边直接 error 1102，页面打不开。",
+        "第一反应是升级付费套餐。手放到按钮上又停了一下，因为我先看了眼请求量：24 小时大概两万次，比平时高出一大截。这个量不对劲，我就想先弄清楚是谁在刷。",
+        "Workers 的指标能按脚本和状态拆开，能看到 exceededResources 那一栏。再拉请求明细，按来源的 ASN 和「已验证爬虫」分组，答案很清楚：九成来自一家云厂商的地址段，请求头伪装成 Chrome；外加一个 AI 公司的爬虫。它们刷的全是筛选、排序页，参数组合是无穷的。",
+        "按理说这几个页面不该被爬。robots.txt 里早就写了不许带查询串的 URL 进来，它们不看。边缘缓存也帮不上忙，每个组合都是第一次见，一次都命中不了，只能完整地服务端渲染一遍，一个请求 20 到 70 毫秒 CPU。",
+        "修法没多复杂：在 Worker 入口、渲染之前，先看请求的 ASN 和已验证爬虫类别，命中就直接回 403，不到 1 毫秒。那家云厂商的 GET 全拦；AI 爬虫只拦带查询串的，普通页面还让它爬；POST 放行，别把支付回调这类 webhook 拦掉。",
+        "回头看，值得说的就两点。robots.txt 是给守规矩的爬虫看的，对不守规矩的等于没有。还有，站里只要有筛选、排序、分页这种带查询串的链接，又是全服务端渲染，上线时就得有这一层，别等邮件来了才想。我这次要是直接点了升级，等于花着钱让人继续刷。",
+        "想问下也在用 Workers 或者别的边缘函数的：按 ASN 在代码里拦，你们有更省事的做法吗？边缘 WAF 的规则够不够用？"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a410bad506c6078a00ea7481e",
+        "original": "https://www.v2ex.com/t/1260570#reply5"
+      },
+      "publishedAt": "2026-11-28T07:27:29.000Z",
+      "discoveredAt": "2026-11-28T11:29:59.040Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "产品更新"
+      ],
+      "score": 92,
+      "selected": true,
+      "reason": "V2EX精选研判：聚焦「robots.txt 早写了，爬虫还是把我免…」的一手事实与行业演进信号。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a410bad506c6078a00ea7481e"
+      }
+    },
+    {
+      "id": "a809dd9f2c2bb6e5cf015fa24",
+      "title": "【独立创造】分享一个磁盘清理工具-黑五限时免费！",
+      "originalTitle": null,
+      "summary": "分享一个磁盘清理工具解决了一些 Mole,Radix 使用下来的痛点。让软件、Agent 产生的垃圾无处遁形，让有价值的文件一直被记得。 不想删聊天记录，又想清理企业微信的空间是真对症(我最初就是为了这个目的写的) 不过目前已经演变为查找、预览、选择、清理、收集的通用工具欢迎大家试用 标题调皮，永久开源免费 findo -q rule:wework https://github.com/ygcaicn/findo",
+      "content": "分享一个磁盘清理工具解决了一些 Mole,Radix 使用下来的痛点。让软件、Agent 产生的垃圾无处遁形，让有价值的文件一直被记得。\n\n不想删聊天记录，又想清理企业微信的空间是真对症(我最初就是为了这个目的写的)\n\n不过目前已经演变为查找、预览、选择、清理、收集的通用工具欢迎大家试用\n\nhttps://github.com/ygcaicn/findo",
+      "paragraphs": [
+        "分享一个磁盘清理工具解决了一些 Mole,Radix 使用下来的痛点。让软件、Agent 产生的垃圾无处遁形，让有价值的文件一直被记得。",
+        "不想删聊天记录，又想清理企业微信的空间是真对症(我最初就是为了这个目的写的)",
+        "不过目前已经演变为查找、预览、选择、清理、收集的通用工具欢迎大家试用",
+        "https://github.com/ygcaicn/findo"
+      ],
+      "originalContent": null,
+      "source": {
+        "name": "V2EX·独立创造与副业变现"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a809dd9f2c2bb6e5cf015fa24",
+        "original": "https://www.v2ex.com/t/1260569#reply0"
+      },
+      "publishedAt": "2026-11-28T07:19:53.000Z",
+      "discoveredAt": "2026-11-28T11:29:59.040Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "教程/实践",
+        "编码",
+        "Agent",
+        "开源生态",
+        "产品更新"
+      ],
+      "score": 97,
+      "selected": true,
+      "reason": "开源工程价值：「分享一个磁盘清理工具-黑五限时免费！」技术方案与实测表现，可直接赋能开发者低成本落地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a809dd9f2c2bb6e5cf015fa24"
+      }
+    },
     {
       "id": "ad91be2f9d77a74030eb30e0c",
       "title": "【独立创造】微子中枢 v0.6.3 更新：一键部署 AI 应用，新增 ComfyUI 绘画、AI 计费和多个 AI 提供方一键添加",
@@ -178,6 +336,81 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a4d2c14d6dfc110d0e212f77e"
+      }
+    },
+    {
+      "id": "acee8620777625cfdaafe2ae3",
+      "title": "【独立变现】Show HN：在浏览器选项卡中运行 Qwen3.5-2B 的 52 KB WebAssembly 引擎",
+      "originalTitle": "Show HN: A 52 KB WebAssembly engine that runs Qwen3.5-2B in a browser tab",
+      "summary": "上面的终端没有与服务器通信。模型的权重下载一次，保存在浏览器的缓存中，每个令牌都由大约 52 KB 的 WebAssembly 模块在 CPU 上计算。无GPU代码，无推理API；您输入的内容和模型回答的内容永远不会离开选项卡。（来源：Show HN·独立开发者变现榜）",
+      "content": "上面的终端没有与服务器通信。模型的权重下载一次，保存在浏览器的缓存中，每个令牌都由大约 52 KB 的 WebAssembly 模块在 CPU 上计算。无GPU代码，无推理API；您输入的内容和模型回答的内容永远不会离开选项卡。\n\n生成时每秒生成的令牌：相同的权重，相同的机器（Apple M3 Max，10 个性能 + 4 个效率核心）。 “此页面”是无头Chrome； llama.cpp 是本机版本 8660。测量时间为 2026 年 11 月 27 日至 28 日。\n\n因此，浏览器在生成时的 CPU 利用率约为本机 llama.cpp 的 65-75%。读取提示是最落后的地方：llama.cpp 批量处理提示令牌（0.6B 模型为 513 tok/s），该引擎一次处理一个（大约 160 tok/s）。\n\nQwen3.5 型号，相同的机器和 8 个线程：2B 约为 39 tok/s，0.8B 约为 74 tok/s。这里每个参数的速度都比较慢，因为它们的词汇量更大（248,320 个标记对 151,936 个标记），而且我还没有针对 llama.cpp 对它们进行基准测试。",
+      "paragraphs": [
+        "上面的终端没有与服务器通信。模型的权重下载一次，保存在浏览器的缓存中，每个令牌都由大约 52 KB 的 WebAssembly 模块在 CPU 上计算。无GPU代码，无推理API；您输入的内容和模型回答的内容永远不会离开选项卡。",
+        "生成时每秒生成的令牌：相同的权重，相同的机器（Apple M3 Max，10 个性能 + 4 个效率核心）。 “此页面”是无头Chrome； llama.cpp 是本机版本 8660。测量时间为 2026 年 11 月 27 日至 28 日。",
+        "因此，浏览器在生成时的 CPU 利用率约为本机 llama.cpp 的 65-75%。读取提示是最落后的地方：llama.cpp 批量处理提示令牌（0.6B 模型为 513 tok/s），该引擎一次处理一个（大约 160 tok/s）。",
+        "Qwen3.5 型号，相同的机器和 8 个线程：2B 约为 39 tok/s，0.8B 约为 74 tok/s。这里每个参数的速度都比较慢，因为它们的词汇量更大（248,320 个标记对 151,936 个标记），而且我还没有针对 llama.cpp 对它们进行基准测试。"
+      ],
+      "originalContent": "The terminal above is not talking to a server. The model's weights are downloaded once, kept in your browser's cache, and every token is computed on your CPU by a WebAssembly module of about 52 KB. No GPU code, no inference API; what you type and what the model answers never leave the tab.\n\nTokens per second while generating: same weights, same machine (Apple M3 Max, 10 performance + 4 efficiency cores). \"This page\" is headless Chrome; llama.cpp is native build 8660. Measured 27–28 Nov 2026.\n\nSo the browser reaches roughly 65–75% of native llama.cpp on the CPU when generating. Reading the prompt is where it is furthest behind: llama.cpp processes prompt tokens in batches (513 tok/s for the 0.6B model), this engine does them one at a time (about 160 tok/s).\n\nThe Qwen3.5 models, same machine and 8 threads: about 39 tok/s for the 2B and 74 tok/s for the 0.8B. They are slower per parameter here because their vocabulary is larger (248,320 tokens against 151,936), and I have not benchmarked them against llama.cpp.\n\nYour own numbers appear in the terminal after every reply; type /bench for a fixed test and /numbers for the Qwen3 comparison as a chart.\n\nShare of next-token predictions that stay identical to the full-precision model (Qwen3-0.6B, 645 tokens of mixed English, German, code and chat):\n\nGeneric compression helps little: zstd at its highest setting shrinks the 8-bit file by about 6%.",
+      "source": {
+        "name": "Show HN·独立开发者变现榜"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/acee8620777625cfdaafe2ae3",
+        "original": "https://tesseracted.com/experiments-llm-os/"
+      },
+      "publishedAt": "2026-11-28T00:16:59.000Z",
+      "discoveredAt": "2026-11-28T11:29:59.501Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "产品更新",
+        "编码",
+        "开源生态",
+        "部署/工程",
+        "MCP/工具调用",
+        "教程/实践"
+      ],
+      "score": 98,
+      "selected": true,
+      "reason": "开源工程价值：「Show HN：在浏览器选项卡中运行 Qwe…」技术方案与实测表现，可直接赋能开发者低成本落地。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/acee8620777625cfdaafe2ae3"
+      }
+    },
+    {
+      "id": "ae1003b241a19a24f06f10cc6",
+      "title": "【PH首发】搜索排名",
+      "originalTitle": "RankTheSearch",
+      "summary": "发布您的买家已经在搜索的 TikTok 帖子（来源：Product Hunt·全球首发搞钱工具）",
+      "content": "发布您的买家已经在搜索的 TikTok 帖子",
+      "paragraphs": [
+        "发布您的买家已经在搜索的 TikTok 帖子"
+      ],
+      "originalContent": "Make the TikTok posts your buyers are already searching for",
+      "source": {
+        "name": "Product Hunt·全球首发搞钱工具"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/ae1003b241a19a24f06f10cc6",
+        "original": "https://www.producthunt.com/products/rankthesearch"
+      },
+      "publishedAt": "2026-11-27T21:53:53.000Z",
+      "discoveredAt": "2026-11-28T11:29:59.081Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "产品更新",
+        "Agent",
+        "模型发布",
+        "教程/实践"
+      ],
+      "score": 98,
+      "selected": true,
+      "reason": "搞钱实战参考：拆解「搜索排名」的产品定位、冷启动获客与商业变现闭环。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/ae1003b241a19a24f06f10cc6"
       }
     },
     {
@@ -371,6 +604,44 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a53a68c504a6e24285349b06d"
+      }
+    },
+    {
+      "id": "a4a6dc2df7956c24c15027688",
+      "title": "【独立变现】Show HN：bouncemarket – 弹跳球的实时预测市场游戏",
+      "originalTitle": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+      "summary": "一个球会掉下来。在其落地的地方进行贸易。（来源：Show HN·独立开发者变现榜）",
+      "content": "一个球会掉下来。在其落地的地方进行贸易。\n\n我做了这个游戏！一些技术细节：\n\n整个落球过程都是在服务器端模拟的，然后作为服务器发送的事件通过一个小缓冲区传输到每个客户端。每一次掉落都是从其起始位置开始的，因此可以准确地重播回合以供以后分析，但起始位置的微小变化可能会改变最终结果。\n\n有一些人工智能交易员来维持市场的运转，但他们在任何超过五人的回合中退出。他们使用我为他们编写的一套简单的规则进行运作，因此他们并不太难被击败——只有当市场充满真实的人时，事情才会变得棘手。",
+      "paragraphs": [
+        "一个球会掉下来。在其落地的地方进行贸易。",
+        "我做了这个游戏！一些技术细节：",
+        "整个落球过程都是在服务器端模拟的，然后作为服务器发送的事件通过一个小缓冲区传输到每个客户端。每一次掉落都是从其起始位置开始的，因此可以准确地重播回合以供以后分析，但起始位置的微小变化可能会改变最终结果。",
+        "有一些人工智能交易员来维持市场的运转，但他们在任何超过五人的回合中退出。他们使用我为他们编写的一套简单的规则进行运作，因此他们并不太难被击败——只有当市场充满真实的人时，事情才会变得棘手。"
+      ],
+      "originalContent": "a ball will fall. trade on where it lands.\n\nI made this game! Some technical details:\n\nThe entire drop of the ball is simulated server-side, then streamed to each client as server-sent events with a small buffer. Every drop is deterministic from its starting position, so rounds can be replayed exactly for later analysis, but tiny variations in starting position can change the ultimate outcome.\n\nThere's some AI traders to keep the market moving, but they drop out in any round that has more than five people. They operate using a naive set of rules that I wrote for them, so they're not too hard to beat -- it's when the market is full of real people that it gets tricky.\n\nCurious to get feedback on anything you would change, and especially whether the mechanics were clear right away or not.",
+      "source": {
+        "name": "Show HN·独立开发者变现榜"
+      },
+      "links": {
+        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a4a6dc2df7956c24c15027688",
+        "original": "https://bouncemarket.minhanhday.com/"
+      },
+      "publishedAt": "2026-11-27T15:01:50.000Z",
+      "discoveredAt": "2026-11-28T11:29:59.752Z",
+      "category": "money",
+      "tags": [
+        "搞钱变现",
+        "产品更新",
+        "编码",
+        "教程/实践",
+        "现象/趋势"
+      ],
+      "score": 98,
+      "selected": true,
+      "reason": "搞钱实战参考：拆解「Show HN：bouncemarket –…」的产品定位、冷启动获客与商业变现闭环。",
+      "attribution": {
+        "name": "曾练全球一手新闻",
+        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a4a6dc2df7956c24c15027688"
       }
     },
     {
@@ -718,272 +989,6 @@
       "attribution": {
         "name": "曾练全球一手新闻",
         "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a673c7467a42f860443ce2742"
-      }
-    },
-    {
-      "id": "adbe32827704169094822c2c5",
-      "title": "【独立创造】给 Antigravity 打包了套后台浏览器插件：faster-mac-use + browser-routing（macOS 开源）",
-      "originalTitle": null,
-      "summary": "Antigravity 自带的电脑和浏览器子代理用起来偏慢，也没法直接复用已登录的 Chrome 标签页。之前做了个 macOS 后台多光标引擎 faster-mac-use ，用了一阵发现单装 MCP 还不够，模型还是会惯性走内置浏览器，或者看个视频字幕、查个搜索结果都去开网页。",
-      "content": "Antigravity 自带的电脑和浏览器子代理用起来偏慢，也没法直接复用已登录的 Chrome 标签页。之前做了个 macOS 后台多光标引擎 faster-mac-use，用了一阵发现单装 MCP 还不够，模型还是会惯性走内置浏览器，或者看个视频字幕、查个搜索结果都去开网页。\n\n刚发了 v0.5.8，把自用的 browser-routing 五通道路由技能和 faster-mac-use 打包成了一键安装的 Antigravity 原生插件（Claude Code / Codex 也能装技能）：\n\nAPI / Git / YouTube 字幕直接走 CLI，公开搜索走 search_web，需要交互再走 fmu 后台无头 / Chrome MV3 标签组 / Swift AX 原生应用；\n\n过去 7 天本机 8,600+ 次真实调用：中位延迟 49–145 ms，平均 578 tok，0.0 px 鼠标偏移。\n\nGitHub（附中文 README 与架构图）：https://github.com/lifan-builds/faster-mac-use\n\n局限：原生 macOS AX/OCR 仅限 Mac（需辅助功能权限），已登录 Chrome 需加载仓库内的 MV3 扩展。",
-      "paragraphs": [
-        "Antigravity 自带的电脑和浏览器子代理用起来偏慢，也没法直接复用已登录的 Chrome 标签页。之前做了个 macOS 后台多光标引擎 faster-mac-use，用了一阵发现单装 MCP 还不够，模型还是会惯性走内置浏览器，或者看个视频字幕、查个搜索结果都去开网页。",
-        "刚发了 v0.5.8，把自用的 browser-routing 五通道路由技能和 faster-mac-use 打包成了一键安装的 Antigravity 原生插件（Claude Code / Codex 也能装技能）：",
-        "API / Git / YouTube 字幕直接走 CLI，公开搜索走 search_web，需要交互再走 fmu 后台无头 / Chrome MV3 标签组 / Swift AX 原生应用；",
-        "过去 7 天本机 8,600+ 次真实调用：中位延迟 49–145 ms，平均 578 tok，0.0 px 鼠标偏移。",
-        "GitHub（附中文 README 与架构图）：https://github.com/lifan-builds/faster-mac-use",
-        "局限：原生 macOS AX/OCR 仅限 Mac（需辅助功能权限），已登录 Chrome 需加载仓库内的 MV3 扩展。"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/adbe32827704169094822c2c5",
-        "original": "https://www.v2ex.com/t/1260183#reply0"
-      },
-      "publishedAt": "2026-11-27T00:18:56.000Z",
-      "discoveredAt": "2026-11-27T00:49:01.206Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "教程/实践",
-        "编码",
-        "Agent",
-        "开源生态",
-        "MCP/工具调用",
-        "产品更新"
-      ],
-      "score": 93,
-      "selected": true,
-      "reason": "开源工程价值：「给 Antigravity 打包了套后台浏览…」技术方案与实测表现，可直接赋能开发者低成本落地。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/adbe32827704169094822c2c5"
-      }
-    },
-    {
-      "id": "a3353b4d27cebaed4aa697e86",
-      "title": "【PH首发】正体2026",
-      "originalTitle": "RightFont 2026",
-      "summary": "正确的字体，现在就可以。（来源：Product Hunt·全球首发搞钱工具）",
-      "content": "正确的字体，现在就可以。",
-      "paragraphs": [
-        "正确的字体，现在就可以。"
-      ],
-      "originalContent": "The right font, right now.",
-      "source": {
-        "name": "Product Hunt·全球首发搞钱工具"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a3353b4d27cebaed4aa697e86",
-        "original": "https://www.producthunt.com/products/rightfont"
-      },
-      "publishedAt": "2026-11-26T23:17:29.000Z",
-      "discoveredAt": "2026-11-27T09:31:39.222Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "产品更新",
-        "Agent",
-        "教程/实践"
-      ],
-      "score": 98,
-      "selected": true,
-      "reason": "搞钱实战参考：拆解「正体2026」的产品定位、冷启动获客与商业变现闭环。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a3353b4d27cebaed4aa697e86"
-      }
-    },
-    {
-      "id": "ae0c47bb0a0587b2dc15313c2",
-      "title": "【PH首发】表单动作存储",
-      "originalTitle": "Form Action Store",
-      "summary": "利用强大的数字工具发现、创造和成长。（来源：Product Hunt·全球首发搞钱工具）",
-      "content": "利用强大的数字工具发现、创造和成长。",
-      "paragraphs": [
-        "利用强大的数字工具发现、创造和成长。"
-      ],
-      "originalContent": "Discover, create and grow with powerful digital tools.",
-      "source": {
-        "name": "Product Hunt·全球首发搞钱工具"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/ae0c47bb0a0587b2dc15313c2",
-        "original": "https://www.producthunt.com/products/form-action-store"
-      },
-      "publishedAt": "2026-11-26T20:08:11.000Z",
-      "discoveredAt": "2026-11-27T09:31:39.064Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "产品更新",
-        "Agent",
-        "教程/实践"
-      ],
-      "score": 98,
-      "selected": true,
-      "reason": "搞钱实战参考：拆解「表单动作存储」的产品定位、冷启动获客与商业变现闭环。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/ae0c47bb0a0587b2dc15313c2"
-      }
-    },
-    {
-      "id": "a0f9ae86065cd14d35a4a7ce7",
-      "title": "【独立变现】显示 HN：Fuck_data_brokers.py",
-      "originalTitle": "Show HN: Fuck_data_brokers.py",
-      "summary": "“今天很有趣：今天早上我正在和一些卑鄙的数据经纪人打交道，试图删除我一个好朋友的信息，但他们不会这样做。无论我尝试什么。我感觉太糟糕了！我只想伸手穿过屏幕，打他们的脸。好吧，数据经纪人先生，这是我伸手穿过屏幕，打你的脸。享受 f*ck_data_brokers.py”（来源：Show HN·独立开发者变现榜）",
-      "content": "“今天很有趣：今天早上我正在和一些卑鄙的数据经纪人打交道，试图删除我一个好朋友的信息，但他们不会这样做。无论我尝试什么。我感觉太糟糕了！我只想伸手穿过屏幕，打他们的脸。好吧，数据经纪人先生，这是我伸手穿过屏幕，打你的脸。享受 f*ck_data_brokers.py”\n\n我从数据经纪人那里删除人们的数据。这是我主要的兼职工作之一，这是一次疯狂的旅程。\n\n我想做的就是帮助人们。在人工智能的世界里，这几乎是不可能的。从我的角度来看，自 GPT-4 推出以来，数据经纪人的产量已提高了近 1000 倍。每个爬虫都变得更聪明，每个个人资料都变得更丰富，每个“人物搜索”网站都有一百个表兄弟。\n\n然后我突然意识到：我没有一万亿美元。根据我的粗略估计，这就是正确且自动地为他们清理每个人的数据所需的计算成本。我无法为所有人做到这一点。",
-      "paragraphs": [
-        "“今天很有趣：今天早上我正在和一些卑鄙的数据经纪人打交道，试图删除我一个好朋友的信息，但他们不会这样做。无论我尝试什么。我感觉太糟糕了！我只想伸手穿过屏幕，打他们的脸。好吧，数据经纪人先生，这是我伸手穿过屏幕，打你的脸。享受 f*ck_data_brokers.py”",
-        "我从数据经纪人那里删除人们的数据。这是我主要的兼职工作之一，这是一次疯狂的旅程。",
-        "我想做的就是帮助人们。在人工智能的世界里，这几乎是不可能的。从我的角度来看，自 GPT-4 推出以来，数据经纪人的产量已提高了近 1000 倍。每个爬虫都变得更聪明，每个个人资料都变得更丰富，每个“人物搜索”网站都有一百个表兄弟。",
-        "然后我突然意识到：我没有一万亿美元。根据我的粗略估计，这就是正确且自动地为他们清理每个人的数据所需的计算成本。我无法为所有人做到这一点。"
-      ],
-      "originalContent": "\"Today was funny: I was dealing with some scumbag data broker this morning, trying to get a good friend of mine's information deleted, and they WOULDN'T do it. No matter what I tried. I felt so ugh! I just wanted to reach through the screen and punch them in the face. Well, Mr. Data Broker, here's me reaching through the screen and punching you in the face. Enjoy f*ck_data_brokers.py\"\n\nI remove people's data from data brokers. It is one of my main part-time jobs, and it has been a wild ride.\n\nAll I want to do is help people. In the world of AI that has become next to impossible. From where I sit, data brokers have ramped up production almost 1000x since GPT-4 came out. Every scraper got smarter, every profile got fatter, and every \"people search\" site got a hundred cousins.\n\nThen it hit me: I do not have a trillion dollars. By my rough estimate that is what it would cost in compute to clean up everyone's data for them, properly and automatically. I cannot do it for everyone.\n\nI am fed up with what everyone is put through. So here is my response:\n\nOne Python file. No dependencies. Free. It runs on your computer, keeps your details on your computer, and makes data brokers delete you.\n\nEvery star is one more person these companies have to answer. The more stars, the sooner they learn their lesson.\n\nIt costs you one click. It costs them a compliance department.\n\nThis tool is free and always will be. It is also work: 600 companies, their excuses, their forms, their silence, and then next month they collect you again.\n\nAgent Garrett is the service I built to do all of it for you. Set it and forget it(you can do it for free with this tool if you cannot afford the subscription!).",
-      "source": {
-        "name": "Show HN·独立开发者变现榜"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a0f9ae86065cd14d35a4a7ce7",
-        "original": "https://github.com/gary23w/f-ck_data_brokers"
-      },
-      "publishedAt": "2026-11-26T18:37:21.000Z",
-      "discoveredAt": "2026-11-27T00:49:04.198Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "产品更新",
-        "编码",
-        "教程/实践"
-      ],
-      "score": 98,
-      "selected": true,
-      "reason": "搞钱实战参考：拆解「显示 HN：Fuck_data_broker…」的产品定位、冷启动获客与商业变现闭环。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a0f9ae86065cd14d35a4a7ce7"
-      }
-    },
-    {
-      "id": "a73f62a2349d6e56bbea94af5",
-      "title": "【独立创造】有没有可以帮做网站的",
-      "originalTitle": null,
-      "summary": "V2EX·独立创造与副业变现一手报道：有没有可以帮做网站的。国内开发者独立产品创造、AI 工具出海收款与副业变现真实案例分享。",
-      "content": "V2EX·独立创造与副业变现一手报道：有没有可以帮做网站的。国内开发者独立产品创造、AI 工具出海收款与副业变现真实案例分享。\n\n搞钱实战参考：拆解「有没有可以帮做网站的」的产品定位、冷启动获客与商业变现闭环。",
-      "paragraphs": [
-        "V2EX·独立创造与副业变现一手报道：有没有可以帮做网站的。国内开发者独立产品创造、AI 工具出海收款与副业变现真实案例分享。",
-        "搞钱实战参考：拆解「有没有可以帮做网站的」的产品定位、冷启动获客与商业变现闭环。"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a73f62a2349d6e56bbea94af5",
-        "original": "https://www.v2ex.com/t/1260172#reply3"
-      },
-      "publishedAt": "2026-11-26T17:24:36.000Z",
-      "discoveredAt": "2026-11-27T00:49:01.511Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "教程/实践",
-        "编码",
-        "产品更新"
-      ],
-      "score": 95,
-      "selected": true,
-      "reason": "搞钱实战参考：拆解「有没有可以帮做网站的」的产品定位、冷启动获客与商业变现闭环。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a73f62a2349d6e56bbea94af5"
-      }
-    },
-    {
-      "id": "adc2f4602e1e483afa96f64c9",
-      "title": "【独立变现】显示 HN：SimDrop – 在 macOS Finder 侧边栏中运行 iOS 模拟器",
-      "originalTitle": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
-      "summary": "你好，HN，我为我自己的 iOS 模拟器工作流程制作了一个小型 macOS 实用程序。（来源：Show HN·独立开发者变现榜）",
-      "content": "你好，HN，我为我自己的 iOS 模拟器工作流程制作了一个小型 macOS 实用程序。\n\n我一直遇到两个烦恼：从模拟器中获取配置文件很笨重（深入 CoreSimulator UUID 文件夹或运行 simctl），并且在 iPhone Duo 模拟器上我什至无法将图像拖放到窗口上。\n\nSimDrop 将每个正在运行的 iOS 模拟器放在 Finder 的侧边栏（位于“位置”下）中，其中包含两个文件夹：\n\n- 下载/（文件应用程序 > 在我的 iPhone 上 > 下载） - 照片和视频/（模拟器的照片库）",
-      "paragraphs": [
-        "你好，HN，我为我自己的 iOS 模拟器工作流程制作了一个小型 macOS 实用程序。",
-        "我一直遇到两个烦恼：从模拟器中获取配置文件很笨重（深入 CoreSimulator UUID 文件夹或运行 simctl），并且在 iPhone Duo 模拟器上我什至无法将图像拖放到窗口上。",
-        "SimDrop 将每个正在运行的 iOS 模拟器放在 Finder 的侧边栏（位于“位置”下）中，其中包含两个文件夹：",
-        "- 下载/（文件应用程序 > 在我的 iPhone 上 > 下载） - 照片和视频/（模拟器的照片库）"
-      ],
-      "originalContent": "Hi HN, I made a small macOS utility for my own iOS simulator workflow.\n\nI kept running into two annoyances: getting config files in and out of a simulator is clunky (digging into CoreSimulator UUID folders or running simctl), and on the iPhone Duo simulator I couldn't even drag and drop images onto the window at all.\n\nSimDrop puts every running iOS simulator in Finder's sidebar (under Locations) with two folders:\n\n- Downloads/ (Files app > On My iPhone > Downloads) - Photos and Videos/ (the simulator's Photos library)\n\nSimulators appear when they boot and disappear when they shut down. Everything is also reachable from the terminal under ~/Library/CloudStorage/SimDrop-SimDrop/.\n\nA couple of caveats up front: - Dragging moves files by default (same as iCloud Drive, because it uses File Provider on the startup volume)—hold Option to copy. - macOS 15+ and iOS simulators only (not physical devices).\n\nIt's free, open source (GPL-3.0), signed and notarized, and installable via Homebrew:",
-      "source": {
-        "name": "Show HN·独立开发者变现榜"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/adc2f4602e1e483afa96f64c9",
-        "original": "https://github.com/rxliuli/sim-drop"
-      },
-      "publishedAt": "2026-11-26T16:51:38.000Z",
-      "discoveredAt": "2026-11-27T00:49:05.736Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "产品更新",
-        "编码",
-        "MCP/工具调用",
-        "教程/实践"
-      ],
-      "score": 98,
-      "selected": true,
-      "reason": "生产力范式转移：聚焦「显示 HN：SimDrop – 在 macO…」在智能体自主规划与工具链协同上的演进。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/adc2f4602e1e483afa96f64c9"
-      }
-    },
-    {
-      "id": "a66db313a85f3f5788897c00d",
-      "title": "【独立创造】写完文档，一键投递多自媒体平台，自动传图+生成小红书/抖音 3:4 卡片，欢迎佬给项目点点 star",
-      "originalTitle": null,
-      "summary": "佬友们好，分享一个自己从零写到开源发布的桌面端文档编辑器： Vmark（维记） 。 写技术总结、踩坑笔记或产品文档时，大家大概率都遇到过同一件事：文档写完了，往公众号、知乎、掘金、CSDN、博客园、百家号一粘贴， 图片外链直接裂开 、格式得重调；想同步发个小红书或抖音图文，还得另外找工具拼图、一个个切浏览器填文案。 所以我做了 Vmark ，把“平时专注写文档”和“写完直接推 10 个平台草稿箱”放到同一个桌面应用里： 1.",
-      "content": "佬友们好，分享一个自己从零写到开源发布的桌面端文档编辑器：Vmark（维记）。\n\n写技术总结、踩坑笔记或产品文档时，大家大概率都遇到过同一件事：文档写完了，往公众号、知乎、掘金、CSDN、博客园、百家号一粘贴，图片外链直接裂开、格式得重调；想同步发个小红书或抖音图文，还得另外找工具拼图、一个个切浏览器填文案。\n\n所以我做了 Vmark，把“平时专注写文档”和“写完直接推 10 个平台草稿箱”放到同一个桌面应用里：\n\n编辑 / 只读双模式：右上角一键切换只读阅读视图，阅读时点击文内图片支持放大、缩小、复位；\n\n输入手感：按 / 呼出命令菜单、Tab / Shift+Tab 支持表格跳格与列表缩进，原生支持 Mermaid 流程图、KaTeX 公式、GFM 表格与 Callout；\n\n24 套浅色 / 深色主题 + 自定义 CSS：外观灵感参考了社区多位作者的优秀设计并集成优化，内置登录窗口顶栏也会跟随软件浅/深色实时变色；\n\n工作区管理：支持切换目录、新建空白文章、批量删除旧文档、大纲直跳及系统文件管理器定位，也支持把平台旧文章拉回本地保存为 .md。\n\n自动上传转存，不改原文件：只在内存里读取本地 ./assets/ 与外部图片链接并转存至各平台图床，解决跨平台裂图，原始 .md 文件保持原样；\n\n通用信息填一次、平台专属各自管：标题、摘要、标签共用；公众号单独封面、掘金分类与社交卡片分开配置；未登录或少填项会直接高亮提醒且不卡住其他平台；\n\n小红书 & 抖音内置浏览器 3:4 视觉卡片：参考社区开源卡片项目的设计灵感，直接把正文分页渲染为 1080×1440 视觉卡片（不插多余封面卡），后台隔离窗口自动传图、填标题正文与话题、清掉联想浮层并存进草稿箱，最后人工点一下即可发布。",
-      "paragraphs": [
-        "佬友们好，分享一个自己从零写到开源发布的桌面端文档编辑器：Vmark（维记）。",
-        "写技术总结、踩坑笔记或产品文档时，大家大概率都遇到过同一件事：文档写完了，往公众号、知乎、掘金、CSDN、博客园、百家号一粘贴，图片外链直接裂开、格式得重调；想同步发个小红书或抖音图文，还得另外找工具拼图、一个个切浏览器填文案。",
-        "所以我做了 Vmark，把“平时专注写文档”和“写完直接推 10 个平台草稿箱”放到同一个桌面应用里：",
-        "编辑 / 只读双模式：右上角一键切换只读阅读视图，阅读时点击文内图片支持放大、缩小、复位；",
-        "输入手感：按 / 呼出命令菜单、Tab / Shift+Tab 支持表格跳格与列表缩进，原生支持 Mermaid 流程图、KaTeX 公式、GFM 表格与 Callout；",
-        "24 套浅色 / 深色主题 + 自定义 CSS：外观灵感参考了社区多位作者的优秀设计并集成优化，内置登录窗口顶栏也会跟随软件浅/深色实时变色；",
-        "工作区管理：支持切换目录、新建空白文章、批量删除旧文档、大纲直跳及系统文件管理器定位，也支持把平台旧文章拉回本地保存为 .md。",
-        "自动上传转存，不改原文件：只在内存里读取本地 ./assets/ 与外部图片链接并转存至各平台图床，解决跨平台裂图，原始 .md 文件保持原样；",
-        "通用信息填一次、平台专属各自管：标题、摘要、标签共用；公众号单独封面、掘金分类与社交卡片分开配置；未登录或少填项会直接高亮提醒且不卡住其他平台；",
-        "小红书 & 抖音内置浏览器 3:4 视觉卡片：参考社区开源卡片项目的设计灵感，直接把正文分页渲染为 1080×1440 视觉卡片（不插多余封面卡），后台隔离窗口自动传图、填标题正文与话题、清掉联想浮层并存进草稿箱，最后人工点一下即可发布。"
-      ],
-      "originalContent": null,
-      "source": {
-        "name": "V2EX·独立创造与副业变现"
-      },
-      "links": {
-        "aihot": "https://zenglian-news-79709693345.asia-east1.run.app/items/a66db313a85f3f5788897c00d",
-        "original": "https://www.v2ex.com/t/1260170#reply0"
-      },
-      "publishedAt": "2026-11-26T16:48:42.000Z",
-      "discoveredAt": "2026-11-27T00:49:01.512Z",
-      "category": "money",
-      "tags": [
-        "搞钱变现",
-        "教程/实践",
-        "编码",
-        "多模态",
-        "开源生态",
-        "模型发布",
-        "产品更新"
-      ],
-      "score": 95,
-      "selected": true,
-      "reason": "开源工程价值：「写完文档，一键投递多自媒体平台，自动传图+生…」技术方案与实测表现，可直接赋能开发者低成本落地。",
-      "attribution": {
-        "name": "曾练全球一手新闻",
-        "url": "https://zenglian-news-79709693345.asia-east1.run.app/items/a66db313a85f3f5788897c00d"
       }
     }
   ]
